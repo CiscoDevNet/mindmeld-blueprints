@@ -1,5 +1,5 @@
 Can I get the {krishnarpan bhojan|dish} from {Little Nepal|restaurant}?
-I'd like the {vegetable basmati rice|dish} with {papadum|dish} and {raita|dish}.
+I'd like the {vegetable basmati rice|dish} with {papadum|dish} and {raita|option}.
 I want the {meza appetizer plate|dish} and a {baklava|dish}.
 {Chorizo con huevos|dish} {without beans|option}
 I want to order the {truck stop burger|dish} with a side of {roasted kale|dish} and {fries|dish}
@@ -7,17 +7,17 @@ I feel like having {Mexican|cuisine} food today.
 I'd like a {spicy|option} {tofu tarkari|dish} and {two|quantity} {garlic naan|dish}.
 Could you add {two|quantity} {gulab jamuns|dish} to the order?
 Could you add {half a dozen|quantity} {sesame cookies|dish}?
-Add {guacamole|dish}
+Add {guacamole|option}
 Add an order of {onion rings|dish}
 Are there are any good {Italian|cuisine} restaurants nearby that do delivery?
 {Two|quantity} {chicken momos|dish}, a {khasi ra tulsi|dish}, an {aloo naan|dish} and {three|quantity} orders of {diet pepsi|dish}.
 Get me a {chicken tikka kabab|dish} with {two|quantity} {rotis|dish}.
 {Shawarma wrap|dish} with {pita bread|option}.
 A {crispy chimichanga|dish} on {tomato tortilla|option} with {carne asada|option}, {black beans|option}, {sour cream|option} and {cheese|option}
-Could you also add {ranch|dish} and {garlic mayo dipping sauce|dish}?
-I want {falafel|category}.
+Could you also add {ranch|option} and {garlic mayo dipping sauce|option}?
+I want {falafel|dish}.
 Could you add a {raita|dish} to my order?
-Can I get a {lamb curry|dish} with a side of {brown rice|dish} and {raita|dish}?
+Can I get a {lamb curry|dish} with a side of {brown rice|option} and {raita|option}?
 Get me a {saffron rice pudding|dish}.
 Can I get the {shrimp quesadilla|dish} with a side of {guac|option}?
 Get me the {firecracker|dish} with a {veggie patty|option} and a {lemon lime soda|dish}.
@@ -28,27 +28,27 @@ Can I get a {baklava|dish}, a {honey noughat|dish} and a {konafa|dish} for {dess
 {Mole Poblano|dish} with {sour cream|option}, {cheese|option} and {guacamole|option} from {Taqueria mana|restaurant}.
 I'd like the {hog heaven burger|dish} with {extra garlic mayo|option} and {fresh jalapenos|option} from {Tom's Belly Burgers|restaurant}.
 I would like to have {burger|dish} and {fries|dish}.
-Can I get the {jhinge tarkari|dish}, {a-la-carte|option} size?
+Can I get the {jhinge tarkari|dish}, a-la-carte size?
 Add a {shrimp basmati rice|dish}, an {onion naan|dish} and {three|quantity} {rotis|dish}. 
 A {mediterranean combo plate|dish} and a {kebab salad|dish} from {saffron 685|restaurant}.
 Add a {Pozole|dish} to my order.
 Can I get a {Banh burger|dish} in a {lettuce wrap|option} with a side of {secret sauce|option}?
 Where can I get {momos|dish} at this hour?
 I'd like the {Khasiko Pakuwa|dish} with a {butter naan|dish} and a {aloo naan|dish} from {Little Nepal|restaurant}.
-I'd also like one of each {chutney|dish} available from {Urban Curry|restaurant}.
+I'd also like one of each {chutney|option} available from {Urban Curry|restaurant}.
 I'd like the {Tabouleh|dish} with {feta cheese|option}, {dolmas|dish} and a {prawn kebab plate|dish} from {saffron 685|restaurant}.
 Get me the {mojado burrito|dish} with {carnitas|option}.
 I want a {Philly|dish}, a {hog heaven|dish} and a {gringo|dish}, all with {extra pepperjack cheese|option}.
 {Indian|cuisine} food.
-Can I also get some {mango chutney|dish} on the side?
-{Chicken Korma|dish} with {brown rice|dish} and {paneer makhani|dish} with {raita|dish}.
+Can I also get some {mango chutney|option} on the side?
+{Chicken Korma|dish} with {brown rice|option} and {paneer makhani|dish} with {raita|option}.
 Could you add the {green pepper dip|dish} to my order?
 I want {alambres|dish}, {fajitas|dish} and a {garden burger|dish} with {3|quantity} {mexican colas|dish}.
 Could you add {2|quantity} {coca colas|dish} to that order?
 Any recommendations for good {spanish|cuisine} cuisine?
 For {dessert|category}, I'd like the {sudha dahi|dish} and {aanpko ras|dish}.
 Can I have the {fish pakora|dish} and {aloo tikki|dish} for {appetizers|category}?
-{Fattoush Salad|dish} with {pita bread|option}, {Tzazekee|dish} and an plate of {Latkes|dish}.
+{Fattoush Salad|dish} with {pita bread|option}, {Tzazekee|dish} and a plate of {Latkes|dish}.
 Could you also add {pico de gallo|dish} and a {bag of chips|dish} to my order?
 The {all american|dish} with a side of {half and half|dish} from {big chef tom's burgers|restaurant}.
 I am craving for some {mediterranean|cuisine} food.
@@ -56,6 +56,40 @@ I want the {house special|dish} from {Urban curry|restaurant}.
 I'd like a {mana burger|dish} with {monterey jack|option} and a {california burger|dish} with {swiss cheese|option} from {taqueria mana|restaurant}
 Also add {super fries|dish} with {bacon|option} and {jalapenos|option}.
 I'd like some {south indian|cuisine} food.
-Where can I get {dosas|category}?
-I want to order a {pizza|category}.
+Where can I get {dosas|dish}?
+I want to order a {pizza|dish}.
 How about some {Chinese|cuisine} food tonight?
+do you have something {sweet|category}?
+{baked|option} {beef short ribs|dish} please
+what do you have for {dinner|category}
+something with {beef|category} and mushroom
+{ramen|dish} and something {sweet|category}
+show me some places for my {lunch|category}
+what's your most {popular|category} item
+dishes with {noodles|dish}
+what's on your {lunch|category} menu
+what {dim sum|dish} do you have
+{omusubi|dish}, {two|quantity} {tuna|dish} and {one|quantity} {cod|dish} with {miso soup|dish}
+i want some {Chinese|cuisine} foods or {Thai|cuisine} foods
+i feel like some {drinks|category} without spinach
+{one|quantity} {chicken wings|dish}, {two|quantity} {wonton chips|dish} with {rice|dish}
+what's today's {special|category}
+some {noodles|dish} for my {dinner|category} please
+what other {omusubi|dish} do you have
+restaurants for my date tonight
+{drinks|category} with pinapple and apple
+i would like the {seasonal greens|dish} with {pork belly|option} and {two|quantity} {eggs|option}
+{lunch|category} which are less than 15 dollars
+{Kung Pao Chicken|dish}, and please make it not that spicy
+what's the most pricy {omusubi|dish}
+can you recommend some {Japan|cuisine} restaurants which are highly reviewed but not that expensive
+my wife likes {matcha|dish}, do you have any?
+what's your most {popular|category} bowl
+anything {not spicy|option}
+{two|quantity} {shiu mai|dish} with {one|quantity} {fried rice|option}
+i want a {half ramen and omusubi|dish} pork
+most popular {ramen|dish} places
+{chinese|cuisine} restaurant with {dim sum|dish}
+what {Thai|cuisine} restaurents are available at this moment
+any suggestions for {brunch|category}?
+tell me some {chinese|cuisine} foods
