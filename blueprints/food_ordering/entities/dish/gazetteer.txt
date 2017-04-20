@@ -39,6 +39,9 @@
 2 Skewer Lamb Kabob
 2 Topping Pizza
 2 by 2 by 2
+2 egg breakfast combo
+2 egg breakfast with pancakes
+2 pepper thai beef
 20 oz Bottled Drinks
 20 oz Sodas
 20 oz. Soda
@@ -60,11 +63,14 @@
 3 Skewer Lamb Kabob
 3 Tacos
 3 Topping Pizza
+3 meat provolone hero
+3 meats with provolone sub
 3-Amigos
 31 pc. Chicken Wings
 33 Seafood Pajun
 36 Hour Porchetta
 3pcs. Pork or Chicken Tacos
+4 Cheese grilled cheese
 4 Chicken Pieces, Fries & Soda
 4 Chicken Pieces, Fries and Soda
 4 Chicken Pieces, Rice, Beans & Soda
@@ -74,6 +80,11 @@
 4 Chicken Tenders
 4 Pcs. Lamb Meatballs
 4 X-Large 18'' Pizza with 2 Toppings Special
+4 different salads of your choosing
+4 piece sate chicken
+4 salad combination plate - your choice
+4 salad supreme
+4 sticks of sate chicken
 4-Day "Renew Me" Pack
 41 Ra Myun
 42.Jabchae
@@ -89,6 +100,7 @@
 6 Piece Buffalo Wings
 6 Piece Chicken Wings
 6 oz. Cheeseburger
+6 piece wings and mao sauce
 6pcs Vegetarian or Pork and Shrimp Lumpia Shanghai
 6pk Can
 7 pc. Chicken Wings
@@ -196,7 +208,12 @@ Albacore Tuna Nicoise Salad
 Albacore Tuna Sandwich
 Albacore Tuna and Cucumber on Artisan Baguette
 Alesia
+Alfredo Pizza
+Alfredo Pizza Medium Classic
 Alfredo Prosciutto
+Alfredo Sauce Extra Sized Pizza
+Alfredo pizza
+Alfredo pizza.
 Ali Nazik
 Alkaline H2O
 All American
@@ -205,6 +222,7 @@ All Green Noodles
 All Meat Pizza
 All Meat Sandwich
 All Meat Special Pizza
+All natural, vegetarian cookies
 All'Amatriciana
 All-Italian Panini Sandwich
 Alla Marchigiana Mushrooms
@@ -212,6 +230,8 @@ Almond Beef Meatballs Farmers Market Lunchbox
 Almond Chicken
 Almond Croissant
 Almond Delight Smoothie
+Almond Meatballs
+Almond Meatballs with Parmesan and Brie Cheese
 Almond Parmesan Meatballs with Brie Cheese
 Alo Water
 Aloe Vera 17oz
@@ -220,6 +240,7 @@ Aloe Vera H2O
 Aloha Pizza
 Aloo Baigan
 Aloo Bengan
+Aloo Bombay
 Aloo Ghobi
 Aloo Gobhi
 Aloo Gobi
@@ -248,8 +269,13 @@ Amaebi
 Amaebi Nigiri
 Amaebi Nigiri Sushi
 Amaretto Cheese Cake
+American Burger
 American Kobe Beef Medallions
 American Pizza
+American Truck Burger
+American burger, extra granny smiths
+American chef salad
+American chicken burger, extra apples
 Americano
 Amici's BLT
 Amici's Combo
@@ -274,16 +300,25 @@ Antipasto Salad
 Ants on the Tree
 Appetizer Combination
 Appetizer Combo
+Appetizer plate with pomegranates, roasted peppers and walnut dip
+Appetizers platters
 Apple
+Apple & Chicken Salad
 Apple Beet Kombucha
+Apple Chicken Salad
 Apple Cider
 Apple Cider Pancakes
 Apple Cinnamon Pie
 Apple Gorgonzola Salad
 Apple Juice
 Apple Lemon Ginger Kombucha
+Apple Pork Deluxe
 Apple Salad
+Apple Salad with Chicken Breast
+Apple Walnut Salad with Chicken
 Apple and Pear Juice
+Apple and cheddar pork burger
+Apple bacon cheeseburger
 Apple, Celery and Beets Juice
 Apple, Lemon and Ginger Juice
 Apple, Lemon, Ginger, Cayenne
@@ -305,6 +340,8 @@ Arizona Iced tea
 Arles
 Army Soup
 Arnold Palmer
+Aromatic curry
+Aromatic king prawn curry
 Arrabbiate
 Arrowhead Water
 Arroz
@@ -318,8 +355,11 @@ Asaparagus Maki
 Asian Chicken Salad
 Asian Garlic Shrimp Rice Bowl
 Asian Ginger Chicken
+Asian Kung Pao
 Asian Salad
 Asian Sandwich
+Asian chicken salad
+Asian salad
 Asparagi salad
 Asparagus Beef
 Asparagus Chicken
@@ -337,6 +377,7 @@ Assorted Baklava
 Assorted Breads
 Assorted Fruit Bowl
 Assorted Fruit Cup
+Assorted Sampler with classic Mediterranean options and pita bread with an add-on of hummus
 Assorted Tandoori Kabab
 Assorted Tandoori Platter
 Assorted Vegetable Chicken Lunch Box
@@ -350,8 +391,12 @@ Athens Pizza
 Atlantic
 Atomic
 Au Lait
+Aubergines with beans and potatoes
+Aubergines with mild vegetable sauce
+Aubergines with mixed vegetables
 Aubrey Special
 Authentic Mapo Tofu
+Authentic Peking Duck
 Autumn Cobb
 Aux Anchoix Pizza
 Aveiro
@@ -424,6 +469,8 @@ BBQ Chicken over Fried Rice
 BBQ Combo
 BBQ Fries
 BBQ Grilled Chicken Sandwich
+BBQ Halal
+BBQ Halal Half
 BBQ Halal Half Chicken
 BBQ Lamb
 BBQ Pork
@@ -453,6 +500,7 @@ BBQ Short Ribs
 BBQ Shredded Chicken or Shredded Pork Sandwich
 BBQ Special
 BBQ Wings
+BBQ half chicken with veggies
 BBQ  Chicken  Fried  Rice
 BBQ  Short  Rib
 BCTBB Crispy Chicken Sando
@@ -461,6 +509,8 @@ BLT
 BLT & Zataar Egg Sandwich
 BLT Sandwich
 BLT and Zataar Egg Sandwich
+BLT with Turkey
+BLT with turkey and ham
 BLTA
 BLTA Sandwich
 BLVD
@@ -469,6 +519,7 @@ BLVD Pasta
 BLVD's Buttermilk Pancakes
 BTW
 Ba-Mee Moo Dang
+Baba Dish Ganoush
 Baba Ganoush
 Baba Ghannouj
 Baba Ghannoush
@@ -478,30 +529,46 @@ Babe
 Babloo & Chotu Salad
 Babloo and Chotu Salad
 Baby Burrito
+Baby Caesar
 Baby Clam Miso Hot Pot
 Baby Nachos
+Baby Romaine Caesar
 Baby Romaine Caesar Salad
 Baby Spinach Caprese
 Baby Spinach Salad
+Baby Thai Thai Thai
 Babylon
 Back Country Betty
 Backyard Garden
 Bacon
 Bacon & Jack Cheese Quesadilla
+Bacon American Burger
+Bacon BLT Sandwich
 Bacon Burger
 Bacon Burrito
 Bacon Cheese Burger
 Bacon Cheese Steak
 Bacon Cheeseburger
+Bacon Cheeseburger w/lettuce
 Bacon Chicken Cheese Steak Sandwich
 Bacon Egg and Cheese Sandwich
+Bacon Lettuce & Tomato Sandwich
+Bacon Sandwich
 Bacon Stuffed Waffle
 Bacon Wrap Hot Dog
 Bacon and Jack Cheese Quesadilla
 Bacon and Jalapeño Mac
+Bacon and lettuce tomato sandwich
+Bacon cheeseburger
+Bacon cheeseburger w/onions
+Bacon cheeseburger with apple
+Bacon lettuce tomato sandwich
+Bacon tomato and add lettuce
 Bacon, Egg, Cheddar
 Bacon, Ham Steak, or Link Sausage & Eggs Breakfast
 Bacon, Ham Steak, or Link Sausage and Eggs Breakfast
+Bacon, Tomato & Lettuce
+Bacon, turkey. ham hero with provolone
 Badami Chicken Chef Recommended
 Bag of BBQ Chips
 Bag of Chips
@@ -540,6 +607,7 @@ Baja 1000
 Baja Burrito
 Baja Chicken
 Baja Fish Taco
+Bak Lava
 Baked BBQ Pork Bun
 Baked Beans
 Baked Cheesecake
@@ -549,6 +617,7 @@ Baked Honey Glazed BBQ Pastr
 Baked Mac & Cheese with Buttered Breadcrumbs
 Baked Mac and Cheese with Buttered Breadcrumbs
 Baked Mussels
+Baked Naan
 Baked Oyster
 Baked Penne
 Baked Penne Parmigiana with Eggplant
@@ -558,14 +627,18 @@ Baked Rigatoni
 Baked Roast Chicken Bao
 Baked Salmon Green Goddess Salad
 Baked Ziti
+Baked spice fish
 Baklava
 Baklava 1 Pc
+Baklava Pastry
+Balsamic Dressed Falafel Salad
 Banana
 Banana Acai Smoothie
 Banana Blast
 Banana Foster
 Banana Hot Cake "n" Three Berry Sauce
 Banana Nutella Crepe
+Banana Strawberry French Toast
 Banana Streusel
 Banana Walnut Pancakes
 Banana, Honey Granola & Natural Yogurt
@@ -573,19 +646,28 @@ Banana, Honey Granola and Natural Yogurt
 Bananas
 Bananas Foster French Toast
 Bananas and Cream Smoothie
+Bananas and strawberries with French toast topped with whipped cream
 Bandit Burger
+Bang Bang Chicken
 Bang Bang Chicken Bucket
 Bang Bang Chicken Wings
+Bang Chicken
+Bang wings
+Bangin Wings
+Banging Chicken Wings
 Bangkok Chicken Wings
 Bangkok Garden Salad
 Bangkok Garden's Red Ocean
 Bangkok Garden's Salad Deluxe
 Bangkok Garden's Wing
 Bangkok Veggie Duck
+Bangy Chicken Wings
 Banh Baby, Banh Burger
 Baqlawah
 Bar-B-Q Jerk Steak
+Bar-B-Za
 Barbados Burrito
+Barbecue Chicken Halal
 Barbecued Chicken Pizza
 Barbecued Ribs
 Barbeque Pork Fried Rice
@@ -600,18 +682,25 @@ Basic Breakfast
 Basic Cheese Omelette
 Basic Crepe
 Basil Basil Prawns
+Basil Brie Sandwich
 Basil Chicken
 Basil Chicken Fried Rice
 Basil Chicken or Beef Lunch Box
+Basil Chili Veggies on White Rice
 Basil Eggplant
 Basil Eggplant with Chicken and Prawns
 Basil Eggplant with Prawns and Scallops
 Basil Fried Rice
 Basil Fried Rice with Crispy Pork Shoulder
+Basil Fry
 Basil Lamb
 Basil Meatless Chicken
+Basil Prawn Basil
 Basil Salmon
 Basil Tofu
+Basil Veggies with Chili Sauce over White Rice
+Basil chili green beans and peppers
+Basil shrimp with chicken stir fry.
 Basil  Frog
 Basket of Fries
 Basmati Rice
@@ -627,6 +716,7 @@ Bay Shrimp Salad
 Bay of Pigs
 Baya-Kyaw
 Baya-Kyaw Salad
+Beach shrimp
 Bean
 Bean & Cheese Burrito
 Bean & Cheese Taco
@@ -690,12 +780,17 @@ Beef Stew with Tofu
 Beef Super-Dog
 Beef Teriyaki
 Beef Teriyaki, Gyoza and Vegetable Tempura Lunch Box
+Beef Tiger Dish
 Beef Wrap
 Beef and Bean Vermicelli in Clay Pot
 Beef and Potato Pie
 Beef of Prawns Chow Fun Chow Mai Fun
 Beef on the Sticks
 Beef or Lamb with Curry Sauce
+Beef rib braised
+Beef rib dish.
+Beef ribs.
+Beef short rib with greens
 Beef with Asparagus
 Beef with Bean Curd
 Beef with Bean Sprout
@@ -728,7 +823,12 @@ Beer's Best Friend
 Beer-Battered Onion Rings
 Beet
 Beet Lemon Kombucha
+Beetroot
+Beetroot dish
+Beetroot roast dip
+Beetroot with dip
 Beijing Beef Pancake
+Beijing Duck w/Mao sauce
 Beijing Eggplant
 Beijing Knife Cut Noodles
 Beijing Noodles with Special Sauce
@@ -740,6 +840,7 @@ Beijing Style Noodles with Brown Paste
 Beijing Style Sausage
 Beijing Vegetable Pie
 Beijing Yogurt
+Beijing duck
 Belgain Waffle
 Belgian Waffle
 Belgian Waffles
@@ -751,6 +852,7 @@ Bellissimo's Special
 Belly Pork Ramen
 Belvedere
 Ben's Volcano Burger
+Benedict Style Eggs
 Bengan Bartha
 Bengan Bharta
 Bengan Bhartaa
@@ -787,9 +889,12 @@ Big Kabuna
 Big Meat Combo
 Big Roti Sandwich
 Big Salad
+Big Truck Burger
 Big Tuna
 Big Wednesday
 Big Wednesday Calzone
+Big bang burger
+Big fies with different mayos
 Bihari Beef Kabab
 Bikini Shrimp
 Bindi Masala
@@ -801,6 +906,7 @@ Biscuits and Gravy with Fried Chicken
 Bisi Bele Bhath
 Bison Meatloaf
 Bisteck Tampequeña
+Bite Biryani Spice
 Bitter Melon with Black Bean Sauce
 Biónico
 Black Bean & Grilled Corn Taco Salad
@@ -822,12 +928,16 @@ Black Pepper with Beef Crispy Noodle
 Black Pepper with Short Rib
 Black Sweet Rice with Mango
 Blacked Salmon Ceasar
+Blacked Salmon salad
 Blackened Catfish
 Blackened Salmon Bowl
+Blackened Salmon Caeser Salad
+Blackened Salmon Ceasar Salad
 Blackened Snapper
 Blackstone
 Blazing Oyster
 Blended Iced Mocha
+Bleu cheese thai chicken
 Blood Cleanse
 Blue Bottle Vietnamese Coffee
 Blue Cheese
@@ -843,6 +953,13 @@ Blueberry Mango Smoothie
 Blueberry Roti
 Blueberry, Granola & Natural Yogurt
 Blueberry, Granola and Natural Yogurt
+Boar Lo Mein with Chairman Mao Sauce
+Boar Mushroom Noodles
+Boar Noodles
+Boar Noodles Cut
+Boar noodles
+Boar sprout Noodles
+Boar with noodles and Chairman Mao Sauce
 Boars Head
 Boat Noodle Bowl
 Boat Noodle Soup
@@ -852,14 +969,17 @@ Boiled Edamame
 Boiled Lamb or Beef with Preserved Vegetable in Warm Pot
 Boiled Meat Ball with Preserved Vegetable in Warm Pot
 Boiled Pork
+Boiled Rice
 Boiled Seafood and Vegetable in Warm Pot
 Bolivian-Style Portopancho
 Bolognese
 Bomb Roll
 Bombay Chicken
 Bombay Pakora
+Bombay potatoes
 Boneless
 Boneless Wings
+Boneless roasted duck in honey sauce
 Boneless wings
 Borek Spanakopita
 Bormah
@@ -883,6 +1003,7 @@ Bottled Water
 Bottles
 Bounciful Hair
 Bourbon Caramel Sauce
+Bowl of Noodle Salad
 Bowl of Oatmeal
 Bowls
 Boylan Cane Cola
@@ -902,6 +1023,8 @@ Braised Pork Feet
 Braised Pork Knuckle
 Braised Tofu & Broccoli in Clay Pot
 Braised Tofu and Broccoli in Clay Pot
+Braised beef rib
+Braised ribs
 Brancusi
 Brandy's Dinner
 Brandy's Fish Fillets
@@ -910,12 +1033,20 @@ Brazilian Coffee
 Brazilian Juice
 Bread & Butter
 Bread Basket
+Bread Twists with ranch on the side
 Bread and Butter
+Bread and dip
+Bread with peppers and tomatoes
+Bread with veggies
 Breakfast
 Breakfast Burrito
 Breakfast Club
 Breakfast Vegetarian Griddle Cake
+Breakfast eggs with tortillas
 Brewed Coffee
+Brie Sandwich
+Brie on Baguette
+Brie, Tomato & Basil
 Brie, Tomato & Basil on Artisan Baguette
 Brie, Tomato and Basil on Artisan Baguette
 Brioche
@@ -958,6 +1089,7 @@ Buffalo Pizza
 Buffalo Ranch
 Buffalo Sauce
 Buffalo Wings
+Buffalo wings
 Build Your Own Salad
 Build Your Own Sandwich
 Build your Own
@@ -979,6 +1111,16 @@ Bundaberg Guava Soda
 Bundaberg Peach Soda
 Bunty Burrito
 Burger
+Burger Classic
+Burger Original
+Burger Truck Stop
+Burger and fries
+Burger of America
+Burger w/cojita cheese & mayo
+Burger with Serrano lemon jam
+Burger with apple and bacon
+Burger with everything
+Burger with extra slaw on it.
 Burmese Falafel Salad
 Burmese Samosas
 Burning Fire Spicy Chicken
@@ -995,7 +1137,9 @@ Butter Fish
 Butter Lamb
 Butter Naan
 Butter Panner
+Butter Prawns
 Butter and Jam
+Butter cookies
 Buttermilk
 Buttermilk Fried Chicken & Waffles
 Buttermilk Fried Chicken Plate
@@ -1004,6 +1148,7 @@ Buttermilk Fried Chicken and Waffles
 Buttermilk Hotcakes
 Buttermilk House Salad
 Buttermilk Pancakes
+Buttery apple cheeseburger
 C-Mo: Mo
 C. Chicken Teriyaki, Gyoza, Tempura – Lunch
 C1. Regular Combo
@@ -1050,14 +1195,18 @@ C9. Sake ClamSoup
 CA Real Crab Roll
 CJ Spinach Tofu with Assorted Seafood in Clay Pot
 CJ Spinach Tofu with Fresh Crab Meat
+Cabbage Braised Pork
 Cabbage Salad
 Cacik with Pita
 Cadillac Platter for 2
 Caesar
 Caesar Dressing
+Caesar Romaine Salad
 Caesar Salad
+Caesar Salad with Baby Romaine
 Caesar Salad with Chicken
 Caesar salad
+Caesar salad with cheese & almonds
 Caesar with Grilled Chicken salad
 Cafe Americano
 Cafe Au Lait
@@ -1078,6 +1227,8 @@ Calamari Fettuccine
 Calamari Fritti
 Calamari Salad
 Calamari Spaghetti
+Calamari but with Prawn
+Calamari substituted with Prawn
 Calamari with Black Bean Sauce
 Cali-Pastrami
 California
@@ -1122,7 +1273,9 @@ Campechano Cocktail
 Can Canada Dry
 Can Coca Cola
 Can Diet Coca Cola
+Can I have the Kabab plate in Gluten free?
 Can Soda
+Can my Thai basil plate go easy on the spice?
 Can of Soda
 Canada Dry
 Canadian Bacon
@@ -1179,12 +1332,15 @@ Carrot Halwa
 Carrot Juice
 Carrot and Beet Juice
 Carrot and Orange Juice
+Carrot dip and pita
 Casa Sanchez Guacamole
 Casa Sanchez Salsa
 Casa Sanchez Tortilla
 Case of 12 Live Food Organic Kale Chips
 Cashew Chicken
 Cashew Chicken Lunch Box
+Cashew Himma
+Cashew Himmaparn
 Cashew Nut
 Cashew Nut A La Carte
 Cashew Nut Chicken or with Breaded Prawns
@@ -1192,15 +1348,20 @@ Cashew Nut Over Rice
 Cashew Nuts
 Cashew Shrimp
 Cashew Tofu
+Cashew and chicken
+Cashew and chicken with peppers
+Cashew with peppers and carrots
 Cassat
 Castro
 Cat Fish
+Catalina club
 Catepill Roll
 Caterpillar
 Caterpillar Roll
 Catfish with Eggplant
 Cauliflower
 Ceasar
+Ceasar Salad with Salmon
 Cebollitas
 Celery & Carrot Sticks
 Celery and Carrot Sticks
@@ -1216,6 +1377,7 @@ Chai Banana Smoothie
 Chai Latte
 Chai Mocha
 Chairman Mao Sauce
+Chairman Mao sauced Boar and Bean Sprouts
 Chairman Mao’s Chicken
 Chan Pad Poo
 Chana Aloo
@@ -1250,6 +1412,7 @@ Cheddar Biscuits
 Cheddar Brat
 Cheese
 Cheese & Charcuterie
+Cheese & Kale Quiche
 Cheese Age
 Cheese Burger
 Cheese Cake
@@ -1272,40 +1435,62 @@ Cheese Quesadilla
 Cheese Ravioli with Marinara
 Cheese Ravioli with Pesto
 Cheese Sampler
+Cheese Sandwich
+Cheese Sandwich Steak
 Cheese Steak
 Cheese Steak Hoagie
 Cheese Tortellini
 Cheese Totillini
+Cheese Twists with ranch
 Cheese and Charcuterie
 Cheese and Salsa
+Cheese and apple burger
+Cheese and chilli curry
+Cheese fries with onions and special sauce
+Cheese pizza with alfredo sauce
+Cheese pizza with roasted red peppers
 Cheeseburger
 Cheeseburger with Egg
+Cheeseburger with hot mayo
+Cheeseburger with slaw and lemon jam
 Cheesecake
 Cheesecakes
+Cheesey pizza
 Cheesy Bread Florentine
 Cheesy Grits
 Cheesy Half-Pounder Burger
 Cheesy Sausage Muffin
+Cheesy Sausage and Mushroom Pizza
+Cheesy Steak
 Cheesy Stone Milled Grits from South Carolina's Anson Mills
+Cheesy alfredo pizza
+Cheesy burger
+Cheesy meatball
+Cheesy pepperoni pizza.
 Cheetos
 Chef Salad
 Chef Sampler
 Chef Special Chicken Wing
 Chef Special Combo
 Chef's Salad
+Chef's Zesty Biryani
 Chefz Gravity Grab
 Chef’s Famous Basil Mushroom
 Chennai Chicken
 Cherry Blossom
 Cherry Blossom Roll
 Chhayau Tarkari
+Chic lamb mix.
 Chic-O-Roni
 Chicago Style
 Chicharon
 Chichen Tikka Kabab
 Chick Pea
+Chick Pow
+Chick Wings Bang
 Chick and Chips
 Chicken
+Chicken & Apple Salad
 Chicken & Avocado Salad
 Chicken & Sausage Ziti
 Chicken & Seafood Gumbo
@@ -1323,6 +1508,8 @@ Chicken BBQ Hot Sandwich
 Chicken BBQ Pizza
 Chicken BLT
 Chicken Bacon Cheddar Sandwich
+Chicken Bang Bang Wings
+Chicken Bang Wings
 Chicken Basmati Rice
 Chicken Beli BLT
 Chicken Bhuna
@@ -1403,11 +1590,13 @@ Chicken Karahi
 Chicken Katsu
 Chicken Kebab
 Chicken Kebab Plate
+Chicken Kebabed
 Chicken Kebat
 Chicken Keema Naan
 Chicken Kofta
 Chicken Korma
 Chicken Korma Curry
+Chicken Kung Pao
 Chicken Lachha
 Chicken Leg
 Chicken Leg Tandoori
@@ -1440,6 +1629,7 @@ Chicken Panchos
 Chicken Panini
 Chicken Pappardelle
 Chicken Paratha
+Chicken Parm toasted
 Chicken Parmesan
 Chicken Parmesan Panini
 Chicken Parmigiana
@@ -1477,7 +1667,9 @@ Chicken Saltimbocca
 Chicken Samba Bowl
 Chicken Samosas
 Chicken Sandwich
+Chicken Sandwich Tuscan Style
 Chicken Satay
+Chicken Sate
 Chicken Sausage
 Chicken Seekh Kabab
 Chicken Shawafel
@@ -1494,9 +1686,11 @@ Chicken Skewers
 Chicken Soup
 Chicken Special
 Chicken Spicy
+Chicken Spicy and Steamed
 Chicken Strip Hot Sandwich
 Chicken Strips
 Chicken Strips with Fries
+Chicken Style Kung Pao
 Chicken Tandoori
 Chicken Tender Sandwich
 Chicken Tenders
@@ -1508,6 +1702,7 @@ Chicken Teriyaki Sandwich
 Chicken Teriyaki and California Roll
 Chicken Teriyaki, Beef Teriyaki and Vegetable Tempura Lunch Box
 Chicken Teriyaki, Gyoza and Vegetable Tempura Lunch Box
+Chicken Thong
 Chicken Thukpa
 Chicken Tikka
 Chicken Tikka Kabab
@@ -1517,21 +1712,40 @@ Chicken Tikka Masala
 Chicken Tikka Masala Curry
 Chicken Tikka Naan
 Chicken Tikka Saag Curry
+Chicken Tofu Dish
+Chicken Tofu Sate
+Chicken Tofu or Sate
 Chicken Tostada
+Chicken Tostada Salad
 Chicken Vegetable Deluxe
 Chicken Vindaloo
 Chicken Vindaloo Curry
 Chicken Wing Basket
 Chicken Wings
+Chicken Wings Bang Bang
 Chicken Wrap
 Chicken Zone Pizza
+Chicken alfredo pizza
+Chicken and Apple Gorgonzola Salad
 Chicken and Avocado Salad
 Chicken and Corn Soup
+Chicken and Lamb Plate Gluten Free
+Chicken and Lamb Platter
 Chicken and Potato Pie
 Chicken and Sausage Ziti
 Chicken and Seafood Gumbo
+Chicken and Seafood topped with nuts, egg and some other stuff.
 Chicken and Shrimp
 Chicken and Waffle
+Chicken and corn rolls
+Chicken and veggies
+Chicken bacon sandwich
+Chicken burger with extra apples
+Chicken in creamy sauce
+Chicken in mild creamy sauce
+Chicken in mild fruity sauce
+Chicken on Ciabatta Gourmet Sandwich
+Chicken on my tom soup
 Chicken or BBQ Chow Fun Chow Mai Fun
 Chicken or BBQ Pork or Vegetables
 Chicken or Pork Katsu & California Roll
@@ -1540,6 +1754,20 @@ Chicken or Steak Ganachega
 Chicken or Steak Quesadilla
 Chicken or Steak Tacos
 Chicken or Tuna Salad
+Chicken pepper Pad king
+Chicken pumpkin curry
+Chicken sandwich and aioli
+Chicken sandwich with bacon
+Chicken shrimp
+Chicken shrimp stir fry
+Chicken stir fry and rice, spicy or not spicy
+Chicken thong
+Chicken tomato dish
+Chicken veggie combo
+Chicken wings
+Chicken wings served with green beans and onions
+Chicken wings with a side of spicy green beans
+Chicken wings with green beans
 Chicken with Apple and Mint Sandwich
 Chicken with Asparagus
 Chicken with Bean Sprouts
@@ -1565,18 +1793,26 @@ Chicken with Snow Peas
 Chicken with Spicy Garlic Sauce
 Chicken with String Beans over Rice
 Chicken with Strong Beans
+Chicken with Tandoori
 Chicken with Vegetable
+Chicken with peanuts and a side of green beans
+Chicken with pork stew
 Chicken  Noodle  Soup
 Chicken  Satay
 Chicken ‘N’ Waffles
+Chicken, tomato sauce and mozzarella toasted sandwich
 Chicken-Bacon
 Chicken-Do-Piyaza
+Chicken. green beans stir fry and fry rice
+Chickpea dip
+Chickpea dip and extra pita
 Chicksadilla
 Chilaquiles
 Chile Relleno
 Chile Relleno Plate
 Chile Relleno Plato
 Chile Relleno a la carte
+Chile and peanut chicken
 Chile con Queso
 Chili
 Chili Bowl
@@ -1590,14 +1826,19 @@ Chili Dog
 Chili Fries
 Chili Garlic Cheese Fries
 Chili Garlic Sauce
+Chili Himma
 Chili Nan
 Chili Omelette
 Chili Paneer
 Chili Pepper Prawns
 Chili Potato
 Chili Roll
+Chili mayo burger
+Chili onion rings.
+Chili paste with green beans and peppers
 Chilled Broccoli
 Chilli Naan
+Chilli burger
 Chilly Chicken
 Chimichuri Steak
 China Cola
@@ -1608,10 +1849,14 @@ Chinese Broccoli with Oyster Sauce
 Chinese Broccoli with Szechuan Sauce
 Chinese Chicken Salad
 Chinese Chives and Shrimp Dumpling
+Chinese Crispy Skin Duck
 Chinese Donut
 Chinese Green with Prawns
 Chinese Green with Tofu Soup
 Chinese Greens with Oyster Sauce
+Chinese vegetarian curry
+Chipotle Chicken Salad
+Chipotle Tuna Melt Sandwich
 Chips
 Chips & Salsa
 Chips and Salsa
@@ -1626,7 +1871,10 @@ Chocolate Blueberry Smoothie
 Chocolate Cake
 Chocolate Chai Smoothie
 Chocolate Chip Cannoli
+Chocolate Chip Cookie Vegan Style
+Chocolate Chip Cookie for vegans
 Chocolate Chip Cookies
+Chocolate Chunk Cookies
 Chocolate Covered Bacon
 Chocolate Croissant
 Chocolate Duet Slab Cake
@@ -1635,8 +1883,12 @@ Chocolate Fudge Pecan Brownie
 Chocolate Milk
 Chocolate Mousse
 Chocolate Mousse Cake
+Chocolate Mousse that is Gluten Free
+Chocolate Slurry
 Chocolate Strawberry Smoothie
+Chocolate dessert
 Choice of 3 items. Served with rice, salad and soup
+Choice of 4 salads
 Choice of All-Grain Bread and small salad with Chocolate Chip Cookies or Potato Chips
 Choice of Baguettes and small salad with Chocolate Chip Cookies Or Potato Chips
 Cholay
@@ -1697,16 +1949,23 @@ Clam Chowder Bread Bowl
 Clam and Wild Crab Chowder Soup
 Clams Heaven
 Classic
+Classic American burger
 Classic BLT
 Classic BLT Sandwich
 Classic Burger
+Classic Burger topped with Extra Cotija
+Classic Burger with Extra Cotija Topping
 Classic Cesar
 Classic Cheese
+Classic Cheese Lovers covered with Alfredo Sauce
 Classic Corned Beef on Artisan Baguette
 Classic Dog
+Classic Eggs Benedict
 Classic Mac-n-cheese
 Classic Margherita
 Classic Pad Thai
+Classic Pepperoni Pizza
+Classic Platter with assortment of sides and pita bread and hummus add-on
 Classic Poutine
 Classic Sea Salt Fries
 Classic Tomato Soup
@@ -1724,6 +1983,8 @@ Clear Mussel Soup
 Club
 Club Carve
 Club House Sandwich
+Club Sandwich
+Club sandwich
 Clubhouse
 Cobb
 Cobb Salad
@@ -1747,7 +2008,9 @@ Coconut H2O
 Coconut Juice
 Coconut Kombucha
 Coconut Lamb Curry
+Coconut Mushroom soup
 Coconut Paneer Curry
+Coconut Prawns
 Coconut Rice
 Coconut Shrimp
 Coconut Shrimp Curry
@@ -1756,18 +2019,26 @@ Coconut Water
 Cod Fillet with Black Bean Sauce
 Coffee
 Coffee Beans
+Cojita Cheeseburger & spicy mayo
+Cojita Cheeseburger w/chili pepper
+Cojita cheeseburger
 Coke
 Coke Products
 Coke Zero
 Col Rizada
+Cola Braised Pork
 Cold Cut Roast Beef
 Cold Herbal Ice Tea
+Cold Mediterranean tapas
 Cold Milk
 Cold Noodle Salad
 Cold Spicy Beef Tripe
 Cold Tea
 Cold Tofu
 Cold Tofu Salad
+Cold lamb salad
+Cold spicy yogurt condiment
+Cold yogurt and minty cucumber
 Cold-Brewed Coffee
 Cole Slaw
 Cole de Bruselas
@@ -1804,6 +2075,7 @@ Combo 8
 Combo Appetizer
 Combo Chow Mein
 Combo Dim Sum
+Combo Falafel
 Combo Fishballs Noodles
 Combo Fried Rice
 Combo Italiano sandwich
@@ -1813,6 +2085,7 @@ Combo Sandwich
 Combo Shawarma Plate
 Combo Shish Kebab Plate
 Combo of any of the two
+Combo rice and barley with wolfberries with Chairman Mao Sauce
 Combo4
 Common Sage Miso-Ramen
 Con Gamberi
@@ -1820,6 +2093,7 @@ Con Pollo e Melanzane
 Congee
 Congri
 Cookie
+Cookie with chocolate pieces
 Cookies
 Cookies Cheesecake
 Coppa sandwich
@@ -1836,11 +2110,18 @@ Cornbread
 Corncake Special
 Corned Beef
 Corned Beef Hash
+Corned Beef Hash Breakfast
+Corned Beef Hash and Eggs
 Corned Beef Reuben
+Corned beef and eggs
+Corned beef hash plate
 Cornflake Crunch
 Cortland's Special Pizza
 Costelinha de Porco
 Costillas de Cerdo
+Cotija Cheeseburger with relish and hot mayo.
+Cotija cheese burger
+Cottage cheese and spices
 Country Breakfast
 Country Fried Steak
 Country Fried Steak and Eggs
@@ -1869,6 +2150,12 @@ Cream Soda
 Creamy Berries Valencia
 Creamy Cheesecake
 Creamy Mushrooms and Swiss
+Creamy chickpea dip
+Creamy eggplant dip
+Creamy garlic dip
+Creamy lamb curry
+Creamy spiced lamb curry
+Creamy yellow tofu curry
 Create Yor Own
 Create Your Own Huge 18" Classic Cheese
 Create Your Own Indee 8" Classic Cheese
@@ -1876,11 +2163,14 @@ Create Your Own Large 14" Classic Cheese
 Create Your Own Medium 12" Classic Cheese
 Create Your Own Pasta
 Create Your Own X-Large 16" Classic Cheese
+Creative pizza
 Creme Brulee Latte
 Crimson Soda
 Crisp Buttermilk Waffle
+Crisp Red Onions
 Crispy
 Crispy Bean curd Skin with Shrimp
+Crispy Beijing Duck
 Crispy Buffalo Chicken
 Crispy Calamari
 Crispy Calamari with Cashew Nuts
@@ -1906,6 +2196,7 @@ Crispy Roast Half-Chicken
 Crispy Roti
 Crispy Spicy Tuna Roll
 Crispy Spring Rolls
+Crispy Temp
 Crispy Tempeh
 Crispy Tofu
 Crispy Tofu Salad
@@ -1927,6 +2218,8 @@ Crunchy Granola
 Crunchy Shrimp Tempura Roll
 Crunchy Spicy Tuna Roll
 Crunchy Veggie Roll
+Crunchy onions.
+Crying Beef Tiger
 Crying Tiger
 Crystal Geyser Mineral Water
 Crystal Geyser Sparkling Mineral
@@ -1943,6 +2236,7 @@ Cucumber Maki
 Cucumber Salad
 Cucumber Salad Beijing Style
 Cucumber and Avocado
+Cucumber and mint yogurt condiment
 Cucumber  Salad
 Cumin Beef
 Cumin Lamb
@@ -1968,13 +2262,32 @@ Curry Chicken
 Curry Chicken Lunch Box
 Curry Chicken Shrimp Fried Rice
 Curry Don
+Curry Gold
+Curry Light
 Curry Meatless Chicken
+Curry Panang Rice
+Curry Potato
+Curry Pumpkin Dish
+Curry Red Dish
+Curry Red Mix
+Curry Rice
 Curry Sauce
 Curry Seafood Bowl
+Curry Soup
 Curry Udon
+Curry Yellow
+Curry fried rice with prawns
+Curry la Carte Pumpkin
+Curry served in sizzling metal dish
+Curry soup
+Curry with Tofu
+Curry with peppers/tomatoes served in sizzling dish
+Curry with potatoes, carrots, onions, and coconut milkwith steamed jasmine rice
+Curry with pumpkin
 Curry-Osity
 Currywurst
 Custard Pudding
+Cut Boar Noodles
 D'orsay
 D. Beef Teriyaki, Gyoza, Tempura – Lunch
 D1) Mediterranean French Toast
@@ -2040,6 +2353,9 @@ Deep Fried Scallops
 Deep Fried Spareribs
 Deep Fried Tofu
 Deep Fried Wonton
+Deep fried chicken in a pastry parcel
+Deep fried chicken in pastry
+Deep fried chicken pastry parcel
 Deep-fried Ravioli with Dipping Sauce
 Degas
 Deli Sandwiches
@@ -2047,15 +2363,18 @@ Delphi
 Deluxe Burger
 Deluxe Cheese Omelette
 Deluxe Combo
+Deluxe Strips
 Deluxe Sushi
 Denver
 Denver Cheese Omelette
 Depth Charge
 Desi Hot Sauce
+Dessert Baklava
 Dessert Pizza 12"
 Deviled Egg Salad Sandwich
 Dharma
 Diablo Burger
+Diablo Tuna Melt Sandwich
 Diablo Verde Burger
 Diced Beef with Teriyaki Sauce
 Dicked Chicken with Cashew Nut
@@ -2117,6 +2436,7 @@ Double Special, Two Medium Pizza 14'' with 2 Toppings
 Double Spicy Tuna Roll
 Double Tuna Roll
 Double Turkey Burger
+Double decker sandwich with ham, bacon, turkey, lettuce, tomato, and mayo
 Down Under Fish Burger
 Dozen Egg Omelet
 Dozen Eggs
@@ -2147,13 +2467,20 @@ Duck Fat Tater Tots
 Duck Fried Rice
 Duck Fried Tater Tots
 Duck Noodle Soup
+Duck Roast
 Duck Sausage on a French Roll
+Duck and chicken with honey sauce
+Duck and honey sauce served with chicken
+Duck with buns
+Duck with hoisin sauce
+Duck with vegetables with chicken and honey sauce
 Duk Bok Ki
 Dumplings Chicken
 Dumplings Pork
 Dumplings with Szechuan Sauce
 Dundy
 Dynamite
+Dynamite Burger
 Dynamite Roll
 Dynamite Tangra Wings
 E-Saan Duck Salad
@@ -2222,6 +2549,9 @@ Egg and Bacon
 Egg and Bacon Sandwich on Croissant, Gruyere Cheese, Lettuce, Tomato, Pan Roasted Potatoes and Organic Garden Mix
 Egg and Cheese Sandwich
 Egg and Chorizo Burrito
+Egg and pancake breakface
+Egg pie with peppers and tomatoes
+Egg platter
 Eggless Tofu Scramble
 Eggplant
 Eggplant Parmigiana
@@ -2233,7 +2563,11 @@ Eggplant Shrimp
 Eggplant Tofu
 Eggplant and Shrimp
 Eggplant and Tofu
+Eggplant bamboo soup with red curry
+Eggplant curry soup
+Eggplant dish
 Eggplant in Spicy Garlic Sauce
+Eggplant lentil
 Eggplant with Brown Sauce
 Eggplant with Fried Tofu
 Eggplant with Garlic Sauce
@@ -2245,7 +2579,9 @@ Eggs Benedict
 Eggs Benedict, House Roasted Potatoes and Tossed Lettuces
 Eggs Benedicts
 Eggs Florentine
+Eggs Ranchero Style
 Eggs Vincent
+Eggs with tortillas and beans
 Eggs, Sausage and Potato Pie
 Eggs, Veggies and Cheese Vegetarian Pie
 El Greco
@@ -2269,6 +2605,7 @@ Endless Summer
 Endless Summer Calzone
 Energy Drinks
 English Muffin
+English muffin topped with eggs, ham, and hollandaise sauce and a side of shredded potatoes
 Enlightenment Burger
 Enroladinho
 Ensalada Caesar
@@ -2281,8 +2618,11 @@ Espresso
 Everest
 Every Green
 Every Green Roll
+Evian
 Evian Still Water
 Evian Water
+Ew Pad See
+Ew See
 Express Special Pizza
 Expresso
 Extra Blue Cheese Dressing
@@ -2291,6 +2631,7 @@ Extra Feta Cheese
 Extra Hot Sauce
 Extra Hummus
 Extra Italian Dressing
+Extra Large Alfredo Pizza
 Extra Large Homemade Chicken Soup
 Extra Pita
 Extra Ranch Dressing
@@ -2330,24 +2671,35 @@ Falafel Deluxe
 Falafel Frisbee
 Falafel Plate
 Falafel Platter
+Falafel Platter with an additional hummus side
 Falafel Regular
 Falafel Salad
+Falafel Salad greens
+Falafel Salad platter
 Falafel Sandwich
 Falafel Shawarma Sandwich
 Falafel Side
 Falafel Wrap
+Falafel and Veggie Salad
+Falafel dish.
+Falafel greens
+Falafel house salad
 Falafel with Tahini Sauce
 Family Pack
 Family Special
 Family Style
 Family Style Pancake
 Family Style Tofu
+Fancy cheese and tomato pizza
 Fanta
+Farm Fresh Market Salad
 Farmer Green Roll
 Farmers
 Farmers Market Potatoes
+Farmers Market Vegetable Salad
 Farmers Market Vegetables
 Farmers Plate
+Farmers choice Vegetables with half chicken
 Farouj Meshwi
 Fassoulia
 Fat Beli Cobb
@@ -2361,10 +2713,12 @@ Fedelini con Granchio
 Feijao
 Feijoada
 Fennel Dumpling
+Fennel Slaw Salad with Beef Short Rib
 Fernet Fudge
 Feta Cheese
 Feta Cheeseburger
 Feta and Olives
+Feta salad
 Fettine di Vitello al Limone
 Fettine di Vitello alla Corsara
 Fettuccine
@@ -2385,7 +2739,9 @@ Fettuccine with Chicken and Seafood
 Fettuccine with Chicken and Seafood Tray
 Fettucine Alfredo with Chicken
 Fierce Wings
+Fiery Carrot Dip
 Fiery Chicken Bites
+Fiery Slaw Burger with cabbage slaw, lemon serrano jam and pepper jack. Add bacon
 Fiesta Pizza
 Fiesta Special
 Figgy Piggy
@@ -2400,7 +2756,12 @@ Fire Spicy Chicken w Rice Cake
 Fire Spicy Green Pepper Dip
 Firecracker Balls
 Firecracker Burger
+Firecracker Burger with House-Cured Bacon
+Firecracker topped with Bacon
+Firecracker with Bacon
+Fireman Sunday Burger
 Firri Quail
+First  burger
 Fish
 Fish & Chips
 Fish & Chix
@@ -2446,10 +2807,15 @@ Fish Vindaloo
 Fish and Chips
 Fish and Chix
 Fish and Shrimp
+Fish and pomegranate
+Fish curry
 Fish or Prawn
+Fish sandwich
 Fish with Black Bean Sauce
 Fish with Black Bean Sauce Lunch Box
 Fish with Black Beans Sauce
+Fish with mild curry sauce
+Fish with tomato and green pepper
 Fish  Cake
 Fish-n-chips
 Fishman Roll
@@ -2461,15 +2827,23 @@ Five Meat Pizza
 Five Potato Rolled Tacos Plate
 Five Rivers-E-Mix
 Five Rivers-E-Naan
+Five pieces of falafel side of pickles
+Five pieces of falafel with a side of tahini sauce
 Five  Spice  Chicken
 Five-Color Vege with Beijing Clear Noodles
+Fizzy ginger drink
 Flame Broiled Salmon Plate
 Flame Roasted Lemon Chicken Wings
 Flan
+Flat noodles and broccoli
+Flat noodles with soy sauce and chicken
+Flat noodles with wgg
+Flatbread with green pepper spread
 Flautas
 Flautas Plate
 Flautas de pollo
 Flavored Iced Tea
+Flavored Rice Bowl
 Flavored Water
 Florentine
 Florentine Scramble
@@ -2494,12 +2868,14 @@ Forest
 Forever 16
 Foul Mudames
 Fountain Drinks
+Four Cheese & Tomato Sandwich
 Four Cheese Lasagna
 Four Cheese Lasagna with Meat Sauce
 Four Cheese Pizza
 Four Cheese White Pizza
 Four Seasons Roll
 Four Toppings
+Four-Scoop Salad
 Frango Acebolado
 Frango Assado
 Frango a Milanesa
@@ -2509,6 +2885,7 @@ Freddy’s Fish and Chips
 Free Range Chicken Wrap
 French Bread
 French Burger
+French Caprese
 French Cheese with Honey, Lavender, Walnut and Spices
 French Dip
 French Dip Sandwich
@@ -2517,8 +2894,16 @@ French Fries 8 oz
 French Macaroons
 French Onion Soup
 French Toast
+French Toast with Fruit Topping
+French Toast with Strawberry and Banana
+French fries
+French fries with cheese, sauce, and fried onions
+French mineral water
+French roll Meatballs
+French toast, strawberries, bananas, and whipped cream
 Fresco Pizza
 Fresh Assorted Fruit
+Fresh Baked Chocolate Chip Cookies
 Fresh Carrot Juice
 Fresh Carrot and Apple
 Fresh Carrot and Beet
@@ -2541,6 +2926,7 @@ Fresh Lemonade
 Fresh Lemonaid
 Fresh Orange Juice
 Fresh Petrale Sole
+Fresh Red Onions
 Fresh Rolls
 Fresh Rolls with Prawn
 Fresh Salad Rolls
@@ -2554,6 +2940,7 @@ Fresh Squeezed Orange Juice
 Fresh Sun Iced Tea
 Fresh Tracks
 Fresh Waffle
+Fresh leaf side salad
 Fresh  Spring  Rolls
 Freshly Baked Cookies
 Freshly Roasted Red Peppers
@@ -2573,6 +2960,7 @@ Fried Cheese Ravioli
 Fried Chicken
 Fried Chicken Dinner
 Fried Chicken Salad
+Fried Chicken Sandwich with Salad
 Fried Chicken Taco
 Fried Chicken Wings
 Fried Chicken over Fried Rice
@@ -2598,8 +2986,11 @@ Fried Mo: Mo
 Fried Mozzarella
 Fried Mozzarella Sticks
 Fried Mozzarella Sticks with Marinara Sauce
+Fried Noodle Pad
+Fried Onion Burger
 Fried Oyster
 Fried Oysters
+Fried Pineapple Rice
 Fried Prawns
 Fried Prawns over Fried Rice
 Fried Radish Cake with XO Sauce
@@ -2630,8 +3021,23 @@ Fried Wontons
 Fried Yucca
 Fried Zucchini
 Fried apple rolls
+Fried egg rice bowl
+Fried egg salad.
+Fried potatoes with cheese, sauce, and fried onions
+Fried prawn with brown rice
+Fried rice with barbecue pork and shrimp
+Fried rice with chairman mao sauce
+Fried rice with chicken and shrimp
+Fried rice with egg and chinese olives
+Fried rice with olives
+Fried rice with pork and shrimp with chairman mao sauce
+Fried spicy prawns with brown rice
+Fried vegetable noodles with a side of bean wafers
+Fried veggie noodles with lentils
+Fried white fish
 Fried  Wonton
 Fries
+Fries with gray and peaches
 Frijoles Charros
 Frijoles Negros
 Frittata
@@ -2640,10 +3046,13 @@ Frozen Toasted S'more
 Fruit
 Fruit Bowl with Milk
 Fruit Danish
+Fruit French Toast
 Fruit Parfait
 Fruit Salad
+Fruit and Cream French Toast
 Fruit, Granola & Yogurt Parfait
 Fruit, Granola and Yogurt Parfait
+Fruity Chicken Garden Salad
 Fruity Nutella
 Fu Jian Fried Rice
 Fuji Apple
@@ -2709,11 +3118,14 @@ Gang Koor
 Gang Koor a la Carte
 Gang-Dang
 Gang-dang Lunch Special
+Ganoush Baba
 Garbanzo Bean Curry Vegan Pie
 Garden
+Garden Beef
 Garden Burger
 Garden Burger w Fries
 Garden Cheeseburger
+Garden Pizza
 Garden Roll
 Garden Salad
 Garlic
@@ -2756,11 +3168,16 @@ Garlic Smashed Potatoes and Gravy
 Garlic Spinach
 Garlic Spinach and Tofu with Chicken
 Garlic Truffle Fries
+Garlic Twists
 Garlic and Ginger Rice
 Garlic and Parsley Fries
 Garlic and Pepper
 Garlic and Pepper A La Carte
 Garlic and Pepper Over Rice
+Garlic chickpea spread with extra pita
+Garlic flat bread
+Garlic mutton curry
+Garlic naan bread and pappdum
 Garlic  Fish
 Garlic  Prawn
 Garlic-Oregano Fries
@@ -2811,17 +3228,26 @@ Ginger Salad
 Ginger Salmon
 Ginger Sauce
 Ginger and Green Onion Beef
+Ginger soda
 Giotto
 Glass Jelly Drink
+Glazed salmon with broccoli and potatoes
 Glorious Chicken
+Gluten Free Chocolate Mousse
 Gluten Free Tortilla
+Gluten Free Version of the Lamb and Chick Platter
 Gluten Free Waffle
+Gluten free Chocolate Mousse
+Gluten free chicken dish
 Gnocchi Pesto
 Gnocchi al Pomodoro
 Gnocchi al pomodoro
 Go Green
 Goat Biryani
 Goat Cheese Naan
+Goat Cheese Quiche
+Goat Cheese Quiche with Spinach and Kale
+Goat Cheese and Kale Quiche
 Goat Curry
 Goat Karahi
 Gobhi Chicken
@@ -2842,11 +3268,14 @@ Golden Gate Pizza
 Golden Gate Roll
 Golden  Tofu
 Gon-Pou
+Gong Bao Chicken
+Gong Bao chicken
 Good Morning Granola Smoothie
 Goong Chae Naam Plaa
 Goong Gaborg
 Goong Hair
 Goong Siam
+Gorgonzola Salad with Applies and Chicken
 Gorkha Chicken Curry
 Gosht Jaipuri
 Gosht Rumwala
@@ -2856,19 +3285,23 @@ Gourmet Chef Salad
 Gourmet Cobb Chicken Salad
 Gourmet Cold Sandwich
 Gourmet Greek Salad
+Gourmet Grilled Cheese Sandwich
 Gourmet Hummus with Beef or Chicken
 Gourmet Salad
 Gourmet Shrimp Louie Salad
 Gourmet Spinach Fruit Salad
 Gourmet Tuna Salad
+Gourmet Tuscan Chicken Sandwich
 Gow Se-Mee
 Goy See Mee Noodles
 Goya
 Gra-Prao Fried Rice
 Gra-prao Lunch Special
+Grain burger
 Grandma's Burrito
 Grandma’s Gai Lan
 Granny
+Granny apple chicken salad
 Grape Leaf Salad
 Grape Leaves
 Grapefruit Juice
@@ -2890,13 +3323,17 @@ Greek Special
 Greek Yogurt & Honey
 Greek Yogurt Parfait
 Greek Yogurt and Honey
+Greek lamb platter with pita and hummus
+Greek salad with falafel
 Green A La Carte Curry
+Green Apple salad
 Green Bean Beef
 Green Bean Chicken
 Green Bean Prawns
 Green Bean Shrimp
 Green Bean Tofu
 Green Beans
+Green Beans and Peppers over White Rice
 Green Beans and Shrimp
 Green Beans and Tofu
 Green Cheese Cake
@@ -2913,6 +3350,7 @@ Green Curry with Salmon
 Green Curry with Seafood
 Green Curry with Tofu
 Green Energy Juice
+Green Giant Smoothie
 Green Goddess
 Green Hornet
 Green Hot Tea
@@ -2926,6 +3364,7 @@ Green Onions
 Green Papaya Salad
 Green Pepper Beef
 Green Pizza
+Green Power Smoothie
 Green Powerhouse
 Green River Roll
 Green Rules Burrito
@@ -2934,6 +3373,14 @@ Green Tea
 Green Tea Frappe
 Green Tea Late
 Green With Envy
+Green bean boar.
+Green beans and bell peppers with chili paste
+Green detox drink
+Green drink
+Green hummus with pita
+Green leaf salad
+Green medley
+Green smoothie
 Green with Envy
 Greens 1
 Greens 1.5
@@ -2941,6 +3388,9 @@ Greens 2
 Greens 3
 Greens 4
 Greens 5
+Greens Season
+Greens mix
+Greens of Season
 Greens, Walnuts & Dried Cranberry Salad
 Greens, Walnuts and Dried Cranberry Salad
 Greko Special
@@ -2949,6 +3399,7 @@ Grill Cheese Sandwich
 Grill Pork Noodle Soup
 Grilled Basa Fish Salad
 Grilled Boned Chicken
+Grilled Bread Sandwich
 Grilled Broccoli
 Grilled Caesar
 Grilled Cajun Shrimp Po' Boy
@@ -2958,6 +3409,7 @@ Grilled Cheese
 Grilled Cheese + Tomato
 Grilled Cheese Hot Sandwich
 Grilled Cheese Sandwich
+Grilled Cheese with Tomatoes
 Grilled Chicken
 Grilled Chicken & Pancetta sandwich
 Grilled Chicken Burger
@@ -2968,6 +3420,7 @@ Grilled Chicken Panini
 Grilled Chicken Sandwich
 Grilled Chicken Wrap
 Grilled Chicken and Pancetta sandwich
+Grilled Chicken with apples
 Grilled Chicken, Pear & Walnut Salad
 Grilled Chicken, Pear and Walnut Salad
 Grilled Double Breast of Chicken
@@ -3001,6 +3454,7 @@ Grilled Prawn Salad
 Grilled Ribeye Steak
 Grilled Salmon
 Grilled Salmon "Choo Chee" Curry
+Grilled Salmon Caeser with Tomatoes
 Grilled Salmon Salad
 Grilled Shrimp Salad
 Grilled Single Breast of Chicken
@@ -3012,6 +3466,10 @@ Grilled Tilapia
 Grilled Tomatoes
 Grilled Trout
 Grilled Vegetables
+Grilled beef salad
+Grilled chicken salad
+Grilled feta, tomatoe and spinach sandwich
+Grilled shrimp salad with prawns
 Gringo Burger
 Ground Beef Patty
 Ground Beef Sirloin
@@ -3068,7 +3526,12 @@ H9. Steamed Prawns with Snow Peas
 HERBeef
 Ha-Mango
 Had Yai Chicken Wings
+Hakka Blend Noodles
+Hakka Vegetable Noodles
+Halal BBQ Half Chicken
+Halal Barbecue Half Chicken
 Halal Chicken Shawarma Pizza
+Halal Half Chicken
 Half & Half
 Half Boiled Egg
 Half Chicken
@@ -3081,6 +3544,7 @@ Half Ramen and Omusubi
 Half Supreme Chicken
 Half Tandoori Chicken
 Half and Half
+Half-Duck Roast
 Halikarnas Guvec
 Halo Rings
 Halva
@@ -3099,6 +3563,7 @@ Ham and Cheese Croissant
 Ham and Cheese Sandwich
 Ham and Cheese Stuffed Waffle
 Ham and Swiss
+Ham and Turkey Club with Bacon
 Ham, Bacon, or Chicken Apple Sausage
 Ham, Eggs and Cheese Pie
 Hamachi
@@ -3115,6 +3580,7 @@ Hamachi and Lime Roll
 Hamburger
 Hamburger and Eggs
 Hamburger and Fries
+Hamburger with cojita cheese
 Hangover
 Hangover SOS
 Hankar
@@ -3129,6 +3595,8 @@ Harney and Sons Teas
 Harvest Bean Curd
 Hash Brown
 Hash Browns
+Hash and Eggs with Home Fries
+Hash and eggs
 Hashbrowns
 Hawaii Cheese Burger
 Hawaii Roll
@@ -3152,15 +3620,21 @@ Hawiian
 Hazelnut Bacon Brussel Sprouts
 Hazelnut Chocolate Mousse
 Healthy Sugar Rush Juice
+Healthy smoothie
+Healthy spicy salmon
 Hearth-Baked Breadsticks
 Hearts of Romaine & Kale Caesar
 Hearts of Romaine and Kale Caesar
 Heirloom Spinach Salad
 Hella Fresh juice
 Hello Green
+Herb Pizza
+Herb topped homemade bread, hummus and organic salad
 Herb's Hamburger
+Herb-encrusted Salmon Caeser Salad
 Herbal Ice Tea
 Herbal Tea
+Herbed fries
 Hickory Smoked & Bricked 1/2 Chicken
 Hickory Smoked & Bricked half Chicken
 Hickory Smoked and Bricked half Chicken
@@ -3168,13 +3642,21 @@ High Protein Breakfast
 Himalayan House Salad
 Himalayan Milk Masala Chiya
 Himalayan Momo
+Himma Pad Parn
+Himma Parn Cashew
+HimmaParn Dish
 Himmapan
+Himmaparn
+Himmaparn Cashew
+Himmaparn Cashew Pad
+Himmaparn Dish
 Hirame
 Hiyayakko
 Hog Heaven Burger
 Hoi Jor
 Hoi-Jor
 Hokusai
+Hollandaise sauce over eggs and ham on an English muffin. Hash browns on the side.
 Holy Burger
 Holy Cow!
 Holy Dog
@@ -3189,27 +3671,34 @@ Homemade Flan
 Homemade Flavored Tea
 Homemade Juices
 Homemade Pasta Salad
+Homemade Pepper and Tomato Quiche
 Homemade Potato Salad
 Homemade Tortillas
 Homemade Turkey Burger
 Homemade Veggie Burger
 Homemade Yankee Pot Roast
+Homemade bread topped with Mediterranean spices, hummes and organic green salad
+Homestyle Eggs Benedict
 Honest Ade
 Honest Iced Tea
 Honest Tea
 Honey & Pepper Scallops
 Honey BBQ Pork
 Honey Chipotle Chili
+Honey Duck
 Honey Glazed BBQ Pork
 Honey Graham
 Honey Mustard Atlantic Salmon
 Honey Mustard Salmon Farmers Market Lunchbox
 Honey Mustard Salmon Flatbread
+Honey Mustard Style Salmon
 Honey Nougat
+Honey Salmon
 Honey Spicy Chicken Wings
 Honey Walnut Chicken
 Honey Walnut Prawns
 Honey and Pepper Scallops
+Honey duck and vegetables
 Honey  Pork
 Hong Kong Style Chow Mein
 Hong Kong Style Crispy Noodle
@@ -3265,6 +3754,7 @@ Hot Spicy Eggplant
 Hot Spicy Tofu with Basil
 Hot Summer Roll
 Hot Tea
+Hot Tuna Sandwich
 Hot Wings
 Hot and Sour
 Hot and Sour Cucumber
@@ -3279,6 +3769,9 @@ Hot and Spicy String Beans Lunch Box
 Hot and Spicy Tofu
 Hot and Spicy Tofu Lunch Box
 Hot and Spicy Tofu with Basil
+Hot and spicy salmon curry
+Hot cheese and spinach Sandwich
+Hot'n Sweet Burger, we suggest bacon as an addon
 Hotate
 House Blend
 House Brown Rice Tea
@@ -3324,6 +3817,7 @@ House Special Steam Meat Ball
 House Special Steam Slice Pork
 House Special Three-Flavor
 House Special: Lamb, Chicken and Shrimp Baryani
+House fried rice with prawn
 House of Thai Beef Rice Plate
 House of Thai Noodles
 House of Thai Plum Sauce a la Carte
@@ -3331,6 +3825,7 @@ House-Cut Fries
 House-Made Beef Empanadas or Roasted Chicken
 House-Made Granola, Organic Strauss Yogurt, Assorted Fruit and Raisins
 House-Made Lemonade
+Huang Chicken Pao
 Huberts Mango Lemonade
 Huberts Original Lemonade
 Huberts Strawberry Lemonade
@@ -3344,6 +3839,9 @@ Huevos con chorizo
 Hum Baby
 Hummus
 Hummus Saucer
+Hummus and dips with pita
+Hummus and stuff with pita
+Hummus platter
 Hummus with Ground Beef Platter
 Hummus with Meat
 Hummus with Pita
@@ -3364,6 +3862,7 @@ Hunanese Tofu
 Hungarian on a French Roll
 Hyderabadi Chicken
 Hydrabadi Chicken
+I would like the gluten free Kabab platter please.
 ISLAND
 ISO
 Ice Green Tea
@@ -3396,10 +3895,13 @@ Inari Nigiri Sushi
 Indian Chai Cold
 Indian Chai Hot
 Indian Chai Tea
+Indian Cheesy Rice
 Indian Monk
 Indian Oven Meat Plater
 Indian Oven Mixed Tandoori
 Indian Oven Thali For Two
+Indian garlic bread
+Infant Romaine Caesar
 Insalata Caesar
 Insalata Caprese
 Insalata Capricciosa Begium Andive
@@ -3410,11 +3912,14 @@ Irish Cream
 Irish Cream Mocha
 Irish Nachos
 Iskender
+Israeli-Style Extra-Smooth Hummus
 Italian BLT salad
 Italian BLT sandwich
 Italian Breakfast Sandwich
 Italian Broccoli Romano
+Italian Cheesy Breadsticks
 Italian Crème Cake
+Italian Herb Breadsticks
 Italian Herbed Mayo Dipping Sauce
 Italian Mac
 Italian Panini
@@ -3424,9 +3929,12 @@ Italian Prosciutto on Artisan Baguette
 Italian Salami
 Italian Sausage
 Italian Sausage Sandwich
+Italian Sausage and Mushroom Pizza
 Italian Soda
 Italian Sub
 Italian Tiramasu
+Italian Vinaigrette salad with Chicken
+Italian style pizza
 Italiano
 Italica
 Itsy Bitsy Naan Bits
@@ -3482,14 +3990,18 @@ Jane Doe
 Jantar Mantar
 Japanese Beef Noodle Soup
 Japanese Pork Katsu Noodle Soup
+Japanese Rice Dish
 Japanese Soda
 Japanese Soda Drink
 Japanese Wild Scallops Sauteed with Broccoli in X.O Sauce
 Jarritos
+Jas  and  salmon
 Jasmine Hot Tea
 Jasmine Rice
 Jasmine Rice per Person
 Jasmine Tea
+Jasmine moo
+Jasmine rice with yellow curry
 Jasper Fried Chicken
 Jasper Fries
 Jaspers Fries
@@ -3508,6 +4020,7 @@ Joe's
 Joe's Special
 Joe’s Special
 John Daly
+Josh
 Jr. Breakfast
 Juice
 Jumbo Blackened Prawns & Grits
@@ -3517,6 +4030,7 @@ Jungle Curry
 Just Beef It
 Just Waffles and Berries
 K-OZ Fresh Brewed Coffee or Tea
+K.p. chicken
 K1. Eggplant with Garlic Sauce
 K10. Stir Fried Broccoli with Garlic
 K11. Pea Sprouts with Garlic
@@ -3536,6 +4050,7 @@ KALE and MUSHROOM
 KIYMALI YUMURTA
 KJ Noodle Soup
 Ka Moo
+Ka Moo and rice
 Ka-Ree
 Ka-ree Lunch Special
 Kaali Mirchi Ka Gosht
@@ -3598,6 +4113,7 @@ Karol Bagh Kitty Party
 Kashmiri Aloo Gobhi
 Kashmiri Biryani
 Kashmiri Chicken
+Kashmiri king prawn curry
 Kasper
 Katana-Ya
 Katanaya Ramen
@@ -3606,9 +4122,17 @@ Katsu Curry Don
 Katsu Don
 Kauswer Doke
 Keaw Tod
+Kebab
+Kebab Chicken
+Kebab Dish
+Kebab Plate and Hummus
 Kebab Platter
+Kebab Platter with Hummus
 Kebab Salad Low Carb Bowl
+Kebab Style Chicken
 Kebab Wrap
+Kebab plater gluten free please.
+Kebabs Dish and Hummus
 Kebbeh Nayeh
 Keema Aloo
 Keema Mattar
@@ -3628,6 +4152,7 @@ Kettle Chip
 Kettle Chips
 Key Lime
 Key Lime Pie
+Kha  soup
 Khanom Jeen Gang Keaw-Wan
 Khao Mun Gai
 Khao Soi
@@ -3665,14 +4190,27 @@ Kimchi  Soup with Tofu
 Kimpira-Simmered Burdock
 Kind Bar
 King Dragon
+King Prawn Rogan Josh
 King Salmon
 King Salmon Steak
 King Salmon with Steamed Tofu in Garlic Sauce
 King Size Candy Car
 King Special
+King prawn curry
+King prawns in medium onion curry
+King prawns in medium spicy curry
+King prawns in mild spicy sauce
+King prawns in onion curry
+King prawns in spicy sauce
+King prawns in spicy vegetable sauce
+King prawns in tomato and green pepper sauce
+King prawns in vegetable sauce
+King prawns with medium curry sauce
+King prawns with medium spicy vegetable sauce
 King  Crab  Fried  Rice
 Kiwi Avocado with Condensed Milk Crepe
 Knafeh Bel Jeben
+Knife-cut Noodles with Wild Boar, Scallions and Mushrooms
 Knockout Snapper
 Knockout Wings
 Knockwurst on a French Roll
@@ -3699,11 +4237,15 @@ Kukhurako Pakuwa
 Kukkar Methiwal
 Kulcha Naan
 Kung Bow Chicken
+Kung Chicken
+Kung Chicken Pao
+Kung Pao
 Kung Pao Bean Curd
 Kung Pao Calamari
 Kung Pao Chicken
 Kung Pao Chicken Lunch Box
 Kung Pao Chicken or Shrimp
+Kung Pao Huang
 Kung Pao Meatless Chicken
 Kung Pao Prawns
 Kung Pao Prawns Lunch Box
@@ -3838,6 +4380,7 @@ Lamb Biryani
 Lamb Boti
 Lamb Boti Kabab
 Lamb Burger
+Lamb Chicken Mix
 Lamb Choila
 Lamb Chop
 Lamb Chops
@@ -3847,6 +4390,7 @@ Lamb Combo Platter
 Lamb Curry
 Lamb Curry Chef Recommended
 Lamb Dal
+Lamb Dish
 Lamb Gyro
 Lamb Haneed
 Lamb Jaipuri
@@ -3874,9 +4418,11 @@ Lamb Paratha
 Lamb Pasanda
 Lamb Pepper Fry
 Lamb Platter
+Lamb Platter with Chicken
 Lamb Rasala
 Lamb Rogan Josh
 Lamb Roganjosh
+Lamb Rotisserie
 Lamb Saag
 Lamb Saag Punjabi
 Lamb Samosa
@@ -3889,6 +4435,7 @@ Lamb Shawerma Wrap
 Lamb Sheesh Kabob – Lamb
 Lamb Shish Kebab Plate
 Lamb Soup
+Lamb Tahini
 Lamb Tikka Kabab
 Lamb Tikka Masala
 Lamb Tikka Masala Curry
@@ -3896,10 +4443,27 @@ Lamb Vindaloo
 Lamb Vindaloo Curry
 Lamb Wrap
 Lamb and Chicken Combo Platter
+Lamb and Chicken Dish without Gluten
 Lamb and Chicken Mix Platter
 Lamb and Chicken Wrap
+Lamb and beef combo plate with hummus
+Lamb and chicken dish.
+Lamb and steak kabab plate with hummus
+Lamb chicken hummus.
+Lamb curry
+Lamb in a spicy cream sauce
+Lamb in garlic curry
+Lamb in mild curry sauce
 Lamb or Beef with Green Onion
+Lamb salad
+Lamb tikka in medium spicy onion sauce
+Lamb tikka in onion sauce
+Lamb tikka in spicy onion sauce
 Lamb with Green Onion
+Lamb with Sides
+Lamb with rice
+Lamb with tahini platter
+Lamb, Chicken or prawn curry sizzler
 Lamb-Do-Piyaza
 Lamburger
 Lamd Methi
@@ -3928,7 +4492,11 @@ Lasagna with Meat Sauce
 Lassi
 Lassis
 Latin Dog
+Latke Pancake Potatoes
+Latke Potato cakes
 Latkes
+Latkes sandwich
+Latkes with applesauce and lebni on pita
 Latte
 Lauretana Bottled Still Water
 Lava Flow
@@ -3936,6 +4504,7 @@ Lava  Beef
 Lavender Latte
 Lay's Chips
 Le Pompidou
+Leaf salad
 Lebanese Coffee
 Lechon Kawali
 Lechuga Asada
@@ -3955,6 +4524,7 @@ Lemon Meatless Chicken
 Lemon Rice
 Lemon San Pellegrino
 Lemon, Lavender, Honey, Activated Charcoal
+Lemon/lime mushroom soup
 Lemonade
 Lemonade Ice Tea 20oz
 Lemongrass Chicken
@@ -3965,11 +4535,14 @@ Lentil Cracked Wheat
 Lentil Soup
 Lentil and Yam Vegan Pie
 Lettuce
+Lettuce burger
+Lettuce wrap cheeseburger
 Level 1 Blood Cleanse
 Level 2 Kidney Cleanse
 Level 3 Power Liver Cleanse
 Liberty Salad
 Lichtenstein
+Light Yellow Curry
 Limca
 Lime fish
 Lime-Cumin Mayo Dipping Sauce
@@ -3996,6 +4569,8 @@ Live White Chocolate Vanilla Cheesecake
 Live-Food Bento Boxes
 Live-Food Fresh Coconut Cream Pie
 Liver Cleanse
+Loaded Chicken Pita Plate
+Loaded, grilled, vegetable sandwich
 Loaf Garlic Bread with Cheese
 Lobster Ravioli
 Lobster Salad Nigiri
@@ -4086,6 +4661,7 @@ Malpua Crepes
 Malted Milk Chocolate
 Man Du Gook
 Mana Burger
+Manaesh Plate with Za'atar
 Manaesh Za'atar Plate
 Mandalay Style Fried Bean
 Mandarin Chicken
@@ -4118,6 +4694,7 @@ Mango Salad
 Mango Salad with Tiger Prawns
 Mango Sticky Rice
 Mango and Pineapple Chicken
+Mango yogurt milkshake
 Mango  with  Sweet  Sticky  Rice
 Manhattan Red Clam
 Manti
@@ -4126,6 +4703,7 @@ Mapo Tofu with Minced Pork
 Marais
 Margherita
 Margherita Pizza
+Margherita Style Pepper Pizza
 Maria's Meat Tostada
 Maria's Melt
 Maria's Mixed Veggies Tostada
@@ -4139,6 +4717,7 @@ Marinated Deep Fried Quail
 Marinated NY Strip Steak
 Marinated Radish Cake
 Marinated Sweet Red Bean Cake
+Marinated fried fish
 Marine Boy Roll
 Marissa Special
 Market Meal
@@ -4152,14 +4731,19 @@ Masago
 Masako Nigiri
 Masala
 Masala Chai
+Masala Chicken
 Masala Dosa
 Masala Uthapam
+Masala chicken
 Mashed Chicken & Sweet Corn Soup
 Mashed Chicken and Sweet Corn Soup
 Mashed Potato
 Mashed Potatoes
 Mashed Potatoes & Sausage Gravy
 Mashed Potatoes and Sausage Gravy
+Mashed chickpea dip
+Mashed chickpeas and add extra pita
+Mashed eggplant and spiced tomato with lentil cakes
 Masoob
 Massaman Chicken Curry
 Massaman Curry
@@ -4178,6 +4762,7 @@ Maven's Creamery Macaron
 Mayonnaise
 Mazaa
 Meat
+Meat & Peppers
 Meat Ball Sandwich
 Meat Burritos
 Meat Combo Pizza Slice
@@ -4194,10 +4779,14 @@ Meat Lovers
 Meat Lovers Special
 Meat Plato
 Meat Side
+Meat Special Salad
 Meat Sweats
 Meat Tacos
 Meat Tortas
 Meat Zone Pizza
+Meat and lentil curry
+Meat salad starter
+Meat-free curry dish
 Meatball
 Meatball Hot Sandwich
 Meatball Parmesan
@@ -4208,17 +4797,24 @@ Meatball Sandwich Panini
 Meatball Sub
 Meatballs
 Meatballs Sandwich
+Meatballs and cheese
+Meatballs with Cheese
 Meatballs with Marinara Sauce and Mozzarella
 Meathead
 Meatless Chicken with Cashew Nuts
 Mechanical Noodles
+Med Mezza Platter
 Medhu Vada
+Mediterannean Hummus
 Mediterranean
+Mediterranean Appetizer Sampler
+Mediterranean Appetizers
 Mediterranean Avocado on Artisan Baguette
 Mediterranean Breakfast
 Mediterranean Burger
 Mediterranean Combo Plate
 Mediterranean Kofta Sandwich
+Mediterranean Mezze
 Mediterranean Omelette
 Mediterranean Pizza
 Mediterranean Plate
@@ -4226,9 +4822,18 @@ Mediterranean Salad
 Mediterranean Sampler
 Mediterranean Special
 Mediterranean Special Pizza
+Mediterranean Style Veggie Panini
+Mediterranean appetizer plate
+Mediterranean chips and dips
+Mediterranean pesto on homemade bread, hummus and organic green salad
 Medium Cheese Calzone
+Medium Classic Cheese Alfredo Pizza
 Medium Dinner Salad
+Medium king prawn curry
+Medium pizza with white sauce
+Medium veggie curry
 Mee-Grob Rad Na Talay
+Mega Fries
 Meggie  Tenderloin
 Mehfil-E-Kamal
 Mehfil-E-Mix
@@ -4250,7 +4855,9 @@ Methi Wala Gosht
 Mexi
 Mexi Cola
 Mexi Mocha Frappe
+Mexican Breakfast egg dish
 Mexican Chocolate
+Mexican Classic Burger
 Mexican Coke
 Mexican Cola
 Mexican Cream
@@ -4263,11 +4870,21 @@ Mexican Seabass a la Veracruzana
 Mexican Soda
 Mexican Sprite
 Mexican Torta
+Mexican eggs
 Mexicana Pizza
+Mez platter
+Meza Appetizer
 Meza Appetizer Plate
+Meza Appetizer Sampler
+Meza Meza
+Meza Plate Dish
 Meze Trio
+Mezza
+Mezza Dish
 Mezza Platter
 Mezza Sampler
+Mezza plate
+Mezze Mezza
 Mezze Platter
 Miami Heat
 Miang-Kham
@@ -4280,6 +4897,10 @@ Migraine SOS
 Milano
 Milano Pizza
 Mild Link Hot Sandwich
+Mild Spiced String Beans
+Mild stir fried noodles
+Mild vegetable curry
+Mild veggie curry
 Miles
 Milk
 Milkbean
@@ -4291,7 +4912,10 @@ Minced Beef
 Minced Beef with Crispy Taro
 Minced Chicken Lettuce Cups
 Minced Chicken in Lettuce Cups
+Minced lamb skewers
+Minced meat and rice
 Mineral Water
+Mineral water
 Minestrone
 Minestrone Soup
 Ming's Eggplant
@@ -4320,6 +4944,7 @@ Mismas Poleko Masu
 Mismas pakauda
 Miso Cured Tofu
 Miso Soup
+Miso glaze pork.
 Miss Figgy
 Mission Elixir Juice
 Mission Mango Smoothie
@@ -4327,16 +4952,22 @@ Mission Roll
 Mission St on a French Roll
 Misto D'Insalata
 Mitchell Ice Cream Milkshake
+Mix Biryani Spice
+Mix Curry Yellow
+Mix Falafel
 Mix Green Salad
 Mix Grill
 Mix Tempura
+Mix Thai
 Mix Vegetable Beef or Chicken or Shrimp
 Mix Vegetable Curry
 Mix Vegetable Mushroom Soup
 Mix Vegetable with Chicken
+Mix of Tofu Veggies
 Mixed Appetizer Platter
 Mixed Basmati Rice
 Mixed Berry
+Mixed Cheese & Tomato Sandwich
 Mixed Chile Uttapam
 Mixed Chow Mein
 Mixed Cobb
@@ -4345,23 +4976,29 @@ Mixed Fruit Nutella Whipped Cream Crepe
 Mixed Grain Rice
 Mixed Green
 Mixed Green Salad
+Mixed Green Salad with Falafel
 Mixed Greens
 Mixed Greens Salad
+Mixed Greens Salad with Vinaigretteq
 Mixed Grill
 Mixed Grill Tandoori
 Mixed Mushroom and Truffle Oil
 Mixed Pickle
 Mixed Pickle Side
 Mixed Pickles
+Mixed Rice
 Mixed Seafood Biryani
 Mixed Seafood Curry
 Mixed Tempura
+Mixed Tofu Vegetables
+Mixed Tofuveggies
 Mixed Veg Uthapam
 Mixed Vegetable
 Mixed Vegetable Chicken
 Mixed Vegetable Curry
 Mixed Vegetable Korma
 Mixed Vegetable Soup
+Mixed Vegetable Stir Fry with Tofu
 Mixed Vegetable Tikka Masala
 Mixed Vegetables
 Mixed Vegetables Deluxe
@@ -4373,6 +5010,11 @@ Mixed Veggies Burrito
 Mixed Veggies Egg Fried Rice
 Mixed Veggies Enchiladas in Green or Mole Sauce
 Mixed Vegies Tacos
+Mixed green salad
+Mixed greens and pickled vegetables salad with feta cheese and papaya dressing
+Mixed leaf salad
+Mixed lettuce salad with chicken, apples, cranberries, walnuts and Gorgonzola
+Mixed vegetables in curry sauce
 Mixed  Green  Salad
 Mo'z Burger
 Mo'z Gyro
@@ -4380,6 +5022,7 @@ Mo'z Pancake Combo
 Mo'z Roast Beef
 Mocha
 Mocha Dark Chocolate Double
+Mocha Mousse
 Mocha White Chocolate
 Mochi
 Moh-Hingar
@@ -4414,15 +5057,23 @@ Monk’s Macaroni and Cheese
 Monpetok
 Monster
 Monster Or Rockstar 16oz
+Monster burger with extra crispies
+Monster truck burger with special sauce and extra crispies
+Monstrous burger with cheese special sauce and extra crispies
 Mont Blac
 Mont Blanc
 Monte Cristo
 Monterey Scramble
 Moo Dang
 Moo Goo Gai Pan
+Moo Ka
+Moo Ka Pork
 Moo Prig khing
 Moo Som
 Moo Tod
+Moo rice
+Moroccan-Style Spicy Carrot Dip
+Morrocan carrot dip with pita
 Mortadella & Robiola sandwich
 Mortadella and Robiola sandwich
 Moudamas
@@ -4431,6 +5082,7 @@ Mountain City Chicken
 Mountain Dew®
 Mousakka
 Moussaka
+Mousse with Chocolate Flavor
 Mozzarella Caprese
 Mozzarella Cheese Sticks
 Mozzarella Cheese and Tomato Sauce Pizza
@@ -4476,6 +5128,7 @@ Mushroom Cheeseburger
 Mushroom Chicken Cheese Steak Sandwich
 Mushroom Chicken Noodle Soup
 Mushroom Clam with Cream Sauce Soup
+Mushroom Curry
 Mushroom Double Cheeseburger
 Mushroom Korma
 Mushroom Mattar
@@ -4483,25 +5136,39 @@ Mushroom Mutter
 Mushroom Philly Cheesesteak
 Mushroom Pizza
 Mushroom Swiss Burger
+Mushroom Vegetable Dish
 Mushroom and Spinach Crepe
+Mushroom soup
+Mushroom with King Prawn
 Mushrooms
 Mushrooms with Chinese Green
 Mushu Pork
 Mussels Bianca or Marinara
 Mussels with Black Bean Sauce
+Mustard Salmon
 Mutter Paneer
+Mutton curry and rice
+Mutton in garlic curry
 My Grandma Loves Me
 Mya’s Ahi Burger
 Mysore Masala Dosa
+Mysterious rice
 N.Y.P.C.-New York Pesto Chicken
 NY Cheese Cake
 NY Steak
 NY Strip
 Naan
+Naan Bread
+Naan Garlic
 Naan Pizza
+Naan with Garlic
 Nabe Udon Ramen
+Nacho Salad
+Nacho salad
 Nachos
 Nachos Grande
+Nachos with Chicken
+Nachos with Lettuce
 Nagai Vegetable Korma
 Naked Ladies Salad
 Nakji Bokum
@@ -4510,6 +5177,9 @@ Nam Kao Tod
 Nam Khao Tod
 Nam Prik Ong
 Nam Tok Salad
+Name: Classic Caesar Salad, Description: Fresh romaine lettuce topped with almonds, buttery croutons, and parmesan cheese, tossed with eggless Caesar dressing
+Name: Side Caesar Salad, Description: Romaine lettuce tossed with eggless Caesar dressing and topped with almonds, croutons, and parmesan cheese
+Name: Small Caesar Salad, Description: Crisp baby romaine lettuce with eggless caesar dressing, marcona almonds, buttery croutons, and parmesan cheese
 Namora 1 Pc
 Nan
 Nan Gyi Dok
@@ -4527,8 +5197,10 @@ Napa Cabbage with Pork Dumpling
 National Nepalese Bhojan
 Natto Roll
 Natural
+Natural French mineral water
 Natural Reid's Ginger Beer
 Natural Reid's Spiced Apple
+Natural cut fries
 Natutal
 Navaratan Korma
 Navratan Korma
@@ -4559,6 +5231,7 @@ Newari Khaja
 Nigiri Combo
 Nihari
 Nikki hama
+Niman ranch beef mixed with parsley and onion
 Nimbu Pani
 Nimki
 Nirvana Garlic Fries
@@ -4568,17 +5241,27 @@ Non Sparkling Martinelli's Apple Juice
 Noodle Box
 Noodle Box with One Side
 Noodle Box with Two Sides
+Noodle Rice Se-Ew
 Noodle Salad
+Noodle Thai
+Noodle boar.
 Noodles
+Noodles and Thai
 Noodles with Vegetable Soup
+Noodles with broccoli
+Noodles with cashews
+Noodles with seaweed
 Nori-Paste
+Normal Rice
 North Beach
 North Beach Cheesesteak
 North Beach Club
 North India Meat Platter
 North India Mixed Tandoori
 North India Thali Dinner For Two
+Not Spicy Salmon
 Not so Reuben
+Not spicy red soup
 Nuer Kem
 Nuernberger Bratwurst on a French Roll
 Num Tok
@@ -4591,6 +5274,7 @@ Nutella Latte
 Nutella Pot de Creme
 Nuts About Acai
 Nuts About Nutella Smoothie
+Ny-Style Sausage and Mushroom Pizza
 O'Keefe
 OMG
 OMGSmoothie
@@ -4614,6 +5298,7 @@ Old Country Scallops
 Old Country Scallops or Shrimp
 Old Country Vegetables
 Old School Pretzel Knot
+Old-Fashioned Burger
 Olimpos
 Olives
 Olives Kalamata
@@ -4621,6 +5306,7 @@ Omakase
 Omar's Omelette
 Omelet-Wrapped Seafood Pad Thai
 Omelettes
+On the Thai basil plate please not spicy
 One Dozen Falafel
 One Egg
 One Jumbo Egg Any Style
@@ -4637,9 +5323,11 @@ Onion Ring
 Onion Ring Burger
 Onion Rings
 Onion Roti
+Onion Strings
 Onion and Hot Chili Uthappam
 Onion and Peas Uthappam
 Onions Rings
+Op dip
 Or Lam
 Orange
 Orange Beef
@@ -4664,6 +5352,7 @@ Order number 1 Pizza
 Order number 2 Pizza
 Order number 3 Pizza
 Order number 4 Pizza
+Order of the 6 wings- with the senator sauce
 Orecchiette
 Oreo Cookie
 Oreo Mousse Cake
@@ -4680,10 +5369,13 @@ Organic Moroccan Carrot Dip
 Organic Oven Roasted Potatoes
 Organic Red Quinoa SaladHearts of Palm and Garlic Sauteed Artichokes, Citrus and Extra Virgin Dressing
 Organic Tortilla Chips with House Salsa
+Organic egg and rice bowl
+Organic pizza.
 Oriental Chicken Salad
 Original Acai Bowl
 Original Buffalo
 Original Buffalo Wings
+Original Burger
 Original Hong Kong Porridge with Twinsie Donuts
 Original Red Bull
 Oringina
@@ -4713,18 +5405,23 @@ Pa-Nang
 Pa-nang Lunch Special
 Pachamama Empanada
 Pacific Omelette
+Pacific beach pizza with red tomato sauce__
+Pacific pizza with tomato sauce
 Pad Baby Corn
 Pad Basil
 Pad Cashew Nut
 Pad Cha
 Pad Cha Talay
 Pad Eggplant
+Pad Ew Dish
+Pad Ew Tofu
 Pad Fresh Ginger
 Pad Ginger
 Pad Gra Pow
 Pad Gra Tiam
 Pad Gra-Praw
 Pad Gra-Tiem
+Pad Himma
 Pad Himmaparn
 Pad J
 Pad Ka-Na or Broccoli
@@ -4732,11 +5429,16 @@ Pad Kee Mao
 Pad Kee Mao noodles
 Pad Kee Mow
 Pad King
+Pad King Mix
+Pad King Prik
 Pad Ma Kuer
 Pad Ma-Keur
 Pad Moo Grob – Gra-Praw
 Pad Moo Grob – Ka-Na
 Pad Moo Grob – Prik King
+Pad Noodle Thai
+Pad Noodles
+Pad Pad Se-Ew
 Pad Pak
 Pad Ped
 Pad Pong-Ga-Ree
@@ -4748,15 +5450,23 @@ Pad Prik Sod
 Pad Sai Roong
 Pad Se Ew
 Pad Se-Ew
+Pad See
 Pad See Ew
 Pad See Lew
 Pad See You
 Pad See-Ew
 Pad Si-Yu Noodles
+Pad Special
 Pad Thai
 Pad Thai Noodles
 Pad Woon Sen
 Pad Woonsen
+Pad dish with chili sauce
+Pad dish with egg and meat
+Pad with beans and peppers
+Pad with broccoli
+Pad with cashews
+Pad with egg
 Pad  Kee  Mao
 Pad  See  Ew
 Pad  Thai
@@ -4801,6 +5511,7 @@ Panang A La Carte Curry
 Panang Avocado Veggie Shrimp
 Panang Beef
 Panang Curry
+Panang and Rice Curry
 Pancakes
 Pancit Bihon
 Pancit Bihon Noodles
@@ -4832,6 +5543,8 @@ Panner Chili
 Panner Pakora
 Panucho
 Panzanella Panini
+Pao Chicken
+Pao Style Chicken
 Papad
 Papadam
 Papadams
@@ -4839,6 +5552,7 @@ Papadum
 Papas con Queso
 Papaya Salad
 Papaya and Seasonal Greens
+Papaya salad
 Papaya  Salad
 Paper Dosa
 Paper Masala Dosa
@@ -4848,6 +5562,8 @@ Papri Chat
 Paradise Wings
 Param Beef
 Paratha
+Parmesan Almond Meatballs with Brie
+Parmesan Meatballs with Brie
 Parmesan Truffle Fries
 Parsley & Lamb Dumpling
 Parsley and Lamb Dumpling
@@ -4855,7 +5571,9 @@ Pasadena
 Passion Fruit
 Passion Peach
 Pasta
+Pasta Salad Noodles
 Pasta Skilletini
+Pasta shrimp noodles with rice
 Pastrami
 Pastrami & Cheese
 Pastrami & Cheese Wrap
@@ -4874,6 +5592,7 @@ Patty Melt
 Paulie's Dagwood
 Paulie's Vegwood
 Pav Bhaji
+Pawn Sate sticks
 Peace In The Middle East
 Peace in The Middle East
 Peace. Love. Vegan.
@@ -4885,9 +5604,11 @@ Peacock
 Peanut Butter
 Peanut Butter Fudge Ripple
 Peanut Butter and Jelly Sandwich
+Peanut Kung Pao Chicken
 Peanut Pra-Ram
 Peanut Pra-ram Lunch Special
 Peanut Sauce
+Peanut chicken
 Peanut  Sauce
 Pear, Pecan and Avocado Salad
 Peas Pillau
@@ -4895,15 +5616,23 @@ Ped Sawan
 Ped Tod
 Ped Yang
 Peerless Coffee
+Peiking Duck w/Mao sauce
 Peixe a Milanesa
 Peking Duck
 Peking Duck Bun
+Peking Duck Roast
 Peking Pork Chop
 Peking Potsticker Sauce
+Peking Roast Duck with Chairman Mao Sauce
 Peking Roast Full-Duck
 Peking Roast Half-Duck
+Peking Roast Half-Duck with House Made Sauces
 Peking Sauce Pork Chops
 Peking Style Pork Chop
+Peking duck
+Peking duck dinner
+Peking duck with rice
+Peking duck with veggies and rice
 Pelegrino Aranciata
 Pelegrino Limonata
 Pelegrino Sparkling Water
@@ -4920,7 +5649,13 @@ Penne al Pollo
 Penne al Pollo Tray
 Penne alla Vodka
 Penne with Meat Sauce
+Pepper  curry
+Pepper & Tomato Quiche
+Pepper Jack Burger
+Pepper Pad king
 Pepper Steak Sandwich
+Pepper dip with some pita
+Pepper jack burger
 Pepperidge Farm Cookies
 Pepperoni
 Pepperoni Pizza
@@ -4932,6 +5667,8 @@ Pera Talas Boregi
 Perrier
 Perrier Sparkling Water
 Perrier Water
+Persian chicken curry
+Persian sweet and sour chicken
 Pescado  Taco
 Pescado Burrito
 Pescado Tikin Xic
@@ -4950,6 +5687,7 @@ Pesto Rigatoni
 Pesto Special
 Pesto Special Pizza
 Pesto Turkey Sandwich
+Pesto with  pepper
 Pesto with Red Pepper and Goat Cheese
 Pestolicius
 Petillon
@@ -4983,6 +5721,8 @@ Picasso
 Pick Me Up
 Pickels
 Pickle
+Pickled vegetable salad
+Pickled vegetable salad with feta and a papaya dressing
 Pickles
 Pico de Gallo
 Pico de Gallo, Potatoes, & Cheese Quesadilla
@@ -4997,6 +5737,8 @@ Pineapple Fried Rice
 Pineapple Mango Smoothie
 Pineapple Pear Kombucha
 Pineapple Prawn
+Pineapple Rice
+Pineapple Shrimp Chicken Rice
 Pineapple Uthapam
 Pineapple and Orange Juice
 Pineapple and Raisin Fried Rice
@@ -5010,8 +5752,17 @@ Pinto Beans
 Pistachio Baklava
 Pistachio Kunefe
 Pita
+Pita Baba
 Pita Bread
 Pita Chips
+Pita Walnut Dip
+Pita and dip
+Pita bread with different spreads
+Pita filled latkes
+Pita meatball sandwich
+Pita with Hummus
+Pita with a spicy blend sauce
+Pita with spicy dip
 Pitapizza
 Pitaya Berry Bowl
 Pitaya Butter Bowl
@@ -5024,11 +5775,21 @@ Pizza Chips & Homemade Hummus
 Pizza Chips 6 Homemade Hummus
 Pizza Chips and Homemade Hummus
 Pizza Chips with Hummus
+Pizza Margherita with Peppers
 Pizza Sub
 Pizza Sub Hot Sandwich
 Pizza Sub Sandwich
+Pizza Twirls
+Pizza Twists
 Pizza Zone
 Pizza con Formaggio
+Pizza with Alfredo
+Pizza with cheese sauce
+Pizza with just cheese and roasted red peppers
+Pizza with red peppers
+Pizza with sausage and mushrooms and red peppers
+Pizza with tomato sauce and california veggies
+Pizza with white sauce
 Pizzawich
 Piña Colada
 Pla Mauk Tod
@@ -5046,20 +5807,34 @@ Plain Natural Yogurt
 Plain Quesadilla
 Plain Rice
 Plain Roti
+Plain Sugar Cookies
 Plain Udon Soba
 Plain Uthapam
 Plain Yogurt
+Plain cheese pizza with just red peppers
+Plain fries
 Plantains
 Plate Me
 Plate of Beans and Rice
+Plate of String Beans not spicy
 Platha
 Platha and Dip
 Plato Fiesta
+Platter Mezza
+Platter of Kebab
+Platter of Lamb
+Platter with hummus
+Platter with mezza
+Platter with mix of things
+Please chicken on my tom soup
 Plenty of Herbs Lamb Sausage Spaghetti
 Plum Juice
 Po Tak
+Poached Eggs Benedict Style
+Poached Eggs with Hollandaise
 Poached Organic Kai Lan
 Poached Pork Dumpling with Spicy Sauce
+Poached eggs with ham on top of an English muffin, hash browns on the side
 Poco Queso Quesadilla
 Poh Taak
 Poh Tak Soup
@@ -5092,6 +5867,7 @@ Polpette
 Pomegranate BBQ Chicken Flatbread
 Pomegranate BBQ Farmers Market Lunchbox
 Pomegranate Chicken
+Pomegranates Roasted Pepper Walnut Dip meza
 Pompeii
 Pongal
 Poor Sub
@@ -5113,27 +5889,33 @@ Pork & Preserved Egg Jook
 Pork & Shrimp
 Pork & Shrimp Wonton
 Pork Adobo
+Pork And Apple
 Pork BBQ
 Pork Belly 'n' Grits
 Pork Belly BLT Sandwich
 Pork Belly Benedict
 Pork Belly Bowl
 Pork Belly Taco Plate
+Pork Belly burger with slaw
 Pork Belly n' Grits
 Pork Belly with Eggs
 Pork Bulgogi
+Pork Burger with Slaw and Cheee
 Pork Carnitas
 Pork Chops
 Pork Chops and Eggs
 Pork Curry
 Pork Cutlet
 Pork Cutlet with BBQ Sauce
+Pork Deluxe
 Pork Diniguan over Rice
 Pork Katsu
 Pork Leg Stew Noodles Soup
+Pork Leg stew mild
 Pork Link Sausage
 Pork Loin Chop
 Pork Menudo over Rice
+Pork Moo
 Pork Mu Shu
 Pork Pot Sticker
 Pork Salad
@@ -5150,11 +5932,19 @@ Pork and Preserved Egg Jook
 Pork and Shrimp
 Pork and Shrimp Wonton
 Pork and Vegetable Bun Pan-Fried
+Pork and rice stew, add chicken
+Pork and shrimp with green beans
+Pork belly burger
 Pork of the Heavens
+Pork stew and rice, with chicken
+Pork stew with rice, not spicy
 Pork with Bitter Melon in Black Bean Sauce
 Pork with House Special Eggplant
+Pork with a glaze.
+Pork with sauce over rice, not spicy
 Pork, Beef, Lamb or Chicken with Ground Bean Sheet
 Pork, Lamb or Beef with Sour Preserved Green
+Pork, shrimp and green beans
 Portobellini Sandwich
 Portobello Cheeseburger
 Portobello Mushroom with Prawns
@@ -5170,6 +5960,12 @@ Potato Gnocchi, Smoked Mozzarella, San Marzano, Grana Padano
 Potato Masala
 Potato Pesto
 Potato Salad
+Potato and spinach curry
+Potato curry
+Potato in spicy vegetable sauce
+Potato latke
+Potato mushroom noodles
+Potatoes and Salmon
 Potrero Steak Sandwich
 Potsticker
 Poultry Geist
@@ -5185,6 +5981,7 @@ Praram
 Praram Pak
 Prawn
 Prawn & Pumpkin
+Prawn Basil
 Prawn Biryani
 Prawn Burrito
 Prawn Clay Pot
@@ -5198,7 +5995,9 @@ Prawn Karahi
 Prawn Kebab Plate
 Prawn Korma
 Prawn Masala
+Prawn Mix
 Prawn Pepper Masala
+Prawn Rogan
 Prawn Rolls
 Prawn Salad
 Prawn Taco a la Carte
@@ -5209,8 +6008,10 @@ Prawn Vindaloo
 Prawn Won Ton Soup
 Prawn and Pumpkin
 Prawn and Snow Pea Chow Mein
+Prawn shrimp salad
 Prawn with Black Bean Sauce
 Prawn with Triple Mushroom
+Prawn-Filled Calamari
 Prawns
 Prawns Biryani
 Prawns Chow Fun
@@ -5257,9 +6058,12 @@ PrawnsFried Rice
 Premium Hot Tea
 Preserved Vegetable Shredded Pork Nooddles Soup
 Pressed Flavored Tofu with Bamboo Tofu
+Pressed Sandwich
 Pretzel and Fondue
 Prig Khing
 Prik King
+Prik Pad
+Prik Pad Chicken
 Prima Facie
 Prima Facie Wrap
 Primavera Fresh Vegetables
@@ -5272,6 +6076,8 @@ Prosciutto Pear Salad
 Prosciutto Stuffed Chicken
 Prosciutto and Burrata salad
 Prosciutto and Burrata sandwich
+Provolone Cheddar Melt Sandwich
+Provolone Melt Sandwich
 Pudina Parantha
 Puerco Pibil
 Pulao
@@ -5282,15 +6088,23 @@ Pulled Pork Po'boy
 Pulled Pork Sandwich
 Pumpkin A La Carte Curry
 Pumpkin Curry
+Pumpkin Curry Carte
+Pumpkin Curry Carte Dish
 Pumpkin Curry a la Carte
+Pumpkin Curry with Root Vegetables and rice
 Pumpkin Pork Curry
 Pumpkin Red Curry
 Pumpkin Red Curry with Tofu
 Pumpkin Rice Cake
+Pumpkin and Curry
+Pumpkin curry with chicken
+Pumpkin dish with a meat and rice
+Pumpkin flavored curry dish
 Punjabi Channa Paneer
 Punjabi Fish
 Punjabi Fry Rice
 Punjabi Saag
+Punjabi vegetarian chickpea curry
 Pure Coconut Water
 Purity
 Purity Juice
@@ -5299,6 +6113,7 @@ Purity Organic 17oz
 Purity Organic Juices & Drinks
 Purity Organic Juices and Drinks
 Purple Energy Juice
+Purple potato noodles salad
 Puttanesca
 Pão de Queijo
 Q1. Mongolian Beef with Steamed Rice
@@ -5350,6 +6165,7 @@ Quiche with Bacon
 Quiche with Goat Cheese, Spinach, Kale
 Quiche with Homemade Lava Roast Pepper, Tomatoes
 Quiche with Italian Sausage
+Quiche with veggies
 R1. Beef Cube with Egg Tofu in Honey Sauce
 R1. Jasmine Rice
 R1. Oyako Katsu Don
@@ -5400,6 +6216,8 @@ Ranch Burger
 Ranch Chicken
 Ranch Dipping Sauce
 Ranch Sauce
+Ranchero Style Eggs and Tortillas
+Ranchero eggs
 Raphael Sandwich
 Rasa Vada
 Rasam Soup
@@ -5420,6 +6238,7 @@ Ravioli with Cheese Tray
 Ravioli with Meat
 Ravioli with Meat Sauce
 Ravioli with Meat Tray
+Raw Power Smoothie
 Rawcaroons
 Rawcaroons Take Out Bags
 Real Guacamole
@@ -5442,19 +6261,31 @@ Red Curry with Seafood
 Red Curry with Tofu
 Red Dragon
 Red Dragon Roll
+Red Eggpalnt Soup
+Red Flavored Curry
 Red Gem Salad
 Red Ginger Chicken
+Red Hot Pork Burger and Slaw
 Red Oil Wonton
+Red Pepper Margherita Pizza
+Red Pumpkin Curry with Rice
 Red Snapper
 Red Sun Roll
 Red Velvet
 Red Velvet Cake
 Red Velvet Cup Cake
 Red and White
+Red and brown rice with barley and wolf berries in Chairman Mao Sauce
+Red curry and eggplant with tofu
+Red curry bamboo soup
+Red soup
 Reeds juice
+Refreshing Chicken Plate
 Regular
 Regular 20oz Soda
+Regular Burger with Additional Cotija Cheese
 Regular Burrito
+Regular Cheese Medium Alfredo Pizza
 Regular Combo
 Regular Fries
 Regular Iced Tea
@@ -5466,6 +6297,9 @@ Regular Vegetarian Burrito
 Regular Vegetarian Nachos
 Regular Vegetarian Taco
 Regular Water
+Regular beefburger with cheese
+Regular burger with cheese
+Regular cheese burger
 Remington
 Renew Me I
 Renew Me II
@@ -5488,13 +6322,24 @@ Rice Box with One Side
 Rice Box with Two Sides
 Rice Cake Soup
 Rice Cheese Burrito
+Rice Dish
+Rice Dish with Tofu and Basil
+Rice Meat Bowl
+Rice Noodle Pad
 Rice Pilaf
 Rice Pilav
 Rice Pillau
 Rice Pudding
 Rice Pullao
 Rice Salad
+Rice and Panang Curry
 Rice and Sausage Gravy
+Rice bowl w/beef short ribs
+Rice bowl w/mushroom & short rib
+Rice egg bowl
+Rice noodles with mixed toppings
+Rice w/short rib bowl
+Rice with pork in sauce, not spicy
 Ricotta and Spinach Ravioli, Pesto Cream Sauce and Grated Cheese
 Rising Sun
 Risoles
@@ -5513,10 +6358,13 @@ Roast Duck Lunch Box
 Roast Duck Noodle Soup
 Roast Duck with Fresh Broccoli
 Roast Pork sandwich
+Roast duck
+Roast duck/w Mao sauce
 Roasted Asparagus
 Roasted Beef & Parmesan on Artisan Baguette
 Roasted Beef and Parmesan on Artisan Baguette
 Roasted Duck
+Roasted Duck & Honey
 Roasted Duck Curry
 Roasted Duck Noodle
 Roasted Duck Noodle Bowl
@@ -5535,6 +6383,7 @@ Roasted Herbed Whole Chicken
 Roasted Kale
 Roasted Mashed Potato
 Roasted Organic Beetroot Walnut Dip
+Roasted Pepper Quiche
 Roasted Pork Knuckle
 Roasted Portobello
 Roasted Potatoes
@@ -5543,7 +6392,13 @@ Roasted Turkey Sandwich
 Roasted Vegetable Salad
 Roasted Veggie
 Roasted Veggie Duck Curry
+Roasted duck
+Roasted eggplant
+Roasted eggplant dip
+Roasted half chicken
+Roasted pepper pizza
 Roasted turkey breast
+Rocan  dip
 Rock N Roll
 Rock N' Roll
 Rock and Roll
@@ -5552,9 +6407,11 @@ Rocker Man Roll
 Rockstar
 Rogan Josh
 Rogan Josh Curry
+Rogan Josh with prawns
 Rogier
 Roka Salata
 Romaine Hearts with Roast Chicken
+Romaine Salad with Croutons
 Root Beer
 Roots 1
 Roots 2
@@ -5562,6 +6419,7 @@ Roots 3
 Rosca de Coco
 Rosemary Mayo Dipping Sauce
 Rosemary Potatoes
+Rosemary, apple, and cheddar burger with pork
 Rosseti
 Rothko
 Roti
@@ -5660,12 +6518,27 @@ Sake Tempura Roll
 Sake Toro
 Sakura
 Salad
+Salad  and  burger
 Salad J
+Salad Mushroom Noodle
 Salad Niçoise
+Salad Noodle Combo
 Salad Norvegienne
 Salad Nuer Sun Salad
 Salad Platter
+Salad Som Tom
 Salad Trays
+Salad Your Way
+Salad from the Chef
+Salad instead of fries
+Salad of Noodles
+Salad with Apples, walnuts and add chicken
+Salad with Blackened Salmon
+Salad with Chicken and Apples
+Salad with falafel and a olive oil & lemon dressing
+Salad with grilled beef
+Salad with noodles
+Salad with pickled veggies, feta cheese, and a papaya dressing
 Salade Tropicale
 Salami
 Salami Club Sandwich
@@ -5673,8 +6546,11 @@ Salami Cold Sandwich
 Salami Sandwich
 Salata
 Salisbury Steak
+Sally's Breakfast Combo
 Sally's Burger
 Sally's Combo
+Sally's Pancake Combo
+Sally's Pancake and Egg Combo
 Sally's Veggie Delight
 Sally's Veggie Salad
 Salmon
@@ -5683,6 +6559,7 @@ Salmon Avocado Roll
 Salmon Burger
 Salmon Burger w Fries
 Salmon Caesar Salad
+Salmon Ceasar Salad
 Salmon Club Sandwich
 Salmon Cobb Salad
 Salmon Combo Mix
@@ -5693,9 +6570,13 @@ Salmon Don
 Salmon Fettuccini
 Salmon Fillet
 Salmon Fillet Plate
+Salmon Fish with Honey Mustard
 Salmon Flake
 Salmon Fried Rice
 Salmon Ginger Ale Sauteed
+Salmon Grill
+Salmon Grilled
+Salmon Grilled Veggies
 Salmon Kama
 Salmon Mango Roll
 Salmon Nicoise Sandwich
@@ -5703,6 +6584,7 @@ Salmon Pineapple Curry
 Salmon Poke
 Salmon Saab
 Salmon Salad
+Salmon Salad Blackened Style
 Salmon Sandwich
 Salmon Sashimi
 Salmon Scramble
@@ -5711,17 +6593,29 @@ Salmon Skin
 Salmon Skin Maki
 Salmon Skin Roll
 Salmon Sorrento
+Salmon Steamed
 Salmon Teriyaki
 Salmon Teriyaki & California Roll
 Salmon Teriyaki Rice Bowl
 Salmon Teriyaki and California Roll
 Salmon Teriyaki and Shrimp Combo
+Salmon Topped Ceasar Salad
 Salmon Yellow Curry
+Salmon and I get to choose my spice level.
 Salmon and Super Greens Salad
 Salmon and Wild Crab Wrap
 Salmon and Wild Crab and Pineapple Sandwich
+Salmon and tofu
+Salmon and veggies
+Salmon and veggies and some sauce on top.
+Salmon in hot spicy curry
+Salmon in vindaloo sauce
 Salmon with Asparagus
 Salmon with Asparagus in Black Bean Sauce
+Salmon with Honey Mustard
+Salmon with mixed vegetables
+Salmon with vegetables
+Salmon with veggies
 Salmon  Salad
 Salsa
 Salsa and Chips
@@ -5798,7 +6692,11 @@ San Pellegrino Sparkling Mineral Water
 San Pellegrino Sparkling Water
 San Pellegrino Sparkling water 500ml
 San Pellegrino Water
+San'wich with Meatballs
+Sandwhich
 Sandwich
+Sandwich BLT edition
+Sandwich with Thick Toast
 Santa Ana
 Sarah's Favorite Pizza
 Sargent
@@ -5808,12 +6706,19 @@ Satay
 Satay Beef in Sizzling Plate
 Satay Veggie Chicken
 Sate Chicken or Sate Tofu
+Sate Pawn on stick
+Sate Tofu Chick'n
+Sate Tofu Chicken Sate
 Sauce and Cheese
+Sauce, mushroom and cheese pizza with peppers
+Saucy Meatball San'wich
+Saucy meatballs.
 Sausage
 Sausage & Peppers
 Sausage Burrito
 Sausage and Mushroom Pizza
 Sausage and Peppers
+Sausage and mushroom pizza with red peppers
 Sausage, Egg, Cheddar
 Sauteed "Kung Pao" Chicken with Cashew Nuts
 Sauteed Asparagus with Garlic
@@ -5833,6 +6738,7 @@ Sauteed Spinach with Garlic
 Sauteed String Beans with Garlic
 Sauteed Tender Greens with Garlic
 Sauteed Vegetables
+Sauteed green vegetables over rice
 Sautéed Chicken
 Sautéed Fish
 Sautéed Napa Cabbage with Dry Shrimp
@@ -5849,7 +6755,12 @@ Schilling's Cobb Salad
 Schilling’s Ham & Cheese on Artisan Baguette
 Schilling’s Ham and Cheese on Artisan Baguette
 Schmaltz Fried Spicy Chicken Sandwich
+Scissor Boar Noodles
+Scissor Cut Noodles with Scallions and Wild Boar
+Scissor cut noodles
+Scissor cut noodles with sprouts and veggies
 Scoop Of House Made Ice Cream
+Scoop Salad
 Scooter
 Scotch Egg Burger
 Scottie
@@ -5862,6 +6773,7 @@ Scrambled Eggs and Cheese Sandwich
 Scrambled Eggs, Cheese & Meat Sandwich
 Scrambled Eggs, Cheese and Meat Sandwich
 Screamin Tomato
+Se-Ew Noodles
 Sea Bass
 Sea Bass & Mee Gratiam
 Sea Bass Green Curry
@@ -5895,22 +6807,34 @@ Seafood Special Pizza
 Seafood Sunomono
 Seafood Tofu Soup
 Seafood Trio Platter
+Seafood salad
 Seafood  Noodle  Soup
 Sealine; Combination Seafood
 Seared Albacore
 Seared Salmon Toro
 Seared Scallops
 Seared tuna Nicoise
+Season Greens Dish
 Seasonal Baby Bellini
+Seasonal Green Fennel Slaw Salad with Beef
 Seasonal Greens
+Seasonal Salad with Beef Rib
 Seasonal Scramble
 Seasonal Vegetable
 Seasoned Fries
+Seasoned Roasted Eggplant Mash with lentil crisps
+Seasoned String Beans with mild in house chili sauce
+Seasoned rotisserie lamb platter
+Seasoned salmon and garden veggies
+Seasoned vegetables with rice
 Seaweed Egg Flower Soup
 Seaweed Salad
 Seaweed nigiri
 Secret Breakfast
 Secret Dipping Sauce
+See Ew
+See Ew Pad
+See Ew Tofu
 Seekh Kabab
 Seekh Kabab Wrap
 Seekh Kebab
@@ -5921,6 +6845,7 @@ Seniore's Burger Special
 Seniore's Special
 Serious Shrimp & Grits
 Serious Shrimp and Grits
+Serrano Burger
 Sesame Ball
 Sesame Ball with Sweet Lotus Paste
 Sesame Beef
@@ -5934,8 +6859,10 @@ Sesame Rice Dumpling
 Sesame Seed Bun
 Sesame Seed Chicken
 Seven Spice Pork Ribs
+Several pieces of chicken wings with green beans
 Sexi Lexi
 Sexy Fries
+Shaanxi Hand Cut Noodles with Wild Boar and Vegetables
 Shahi Paneer
 Shahi Paneer Tikka Masala
 Shak-Shooka
@@ -5975,9 +6902,14 @@ Shitake Mushroom
 Shitake Roll
 Shitaki
 Shiu Mai
+Shiu with green beans
 Sho Yu Vegan Ramen
 Shoh Good
+Short rib with fennel
 Shortbread Cookies
+Shortbread Cookies Vegan Friendly
+Shortbread Cookies, Vegan Style
+Shortbread wafers
 Shoyu Ramen
 Shredded Belly with Parley
 Shredded Chicken Crepe
@@ -5989,6 +6921,7 @@ Shredded Pork with Spicy Garlic Sauce
 Shredded Pork with String Beans
 Shredded Pork with Szechuan Sauce
 Shredded Potatoes with Hot Oil
+Shredded pork with spicy sauce
 Shrimp
 Shrimp & Crawfish Etouffe
 Shrimp & Vegetable Tempura
@@ -6007,6 +6940,8 @@ Shrimp Express Pizza
 Shrimp Fajitas
 Shrimp Florentine
 Shrimp Fra Diavolo
+Shrimp Fried Pasta noodes
+Shrimp Fried Pasta noodle with chicken and pork
 Shrimp Fried Rice
 Shrimp Ghallaba
 Shrimp In a Blanket
@@ -6015,6 +6950,7 @@ Shrimp Louie
 Shrimp Lover Roll
 Shrimp Mu Shu
 Shrimp Mushroom
+Shrimp Pad
 Shrimp Pineapple Curry
 Shrimp Plate
 Shrimp Po'Boy
@@ -6034,8 +6970,11 @@ Shrimp Tempura Roll
 Shrimp Tikka Masala
 Shrimp Vindaloo
 Shrimp Wonton Soup Spicy
+Shrimp and Chicken Dish with a yellow paste
+Shrimp and Chicken with toppings like raisins and onions.
 Shrimp and Crawfish Etouffe
 Shrimp and Vegetable Tempura
+Shrimp stir fry with chicken
 Shrimp with Hot Spicy Garlic Sauce
 Shrimp with Mixed Vegetables
 Shrimp with Pine Nuts
@@ -6073,6 +7012,7 @@ Side of Salsa Fresca
 Side of Sour Cream
 Side of Spaghetti Marinara
 Side of Tortilla 5 Pieces
+Side salad
 Sidewalk Julius Smoothie
 Sierra Mist®
 Sik Hye
@@ -6087,6 +7027,8 @@ Singapore Style Rice Noodles
 Singapore with Curry Sauce Chow Fun Chow Mai Fun
 Singaporean Noodles
 Single Cans
+Single malt scotch
+Single malt whisky
 Sinigang over Rice
 Sipp
 Sisigon  Hot Plate Side Corn Chips
@@ -6105,7 +7047,10 @@ Sizzling Shakshouka
 Sizzling Shrimp
 Sizzling Three Ingredients
 Skin SOS
+Slamon with carrots and a dressing.
 Slaw
+Slaw & Chicken Deluxe Burger
+Slaw burger
 Slice Fish with Preserved Vegetable in Warm Pot
 Slice Pork with Preserved Vegetable in Warm Pot
 Slice of Kanafeh
@@ -6114,6 +7059,7 @@ Sliced Beef Noodles
 Sliced Beef in Hot Chili Oil
 Sliced Roasted Turkey with Grilled Onions, Bell Peppers, Tomatoes, & Cheese
 Sliced Roasted Turkey with Grilled Onions, Bell Peppers, Tomatoes, and Cheese
+Slightly grilled vegetable sandwich with oil and vinegar and feta cheese
 Slow Baked BBQ Ribs
 Slow Roasted Baby Back Ribs
 Slow Roasted Lamb Sandwich
@@ -6152,11 +7098,16 @@ Smoked Salmon Scramble
 Smoked Trout Sandwich
 Smoked Turkey
 Smoked Turkey Wrap
+Smoked meat trio
+Smoked meat with pepp
+Smokehouse Pizza
 Smokey Jasper’s Burger
+Smokin' Burger
 Smoothie
 Smoothies
 Smothered Pork Chop
 Smothered Pork chop
+Snapdragon Burger
 Snapper and Shrimp Tostadas
 Snapple
 Snapple Lemon Tea
@@ -6181,9 +7132,11 @@ Soft Shell Crab in Yellow Curry Sauce
 Soft Taco Plato
 Soft Tofu Soup
 Soft Tofu with Chili and Scallions
+Soft ginger drink
 Soft  Shell  Crab
 Soft  Shell  Crab  Fried  Rice
 Sole Fillet
+Som Salad
 Som Tom Salad
 Som Tum
 Som Tum Papaya Salad
@@ -6201,9 +7154,13 @@ South Beach
 South Indian Monsoon
 South Sea
 South of the Border
+South of the Border Burger
 Southern Chopped Salad
+Southern Comfort Burger
 Southern Fried Chicken
 Southern Greens
+Southern' Style Pie
+Southwest Taco Salad
 Soy Chai Latte
 Soy Milk
 Soy Sauce Chicken Wings
@@ -6256,15 +7213,22 @@ Special Ghallaba Mix
 Special Meat Enchiladas in Green Chile Sauce
 Special Meat Enchiladas in Red Mole Sauce
 Special Rava Masala Dosa
+Special Rice
+Special Salad
 Special Salsa
+Special Sauce Peking Roast Half-Duck
 Special Veggie Curry
 Specialty Drinks
 Specialty Meat Burritos
 Specialty Meat Tacos
 Specialty Meat Tortas
+Specialty Spiced Eggplant with lentil chips
 Spent Grain Burger
 Spice Hotate
 Spiced Breakfast Burrito
+Spiced Dolmas
+Spicey chicken
+Spicey eggplant
 Spicy Arrabbiata
 Spicy BBQ Chicken
 Spicy Bal-Top Shell Salad
@@ -6276,6 +7240,7 @@ Spicy Beef Ramen
 Spicy Beef Short Rib BBQ
 Spicy Beef Stew
 Spicy Beef with Scallion in Wine Sauce
+Spicy Biryani
 Spicy Bite Biryani
 Spicy Bite Special Hot Sauce Side
 Spicy Braised Eggplant with Minced Pork in a Clay Pot
@@ -6287,11 +7252,14 @@ Spicy Chicken Caesar
 Spicy Chicken Ginger Ale
 Spicy Chicken Rigatoni
 Spicy Chicken Soup
+Spicy Chicken Steamed
 Spicy Chicken Wrap
 Spicy Chicken Zone Pizza
 Spicy Chicken or Beef with Fresh Basil
 Spicy Chicken with Fresh Basil
+Spicy Chicken with Slaw and Salad
 Spicy Chili Sauce
+Spicy Chili onions.
 Spicy Cold Beef
 Spicy Cold Noodle
 Spicy Corncake with Blackeyed Peas
@@ -6322,6 +7290,7 @@ Spicy Hot Salt Pork Chop
 Spicy Kimchee Vegan Ramen
 Spicy Kobe Beef x Roti
 Spicy Lemongrass Veggie Beef
+Spicy Mexican burger
 Spicy Mixed Fish Salad
 Spicy New Zealand Mussels
 Spicy Pastrami
@@ -6333,6 +7302,7 @@ Spicy Prawn and Crispy Fried Portobello Mushroom
 Spicy Pumpkin
 Spicy Pumpkin Tofu
 Spicy Ramen
+Spicy Saffron Rice
 Spicy Sally's Omelette
 Spicy Salmon
 Spicy Salmon Roll
@@ -6345,6 +7315,7 @@ Spicy Seafood
 Spicy Seafood Ramen
 Spicy Seafood Wild Basil
 Spicy Shang Tung Beef
+Spicy Slaw Burger: pepper jack, spiced lemon jam, cabbage slaw, with an addition of cured bacon
 Spicy Special
 Spicy String Bean
 Spicy String Beans
@@ -6359,16 +7330,36 @@ Spicy Tuna Maki
 Spicy Tuna Roll
 Spicy Vegan Chef’s Plate
 Spicy Wings
+Spicy beef salad
+Spicy burger with bacon
+Spicy cabbage cheeseburger
+Spicy chicken sandwich
+Spicy curry with salmon
+Spicy minced lamb kekab
+Spicy minced lamb skewers
 Spicy or BBQ Chicken Wings
+Spicy pork stew
+Spicy pork with rice
+Spicy potato curry
+Spicy prawn
+Spicy prawns and brown rice
+Spicy salmon curry
+Spicy shallow-fried fish
+Spicy vegetable curry
+Spicy vegetables and chicken
+Spicy vegetables and rice
 Spicy  Eggplant
 Spicy  Salmon
 Spider
 Spider Roll
 Spiennes
 Spinach
+Spinach & Feta Salad
+Spinach & Kale Breakfast Quiche
 Spinach Apple Kombucha
 Spinach Garden Pizza
 Spinach Goma-Ae
+Spinach Lover's Salad
 Spinach Masala Dosa
 Spinach Mushroom with Tofu Soup
 Spinach Naan
@@ -6376,12 +7367,18 @@ Spinach Paratha
 Spinach Pesto Hot Sandwich
 Spinach Pesto Special
 Spinach Pie
+Spinach Quiche
 Spinach Salad
+Spinach Salad with Tomato & Feta
 Spinach Tofu Soup
 Spinach Tofu with Mushroom Soup
 Spinach and Artichoke Dip
 Spinach and Corn Miso
 Spinach and Feta Cheese Vegetarian Pie
+Spinach and Goat Cheese Quiche
+Spinach and potato curry
+Spinach and potato in spicy vegetable sauce
+Spinach salad
 Spinach with Bamboo Shoots
 Spinach with Garlic
 Spinach with Ginger Sauce
@@ -6408,10 +7405,13 @@ Squirt
 Sriracha Chicken
 St. Bernard
 St. Finn Barr
+Stacked Club Sandwich
 Standard Candy Bar
 Steak 'n' Eggs
 Steak Bowl
 Steak Caesar Salad
+Steak Cheese
+Steak Cheese Sandwich
 Steak Hot Sandwich
 Steak Lao
 Steak Panchos
@@ -6423,11 +7423,19 @@ Steak Shawarma
 Steak Shawarma Side
 Steak Tacos
 Steak Tampiqueno
+Steak and Cheese Sub
 Steak and Eggs
 Steak and Eggs Frjtz
+Steak and Swiss Cheese
+Steak and cheese hoagie with sweet peppers
+Steak and cheese with sweet peppers
+Steak and lamb meatball plate with hummus
+Steak and sweet pepper sandwich
 Steak et Fromage
+Steak fries
 Steak with Barbecue Sauce & Cheese
 Steak with Barbecue Sauce and Cheese
+Steak with Cheese
 Steak with Grilled Mushrooms, Onions, & Cheese
 Steak with Grilled Mushrooms, Onions, and Cheese
 Steak with Grilled Onions & Cheese
@@ -6462,6 +7470,7 @@ Steamed Fish with Ginger and Green Onions
 Steamed Flounder with Ginger and Onion
 Steamed Glutinous Rice with Chicken and Mushroom wrapped in Lotus Leaf
 Steamed Hot Milk
+Steamed Indian rice
 Steamed Jasmine Rice
 Steamed Jasmine White Rice
 Steamed Korean Sausage
@@ -6480,10 +7489,16 @@ Steamed Salted Egg Yolk Bun
 Steamed Shrimp Dumpling “ Ha Gao”
 Steamed Soy
 Steamed Spare Ribs with Black Bean Sauc
+Steamed Spicy Chicken
 Steamed Tofu
 Steamed Vegetable
 Steamed Vegetables
 Steamed White Rice
+Steamed pork with pickled daikon
+Steamed pork.
+Steamed tempeh
+Steamed vegetables
+Steamed white rice
 Steamed  Rice
 Steamed  Sea  Bass
 Steamed  Tilapia
@@ -6495,13 +7510,23 @@ Stewed Duck Noodle Soup
 Sticky Rice
 Sticky  Rice
 Still Water
+Still water
 Stinchetti di Maiale
+Sting beans and peppers
 Stir Fried Baby Bok Choy
 Stir Fried Shredded Meat with Vegetables served with Thin Wraps
 Stir Fried String Beans
 Stir Fried Triple Delight
+Stir Fry
+Stir fried See Ew
+Stir fried noodle with egg and vegetable, not spicy
+Stir fry vegetables and chicken
+Stir fry with chicken and rice
 Stir – Fried Soy Sauce Noodle
 Stir-Fry Fresh Spinach with Garlic
+Stir-fried flat noodles with chicken
+Stir-fried spicy string beans
+Stir-fry rice noodles with tofu and vegetables
 Stirred Flour Ball with Beef
 Stirred Flour Ball with Chicken
 Stirred Flour Ball with Lamb
@@ -6516,6 +7541,7 @@ Stirred Shrimp
 Strawberry
 Strawberry Almond Smoothie
 Strawberry Banana
+Strawberry Banana French Toast
 Strawberry Banana Smoothie
 Strawberry Bomb Smoothie
 Strawberry Cheesecake
@@ -6526,6 +7552,7 @@ Strawberry Nutella Crepe
 Strawberry Rhubarb
 Strawberry Shortcake
 Strawberry, Apple, Lime
+Strawnana Toast
 Stressful Time SOS
 String Bean
 String Bean Beef
@@ -6536,9 +7563,14 @@ String Bean with Dry Shrimp
 String Bean with Tofu in Garlic and Salt
 String Beans with Chili Sauce with Pork
 String Beans with Fried Tofu
+String beans with basil and peppers
+String beans with chili sauce
+String beans with peppers and chili sauce
+String fries
 String  Bean
 Stripped Salmon
 Student Special
+Stuffed Dolmas
 Stuffed Mushrooms
 Stuffed Shells
 Sudha Dahi
@@ -6551,10 +7583,12 @@ Suki Beef and Tempura Mix
 Sukuti
 Sumac Seasoned Onions
 Summer Roll
+Summer salad
 Summer  Duck  Rolls
 Sumo
 Sundried Tomato Bagel
 Sunkist
+Sunnyside up eggs
 Sunomono
 Sunomono Cucumber
 Sunomono Salad
@@ -6571,8 +7605,10 @@ Super California Roll
 Super Combo
 Super Combo # 1
 Super Combo # 2
+Super Duper Fries
 Super Fries
 Super Nachos
+Super Power Smoothie
 Super Powers Smoothie
 Super Prawn Taco
 Super Quesadilla
@@ -6607,6 +7643,7 @@ Sushi and Sashimi Combo
 Sushi for Two
 Swedish Pancakes
 Sweet & Hot Pizza
+Sweet & Savory Braised Pork
 Sweet & Sour A La Carte
 Sweet & Sour Over Rice
 Sweet & Sour Pork
@@ -6625,6 +7662,7 @@ Sweet Potato Roll
 Sweet Potato Steak Fries
 Sweet Potato and Roasted Squash Benedict
 Sweet Rice Tamale
+Sweet Roasted Duck
 Sweet Roti
 Sweet Sauce Marinated Chicken
 Sweet Scones
@@ -6654,10 +7692,14 @@ Sweet and Sour Salmon
 Sweet and Sour Sauce
 Sweet and Sour Sea Bass
 Sweet and Sour Shrimp
+Sweet and sour chicken
+Sweet and sour chicken or prawn
 Sweet n Sour Pork
 Sweet potato fries
+Sweet, hot and sour curry
 Sweet Basil
 Swiss Bacon Burger
+Swiss Cheese Steak Sub
 Swiss Mushroom Burger
 Sylvia’s Sausage
 Syrian Style Wrap
@@ -6687,6 +7729,7 @@ Tabbouleh Salad
 Taboulah
 Tabouleh
 Taco
+Taco Nachos
 Taco Platter
 Taco Salad
 Taco Trio
@@ -6695,6 +7738,7 @@ Taco de Carne Asada
 Tacos al Pastor
 Tacos de Carnitas
 Tadasana Burger
+Taffy apple chicken salad
 Tagliatelle Nero
 Tahitian V*ni!l@
 Tai
@@ -6717,9 +7761,12 @@ Tamales de Pollo
 Tamarind
 Tamarind Chutney
 Tamarind Fish
+Tamarind Prawns
 Tamarind Rice
 Tamarind Sauce Side
 Tamarindo
+Tandoor Chicken
+Tandoor Naan
 Tandoori Chicken
 Tandoori Chicken Salad
 Tandoori Chicken Wings
@@ -6736,6 +7783,7 @@ Tandoori Roti
 Tandoori Salmon
 Tandoori Shrimp
 Tandoori Wings
+Tandoori baked lamb curry
 Tango Mango
 Tannour Bread
 Tao Yin Special Roll
@@ -6755,6 +7803,8 @@ Tejava Unsweetened Iced Tea
 Tekka Maki
 Tekka Roll
 Tekka-Tuna
+Tempeh
+Tempeh Crisp
 Tempura
 Tempura Banana
 Tempura Don
@@ -6785,10 +7835,12 @@ Thai Chicken
 Thai Chicken Pasta
 Thai Chicken Satay
 Thai Egg Roll
+Thai Eggplant Soup
 Thai Enoki
 Thai Fish Cakes
 Thai Fried Chicken Over Fried Rice
 Thai Fried Rice
+Thai Garden Beef
 Thai Hot Basil Leaf A La Carte
 Thai Hot Basil Leaf Over Rice
 Thai Hot Tea
@@ -6797,18 +7849,41 @@ Thai Ice Tea
 Thai Iced Coffee
 Thai Iced Tea
 Thai Idea Duck
+Thai Me Down
+Thai Mix Pad
+Thai Noodle Shrimp
+Thai Noodles
+Thai Pad
+Thai Pad Noodles
 Thai Roti
 Thai Salmon Ceviche
 Thai Samosa
 Thai Spicy Pan Fried
 Thai Style Fried Rice
 Thai Tea
+Thai Us Up!
+Thai basil bowl with jasmine rice
+Thai basil not spicy please
+Thai chicken
+Thai chicken peanut salad
+Thai chili beef
+Thai coconut curry with tofu and zucchini
+Thai flat noodles with chicken
+Thai noodles with egg and tofu
+Thai rice Pad
+Thai salad
+Thai sour and spicy soup make it with Tofu
+Thai stir-fried noodles
+Thai style spicy soup with Tofu
+Thai tom yum soup
 Thai  Fried  Rice
 Thai-Iced Coffee
 Thai-Iced Tea
 Thai-Style Beef Jerky
 Thaitanic Beef
 Thaitanic Tofu
+That burger that has lemon sauce and slaw.
+The  goat  cheese  dish
 The 76er
 The ACE
 The Acai and Pitaya Twister
@@ -6833,10 +7908,13 @@ The Briezy
 The Bruce Lee Juice
 The Bunny Slope
 The Bunny Slops
+The Burger Truck
 The Buzzer Beater
 The Call In
 The Chairman Rice
+The Chicken Sandwich with Chipolte sauce
 The Chili Davis
+The Classic Burger
 The Clubhouse
 The Compromise
 The Cooked Cardinal
@@ -6903,12 +7981,21 @@ The Tuscan
 The Ultimate
 The Ultimate Jay's Burrito
 The Ultimate Sub
+The Ultime Cheese experience covered with Alfredo Sauce
 The Vegetarian Frjtz Burger
 The Venice
 The Wedge
 The Weeping Lady”
 The Whitney Omelet
 The Wobbs
+The best eggs benedict
+The can´t go wrong Chesse covered with Alfredo Sauce
+The flat bread - looks similar to a tortilla
+The hot mayo burger wrapped with lettuce
+The spicy Basil dish
+The trucker
+The works burger
+Thep Chicken
 Thep Phanom Steak
 Thep Style Fried Calamari or Mushroom
 Thep Thong
@@ -6917,6 +8004,8 @@ There’s Something About Rosemary
 Third Supreme Chicken
 Thit Nuong
 Thit Nuong Cuon
+Thong Chicken
+Thong Thep
 Three Amigos
 Three Buddies
 Three Cheese Pizza
@@ -6928,26 +8017,37 @@ Three Some
 Three Toppings
 Three Twins Bittersweet Chocolate Ice Cream
 Three Twins Madagascar Vanilla Ice Cream
+Three appetizer plate with walnut dip, pomegranates, and peppers
 Three  Buddies
 Three’s Company
 Thums Up
 Tia's Quesadilla
 Tiger
+Tiger Beef Crying
+Tiger Cry
+Tiger Cry Spice
+Tiger Grilled Beef
 Tiger Roll
 Tijuana Caesar Salad
 Tijuana Special
 Tijuana Special Pizza
+Tikka Chicken
+Tikka Rogan
 Tikka Tikka Hummus
+Tikka chicken
 Tilapia Meal
 Tilapia with Tamarind Sauce
 Tiramisu
 Tiramisu Cake
 Toast
+Toasted Bacon & Salad Sandwich
 Toasted Bagels
+Toasted Cheese & Tomato Sandwich
 Toasted English Muffin
 Toasted Mexican Sandwich
 Toasted Ravioli
 Toasted Turkey
+Toasted sandwich with chicken, tomato sauce and cheese
 Tobiko
 Tobiko  Sushi
 Tobiko Nigiri Sushi
@@ -6968,14 +8068,26 @@ Tofu Makhur
 Tofu Prig Khing
 Tofu Salad
 Tofu Sandwich
+Tofu See Ew
+Tofu Shrimp Pad
 Tofu Soup
 Tofu Tarkari
 Tofu Thai Basil
 Tofu Tod
+Tofu Vegetable Dish
+Tofu Vegetable Stir Fry
+Tofu Veggies Combo
+Tofu Veggies Mix
 Tofu and Taro
+Tofu and veggie stir fry rice noodles
+Tofu basil
+Tofu curry with eggplant
+Tofu pad thai
 Tofu stir-fry
 Tofu with Beef
 Tofu with Double Mushroom
+Tofu with creamy bell pepper and zucchini curry sauce
+Tofu with mixed vegetables, not spicy.
 Tofu  Salad
 Togarashi Dusted Brussels Sprouts
 Tom Ka
@@ -6987,6 +8099,7 @@ Tom Kha Khai Ravioli
 Tom Kha Pak
 Tom Kha Soup
 Tom Kha Veggie
+Tom Salad Som
 Tom Yum
 Tom Yum Fried Rice
 Tom Yum Gai
@@ -6997,6 +8110,7 @@ Tom Yum Noodle
 Tom Yum Noodle Soup
 Tom Yum Soup
 Tom Yum Veggie
+Tom soup with chicken please
 Tom  Kha with Chicken
 Tom  Kha with Seafood
 Tom  Kha with Shrimp
@@ -7009,6 +8123,7 @@ Tom  Yum  Noodle  Soup
 Tomago
 Tomato
 Tomato Basil
+Tomato Basil and brie on a baguette
 Tomato Beef
 Tomato Beef Chow Fun
 Tomato Beef Chow Mein
@@ -7035,6 +8150,7 @@ Top of the Mornin'
 Torta
 Torta de Frango
 Tortilla
+Tortilla and Eggs Ranchero Style
 Tossed Green Large Salad
 Tossed Green Salad
 Tossed Green Small Salad
@@ -7043,11 +8159,19 @@ Tostones
 Totopos
 Totopos con salsa
 Traditional Caesar
+Traditional Hummus
+Traditional Indian garlic bread
+Traditional Indian vegetarian curry
+Traditional Indian white rice
+Traditional Punjabi chickpea curry
 Traditional South Indian Coconut Rice
+Traditional vegetable curry
+Traditional veggie curry
 Treasure Island Roll
 Trentino
 Tres Amigos
 Tri- Flavor Whole Fish
+Tried and True Pepperoni Pizza
 Trinity Burger
 Trio Combo Mix
 Trip-Tip Sandwich
@@ -7060,6 +8184,12 @@ Tropical Spinach Salad
 Tropical Tacos for Two
 Tropical Valencia Smoothie
 Trout
+Truck Burger
+Truck Burger Stop
+Truck The Burger
+Truck stop pork patty
+Trucker Burger
+Truckin Burger
 Truffle Fries
 Truffled Mushroom Fritti
 Tum Buk Hoong
@@ -7078,7 +8208,10 @@ Tuna Melt
 Tuna Melt Diablo
 Tuna Melt Panini
 Tuna Melt Sandwich
+Tuna Melt Sandwich with Chipotle
 Tuna Melt Wrap
+Tuna Patty
+Tuna Patty Melt
 Tuna Pizza
 Tuna Poke
 Tuna Poke Salad
@@ -7088,12 +8221,17 @@ Tuna Provolone Sandwich
 Tuna Salad
 Tuna Salad Sandwich
 Tuna Salad or SandwichCapers with Lemon Olive Oil Dressing
+Tuna Sandwich on Toast
 Tuna and Artichoke salad
 Tuna and Artichoke sandwich
 Tuna and Olive salad
 Tuna and Olive sandwich
+Tuna and Tomato Cheese Melt Sandwich
 Tuna or Chicken
+Tuna salad sandwich
+Tuna sandwich
 Tuna with eggs
+Tuna, Tomato and Cheese on Toast
 Turkey
 Turkey & Fig sandwich
 Turkey Avocado
@@ -7108,6 +8246,7 @@ Turkey Club Cold Sandwich
 Turkey Club Sandwich
 Turkey Cold Sandwich
 Turkey Cranberry
+Turkey Ham Bacon Club Sandwich
 Turkey Ham Sandwich
 Turkey Hash
 Turkey Link Sausage
@@ -7122,18 +8261,23 @@ Turkey Sandwich
 Turkey Sausage Links
 Turkey Swiss Avocado Sandwich
 Turkey and Fig sandwich
+Turkey baconator
 Turkey, Pesto, Avocado Hot Sandwich
 Turkey-Bacon-Avocado
 Turkish Delight
 Turmeric Chicken Fried Rice
 Turmeric Rice
+Turmeric pork.
 Tuscan Melt Panini Sandwich
+Tuscan chicken sandwich
 Tutto Mare
 Tuxedo
 Twice Cooked Meatless Chicken
 Twice Cooked Pork
 Twin Scallops Fried Rice
 Twinsie Donuts
+Twisted Bread Sticks with a side of ranch
+Twisted Breadsticks
 Twisted Sticks
 Two Biscuits with Gravy
 Two Biscuits with Sweet Butter
@@ -7145,8 +8289,12 @@ Two Eggs, Home Fries, and Toast
 Two Liter
 Two Sausage Plate
 Two Toppings
+Two eggs cover in sauce with hash browns
+Two eggs with hash browns
+Two poached eggs with English muffin
 Tzatziki
 Tzatziki with Pita
+U.S.A. Burger
 U2 Specialty Roll
 Udon Pad Thai
 Udon Soba w Shrimp & Vegetable Tempura
@@ -7154,7 +8302,9 @@ Udon Soba w Shrimp and Vegetable Tempura
 Udon Soba w Vegetable Tempura
 Udupi Combo
 Udupi Spring Dosa
+Ultimate Chicken Pita Bread Plate
 Ultimate Veggie Sandwich
+Ultra Fries
 Umami Kapi Rice
 Ume Roll
 Ume-Pickled Plum
@@ -7197,6 +8347,7 @@ Vegan Apple Sage Sausage on a French Roll
 Vegan Beet Lentil Cheeseburger
 Vegan Chef’s Plate
 Vegan Chipotle Sausage on a French Roll
+Vegan Chocolate Chip Cookies
 Vegan Italian Sausage on a French Roll
 Vegan Jambalaya
 Vegan Kielbasa Sausage on a French Roll
@@ -7205,6 +8356,7 @@ Vegan Muffins
 Vegan Pizza
 Vegan Quesadilla
 Vegan Sandwich
+Vegan Shortbread Cookies
 Vegan without Cheese and Eggs Wrap
 Vegan  Delight
 Vege Biryani
@@ -7213,6 +8365,7 @@ Vegetable Alambres
 Vegetable Basmati Rice
 Vegetable Bibimbap
 Vegetable Biryani
+Vegetable Cashew Himmaparn
 Vegetable Chow Fun Chow Mai Fun
 Vegetable Chow Mein
 Vegetable Coconut Curry
@@ -7230,6 +8383,7 @@ Vegetable Korma
 Vegetable Korma Curry
 Vegetable Lumpia
 Vegetable Malai Kofta
+Vegetable Mix Tofu
 Vegetable Mo: Mo
 Vegetable Mu Shu
 Vegetable Pakora
@@ -7245,16 +8399,25 @@ Vegetable Tikka Masala
 Vegetable Udon Ramen
 Vegetable Vindaloo
 Vegetable and Tofu Stir Fried Noodles
+Vegetable and feta Salad
+Vegetable curry
 Vegetables 8 oz
 Vegetables Biryani
 Vegetables Fried Rice
 Vegetables Tempura
 Vegetables and Tofu Plate
+Vegetables and chicken with chili sauce
+Vegetables and rice with chili sauce
+Vegetables in a spicy sauce
+Vegetables in creamy sauce
+Vegetables with mild curry sauce
+Vegetables with tofu, not spicy.
 Vegetarian
 Vegetarian Burger
 Vegetarian Burrito
 Vegetarian Burritos
 Vegetarian Chili
+Vegetarian Chocolate Chip Cookies
 Vegetarian Curries
 Vegetarian Curry
 Vegetarian Delight
@@ -7275,8 +8438,11 @@ Vegetarian Pita
 Vegetarian Pizza
 Vegetarian Plato
 Vegetarian Platter
+Vegetarian Pumpkin Curry with Rice
 Vegetarian Putine with cheddar curds
 Vegetarian Quesadilla
+Vegetarian Quice
+Vegetarian Quiche
 Vegetarian Ramen
 Vegetarian Rolls
 Vegetarian Samosa
@@ -7289,7 +8455,10 @@ Vegetarian Spring Rolls
 Vegetarian String Beans
 Vegetarian Thai Fried Rice
 Vegetarian Torta
+Vegetarian chickpea curry
+Vegetarian curry
 Vegetarian or Vegan Wrap
+Vegetarian string beans
 Vegetariano Burrito
 Vegetariano Taco
 Vegetarians  Rolls
@@ -7301,19 +8470,25 @@ Veggie Biryani
 Veggie Boca Burger
 Veggie Burger
 Veggie Burrito
+Veggie Cheese Quiche
 Veggie Chicken Vindaloo Curry
 Veggie Chili
 Veggie Combination Chow Mein
 Veggie Combination Fried Rice
 Veggie Combination Rice Noodle
 Veggie Combo
+Veggie Cookies
 Veggie Crab Cakes
 Veggie Delight
 Veggie Delight Pizza
 Veggie Deluxe Special
+Veggie Drink
 Veggie Dumpling
+Veggie French Bread
 Veggie Garden Burger
 Veggie Grill
+Veggie Hakka Noodles
+Veggie Heaven Pizza
 Veggie Kebab Plate
 Veggie Lamb Yellow Curry
 Veggie Lasagna
@@ -7322,37 +8497,55 @@ Veggie Lover's Panini
 Veggie Lover's Salad
 Veggie Lover's Wrap
 Veggie Meatless Chicken Roll
+Veggie Mix Tofu
 Veggie Mushroom Swiss Burger
 Veggie Noodle Soup
 Veggie Omelet
+Veggie Panini
+Veggie Panini Style Sandwich
 Veggie Pesto Pizza Slice
 Veggie Philly Hot Sandwich
 Veggie Phoenix Roll
 Veggie Pizza
 Veggie Pizza Sub Hot Sandwich
 Veggie Pot Sticker
+Veggie Quiche
+Veggie Salmon Grill
 Veggie Sandwich
 Veggie Sandwich Panini
+Veggie Sandwich with feta
+Veggie Shortbread
 Veggie Shrimp Rolls
+Veggie Smoothie
 Veggie Special Pizza
+Veggie Stir Fry with Tofu
 Veggie Sub
 Veggie Sub Sandwich
 Veggie Subs
 Veggie Tempura
 Veggie Tempura Don
 Veggie Tempura Roll
+Veggie Tofu
 Veggie Wedgie
 Veggie Wrap
+Veggie house special curry
+Veggie meatballs
+Veggie noodles with a side of lentils
+Veggie quiche
+Veggie salad
+Veggie stir fry with tofu, not spicy.
 Veggie  Noodle  Soup
 Veggiemeister
 Veggies Roll
 Veggies n' Grits
 Veggies of  the day
 Veggilicious
+Veggy pad king
 Vegi Sandwich
 Veneto
 Venison Chow Fun
 Veraci Pizza
+Verde Burger
 Verdure Sampler
 Verdure salad
 Verdure sandwich
@@ -7371,6 +8564,8 @@ Vietnamese Ham Sandwich
 Vietnamese Iced Coffee
 Vietnamese Lemongrass Tofu Sandwich
 Vietnamese Vegetarian Sandwich
+Vietnamese meat (tofu) rolls
+Vietnamese rolls
 Village
 Virgin Farmhouse Lemonade
 Virgin Fries
@@ -7386,6 +8581,7 @@ Volcano Roll
 Vongole e Cozze Clams and Mussels
 Voodoo Chili Bowl
 Voodoo Roll
+W
 W1) Pine Nuts Pulled Chicken
 W2) Chicken Breast Wraps
 W3) Veggie Wraps
@@ -7402,6 +8598,7 @@ Wakame-Seaweed
 Walnut Asparagus
 Walnut Prawn
 Walnut Prawns
+Walnut Roasted Beetroot
 Walu
 Warak Enab
 Warm Chicken Salad
@@ -7413,6 +8610,7 @@ Watermelon Juice
 Watermelon Litchi Smoothie
 Watermelon Wow Juice
 Wayu Beef
+Wayyy Too Hot Burger
 Wedges
 West Lake Beef Soup
 West Lake Lamb Dumpling
@@ -7427,6 +8625,7 @@ Wham, Bam, Thank You Mammoth
 WhamBam Thank You Mammoth
 Wheat or Sourdough Toast or English Muffin
 Whipped Sweet Potatoes with Brown Sugar
+Whipped cream topped French toast, strawberries and bananas
 White Jasmine Rice
 White Mocha
 White Out
@@ -7435,6 +8634,7 @@ White Rice
 White Tuna
 White Tuna Nigiri Sushi
 White Zone Pizza
+White fish with lentils in medium spicy sauce
 Whole Chicken
 Whole Chicken Meal
 Whole Garlic Bread
@@ -7446,9 +8646,12 @@ Whole Wheat Special
 Whole Young Coconut
 Wide Rice Noodle Salad
 Wild Baby Arugula Salad
+Wild Boar Noodles with Chairman Mao
 Wild Boar Sausage on a French Roll
 Wild Boar Scissor Cut Noodles
+Wild Boar Scissor Noodle Dish topped with Chairman Mao
 Wild Burger
+Wild Noodles Boar
 Wild Pepper Chicken
 Wild Pepper Eggplant
 Wild Pepper Lamb Chop
@@ -7456,12 +8659,21 @@ Wild Pepper Meatless Chicken
 Wild Pepper Spice Noodle
 Wild Pepper Tofu
 Wild Scallops
+Wild Scissor Cut Noodles
+Wild Scissor Noodles
+Wild boar dish
+Wild boar noodles
+Wild boar noodles.
+Wild noddles
+WildBoar Scissor Cut Pasta with Chairman Mao Sauce
 Willy’s Philly
 Wilmer
 Wing Bomb
+Wing Chicken Bang Bang
 Wingin It
 Wingin' It
 Wings
+Wings and vegetables
 Winter Veggie Jambalaya
 Winter Veggies & Stoneground Grits
 Winter Veggies and Stoneground Grits
@@ -7480,11 +8692,13 @@ Wonton  Soup with Shrimp
 Wonton  Soup with Tofu
 Wor Won Ton Soup
 Wor Wonton Soup
+Wrap burger
 X-Large 18'' Pizza with 3 Toppings, 6 Jalapeno Poppers or One 2 Liter Soda Special
 X-Large 18'' Pizza with 3 Toppings, 6 Mozzarella Sticks or One 2 Liter Soda Special
 X-Large Cheese Calzone
 X.O. Sauce Beef
 XO Sauce
+Xtra Large Pizza with Alfredo Sauce
 Y1. Ramu Yaki
 Y10. Namajake Sumiyaki
 Y11. Yakitori Moriawase
@@ -7515,6 +8729,7 @@ Yellow Curry with Pork
 Yellow Curry with Salmon
 Yellow Curry with Seafood
 Yellow Curry with Tofu
+Yellow Curry with steamed rice
 Yellow Daal
 Yellow Daal Tadka
 Yellow Sea
@@ -7531,6 +8746,9 @@ Yogurt
 Yogurt Dip "Tzazekee"
 Yogurt Parfait
 Yogurt Salad
+Yogurt condiment
+Yogurt with cucumber
+Yogurt with cucumber and mint
 You Say Potato
 Young's Turkey Delight
 Your Choice Plate
@@ -7541,6 +8759,8 @@ Yum Nuea
 Yum Salad
 Yum Woon Sen
 Yum Woon-Sen Salad
+Za'atar
+Za'atar Manaesh
 Zafrani Lassi
 Zahtar, Sumac & Parsley Fries
 Zahtar, Sumac and Parsley Fries
@@ -7556,7 +8776,1225 @@ Zorro
 Zucchini
 Zucchini Sticks
 Zucchini and Mushroom Vegetarian Pie
+a glueten free platter with falafels dolmas and humas
+a meat choice with honey sauce.
+a platter with babaghanoush and a cucumber tomato salad
+agave based shot
+alfredo cheese pizza
+alfredo sauce pizza
+all american burger and add bacon
+all american burger on lettuce wrap
+all american burger with bacon
+all american burger with extra apples
+all american burger with the house bacon
+all american burger with the spicy mayonnaise
+all american burger, add spicy mayo
+all american with extra apples on it
+all american with some apples on it
+all american, add spicy mayo
+almond parmesan meatballs with cheese and veggies
+an orange dip with pita bread
+app plate with a pita
+app plate with another pita
+app platter with a pita
+app platter with an extrap pita
+appetizer meza with Pomegranates Roasted Pepper Walnut Dip
+appetizer plater with a pita
+appetizer platter with a side of pickles
+appetizer platter with an extra pita
+apple and cheese salad with chicken
+apple and chicken salad
+apple and chicken salad with cheese
+apple burger in a lettuce wrap
+apple burger with a pork belly patty
+apple burger with pork patty
+apple, cheese, and chicken salad
+artisan brie and tomato
+bacon burger with lemon jam
+bacon cheese fries
+bacon cheese steak
+bacon lettuce and tom
+bacon lettuce tomato, extra bacon
+bacon sandwich
+bacon super fries
+bacon supreme with tomato
+bacon tomato on white bread
+bacon, lettuce, tomato
+baguetee with brie sandwich
+baguette brie and tomato
+baked chicken with onions and salad, gluten free pita
+baked dough with chocolate chips
+baklava with some walnut
+baklava with the walnut flavor
+balsmic pepper  curry
+bang bang chicken and green beans
+bang bang chicken and some green beans
+bang bang chicken wings with green beans
+bang bang chicken with mao sauce
+bang bang wings and mao sauce
+bang bang wings with green beans
+bang chicken and mao sauce
+bang wings with mao sauce
+baos steamed with crisp tempeh
+baos with the spicy chicken
+basil fried prawns with some chicken
+basil prawns and chicken
+basil prawns with prawn meat
+basil sauce prawns
+basil shrimp
+basil thai
+basil thai dish with jasmine rice steamed
+bbq chicken and salad
+bbq chicken pie with red peppers
+bbq chicken pizza
+bbq chicken pizza, add red peppers
+bbq pork fried rice with shrimp
+bbq wing
+bean sprout and scallion mushroom bowl
+beans in chili sauce with Jasmine rice
+beef kebab platter with hummus
+beef kebabs with a side of hummus
+beef lime salad, add chicken
+beef mixed with parsley and onion
+beef rib baos
+beef rib noodle salad
+beef rib noodles
+beef salad
+beef salad with lime dressing, add chicken
+beef short rib rice bowl
+beef short ribs with seasonal greens
+beef strip plate and some chicken
+beef strip plate, add chicken
+beef strips with some chicken
+beef thai bowl with jasmine rice
+beetroot and walnut dip and a pita
+beetroot walnut dip with a pita
+bell pepper and peanut chicken with chairman mao sauce
+bell pepper soup with a side of rice
+bell peppers with string beans
+big burger
+big cheese pizza with alfredo
+bikini dish with lime dressing
+bikini prawn salad
+bikini salad
+black bean chicken special
+black bean sauce noodle, not spicy
+black lentil curry
+black rice
+black rice with mao sauce
+blacked salad
+blackened beef strip salad
+blackened beef strips
+blended chick pea
+blended chick peas
+blt gourmet
+blt sandwich
+blt sandwich, add extra bacon
+blt with more bacon
+boar and noodles side of sichuan beans
+boar cut noodles and green beans
+boar noodles and chairman mao sauce
+boar noodles and green beans
+boar noodles and jasmine rice
+boar noodles and mao sauce
+boar noodles and sichuan beans
+boar noodles with sichuan green beans
+boar noodles with the chairman mao sauce
+boiled rice with minced lamb
+boneless duck with a sauce and rice.
+bottle of Evian
+bottled water
+bread filled with bacon lettuce and tomato
+bread filled with meat and veggies
+breakfast casserole
+breakfast dish with beans, egg and tortillas
+breakfast quiche
+brie and parm meatballs
+brie and tomato baguette
+brie sandwich
+buffalo wings with blue cheese
+build your own salad platter
+burger in lettuce wrap
+burger with fried chili spicy mayo
+burger with sliced granny smith apple
+burger with the pork belly patty
+butter almond and cheese salad
+butter lentil curry
+caesar
+caesar salad with blakened salmon
 cajun shrimp omelet
+calamari with sauce, substitute prawn
+carve club sandwich toasted
+carve sub with provolone
+cashew and bellpeppers
+cashew chicken
+cashew chicken with veggies
+chairman mao sauce rice
+chairman rice bowl
+chairman rice dish
+chak-hao
+chedder cheese burger on a buttery bun
+cheese alfredo pizza
+cheese fries with bacon
+cheese only pizza
+cheese pizza
+cheese pizza with alfredo sauce
+cheese pizza with roasted red peppers
+cheese steak add bacon
+cheese steak and sweet peppers
+cheese steak with bacon
+cheese steak with sweet peppers
+cheese steak with swiss
+cheese steak, but with swiss
+cheeseburger
+cheesesteak sandwhich
+cheesy Pepperoni Pizza with extra topping
+cheesy tuna salad sandwich
+chef salad with ranch
+chick and  papp
+chick pea derived dip
+chicken and basil curry
+chicken and corn rolls with more chicken
+chicken and corn rolls, extra chicken
+chicken and egg rice noodles
+chicken and green beans
+chicken and lamb glutten free platter
+chicken and potato curry
+chicken and tomato sauce and lentil wafers
+chicken and tomato sauce with some wafers
+chicken and vegetable curry
+chicken and veggie curry
+chicken apple salad
+chicken bacon cheese sandwich
+chicken bean plate
+chicken breast sandwich with bacon and pesto
+chicken coconut curry
+chicken egg roll wrap
+chicken feta apple salad
+chicken fried calamari
+chicken fried pineapple rice
+chicken fried squid
+chicken himmaparn
+chicken hummus platter
+chicken in tandoor with wafers
+chicken kebab plate with a pita
+chicken kebab platter with pitas
+chicken korai
+chicken korma
+chicken kung pao and jasmine rice
+chicken kung pao over jasmine rice
+chicken kung pao over steamed jasmine rice
+chicken kung pao with green beans
+chicken kung pao with house sauce
+chicken kung pao with jasmine rice
+chicken kung pao with mao sauce
+chicken kung pao with the green beans
+chicken on a stick
+chicken or tofu sate
+chicken pad
+chicken pad himmaparn
+chicken pad prik king
+chicken pad prik king dish
+chicken pad se  ew
+chicken pad se-ew noodles
+chicken pad thai
+chicken parma, toasted
+chicken pineapple rice
+chicken pizza
+chicken pizza with red peppers
+chicken plate with hummus
+chicken platter that's gluten free
+chicken platter with a pita
+chicken platter with hummus
+chicken platter with no gluten
+chicken pumpkin curry
+chicken pumpkin flavored curry
+chicken red curry
+chicken rice noodles with egg
+chicken roasted with pappdum
+chicken salad with apple
+chicken sate
+chicken stir fry
+chicken supreme
+chicken tan
+chicken tandoori with wafers
+chicken thai pad style
+chicken triangles
+chicken tuscan
+chicken wings with a side of green beans
+chicken wings with blue cheese
+chicken with cashew and veggies
+chicken with chili sauce, bell peppers and peaunts and some green beans
+chicken with chillies
+chicken with corn rolls, add more chicken
+chicken with peanuts and bell peppers with chairman sauce
+chicken with peaunuts and bell peppers
+chicken with sichuan green bean
+chicken with the tomato sauce and wafers
+chicken yellow curry
+chicken, bell pepper, green bean chili sauce
+chicken, stew over rice, and spicy sauce
+chickpea dip
+chickpea spread with bread
+chili cashew
+chili string beans
+chilli beans
+chilli garlic curry
+chinese chicken salad
+chipotle mayo tuna
+chipotle spiced chicken sandwich
+chipper  dipper
+chix and cheese
+choco chip disc
+choco mousee glut free
+choco mousse supreme
+chocolate chip
+chocolate pudding
+chuncky chicken and veggies on skewer over rice and side pita
+class burger add more cotija cheese
+classic  steak  sandwhich
+classic bacon burger
+classic burger in a gluten free lettuce wrap
+classic burger in a lettuce wrap
+classic burger using the spicy mayo
+classic burger with extra cheese
+classic burger with extra cotija
+classic burger with some bacon
+classic burger with the homemade spicy mayo
+classic burger with the spicy mayo
+classic burger, but add bacon
+classic cheese 8" individual sized
+classic individual cheese pizza with alfredo sauce
+classic large cheese pizza
+classic pizza
+club
+club carve sub, make it toasted
+club sandwhich
+club sandwich
+clubber
+clubby with sourdough
+cocoa chip cookies
+coconut  soup
+coconut and potato curry
+coffee cake
+coke and  a pork
+coke braised pork, steamed
+coke pork baos, steamed
+coke pork steamed baos
+coke wrap
+colorful chicken and vegetables
+cookie crackers
+cookie with chocolate chips
+cookies with chocolate in them
+corned beef hash with eggs and potatos
+corny beef
+creamy bean dip
+creamy chicken with coconut
+crisp  cut  fries
+crisp onions with spicy mayo
+crisp tempeh steamed baos
+crispy basil chrimp
+crispy onions with hot mayo
+crispy onions with some spicy hot mayo
+crunchy octopus
+crushed tomato cheese pizza
+crying salad
+curry and rice
+curry over rice with tofu
+curry pumpkin dish
+curry with chicken
+curry with extra dried chillis
+custom classic cheese pizza with possible alfredo sauce
+cut up chicken with veggies
+dark rice and mao sauce
+dark rice, barley and mao sauce
+dark seared salmon salad
+deep fried  prawn
+deep fried prawns and corn rolls
+deluxe tuna salad sandwich
+devil tuna
+devil tuna mely
+devilish tuna melt
+dim sum dumpling
+dim sum platter with green beans
+dipping  wings
+dolmas and a pita
+dolmas with a pita
+dolmas, add a pita
+dorri platter
+double basil prawns
+double sized shot of tequila
+duck dish but i had prawn instead
+duck in honey sauce with brown rice
+duck with green onions and cucumber
+duck with hoisin sauce
+duck with veggies and brown rice.
+egg roll baskets
+egg roll pockets
+eggless caesar salad
+eggs and tortilla breakfast
+eggs benny
+eggs hash and tats
+eggs mexican style
+eggs with hash and potatos
+eggs with pork and potato
+eggs with sausage
+eggs, potatoes, and hash
+eggy tats with hash
+etra large alfredo pizza
+extra large white cheese sauce pizza
+extra large white sauce pizza
+fafafel meal add a pita
+fafafel meal combo with pita
+fafafel plate with an extra pita
+falafel and hummus platter, no gluten
+falafel plate and pickles
+falafel plate with an extra pita
+falafel platter with a side of pickles
+falafel platter with an extra pita
+falafel platter with pickles
+falafel salad
+falafel salad large
+falafel salad supreme
+falafel salad with tzatziki
+falafel sampler with an extra pita
+falafel with pickles.
+falefels and feta salad
+family sized cheese pizza
+fancy dessert pastry
+farmer green salad
+firecracker burger lettuce wrap
+firecracker burger with pork patty
+firecracker burger with spicy mayo
+firecracker burger with spicy mayo on it
+firecracker burger wrapped in lettuce
+firecracker burger, add spicy mayo
+firecracker lettuce wrap
+firecracker with pork patty
+fish and  rice
+five pieces of falafel, tossed salad, pita and garlic sauce
+flaky walnut dessert pastry
+flat english muffin topped with cilanto- and a side of thin crisps
+flat garlic bread with a side of the light crackers
+flat noodles with some jasmine rice
+flatbread accompanyment
+flatbread pizza with pepperoni
+forbidden rice and mao sauce
+forbidden rice with chairman mao sauce
+forbidden rice with mao sauce
+four salad sampler
+fragrant rice
+french toast with fruit
+frenchy toast with banana
+fresh lemon saffron rice
+fresh salmon with honey mustard glaze
+fried beef or fried shrimp with salad
+fried chicken and corn rolls, but with prawns
+fried chicken with black beans
+fried egg with a rice bowl
+fried fried chicken salad with salad
+fried noodles in sauce
+fried octopus
+fried prawn with sweet and sour sauce
+fried prawns
+fried prawns and brown rice
+fried prawns and corn rolls
+fried prawns with brown rice
+fried rice
+fried rice with prawns and pineapple
+fried rice with raisins and fried egg
+fried rice with shrimp, nuts, and chicken
+fried squid with chicken
+fries with cheese and special sauce with added bacon
+fu  and  beans
+ganoush and an extra pita
+ganoush with an extra pita
+ganoush with another pita
+garlic flavored naan with pappdum
+garlic naan and some pappdum
+glut free choco mousse
+gluten free all american burger
+gluten free apple burger
+gluten free beef platter
+gluten free burger with the apples in a lettuce wrap
+gluten free burger with the special sauce, on a lettuce wrap
+gluten free chicken platter
+gluten free falafel and hummus plate
+gluten free falafel and hummus platter
+gluten free hamburger
+gluten free kebab sampler
+gluten free lamb dish
+gluten free lamb platter
+gluten free truck stop burger on lettuce wrap
+gluten-free chocolate pudding
+glutten free classic burger lettuce wrap
+goat cheese pizza
+good morning hash with eggs
+gourmet cheese
+gourmet club
+gourmet tuna
+green bean salad mix
+green bean, basil chili sause bowl with rice and tofu
+green beans and jasmine rice
+green beans with peppers and basil in a sauce with Jasmine rice
+green drink of awesome
+green kale drink
+greenie drink
+greens and the short rib
+greens salad
+greens with a fried egg
+greens with an organic fried egg
+greens with the beef rib
+greens with the beef short rib
+grilled  flank
+grilled beef salad but with prawn
+grilled cheese gourmet
+grilled cheese supreme
+grilled fish, not spicy
+grilled prawn and lime salad
+grilled prawn salad
+grilled prawn salad with lime
+grilled salmon and rice
+grilled salmon and tofu
+grilled salmon with a side of tofu
+grilled salmon, but not spicy
+grilled sandwich
+grilled shrimp salad, but with prawn
+grilled tuna melt
+halal chicken and salad
+halal chicken bbq
 half Garlic Bread
 half Tandoori Chicken
+half duck and some green beans
+half duck with green beans
+half duck with mao sauce
+half roast duck
+half roast duck with buns
+half roast duck with charman mao sauce
+half roast duck with green onions
+half-duck peking with hoisin sauce
+ham and turkey salad with ranch dressing
+ham salad, with ranch dressing
+hamburger with lettuce wrap
+heavenly cashew
+hefty order of fries
+herbed roasted eggplant
+himmaparn and some jasmine rice
+himmaparn made with the white rice
+himmaparn using chicken
+himmaparn with jasmine rice
+himmaparn with the chicken
+himmaparn with white rice
+himmaparn, add jasmine rice
+hoisin duck with rice
+honey duck and brown rice
+honey duck in sauce
+honey duck with brown rice
+honey duck, and some chicken
+honey roast duck with some chicken
+honey roasted duck and chicken
+hot and sour soup
+hot calamari
+hot green beans and jasmine rice
+hot string beans
+hot tuna salad with cheese
+house  fries
+house  special beans
+house salad and falafel
+house salad with falafel
+house salad, add falafel
+hummus and an extra pita
+hummus chicken plate
+hummus plate
+hummus with an extra pita
+hummus, add an extra pita
+individual cheese pie with alfredo
+individual created classic cheese pizza
+jasmine rice and pumpkin curry
+jasmine rice veggie tofu
+jumbo
+jumbo fried prawns and brown rice
+jumbo fried prawns with basil
+jumbo fries
+ka moo and white rice
+ka pork leg
+kabab combo with hummus
+kabob combo platter with hummus
+kabob plate with hummus
+kabob platter with hummus
+kaeng
+kakbab combo plate with hummus
+kakbab plate with side of hummus
+kale and fruit drink
+karahi
+kebab platter (beef) with hummus
+kebab platter, no gluten
+kung pao chicken over steamed jasmine rice
+kung pao chicken with a side of sichuan green beans
+kung pao chicken with chairman mao
+kung pao chicken with green beans
+kung pao chicken with mao sauce
+kung pao chicken with steamed jasmine rice
+kung pao chicken with the green beans
+kung pao chicken with the mao sauce
+kung pao with chicken and mao sauce
+kung pao with chicken and some green beans
+lamb and  salad
+lamb and chicken combination platter with hummus
+lamb and chicken gluten free plate
+lamb and chicken glutten free platter
+lamb and chicken plate with hummus
+lamb and chicken plate, add hummus
+lamb and chicken platter with hummus
+lamb plate
+lamb plate, but no glutens
+lamb with tomatoes
+large cheese pizza
+latke with a pita
+latkes and a pita
+latkes with a pita on the side
+lava pepper quiche
+lemon jam burger with bacon
+lemon rice and a side of pappdum
+lemon rice with a side of pappdum
+lemon rice with pappdum
+lemon slaw burger with bacon
+lentil and bean curry
+lettuce all american wrap
+lettuce salad with chicken and apple slices
+lime dressed beef salad with some chicken
+low spice thai beef
+manaesh za'atar plate with a pita
+manaesh za'ater and a pita
+manaesh za'ater with a pita
+mango with sweet yogurt drink
+mango yogurt smoothie
+mao sauce fried rice
+margherita pizza with pepper
+margherita pizza with red peppers
+margherita pizza with roasted peppers
+marinated beef strips
+marinated beef with spring mix and shrimp
+meat combination platter with hummus
+meat with honey sauce and brown rice.
+meatball hoagie with a pita
+meatball sandwich with a pita
+meatball sub with a pita
+meatballs and brie cheese with veggies
+meatballs veggies and brie cheese
+meatballs with almond and cheese
+meatballs with brie
+meditaranean salad
+medium alfredo cheese pizza
+medium alfredo pizza
+medium cheese pizza with alfredo
+medium lamb rice
+medium meat rice
+medium minced lamb rice
+melt tuna with tots
+meza app with Pomegranates, pepper and walnut dip
+mezza plate with some hummus
+mezza platter and some hummus
+mezza platter with hummus
+mezze platter add pickles
+mezze platter with a side of pickles
+mild creamy chicken
+mild curry
+mild orange curry
+mild pad himmaparn
+mild pad see ew
+mild pad thai
+mild pumpkin curry
+mild red curry
+mild stew of pork leg with rice
+mild yellow curry
+minced meat rice
+mineral water
+mix veggie rolls
+mixed veggie tofu
+mixed veggies but not spicy
+mixed veggies with tofu
+moo pork and rice
+moroccan spiced carrot dip
+mushrooms and rice
+mustard seed and lemon rice
+mustard seed lemon rice
+naan and pappdum
+naan bread with a side of pappdum
+naan with pappdum
+natural soup
+no gluten burger that has special sauce and white cheese
+no gluten kebab plate
+noddles with bean sprouts
+noddles with wood ear mushrooms
+noodle salad and a fried egg
+noodle salad with a fried egg
+noodle salad with a side of short ribs
+noodle salad with an organic fried egg
+noodles and chicken
+noodles with boar and green brans
+noodles with scallions and a side of chairman mao sauce
+olive fried rice
+onion burger
+onion, mushroom, and sprout dish
+original burger
+oven dried and fried beef strips
+oven-fried beef or shrimp salad
+pad King Prik
+pad himmaparn
+pad himmaparn with chicken
+pad himmaparn, add chicken
+pad himmaparn, but not spicy
+pad prik
+pad prik chicken king meal
+pad prik king and add jasmine rice
+pad prik king and jasmine rice
+pad prik king with a side of jasmine rice
+pad prik king with chicken
+pad prik king with chili sauce
+pad prik king with jasmine rice
+pad prik king with peppers
+pad prik king, add chicken
+pad se-ew, not spicy
+pad see ew and some tofu
+pad see ew and tofu
+pad see ew made with tofu
+pad see ew with jasmine rice
+pad see ew with tofu
+pad see ew, but not spicy
+pad see with egg, noodles, and broccoli
+pad thai
+pad thai and some jasmine rice
+pad thai and some tofu
+pad thai chicken
+pad thai made with tofu
+pad thai using chicken
+pad thai with chicken
+pad thai with no noodles and rice
+pad thai with some jasmine rice
+pad thai with tofu
+pad thai, but not hot
+pad thai, not spicy
+pad thai, unspicy
+pad with broccoli and black bean sauce
+pandora's box pizza with the tomato sauce
+pandora's box with tomato sauce
+pandora's pizza with tomato sauce
+panini with veggies
+papaya and shrimp salad
+papaya salad with shrimp
+papaya salad with the fresh shrimp
+parmesan breaded chicken
+parmesan chicken
+pastry triangle
+pat phet over rice and tofu
+pat phet tua with tofu
+pat phet tuao and tofu
+pawn Skewers
+peach and gray sauce fries
+peanut based sauce dish with rice
+peanut chicken with rice and veggies
+peking duck
+peking duck and green beans
+peking duck and jasmine rice
+peking duck with jasmine rice
+peking duck with mao sauce
+peking half duck and jasmine rice
+peking half duck and some jasmine rice
+peking half duck with jasmine rice
+peking roast half duck with jasmine rice
+pepper nut dip with pita
+pepper pomegranate dip and a pita
+peppered beef strips
+pepperoni and cheese pizza
+pepperoni pizza with roasted red peppers
+pesto and roasted red pepper with goat cheese
+pesto chicken sandwich with peppers
+pesto goat cheese pizza
+phad thai
+phiile  sandwhich
+philadelphia cheesesteak sandwhich
+philly cheese steak
+pineapple fried rice with chicken
+pineapple fried rice with prawn
+pita and green dip
+pita and rice with chicken on skewer with veggies
+pita bread and artichoke salad with feta
+pita bread and lamb
+pita bread with roasted pepper walnut dip and pomegranates
+pita platter
+pizza goat cheese and pesto
+pizza with alfredo sauce
+plain
+plain cheese pie with red peppers
+plain cheese pizza with red peppers
+plain yoghurt dip
+platter of lamb
+platter with falafels dolmas and hummus
+poached eggs with sauce
+poke bowl with coke
+poke combo and a coke
+poke combo with a coke
+poke combo with a coke to drink
+poke platter with coke
+pomegranate dip and pita
+pomegranate pepper dip and a pita
+pomegranate, pepper and walnut dip appetizer plate
+pomegranates with pepper walnut dip
+pomegranite dip and a pita
+popper  burger
+pork & shrimp dumplings with the chairman sauce
+pork & shrimp fried rice
+pork and shrimp dim sum
+pork and shrimp fried rice
+pork apple burger
+pork belly classic burger
+pork belly patty burger
+pork belly truck stop burger
+pork belly, steamed
+pork big mac with onion ring
+pork burger
+pork burger with onion ring
+pork eggs and potato combo
+pork fried rice
+pork leg over rice served with spicy sauce
+pork leg stew and white rice
+pork leg stew over jasmine rice
+pork leg stew with jasmine rice
+pork leg stew, add jasmine rice
+pork leg with a side of jasmine rice
+pork leg with rice and secret sauce
+pork patty firecracker burger
+pork patty in a truck stop
+pork shrimp and mushroom with some green beans
+pork stew and white rice
+pork stew over rice, not spicy
+pork stew with rice and spicy sauce
+pork, shrimp & mushroom dumplngs with the Mao sauce
+pork, shrimp, and morel with side of the green beans
+pork, shrimp, and mushroom thing with green beans
+pork, shrimp, mushroom dim sum with the Chairman Mao sauce
+porka cola
+potato noodle dish with a side of beef ribs
+potato with eggs and meat
+potatoes
+power green drink
+prawn and a sauce
+prawn fried appetizer
+prawn in honey sauce
+prawn pineapple fried rice
+prawn salad with chicken
+prawns in basil sauce
+prawns with basil
+prawns with basil, add chicken
+pumpkin and peppers with chicken and rice.
+pumpkin curry
+pumpkin curry made with chicken
+pumpkin curry with chicken
+pumpkin curry with jasmine rice
+pumpkin curry with tofu
+pumpkin curry, add chicken
+pumpkin curry, but not spicy
+pumpkin la carte
+pumpkin puree with rice or tofu
+pumpkin soup with rice and tofu
+pumpkin stew plus rice or tofu
+purple rice
+quad salad
+quiche vegetarian
+quiche with goat cheese
+quiche with kale and cheese
+quiche with pepper and toms
+ranch lamb dish
+red and brown rice and mao sauce
+red and brown rice with brown sauce
+red chicken curry
+red coconut curry
+red curry and some tofu
+red curry made with chicken
+red curry over jasmine rice
+red curry over steamed jasmine rice
+red curry with pumpkin, add chicken
+red curry with the steamed jasmine rice
+red curry with tofu
+red curry with veggies and chicken.
+red pepper bbq chicken pizza
+red pepper pest and goat cheese with the roasted red peppers
+red pumpkin curry with chicken
+red pumpkin curry with some jasmine rice
+red soup with veggies
+regular buffalo wings with blue cheese
+rib baos
+rib rice bowl
+rice bowl with a fried egg
+rice bowl with beef ribs
+rice bowl with beef short rib
+rice bowl with chairman rice
+rice bowl with egg
+rice bowl with mushrooms and veggies
+rice bowl with the beef rib
+rice bowl with the short rib
+rice noodles with a side of jasmine rice
+rice with berries with mao sauce
+rice with chairman mao sauce
+rice with chicken on skewer with pita
+rice with fresh lemon juice
+rice with lamb
+rice with pork stew and sauce
+rice with veggie soup dish
+roast duck with mao sauce
+roast half duck with steamed jasmine rice
+roast peking duck
+roasted beetroot dip and a pita
+roasted duck
+roasted duck in honey sauce substitute meat with prawn
+roasted duck with a side of jasmine rice
+roasted duck with honey, but with prawn
+roasted herbed eggplant
+roasted honey duck with sauce
+roasted honey duck, but with prawn
+roasted honey prawn
+roasted red pepper pesto with goat cheese
+rotisserie chicken meal, gluten free
+rotisserie chicken plate with hummus
+rotisserie chicken, all the sides, gluten free
+saffron rice with lemon
+safron rice bowl with some wafers
+safron rice bowl, add wafers
+safron rice plate and wafers
+salad combo
+salad extra
+salad mix
+salad of tacos
+salad sampler
+salad variety
+salad with cucumbers, olives, and balsamic dressing
+salad with falafel
+salad with falafels and garbanzo beans and pita bread
+salad with feta
+salad with noodles and beef rib
+salad with noodles and beef short rib
+salad with oil and vinegar and garlic
+salad with shrimp and chicken
+salad with taco ingredients
+sally platter
+sally's
+sally's combination platter
+salmon and jasmine rice
+salmon grill, not too spicy
+salmon mustard dish
+salmon salad platter
+salmon veggie w/ honey mustard
+salmon with rice and seaweed and a coke
+salmon, grilled, over jasmine rice
+salt and pepper meat strips
+sambosa
+sand with provolone
+sandwich with bacon lettuce and tomato
+sate chick or tofu
+sate chicken
+sate chicken or tofu style
+sate chicken, but with prawn
+sate prawn
+sate tofu, but with prawn
+sate with the chicken
+sauced wing
+saucy eggs with browns
+sausage egg breakfast
+sausage mushroom pizza with red peppers
+sausage pizza with mushrooms and red peppers
+sausage, mushroom, and red pepper pizza
+sauteed thai bowl
+sauteed veggie and ground meat with thai spice
+savory yellow soup with veggies
+schmaltz fried spicy chicken sandwich with a side salad
+scissor cut boar noodles with house mao sauce
+scissor cut noodles and jasmine rice
+scissor noodles and green beans
+seared salmon caesar
+seasonal greens with a fried egg
+seasonal greens with beef ribs
+seasoned  fries
+seasoned beef strips
+shiu mai add chairman mao sause
+shiu mai and some mao sauce
+shiu mai dim sum and mao sauce
+shiu mai with chairman sause
+shiu mai with the mao sauce
+shiu sampler and mao sause
+short rib baos
+shortbread cookie dessert
+shorty cookies
+shredded pork with rice
+shrimp fried rice with bbq pork
+shrimp in basil sauce
+shrimp salad with chicken
+shrimp salad with lime
+simple salad
+single malt whisky
+small romaine caesar
+sour and spice soup
+sour curry
+south of the border salad
+southwest salad
+spent grain burger with a salad instead of fries
+spent grain with a side salad
+speyside single malt
+spicy  burger
+spicy  calamari
+spicy  curry
+spicy and sour soup and tofu
+spicy and sour soup with tofu
+spicy beans, add tofu
+spicy beef salad with lime dressing
+spicy bell peppers with string beans
+spicy calamari with chicken
+spicy cashew
+spicy chicken baos
+spicy chicken with carrots and cucumber
+spicy chicken with peanuts and a side green beans
+spicy chicken with peanuts and rice
+spicy chicken with peanuts with Mao Sauce
+spicy chili string beans
+spicy double basil prawns
+spicy fried calamari and chicken
+spicy fried calamari with some chicken
+spicy fried chicken burger with salad
+spicy grilled shrimp salad with chicken
+spicy peanut chicken
+spicy peanut chicken stir fry
+spicy peanut chicken with veggies
+spicy red soup with veggies
+spicy salmon with sides of rice and seaweed and a coke
+spicy salmonw ith rice and seaweed with a coke
+spicy sauce, rice and stewed pork leg
+spicy shrimp salad with prawns
+spicy shrimp salad, add chicken
+spicy sour soup with tofu
+spicy steamed chicken with sesame puree
+spicy stir fry chicken
+spicy string beans with tofu
+spicy string beans, add tofu
+spicy tuna melt
+spicy tuna salad sandwich
+spicy veggie soup
+spinach and feta salad
+spinach salad
+spinach tomato cheese and garlic between bread
+spring rolls with tofu
+steak  fries
+steak and  bake
+steamed baos with the crispy tempeh
+steamed chicken with a puree and a few veggies.
+steamed jasmine rice veggie tofu
+steamed pickled burdock
+steamed pork belly
+steamed pork belly baos
+steamed red meat with pickled daikon and green shiso.
+steamed spicy chicken
+stew on rice,secret sauce and chicken
+stew over rice spicy sauce with chicken
+stick chicken
+stick tofu
+stir fri with chicken and egg
+stir fri with egg and chicken
+stir fri with egg, add chicken
+stir fri, but not spicy
+stir fried noodles and some jasmine rice
+stir fried pad se-ew, not spicy
+stir fried rice noodles with broccoli, mild
+stir fried rice noodles with broccoli, not spicy
+stir fried see ew
+stir fried veggies, not spicy
+stir fry
+stir fry chicken with veggies and rice
+stir fry rice noodles
+strawberry feta salad
+strawbery and banana french toast
+string beans and jasmine rice
+string beans and peppers
+string beans in chili sauce with a side of steamed Jasmine rice
+string beans with veggies
+strips of beef
+stuffed grape leaves
+stuffed grape leaves dish
+stuffed vine leaves
+super cheese fries with bacon
+super fries and some spicy mayo
+super fries loaded with bacon
+super fries with bacon
+super fries with onions and cut up bacon
+super fries with spicy mayo
+super fries with spicy mayo dip
+super size order of fries
+sushi bowl with coke
+sweet fried flat noodle with egg and vegetable
+sweet pepper cheese steak
+swimming  shrimp
+swiss cheese steak
+taco breakfast
+taco plate with vegies
+taco supreme salad
+tangy pomegranates pita bread with a side of walnut dip
+tea cakes
+tempeh steamed
+tequila slammer
+thai basil and jasmine rice
+thai basil and some tofu
+thai basil and steamed jasmine rice
+thai basil dish
+thai basil over jasmine rice
+thai basil style
+thai basil with tofu
+thai broccoli dish
+thai cashew
+thai chicken salad and the blue cheese dressing
+thai chicken salad with blue cheese
+thai chili sautee bowl
+thai pad with chicken
+thai salad with marinated chicken and blue cheese dressing
+thai soup with curry and a side of that girl rice
+thai yellow curry
+thailand stir fry
+the  explosion
+the  side platter
+the American burger with house-cured bacon
+the baked flat bread
+the baked flat bread that is baked in (somekind of sauce?)
+the burger with apple slices add bacon
+the club carve with provolone
+the crispy fries with special sauce and cheese with the chopped bacon
+the famouse house wings- topped with the house sauce
+the flat bread that looks like a tortilla shell with spices on it and the house thin crackers
+the pesto goat with peppers
+the red soup with bamboo and peppers with a side of the sweet rice
+the rice bowl with a fried egg on top
+the spent
+the spent grain with a salad on the side
+they look like bbqd wings - with i think a mayo sauce
+three cheese
+three meat sub with provolone
+tiger salad
+tiny caesar
+toasted bacon turkey club
+toasted chicken parma
+toasted chicken parmasan
+toasted club carve
+toasted club carve sandwich
+toasted club carve sub
+tofu and grilled salmon
+tofu and vegetable stir fry
+tofu curry with pepper and basil
+tofu egg rolls
+tofu flat noodle stir fry
+tofu fresh spring rolls
+tofu made pumpkin curry
+tofu on a stick
+tofu pad see ew
+tofu pad thai
+tofu pat phet tua
+tofu pumkin curry
+tofu red curry
+tofu rice pat phet dish
+tofu rolls
+tofu spring rolls
+tofu thai basil
+tofu with mixed vegetables
+tofu yellow curry
+tom Yum with Tofu
+tomato and brie on a baguette
+tomato bacon and lettuce
+tomato baguette
+tomato sauce with chicken parm
+traditional chef salad
+triple cheese sandwich
+triple shortbread
+truck burger
+truck stop burger with extra crispy onions
+truck stop burger with extra onions
+truck stop burger with pork belly
+truck stop burger with pork belly patty
+truck stop burger with spicy mayo
+truck stop burger, add extra crisp onions
+truck stop piggie patty
+truck stop sandwich with spicy mayo
+truck stop with spicy mayo
+tuna melt sandwich
+tuna melty
+tuna sandwich melt
+tuna with cheese and avocado
+turkey bacon club
+tuscan chicken
+two fer all
+tzatziki salad with balsamic and pita bread
+unspicy pad himmaparn
+unspicy pad se ew
+unspicy pad see ew
+unspicy pad thai
+unspicy pumpkin curry
+unspicy yellow curry
+veg grilled sandwich
+veg lover
+vegan chip delight
+vegan chocolate chippy
+vegan chocolate mousse
+vegan style mousse, chocolate flavor
+vegetable korai
+vegetable pad with chicken
+vegetable panini
+vegetable side dish
+vegetable yoghurt dip
+vegetarian chocolate pudding
+veggie bowl
+veggie breakfast
+veggie lovers sandwich
+veggie mix with bean curd
+veggie noodles and 2 wafers
+veggie noodles and some pappdum
+veggie noodles with a side of pappdum
+veggie pad with chicken
+veggie panini
+veggie salad
+veggie salad mix
+veggie sandwich
+veggie stir fry
+veggie tofu with jasmine rice
+veggie tofu, with more tofu
+very hot curry
+vinaigrette feta salad
+waffle  fries
+walnut baklava
+walnut dessert pastry
+wedges
+white rice with cashew, onion, and carrot
+wild boar noodles and green beans
+wild boar noodles and jasmine rice
+wild boar noodles with jasmine rice
+wild boar noodles with mao sauce
+wild boar noodles with sichuan beans
+wild boar noodles with the mao sauce
+wild rice mix with spicy sauce
+wings and blue cheese
+wings with blue cheese
+wings with green beans
+wings with mao sauce
+wok fried rice
+worlds best selling single malt whisky
+yang fried rice with pork
+yang zhou fried rice with mao sauce
+yang zhou rice with mao sauce
+yang zhou with mao sauce
+yellow currie with Jasmine rice
+yellow curry and jasmine rice
+yellow curry over rice with tofu
+yellow curry paste rice with shrimp and chicken
+yellow curry with jasmine rice
+yellow curry with steamed jasmine rice
+yellow curry with tofu
+yellow curry, add tofu
+yellow curry, but not spicy
+yellow soup with tofu and veggies
+yeung chow fried rice
+yoghurt side
+zhou fried rice with shrimp
 ‘Merica Cheeseburger
