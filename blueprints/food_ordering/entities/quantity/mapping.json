@@ -1,1 +1,98 @@
-[]
+[
+    {
+        "cname": "1",
+        "whitelist": []
+    },
+    {
+        "cname": "2",
+        "whitelist": []
+    },
+    {
+        "cname": "3",
+        "whitelist": []
+    },
+    {
+        "cname": "4",
+        "whitelist": []
+    },
+    {
+        "cname": "5",
+        "whitelist": []
+    },
+    {
+        "cname": "6",
+        "whitelist": []
+    },
+    {
+        "cname": "7",
+        "whitelist": []
+    },
+    {
+        "cname": "8",
+        "whitelist": []
+    },
+    {
+        "cname": "9",
+        "whitelist": []
+    },
+    {
+        "cname": "10",
+        "whitelist": []
+    },
+    {
+        "cname": "one",
+        "whitelist": []
+    },
+    {
+        "cname": "two",
+        "whitelist": []
+    },
+    {
+        "cname": "three",
+        "whitelist": []
+    },
+    {
+        "cname": "four",
+        "whitelist": []
+    },
+    {
+        "cname": "five",
+        "whitelist": []
+    },
+    {
+        "cname": "six",
+        "whitelist": []
+    },
+    {
+        "cname": "seven",
+        "whitelist": []
+    },
+    {
+        "cname": "eight",
+        "whitelist": []
+    },
+    {
+        "cname": "nine",
+        "whitelist": []
+    },
+    {
+        "cname": "ten",
+        "whitelist": []
+    },
+    {
+        "cname": "eleven",
+        "whitelist": []
+    },
+    {
+        "cname": "twelve",
+        "whitelist": []
+    },
+    {
+        "cname": "half a dozen",
+        "whitelist": []
+    },
+    {
+        "cname": "dozen",
+        "whitelist": []
+    }
+]

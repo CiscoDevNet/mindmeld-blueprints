@@ -1,1 +1,2846 @@
-[]
+[
+    {
+        "cname": "1/2 Lbs. Burgers and Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "1/2 Pounders",
+        "whitelist": []
+    },
+    {
+        "cname": "A La Carte Curry",
+        "whitelist": []
+    },
+    {
+        "cname": "A La Carte House Entr\u00e9e",
+        "whitelist": []
+    },
+    {
+        "cname": "A la Carte Items",
+        "whitelist": []
+    },
+    {
+        "cname": "Acai Bowls",
+        "whitelist": []
+    },
+    {
+        "cname": "Additional Items",
+        "whitelist": []
+    },
+    {
+        "cname": "Aksam Yemegi Entrees",
+        "whitelist": []
+    },
+    {
+        "cname": "Amici's Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "Antipasti",
+        "whitelist": []
+    },
+    {
+        "cname": "Antipasto",
+        "whitelist": []
+    },
+    {
+        "cname": "Aperitivos",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizer",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers & Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers & Snacks",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers and Dim Sum",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers and Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers and Side Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers and Side Orders",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers and Snacks",
+        "whitelist": []
+    },
+    {
+        "cname": "Appetizers|Antojitos",
+        "whitelist": []
+    },
+    {
+        "cname": "BBQ on Sizzling Plate",
+        "whitelist": []
+    },
+    {
+        "cname": "BLVD Macs",
+        "whitelist": []
+    },
+    {
+        "cname": "BLVD'S Breakfast Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Bagels",
+        "whitelist": []
+    },
+    {
+        "cname": "Baguette",
+        "whitelist": []
+    },
+    {
+        "cname": "Baked",
+        "whitelist": []
+    },
+    {
+        "cname": "Baked Pasta",
+        "whitelist": []
+    },
+    {
+        "cname": "Bangkok Garden's Curry Selections",
+        "whitelist": []
+    },
+    {
+        "cname": "Bangkok Garden's Desserts Selections",
+        "whitelist": []
+    },
+    {
+        "cname": "Bangkok Garden's Gourmet Selections",
+        "whitelist": []
+    },
+    {
+        "cname": "Baos",
+        "whitelist": []
+    },
+    {
+        "cname": "Basic Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Basics",
+        "whitelist": []
+    },
+    {
+        "cname": "Batata",
+        "whitelist": []
+    },
+    {
+        "cname": "Bean Curd & Vegetables",
+        "whitelist": []
+    },
+    {
+        "cname": "Bean Curd and Vegetables",
+        "whitelist": []
+    },
+    {
+        "cname": "Beef",
+        "whitelist": []
+    },
+    {
+        "cname": "Beef Lamb",
+        "whitelist": []
+    },
+    {
+        "cname": "Beef and Lamb",
+        "whitelist": []
+    },
+    {
+        "cname": "Beginnings",
+        "whitelist": []
+    },
+    {
+        "cname": "Beijing Dim Sum",
+        "whitelist": []
+    },
+    {
+        "cname": "Beijing Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Belgian Mussels",
+        "whitelist": []
+    },
+    {
+        "cname": "Benedict",
+        "whitelist": []
+    },
+    {
+        "cname": "Benedicts",
+        "whitelist": []
+    },
+    {
+        "cname": "Bento Box",
+        "whitelist": []
+    },
+    {
+        "cname": "Bento Box Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Between Breads",
+        "whitelist": []
+    },
+    {
+        "cname": "Between The Bread",
+        "whitelist": []
+    },
+    {
+        "cname": "Bevarages",
+        "whitelist": []
+    },
+    {
+        "cname": "Beverages",
+        "whitelist": []
+    },
+    {
+        "cname": "Bibimbap",
+        "whitelist": []
+    },
+    {
+        "cname": "Big Chef Tom's Creations",
+        "whitelist": []
+    },
+    {
+        "cname": "Big Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Biryani",
+        "whitelist": []
+    },
+    {
+        "cname": "Biryani Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Biryani's",
+        "whitelist": []
+    },
+    {
+        "cname": "Biryanies",
+        "whitelist": []
+    },
+    {
+        "cname": "Blended Iced Coffee",
+        "whitelist": []
+    },
+    {
+        "cname": "Botanas",
+        "whitelist": []
+    },
+    {
+        "cname": "Bowls",
+        "whitelist": []
+    },
+    {
+        "cname": "Boxed Salad Lunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Boxed Sandwich Lunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Bread",
+        "whitelist": []
+    },
+    {
+        "cname": "Bread & Pastries",
+        "whitelist": []
+    },
+    {
+        "cname": "Bread and Pastries",
+        "whitelist": []
+    },
+    {
+        "cname": "Bread and Sides",
+        "whitelist": []
+    },
+    {
+        "cname": "Breads",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Basics",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Brunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Burritos",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Item",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Items",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Sides",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Brunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Buffalo Wings",
+        "whitelist": []
+    },
+    {
+        "cname": "Build Your Own Sandwich",
+        "whitelist": []
+    },
+    {
+        "cname": "Built Your Own",
+        "whitelist": []
+    },
+    {
+        "cname": "Burger",
+        "whitelist": []
+    },
+    {
+        "cname": "Burgers",
+        "whitelist": []
+    },
+    {
+        "cname": "Burgers with Fries",
+        "whitelist": []
+    },
+    {
+        "cname": "Burritos",
+        "whitelist": []
+    },
+    {
+        "cname": "CYO Extreme Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Caf\u00e9 Menu",
+        "whitelist": []
+    },
+    {
+        "cname": "Calzone",
+        "whitelist": []
+    },
+    {
+        "cname": "Calzones",
+        "whitelist": []
+    },
+    {
+        "cname": "Caribbean Quesadilla",
+        "whitelist": []
+    },
+    {
+        "cname": "Carnivore Signature Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "Catering",
+        "whitelist": []
+    },
+    {
+        "cname": "Catering Tray",
+        "whitelist": []
+    },
+    {
+        "cname": "Ceviche",
+        "whitelist": []
+    },
+    {
+        "cname": "Chabaa's Noodle Soups",
+        "whitelist": []
+    },
+    {
+        "cname": "Charbroiled Burgers",
+        "whitelist": []
+    },
+    {
+        "cname": "Chat Section",
+        "whitelist": []
+    },
+    {
+        "cname": "Chawal",
+        "whitelist": []
+    },
+    {
+        "cname": "Chawal Kl Bahar",
+        "whitelist": []
+    },
+    {
+        "cname": "Cheesesteaks",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef Ramon y Do\u00f1a Lupe's Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef Ramon y Do\u00f1a Lupe's Specialties Lunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef Recommendation",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef Special Gourmet",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef Special Gourmets",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef's Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef's Special Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef's Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Chef's Suggestions",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken Delights",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken Dish",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken Specialities",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken Wings",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken and Duck",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken and Ribs",
+        "whitelist": []
+    },
+    {
+        "cname": "Chicken-E-Punjab",
+        "whitelist": []
+    },
+    {
+        "cname": "Chinese Catering",
+        "whitelist": []
+    },
+    {
+        "cname": "Chips",
+        "whitelist": []
+    },
+    {
+        "cname": "Chow Fun Mai Fun",
+        "whitelist": []
+    },
+    {
+        "cname": "Chow Fun or Chow Mai Fun",
+        "whitelist": []
+    },
+    {
+        "cname": "Chow Mein",
+        "whitelist": []
+    },
+    {
+        "cname": "Chow Mein & Chow Fun",
+        "whitelist": []
+    },
+    {
+        "cname": "Chow Mein and Chow Fun",
+        "whitelist": []
+    },
+    {
+        "cname": "Churrasco",
+        "whitelist": []
+    },
+    {
+        "cname": "Citrus",
+        "whitelist": []
+    },
+    {
+        "cname": "Clam Chowder",
+        "whitelist": []
+    },
+    {
+        "cname": "Classic",
+        "whitelist": []
+    },
+    {
+        "cname": "Classic Indian and Pakistani Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Classic Rolls & Hand Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Classic Rolls and Hand Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Cleanse and Remedy",
+        "whitelist": []
+    },
+    {
+        "cname": "Cleanses",
+        "whitelist": []
+    },
+    {
+        "cname": "Cocobang Special Combo",
+        "whitelist": []
+    },
+    {
+        "cname": "Coffee",
+        "whitelist": []
+    },
+    {
+        "cname": "Coffees",
+        "whitelist": []
+    },
+    {
+        "cname": "Cold Appetizers",
+        "whitelist": []
+    },
+    {
+        "cname": "Cold Mezza",
+        "whitelist": []
+    },
+    {
+        "cname": "Cold Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Cold Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Combination",
+        "whitelist": []
+    },
+    {
+        "cname": "Combination Sushi",
+        "whitelist": []
+    },
+    {
+        "cname": "Combinations",
+        "whitelist": []
+    },
+    {
+        "cname": "Combo",
+        "whitelist": []
+    },
+    {
+        "cname": "Combo Plate",
+        "whitelist": []
+    },
+    {
+        "cname": "Combos",
+        "whitelist": []
+    },
+    {
+        "cname": "Congee Noodle",
+        "whitelist": []
+    },
+    {
+        "cname": "Create Your Own",
+        "whitelist": []
+    },
+    {
+        "cname": "Create Your Own Pasta",
+        "whitelist": []
+    },
+    {
+        "cname": "Create Your Own Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Crepes",
+        "whitelist": []
+    },
+    {
+        "cname": "Crispy Noodle",
+        "whitelist": []
+    },
+    {
+        "cname": "Croissants & Pastries",
+        "whitelist": []
+    },
+    {
+        "cname": "Croissants and Pastries",
+        "whitelist": []
+    },
+    {
+        "cname": "Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Curry",
+        "whitelist": []
+    },
+    {
+        "cname": "Curry Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Custom Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Daily Dinner Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Deep Dish Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Deep Fried",
+        "whitelist": []
+    },
+    {
+        "cname": "Deli Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Delicious Laos Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Dessert",
+        "whitelist": []
+    },
+    {
+        "cname": "Dessert Crepes",
+        "whitelist": []
+    },
+    {
+        "cname": "Dessert and Drinks",
+        "whitelist": []
+    },
+    {
+        "cname": "Desserts",
+        "whitelist": []
+    },
+    {
+        "cname": "Desserts and Beverages",
+        "whitelist": []
+    },
+    {
+        "cname": "Dim Sum",
+        "whitelist": []
+    },
+    {
+        "cname": "Dinner",
+        "whitelist": []
+    },
+    {
+        "cname": "Dinner Entr\u00e9es",
+        "whitelist": []
+    },
+    {
+        "cname": "Dinner Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Dinners",
+        "whitelist": []
+    },
+    {
+        "cname": "Dipping Sauce",
+        "whitelist": []
+    },
+    {
+        "cname": "Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Don Ramon's Classics",
+        "whitelist": []
+    },
+    {
+        "cname": "Don Ramon's Classics Lunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Don Ramon's Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Donburi",
+        "whitelist": []
+    },
+    {
+        "cname": "Donburri",
+        "whitelist": []
+    },
+    {
+        "cname": "Dosa and Uttapam",
+        "whitelist": []
+    },
+    {
+        "cname": "Dosas",
+        "whitelist": []
+    },
+    {
+        "cname": "Drink",
+        "whitelist": []
+    },
+    {
+        "cname": "Drinks",
+        "whitelist": []
+    },
+    {
+        "cname": "Drinks and Beverages",
+        "whitelist": []
+    },
+    {
+        "cname": "Early Bird",
+        "whitelist": []
+    },
+    {
+        "cname": "Early Birds",
+        "whitelist": []
+    },
+    {
+        "cname": "Egg Foo Young",
+        "whitelist": []
+    },
+    {
+        "cname": "Egg Fu Young",
+        "whitelist": []
+    },
+    {
+        "cname": "Egg FuYoung and Scramble Egg",
+        "whitelist": []
+    },
+    {
+        "cname": "Eggs and Scrambles",
+        "whitelist": []
+    },
+    {
+        "cname": "Enchiladas",
+        "whitelist": []
+    },
+    {
+        "cname": "Ensaladas",
+        "whitelist": []
+    },
+    {
+        "cname": "Ensaladas y Sopas",
+        "whitelist": []
+    },
+    {
+        "cname": "Entree",
+        "whitelist": []
+    },
+    {
+        "cname": "Entrees",
+        "whitelist": []
+    },
+    {
+        "cname": "Entr\u00e9e",
+        "whitelist": []
+    },
+    {
+        "cname": "Entr\u00e9es",
+        "whitelist": []
+    },
+    {
+        "cname": "Espresso Bar",
+        "whitelist": []
+    },
+    {
+        "cname": "Extra Sides",
+        "whitelist": []
+    },
+    {
+        "cname": "Extras",
+        "whitelist": []
+    },
+    {
+        "cname": "Extras and Sides",
+        "whitelist": []
+    },
+    {
+        "cname": "Extras to Your Order",
+        "whitelist": []
+    },
+    {
+        "cname": "Extreme Half & Half",
+        "whitelist": []
+    },
+    {
+        "cname": "Extreme Half and Half",
+        "whitelist": []
+    },
+    {
+        "cname": "Fabulous Things",
+        "whitelist": []
+    },
+    {
+        "cname": "Fajitas Mesquite Grilled",
+        "whitelist": []
+    },
+    {
+        "cname": "Falafel",
+        "whitelist": []
+    },
+    {
+        "cname": "Family Combos",
+        "whitelist": []
+    },
+    {
+        "cname": "Family Style Botana Platters",
+        "whitelist": []
+    },
+    {
+        "cname": "Fancy Sips",
+        "whitelist": []
+    },
+    {
+        "cname": "Farmers Market Flat Bread",
+        "whitelist": []
+    },
+    {
+        "cname": "Farmers Market Lunchbox",
+        "whitelist": []
+    },
+    {
+        "cname": "Farmers Market Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Farmers Market Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Farmers Market Soups",
+        "whitelist": []
+    },
+    {
+        "cname": "Farmers Market Wrap",
+        "whitelist": []
+    },
+    {
+        "cname": "Favorites",
+        "whitelist": []
+    },
+    {
+        "cname": "Fettuccine",
+        "whitelist": []
+    },
+    {
+        "cname": "Fish & Chips",
+        "whitelist": []
+    },
+    {
+        "cname": "Fish Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Fish Platters",
+        "whitelist": []
+    },
+    {
+        "cname": "Fish Tacos",
+        "whitelist": []
+    },
+    {
+        "cname": "Fish and Chips",
+        "whitelist": []
+    },
+    {
+        "cname": "Flying Falafel Meals",
+        "whitelist": []
+    },
+    {
+        "cname": "Food",
+        "whitelist": []
+    },
+    {
+        "cname": "Foot Long Chicken Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Foot Long Classic Steak Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "French Toast",
+        "whitelist": []
+    },
+    {
+        "cname": "Fresco's Special Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Fresh Breads",
+        "whitelist": []
+    },
+    {
+        "cname": "Fresh Juice",
+        "whitelist": []
+    },
+    {
+        "cname": "Fresh Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Fresh Spring Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Friday Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Fried Chicken",
+        "whitelist": []
+    },
+    {
+        "cname": "Fried Noodle & Fried Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Fried Noodle and Fried Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Fried Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Fried Rice and Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Fried \u00a0Noodle \u00a0and \u00a0Fried \u00a0Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Fries",
+        "whitelist": []
+    },
+    {
+        "cname": "Frjtz",
+        "whitelist": []
+    },
+    {
+        "cname": "From the Griddle",
+        "whitelist": []
+    },
+    {
+        "cname": "Fruits",
+        "whitelist": []
+    },
+    {
+        "cname": "Full Menu",
+        "whitelist": []
+    },
+    {
+        "cname": "Fusilli",
+        "whitelist": []
+    },
+    {
+        "cname": "Garden",
+        "whitelist": []
+    },
+    {
+        "cname": "Garlic Bread",
+        "whitelist": []
+    },
+    {
+        "cname": "Gnocchi",
+        "whitelist": []
+    },
+    {
+        "cname": "Gosht Ke Pakwan",
+        "whitelist": []
+    },
+    {
+        "cname": "Gourmet Sandwich Bar",
+        "whitelist": []
+    },
+    {
+        "cname": "Gourmet Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Greens",
+        "whitelist": []
+    },
+    {
+        "cname": "Grilled Items",
+        "whitelist": []
+    },
+    {
+        "cname": "Grilled Quesadillas",
+        "whitelist": []
+    },
+    {
+        "cname": "Grilled Sausage on a French Roll",
+        "whitelist": []
+    },
+    {
+        "cname": "Grinders",
+        "whitelist": []
+    },
+    {
+        "cname": "Gyros",
+        "whitelist": []
+    },
+    {
+        "cname": "Half Pound Burgers",
+        "whitelist": []
+    },
+    {
+        "cname": "Hamburgers",
+        "whitelist": []
+    },
+    {
+        "cname": "Hand Roll",
+        "whitelist": []
+    },
+    {
+        "cname": "Handmade Noodles",
+        "whitelist": []
+    },
+    {
+        "cname": "Happy Lunch Box",
+        "whitelist": []
+    },
+    {
+        "cname": "Hawaiian Style Poke",
+        "whitelist": []
+    },
+    {
+        "cname": "Health Food Section",
+        "whitelist": []
+    },
+    {
+        "cname": "Healthy",
+        "whitelist": []
+    },
+    {
+        "cname": "Healthy Options",
+        "whitelist": []
+    },
+    {
+        "cname": "Hoagies",
+        "whitelist": []
+    },
+    {
+        "cname": "Homemade Chicken Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Homemade Pastries",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Appetizers",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Cakes & French Toast",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Cakes and French Toast",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Clay Pot Sizzling Platter",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Dogs",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Mezza",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Mustard Jars",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Pot Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Sips",
+        "whitelist": []
+    },
+    {
+        "cname": "Hot Wings",
+        "whitelist": []
+    },
+    {
+        "cname": "House & Maki Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "House Combination Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "House Favorites and Combinations",
+        "whitelist": []
+    },
+    {
+        "cname": "House Favorites and Combinations Lunch",
+        "whitelist": []
+    },
+    {
+        "cname": "House Made Sauces",
+        "whitelist": []
+    },
+    {
+        "cname": "House Omelettes",
+        "whitelist": []
+    },
+    {
+        "cname": "House Special",
+        "whitelist": []
+    },
+    {
+        "cname": "House Special Box",
+        "whitelist": []
+    },
+    {
+        "cname": "House Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "House Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "House Sushi Roll",
+        "whitelist": []
+    },
+    {
+        "cname": "House and Maki Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "House of Thai Favorites",
+        "whitelist": []
+    },
+    {
+        "cname": "House \u00a0Special \u00ad\u00a0Garlic \u00a0Noodle",
+        "whitelist": []
+    },
+    {
+        "cname": "House-Made Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Ice Cream",
+        "whitelist": []
+    },
+    {
+        "cname": "Indian Street Food",
+        "whitelist": []
+    },
+    {
+        "cname": "Insalate",
+        "whitelist": []
+    },
+    {
+        "cname": "Insalati",
+        "whitelist": []
+    },
+    {
+        "cname": "Iron Plate",
+        "whitelist": []
+    },
+    {
+        "cname": "Japanese Noodle Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Juices",
+        "whitelist": []
+    },
+    {
+        "cname": "Kabobs",
+        "whitelist": []
+    },
+    {
+        "cname": "Kahvalti Breakfast",
+        "whitelist": []
+    },
+    {
+        "cname": "Karahi",
+        "whitelist": []
+    },
+    {
+        "cname": "Kebabs",
+        "whitelist": []
+    },
+    {
+        "cname": "Kids Corner",
+        "whitelist": []
+    },
+    {
+        "cname": "Kids Corner Breakfast",
+        "whitelist": []
+    },
+    {
+        "cname": "Kids Menu",
+        "whitelist": []
+    },
+    {
+        "cname": "Kombucha",
+        "whitelist": []
+    },
+    {
+        "cname": "Korean BBQ",
+        "whitelist": []
+    },
+    {
+        "cname": "Korean Traditional Beverages",
+        "whitelist": []
+    },
+    {
+        "cname": "Lamb Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Lamb Delights",
+        "whitelist": []
+    },
+    {
+        "cname": "Lamb Dish",
+        "whitelist": []
+    },
+    {
+        "cname": "Lamb Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Lamb Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Lamb-E-Punjab",
+        "whitelist": []
+    },
+    {
+        "cname": "Large Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Late Night Menu",
+        "whitelist": []
+    },
+    {
+        "cname": "Lebanese Mezza Delicacies",
+        "whitelist": []
+    },
+    {
+        "cname": "Light Breakfast",
+        "whitelist": []
+    },
+    {
+        "cname": "Linguine",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Box",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Combo",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Entree",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Entrees",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Entr\u00e9e",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Entr\u00e9es",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Menu",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Sides",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Snacks & Bigger Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Snacks and Bigger Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Soup & Salad",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Soup and Salad",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Lunch Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Main",
+        "whitelist": []
+    },
+    {
+        "cname": "Main Course",
+        "whitelist": []
+    },
+    {
+        "cname": "Main Courses",
+        "whitelist": []
+    },
+    {
+        "cname": "Main Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Main dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Mains",
+        "whitelist": []
+    },
+    {
+        "cname": "Make You Own Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Make Your Own Combinations",
+        "whitelist": []
+    },
+    {
+        "cname": "Make Your Own Fresh Juice",
+        "whitelist": []
+    },
+    {
+        "cname": "Makimono",
+        "whitelist": []
+    },
+    {
+        "cname": "Makimono-Sushi Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Manakeesh",
+        "whitelist": []
+    },
+    {
+        "cname": "Maneelap Entree",
+        "whitelist": []
+    },
+    {
+        "cname": "Maria's Tostadas Salad",
+        "whitelist": []
+    },
+    {
+        "cname": "Mariscos",
+        "whitelist": []
+    },
+    {
+        "cname": "Meat",
+        "whitelist": []
+    },
+    {
+        "cname": "Meat & Poultry",
+        "whitelist": []
+    },
+    {
+        "cname": "Meat Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Meat Lovers",
+        "whitelist": []
+    },
+    {
+        "cname": "Meat and Poultry",
+        "whitelist": []
+    },
+    {
+        "cname": "Meat and Poultry Pies",
+        "whitelist": []
+    },
+    {
+        "cname": "Meatless Chicken",
+        "whitelist": []
+    },
+    {
+        "cname": "Mediterranean Food",
+        "whitelist": []
+    },
+    {
+        "cname": "Meetha",
+        "whitelist": []
+    },
+    {
+        "cname": "Mexican",
+        "whitelist": []
+    },
+    {
+        "cname": "Mexican Breakfast",
+        "whitelist": []
+    },
+    {
+        "cname": "Mexican Food",
+        "whitelist": []
+    },
+    {
+        "cname": "Meze Small Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Milkbean Crafted Subs",
+        "whitelist": []
+    },
+    {
+        "cname": "Milkshakes",
+        "whitelist": []
+    },
+    {
+        "cname": "Minestre",
+        "whitelist": []
+    },
+    {
+        "cname": "Mo's Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Modern Thai Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Monday Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Monster Subs",
+        "whitelist": []
+    },
+    {
+        "cname": "Mu Shu",
+        "whitelist": []
+    },
+    {
+        "cname": "Mu-Shu",
+        "whitelist": []
+    },
+    {
+        "cname": "Murgh Pakwan",
+        "whitelist": []
+    },
+    {
+        "cname": "Naan",
+        "whitelist": []
+    },
+    {
+        "cname": "Naan Breads",
+        "whitelist": []
+    },
+    {
+        "cname": "Nachos",
+        "whitelist": []
+    },
+    {
+        "cname": "Nan",
+        "whitelist": []
+    },
+    {
+        "cname": "Nepali Menu",
+        "whitelist": []
+    },
+    {
+        "cname": "New Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "New Specialty Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "Nigiri",
+        "whitelist": []
+    },
+    {
+        "cname": "Nigiri & Sashimi",
+        "whitelist": []
+    },
+    {
+        "cname": "Nigiri Sushi",
+        "whitelist": []
+    },
+    {
+        "cname": "Nigiri and Sashimi",
+        "whitelist": []
+    },
+    {
+        "cname": "Non-Alcoholic Drinks",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodle",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodle & Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodle Box",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodle Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodle Soups",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodle and Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodle \u00a0Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodles",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodles & Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodles Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodles Soups",
+        "whitelist": []
+    },
+    {
+        "cname": "Noodles and Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "North India Dinner",
+        "whitelist": []
+    },
+    {
+        "cname": "Not Just for Vegetarians",
+        "whitelist": []
+    },
+    {
+        "cname": "OGLE YEMEGI Lunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Omelets",
+        "whitelist": []
+    },
+    {
+        "cname": "Omelettes",
+        "whitelist": []
+    },
+    {
+        "cname": "Omusubi",
+        "whitelist": []
+    },
+    {
+        "cname": "On The Side",
+        "whitelist": []
+    },
+    {
+        "cname": "On the Lite Side",
+        "whitelist": []
+    },
+    {
+        "cname": "Organic Cold Pressed Juice Elixirs",
+        "whitelist": []
+    },
+    {
+        "cname": "Other Menu Items",
+        "whitelist": []
+    },
+    {
+        "cname": "Other Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Others",
+        "whitelist": []
+    },
+    {
+        "cname": "Our Family's Favorites",
+        "whitelist": []
+    },
+    {
+        "cname": "Over Rice Curry",
+        "whitelist": []
+    },
+    {
+        "cname": "Over Rice House Entr\u00e9e",
+        "whitelist": []
+    },
+    {
+        "cname": "Pakwan's Tandoori Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Pan Deep Fried",
+        "whitelist": []
+    },
+    {
+        "cname": "Pan Fried",
+        "whitelist": []
+    },
+    {
+        "cname": "Pan Fried Noodle",
+        "whitelist": []
+    },
+    {
+        "cname": "Pan Fried Noodle and Fried Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Pan-Fried Noodle",
+        "whitelist": []
+    },
+    {
+        "cname": "Pan-Fried Noodles",
+        "whitelist": []
+    },
+    {
+        "cname": "Pancakes",
+        "whitelist": []
+    },
+    {
+        "cname": "Pancakes, French Toast, Et Al",
+        "whitelist": []
+    },
+    {
+        "cname": "Panini Pressed Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Panini Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Paninis",
+        "whitelist": []
+    },
+    {
+        "cname": "Party Tray",
+        "whitelist": []
+    },
+    {
+        "cname": "Party Tray Sizes",
+        "whitelist": []
+    },
+    {
+        "cname": "Pasta",
+        "whitelist": []
+    },
+    {
+        "cname": "Pasta Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Pastas",
+        "whitelist": []
+    },
+    {
+        "cname": "Pastries",
+        "whitelist": []
+    },
+    {
+        "cname": "Paulie's Dagwood",
+        "whitelist": []
+    },
+    {
+        "cname": "Paulie's Vegwood",
+        "whitelist": []
+    },
+    {
+        "cname": "Penne",
+        "whitelist": []
+    },
+    {
+        "cname": "Pesce",
+        "whitelist": []
+    },
+    {
+        "cname": "Pho",
+        "whitelist": []
+    },
+    {
+        "cname": "Piatti Principi",
+        "whitelist": []
+    },
+    {
+        "cname": "Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Pizza Combinations",
+        "whitelist": []
+    },
+    {
+        "cname": "Pizza Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Pizza by the Slice",
+        "whitelist": []
+    },
+    {
+        "cname": "Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Plato Fuerte",
+        "whitelist": []
+    },
+    {
+        "cname": "Platos",
+        "whitelist": []
+    },
+    {
+        "cname": "Platos Principales",
+        "whitelist": []
+    },
+    {
+        "cname": "Platos de Mariscos",
+        "whitelist": []
+    },
+    {
+        "cname": "Platters",
+        "whitelist": []
+    },
+    {
+        "cname": "Poached Eggs",
+        "whitelist": []
+    },
+    {
+        "cname": "Poke Bowl",
+        "whitelist": []
+    },
+    {
+        "cname": "Pollo",
+        "whitelist": []
+    },
+    {
+        "cname": "Popular",
+        "whitelist": []
+    },
+    {
+        "cname": "Popular Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Pork",
+        "whitelist": []
+    },
+    {
+        "cname": "Poultry",
+        "whitelist": []
+    },
+    {
+        "cname": "Poutines and Fries",
+        "whitelist": []
+    },
+    {
+        "cname": "Power Cleanse",
+        "whitelist": []
+    },
+    {
+        "cname": "Premium Waters",
+        "whitelist": []
+    },
+    {
+        "cname": "Puffy Tacos",
+        "whitelist": []
+    },
+    {
+        "cname": "Quench Your Thirst",
+        "whitelist": []
+    },
+    {
+        "cname": "Quesadillas",
+        "whitelist": []
+    },
+    {
+        "cname": "Ramen",
+        "whitelist": []
+    },
+    {
+        "cname": "Ramen Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Ravioli",
+        "whitelist": []
+    },
+    {
+        "cname": "Raw Superfood Smoothies",
+        "whitelist": []
+    },
+    {
+        "cname": "Rawesome Acai Super Bowls and Coconut Parfait",
+        "whitelist": []
+    },
+    {
+        "cname": "Rawking Nut Milk and Boba",
+        "whitelist": []
+    },
+    {
+        "cname": "Recommendation",
+        "whitelist": []
+    },
+    {
+        "cname": "Refreshers",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Bowl",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Bowls with Fried Eggs",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Box",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Delights",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Porridge",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice and Biryani",
+        "whitelist": []
+    },
+    {
+        "cname": "Rice and Noodles",
+        "whitelist": []
+    },
+    {
+        "cname": "Roasted",
+        "whitelist": []
+    },
+    {
+        "cname": "Roasted Herbed Chicken",
+        "whitelist": []
+    },
+    {
+        "cname": "Roll and Maki",
+        "whitelist": []
+    },
+    {
+        "cname": "Roots",
+        "whitelist": []
+    },
+    {
+        "cname": "Roti",
+        "whitelist": []
+    },
+    {
+        "cname": "Rotisserie Chicken Meals",
+        "whitelist": []
+    },
+    {
+        "cname": "Rotisserie Chickens",
+        "whitelist": []
+    },
+    {
+        "cname": "Salad",
+        "whitelist": []
+    },
+    {
+        "cname": "Salad Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Salads & Soups",
+        "whitelist": []
+    },
+    {
+        "cname": "Salads Salad Wraps",
+        "whitelist": []
+    },
+    {
+        "cname": "Salads and Sides",
+        "whitelist": []
+    },
+    {
+        "cname": "Salads and Soups",
+        "whitelist": []
+    },
+    {
+        "cname": "Salata",
+        "whitelist": []
+    },
+    {
+        "cname": "Salatas",
+        "whitelist": []
+    },
+    {
+        "cname": "Salgados",
+        "whitelist": []
+    },
+    {
+        "cname": "Samunder Se",
+        "whitelist": []
+    },
+    {
+        "cname": "Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Sandwiches and Wraps",
+        "whitelist": []
+    },
+    {
+        "cname": "Sandwiches with Fries",
+        "whitelist": []
+    },
+    {
+        "cname": "Sashimi",
+        "whitelist": []
+    },
+    {
+        "cname": "Saturday Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Sauces",
+        "whitelist": []
+    },
+    {
+        "cname": "Sausage Plate",
+        "whitelist": []
+    },
+    {
+        "cname": "Sauteed",
+        "whitelist": []
+    },
+    {
+        "cname": "Savory Crepes",
+        "whitelist": []
+    },
+    {
+        "cname": "Savory Picks",
+        "whitelist": []
+    },
+    {
+        "cname": "Schilling Natural Yogurt Pots",
+        "whitelist": []
+    },
+    {
+        "cname": "Scrambles",
+        "whitelist": []
+    },
+    {
+        "cname": "Scrambles and Omelettes",
+        "whitelist": []
+    },
+    {
+        "cname": "Seafood",
+        "whitelist": []
+    },
+    {
+        "cname": "Seafood Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Seafood Delights",
+        "whitelist": []
+    },
+    {
+        "cname": "Seafood Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Seafood Entrees",
+        "whitelist": []
+    },
+    {
+        "cname": "Seafood Lunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Seafood Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Set Meals",
+        "whitelist": []
+    },
+    {
+        "cname": "Shawarma Sandwich",
+        "whitelist": []
+    },
+    {
+        "cname": "Side",
+        "whitelist": []
+    },
+    {
+        "cname": "Side Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Side Order",
+        "whitelist": []
+    },
+    {
+        "cname": "Side Orders",
+        "whitelist": []
+    },
+    {
+        "cname": "Sideline",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides & Appetizers",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides & Extras",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides & Starters",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides and Appetizers",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides and Extras",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides and Specialty Items",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides and Starters",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides and Sweets",
+        "whitelist": []
+    },
+    {
+        "cname": "Sides for Breakfast",
+        "whitelist": []
+    },
+    {
+        "cname": "Signature Blends",
+        "whitelist": []
+    },
+    {
+        "cname": "Signature Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Signature Pizza- Gluten Free",
+        "whitelist": []
+    },
+    {
+        "cname": "Signature Pizza- Take n Bake Crust",
+        "whitelist": []
+    },
+    {
+        "cname": "Signature Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "Signature Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Significant",
+        "whitelist": []
+    },
+    {
+        "cname": "Sizzling Tandoori",
+        "whitelist": []
+    },
+    {
+        "cname": "Small Bites",
+        "whitelist": []
+    },
+    {
+        "cname": "Small Dishes & Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Small Dishes and Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Small Eats",
+        "whitelist": []
+    },
+    {
+        "cname": "Small Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Small Plates Appetizers",
+        "whitelist": []
+    },
+    {
+        "cname": "Smoothies",
+        "whitelist": []
+    },
+    {
+        "cname": "Smoothies and Frappes",
+        "whitelist": []
+    },
+    {
+        "cname": "Snacks",
+        "whitelist": []
+    },
+    {
+        "cname": "Snacks Menu",
+        "whitelist": []
+    },
+    {
+        "cname": "Soda & Water",
+        "whitelist": []
+    },
+    {
+        "cname": "Soda and Water",
+        "whitelist": []
+    },
+    {
+        "cname": "Soft Drinks",
+        "whitelist": []
+    },
+    {
+        "cname": "Soft Tofu Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Something Sweet",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup & Salad",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup & Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup & Udon",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup & Udon Ramen",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup & Udon Ramen Soba",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup Stew",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup and Salad",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup and Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup and Udon",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup and Udon Ramen",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup and Udon Ramen Soba",
+        "whitelist": []
+    },
+    {
+        "cname": "Soup, Salad and Side",
+        "whitelist": []
+    },
+    {
+        "cname": "Soups",
+        "whitelist": []
+    },
+    {
+        "cname": "Soups and Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Spaghettini",
+        "whitelist": []
+    },
+    {
+        "cname": "Special Combo",
+        "whitelist": []
+    },
+    {
+        "cname": "Special Flour",
+        "whitelist": []
+    },
+    {
+        "cname": "Special Pizza Creation",
+        "whitelist": []
+    },
+    {
+        "cname": "Special Roll",
+        "whitelist": []
+    },
+    {
+        "cname": "Special Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialties Entrees",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty Breakfast Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty Burgers",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty Drinks",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty Pasta",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Specialty Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Spicy Bite Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Starters",
+        "whitelist": []
+    },
+    {
+        "cname": "Steak Frjtz",
+        "whitelist": []
+    },
+    {
+        "cname": "Steam Rice Plates",
+        "whitelist": []
+    },
+    {
+        "cname": "Steamed",
+        "whitelist": []
+    },
+    {
+        "cname": "Stir Fried Noodles",
+        "whitelist": []
+    },
+    {
+        "cname": "Stir Fry",
+        "whitelist": []
+    },
+    {
+        "cname": "Stir-Fried Noodle",
+        "whitelist": []
+    },
+    {
+        "cname": "Stoner Frjtz",
+        "whitelist": []
+    },
+    {
+        "cname": "Street Snacks",
+        "whitelist": []
+    },
+    {
+        "cname": "Subs",
+        "whitelist": []
+    },
+    {
+        "cname": "Sugary",
+        "whitelist": []
+    },
+    {
+        "cname": "Super Delicious Fresh Charbroiled Chicken",
+        "whitelist": []
+    },
+    {
+        "cname": "Superbowl Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Supper Sizzles",
+        "whitelist": []
+    },
+    {
+        "cname": "Sushi",
+        "whitelist": []
+    },
+    {
+        "cname": "Sushi Combos",
+        "whitelist": []
+    },
+    {
+        "cname": "Sushi Entree",
+        "whitelist": []
+    },
+    {
+        "cname": "Sushi Lunch Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Sushi Rolls and Maki",
+        "whitelist": []
+    },
+    {
+        "cname": "Sushi Sashimi Combo",
+        "whitelist": []
+    },
+    {
+        "cname": "Sweet Crepes and Desserts",
+        "whitelist": []
+    },
+    {
+        "cname": "Sweets",
+        "whitelist": []
+    },
+    {
+        "cname": "Taco Bar",
+        "whitelist": []
+    },
+    {
+        "cname": "Tacos",
+        "whitelist": []
+    },
+    {
+        "cname": "Tandoor-E-Kamal",
+        "whitelist": []
+    },
+    {
+        "cname": "Tandoori",
+        "whitelist": []
+    },
+    {
+        "cname": "Tandoori Breads",
+        "whitelist": []
+    },
+    {
+        "cname": "Tandoori Charcoal BBQ",
+        "whitelist": []
+    },
+    {
+        "cname": "Tandoori Chicken Salad",
+        "whitelist": []
+    },
+    {
+        "cname": "Tandoori Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Tandoori Grill",
+        "whitelist": []
+    },
+    {
+        "cname": "Tandoori Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Tapas",
+        "whitelist": []
+    },
+    {
+        "cname": "Targeted Remedy",
+        "whitelist": []
+    },
+    {
+        "cname": "Tasty Thai Appetizers",
+        "whitelist": []
+    },
+    {
+        "cname": "Temaki",
+        "whitelist": []
+    },
+    {
+        "cname": "Tempura",
+        "whitelist": []
+    },
+    {
+        "cname": "Thai Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Thai Curry",
+        "whitelist": []
+    },
+    {
+        "cname": "Thai Famous Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Thai Fried Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Thai Noodle Soup",
+        "whitelist": []
+    },
+    {
+        "cname": "Thai Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Thali",
+        "whitelist": []
+    },
+    {
+        "cname": "The Benedicts",
+        "whitelist": []
+    },
+    {
+        "cname": "The Caesar Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "The Dog Pound",
+        "whitelist": []
+    },
+    {
+        "cname": "Thep's Favorites",
+        "whitelist": []
+    },
+    {
+        "cname": "Thursday Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Toasted Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Tofu",
+        "whitelist": []
+    },
+    {
+        "cname": "Tortas",
+        "whitelist": []
+    },
+    {
+        "cname": "Tortas Salads",
+        "whitelist": []
+    },
+    {
+        "cname": "Traditional Meat",
+        "whitelist": []
+    },
+    {
+        "cname": "Traditional Pasta",
+        "whitelist": []
+    },
+    {
+        "cname": "Traditional Poultry",
+        "whitelist": []
+    },
+    {
+        "cname": "Tuesday Special",
+        "whitelist": []
+    },
+    {
+        "cname": "Udon Soba",
+        "whitelist": []
+    },
+    {
+        "cname": "Udupi Specials",
+        "whitelist": []
+    },
+    {
+        "cname": "Uthapams",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegan",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegan Pies",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegan Ramen",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetable",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetable Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetable Curry",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetable Vegetarian Vegan",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetables",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetables & Tofu",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetables and Tofu",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Curry",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Delights",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Dishes",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Entrees",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Options",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Pies",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Platter",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian Specialties",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarian-E-Punjab",
+        "whitelist": []
+    },
+    {
+        "cname": "Vegetarina Rolls",
+        "whitelist": []
+    },
+    {
+        "cname": "Veggie & Clay Pot",
+        "whitelist": []
+    },
+    {
+        "cname": "Veggie Curries",
+        "whitelist": []
+    },
+    {
+        "cname": "Veggie and Clay Pot",
+        "whitelist": []
+    },
+    {
+        "cname": "Veggin' Out Signature Pizzas",
+        "whitelist": []
+    },
+    {
+        "cname": "Vermicelli",
+        "whitelist": []
+    },
+    {
+        "cname": "Vietnamese Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Vitello",
+        "whitelist": []
+    },
+    {
+        "cname": "Waffles",
+        "whitelist": []
+    },
+    {
+        "cname": "Warm Pot",
+        "whitelist": []
+    },
+    {
+        "cname": "Watery",
+        "whitelist": []
+    },
+    {
+        "cname": "Wednesday Special",
+        "whitelist": []
+    },
+    {
+        "cname": "White Sauce Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Wings",
+        "whitelist": []
+    },
+    {
+        "cname": "Wings Zone",
+        "whitelist": []
+    },
+    {
+        "cname": "Wok",
+        "whitelist": []
+    },
+    {
+        "cname": "Wok and Pan Fried",
+        "whitelist": []
+    },
+    {
+        "cname": "Wok-Tossed noodles Fried Rice",
+        "whitelist": []
+    },
+    {
+        "cname": "Wood Oven Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Wraps",
+        "whitelist": []
+    },
+    {
+        "cname": "Wraps Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "X-factors Sides",
+        "whitelist": []
+    },
+    {
+        "cname": "Yakitori",
+        "whitelist": []
+    },
+    {
+        "cname": "half Lbs. Burgers and Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "half Pounders",
+        "whitelist": []
+    }
+]

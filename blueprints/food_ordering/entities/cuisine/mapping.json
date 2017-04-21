@@ -1,1 +1,186 @@
-[]
+[
+    {
+        "cname": "American",
+        "whitelist": []
+    },
+    {
+        "cname": "Arabian",
+        "whitelist": []
+    },
+    {
+        "cname": "Asian Fusion",
+        "whitelist": []
+    },
+    {
+        "cname": "Bakeries",
+        "whitelist": []
+    },
+    {
+        "cname": "Belgian",
+        "whitelist": []
+    },
+    {
+        "cname": "Brazilian",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast & Brunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Breakfast and Brunch",
+        "whitelist": []
+    },
+    {
+        "cname": "Burgers",
+        "whitelist": []
+    },
+    {
+        "cname": "Burmese",
+        "whitelist": []
+    },
+    {
+        "cname": "Cafes",
+        "whitelist": []
+    },
+    {
+        "cname": "Cajun & Creole",
+        "whitelist": []
+    },
+    {
+        "cname": "Cajun and Creole",
+        "whitelist": []
+    },
+    {
+        "cname": "Cantonese",
+        "whitelist": []
+    },
+    {
+        "cname": "Caribbean",
+        "whitelist": []
+    },
+    {
+        "cname": "Chinese",
+        "whitelist": []
+    },
+    {
+        "cname": "Cuban",
+        "whitelist": []
+    },
+    {
+        "cname": "Delis",
+        "whitelist": []
+    },
+    {
+        "cname": "Desserts",
+        "whitelist": []
+    },
+    {
+        "cname": "Falafel",
+        "whitelist": []
+    },
+    {
+        "cname": "Filipino",
+        "whitelist": []
+    },
+    {
+        "cname": "French",
+        "whitelist": []
+    },
+    {
+        "cname": "German",
+        "whitelist": []
+    },
+    {
+        "cname": "Gluten-Free",
+        "whitelist": []
+    },
+    {
+        "cname": "Halal",
+        "whitelist": []
+    },
+    {
+        "cname": "Hawaiian",
+        "whitelist": []
+    },
+    {
+        "cname": "Himalayan & Nepalese",
+        "whitelist": []
+    },
+    {
+        "cname": "Himalayan and Nepalese",
+        "whitelist": []
+    },
+    {
+        "cname": "Indian",
+        "whitelist": []
+    },
+    {
+        "cname": "Italian",
+        "whitelist": []
+    },
+    {
+        "cname": "Japanese",
+        "whitelist": []
+    },
+    {
+        "cname": "Juice Bars & Smoothies",
+        "whitelist": []
+    },
+    {
+        "cname": "Juice Bars and Smoothies",
+        "whitelist": []
+    },
+    {
+        "cname": "Korean",
+        "whitelist": []
+    },
+    {
+        "cname": "Laotian",
+        "whitelist": []
+    },
+    {
+        "cname": "Mediterranean",
+        "whitelist": []
+    },
+    {
+        "cname": "Mexican",
+        "whitelist": []
+    },
+    {
+        "cname": "Peruvian",
+        "whitelist": []
+    },
+    {
+        "cname": "Pizza",
+        "whitelist": []
+    },
+    {
+        "cname": "Ramen",
+        "whitelist": []
+    },
+    {
+        "cname": "Salad",
+        "whitelist": []
+    },
+    {
+        "cname": "Sandwiches",
+        "whitelist": []
+    },
+    {
+        "cname": "Southern & Comfort Food",
+        "whitelist": []
+    },
+    {
+        "cname": "Southern and Comfort Food",
+        "whitelist": []
+    },
+    {
+        "cname": "Thai",
+        "whitelist": []
+    },
+    {
+        "cname": "Vietnamese",
+        "whitelist": []
+    }
+]
