@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-"""This module contains the Kwik-E-Mart workbench demo application"""
+"""This module contains the Food Ordering workbench demo application"""
 from __future__ import unicode_literals
-from builtins import next
 
 from mmworkbench import Application
 
@@ -52,14 +51,15 @@ def start_over(context, slots, responder):
 
 @app.handle(intent='build_order')
 def order_dish(context, slots, responder):
-    # if restaurant entity is present:
-    #   search for dish within that restaurant’s menu
-    # elif target_restaurant is present in dialogue frame:
-    #   search for dish within that restaurant’s menu
-    #
-    # if matching dish is found:
-    #   add specified quantity of item to basket
+    # TODO:
+    # - resolve options
+    # - link options to dish names
+    # - ensure that dish is available at the specified restaurant
+    # - display images of the top n choices
+    # - resolve dishes/options/restaurants in a more sophisticated way
     def get_dish_details(dish):
+        # TODO: make a call to the KB to get the restaurant the dish is from, and
+        # any required options that need to be populated
         return dish
 
     def resolve_restaurant(text, values):
@@ -77,8 +77,6 @@ def order_dish(context, slots, responder):
 
     dish_entities = [e for e in context['entities'] if e['type'] == 'dish']
     restaurant_entities = [e for e in context['entities'] if e['type'] == 'restaurant']
-    print(dish_entities)
-    print(restaurant_entities)
 
     if len(restaurant_entities) == 1:
         restaurant = restaurant_entities[0]
@@ -111,12 +109,13 @@ def order_dish(context, slots, responder):
     slots['dish_names'] = current_dish_names
 
     if len(current_dish_names) > 0:
-        prompt_msg = "Sure, let's order " + ', '.join(current_dish_names)
+        prompt_msg = 'Sure, I got ' + ', '.join(current_dish_names)
         if slots.get('restaurant_name'):
-            prompt_msg += 'from {}'.format(slots.get('restaurant_name'))
+            prompt_msg += ' from {}'.format(slots.get('restaurant_name'))
+        prompt_msg += '. Would you like to place the order?'
         responder.prompt(prompt_msg)
     else:
-        responder.prompt("What dish would you like to eat?")
+        responder.prompt('What dish would you like to eat?')
 
 
 @app.handle(intent='unsupported')
