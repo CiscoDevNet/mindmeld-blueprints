@@ -422,7 +422,7 @@ can you recommend some {Japan|cuisine} restaurants which are highly reviewed but
 my wife likes {matcha|dish}, do you have any?
 what's your most {popular|category} bowl
 anything {not spicy|option}
-{two|quantity} {shiu mai|dish} with {one|quantity} {fried rice|option}
+{two|quantity} {shiu mai|dish} with {fried rice|option}
 i want a {half ramen and omusubi|dish} pork
 most popular {ramen|dish} places
 {chinese|cuisine} restaurant with {dim sum|dish}
