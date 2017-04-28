@@ -414,7 +414,7 @@ some {noodles|dish} for my {dinner|category} please
 what other {omusubi|dish} do you have
 restaurants for my date tonight
 {drinks|category} with pinapple and apple
-i would like the {seasonal greens|dish} with {pork belly|option} and {two|quantity} {eggs|option}
+i would like the {seasonal greens|dish} with {pork belly|option} and {eggs|option}
 {lunch|category} which are less than 15 dollars
 {Kung Pao Chicken|dish}, and please make it not that spicy
 what's the most pricy {omusubi|dish}
