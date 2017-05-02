@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """This module contains the Food Ordering workbench demo application"""
 from __future__ import unicode_literals
-
+import random
 from mmworkbench import Application
 
 
@@ -41,39 +41,55 @@ def place_order(context, slots, responder):
 @app.handle(intent='start_over')
 def start_over(context, slots, responder):
     # Clear dialogue frame and respond with the welcome info
-    slots_to_preserve = ['name']
-    for key in slots.keys():
-        if key not in slots_to_preserve:
-            slots.pop(key)
-    prompts = ["Sure, let's start over! What would you like to eat?"]
+    context_to_preserve = ['name']
+    for key in context['frame'].keys():
+        if key not in context_to_preserve:
+            context['frame'].pop(key)
+    prompts = ["Sure, let's start over! What restaurant would you like to order from?"]
     responder.prompt(prompts)
 
 
 @app.handle(intent='build_order')
 def order_dish(context, slots, responder):
-    # TODO:
-    # - resolve options
-    # - link options to dish names
-    # - ensure that dish is available at the specified restaurant
-    # - display images of the top n choices
-    # - resolve dishes/options/restaurants in a more sophisticated way
+    """
+    Simplified ordering logic which requires the user to specify a restaurant by name first.
+    TODO: resolve options and quantities
+    """
+    def get_restaurant_details(restaurant):
+        return app.question_answerer.get(index='restaurant', id=restaurant['id'])[0]
+
     def get_dish_details(dish):
-        # TODO: make a call to the KB to get the restaurant the dish is from, and
-        # any required options that need to be populated
-        return dish
+        return app.question_answerer.get(index='menu_items', id=dish['id'])[0]
 
     def resolve_restaurant(text, values):
-        # For now just selects one restaurant at random. TODO: use ngram/glove vectors
+        """
+        Given the user's original text and possibile restaurants from the entity resolver,
+        selects the one(s) that the user is most likely asking for.
+        """
         if len(values) < 1 or text == values:
             responder.reply("Sorry, I could not find a restaurant called {}".format(
-                            restaurant['text']))
+                            text))
             return None, None
         else:
-            return values[0]['id'], values[0]['cname']
+            # For now just selects one restaurant at random. TODO: get restaurant details
+            # from kb and use location, edit distance, popularity, etc to select the top one
+            restaurant = random.choice(values)
+            return restaurant['id'], restaurant['cname']
 
     def resolve_dish(dishes, restaurant_id):
+        """
+        Given the selected restaurant and the possible dishes from the entity resolver,
+        selects the one(s) that the user is most likely asking for.
+        """
+        # Remove dishes not available from the selected restaurant
+        restaurant_dishes = []
+        for dish in dishes:
+            if dish['restaurant_id'] == restaurant_id:
+                restaurant_dishes.append(dish)
+        if len(restaurant_dishes) < 1:
+            return None
         # For now just select one dish at random. TODO: use other methods
-        return dishes[0]
+        return random.choice(restaurant_dishes)
 
     dish_entities = [e for e in context['entities'] if e['type'] == 'dish']
     restaurant_entities = [e for e in context['entities'] if e['type'] == 'restaurant']
@@ -81,19 +97,25 @@ def order_dish(context, slots, responder):
     if len(restaurant_entities) == 1:
         restaurant = restaurant_entities[0]
         restaurant_id, restaurant_name = resolve_restaurant(restaurant['text'], restaurant['value'])
-        slots['restaurant_id'] = restaurant_id
-        slots['restaurant_name'] = restaurant_name
+        if not restaurant_id or not restaurant_name:
+            return
+        context['frame']['restaurant_id'] = restaurant_id
+        context['frame']['restaurant_name'] = restaurant_name
 
     if len(restaurant_entities) > 1:
         responder.prompt('Sorry, we can only order from one restaurant at a time. Which one would '
                          'you like to order from?')
 
-    if len(dish_entities) < 1:
-        responder.prompt("Sure, let's order from {}. What would you like?".format(
-                         slots.get('restaurant_name')))
+    if not context['frame'].get('restaurant_id'):
+        responder.reply('What restaurant would you like to order from?')
+        return
 
-    current_dish_ids = slots.get('dish_ids', [])
-    current_dish_names = slots.get('dish_names', [])
+    if len(dish_entities) < 1:
+        # TODO: respond with some popular restaurant dishes as suggestions
+        responder.prompt("Great, ordering from {}. What would you like to eat?".format(
+                         context['frame'].get('restaurant_name')))
+
+    current_dishes = context['frame'].get('dishes', [])
     for dish in dish_entities:
         if len(dish['value']) < 1 or dish['value'] == dish['text']:
             responder.reply('Sorry, I could not find a dish with the name {}'.format(dish['text']))
@@ -101,18 +123,22 @@ def order_dish(context, slots, responder):
         possible_dishes = []
         for cdish in dish['value']:
             possible_dishes.append(get_dish_details(cdish))
-        selected_dish = resolve_dish(possible_dishes, slots.get('restaurant_id'))
-        current_dish_ids.append(selected_dish['id'])
-        current_dish_names.append(selected_dish['cname'])
+        selected_dish = resolve_dish(possible_dishes, context['frame'].get('restaurant_id'))
+        if not selected_dish:
+            responder.reply("Sorry, I couldn't find anything called {} at "
+                            "{}".format(dish['text'], context['frame']['restaurant_name']))
+            continue
+        current_dishes.append(selected_dish)
 
-    slots['dish_ids'] = current_dish_ids
-    slots['dish_names'] = current_dish_names
+    context['frame']['dishes'] = current_dishes
 
-    if len(current_dish_names) > 0:
-        prompt_msg = 'Sure, I got ' + ', '.join(current_dish_names)
-        if slots.get('restaurant_name'):
-            prompt_msg += ' from {}'.format(slots.get('restaurant_name'))
-        prompt_msg += '. Would you like to place the order?'
+    if len(current_dishes) > 0:
+        current_dish_names = [dish['name'].lower() for dish in current_dishes]
+        current_prices = [dish['price'] for dish in current_dishes]
+        prompt_msg = ("Sure I got {} from {} for a total price of ${:.2f}. Would you like to place "
+                      "the order?").format(', '.join(current_dish_names),
+                                           context['frame'].get('restaurant_name'),
+                                           sum(current_prices))
         responder.prompt(prompt_msg)
     else:
         responder.prompt('What dish would you like to eat?')
