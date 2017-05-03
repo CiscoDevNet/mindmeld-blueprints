@@ -22,12 +22,14 @@ def welcome(context, slots, responder):
 @app.handle(intent='exit')
 def say_goodbye(context, slots, responder):
     responder.reply(['Bye', 'Goodbye', 'Have a nice day.'])
+    context = _clear_stored_context(context)
 
 
 @app.handle(intent='help')
 def provide_help(context, slots, responder):
     prompts = ["I can help you order food from your local restaurants. For example, you can "
-               "say 'What are some good pizza places nearby?' or 'I feeling having a burrito.'"]
+               "say 'I would like a chicken soup from Taqueria Mana' or 'I feel like having "
+               "a burrito.'"]
     responder.prompt(prompts)
 
 
@@ -38,26 +40,25 @@ def place_order(context, slots, responder):
     completion to the user.
     For now, displays a fixed response to indicate that an order has been placed.
     """
-    restaurant_name = context['frame'].get('restaurant_name')
+    slots['restaurant_name'] = context['frame'].get('restaurant_name')
     dishes = context['frame'].get('dishes', [])
-    if not restaurant_name:
+    if not slots['restaurant_name']:
         prompts = ["I'm sorry, you need to specify a restaurant before placing an order."]
     elif len(dishes) < 1:
         prompts = ["I don't have any dishes in the basket yet. What would you like to order "
-                   "from {}?".format(restaurant_name)]
+                   "from {restaurant_name}?"]
     else:
-        prompts = ["Great, your order from {} will be delivered in 30-45 minutes."
-                   .format(restaurant_name)]
+        prompts = ["Great, your order from {restaurant_name} will be delivered in 30-45 minutes."]
+        context = _clear_stored_context(context)
+        context['frame']['last_order'] = {'restaurant_name': slots['restaurant_name'],
+                                          'dishes': dishes}
     responder.prompt(prompts)
 
 
 @app.handle(intent='start_over')
 def start_over(context, slots, responder):
     # Clear dialogue frame and respond with the welcome info
-    context_to_preserve = ['name']
-    for key in context['frame'].keys():
-        if key not in context_to_preserve:
-            context['frame'].pop(key)
+    context = _clear_stored_context(context)
     prompts = ["Sure, let's start over! What restaurant would you like to order from?"]
     responder.prompt(prompts)
 
@@ -107,6 +108,10 @@ def order_dish(context, slots, responder):
     dish_entities = [e for e in context['entities'] if e['type'] == 'dish']
     restaurant_entities = [e for e in context['entities'] if e['type'] == 'restaurant']
 
+    if len(restaurant_entities) > 1:
+        responder.prompt('Sorry, we can only order from one restaurant at a time. Which one would '
+                         'you like to order from?')
+
     if len(restaurant_entities) == 1:
         restaurant = restaurant_entities[0]
         restaurant_id, restaurant_name = resolve_restaurant(restaurant['text'], restaurant['value'])
@@ -115,31 +120,28 @@ def order_dish(context, slots, responder):
         context['frame']['restaurant_id'] = restaurant_id
         context['frame']['restaurant_name'] = restaurant_name
 
-    if len(restaurant_entities) > 1:
-        responder.prompt('Sorry, we can only order from one restaurant at a time. Which one would '
-                         'you like to order from?')
-
     if not context['frame'].get('restaurant_id'):
         responder.reply('What restaurant would you like to order from?')
         return
 
+    slots['restaurant_name'] = context['frame']['restaurant_name']
     if len(dish_entities) < 1:
         # TODO: respond with some popular restaurant dishes as suggestions
-        responder.prompt("Great, ordering from {}. What would you like to eat?".format(
-                         context['frame'].get('restaurant_name')))
+        responder.prompt("Great, what would you like to order from {restaurant_name}?")
 
     current_dishes = context['frame'].get('dishes', [])
     for dish in dish_entities:
+        slots['dish_name'] = dish['text']
         if len(dish['value']) < 1 or dish['value'] == dish['text']:
-            responder.reply('Sorry, I could not find a dish with the name {}'.format(dish['text']))
+            responder.reply('Sorry, I could not find a dish with the name {dish_name}')
             continue
         possible_dishes = []
         for cdish in dish['value']:
             possible_dishes.append(get_dish_details(cdish))
         selected_dish = resolve_dish(possible_dishes, context['frame'].get('restaurant_id'))
         if not selected_dish:
-            responder.reply("Sorry, I couldn't find anything called {} at "
-                            "{}".format(dish['text'], context['frame']['restaurant_name']))
+            responder.reply("Sorry, I couldn't find anything called {dish_name} at "
+                            "{restaurant_name}")
             continue
         current_dishes.append(selected_dish)
 
@@ -148,10 +150,10 @@ def order_dish(context, slots, responder):
     if len(current_dishes) > 0:
         current_dish_names = [dish['name'].lower() for dish in current_dishes]
         current_prices = [dish['price'] for dish in current_dishes]
-        prompt_msg = ("Sure I got {} from {} for a total price of ${:.2f}. Would you like to place "
-                      "the order?").format(', '.join(current_dish_names),
-                                           context['frame'].get('restaurant_name'),
-                                           sum(current_prices))
+        slots['dish_names'] = ', '.join(current_dish_names)
+        slots['price'] = sum(current_prices)
+        prompt_msg = ("Sure I got {dish_names} from {restaurant_name} for a total price of "
+                      "${price:.2f}. Would you like to place the order?")
         responder.prompt(prompt_msg)
     else:
         responder.prompt('What dish would you like to eat?')
@@ -164,6 +166,13 @@ def default(context, slots, responder):
                "I can help you order food from your local restaurants."]
     responder.prompt(prompts)
 
+
+def _clear_stored_context(context):
+    context_to_preserve = ['last_order']
+    for key in list(context['frame'].keys()):
+        if key not in context_to_preserve:
+            context['frame'].pop(key)
+    return context
 
 if __name__ == '__main__':
     app.cli()
