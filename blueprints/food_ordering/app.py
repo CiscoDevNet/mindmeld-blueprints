@@ -41,12 +41,12 @@ def place_order(context, slots, responder):
     restaurant_name = context['frame'].get('restaurant_name')
     dishes = context['frame'].get('dishes', [])
     if not restaurant_name:
-        prompts = ["I'm sorry, you need to specify a restaurant before placing and order."]
+        prompts = ["I'm sorry, you need to specify a restaurant before placing an order."]
     elif len(dishes) < 1:
         prompts = ["I don't have any dishes in the basket yet. What would you like to order "
                    "from {}?".format(restaurant_name)]
     else:
-        prompts = ["Great, your order from {} will delivered in 30-45 minutes."
+        prompts = ["Great, your order from {} will be delivered in 30-45 minutes."
                    .format(restaurant_name)]
     responder.prompt(prompts)
 
