@@ -33,9 +33,22 @@ def provide_help(context, slots, responder):
 
 @app.handle(intent='place_order')
 def place_order(context, slots, responder):
-    # Call external/mock API to place the order.
-    # Acknowledge transaction completion to user.
-    pass
+    """
+    This is where we would call an external API to place the order, and acknowledge transaction
+    completion to the user.
+    For now, displays a fixed response to indicate that an order has been placed.
+    """
+    restaurant_name = context['frame'].get('restaurant_name')
+    dishes = context['frame'].get('dishes', [])
+    if not restaurant_name:
+        prompts = ["I'm sorry, you need to specify a restaurant before placing and order."]
+    elif len(dishes) < 1:
+        prompts = ["I don't have any dishes in the basket yet. What would you like to order "
+                   "from {}?".format(restaurant_name)]
+    else:
+        prompts = ["Great, your order from {} will delivered in 30-45 minutes."
+                   .format(restaurant_name)]
+    responder.prompt(prompts)
 
 
 @app.handle(intent='start_over')
@@ -63,7 +76,7 @@ def order_dish(context, slots, responder):
 
     def resolve_restaurant(text, values):
         """
-        Given the user's original text and possibile restaurants from the entity resolver,
+        Given the user's original text and possible restaurants from the entity resolver,
         selects the one(s) that the user is most likely asking for.
         """
         if len(values) < 1 or text == values:
