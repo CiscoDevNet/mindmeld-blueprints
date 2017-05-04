@@ -22,7 +22,7 @@ def welcome(context, slots, responder):
 @app.handle(intent='exit')
 def say_goodbye(context, slots, responder):
     responder.reply(['Bye', 'Goodbye', 'Have a nice day.'])
-    context = _clear_stored_context(context)
+    context['frame'] = {}
 
 
 @app.handle(intent='help')
@@ -49,16 +49,15 @@ def place_order(context, slots, responder):
                    "from {restaurant_name}?"]
     else:
         prompts = ["Great, your order from {restaurant_name} will be delivered in 30-45 minutes."]
-        context = _clear_stored_context(context)
-        context['frame']['last_order'] = {'restaurant_name': slots['restaurant_name'],
-                                          'dishes': dishes}
+        context['frame'] = {}
+
     responder.prompt(prompts)
 
 
 @app.handle(intent='start_over')
 def start_over(context, slots, responder):
     # Clear dialogue frame and respond with the welcome info
-    context = _clear_stored_context(context)
+    context['frame'] = {}
     prompts = ["Sure, let's start over! What restaurant would you like to order from?"]
     responder.prompt(prompts)
 
@@ -193,13 +192,6 @@ def default(context, slots, responder):
                "I can help you order food from your local restaurants."]
     responder.prompt(prompts)
 
-
-def _clear_stored_context(context):
-    context_to_preserve = ['last_order']
-    for key in list(context['frame'].keys()):
-        if key not in context_to_preserve:
-            context['frame'].pop(key)
-    return context
 
 if __name__ == '__main__':
     app.cli()
