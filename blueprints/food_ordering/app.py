@@ -10,23 +10,34 @@ app = Application(__name__)
 
 @app.handle(intent='greet')
 def welcome(context, slots, responder):
+    """
+    When a user is starting a conversation, says hi and gives some restaurant suggestions
+    to explore.
+    """
     try:
         slots['name'] = context['request']['session']['name']
         prefix = 'Hello, {name}. '
     except KeyError:
         prefix = 'Hello. '
+    # TODO: get some restaurants at random
     responder.prompt(prefix + 'Here are some nearby popular restaurants '
                               'you can order delivery from.')
 
 
 @app.handle(intent='exit')
 def say_goodbye(context, slots, responder):
+    """
+    When a user is trying to exit, says goodbye and clears the context frame.
+    """
     responder.reply(['Bye', 'Goodbye', 'Have a nice day.'])
     context['frame'] = {}
 
 
 @app.handle(intent='help')
 def provide_help(context, slots, responder):
+    """
+    If the user asks for help, provides some sample queries they can try.
+    """
     prompts = ["I can help you order food from your local restaurants. For example, you can "
                "say 'I would like a chicken soup from Taqueria Mana' or 'I feel like having "
                "a burrito.'"]
@@ -56,6 +67,9 @@ def place_order(context, slots, responder):
 
 @app.handle(intent='start_over')
 def start_over(context, slots, responder):
+    """
+    When the user is trying to start over, clears the context frame to start on a clean slate.
+    """
     # Clear dialogue frame and respond with the welcome info
     context['frame'] = {}
     prompts = ["Sure, let's start over! What restaurant would you like to order from?"]
@@ -65,7 +79,10 @@ def start_over(context, slots, responder):
 @app.handle(intent='build_order')
 def order_dish(context, slots, responder):
     """
-    Simplified ordering logic which requires the user to specify a restaurant by name first.
+    This method handles all logic for when a user is trying to specify a restaurant or build an
+    order.
+    For simplification, we require the user to specify a restaurant by name before adding dishes
+    to their basket.
     TODO: resolve options and quantities
     """
     def get_restaurant_details(restaurant):
@@ -82,8 +99,9 @@ def order_dish(context, slots, responder):
 
     def resolve_restaurant(text, values):
         """
-        Given the user's original text and possible restaurants from the entity resolver,
-        selects the one(s) that the user is most likely asking for.
+        Given the user's original text, possible restaurants from the entity resolver, and
+        additional restaurant information from the knowledge base, selects the one that the user
+        is most likely asking for.
         """
         if len(values) < 1 or text == values:
             return None, None
@@ -96,7 +114,7 @@ def order_dish(context, slots, responder):
     def resolve_dish(dishes, restaurant_id):
         """
         Given the selected restaurant and the possible dishes from the entity resolver,
-        selects the one(s) that the user is most likely asking for.
+        selects the one that the user is most likely asking for.
         """
         # Remove dishes not available from the selected restaurant
         restaurant_dishes = []
@@ -188,6 +206,10 @@ def order_dish(context, slots, responder):
 @app.handle(intent='unsupported')
 @app.handle()
 def default(context, slots, responder):
+    """
+    If the user is asking an unrelated questions, responds with an acknowledgment and prompt to
+    return to ordering.
+    """
     prompts = ["Sorry, not sure what you meant there."
                "I can help you order food from your local restaurants."]
     responder.prompt(prompts)
