@@ -85,47 +85,6 @@ def order_dish(context, slots, responder):
     to their basket.
     TODO: resolve options and quantities
     """
-    def get_restaurant_details(restaurant):
-        """
-        Gets the full restaurant information from the knowledge base
-        """
-        return app.question_answerer.get(index='restaurants', id=restaurant['id'])[0]
-
-    def get_dish_details(dish):
-        """
-        Gets the full dish details from the knowledge base
-        """
-        return app.question_answerer.get(index='menu_items', id=dish['id'])[0]
-
-    def resolve_restaurant(text, values):
-        """
-        Given the user's original text, possible restaurants from the entity resolver, and
-        additional restaurant information from the knowledge base, selects the one that the user
-        is most likely asking for.
-        """
-        if len(values) < 1 or text == values:
-            return None, None
-        else:
-            # For now just selects one restaurant at random. TODO: get restaurant details
-            # from kb and use location, edit distance, popularity, etc to select the top one
-            restaurant = random.choice(values)
-            return restaurant['id'], restaurant['cname']
-
-    def resolve_dish(dishes, restaurant_id):
-        """
-        Given the selected restaurant and the possible dishes from the entity resolver,
-        selects the one that the user is most likely asking for.
-        """
-        # Remove dishes not available from the selected restaurant
-        restaurant_dishes = []
-        for dish in dishes:
-            if dish['restaurant_id'] == restaurant_id:
-                restaurant_dishes.append(dish)
-        if len(restaurant_dishes) < 1:
-            return None
-        # For now just select one dish at random. TODO: use other methods
-        return random.choice(restaurant_dishes)
-
     dish_entities = [e for e in context['entities'] if e['type'] == 'dish']
     restaurant_entities = [e for e in context['entities'] if e['type'] == 'restaurant']
 
@@ -201,6 +160,53 @@ def order_dish(context, slots, responder):
         responder.prompt(prompt_msg)
     else:
         responder.prompt('What dish would you like to eat?')
+
+
+# Helper methods for build order
+
+def get_restaurant_details(restaurant):
+    """
+    Gets the full restaurant information from the knowledge base
+    """
+    return app.question_answerer.get(index='restaurants', id=restaurant['id'])[0]
+
+
+def get_dish_details(dish):
+    """
+    Gets the full dish details from the knowledge base
+    """
+    return app.question_answerer.get(index='menu_items', id=dish['id'])[0]
+
+
+def resolve_restaurant(text, values):
+    """
+    Given the user's original text, possible restaurants from the entity resolver, and
+    additional restaurant information from the knowledge base, selects the one that the user
+    is most likely asking for.
+    """
+    if len(values) < 1 or text == values:
+        return None, None
+    else:
+        # For now just selects one restaurant at random. TODO: get restaurant details
+        # from kb and use location, edit distance, popularity, etc to select the top one
+        restaurant = random.choice(values)
+        return restaurant['id'], restaurant['cname']
+
+
+def resolve_dish(dishes, restaurant_id):
+    """
+    Given the selected restaurant and the possible dishes from the entity resolver,
+    selects the one that the user is most likely asking for.
+    """
+    # Remove dishes not available from the selected restaurant
+    restaurant_dishes = []
+    for dish in dishes:
+        if dish['restaurant_id'] == restaurant_id:
+            restaurant_dishes.append(dish)
+    if len(restaurant_dishes) < 1:
+        return None
+    # For now just select one dish at random. TODO: use other methods
+    return random.choice(restaurant_dishes)
 
 
 @app.handle(intent='unsupported')
