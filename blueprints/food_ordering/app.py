@@ -133,7 +133,7 @@ def build_order(context, slots, responder):
             # informed manner, taking into account factors such as the restaurant's proximity to
             # the user's current location, the restaurant's popularity and reviews, the user's
             # personal preferences, etc.
-            selected_restaurant = _get_restaurant_from_kb(restaurant_entity['value'][0])
+            selected_restaurant = _get_restaurant_from_kb(restaurant_entity['value'][0]['id'])
 
             # Overwrite the restaurant information in the dialogue frame and clear any dish
             # selections made so far. Ideally, this should be done after verifying that the
@@ -174,60 +174,47 @@ def build_order(context, slots, responder):
                 # Use the user-specified alias for the dish in the app's natural language responses
                 slots['dish_name'] = dish_entity['text']
 
-                if len(dish_entity['value']) > 0:
-                    # Get all the potential resolved values for this dish entity. Each candidate
-                    # represents a different entry in the knowledge base, corresponding to a
-                    # specific food item on a specific restaurant's menu. We will use information
-                    # about the selected restaurant to identify the correct dish from this
-                    # candidate list.
-                    dish_candidates = [value for value in dish_entity['value']]
+                # Resolve the dish entity to a knowledge base entry using restaurant information.
+                selected_dish = _resolve_dish(selected_restaurant, dish_entity)
 
-                    # Get the full knowledge base entry for each of the dish candidates.
-                    dish_entries = [_get_dish_from_kb(dc) for dc in dish_candidates]
-
-                    # Resolve to the correct knowledge base entry using the restaurant information.
-                    selected_dish = _resolve_dish(selected_restaurant['id'], dish_entries)
-
-                    if selected_dish:
-                        # If the dish entity could be successfully mapped to a specific entry on
-                        # the restaurant's menu, add it to our current list of dishes.
-                        selected_dishes.append(selected_dish)
-                    else:
-                        # If the requested dish isn't available at the selected restaurant,
-                        # notify the user and prompt to make a different selection. In a real
-                        # app, it would be useful to provide recommendations for dishes similar
-                        # to the originally requested one, to assist the user.
-                        responder.reply("Sorry, I couldn't find anything called {dish_name} at "
-                                        "{restaurant_name}. Would you like to order something "
-                                        "else?")
+                if selected_dish:
+                    # If the dish entity could be successfully mapped to a specific entry on
+                    # the restaurant's menu, add it to our current list of dishes.
+                    selected_dishes.append(selected_dish)
                 else:
-                    # If the dish couldn't be successfully linked to any entry in our knowledge
-                    # base, notify the user.
-                    responder.reply('Sorry, I could not find a dish with the name {dish_name}')
+                    # If the requested dish isn't available at the selected restaurant,
+                    # or couldn't be linked to a specific KB entry, notify the user and prompt to
+                    # make a different selection. In a real app, it would be useful to provide
+                    # recommendations for dishes similar to the originally requested one,
+                    # to assist the user.
+                    responder.reply("Sorry, I couldn't find anything called {dish_name} at "
+                                    "{restaurant_name}. Would you like to order something "
+                                    "else?")
 
-            # Update the basket information in the dialogue frame
+            # Update the basket information in the dialogue frame after all the dish entities
+            # have been processed and mapped to their respective KB entries.
             context['frame']['dishes'] = selected_dishes
         else:
             # If the user has requested one or more dishes, but not selected a restaurant yet,
             # prompt him to pick a restaurant from a list of suggestions. This suggestion list can
             # be generated in a number of ways. Here, we just take the first requested dish and
-            # provide a list of (up to) three restaurants that have that item on their menu.
+            # provide a list of (up to) three restaurants which have that item on their menu.
 
             # Get the first dish entity that has non-zero resolved values.
             dish_entity = next((de for de in dish_entities if len(de['value']) > 0), None)
 
             if dish_entity:
-                # Get up to three possible resolved values for the dish entity
+                # Get up to three possible resolved values for the dish entity.
                 dish_candidates = [value for value in dish_entity['value']][0:3]
 
-                # Get the knowledge base entry for each of the dishes
-                dish_entries = [_get_dish_from_kb(dc) for dc in dish_candidates]
+                # Get the knowledge base entry for each of the dishes.
+                dish_entries = [_get_dish_from_kb(dc['id']) for dc in dish_candidates]
 
-                # Get the restaurant info for each dish from their respective KB entries
+                # Get the restaurant info for each dish from their respective KB entries.
                 restaurant_ids = set([entry['restaurant_id'] for entry in dish_entries])
-                restaurant_names = [_get_restaurant_from_kb({'id': rid})['name'] for
-                                    rid in restaurant_ids]
+                restaurant_names = [_get_restaurant_from_kb(rid)['name'] for rid in restaurant_ids]
 
+                # Compose the response with the restaurant suggestions and reply to the user.
                 slots['suggestions'] = ', '.join(restaurant_names)
                 slots['dish_name'] = dish_entity['text']
                 responder.reply('I found {dish_name} at {suggestions}. Where would you like '
@@ -273,30 +260,46 @@ def default(context, slots, responder):
 
 # Helper methods for build order
 
-def _get_restaurant_from_kb(restaurant):
+def _get_restaurant_from_kb(restaurant_id):
     """
     Retrieves the detailed knowledge base entry for a given restaurant 
     """
-    return app.question_answerer.get(index='restaurants', id=restaurant['id'])[0]
+    return app.question_answerer.get(index='restaurants', id=restaurant_id)[0]
 
 
-def _get_dish_from_kb(dish):
+def _get_dish_from_kb(dish_id):
     """
     Retrieves the detailed knowledge base entry for a given dish
     """
-    return app.question_answerer.get(index='menu_items', id=dish['id'])[0]
+    return app.question_answerer.get(index='menu_items', id=dish_id)[0]
 
 
-def _resolve_dish(restaurant_id, dishes):
+def _resolve_dish(selected_restaurant, dish_entity):
     """
-    Given a selected restaurant and a list of candidate dish entries from the knowledge base, 
-    selects the one that the user is most likely asking for. The logic for this selection 
-    could be arbitrarily complex and take into account factors like a dish's popularity, 
-    time of the day, the user's preferences, etc. Here, we simply pick the first candidate that is 
-    available on the given restaurant's menu.
+    Given a restaurant and a dish entity that could have many potential resolved values (each 
+    representing a different item on a different menu), picks the most likely knowledge base 
+    entry for the dish. The logic for this selection could be arbitrarily complex and take into  
+    account factors like a dish's popularity, time of the day, the user's preferences, etc. Here,
+    we simply pick the first candidate that is available on the given restaurant's menu.
+    
+    Args:
+        selected_restaurant (dict): Knowledge base entry for the selected restaurant 
+        dish_entity (dict): A dish entity with potentially many candidate resolved values
+    
+    Returns:
+        dict: The resolved knowledge base entry corresponding to the given dish entity
     """
-    return next((d for d in dishes if d['restaurant_id'] == restaurant_id), None)
+    # Get all the potential resolved values for this dish entity. Each candidate represents a
+    # different entry in the knowledge base, corresponding to a specific food item on a specific
+    # restaurant's menu. We will use information about the selected restaurant to identify the
+    # correct dish from this candidate list.
+    dish_candidates = [value for value in dish_entity['value']]
 
+    # Get the full knowledge base entry for each of the dish candidates.
+    dish_entries = [_get_dish_from_kb(dc['id']) for dc in dish_candidates]
+
+    # Choose the first candidate whose restaurant information matches with the provided restaurant
+    return next((d for d in dish_entries if d['restaurant_id'] == selected_restaurant['id']), None)
 
 if __name__ == '__main__':
     app.cli()
