@@ -12,7 +12,7 @@ def welcome(context, slots, responder):
     When the user starts a conversation, say hi and give some restaurant suggestions to explore.
     """
     try:
-        # Get user's name from session information in request context to personalize the greeting
+        # Get user's name from session information in request context to personalize the greeting.
         slots['name'] = context['request']['session']['name']
         prefix = 'Hello, {name}. '
     except KeyError:
@@ -23,7 +23,7 @@ def welcome(context, slots, responder):
     restaurants = app.question_answerer.get(index='restaurants')
     suggestions = ', '.join([r['name'] for r in restaurants[0:3]])
 
-    # Build up the final natural language response and reply to the user
+    # Build up the final natural language response and reply to the user.
     responder.prompt(prefix + 'Some nearby popular restaurants you can order delivery from are '
                      + suggestions)
 
@@ -33,7 +33,7 @@ def say_goodbye(context, slots, responder):
     """
     When the user ends a conversation, clear the dialogue frame and say goodbye.
     """
-    # Clear the dialogue frame to start afresh for the next user request
+    # Clear the dialogue frame to start afresh for the next user request.
     context['frame'] = {}
 
     # Respond with a random selection from one of the canned "goodbye" responses.
@@ -73,14 +73,14 @@ def place_order(context, slots, responder):
 
     For this demo app, we just display a fixed response to indicate that an order has been placed.
     """
-    # Get the user's restaurant selection from the dialogue frame
+    # Get the user's restaurant selection from the dialogue frame.
     selected_restaurant = context['frame'].get('restaurant')
 
     if selected_restaurant:
-        # If a restaurant has been selected, set its name in the natural language response
+        # If a restaurant has been selected, set its name in the natural language response.
         slots['restaurant_name'] = selected_restaurant['name']
 
-        # Get the user's requested dishes from the frame
+        # Get the user's requested dishes from the frame.
         dishes = context['frame'].get('dishes', [])
 
         if len(dishes) > 0:
@@ -91,7 +91,7 @@ def place_order(context, slots, responder):
             prompts = ['Great, your order from {restaurant_name} will be delivered in 30-45 '
                        'minutes.']
 
-            # Clear the dialogue frame to start afresh for the next user request
+            # Clear the dialogue frame to start afresh for the next user request.
             context['frame'] = {}
         else:
             # If no dishes have been requested, prompt the user to order something from the menu.
@@ -151,7 +151,7 @@ def build_order(context, slots, responder):
                             "there another restaurant you would like to order from?")
             return
 
-    # Use the selected restaurant's name in natural language responses.
+    # Store the selected restaurant's name for later use in natural language responses.
     if selected_restaurant:
         slots['restaurant_name'] = selected_restaurant['name']
 
@@ -171,7 +171,7 @@ def build_order(context, slots, responder):
             # are stored in the dialogue frame (context['frame']['dishes']).
 
             for dish_entity in dish_entities:
-                # Use the user-specified alias for the dish in the app's natural language responses
+                # Use the user-specified alias for the dish in natural language responses.
                 slots['dish_name'] = dish_entity['text']
 
                 # Resolve the dish entity to a knowledge base entry using restaurant information.
@@ -224,7 +224,23 @@ def build_order(context, slots, responder):
                 # knowledge base, notify the user and prompt to choose a restaurant by name.
                 responder.reply("Sorry, I didn't find what you were looking for at a nearby "
                                 "restaurant. What restaurant would you like to order from?")
-    elif len(selected_dishes) == 0:
+
+            return
+
+    # We should now have all user-requested information up to this point (i.e. from this turn and
+    # previous turns) reconciled into selected_restaurant and selected_dishes.
+
+    if len(selected_dishes) > 0:
+        # If dish selections have been made (which also implicitly implies that a restaurant has
+        # been selected), respond with a preview of the current basket and prompt for order
+        # confirmation.
+        selected_dish_names = [dish['name'] for dish in selected_dishes]
+        selected_dish_prices = [dish['price'] for dish in selected_dishes]
+        slots['dish_names'] = ', '.join(selected_dish_names)
+        slots['price'] = sum(selected_dish_prices )
+        responder.prompt('Sure I got {dish_names} from {restaurant_name} for a total price of '
+                         '${price:.2f}. Would you like to place the order?')
+    else:
         # If the user hasn't selected any dishes so far, prompt the user to make a selection based
         # on the information that is already available.
         if selected_restaurant:
@@ -233,17 +249,6 @@ def build_order(context, slots, responder):
         else:
             # If the user has not chosen a restaurant, prompt to do so.
             responder.prompt('What restaurant would you like to order from?')
-
-    if selected_restaurant and len(selected_dishes) > 0:
-        # If information on both the restaurant and requested dishes is available, respond with a
-        # preview of the current basket details and prompt for order confirmation.
-        selected_dish_names = [dish['name'].lower() for dish in selected_dishes]
-        dish_prices = [dish['price'] for dish in selected_dishes]
-        slots['dish_names'] = ', '.join(selected_dish_names)
-        slots['price'] = sum(dish_prices)
-        prompt_msg = ('Sure I got {dish_names} from {restaurant_name} for a total price of '
-                      '${price:.2f}. Would you like to place the order?')
-        responder.prompt(prompt_msg)
 
 
 @app.handle(intent='unsupported')
@@ -262,14 +267,26 @@ def default(context, slots, responder):
 
 def _get_restaurant_from_kb(restaurant_id):
     """
-    Retrieves the detailed knowledge base entry for a given restaurant 
+    Retrieves the detailed knowledge base entry for a given restaurant.
+    
+    Args:
+        restaurant_id (str): Identifier for a specific restaurant entry in the knowledge base.
+        
+    Returns:
+        dict: The full knowledge base entry for the given restaurant ID.
     """
     return app.question_answerer.get(index='restaurants', id=restaurant_id)[0]
 
 
 def _get_dish_from_kb(dish_id):
     """
-    Retrieves the detailed knowledge base entry for a given dish
+    Retrieves the detailed knowledge base entry for a given dish.
+    
+    Args:
+        dish_id (str): Identifier for a specific dish (menu item) entry in the knowledge base.
+        
+    Returns:
+        dict: The full knowledge base entry for the given dish ID.
     """
     return app.question_answerer.get(index='menu_items', id=dish_id)[0]
 
@@ -283,11 +300,11 @@ def _resolve_dish(selected_restaurant, dish_entity):
     we simply pick the first candidate that is available on the given restaurant's menu.
     
     Args:
-        selected_restaurant (dict): Knowledge base entry for the selected restaurant 
-        dish_entity (dict): A dish entity with potentially many candidate resolved values
+        selected_restaurant (dict): Knowledge base entry for the selected restaurant. 
+        dish_entity (dict): A dish entity with potentially many candidate resolved values.
     
     Returns:
-        dict: The resolved knowledge base entry corresponding to the given dish entity
+        dict: The resolved knowledge base entry corresponding to the given dish entity.
     """
     # Get all the potential resolved values for this dish entity. Each candidate represents a
     # different entry in the knowledge base, corresponding to a specific food item on a specific
@@ -298,7 +315,7 @@ def _resolve_dish(selected_restaurant, dish_entity):
     # Get the full knowledge base entry for each of the dish candidates.
     dish_entries = [_get_dish_from_kb(dc['id']) for dc in dish_candidates]
 
-    # Choose the first candidate whose restaurant information matches with the provided restaurant
+    # Choose the first candidate whose restaurant information matches with the provided restaurant.
     return next((d for d in dish_entries if d['restaurant_id'] == selected_restaurant['id']), None)
 
 if __name__ == '__main__':
