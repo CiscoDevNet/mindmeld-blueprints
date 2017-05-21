@@ -4,11 +4,20 @@ Give me something else
 I want something else
 I want to look for something else
 Let's start again
+Let's try something else
 Show me something different
 Show something different
 Something else
 Start over
 Try again
+actually let's not
+actually let's not
+actually nah
+actually nah
+actually no
+actually no
+actually not that
+actually not that
 actually scratch that
 actually scratch that
 actually scratch that
@@ -27,7 +36,6 @@ begin again
 begin again
 can we start over
 can you start over
-Let's try something else
 cancel
 cancel
 cancel
@@ -85,6 +93,8 @@ clear the cart
 clear the order
 clear the order
 clear the order
+decline
+decline
 delete my order
 delete my order
 delete my order
@@ -117,6 +127,8 @@ empty the basket
 empty the cart
 empty the cart
 empty the cart
+forget about it
+forget it
 go back to order
 go back to order
 go back to order
@@ -126,9 +138,17 @@ go back to order again
 go back to the beginning
 go back to the beginning
 go back to the beginning
+hard pass
+hard pass
+how about no
+how about no
 i did not order that.
 i did not order that.
 i did not order that.
+i do not
+i do not
+i don't
+i don't
 i meant a different drink
 i meant a different drink
 i meant a different drink
@@ -147,9 +167,21 @@ i want something different
 i want to cancel that.
 i want to cancel that.
 i want to cancel that.
+i would not like that
+i would not like that
 i'd like to cancel
 i'd like to cancel
 i'd like to cancel
+i'll pass
+i'll pass
+i'll pass
+i'll pass
+i'm good
+i'm good
+i'm good thank you
+i'm good thank you
+i'm good thanks
+i'm good thanks
 i'm sorry, please cancel that order.
 i'm sorry, please cancel that order.
 i'm sorry, please cancel that order.
@@ -170,14 +202,26 @@ let's try again
 lets try that order again.
 lets try that order again.
 lets try that order again.
+nah
+nah
+nah actually
+nah actually
 nah forget it
 nah forget it
 nah forget it
 nah ignore
 nah ignore
 nah ignore
+nah that's fine
+nah that's fine
+nah, I'm good
+nah, I'm good
+nah, that'll be fine
+nah, that'll be fine
 never mind
 never mind
+never mind
+nevermind
 nevermind
 nevermind
 new basket
@@ -191,9 +235,31 @@ new order
 new order
 new search
 nix
+no
+no
+no
+no
+no actually
+no actually
+no but thanks
+no but thanks
+no i do not
+no i do not
+no i don't
+no i don't
+no i don't want that
+no i don't want that
 no not correct.
 no not correct.
 no not correct.
+no please
+no please
+no thank you
+no thank you
+no thanks
+no thanks
+no, I'm good
+no, I'm good
 no, cancel that, please.
 no, cancel that, please.
 no, cancel that, please.
@@ -215,12 +281,16 @@ no, wrong!
 no, you heard the wrong order.
 no, you heard the wrong order.
 no, you heard the wrong order.
+nope
+nope
 nope reset
 nope reset
 nope reset
 nope that's not correct.
 nope that's not correct.
 nope that's not correct.
+nope, I'm good
+nope, I'm good
 not at all. reset
 not at all. reset
 not at all. reset
@@ -233,10 +303,14 @@ not even close.
 not right
 not right
 not right
+not today
+not today
+nvm
 nvm
 nvm
 nvm that
 nvm that
+nvm that
 oh dear let's start over
 oh dear let's start over
 oh dear let's start over
@@ -255,6 +329,8 @@ please cancel that.
 please cancel the order.
 please cancel the order.
 please cancel the order.
+please no
+please no
 please start over.
 please start over.
 please start over.
@@ -312,6 +388,10 @@ scratch that actually
 scratch that. reset
 scratch that. reset
 scratch that. reset
+sorry no
+sorry no
+sorry nope
+sorry nope
 start a new search
 start again.
 start again.
@@ -342,6 +422,12 @@ stop
 stop order
 stop order
 stop order
+thank you but no
+thank you but no
+thanks but no
+thanks but no
+thanks but nope
+thanks but nope
 that is completely wrong.
 that is completely wrong.
 that is completely wrong.
@@ -369,6 +455,8 @@ that's not what i ordered.
 that's not what i said.
 that's not what i said.
 that's not what i said.
+that's okay i'll pass
+that's okay i'll pass
 that's wrong.
 that's wrong.
 that's wrong.
