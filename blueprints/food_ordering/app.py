@@ -182,9 +182,9 @@ def build_order(context, slots, responder):
                     # the restaurant's menu, add it to our current list of dishes.
                     selected_dishes.append(selected_dish)
                 else:
-                    # If the requested dish isn't available at the selected restaurant,
-                    # or couldn't be linked to a specific KB entry, notify the user and prompt to
-                    # make a different selection. In a real app, it would be useful to provide
+                    # If the requested dish isn't available at the selected restaurant, or couldn't
+                    # be linked to a specific KB entry, notify the user and prompt to make a
+                    # different selection. In a real app, it would be useful to provide
                     # recommendations for dishes similar to the originally requested one,
                     # to assist the user.
                     responder.reply("Sorry, I couldn't find anything called {dish_name} at "
@@ -307,6 +307,10 @@ def _resolve_dish(dish_entity, selected_restaurant):
         dict: The resolved knowledge base entry corresponding to the given dish entity, augmented 
               with additional attribute information like quantity and options.
     """
+    # Can't do anything if the entity resolution step of NLP failed to produce candidates.
+    if 'value' not in dish_entity:
+        return None
+
     # Get all the potential resolved values for this dish entity. Each candidate represents a
     # different entry in the knowledge base, corresponding to a specific food item on a specific
     # restaurant's menu. We use information about the selected restaurant to identify the
@@ -342,6 +346,10 @@ def _resolve_option(option_entity, selected_dish, selected_restaurant):
     Returns:
         dict: The resolved knowledge base entry corresponding to the given option entity.
     """
+    # Can't do anything if the entity resolution step of NLP failed to produce candidates.
+    if 'value' not in option_entity:
+        return None
+
     # Get all the potential resolved values for the given option entity. Each candidate represents
     # a different entry in the knowledge base, corresponding to a specific option for a specific
     # restaurant's dish. We use information about the selected dish to identify the correct
