@@ -175,7 +175,7 @@ def build_order(context, slots, responder):
                 slots['dish_name'] = dish_entity['text']
 
                 # Resolve the dish entity to a knowledge base entry using restaurant information.
-                selected_dish = _resolve_dish(selected_restaurant, dish_entity)
+                selected_dish = _resolve_dish(dish_entity, selected_restaurant)
 
                 if selected_dish:
                     # If the dish entity could be successfully mapped to a specific entry on
@@ -235,9 +235,9 @@ def build_order(context, slots, responder):
         # been selected), respond with a preview of the current basket and prompt for order
         # confirmation.
         selected_dish_names = [dish['name'] for dish in selected_dishes]
-        selected_dish_prices = [dish['price'] for dish in selected_dishes]
+        selected_dish_prices = [_price_dish(dish) for dish in selected_dishes]
         slots['dish_names'] = ', '.join(selected_dish_names)
-        slots['price'] = sum(selected_dish_prices )
+        slots['price'] = sum(selected_dish_prices)
         responder.prompt('Sure I got {dish_names} from {restaurant_name} for a total price of '
                          '${price:.2f}. Would you like to place the order?')
     else:
@@ -291,21 +291,21 @@ def _get_dish_from_kb(dish_id):
     return app.question_answerer.get(index='menu_items', id=dish_id)[0]
 
 
-def _resolve_dish(selected_restaurant, dish_entity):
+def _resolve_dish(dish_entity, selected_restaurant):
     """
-    Given a restaurant and a dish entity that could have many potential resolved values (each 
-    representing a unique item on a specific restaurant's menu), pick the most likely 
-    knowledge base entry for the dish. The logic for this selection could be arbitrarily complex 
-    and take into account factors like a dish's popularity, time of the day, the user's  
-    preferences, etc. Here, we simply pick the first candidate that is available on the given 
-    restaurant's menu.
+    Given a dish entity that could have many potential resolved values (each representing a 
+    unique item on a specific restaurant's menu), pick the most likely knowledge base entry for 
+    the dish. The logic for this selection could be arbitrarily complex and take into account  
+    factors like a dish's popularity, time of the day, the user's preferences, etc. Here, 
+    we simply pick the first candidate that is available on the given restaurant's menu.
     
     Args:
-        selected_restaurant (dict): Knowledge base entry for the selected restaurant. 
         dish_entity (dict): A dish entity with potentially many candidate resolved values.
-    
+        selected_restaurant (dict): Knowledge base entry for the selected restaurant.
+
     Returns:
-        dict: The resolved knowledge base entry corresponding to the given dish entity.
+        dict: The resolved knowledge base entry corresponding to the given dish entity, augmented 
+              with additional attribute information like quantity and options.
     """
     # Get all the potential resolved values for this dish entity. Each candidate represents a
     # different entry in the knowledge base, corresponding to a specific food item on a specific
@@ -317,7 +317,66 @@ def _resolve_dish(selected_restaurant, dish_entity):
     dish_entries = [_get_dish_from_kb(dc['id']) for dc in dish_candidates]
 
     # Choose the first candidate whose restaurant information matches with the provided restaurant.
-    return next((d for d in dish_entries if d['restaurant_id'] == selected_restaurant['id']), None)
+    dish = next((d for d in dish_entries if d['restaurant_id'] == selected_restaurant['id']), None)
+
+    # Finally, augment the dish entry with any additional information from its child entities.
+    if dish and 'children' in dish_entity:
+        dish['options'] = [_resolve_option(child, dish, selected_restaurant)
+                           for child in dish_entity['children'] if child['type'] == 'option']
+
+    return dish
+
+
+def _resolve_option(option_entity, selected_dish, selected_restaurant):
+    """
+    Given an option entity that could have many potential resolved values (each representing a  
+    unique customization option for a specific restaurant's dish), pick the most likely knowledge 
+    base entry for the option. Here, we choose the first option candidate that is compatible with 
+    the given menu item.
+
+    Args:
+        option_entity (dict): An option entity with potentially many candidate resolved values.
+        selected_dish (dict): Knowledge base entry for the selected dish.
+        selected_restaurant (dict): Knowledge base entry for the selected restaurant.
+
+    Returns:
+        dict: The resolved knowledge base entry corresponding to the given option entity.
+    """
+    # Get all the potential resolved values for the given option entity. Each candidate represents
+    # a different entry in the knowledge base, corresponding to a specific option for a specific
+    # restaurant's dish. We use information about the selected dish to identify the correct
+    # option from this candidate list.
+    option_candidates = [value for value in option_entity['value']]
+
+    # Next, get all the options that are listed for the selected dish on the restaurant's menus.
+    all_option_groups = [groups for menu in selected_restaurant['menus']
+                         for groups in menu['option_groups']]
+    dish_option_groups = [group for group in all_option_groups if group['id'] in
+                          set(group_ids for group_ids in selected_dish['option_groups'])]
+    dish_options = {option['id']: option for group in dish_option_groups
+                    for option in group['options']}
+
+    # Finally, choose the first candidate that's a valid dish option listed on the menu.
+    return next((dish_options[oc['id']] for oc in option_candidates if oc['id'] in dish_options),
+                None)
+
+
+def _price_dish(dish):
+    """
+    Computes the final price for ordering the given dish type, taking into account the requested 
+    quantity and options.
+    
+    Args:
+        dish (dict): KB entry for a dish, augmented with quantity and options information.
+    
+    Returns:
+        float: Total price for ordering the requested quantity of this dish with options included.
+    """
+    total_price = dish['price']
+    if 'options' in dish:
+        total_price += sum([option.get('price', 0) for option in dish['options']])
+    return total_price * dish.get('quantity', 1)
+
 
 if __name__ == '__main__':
     app.cli()
