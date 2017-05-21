@@ -267,7 +267,7 @@ def default(context, slots, responder):
 
 def _get_restaurant_from_kb(restaurant_id):
     """
-    Retrieves the detailed knowledge base entry for a given restaurant.
+    Retrieve the detailed knowledge base entry for a given restaurant.
     
     Args:
         restaurant_id (str): Identifier for a specific restaurant entry in the knowledge base.
@@ -280,10 +280,10 @@ def _get_restaurant_from_kb(restaurant_id):
 
 def _get_dish_from_kb(dish_id):
     """
-    Retrieves the detailed knowledge base entry for a given dish.
+    Retrieve the detailed knowledge base entry for a given dish.
     
     Args:
-        dish_id (str): Identifier for a specific dish (menu item) entry in the knowledge base.
+        dish_id (str): Identifier for a specific dish entry in the knowledge base.
         
     Returns:
         dict: The full knowledge base entry for the given dish ID.
@@ -294,10 +294,11 @@ def _get_dish_from_kb(dish_id):
 def _resolve_dish(selected_restaurant, dish_entity):
     """
     Given a restaurant and a dish entity that could have many potential resolved values (each 
-    representing a different item on a different menu), picks the most likely knowledge base 
-    entry for the dish. The logic for this selection could be arbitrarily complex and take into  
-    account factors like a dish's popularity, time of the day, the user's preferences, etc. Here,
-    we simply pick the first candidate that is available on the given restaurant's menu.
+    representing a unique item on a specific restaurant's menu), pick the most likely 
+    knowledge base entry for the dish. The logic for this selection could be arbitrarily complex 
+    and take into account factors like a dish's popularity, time of the day, the user's  
+    preferences, etc. Here, we simply pick the first candidate that is available on the given 
+    restaurant's menu.
     
     Args:
         selected_restaurant (dict): Knowledge base entry for the selected restaurant. 
@@ -308,7 +309,7 @@ def _resolve_dish(selected_restaurant, dish_entity):
     """
     # Get all the potential resolved values for this dish entity. Each candidate represents a
     # different entry in the knowledge base, corresponding to a specific food item on a specific
-    # restaurant's menu. We will use information about the selected restaurant to identify the
+    # restaurant's menu. We use information about the selected restaurant to identify the
     # correct dish from this candidate list.
     dish_candidates = [value for value in dish_entity['value']]
 
