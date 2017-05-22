@@ -3,8 +3,8 @@
 
 
 PARSER_CONFIG = {
-    'dish': [{'type': 'option', 'max_instances': None}, {'type': 'quantity', 'right': False}],
-    'option': [{'type': 'quantity', 'right': False}],
+    'dish': [{'type': 'option', 'max_instances': None}, {'type': 'sys:number', 'right': False}],
+    'option': [{'type': 'sys:number', 'right': False}],
     'restaurant': [],
     'cuisine': [],
     'category': []
