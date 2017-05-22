@@ -80,14 +80,11 @@ def place_order(context, slots, responder):
         # If a restaurant has been selected, set its name in the natural language response.
         slots['restaurant_name'] = selected_restaurant['name']
 
-        # Get the user's requested dishes from the frame.
-        dishes = context['frame'].get('dishes', [])
-
-        if len(dishes) > 0:
-            # If all the necessary information (selection of dishes and the restaurant) is
-            # available, proceed to place the order. In a real application, this would be done by
-            # calling an external API to process the transaction. Here, we just reply with a canned
-            # response confirming that the order has been placed.
+        if len(context['frame'].get('dishes', [])) > 0:
+            # If the user has already made his dish selections from the menu, proceed to place the
+            # order. In a real application, this would be done by calling an external API to
+            # process the transaction. Here, we just reply with a canned response confirming that
+            # the order has been placed.
             prompts = ['Great, your order from {restaurant_name} will be delivered in 30-45 '
                        'minutes.']
 
@@ -171,7 +168,7 @@ def build_order(context, slots, responder):
             # are stored in the dialogue frame (context['frame']['dishes']).
 
             for dish_entity in dish_entities:
-                # Use the user-specified alias for the dish in natural language responses.
+                # Store the user-specified dish name for use in natural language responses.
                 slots['dish_name'] = dish_entity['text']
 
                 # Resolve the dish entity to a knowledge base entry using restaurant information.
@@ -237,14 +234,13 @@ def build_order(context, slots, responder):
         # confirmation.
         dish_names = [str(dish['quantity']) + ' ' + dish['name'] for dish in selected_dishes]
         dish_prices = [_price_dish(dish) for dish in selected_dishes]
-        slots['dish_names'] = (dish_names[0] if len(dish_names) == 1
-                               else ', '.join(dish_names[:-1]) + ' and ' + dish_names[-1])
+        slots['dish_names'] = ', '.join(dish_names)
         slots['price'] = sum(dish_prices)
         responder.prompt('Sure, I got {dish_names} from {restaurant_name} for a total price of '
                          '${price:.2f}. Would you like to place the order?')
     else:
-        # If the user hasn't selected any dishes so far, prompt the user to make a selection based
-        # on the information that is already available.
+        # If the user hasn't selected any dishes yet, prompt the user to make a selection based
+        # on the information that is available so far.
         if selected_restaurant:
             # If the user has chosen a restaurant, prompt to order dishes from that restaurant.
             responder.prompt('Great, what would you like to order from {restaurant_name}?')
@@ -265,7 +261,7 @@ def default(context, slots, responder):
     responder.prompt(prompts)
 
 
-# Helper methods for build order
+# Helper methods for the build_order dialogue state
 
 def _get_restaurant_from_kb(restaurant_id):
     """
@@ -298,8 +294,8 @@ def _resolve_dish(dish_entity, selected_restaurant):
     Given a dish entity that could have many potential resolved values (each representing a 
     unique item on a specific restaurant's menu), pick the most likely knowledge base entry for 
     the dish. The logic for this selection could be arbitrarily complex and take into account  
-    factors like a dish's popularity, time of the day, the user's preferences, etc. Here, 
-    we simply pick the first candidate that is available on the given restaurant's menu.
+    factors like a dish's popularity, time of the day, user preferences, etc. Here, we simply
+    pick the first candidate that is available on the given restaurant's menu.
     
     Args:
         dish_entity (dict): A dish entity with potentially many candidate resolved values.
@@ -309,7 +305,8 @@ def _resolve_dish(dish_entity, selected_restaurant):
         dict: The resolved knowledge base entry corresponding to the given dish entity, augmented 
               with additional attribute information like quantity and options.
     """
-    # Can't do anything if the entity resolution step of NLP failed to produce candidates.
+    # Can't do anything if there are no candidate values to choose from (i.e. if the NLP Entity
+    # Resolver couldn't find any potential KB entries that matched with this entity).
     if 'value' not in dish_entity:
         return None
 
@@ -327,13 +324,13 @@ def _resolve_dish(dish_entity, selected_restaurant):
 
     # Finally, augment the dish entry with any additional information from its child entities.
     if dish and 'children' in dish_entity:
-        # Add quantity information. Default is 1 if unspecified or undetected in the query.
+        # Add quantity information. Set to 1 if the entity value can't be resolved.
         dish['quantity'] = next((child['value']['value'] for child in dish_entity['children']
-                                if child['type'] == 'sys:number' and 'value' in child), 1)
+                                if child['type'] == 'sys:number'), 1)
         # Add information about all successfully resolved options.
         options = [_resolve_option(child, dish, selected_restaurant)
                    for child in dish_entity['children'] if child['type'] == 'option']
-        dish['options'] = [option for option in options if option]
+        dish['options'] = list(filter(None, options))
 
     # Set default quantity of 1 for the order, if it hasn't been explicitly specified by the user.
     if 'quantity' not in dish:
@@ -357,7 +354,8 @@ def _resolve_option(option_entity, selected_dish, selected_restaurant):
     Returns:
         dict: The resolved knowledge base entry corresponding to the given option entity.
     """
-    # Can't do anything if the entity resolution step of NLP failed to produce candidates.
+    # Can't do anything if there are no candidate values to choose from (i.e. if the NLP Entity
+    # Resolver couldn't find any potential KB entries that matched with this entity).
     if 'value' not in option_entity:
         return None
 
