@@ -61,7 +61,7 @@ def start_over(context, slots, responder):
     """
     # Clear the dialogue frame and respond with a variation of the welcome message.
     context['frame'] = {}
-    prompts = ["Sure, let's start over! What restaurant would you like to order from?"]
+    prompts = ["Ok, let's start over! What restaurant would you like to order from?"]
     responder.prompt(prompts)
 
 
@@ -126,7 +126,7 @@ def build_order(context, slots, responder):
     restaurant_entity = next((e for e in context['entities'] if e['type'] == 'restaurant'), None)
 
     if restaurant_entity:
-        if len(restaurant_entity['value']) > 0:
+        if 'value' in restaurant_entity:
             # If the recognized restaurant entity has multiple resolved values (i.e. it can
             # potentially be linked to more than one restaurant entry in the knowledge base),
             # pick the first KB entry. In a real application, this choice can be made in a more
@@ -146,7 +146,7 @@ def build_order(context, slots, responder):
             # If the restaurant entity couldn't be successfully linked to any entry in the
             # knowledge base (i.e. there are no candidate resolved values to choose from),
             # prompt the user to select a different restaurant.
-            slots['restaurant_name'] = selected_restaurant['name']
+            slots['restaurant_name'] = restaurant_entity['text']
             responder.reply("Sorry, I could not find a restaurant called {restaurant_name}. Is "
                             "there another restaurant you would like to order from?")
             return
@@ -190,6 +190,7 @@ def build_order(context, slots, responder):
                     responder.reply("Sorry, I couldn't find anything called {dish_name} at "
                                     "{restaurant_name}. Would you like to order something "
                                     "else?")
+                    return
 
             # Update the basket information in the dialogue frame after all the dish entities
             # have been processed and mapped to their respective KB entries.
@@ -201,7 +202,7 @@ def build_order(context, slots, responder):
             # provide a list of (up to) three restaurants which have that item on their menu.
 
             # Get the first dish entity that has non-zero resolved values.
-            dish_entity = next((de for de in dish_entities if len(de['value']) > 0), None)
+            dish_entity = next((de for de in dish_entities if 'value' in de), None)
 
             if dish_entity:
                 # Get up to three possible resolved values for the dish entity.
@@ -238,7 +239,7 @@ def build_order(context, slots, responder):
         selected_dish_prices = [_price_dish(dish) for dish in selected_dishes]
         slots['dish_names'] = ', '.join(selected_dish_names)
         slots['price'] = sum(selected_dish_prices)
-        responder.prompt('Sure I got {dish_names} from {restaurant_name} for a total price of '
+        responder.prompt('So far, I got {dish_names} from {restaurant_name} for a total price of '
                          '${price:.2f}. Would you like to place the order?')
     else:
         # If the user hasn't selected any dishes so far, prompt the user to make a selection based
@@ -325,8 +326,10 @@ def _resolve_dish(dish_entity, selected_restaurant):
 
     # Finally, augment the dish entry with any additional information from its child entities.
     if dish and 'children' in dish_entity:
-        dish['options'] = [_resolve_option(child, dish, selected_restaurant)
-                           for child in dish_entity['children'] if child['type'] == 'option']
+        options = [_resolve_option(child, dish, selected_restaurant)
+                   for child in dish_entity['children'] if child['type'] == 'option']
+        # Add information about all successfully resolved options to the dish entry.
+        dish['options'] = [option for option in options if option]
 
     return dish
 
