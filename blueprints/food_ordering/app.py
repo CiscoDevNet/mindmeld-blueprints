@@ -344,7 +344,7 @@ def _resolve_option(option_entity, selected_dish, selected_restaurant):
     Given an option entity that could have many potential resolved values (each representing a  
     unique customization option for a specific restaurant's dish), pick the most likely knowledge 
     base entry for the option. Here, we choose the first option candidate that is compatible with 
-    the given menu item.
+    the given dish.
 
     Args:
         option_entity (dict): An option entity with potentially many candidate resolved values.
@@ -380,7 +380,7 @@ def _resolve_option(option_entity, selected_dish, selected_restaurant):
 
 def _price_dish(dish):
     """
-    Computes the final price for ordering the given dish type, taking into account the requested 
+    Computes the final price for ordering the given dish, taking into account the requested
     quantity and options.
     
     Args:
