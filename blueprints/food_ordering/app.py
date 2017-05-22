@@ -235,11 +235,12 @@ def build_order(context, slots, responder):
         # If dish selections have been made (which also implicitly implies that a restaurant has
         # been selected), respond with a preview of the current basket and prompt for order
         # confirmation.
-        selected_dish_names = [dish['name'] for dish in selected_dishes]
-        selected_dish_prices = [_price_dish(dish) for dish in selected_dishes]
-        slots['dish_names'] = ', '.join(selected_dish_names)
-        slots['price'] = sum(selected_dish_prices)
-        responder.prompt('So far, I got {dish_names} from {restaurant_name} for a total price of '
+        dish_names = [str(dish['quantity']) + ' ' + dish['name'] for dish in selected_dishes]
+        dish_prices = [_price_dish(dish) for dish in selected_dishes]
+        slots['dish_names'] = (dish_names[0] if len(dish_names) == 1
+                               else ', '.join(dish_names[:-1]) + ' and ' + dish_names[-1])
+        slots['price'] = sum(dish_prices)
+        responder.prompt('Sure, I got {dish_names} from {restaurant_name} for a total price of '
                          '${price:.2f}. Would you like to place the order?')
     else:
         # If the user hasn't selected any dishes so far, prompt the user to make a selection based
@@ -326,10 +327,17 @@ def _resolve_dish(dish_entity, selected_restaurant):
 
     # Finally, augment the dish entry with any additional information from its child entities.
     if dish and 'children' in dish_entity:
+        # Add quantity information. Default is 1 if unspecified or undetected in the query.
+        dish['quantity'] = next((child['value']['value'] for child in dish_entity['children']
+                                if child['type'] == 'sys:number' and 'value' in child), 1)
+        # Add information about all successfully resolved options.
         options = [_resolve_option(child, dish, selected_restaurant)
                    for child in dish_entity['children'] if child['type'] == 'option']
-        # Add information about all successfully resolved options to the dish entry.
         dish['options'] = [option for option in options if option]
+
+    # Set default quantity of 1 for the order, if it hasn't been explicitly specified by the user.
+    if 'quantity' not in dish:
+        dish['quantity'] = 1
 
     return dish
 
@@ -386,7 +394,7 @@ def _price_dish(dish):
     total_price = dish['price']
     if 'options' in dish:
         total_price += sum([option.get('price', 0) for option in dish['options']])
-    return total_price * dish.get('quantity', 1)
+    return total_price * dish['quantity']
 
 
 if __name__ == '__main__':
