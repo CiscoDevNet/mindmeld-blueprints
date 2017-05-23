@@ -1090,7 +1090,6 @@
             "Quiche with veggies",
             "Bread with peppers and tomatoes",
             "Veggie quiche",
-            "veggie breakfast",
             "breakfast casserole",
             "Vegetarian Quiche",
             "Egg pie with peppers and tomatoes",
@@ -41581,7 +41580,6 @@
             "Pacific pizza with tomato sauce",
             "Garden Pizza",
             "Veggie Heaven Pizza",
-            "Herb Pizza",
             "pandora's box with tomato sauce",
             "pandora's box pizza with the tomato sauce",
             "pandora's pizza with tomato sauce"
@@ -45959,7 +45957,6 @@
         "whitelist": [
             "French Caprese",
             "Veggie Sandwich",
-            "Veggie French Bread",
             "Brie Sandwich",
             "Brie on Baguette",
             "Basil Brie Sandwich",
@@ -55203,10 +55200,7 @@
     {
         "cname": "Large Fry",
         "whitelist": [
-            "house fries",
-            "waffle fries",
-            "seasoned fries",
-            "peach and gray sauce fries",
+            "large house fries",
             "Big fies with different mayos",
             "jumbo fries",
             "hefty order of fries",
