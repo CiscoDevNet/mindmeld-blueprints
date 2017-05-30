@@ -205,7 +205,6 @@ your friend
 your goal
 who is usain bolt
 what is the score of the giants game
-can i get a dominos pizza
 where's a CVS
 play some music
 whats the weather like
@@ -416,7 +415,6 @@ is this some sort of AI bot or something?
 i'd like some japanese whiskey
 I love snacks
 i need a microwave oven
-can i get a strawberries and cream frappuccino
 i need a mouse pad
 i'm looking for new board games for my wife and i to play
 i'll have a pint of beer please
@@ -544,7 +542,6 @@ what is the number one song on the top 40 pop chart
 i have a deep wine stain on my new carpet any suggestions
 tell me a joke
 what is your favorite color
-is there a coffee shop nearby
 what 's the weather like today
 please tell me all about cats
 invite my friends to meet me here
@@ -557,7 +554,6 @@ what is the meaning of life
 are you a person
 can i be your friend
 what 's your favorite color
-i like pizza
 can you find it now
 do you ever feel sad inside
 how often do you pee
@@ -574,7 +570,6 @@ cvcvcvcxvxcvc
 vcxvcxvcvcvcvx
 vcxvccvcvcxvxc
 vcxvcvcvcxvcxvxcvcx
-what is the biggest pizza ever baked
 how much trash is in all land fills across the world
 what is the average lifespan for a 1st world citizen
 what is the average lifespan for a 3rd world citizen
@@ -674,7 +669,6 @@ do you get sleep?
 i'm sleepy
 are you storing my data?
 can you show me movies?
-make me a sandwich
 what's your favorite color?
 what's your favorite animal?
 what's your favorite clothing item?
@@ -737,7 +731,6 @@ tell me the secrets of the universe
 what is the secret of life?
 hot spring please
 do something crazy
-milk tea please
 stay stay stay
 are you cheating on me?
 ask me a question
@@ -757,7 +750,6 @@ repeat after me
 do you know HAL 9000?
 hello jarvis
 may the force be with you
-can i get boba
 are you real?
 books by stephen king
 new nintendo ds games
@@ -777,7 +769,6 @@ where can i buy a beats headset near me
 show me some quotes on automobile tires
 do you have stylish pens
 shopping malls in the area
-can you get some milk and bread from the store for me
 i need a new phone plan what is available in my area
 show me your comics
 limo services around me
@@ -994,7 +985,6 @@ your goal
 what are your
 who is usain bolt
 what is the score of the giants game
-can i get a dominos pizza
 where's a CVS
 play some music
 What's the medal count?

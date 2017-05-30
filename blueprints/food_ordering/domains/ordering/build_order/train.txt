@@ -51,7 +51,7 @@ can you get me an order of [{enchiladas|dish} with {extra guac|option}|dish], an
 {medium|option}?
 a [{pesto chicken|dish} with {provolone|option}|dish], and a {diet coke|dish} please
 can you also add a {papadum|dish} to the order?
-what's the cheapest {pizza|cuisine} place for a [{normal cheese|option} {pizza|dish}|dish]?
+what's the cheapest pizza place for a [{normal cheese|option} {pizza|dish}|dish]?
 do you do bulk orders for parties?
 any {dessert|category} items you can suggest?
 Can I get the {fried tofu|dish} from {Burma cafe|restaurant}?
@@ -309,7 +309,7 @@ a {curry worst|dish} and a {hungarian sausage on a french roll|dish}
 a {kabob wrap|dish}, [{2|sys_number} {falafel wraps|dish}|dish], and a {vegetable wrap|dish}
 a {bacon quiche|dish}, a {salmon salad|dish} and a {prosciutto baguette|dish}
 [{1|sys_number} {haole sandwich|dish} on {sweet roll|option}|dish], [{2|sys_number} {vegwoods|dish} on {sourdough|option}|dish], and an [{early bird|dish} on {wheat|option}|dish]
-where do they make good {burgers|cuisine} near here
+where do they make good {burgers|dish} near here
 What {soups|dish} can i get from {Crystal Jade|restaurant}
 are there {vegetarian sausages|dish} at {Rosamunde Grill|restaurant}
 What {salads|dish} does {melody cafe|restaurant} have
@@ -474,3 +474,59 @@ make that [{one|sys_number} plate of {vegetable lumpia|dish}|dish] and [{ten|sys
 I want the {firri quail|dish}
 super hungry here, I want some [{garlic sauce|option} with the {thai basil rice|dish}|dish] plate
 I want some {sweet kheer|dish} and {gulab jamun|dish}
+I feel like {pizza|dish} today
+Feel like wanting a {pizza|dish} today
+I feel like having a {pizza|dish} today
+Feel like eating a {burger|dish} today
+Hmm... Feel like having {noodles|dish} today
+I feel like having some {curry|dish} today
+Feel like {ice cream|dish} today
+I feel like having a {baklava|dish}
+{burger|dish}
+{pizza|dish}
+{naan|dish}
+{rice|dish}
+{sandwiches|dish}
+{sandwich|dish}
+{noodles|dish}
+{pasta|dish}
+{curry|dish}
+{appetizers|category}
+{beef|category}
+{beverages|category}
+{breakfast|category}
+{brunch|category}?
+{desserts|category}
+{dessert|category}
+{dinner|category}
+{drinks|category}
+{lunch|category}
+{starters|category}
+{sweet|category}
+{vegan|category}
+{vegetarian|category}
+{Chinese|cuisine}
+{Indian|cuisine}
+{Italian|cuisine}
+{Japan|cuisine}
+{Mexican|cuisine}
+{Thai|cuisine}
+{american|cuisine}
+{japanese|cuisine}
+{mediterranean|cuisine}
+{spanish|cuisine}
+make me a {sandwich|dish}
+i like {burgers|dish}
+i like {pizza|dish}
+i like {noodles|dish}
+i like {indian|cuisine}
+i like {mexican|cuisine}
+i like {chinese|cuisine}
+i like {italian|cuisine}
+how about some {indian|cuisine} food?
+how about {pizza|dish} for dinner?
+how about some {ice cream|dish} tonight?
+how about {chinese|cuisine}?
+let's do {mexican|cuisine}
+let's try {Little Nepal|restaurant}
+let's do {Crystal Jade|restaurant}
