@@ -130,7 +130,7 @@ def build_order(context, slots, responder):
             # informed manner, taking into account factors such as the restaurant's proximity to
             # the user's current location, the restaurant's popularity and reviews, the user's
             # personal preferences, etc.
-            selected_restaurant = _kb_fetch('restaurant', restaurant_entity['value'][0]['id'])
+            selected_restaurant = _kb_fetch('restaurants', restaurant_entity['value'][0]['id'])
 
             # Overwrite the restaurant information in the dialogue frame and clear any dish
             # selections made so far. Ideally, this should be done after verifying that the
@@ -206,11 +206,11 @@ def build_order(context, slots, responder):
                 dish_candidates = [value for value in dish_entity['value']][0:3]
 
                 # Get the knowledge base entry for each of the dishes.
-                dish_entries = [_kb_fetch('dish', dc['id']) for dc in dish_candidates]
+                dish_entries = [_kb_fetch('menu_items', dc['id']) for dc in dish_candidates]
 
                 # Get the restaurant info for each dish from their respective KB entries.
                 restaurant_ids = set([entry['restaurant_id'] for entry in dish_entries])
-                restaurant_names = [_kb_fetch('restaurant', rid)['name'] for rid in restaurant_ids]
+                restaurant_names = [_kb_fetch('restaurants', rid)['name'] for rid in restaurant_ids]
 
                 # Compose the response with the restaurant suggestions and reply to the user.
                 slots['suggestions'] = ', '.join(restaurant_names)
@@ -305,7 +305,7 @@ def _resolve_dish(dish_entity, selected_restaurant):
     dish_candidates = [value for value in dish_entity['value']]
 
     # Get the full knowledge base entry for each of the dish candidates.
-    dish_entries = [_retrieve_from_kb('dish', dc['id']) for dc in dish_candidates]
+    dish_entries = [_kb_fetch('menu_items', dc['id']) for dc in dish_candidates]
 
     # Choose the first candidate whose restaurant information matches with the provided restaurant.
     dish = next((d for d in dish_entries if d['restaurant_id'] == selected_restaurant['id']), None)
