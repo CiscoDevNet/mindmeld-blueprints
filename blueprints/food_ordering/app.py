@@ -130,7 +130,7 @@ def build_order(context, slots, responder):
             # informed manner, taking into account factors such as the restaurant's proximity to
             # the user's current location, the restaurant's popularity and reviews, the user's
             # personal preferences, etc.
-            selected_restaurant = _get_restaurant_from_kb(restaurant_entity['value'][0]['id'])
+            selected_restaurant = _kb_fetch('restaurant', restaurant_entity['value'][0]['id'])
 
             # Overwrite the restaurant information in the dialogue frame and clear any dish
             # selections made so far. Ideally, this should be done after verifying that the
@@ -206,11 +206,11 @@ def build_order(context, slots, responder):
                 dish_candidates = [value for value in dish_entity['value']][0:3]
 
                 # Get the knowledge base entry for each of the dishes.
-                dish_entries = [_get_dish_from_kb(dc['id']) for dc in dish_candidates]
+                dish_entries = [_kb_fetch('dish', dc['id']) for dc in dish_candidates]
 
                 # Get the restaurant info for each dish from their respective KB entries.
                 restaurant_ids = set([entry['restaurant_id'] for entry in dish_entries])
-                restaurant_names = [_get_restaurant_from_kb(rid)['name'] for rid in restaurant_ids]
+                restaurant_names = [_kb_fetch('restaurant', rid)['name'] for rid in restaurant_ids]
 
                 # Compose the response with the restaurant suggestions and reply to the user.
                 slots['suggestions'] = ', '.join(restaurant_names)
@@ -263,30 +263,18 @@ def default(context, slots, responder):
 
 # Helper methods for the build_order dialogue state
 
-def _get_restaurant_from_kb(restaurant_id):
+def _kb_fetch(index, id):
     """
-    Retrieve the detailed knowledge base entry for a given restaurant.
-    
-    Args:
-        restaurant_id (str): Identifier for a specific restaurant entry in the knowledge base.
-        
-    Returns:
-        dict: The full knowledge base entry for the given restaurant ID.
-    """
-    return app.question_answerer.get(index='restaurants', id=restaurant_id)[0]
+    Retrieve the detailed knowledge base entry for a given ID from the specified index.
 
-
-def _get_dish_from_kb(dish_id):
-    """
-    Retrieve the detailed knowledge base entry for a given dish.
-    
     Args:
-        dish_id (str): Identifier for a specific dish entry in the knowledge base.
-        
+        index (str): The knowledge base index to query
+        id (str): Identifier for a specific entry in the index
+
     Returns:
-        dict: The full knowledge base entry for the given dish ID.
+        dict: The full knowledge base entry corresponding to the given ID.
     """
-    return app.question_answerer.get(index='menu_items', id=dish_id)[0]
+    return app.question_answerer.get(index=index, id=id)[0]
 
 
 def _resolve_dish(dish_entity, selected_restaurant):
@@ -317,7 +305,7 @@ def _resolve_dish(dish_entity, selected_restaurant):
     dish_candidates = [value for value in dish_entity['value']]
 
     # Get the full knowledge base entry for each of the dish candidates.
-    dish_entries = [_get_dish_from_kb(dc['id']) for dc in dish_candidates]
+    dish_entries = [_retrieve_from_kb('dish', dc['id']) for dc in dish_candidates]
 
     # Choose the first candidate whose restaurant information matches with the provided restaurant.
     dish = next((d for d in dish_entries if d['restaurant_id'] == selected_restaurant['id']), None)
