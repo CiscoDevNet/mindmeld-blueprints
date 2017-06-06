@@ -263,7 +263,7 @@ def default(context, slots, responder):
 
 # Helper methods for the build_order dialogue state
 
-def _kb_fetch(index, id):
+def _kb_fetch(kb_index, kb_id):
     """
     Retrieve the detailed knowledge base entry for a given ID from the specified index.
 
@@ -274,7 +274,7 @@ def _kb_fetch(index, id):
     Returns:
         dict: The full knowledge base entry corresponding to the given ID.
     """
-    return app.question_answerer.get(index=index, id=id)[0]
+    return app.question_answerer.get(index=kb_index, id=kb_id)[0]
 
 
 def _resolve_dish(dish_entity, selected_restaurant):
