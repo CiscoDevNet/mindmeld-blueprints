@@ -4,10 +4,10 @@
 PARSER_CONFIG = {
     'dish': {
         'option': {'linking_words': {'with'}},
-        'quantity': {'max_instances': 1, 'right': False}
+        'sys_number': {'max_instances': 1, 'right': False}
     },
     'option': {
-        'quantity': {'max_instances': 1, 'right': False}
+        'sys_number': {'max_instances': 1, 'right': False}
     }
 }
 
