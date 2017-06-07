@@ -104,12 +104,12 @@ def place_order(context, slots, responder):
 @app.handle(intent='build_order')
 def build_order(context, slots, responder):
     """
-    When the user expresses an intent to start or continue ordering food, provide the 
-    appropriate guidance at each step for sequentially building up the order. This involves 
-    providing restaurant and dish suggestions, availability and pricing details, and in general, 
-    any information that's helpful for the user to successfully place an order for delivery. 
-    
-    To keep the illustration simple, in our demo app, we guide the user to select a restaurant 
+    When the user expresses an intent to start or continue ordering food, provide the
+    appropriate guidance at each step for sequentially building up the order. This involves
+    providing restaurant and dish suggestions, availability and pricing details, and in general,
+    any information that's helpful for the user to successfully place an order for delivery.
+
+    To keep the illustration simple, in our demo app, we guide the user to select a restaurant
     first, before adding any dishes to their "check-out" basket.
     """
     # Get information about the user's requested restaurant from the dialogue frame, in case a
@@ -253,7 +253,7 @@ def build_order(context, slots, responder):
 @app.handle()
 def default(context, slots, responder):
     """
-    When the user asks an unrelated question, convey the lack of understanding for the requested 
+    When the user asks an unrelated question, convey the lack of understanding for the requested
     information and prompt to return to food ordering.
     """
     prompts = ['Sorry, not sure what you meant there. I can help you order food from your local '
@@ -279,18 +279,18 @@ def _kb_fetch(kb_index, kb_id):
 
 def _resolve_dish(dish_entity, selected_restaurant):
     """
-    Given a dish entity that could have many potential resolved values (each representing a 
-    unique item on a specific restaurant's menu), pick the most likely knowledge base entry for 
-    the dish. The logic for this selection could be arbitrarily complex and take into account  
+    Given a dish entity that could have many potential resolved values (each representing a
+    unique item on a specific restaurant's menu), pick the most likely knowledge base entry for
+    the dish. The logic for this selection could be arbitrarily complex and take into account
     factors like a dish's popularity, time of the day, user preferences, etc. Here, we simply
     pick the first candidate that is available on the given restaurant's menu.
-    
+
     Args:
         dish_entity (dict): A dish entity with potentially many candidate resolved values.
         selected_restaurant (dict): Knowledge base entry for the selected restaurant.
 
     Returns:
-        dict: The resolved knowledge base entry corresponding to the given dish entity, augmented 
+        dict: The resolved knowledge base entry corresponding to the given dish entity, augmented
               with additional attribute information like quantity and options.
     """
     # Can't do anything if there are no candidate values to choose from (i.e. if the NLP Entity
@@ -321,17 +321,17 @@ def _resolve_dish(dish_entity, selected_restaurant):
         dish['options'] = list(filter(None, options))
 
     # Set default quantity of 1 for the order, if it hasn't been explicitly specified by the user.
-    if 'quantity' not in dish:
-        dish['quantity'] = 1
+    if dish and'quantity' not in dish:
+            dish['quantity'] = 1
 
     return dish
 
 
 def _resolve_option(option_entity, selected_dish, selected_restaurant):
     """
-    Given an option entity that could have many potential resolved values (each representing a  
-    unique customization option for a specific restaurant's dish), pick the most likely knowledge 
-    base entry for the option. Here, we choose the first option candidate that is compatible with 
+    Given an option entity that could have many potential resolved values (each representing a
+    unique customization option for a specific restaurant's dish), pick the most likely knowledge
+    base entry for the option. Here, we choose the first option candidate that is compatible with
     the given dish.
 
     Args:
@@ -370,10 +370,10 @@ def _price_dish(dish):
     """
     Computes the final price for ordering the given dish, taking into account the requested
     quantity and options.
-    
+
     Args:
         dish (dict): KB entry for a dish, augmented with quantity and options information.
-    
+
     Returns:
         float: Total price for ordering the requested quantity of this dish with options included.
     """

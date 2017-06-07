@@ -13,3 +13,5 @@ PARSER_CONFIG = {
 
 CLASSIFIER_CONFIGS = {
 }
+
+APP_NAME = 'food_ordering'
