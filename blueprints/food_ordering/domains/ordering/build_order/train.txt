@@ -1,13 +1,3 @@
-i'd like to order another {tea|dish} from {Sallys|restaurant}
-add an order of {tea|dish} from {Sallys|restaurant}
-add an order of {tea|dish}
-can i order another {burger|dish}
-one more {pasta|dish} please
-i will order {3 tacos|dish}
-i'll order a {tea|dish}
-can i order {pizza|dish}
-let's order some {beach shrimp|dish}
-order a {coconut water|dish} as well
 i'd like to order from {Oolong Noodles Restaurant|restaurant}
 i'd like to order from {Thep Phanom Thai Restaurant|restaurant} please
 i would like to order from {Noodle Bar and Grill|restaurant}
