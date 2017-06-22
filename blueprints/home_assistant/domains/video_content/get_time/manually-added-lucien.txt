@@ -1,0 +1,13 @@
+when is the {the tonight show|title} coming on
+the showtime for the {today|title} {show|type}
+{tonight show|title} showtimes
+showtimes for {today|title} {show|type} episodes
+when is {walking dead|title} showing
+{ncis|title} showtimes {[tomorrow|num:time]|showtime}
+list showtimes for {tom clancy|series} {movies|type}
+show me showtimes {[tonight|num:interval]|showtime}
+show me what time {[tomorrow|num:time]|showtime} s {shows|type} start
+give me showtimes for {movies|type} {[tomorrow night|num:interval]|showtime}
+list me showtimes {[between 1 and 3 pm|num:interval]|showtime}
+pull up all {walking dead|title} showtimes
+find me all {movie|type} showtimes {[after 8 pm|num:interval]|showtime}

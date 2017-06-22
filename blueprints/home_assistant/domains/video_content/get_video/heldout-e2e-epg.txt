@@ -1,0 +1,50 @@
+switch to {espn|channel} channel
+can you find {hunger games|series}
+play {the walking dead|title}
+show me showtimes {[at 5|num:time]|showtime}
+display all {comedies|genres}
+what comes {[on at 7|num:time]|showtime} on {espn|channel}
+are the {yankees|teams} on {espn|channel}
+is {dwts|title} {[on tonight|num:interval]|showtime}
+show me {tonight show|title}
+{teen mom|title} on {mtv|channel}
+give me {comedy|genres}
+what is on {abc|channel}
+is {the voice|title} {[on today|num:time]|showtime}
+select {grey s anatomy|title} {most recent|sort}
+can you tune in to the {atlanta falcons|teams} vs game {[at 1pm|num:time]|showtime}
+does {ncis|title} air {[this week|num:time]|showtime}
+how is on {espn|channel}
+what s on {tbs|channel} {[right now|num:time]|showtime}
+i d like to see what {comedy|genres} {series|type} are on
+show independent {movies|type}
+i want to watch {better call saul|title}
+show me all the {sports games|type} that live {[right now|num:time]|showtime}
+is {arrow|title} {[on this week|num:time]|showtime}
+pull up all {shows|type} for {[nine pm|num:time]|showtime}
+please turn on {pacers|teams} game
+take me to {wheel of fortune|title}
+is {house|title} {[on tonight|num:interval]|showtime}
+i want to check out {action|genres} {movies|type}
+search for {doctor who|title}
+lets watch the {today|title} {show|type}
+let me know if {arrow|title} is {[on tonight|num:interval]|showtime}
+what is the {weather|genres}
+what {comedies|genres} are {[on tomorrow night|num:interval]|showtime}
+show me some {comedy|genres} {movies|type}
+could you please take me to {espn|channel}
+surf for {sports|type}
+is {new girl|title} {[on tonight|num:interval]|showtime}
+display list general {tv shows|type}
+show me {the wild life|title} {shows|type}
+put the {news|genres} on
+find {comedies|genres}
+want to watch {soccer|genres} game
+can i watch the {everton|teams} match
+watch a {funny|genres} {movie|type}
+show me {comedies|genres}
+i m looking for the {movie|type} called {shawshank redemption|title}
+are there any {movies|type} on staring {john candy|cast}
+what show is on {abc|channel} {[at 7pm|num:time]|showtime}
+i want to watch {bates motel|title}
+turn on {comedy central|channel}

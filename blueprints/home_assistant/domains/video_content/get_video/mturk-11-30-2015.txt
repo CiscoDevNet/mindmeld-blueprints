@@ -1,0 +1,230 @@
+what show will be shown on {the Discovery Channel|channel} {[at 7:00pm|num:time]|showtime}?
+What's playing on {HBO|channel} {[tonight|num:interval]|showtime}?
+What {movie|type} is playing on {tnt|channel} {[at 8 pm|num:time]|showtime}?
+Show me the {shows|type} {starting [at 5:30pm|num:time]|showtime}
+show me {[monday|num:time]|showtime}'s schedule on {Bravo|channel}
+Show me what's on {NBC|channel}
+What is showing on {CBS|channel} {[on 11|num:time]|showtime}?
+what shows are on {CBS|channel} {[tonight|num:interval]|showtime}?
+What's on {Spike|channel}?
+What Christmas {Movies|type} are showing {[at 8pm|num:time]|showtime}
+What is playing on {comedy central|channel}
+What {football|genres} game is on {ESPN|channel} {[at noon|num:time]|showtime}?
+Are there any games on {ESPN|channel} {[tonight|num:interval]|showtime}?
+What is currently on {ABC|channel}?
+what is on {fox|channel} {[at 8 pm|num:time]|showtime}?
+What {movies|type} are playing on {Comedy Central|channel} {[today|num:time]|showtime}?
+What {movies|type} {start [at 7:00pm|num:time]|showtime}?
+what show is on {The Learning Channel|channel} {[at 6 pm|num:time]|showtime}?
+Whats on {Comedy Central|channel} {[at 4:00pm|num:time]|showtime}?
+Is there a {football|genres} game {[on at 8pm|num:time]|showtime}?
+Whats on {TBS|channel}
+what show is on {Fx|channel} {[at 9|num:time]|showtime}?
+What's on {comedy central|channel} {[tonight|num:interval]|showtime}?
+Show me the {[Sunday|num:time]|showtime} {shows|type}
+I want to watch {ESPN|channel}
+show me Christmas {movies|type}
+What is airing on {ESPN|channel} {[tonight|num:interval]|showtime}?
+Whats on {amc|channel} {[right now|num:time]|showtime}
+What is the {SyFy|channel} Channel showing {[at 9 p m|num:time]|showtime} ?
+What {movies|type} will be shown on {HBO|channel}?
+Show {movies|type} on {A & E|channel}
+Show me the list of {Lifetime|channel} {Movies|type} for {[today|num:time]|showtime}
+What Christmas {movies|type} are playing {[at 7pm|num:time]|showtime}?
+What will be on {PBS|channel} {[at 5pm tomorrow|num:time]|showtime} evening?
+What is on {Food Network|channel} {starting [at 6:00 pm|num:time]|showtime}?
+What {movies|type} will be played on {HBO|channel} {[tomorrow night|num:interval]|showtime}?
+What {movies|type} are {[on right now|num:time]|showtime}?
+what shows are on {BBC|channel} {[at 9:00 pm|num:time]|showtime}?
+what show is on {HBO|channel} {[at 8:00 PM|num:time]|showtime}?
+Can I see what's on {Comedy Central|channel} {[at 9:00pm|num:time]|showtime}?
+Show me which {new|sort} episodes air on {Cartoon Network|channel} {[tonight|num:interval]|showtime}
+What is on {NBC|channel} {[at 8 p m tonight|num:time]|showtime}?
+What is currently playing on {ESPN|channel}?
+What {movies|type} will be shown on {CBS|channel}?
+What is {the Disney Channel|channel} showing {[this evening|num:interval]|showtime}?
+What game is on {ESPN|channel}?
+What late {[night|num:interval]|showtime} {shows|type} are {[on at 11:30pm|num:time]|showtime}?
+Show me {movies|type} on {TBS|channel}
+what's on {ABC|channel} {[tonight|num:interval]|showtime}?
+What's on {starting [at 6 pm tonight|num:time]|showtime}?
+Show me what {movies|type} are on {HBO|channel}
+What {movies|type} will be {[on at 10 pm|num:time]|showtime}?
+what show in on {HGTV|channel} {[at 8:00pm|num:time]|showtime}?
+Can you please turn to {CNN|channel} station?
+What is on {TNT|channel} {[at 10 pm|num:time]|showtime}?
+What {movies|type} are on {HBO|channel}?
+What {movies|type} will be shown {[at 9:00pm|num:time]|showtime}?
+what shows {start [at 8 tonight|num:time]|showtime} on {ABC|channel}?
+Show all Christmas specials
+Show me the {shows|type} {starting [at 7:00pm|num:time]|showtime}
+Show me {football|genres} games {[on at noon today|num:time]|showtime}
+What's {[on now|num:time]|showtime}?
+Are there any good {dramas|genres} {[on this evening|num:interval]|showtime}?
+what show will be on {the Disney Channel|channel} {[at 10:00am|num:time]|showtime}?
+What will be on {CBS|channel} {[tonight at 7 pm|num:time]|showtime}?
+What {NBA|genres} games are on {Fox Sports|channel} {[today|num:time]|showtime}?
+Show me what {movies|type} {start [at 8:00pm|num:time]|showtime}
+Show me {new|sort} {shows|type} {from [tonight|num:interval]|showtime}
+what shows are on {TLC|channel} {[today|num:time]|showtime}?
+What is on {HBO|channel} {[right now|num:time]|showtime}?
+What {movies|type} will be shown on {HBO|channel}?
+what will be on {tnt|channel} {[at 6|num:time]|showtime}?
+Find an episode of {Kojak|title} {[at 8|num:time]|showtime}
+Show me what {movies|type} are on
+Show me {french|countries} {films|type}
+What is showing on {ESPN|channel} {[at 7PM|num:time]|showtime}?
+Show me {movies|type} {[on right now|num:time]|showtime}
+What's {HBO|channel}'s lineup {[tonight|num:interval]|showtime}?
+What is on {TBS|channel} {[at 11 am|num:time]|showtime}?
+What {movie|type} will be shown {[at 7:00 pm today|num:time]|showtime}?
+What will be shown {[at 10:00pm|num:time]|showtime} on {TBS|channel}?
+what show is on {Comedy Central|channel} {[at 11:00pm|num:time]|showtime}?
+What {movies|type} will be showing on {Turner Classic Movies|channel} {[today|num:time]|showtime}?
+What is on {CBS|channel} {[at 7 pm this Friday|num:time]|showtime}?
+What is playing on {AMC|channel} {[right now|num:time]|showtime}?
+Show me what's {[on tonight at 9|num:time]|showtime}
+Find {football|genres}
+What should I watch on {Cartoon Network|channel}?
+Are there any {new|sort} {shows|type} on {HBO|channel}?
+What {movies|type} are starting soon?
+Is the Miami Dolphins game on?
+Put on the {shows|type} occurring {[at 6PM|num:time]|showtime} on {ABC|channel}
+what {movies|type} {start [at 8|num:time]|showtime}
+Show me what's on {WeTV|channel} {[at 4 a m|num:time]|showtime}
+What {movies|type} will be shown on {Comedy Central|channel} {[at 11:00 pm|num:time]|showtime}?
+Show me {Comedy Central|channel} {[at 9pm|num:time]|showtime}
+play {Chappie|title}
+What Christmas {movies|type} are on {ABC Family|channel}?
+Show me whats {[on now|num:time]|showtime}
+What is playing on {BBC America|channel} {[in an hour|num:time]|showtime}?
+How many episodes of {Ancient Aliens|title} air {[today|num:time]|showtime}?
+Show me {romantic|genres} {holiday|genres} {movies|type}
+{Discovery Channel|channel}
+What is {[on at 7 pm|num:time]|showtime}?
+What {movies|type} will be on {Disney channel|channel}?
+What's on {Comedy Central|channel} {[right now|num:time]|showtime}?
+What {sporting events|type} are on {espn u|channel}
+Are the Eagles playing {[today|num:time]|showtime}?
+What {TV shows|type} will be shown on {CBS|channel}
+What {movies|type} are {[coming on tonight|num:interval]|showtime} on {HBO|channel}
+What {sports games|type} are {[on now|num:time]|showtime}?
+Show me all the World War II {shows|type} that will be on {the History Channel|channel} {[this week|num:time]|showtime}
+what's on {bravo|channel} {[tonight|num:interval]|showtime}
+What's on {HBO|channel} {[right now|num:time]|showtime}?
+Show me {movies|type} {[on at 9 pm|num:time]|showtime}?
+What {movies|type} will be shown on {HBO|channel} networks {[tonight|num:interval]|showtime}?
+{Movies|type} {after [8:00 AM|num:time]|showtime}
+what shows will be {[on at 8:00 tonight|num:time]|showtime}?
+Show me Christmas {movies|type} on {Disney Channel|channel}
+What {movies|type} are {[on at 7 tonight|num:time]|showtime}?
+Show me an {action|genres} {movie|type}
+What {football|genres} game is on {ESPN|channel} {[tonight|num:interval]|showtime}?
+Is the {Dinosaur|title} {Show|type} on {the Discovery Channel|channel} {[at 7 PM|num:time]|showtime}?
+Is there a {new|sort} episode of {south park|title} {[this week|num:time]|showtime}
+put on some {simpsons|title}
+Show me a {cooking|genres} {show|type}
+Show me the {cooking|genres} {shows|type} that {start [at 6:00pm|num:time]|showtime}
+What game is being shown on {Fox|channel} {[next Sunday|num:time]|showtime}?
+Is {Walking Dead|title} {[on this Sunday|num:time]|showtime}?
+What {football|genres} game is playing {[tonight|num:interval]|showtime} on {ESPN|channel}?
+What live {sporting events|type} are {[on tonight|num:interval]|showtime}?
+What {football|genres} games are airing {[right now|num:time]|showtime}?
+What {Football|genres} game will be shown on {cbs|channel}?
+Show what is on {the History Channel|channel} {[right now|num:time]|showtime}
+what show is on {CBS|channel} {[at 7:00am|num:time]|showtime}
+what show is playing on {fox|channel} {[at 7:00 pm|num:time]|showtime}
+Show me {movies|type} {starting [at 5:00pm|num:time]|showtime} on {TMC|channel}
+Are there any {basketball|genres} games {[on tonight|num:interval]|showtime}?
+Show me {espn|channel}
+Display all network {movies|type} {[at 8pm|num:time]|showtime}
+Show me future episodes of {Pretty Little Liars|title}
+Show me the {movies|type} playing on {Comedy Central|channel} {[this Saturday|num:time]|showtime}
+what will be on {the Discovery Channel|channel} {[tonight|num:interval]|showtime}?
+What {football|genres} games are on?
+What {movies|type} will be showing {[at 8:00pm|num:time]|showtime}?
+Show me all {shows|type} {starting [at 4:30|num:time]|showtime}
+Show me christmas {movies|type}
+What will be on {Bravo|channel} {[at 5:00pm|num:time]|showtime}
+What {Movies|type} will be shown by {disney|channel}?
+What will be shown on {NBC|channel} {[at 4:00pm|num:time]|showtime}?
+Show me whats on {Cartoon Network|channel} {[right now|num:time]|showtime}
+Show me {basketball|genres} games
+What {Movies|type} {start [at 10pm|num:time]|showtime}?
+show me {shows|type} {[at 4pm|num:time]|showtime}
+What is on {HBO|channel} {[right now|num:time]|showtime}?
+I want to watch a {sitcom|genres} {[in the morning|num:interval]|showtime}  What's on?
+what show is on {Food Channel|channel} {[at 11:00 pm|num:time]|showtime}?
+whats on {HBO|channel}?
+what show is {[on at 8pm tomorrow|num:time]|showtime} on [NBC|channel}?
+What {sports|type} are broadcast {[this evening|num:interval]|showtime}?
+what {movies|type} come on {abc family|channel} {[tonight|num:interval]|showtime}?
+what show is on {CBS|channel} {[right now|num:time]|showtime}?
+What {movies|type} will be on {HBO|channel} {[tonight|num:interval]|showtime}?
+what shows come {[on at 5pm|num:time]|showtime} on {NBC|channel}
+I want to watch {the Discovery Channel|channel}
+What can I watch {[at 9:00pm tonight|num:time]|showtime}?
+What {movies|type} will play {[at 8:00PM|num:time]|showtime}?
+What's on {FX|channel} {[tonight|num:interval]|showtime}?
+Please show the lineup for {FX|channel} {[this evening|num:interval]|showtime}?
+What is on {ESPN|channel} {[at 6 pm|num:time]|showtime}
+What is on the {HBO|channel} now
+what show will be on {CBS|channel}?
+show me {shows|type} that {start [at 8pm|num:time]|showtime}
+Show me what's on {Spike|channel} {[tomorrow night|num:interval]|showtime}
+Show me {Kelly and Michael|title}
+What will be on {AMC|channel} {[at 8PM|num:time]|showtime}?
+what show will be shown on {National Geographic channel|channel} {[at 9:00 PM|num:time]|showtime}?
+What is on {Discovery channel|channel} {[right now|num:time]|showtime}?
+Free {movies|type} on {ABC Family|channel} on demand
+what shows will be {[on at 8:00 AM|num:time]|showtime}?
+Show all {movies|type} on {TCM|channel}
+Is there a {movie|type} {[on at 9pm|num:time]|showtime}?
+Let me see all {TV shows|type} {starting [at 7 pm|num:time]|showtime}
+Show me {ABC|channel}'s {[Tuesday|num:time] primetime|showtime} lineup
+What {tv shows|type} are on {HBO|channel} {[tonight|num:interval]|showtime}?
+What is the next {show|type} on {BBC|channel}?
+What is {Fox|channel} playing {[right now|num:time]|showtime}?
+What {starts [at 8|num:time]|showtime} on {NBC|channel}?
+Show me the {shows|type} that will {start [at 3:00 pm|num:time]|showtime} on {NBC|channel}
+What is the lineup for {AMC|channel} tonight {after [5 pm|num:time]|showtime}?
+What {movies|type} are on {HBO|channel} {[tonight|num:interval]|showtime}?
+Show me {HBO|channel} {movies|type}
+What is the {movie|type} on {ABC|channel} {[tonight|num:interval]|showtime}?
+What {movies|type} are on {HBO|channel} {[today|num:time]|showtime}?
+Show me all {shows|type} {starting [at 9:00pm|num:time]|showtime}
+Is {Dancing with the stars|title} on {ABC|channel} a rerun?
+Are there any games on {NBA TV|channel} {[right now|num:time]|showtime}?
+Are there any {Soccer|genres} games playing {[Saturday Morning|num:interval]|showtime}?
+What is the lineup on {AMC|channel} {[tomorrow night|num:interval]|showtime}?
+What is playing on {CBS|channel} {[at 9:00 pm|num:time]|showtime}?
+What comes on {ABC|channel} {[at 9:00pm|num:time]|showtime}?
+What {movies|type} will be on {TBS|channel} {[today|num:time]|showtime}?
+What's playing on {CBS|channel} {[at 6 p m|num:time]|showtime} ?
+what show is on {NBC|channel} {[in an hour|num:time]|showtime}?
+Show me what will be coming on {ABC|channel} {[at 6:00pm|num:time]|showtime}
+Is the episode of {the Big Bang Theory|title} on {CBS|channel} a repeat?
+On {Animal Planet|channel}, which {series|type} is {[on at 8 PM|num:time]|showtime}?"
+What is on {MTV|channel} {[at 6:00pm|num:time]|showtime}?
+Is {Game of Thrones|title} {[on tonight|num:interval]|showtime}?
+Which {movie|type} will be on {Lifetime|channel} {[at 5 am|num:time]|showtime}?
+What's playing on {Cartoon Network|channel} {[right now|num:time]|showtime}?
+What {movies|type} are {new|sort} on {HBO|channel}
+what will be shown {[at 6:30 p m|num:time]|showtime}  on {the food network|channel}?
+What is showing on {BRAVO|channel} {[at 9:00pm|num:time]|showtime}?
+Is {chopped|title} showing on {Food network|channel} {[between 10 and 12|num:interval]|showtime}?
+What {movies|type} are on {Lifetime|channel} {[tonight|num:interval]|showtime}?
+what shows are {[on at 7pm this evening|num:time]|showtime} that are {new|sort} episodes?
+What {movie|type} is showing on {HBO|channel} {[at 10 tonight|num:time]|showtime}?
+What {movie|type} is coming on next on {AMC|channel}?
+What {movies|type} are {[on at 7:00 PM|num:time]|showtime}?
+What {movies|type} are {starting [at 5:00pm|num:time]|showtime}?
+What {movies|type} {start [at 7:00pm|num:time]|showtime}?
+What {movies|type} will be shown on {HBO|channel} {[tonight|num:interval]|showtime}?
+What prime time {shows|type} are {[on tonight|num:interval]|showtime}?
+What {programs|type} will be aired on {FYI|channel} {[tomorrow|num:time]|showtime}?
+what show will be shown in {Disney channel|channel} {[at 5PM|num:time]|showtime}?
+what shows will be on {NBC|channel} {[at 10:00 pm|num:time]|showtime}?
+What's on {Comedy Central|channel} {[tonight|num:interval]|showtime}?
+What's playing {[at 10:00pm tonight|num:time]|showtime}?
+Show me the {Bears|teams} game

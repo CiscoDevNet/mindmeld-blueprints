@@ -1,0 +1,100 @@
+{mongolian|countries} {movies|type}
+whats the {movie|type} where {tom cruise|cast} is a german officer trying to assassinate hitler
+what's the {film|type} with {diane lane|cast} where she travels to italy and buys an old country house there?
+what was the {james bond|series} {movie|type} with {roger moore|cast} that takes place in thailand
+{best|sort} {movie|type} {[this year|num:time]|range}
+show me {up|title} with {edward asner|cast}
+what the {movie|type} with the undercover cop in the boston police force
+show me {movies|type} with {chow yun fat|cast}
+suggest me some {horror|genres} {movies|type}
+{iron man|title}
+{australian|countries} {movies|type} {of the [1960s|num:interval]|range}
+which {movie|type} won for {best picture|award} {in [2008|num:time]|range}
+what is the {longest|sort} {film|type} ever made
+i want to watch a {movie|type} about brazilian favelas
+what are some good {movies|type} for {children|genres}
+show me {movies|type} with {tom hanks|cast}
+i want to watch {al pacino|cast} {movies|type}
+{comedy|genres} {movie|type}
+{bourne|series} trilogy
+what are all of the {movies|type} with {julia roberts|cast} and {richard gere|cast}
+show me {epic|title}
+what s the {latest|sort} {sandra bullock|cast} {movie|type}
+show me the {movie|type} where {jack black|cast} is a rocker
+do you have the {harry potter|series} {movies|type}
+{jude law|cast} played a young writer
+{midnight in paris|title}
+show me {boyhood|title}
+{casino royale|title}
+what s the {movie|type} where {nicole kidman|cast} is a un interpreter
+{american psycho|title}
+show me the {superman|series} {movies|type} starring {christopher reeve|cast}
+{best|sort} {film|type} made {in [the last 2 years|num:interval]|range}
+show me the {movies|type} with {ken watanabe|cast}
+show me {pretty woman|title}
+what are the {films|type} directed by {wes anderson|directors} and starring {bill murray|cast}
+what {movie|type} was written by {norman wexler|writers} and stars {john travolta|cast}
+{ice cube|cast} {movies|type}
+show me {documentaries|genres} {from [last year|num:time]|range}
+can you find me a {film|type} by {eddie murphy|cast}
+i want to see {french|countries} {movies|type} starring {audrey tautou|cast}
+show me good nerd {movies|type}
+show me {lost in translation|title}
+i want to watch a {music|genres} {documentaries|genres}
+find the {movie|type} {ghostbusters|title}
+everything {jim carrey|cast} ever did
+i want to see {movies|type} directed by {hayao miyazaki|directors}
+{best|sort} {cowboy|genres} {movies|type}
+{guardians of the galaxy|title}
+let s watch {how to train your dragon 2|title} again
+show me some {movies|type} directed by {clint eastwood|directors}
+{matthew mcconaughey|cast} {won an oscar|award} for {best actor|award}
+show me {movies|type} with {robert downey jr|cast}
+the {avengers|title}
+what s the {movie|type} with {robin williams|cast} where he s a talk show host who runs for president
+I m looking for the {movie|type} with {Tom Hanks|cast} and his volleyball
+{mission impossible 5|title}
+show me a good {movie|type} {about love|genres}
+show me the {movie|type} {the mask|title}
+what is the {movie|type} where {kevin costner|cast} played baseball
+{documentary|genres} piece about birds of telegraph hill in san francisco
+show me the {avengers|title}
+show me {movies|type} with {jennifer aniston|cast}
+show me {movies|type} with {dabney coleman|cast}
+{twilight|title}
+{movies|type} that take place in san francisco
+whats the {movie|type} with {tom hanks|cast} and {meg ryan|cast} where they decide to meet on top of the empire state building
+whats the {[eighties|num:interval]|range} {movie|type} with {john cusack|cast} where he serenades a girl with a big stereo
+{apocalypse now|title}
+what was {helen hunt|cast} s {most recent|sort} {movie|type}
+{jerry maguire|title} {movie|type}
+{fast and furious|title}
+show me the {worst rated|sort} {movie|type} {for [the past year|num:interval]|range}
+{critically acclaimed|sort} {movies|type}
+{clint eastwood|cast} {movies|type}
+show me the {movie|type} {dial m for murder|title}
+show me {big|title}
+{selma|title}
+whats the {movie|type} with {sandra bullock|cast} at a beauty pageant
+{noah|title}
+telugu {movies|type}
+{action|genres} {movies|type}
+what was {clive barker|cast} s {most successful|sort} {movie|type}
+what are some {movies|type} with {owen wilson|cast}
+show me {movies|type} starring {chris evans|cast}
+{latest|sort} {kangana ranaut|cast} {movie|type}
+show me {movies|type} starring {helen hunt|cast}
+what are the {best|sort} superhero {movies|type}
+what {movies|type} has {vin diesel|cast} been in
+{spider-man|series} {movie|type} with {andrew garfield|cast}
+{james cameron|directors} {movies|type}
+show me some {movies|type} with {cindy crawford|cast}
+show me {robert redford|cast} {movies|type} {from the [1970s|num:interval]|range}
+show me {movies|type} with {julia roberts|cast}
+show me {castle in the sky|title}
+{men in black|title}
+list all {oscar winners|award} for {best directors|award}
+show me the {first|sort} {movies|type} directed by {clint eastwood|directors}
+i want to see that {george lucas|directors} {film|type} starring {ron howard|cast}
+what are some {films|type} directed by {billy wilder|directors}
+what is that {alfred hitchcock|directors} {movie|type} that has a scene on mount rushmore

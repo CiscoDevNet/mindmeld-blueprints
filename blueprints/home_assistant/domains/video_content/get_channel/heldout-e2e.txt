@@ -1,0 +1,50 @@
+what channel has {children s|genres} {shows|type}
+what channel has {horror|genres} {movies|type}
+what channel is {seinfeld|title} on
+what channel is {colbert|title} on
+what channel is {ink master|title} on
+where can i watch {cartoons|genres}
+what channel has {documentaries|genres}
+where can i watch a {horror|genres} {movie|type}
+show channels for {sports|type}
+what channel is {star trek|title} on
+what is the channel for {sports programs|type}
+what channel is {bet|channel} on
+what channel is playing {music|genres} videos
+where is {game of thrones|title} on
+on which channel can i find {empire|title}
+what channel is a {cooking channel|channel}
+where can i watch american {college football|title} games
+what channel has {night court|title} re runs
+what channel is {game of thrones|title} on
+where can i watch {romance|genres} {movies|type}
+where is {hbo|channel}
+find the channel for {action|genres} {shows|type}
+what channel has stand up {comedy|genres}
+what channel has the most {horror|genres} {movies|type}
+where can i view a {romantic comedy|genres}
+where can i watch a {football|genres} game
+find the channel for {dancing with the stars|title}
+where can i watch {action|genres} {movies|type}
+what channel is {the weather channel|channel}
+what channels have {action|genres} {movies|type} {starting [at 9:00|num:time]|showtime}
+tv find {action|genres} {film|type} channels
+what channel has stand up {comedy|genres} on
+where can i watch {horror|genres} {movies|type}
+what channel plays {comedy|genres} {shows|type}
+what channel is {nbc|channel}
+what channel is {american idol|title} on
+what channel is {espn|channel}
+what channel is the {jets|teams} game on
+where is {bob s burgers|title}
+which channel has {it s always sunny|title}
+which channel has {mythbusters|title}
+what channel is covering {the race|title}
+where is {the simpsons|title} airing {[right now|num:time]|showtime}
+what channel has {game of thrones|title}
+what channel is {showtime|channel}
+who do the {steelers|teams} play and what channel is it on
+find the {hgtv|channel} channel
+what is a good channel {for kids|genres} {shows|type}
+what channel are the {steelers|teams} on
+what channel is {colbert|title} on

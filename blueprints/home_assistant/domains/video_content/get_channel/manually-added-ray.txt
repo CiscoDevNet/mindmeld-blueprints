@@ -1,0 +1,123 @@
+in what channels can I watch a {reality|genres} {show|type}?
+what channels is {SNL|title} on
+what channels is the {49ers|teams} game?
+what channels is the {San Jose State|teams} game?
+what channels is the {cowboys|teams} game?
+what channels is the game with the {white sox|teams}?
+what channels is the {astros|teams} game?
+what channels is the {spurs|teams} game?
+in what channels is the {browns|teams} game?
+in what channels can I watch the {warriors|teams} game?
+in what channels can I watch the {nuggets|teams}?
+in what network station can I watch a {reality|genres} {show|type}?
+what network station is {SNL|title} on
+what network station is the {49ers|teams} game?
+what network station is the {San Jose State|teams} game?
+what network station is the {cowboys|teams} game?
+what network station is the game with the {white sox|teams}?
+what network station is the {astros|teams} game?
+what network station is the {spurs|teams} game?
+in what network station is the {browns|teams} game?
+in what network station can I watch the {warriors|teams} game?
+in what network station can I watch the {nuggets|teams}?
+i m interested in {nature|genres} {series|type} what channels are currently showing these series
+i m interested in {Friends|title} what channels are currently showing these {series|type}
+i m interested in {SNL|title} what channels are currently showing these
+i m interested in {south park|title} what channels are currently showing these
+i m interested in {American horror story|title} what channels are currently showing these
+i m interested in {Seinfeld|title} what channels are currently showing these
+i m interested in {Wheel of Fortune|title} what channels are currently showing these
+i m interested in {the friends|title} what channels are currently showing these
+i m interested in {gossip girl|title} what channels are currently showing these
+i m interested in {spongebob|title} what channels are currently showing these
+i m interested in {3rd rock from the sun|title} what channels are currently showing these
+what channels is {the big bang theory|title}
+what channels is {grey s anatomy|title}
+where is {the big bang theory|title}
+where is {grey s anatomy|title}
+what channels is {latest|sort} {the big bang theory|title}
+what channels is {latest|sort} {grey s anatomy|title}
+where is {latest|sort} {the big bang theory|title}
+where is {latest|sort} {grey s anatomy|title}
+what station do the {white sox|teams} play on
+what station do the {yankees|teams} play on
+what station do the {warriors|teams} play on
+what station do the {nuggets|teams} play on
+what station do the {49ers|teams} play on
+what station can i watch {grey s anatomy|title} on
+what station can i watch {Friends|title} on
+what station can i watch {spongebob|title} on
+what station can i watch {the big bang theory|title} on
+what station can i watch {the walking dead|title} on
+where are the {weather|genres}
+where are the {the walking dead|title}
+where are the {breaking bad|title} on
+where are the {game of thrones|title} on
+where are the {the big bang theory|title} on
+where are the {breaking bad|title}
+where are the {friends|title}
+where are the {game of thrones|title}
+where are the {the big bang theory|title}
+what s a {action|genres} channel
+what s a {weather|genres} channel
+what s a {game show|genres} channel
+what s a {music|genres} channel
+what s a {football|genres} channel
+is {the big bang theory|title} on {bbc america|channel}
+is {the walking dead|title} on {bbc america|channel}
+is {grey s anatomy|title} on {bbc america|channel}
+is {the shield|title} on {bbc america|channel}
+is {the debate|title} on {bbc america|channel}
+take me to a channel with {action|genres}
+take me to a channel with {comedy|genres}
+take me to a channel with {weather|genres}
+take me to a channel with {game show|genres}
+take me to a channel with {music|genres}
+take me to a channel with {football|genres}
+Is {friends|title} playing at all {[this week|num:time]|showtime} on any channel?
+Is {the big bang theory|title} playing at all {[this week|num:time]|showtime} on any channel?
+Is {the debate|title} playing at all {[this week|num:time]|showtime} on any channel?
+Is {grey s anatomy|title} playing at all {[this week|num:time]|showtime} on any channel?
+Is {the walking dead|title} playing at all {[this week|num:time]|showtime} on any channel?
+Is {game of thrones|title} playing at all {[this week|num:time]|showtime} on any channel?
+on which channel would i be able to watch {the big bang theory|title} {movies|type}
+on which channel would i be able to watch {friends|title} {movies|type}
+on which channel would i be able to watch {grey s anatomy|title} {movies|type}
+on which channel would i be able to watch {game of thrones|title} {movies|type}
+on which channel would i be able to watch {the debate|title} {movies|type}
+on which channel would i be able to watch {the walking dead|title} {movies|type}
+which channel was doing the marathon of {james bond|series} {movies|type}
+which channel was doing the marathon of {superman|series} {movies|type}
+which channel was doing the marathon of {batman|series} {movies|type}
+channel of {weather|genres} related {tv shows|type}
+channel of {music|genres} related {tv shows|type}
+channel of {football|genres} related {tv shows|type}
+list the channels that play {action|genres} {movies|type}
+list the channels that play {comedy|genres} {movies|type}
+list the channels that play {drama|genres} {movies|type}
+list the channels that play {thriller|genres} {movies|type}
+list the channels that play {western|genres} {movies|type}
+any channel have {action|genres} {movies|type}
+any channel have {comedy|genres} {movies|type}
+any channel have {drama|genres} {movies|type}
+any channel have {thriller|genres} {movies|type}
+any channel have {western|genres} {movies|type}
+do you have any channels for {korean|countries} {tv shows|type} relevant to {kids|genres}
+do you have any channels for {korean|countries} {tv show|type} relevant to {kids|genres}
+do you have any channels for {korean|countries} {movie|type} relevant to {kids|genres}
+do you have any channels for {korean|countries} {movies|type} relevant to {kids|genres}
+do you have any channels for {korean|countries} {shows|type} relevant to {kids|genres}
+do you have any channels for {korean|countries} {tv shows|type} relevant to {action|genres}
+do you have any channels for {korean|countries} {tv show|type} relevant to {action|genres}
+do you have any channels for {korean|countries} {movie|type} relevant to {action|genres}
+do you have any channels for {korean|countries} {movies|type} relevant to {action|genres}
+do you have any channels for {korean|countries} {shows|type} relevant to {action|genres}
+do you have any channels for {korean|countries} {movies|type} that just started
+do you have any channels for {korean|countries} {movie|type} that just started
+do you have any channels for {korean|countries} {tv show|type} that just started
+do you have any channels for {korean|countries} {tv shows|type} that just started
+do you have any channels for {korean|countries} {shows|type} that just started
+do you have any channels for {korean|countries} {show|type} that just started
+do you have any channels for {korean|countries} {showings|type} that just started
+do you have any channels for {korean|countries} {sports|type} that just started
+do you have any channels for {korean|countries} {sport|type} that just started

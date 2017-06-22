@@ -1,0 +1,34 @@
+turn on the thermostat
+turn on the heat
+turn on the air conditioning
+turn on the ac
+turn on the a c
+turn on the aircon
+turn on the air con
+please turn on the heat
+please turn on the air conditioning
+please turn on the a c
+please turn on the ac
+please turn on the air con
+please turn on the aircon
+turn on the heat {at 5 pm|time}
+heat {on at 6 o clock|time}
+turn the air conditioning {on at 8 am|time}
+ac {on at noon|time}
+heat {on at 3 pm|time}
+turn on the thermostat in the {bedroom|location}
+turn on the heat in the {bathroom|location}
+heat on in the {kitchen|location} {at 2 am|time}
+{at 11 o clock|time} turn on the ac in the {kitchen|location}
+turn on the thermostat {at 4 pm|time} in the {bedroom|location}
+turn the heat {on at 7|time}
+put the heat on in the {bedroom|location} {at 9|time}
+thermostat on
+thermostat on please
+heat on
+ac on 
+aircon on
+heat on please
+ac on please
+air conditioning on please
+aircon on please

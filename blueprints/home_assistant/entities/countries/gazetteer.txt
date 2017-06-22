@@ -1,0 +1,99 @@
+1.0	English
+1.0	Czech Republic
+1.0	Slovakian
+1.0	argentinian
+1.0	Costa Rica
+1.0	Romania
+1.0	France
+1.0	czechoslovakian
+1.0	Canadian
+1.0	Ethiopian
+1.0	Japan
+1.0	American
+1.0	Finnish
+1.0	Indian
+1.0	USA
+1.0	Mexican
+1.0	Japanese
+1.0	Iran
+1.0	British
+1.0	US
+1.0	Czech
+1.0	Singapore
+1.0	Turkey
+1.0	Saudi Arabia
+1.0	Finland
+1.0	Austria
+1.0	Colombia
+1.0	French
+1.0	Colombian
+1.0	India
+1.0	United States
+1.0	Germany
+1.0	Mexico
+1.0	Belgian
+1.0	Belgium
+1.0	Bulgaria
+1.0	Malaysian
+1.0	New Zealand
+1.0	Bulgarian
+1.0	England
+1.0	Danish
+1.0	Italian
+1.0	Ethiopia
+1.0	Switzerland
+1.0	Austrian
+1.0	Mongolia
+1.0	Hungary
+1.0	Chinese
+1.0	Korean
+1.0	Ireland
+1.0	Dutch
+1.0	Netherlands
+1.0	Hungarian
+1.0	Greek
+1.0	Polish
+1.0	Korea
+1.0	Vietnam
+1.0	Pakistan
+1.0	Malaysia
+1.0	German
+1.0	Bollywood
+1.0	Spain
+1.0	Argentina
+1.0	Pakistani
+1.0	Brazil
+1.0	South Africa
+1.0	Portuguese
+1.0	Russia
+1.0	Canada
+1.0	Hong Kong
+1.0	China
+1.0	Romanian
+1.0	Turkish
+1.0	Denmark
+1.0	Swedish
+1.0	Russian
+1.0	Brazilian
+1.0	Iceland
+1.0	South African
+1.0	Costa Rican
+1.0	Singaporean
+1.0	Sweden
+1.0	Saudi Arabian
+1.0	Vietnamese
+1.0	Iranian
+1.0	Thailand
+1.0	United Kingdom
+1.0	Portugal
+1.0	Italy
+1.0	Irish
+1.0	Greece
+1.0	Icelandic
+1.0	Mongolian
+1.0	Spanish
+1.0	Swiss
+1.0	Australia
+1.0	australian
+1.0	Thai
+1.0	Poland

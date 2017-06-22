@@ -1,0 +1,277 @@
+1.0	anthology
+1.0	melodramatic
+1.0	actions
+1.0	sci-fi
+1.0	ballet
+1.0	travel
+1.0	business
+1.0	computers
+1.0	suspenseful
+1.0	entertainment
+1.0	watersports
+1.0	dramatic and funny
+1.0	home improvement
+1.0	opera
+1.0	science fiction
+1.0	motorcycle
+1.0	wrestling
+1.0	interview
+1.0	theater
+1.0	collectibles
+1.0	bizarre
+1.0	comedies with music
+1.0	debates
+1.0	melodrama
+1.0	funny romance
+1.0	golf
+1.0	exercise
+1.0	war
+1.0	track/field
+1.0	paranormal
+1.0	family friendly
+1.0	surfing
+1.0	home renovation
+1.0	film-noir
+1.0	musical comedies
+1.0	horrific
+1.0	tennis
+1.0	special
+1.0	romcom
+1.0	medical
+1.0	diving
+1.0	holiday
+1.0	hilarious
+1.0	rom com
+1.0	historical drama
+1.0	fashion
+1.0	horror
+1.0	sitcoms
+1.0	house/garden
+1.0	children's
+1.0	kid friendly
+1.0	environment
+1.0	auto
+1.0	news
+1.0	bullfighting
+1.0	thriller
+1.0	law
+1.0	shopping
+1.0	comedy drama
+1.0	table tennis
+1.0	fishing
+1.0	motorcycle racing
+1.0	educational
+1.0	drag racing
+1.0	awards
+1.0	romance
+1.0	adults only
+1.0	army
+1.0	film noir
+1.0	wild west
+1.0	drama
+1.0	mysterious
+1.0	funny musicals
+1.0	horse
+1.0	crime dramas
+1.0	animated
+1.0	biathlon
+1.0	for the kids
+1.0	comedy
+1.0	gameshows
+1.0	talk-show
+1.0	business and financial
+1.0	historical dramas
+1.0	dramas
+1.0	crime drama
+1.0	thrillers
+1.0	cheerleading
+1.0	fantasy
+1.0	foods
+1.0	sports
+1.0	reality television
+1.0	mountain biking
+1.0	speed skating
+1.0	food
+1.0	crime
+1.0	motorsports
+1.0	game show
+1.0	romantic
+1.0	snowmobile
+1.0	martial arts
+1.0	action sports
+1.0	for kids
+1.0	kid appropriate
+1.0	biography
+1.0	science fictions
+1.0	card games
+1.0	sitcom
+1.0	humor
+1.0	luge
+1.0	archery
+1.0	boxing
+1.0	musicals
+1.0	parenting
+1.0	hockey
+1.0	frightening
+1.0	military
+1.0	mixed martial arts
+1.0	animals
+1.0	political
+1.0	nature
+1.0	lacrosse
+1.0	miniseries
+1.0	mysteries
+1.0	historical
+1.0	poker
+1.0	about love
+1.0	gaming
+1.0	softball
+1.0	weather
+1.0	detective
+1.0	sports talk
+1.0	anime
+1.0	animations
+1.0	cooking
+1.0	equestrian
+1.0	funny and romantic
+1.0	cricket
+1.0	documentary
+1.0	gymnastics
+1.0	football
+1.0	shooting
+1.0	docudrama
+1.0	standup
+1.0	event
+1.0	skiing
+1.0	fantasies
+1.0	sport
+1.0	reality
+1.0	figure skating
+1.0	rodeo
+1.0	noir
+1.0	snowboarding
+1.0	performing arts
+1.0	nba
+1.0	bowling
+1.0	intl soccer
+1.0	baseball
+1.0	talk
+1.0	history
+1.0	romances
+1.0	manga
+1.0	cookery
+1.0	public affairs
+1.0	chick flicks
+1.0	stand up
+1.0	chick flick
+1.0	playoffs
+1.0	aerobics
+1.0	romantic and funny
+1.0	dramatic
+1.0	science
+1.0	how-to
+1.0	scary
+1.0	auto racing
+1.0	action-packed
+1.0	racquet
+1.0	about music
+1.0	erotic
+1.0	about war
+1.0	mma
+1.0	fundraiser
+1.0	newsmagazine
+1.0	western
+1.0	art
+1.0	talk show
+1.0	mystery
+1.0	children
+1.0	romance comedy
+1.0	health
+1.0	kid
+1.0	musical comedy
+1.0	community
+1.0	technology
+1.0	playoff sports
+1.0	family
+1.0	kid's
+1.0	kids
+1.0	cartoons
+1.0	pro wrestling
+1.0	bicycle racing
+1.0	humorous
+1.0	soap
+1.0	adventure
+1.0	suspense
+1.0	funny
+1.0	sailing
+1.0	westerns
+1.0	comedy with music
+1.0	child appropriate
+1.0	scifi
+1.0	mob
+1.0	music
+1.0	kayaking
+1.0	volleyball
+1.0	romantic comedies
+1.0	soccer
+1.0	comedy romance
+1.0	nfl
+1.0	auction
+1.0	animation
+1.0	playoff
+1.0	apocalypse
+1.0	reality tv
+1.0	animes
+1.0	cartoon
+1.0	self improvement
+1.0	ping pong
+1.0	documentaries
+1.0	adult
+1.0	triathlon
+1.0	talk shows
+1.0	hunting
+1.0	variety
+1.0	arts/crafts
+1.0	basketball
+1.0	sci fi
+1.0	dark comedies
+1.0	bobsled
+1.0	outdoors
+1.0	yacht racing
+1.0	dark comedy
+1.0	musical
+1.0	thrilling
+1.0	gay/lesbian
+1.0	rugby
+1.0	agriculture
+1.0	family-friendly
+1.0	aviation
+1.0	religious
+1.0	game shows
+1.0	bicycle
+1.0	squash
+1.0	handball
+1.0	consumer
+1.0	action
+1.0	cowboy
+1.0	romantic comedy
+1.0	funny musical
+1.0	politics
+1.0	dance
+1.0	syfy
+1.0	debate
+1.0	wartime
+1.0	olympics
+1.0	curling
+1.0	comedies
+1.0	running
+1.0	nascar
+1.0	action adventure
+1.0	boat racing
+1.0	melodramas
+1.0	for children
+1.0	bus./financial
+1.0	swimming
+1.0	nhl
+1.0	dog show
+1.0	skeleton

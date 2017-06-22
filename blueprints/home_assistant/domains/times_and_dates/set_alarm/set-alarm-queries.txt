@@ -1,0 +1,8 @@
+set an alarm for {6 am|time|newtime}
+wake me up {at 6 am|time|newtime}
+set alarm for {tomorrow at 6 am|time|newtime}
+set alarm {6 am|time|newtime}
+alarm {at 6 am|time|newtime}
+set my alarm for {6 am|time|newtime}
+set an alarm for {friday at 2pm|time|newtime}
+wake me up {tomorrow morning at 6|time|newtime}

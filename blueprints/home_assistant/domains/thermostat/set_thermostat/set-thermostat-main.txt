@@ -1,0 +1,242 @@
+{71|temperature} in the {living room|location}
+{bedroom|location} at {74 degrees|temperature}
+{living room|location} to {71|temperature}
+go to {70 degrees|temperature} in {bedroom|location}
+how about going to {75 degrees|temperature}
+make it {70 degrees|temperature}
+make it {70|temperature} in the {bedroom|location} please
+make it {75 degrees fahrenheit|temperature}
+make the {bedroom|location} {74 degrees|temperature}
+make the {living room|location} {73 degrees|temperature}
+make the {entire house|all} {75 degrees|temperature}
+set {bedroom|location} to {73|temperature}
+set {living room|location} temp to {71|temperature}
+set the {entire house|all} to {25 celsius|temperature}
+set the heat to {75|temperature}
+set the thermostat to {72 degrees fahrenheit|temperature}
+set to {70 degrees|temperature}
+turn it down to {55|temperature} {at 10 pm|time}
+let the {whole house|all} be {76 degrees|temperature}
+{71 degree|temperature} temperature control on the house please
+{71 degree|temperature} temperature control on the house
+{76 degrees|temperature} in the {bedroom|location} please
+{at 11pm|time} please set the {master bedroom|location} temperature to {72 degrees|temperature}
+{at 5 am|time} turn the heat up to {70 degrees|temperature}
+{at 6pm|time} set heat to {72 degrees|temperature} in the house
+{at 8am|time} set the temperature in the {bathroom|location} and {kitchen|location} to {74 degrees|temperature}
+{at midnight|time} turn the heat down to {65 degrees|temperature}
+{in the morning|time} set the temperature to {72|temperature}
+adjust heat to {73 degrees|temperature} every room
+adjust temperature to {70|temperature}
+adjust the temperature to {65|temperature}
+adjust the temperature to {72 degrees|temperature}
+adjust the temperature to {78|temperature}
+adjust the thermostat in the house to {74 degrees|temperature}
+adjust thermostat to {70 degrees|temperature}
+{after 9pm|time} change the thermostat to {70 degrees|temperature}
+between 9am and 5pm please set the temperature to {66 degrees|temperature}
+can you change the temperature to {69|temperature}
+can you lower the temperature to {59 degrees|temperature} while i am on vacation
+can you please change the settings to {62 degrees fahrenheit|temperature}
+can you please change the thermostat to {65 degrees|temperature}
+can you set the heat in the room to {75 degrees|temperature}
+change {bedroom|location} temp to {71 degrees|temperature}
+change temp to {75|temperature}
+change temperature in {living room|location} to {65 degrees|temperature}
+change temperature to {69 degrees|temperature} in the {bedroom|location} downstairs
+change temperature to {72 degrees|temperature}
+change the ground floor temperature to {72|temperature}
+change the heat to {71 degrees|temperature}
+change the stat to {70|temperature} please
+change the temperature in the {office|location} to {74|temperature}
+change the temperature to {65 degrees|temperature}
+change the temperature to {68|temperature}
+change the temperature to {70|temperature}
+change the temperature to {72 degrees|temperature}
+change the temperature to {72|temperature} in the {bedroom|location}
+change the temperature to {75 degrees|temperature}
+change the thermostat in the {garage|location} to {68 degrees|temperature}
+change thermostat to {68|temperature} in the {bedroom|location}
+change to {70 degrees|temperature}
+cool the house down to {70 degrees|temperature}
+cool the {kitchen|location} to {68 degrees|temperature}
+cool the master {bedroom|location} to {65|temperature} starting {at 9 pm|time}
+cool the room down to {74 degrees|temperature}
+current temp please to {70|temperature}
+have the temperature at {75 degrees|temperature} in the {basement|location}
+heat {master bedroom|location} to {80 degrees|temperature}
+heat down to {68 degrees|temperature} {at 10pm|time}
+heat it up to {72|temperature}
+heat on to {75|temperature}
+heat up the {bedroom|location} to {76 degrees|temperature}
+hold {bedroom|location} temperature at {70 degrees|temperature} at night
+how long will it take to chill the {living room|location} to {70 degrees|temperature}
+i m freezing crank the heater up to {72 degrees|temperature}
+i m sweating turn the ac on to {65 degrees|temperature}
+i want it to be {68|temperature} in the {bedroom|location}
+i want the room to be set at {73 degrees|temperature}
+i would like it {70|temperature} {in a hour|time}
+i would like to raise the heat to {75|temperature}
+raise the heat to {75|temperature}
+i m dying change the temperature to {64|temperature}
+increase temperature in the {bathroom|location} to {76 degrees|temperature}
+it is too cold please turn up the heat to {65|temperature}
+please turn up the heat to {65|temperature}
+turn up the heat to {65|temperature}
+it is too cold please turn up the heat to {70|temperature}
+it s cold raise the temperature to {80|temperature}
+raise the temperature to {80|temperature}
+raise the temperature up to about {75|temperature}
+it s cold in here turn the temperature up to {76 degrees|temperature}
+it s cold in here turn the temperature up to {76|temperature}
+it s cold please change the temperature to {82|temperature}
+it s freezing bring the heat up to 70
+lower air temperature to {72 degrees|temperature}
+lower temperature to {65 degrees|temperature}
+lower the {living room|location} temperature to {68|temperature}
+lower the temperature in the {kitchen|location} to {69|temperature}
+lower the temperature in the house to {65 degrees|temperature} {in two hours|time}
+lower the temperature to {4 degrees|temperature}
+lower the temperature to {71 degrees|temperature} in the {dining room|location}
+lower the thermostat to {60|temperature}
+maintain a temperature of {79|temperature} in the house
+make it {102|temperature} in here
+make it {70 degrees|temperature} in this room
+make it a nice {70|temperature}
+make the house {60 degrees|temperature}
+make the temperature {70 degrees|temperature} {at 6 am|time}
+please change the thermostat setting to {68|temperature} in the {family room|location}
+please change the thermostat setting to {72 degrees|temperature} in the {basement|location}
+please change the thermostat to {76|temperature} across the {entire house|all}
+please cool the house down to about {70 degrees|temperature}
+please cool the upstairs down to {70|temperature}
+please lower the temperature in the {kitchen|location} to {75 degrees|temperature}
+please lower the temperature in the {living room|location} to {70 degrees|temperature}
+please lower the temperature to {68 degrees|temperature}
+please lower the temperature to {68|temperature}
+please raise the temperature to {70 degrees|temperature}
+please set heat to {68 degrees|temperature}
+please set temperature to {68|temperature}
+please set the {family room|location} thermostat to {71 degrees|temperature} please
+please set the heat to {65 degrees|temperature} and turn it on
+please set the temperature to {65 degrees|temperature} in the {bathroom|location}
+please set the temperature to {70|temperature}
+please set the temperature to {72|temperature} in here
+please set the thermostat to {65 degrees|temperature}
+please turn the heat to {76|temperature}
+please turn the thermostat in the {bathroom|location} to {74 degrees|temperature}
+put {bedroom|location} at {65 degrees|temperature} please
+put it {70|temperature} in the {living room|location}
+put it at {72|temperature}
+raise the temp in the {bathroom|location} to {80 degrees|temperature}
+raise the temperature above {66 degrees|temperature}
+raise the temperature to {75 degrees|temperature} {at 10 o clock a m|time}
+raise thermostat to {75 degrees|temperature}
+raise the temperature up above {70 degrees|temperature}
+bring up the temperature to at least {75 degrees|temperature}
+bring the temperature up to {72 degrees|temperature}
+raise up the temperature to about {80 degrees|temperature}
+reduce the temperature to {70 degrees|temperature}
+set {all|all} rooms at {71|temperature}
+set {basement|location} temperature to {70|temperature} please
+set {bathroom|location} temperature to {75 degrees|temperature}
+set {bathroom|location} temperature to {75 degrees|temperature}
+set {kitchen|location} temperature to {60 degrees|temperature}
+set {living room|location} temperature to {73 degrees|temperature}
+set heat to {72 degrees|temperature}
+set heat to {72 degrees|temperature} {at 11 pm|time}
+set house temperature to {72 degrees|temperature}
+set my thermostat to {70 degrees f|temperature}
+set temp to {70|temperature}
+set temperature at {72|temperature}
+set temperature to {68 degrees fahrenheit|temperature}
+set temperature to {68|temperature} {after 9 pm|time}
+set the {bathroom|location} temperature to {65 degrees|temperature}
+set the {bathroom|location} temperatures to {73 degrees|temperature}
+set the {bathroom|location} to {72|temperature}
+set the {bedroom|location} temperature to {73 degrees|temperature}
+set the {bedroom|location} to {80 degrees|temperature}
+set the {kitchen|location} temperature to {70|temperature}
+set the {living room|location} temperature to {68|temperature}
+set the {living room|location} temperature to {70 degrees|temperature}
+set the {living room|location} temperature to {72 degrees|temperature}
+set the {living room|location} to {69|temperature}
+set the {living room|location} to {75 degrees|temperature}
+set the air conditioner to {78|temperature}
+set the air conditioner to {78|temperature} in the {whole house|all}
+set the air conditioning to {65 degrees|temperature}
+set the air conditioning to {65|temperature}
+set the heat to {64 degrees|temperature}
+set the house temperature to {68 degrees|temperature} {at midnight|time}
+set the kids bedrooms to {69|temperature}
+set the t stat to {68 degrees|temperature}
+set the temp down to {70|temperature}
+set the temp to {72|temperature}
+set the temperature in the {kitchen|location} to {70 degrees|temperature}
+set the temperature in the {kitchen|location} to {70 degrees|temperature}
+set the temperature to {64|temperature} on air conditioning
+set the temperature to {70 degrees|temperature} in the {bathroom|location}
+set the temperature to {70 degrees|temperature} in the {bathroom|location}
+set the temperature to {70|temperature} in our {bedroom|location}
+set the temperature to {72 degrees|temperature} {at 4:00pm|time}
+set the temperature to {80|temperature}
+set the thermostat at {75 degrees|temperature}
+set the thermostat to {62|temperature}
+set the thermostat to {70 degrees|temperature} {at 5:00|time}
+set the thermostat to {72 degrees|temperature}
+set the thermostat to {72|temperature}
+set the thermostat to {72|temperature} in the {kitchen|location}
+set thermostat to {60 degrees|temperature} {at 9 am|time}
+set thermostat to {67|temperature}
+set thermostat to {68|temperature}
+smart home lower the temperature to {69 degrees|temperature}
+stat to {68|temperature} please
+the room temperature should be set at {75 degrees|temperature}
+the {whole house|all} is too cold set the house to {75 degrees|temperature}
+thermostat please set heat on to {80|temperature}
+thermostat please set heat on to {80|temperature}
+thermostat setting {70|temperature}
+thermostat setting to {68|temperature} in the {living room|location}
+thermostat setting at {72 degrees|temperature} in the {bathroom|location}
+thermostat to {72 degrees|temperature} please
+turn {kitchen|location} temperature down to {65 degrees|temperature}
+turn down the temp to {70|temperature}
+turn it down to {50|temperature}
+turn it down to {77|temperature}
+turn it to {70 degrees|temperature}
+turn it to {72|temperature}
+turn it up to {80|temperature}
+turn it up to {88|temperature}
+turn on the ac and set it to {73|temperature}
+turn temperature to {70 degrees|temperature}
+turn the a c to {78|temperature}
+turn the ac to {80|temperature} {at 8 o clock|time}
+turn the air down to {72|temperature}
+turn the heat to {70|temperature} in here
+turn the heat up to {72|temperature}
+turn the heat up to {72|temperature}
+turn the temp down to {70|temperature}
+turn the temperature up to {68|temperature}
+turn the temperature up to {68|temperature}
+turn the temperature up to {70 degrees|temperature}
+turn the temperature up to {70 degrees|temperature}
+turn the thermostat down to {68 degrees|temperature}
+turn the thermostat to {68|temperature}
+turn the thermostat to {72|temperature} {at 5 pm|time}
+turn the thermostat up to {70|temperature}
+turn the thermostat up to {70|temperature}
+turn up temperature to {73|temperature}
+turn up the heat in the {master bath|location} to {75|temperature}
+turn up the temp to {70|temperature}
+please set thermostat to {67 degrees|temperature}
+set {bedroom|location} ac to {68|temperature}
+set the furnace at {72|temperature}
+set the temperature to {60 degrees|temperature}
+set thermostat at {75 degrees|temperature}
+set thermostat to {68 degrees|temperature}
+turn the heater down to {68 degrees|temperature}
+turn the thermostat to {75 degrees|temperature}
+turn up heat to {70|temperature}
+heat the house up to {75 degrees|temperature}
+i m cold turn up the heat to {73|temperature}
+set the air conditioner on {68|temperature}

@@ -1,0 +1,11 @@
+{the tonight show|title}
+the {today|title} {show|type}
+show {old|sort} {tonight show|title} episodes
+put on {today|title} {show|type} episodes
+i am looking for {walking dead|title}
+switch to {ncis|title}
+list {tom clancy|series} {movies|type}
+what {tonight show|title} seasons are available
+find me {tonight show|title} episodes
+pull up some episodes of the {today|title} {show|type}
+show all {movies|type} on {[after 7 tonight|num:interval]|showtime}

@@ -1,0 +1,76 @@
+when is the {tonight show|title} going to be on
+what time does {the walking dead|title} start
+at what time can i watch local {news|genres}
+what time is {the walking dead|title} on
+when {the last man on earth|title} comes on
+when is {game of thrones|title} playing
+what day is {xyz|title} on
+what time is {xyz|title}
+what time does the {raiders|teams} game come on
+what time does the {season premiere|range} of {the walking dead|title} come on
+what time does the {warriors|teams} game come on
+when does {south park|title} come on again
+what time does {project runway|title} start
+what time is the {lakers|teams} game showing
+what time is {scandal|title} on
+what time is the game on
+what time does the {warriors|teams} game start
+what time does {survivor|title} end
+when can i watch the {cubs|teams} game
+what time does {x|title} come on
+what time is the {sportscenter|title}
+when is {the car race|title} start
+when does {new girl|title} start
+at what time does {hockey|genres} start
+when does {walking dead|title} come on
+what time does {scandal|title} come on
+when can i watch {scandal|title}
+when is {impractical jokers|title} on
+what time is {con air|title} on
+when can i see {downton abbey|title}
+what time does {chicago med|title} come on
+what time does the {late show|title} come on
+what time is {girls|title} on
+what day is {girls|title} playing
+when does {iron chef|title} come on next
+when are the {new|sort} episodes of {big bang theory|title} on
+what time does {game of thrones|title} come on
+when does {adventure time|title} come on
+when is the re run of {the walking dead|title}
+what time does {game of thrones|title} start {[this week|num:time]|showtime}
+when does {billions|title} come on
+what time is the {late show|title} on
+what time does {luther|title} start
+can you find when {game of thrones|title} is on again
+when is the next season of {suits|title} starting
+when is the season finale of {person of interest|title}
+when is {silicon valley|title} on
+when does {slasher|title} come on
+what time is the {real madrid|teams} match
+what time is {survivor|title} on
+when is the next democratic {debate|genres} on
+when does the next {halloween|title} {movie|type} come on
+when is {gilmore girls|title} on next
+when will {new|sort} episode of {greys anatomy|title} be available
+when is the {red sox|teams} game
+tv what time is the {arrow|title} on
+what day is {the flash|title} on
+what time is {arrow|title} on
+when will {the shinning|title} be on
+what time is {fallen|title} out on
+what time does the {tigers|teams} game start
+when is {say yes to the dress|title} on
+what time does {jeopardy|title} come on
+what time is {sponge bob|title} on
+when is the {batman|cast} {movie|type} on
+what time does {sportscenter|title} start
+what time does {sportscenter|title} start
+what time and channel is the local {news|genres} on
+when can i watch {60 minutes|title}
+when does {fox|channel} {news|genres} end {[tonight|num:interval]|showtime}
+when is {better call saul|title} {[on tonight|num:interval]|showtime}
+what time will {arrow|title} be airing {[tonight|num:interval]|showtime}
+when is the next {new|sort} episode of {the walking dead|title} on
+when is {the walking dead|title} on
+what time is {survivor|title}
+when is {the catch|title} on

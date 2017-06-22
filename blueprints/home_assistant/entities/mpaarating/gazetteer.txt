@@ -1,0 +1,10 @@
+1.0	rated G
+1.0	G-rated
+1.0	PG-13
+1.0	R rated
+1.0	G rated
+1.0	PG
+1.0	NC-17
+1.0	rated P
+1.0	R-rated
+1.0	rated PG

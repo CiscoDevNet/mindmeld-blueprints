@@ -1,0 +1,615 @@
+what {movies|type} are {[on tonight|num:interval]|showtime}
+show me {reality|genres} {programs|type} showing {[tonight|num:interval]|showtime}
+are there any {horror|genres} {movies|type} {[coming on tonight|num:interval]|showtime}
+are there any {tarantino|directors} {movies|type} available that are free
+show me {comedy|genres} {shows|type}
+i want to see {movies|type} featuring {drew barrymore|cast}
+what {comedy|genres} {movies|type} are currently airing
+can i watch a {show|type} with {jamie foxx|cast}
+find {action|genres} {movies|type}
+filter {shows|type} to only include those with actor {liam neeson|cast}
+show me what {cartoons|genres} are {[on now|num:time]|showtime}
+can you show me what {horror|genres} {movies|type} come {[on today|num:time]|showtime}
+show me what {movies|type} will be on {fox|channel} {[today|num:time]|showtime}
+are any {star wars|series} {movies|type} playing {[this weekend|num:interval]|showtime}
+show me {shows|type} with {sophia bush|cast}
+find me something {for the kids|genres}
+what {sports|type} are {[on today|num:time]|showtime}
+find all listing for {the sopranos|title}
+find me {crime dramas|genres}
+what {reality tv|genres} {shows|type} are {[on tonight|num:interval]|showtime}
+what {comedy|genres} {movies|type} will be shown {[today|num:time]|showtime}
+show me {funny|genres} {shows|type}
+what spy {movies|type} are {on [tomorrow|num:time]|showtime}
+show me the {newest|sort} {movies|type} available
+are there any {horror|genres} {movies|type} {starting [tonight at 8pm|num:time]|showtime}
+what {movies|type} with {brad pitt|cast} are showing
+show me {movies|type} that just started
+i d like to watch a {horror|genres} {movie|type} {[tonight|num:interval]|showtime}
+are any {movies|type} playing with {eddie murphy|cast} in them
+show me {nicolas cage|cast} {movies|type}
+what {sci fi|genres} {movies|type} are showing
+show me a list of {series|type} contain {bryan cranston|cast}
+show me {cooking|genres} {shows|type}
+what {reality|genres} {shows|type} are {[on tonight|num:interval]|showtime}
+i want to see something with {alicia silverstone|cast}
+are there any {action|genres} {movies|type} {[on right now|num:time]|showtime}
+what shows have {christina applegate|cast}
+what {romance|genres} {movies|type} are {[on tomorrow|num:time]|showtime}
+list all {movies|type} by director {woody allen|directors}
+show me {romantic comedies|genres} playing now
+show me all the {sci fi|genres} {shows|type} premiering {[this week|num:time]|showtime}
+show me {movies|type} with {denzel washington|cast}
+show me interesting {movies|type}
+are there any good {mystery|genres} {shows|type} {[on today|num:time]|showtime}
+show me {movies|type} with {robert de niro|cast}
+find me a {show|type} with {michael j fox|cast}
+what {action|genres} {movies|type} are {[on now|num:time]|showtime}
+show me an {educational|genres} {kids|genres} {show|type}
+show me {romantic comedies|genres} {[on this week|num:time]|showtime}
+can you find a {movie|type} directed by {guillermo del toro|directors}
+show me roman {historical|genres} {shows|type}
+any {family|genres} {movies|type} {[on tonight|num:interval]|showtime}
+what more {educational|genres} {show|type} do you have for me
+i want to see a {funny|genres} {show|type}
+what {comedies|genres} are playing {[today|num:time]|showtime}
+show me any {movies|type} directed by {michael bay|directors}
+i want to see the {most recent|sort} {sci fi|genres} {movie|type}
+what {romantic comedy|genres} {movies|type} will be shown {[today|num:time]|showtime}
+show me the {shows|type} with {ashton kutcher|cast}
+any {funny|genres} {movies|type} {[on right now|num:time]|showtime}
+what {comedy|genres} {movies|type} will be playing {[tonight|num:interval]|showtime}
+show me {comedy|genres} {tv shows|type}
+what {horror|genres} {movies|type} will be shown {[today|num:time]|showtime}
+show me some {funny|genres} {movies or tv shows|type}
+what {comedy|genres} {shows|type} are on
+what {horror|genres} {movies|type} are {[on today|num:time]|showtime}
+are there any {new|sort} {science fiction|genres} {shows|type} {[on this week|num:time]|showtime}
+show me all {movies|type} by {j j abrams|directors}
+sort by {movies|type} please
+are there any {movies or tv shows|type} with {bradley cooper|cast} currently playing
+what {comedies|genres} are showing {[this weekend|num:interval]|showtime}
+show me {movies|type} with {hugh jackman|cast}
+show me {movies|type} with the {best|sort} rating
+show me the {shows|type} with {gordon ramsay|cast}
+what {romance comedy|genres} {movies|type} are on tv {[tomorrow night|num:interval]|showtime}
+show me some {crime|genres} {shows|type} that will be {[on today|num:time]|showtime}
+show me {sci fi|genres} genre
+please show me {movies|type} with {johnny depp|cast}
+what {comedies|genres} are {[on this week|num:time]|showtime}
+is there anything from the {bbc|channel}
+play me {recent|sort} {comedy|genres} {movies|type}
+show me the {comedies|genres}
+are there any {romantic comedies|genres} {[on today|num:time]|showtime}
+are there any {comedy|genres} {movies|type} starring {adam sandler|cast} {[on today|num:time]|showtime}
+what {apocalypse|genres} type {shows|type} are on
+what {westerns|genres} are {[on today|num:time]|showtime}
+show me all {documentaries|genres}
+what is the full list of television {shows|type} created by {kurt sutter|directors}
+looking for {comedies|genres} with {will ferrell|cast}
+what show is {steve harvey|cast} {[on today|num:time]|showtime}
+{tv shows|type} staring {will smith|cast}
+what {comedy|genres} {movies|type} are on
+find me a {drama|genres} directed by {joss whedon|directors}
+what {comedies|genres} are {[on this weekend|num:interval]|showtime}
+show me {game shows|genres}
+are there any {movies|type} directed by {j j abrams|directors} {[on today|num:time]|showtime}
+what {comedies|genres} are {[on tonight|num:interval]|showtime}
+what {action|genres} {movies|type} have come out {[today|num:time]|showtime}
+are there any {comedy|genres} {movies|type} on
+what {movies|type} with {al pacino|cast} are on
+show me a {show|type} with {action|genres}
+{kristen wiig|cast} {movies|type}
+any {tarantino|directors} {flicks|type}
+show me the {most recent|sort} {action|genres} {movies|type}
+show me a {best|sort} list of {action|genres} {film|type} monthly
+are any {movies|type} starring {matt damon|cast} playing {[today|num:time]|showtime}
+are there any {nhl|genres} games {[today|num:time]|showtime}
+show me all {movies|type} with {bette davis|cast}
+show me {movies|type} with {john wayne|cast}
+what {movies|type} directed by {wes craven|directors} are showing {[today|num:time]|showtime}
+are there any {movies|type} directed by {david cronenberg|directors} airing {[this month|num:time]|showtime}
+{dule hill|cast} on {the west wing|title}
+show me a {comedy|genres} with {jim carrey|cast}
+show me {tv shows|type} relevant to {kids|genres}
+show me any {movies|type} directed by {quentin tarantino|directors}
+display {movies|type} with {sandra bullock|cast}
+what are some {comedy|genres} {shows|type} airing {[today|num:time]|showtime}
+show me {mystery|genres} {shows|type} showing {[today|num:time]|showtime}
+i would like to watch the {latest|sort} {action|genres} {movies|type}
+show me {movies|type} directed by the {coen brothers|directors}
+are there any {crime drama|genres} {shows|type} {[on today|num:time]|showtime}
+show {movies|type} that are 2 and a half hours long
+show me some {comedy|genres} {movies|type} showing {[this week|num:time]|showtime}
+give me {movies|type} with {nathan fillion|cast}
+what {movies|type} are {chris pratt|cast} in
+what {fantasy|genres} {movies|type} will be {[on today|num:time]|showtime}
+{show|type} popular {cartoons|genres}
+show me {movies|type} with {batman|series} in the title
+{movies|type} directed by {alfred hitchcock|directors}
+what {comedy|genres} {cartoons|genres} are on
+show me {movies|type} with {vin diesel|cast}
+what {westerns|genres} are playing {[today|num:time]|showtime}
+find any showings of {the simpsons|title} airing {[today|num:time]|showtime}
+show me {movies|type} with {tom hanks|cast}
+show me all {movies|type} with {brad pitt|cast}
+show any {movies|type} with {will ferrell|cast} in them
+show me {movies|type} made by {quentin tarantino|directors}
+list {shows|type} with {billy murray|cast} in them
+what {scifi|genres} {shows|type} are available to watch
+what {home improvement|genres} {shows|type} are {[on right now|num:time]|showtime}
+what {horror|genres} {movies|type} are {[on today|num:time]|showtime}
+please play a {movie|type} directed by {wes anderson|directors}
+show me {movies|type} with {scott wilson|cast} showing {[this saturday|num:time]|showtime}
+look for a {show|type} with {michael j fox|cast}
+are there any {star trek|series} or {star wars|series} {movies|type} {[on tonight|num:interval]|showtime}
+are there any {will ferrell|cast} {movies|type} {[on today|num:time]|showtime}
+find local {sports|type}
+show me {movies|type} directed by {quentin tarantino|directors}
+show me all {ncis|title} {shows|type}
+show me {clint eastwood|cast} {movies|type} {[on saturday|num:time]|showtime} or {[sunday|num:time]|showtime}
+show me current {action|genres} {movies|type}
+can you tell me the {sci fi|genres} {movies|type} that are going to be aired {[today|num:time]|showtime}
+show me {suspense|genres} {movies|type} that are {[on tomorrow night|num:interval]|showtime}
+show me {movies|type} with {mark hamill|cast}
+show me {movies|type} with {tom hanks|cast}
+what {football|genres} games are {[on today|num:time]|showtime}
+show me {shows|type} with {elizabeth mccarthy|cast}
+show me {movies|type} with oscar winning actors in it
+what {comedies|genres} are {[on tonight|num:interval]|showtime}
+show me the {sci fi|genres} {movies|type}
+what {romance comedy|genres} {films|type} will be shown {[today|num:time]|showtime}
+what {sport|type} games are {[on tonight|num:interval]|showtime}
+are there any {films or movies|type} with {viola davis|cast} playing {[this week|num:time]|showtime}
+show me {movies|type} starring {nathan fillion|cast} and directed by {joss whedon|directors}
+show me {tv shows|type} starring {liam neeson|cast}
+show me {tv shows|type} with {chris pratt|cast}
+are there any {shows|type} with {tina fey|cast} {[on tonight|num:interval]|showtime}
+show me {shows|type} with {will smith|cast}
+search for {horror|genres} {movies|type}
+show me what {sci fi|genres} {shows and movies|type} are {[on tonight|num:interval]|showtime}
+show me {godzilla|series} {movies|type}
+what different {shows|type} will be on {fox|channel}
+show me upcoming {tarantino|directors} {films|type}
+show me {movies|type} with {will smith|cast}
+show me a {movie|type} with {jennifer lawrence|cast}
+show me anything with {tina fey|cast}
+show me the {shows|type} with {tim heidecker|cast}
+what {films|type} by {guy ritchie|directors} are on {hbo|channel}
+what {cartoons|genres} are currently available to watch
+show me a {show|type} with {will smith|cast}
+find {comedy|genres} {movies|type}
+what {mystery|genres} {movies|type} are starting in the {[next hour|num:time]|showtime}
+are there any {steven spielberg|directors} {movies|type} {[coming on friday night|num:interval]|showtime}
+are there any {family|genres} {movies|type} coming on
+find a {tom cruise|cast} {flick|type}
+what {scary|genres} {movies|type} are playing {[tonight|num:interval]|showtime}
+are there any {shows|type} with {jessica capshaw|cast}
+show me {movies|type} with {channing tatum|cast}
+will there be any {shows or movies|type} with {al pacino|cast} {[on today|num:time]|showtime}
+i need a {family|genres} {show|type}
+what shows are {new|sort} {[tonight|num:interval]|showtime}
+show all {science fiction|genres} {shows|type}
+what {kid friendly|genres} {movies|type} are {[on tonight|num:interval]|showtime}
+show me {comedy|genres} {show|type} {[on this evening|num:interval]|showtime}
+show me {movies|type} with {robert de niro|cast}
+show all {romantic|genres} {shows|type}
+i want to see {comedies|genres} that are available with {farley|cast} in them
+any {johnny depp|cast} {movies|type} {[on this weekend|num:interval]|showtime}
+what {tv show|type} have {emilia clarke|cast}
+what {action|genres} {movies|type} are currently on
+can i see all {movies|type} by {quentin tarantino|directors}
+how many {comedy|genres} {movies|type} come {[on around 8 p m|num:time]|showtime}
+what {comedies|genres} are {[on tomorrow|num:time]|showtime}
+are there any {movies|type} with {jennifer aniston|cast}
+is there anything on that has {philip seymour hoffman|cast} in it
+are there any {movies|type} with {sarah jessica parker|cast} playing {[this week|num:time]|showtime}
+show me some {shows|type} that have {bob barker|cast} in them
+what {movies|type} with {melissa mccarthy|cast} are {[on today|num:time]|showtime}
+are there any {shows|type} {[tonight|num:interval]|showtime} with {conan|title}
+display {movies|type} starring {leonardo dicaprio|cast}
+will there be any {movies|type} starring {leonardo dicaprio|cast} on tv {[this weekend|num:interval]|showtime}
+show me {top|sort} {movies|type} directed by {guy ritchie|directors}
+what shows are {new|sort} and {bizarre|genres}
+are there any {movies|type} with {tom cruise|cast} playing {[today|num:time]|showtime}
+show me all the {movies|type} with {christian bale|cast} in them for {[tonight|num:interval]|showtime}
+will {the voice|title} be shown {[today|num:time]|showtime}
+show me {movies|type} with {megan fox|cast}
+are there any {comedies|genres} playing {[today|num:time]|showtime}
+find me {movies|type} by {michael bay|directors}
+how many {romantic|genres} {movies|type} can i choose from
+show me a {movie|type} with {leonardo dicaprio|cast}
+i want to find {the office|title}
+show me my {comedy|genres} options
+show me {shows|type} with female leads
+i want to see {movies|type} with {ryan gosling|cast} in them
+what {drama|genres} {movie|type} do you have for {[today|num:time]|showtime}
+can you show me whats on {the history channel|channel}
+i want to see {movies|type} with {leonardo dicaprio|cast}
+what {sports|genres} {movies|type} are {[on today|num:time]|showtime}
+i want to see a {movie|type} directed by {steven spielberg|directors}
+what was the {first|sort} {movie|type} that starred {michael j fox|cast}
+are there any {movies|type} starring {bill hader|cast} {[today|num:time]|showtime}
+what {dramas|genres} will be shown {[today|num:time]|showtime}
+any {movies|type} with {johnny depp|cast} on
+are there any {movies|type} with {seth rogen|cast} showing {[today|num:time]|showtime}
+what {movies|type} directed by {guillermo del toro|directors} will be shown {[this week|num:time]|showtime}
+what {sports shows|type} will be {[on today|num:time]|showtime}
+show the {best|sort} {reality|genres} {show|type} {[right now|num:time]|showtime}
+what {soccer|genres} games are there {[today|num:time]|showtime}
+show me all the {shows|type} that {j j abrams|directors} is involved with
+what {sci fi|genres} {movies|type} are showing {[at seven|num:time]|showtime}
+what {horror|genres} {movies|type} are {[on right now|num:time]|showtime}
+{movies|type} with {hugh grant|cast} in them
+what is a good {comedy|genres} {movie|type}
+what {comedy|genres} {shows|type} are {[on tonight|num:interval]|showtime}
+are there any {movies|type} with {adam sandler|cast} and {chris farley|cast}
+what s the next {movie|type} directed by {j j abrams|directors}
+show me {michael bay|directors} {movies|type}
+what {comedy|genres} {movies|type} are showing {[saturday evening|num:interval]|showtime}
+show me {mystery|genres} {movies|type}
+what {movie|type} with {adam sandler|cast}
+is there a {movie|type} with {george clooney|cast} {[on today|num:time]|showtime}
+are there {shows|type} with {aziz ansari|cast}
+find me a {movie|type} directed by {steven spielberg|directors}
+what {romantic comedies|genres} are {[on right now|num:time]|showtime}
+show me {shows|type} with {vin diesel|cast} playing {[tonight|num:interval]|showtime}
+can i see the {sci fi|genres} {shows|type} airing {[this week|num:time]|showtime}
+show me a {movie|type} with {will smith|cast}
+look for {john wayne|cast} {movies|type}
+are there any {science fiction|genres} {movies|type} on
+show me all {films|type} directed by {mel brooks|directors}
+how many {top|sort} 10 all time {movies|type} are available to watch
+{movies|type} that came out in {[the last 6 months|num:interval]|range}
+are there any {action|genres} {movies|type}
+are any {thrillers|genres} {[on tonight|num:interval]|showtime}
+show me the {most watched|sort} {show|type} for {[today|num:time]|showtime}
+show me {movies|type} with {will smith|cast}
+is {steven universe|title} playing {[on monday|num:time]|showtime}
+show all {movies|type} with {nicolas cage|cast} in them
+what {movies|type} are on {hbo|channel} {[today|num:time]|showtime}
+are there any {movies|type} with {megan good|cast} in it
+show me some {comedy|genres} {movies|type}
+show me a {julia roberts|cast} {show|type}
+anything with {natalie portman|cast} on
+show me {movies|type} with {tom cruise|cast}
+i need a {film|type} with actor {johnny depp|cast}
+are there any {family|genres} time {movies|type} playing
+show me all {reality tv|genres} {shows|type}
+what kinds of {western|genres} {movies|type} are showing
+what {horror|genres} {movies|type} are {[on today|num:time]|showtime}
+what {horror|genres} {movies|type} are {[on this saturday|num:time]|showtime}
+80s {comedies|genres} {bill murray|cast}
+are there any {quentin tarantino|directors} {movies|type} being shown {[tuesday night|num:interval]|showtime}
+what {movies|type} include {jason statham|cast} {[today|num:time]|showtime}
+is there any {star wars|series} {movies|type} showing
+are there {romantic comedies|genres} showing {[today|num:time]|showtime}
+are there {movies|type} with {elijah wood|cast} airing {[this week|num:time]|showtime}
+show me episodes of {glee|title} with with {cory monteith|cast}
+i would like to view the {shows|type} with {angelina jolie|cast}
+are there any {romantic comedies|genres} {[on today|num:time]|showtime}
+what {newer|sort} {comedy|genres} {movies|type} will be {[on today|num:time]|showtime}
+show me {movies|type} by {tarantino|directors}
+what s on for {romance|genres}
+are there any {movies|type} with {james earl jones|cast} {[on tonight|num:interval]|showtime}
+{show|type} {espn|channel} first year
+display list of {movies|type} with {johnny depp|cast}
+i want to see anything {superman|series} related
+classic {noir|genres} {movies|type}
+what {crime|genres} {tv shows|type} come on
+is {kevin costner|cast} in any {shows|type} that are {[on this weekend|num:interval]|showtime}
+are there any {movies|type} playing {[this month|num:time]|showtime} with {adam sandler|cast}
+what {war|genres} {movies|type} will be shown {[tomorrow|num:time]|showtime}
+what {thriller|genres} {movies|type} are {[on right now|num:time]|showtime}
+are there any {movies|type} starring {tom cruise|cast} on
+are there any {romantic|genres} {movies|type} playing {[this friday night|num:interval]|showtime}
+are there any {horror|genres} {movies|type} showing {[on friday|num:time]|showtime}
+show me {movies|type} by {m night shyamalan|directors}
+are there any {movies or shows|type} with {matt bomer|cast} playing
+show me a list of {cartoons|genres} {[on today|num:time]|showtime}
+put on any {tv show|type} with {bob saget|cast}
+what {horror|genres} {movies|type} are being shown {[on sunday|num:time]|showtime}
+i want to watch a {sci fi|genres} {show|type}
+show me what {comedies|genres} are playing {[right now|num:time]|showtime}
+show me the list of {comedy|genres} {movies|type}
+show me {movies|type} starring {armie hammer|cast}
+what {movies|type} are showing with {matthew mcconaughey|cast}
+what shows with {guy fiery|cast} will be {[on today|num:time]|showtime}
+show me the list of all {ryan reynolds|cast} {movies|type}
+give me {movies|type} with {john cena|cast} in them
+what good {shows|type} are {[on today|num:time]|showtime} for my {kids|genres} to watch
+are there any {shows|type} on with {larry david|cast}
+please show me the listings for all {sci fi|genres} {shows and movies|type} airing {[this saturday|num:time]|showtime}
+find {children|genres} {show|type} for {[this afternoon|num:interval]|showtime}
+show me {horror|genres} {movies|type}
+to show me all {family guy|title} {shows|type}
+show me some {family|genres} {movies|type} {[today|num:time]|showtime}
+are there any {mystery|genres} {series|type} {[an hour|num:duration] long|range}
+is {dave chappelle|cast} in any of the {shows|type} {[today|num:time]|showtime}
+i want to see something with {mark wahlberg|cast} in it
+which {movies|type} are available {[from 8:00 to 9:00 pm|num:interval]|showtime}
+are there any {comedy|genres} {movies|type} {[on today|num:time]|showtime}
+are there any {mystery|genres} {thriller|genres} {movies|type} playing
+show me {comedy|genres} {movies|type} starring {arnold schwarzenegger|cast}
+show me {movies|type} directed by {quentin tarantino|directors}
+can you show me all of the dramas that will be {[on this weekend|num:interval]|showtime}
+show me {medical|genres} {dramas|genres}
+is there a {tarantino|directors} {movie|type} on
+search for {movies|type} by {quentin tarantino|directors}
+what {movies or tv shows|type} with {sean connery|cast} are showing {[today|num:time]|showtime}
+show me all the upcoming {documentaries|genres}
+display a list of {will smith|cast} {sci fi|genres} {films|type}
+do you have any {anime|genres} {shows|type}
+what {comedies|genres} are {[on right now|num:time]|showtime}
+show me {movies|type} from {quentin tarantino|directors}
+can i see all the {harry potter|series} {movies|type}
+are there any {gameshows|genres} playing {[right now|num:time]|showtime}
+is {a nightmare on elm street|title} {[coming on this sunday|num:time]|showtime}
+are there any {[2015|num:time]|range} {documentaries|genres} available
+show me {drama|genres} {shows|type}
+show me {movies|type} directed by {james cameron|directors}
+show me {movies|type} directed by {steven spielberg|directors}
+find {new|sort} {tv shows|type}
+are there any {james cameron|directors} {movies|type} {[on right now|num:time]|showtime}
+is the {jurassic park|title} marathon {[on this weekend|num:interval]|showtime}
+play a {rom com|genres}
+what {comedy|genres} {shows|type} are playing
+find me anything with aliens and {action|genres}
+are there any {horror|genres} {movies|type} on
+find {documentaries|genres} on rob halford
+which late {shows|type} are {[on right now|num:time]|showtime}
+show me {shows|type} with {tim allen|cast}
+find me all {crime|genres} {shows|type}
+what {jim carrey|cast} {movies|type} are on
+can i see an {espn|channel} {30 for 30|title} listing
+can i see all the {reality tv|genres} {[on right now|num:time]|showtime}
+what {comedies|genres} are {[on tonight|num:interval]|showtime}
+let s see some {films|type} starring {jennifer lawrence|cast}
+if the children want to watch tv are there {family friendly|genres} {shows|type} on
+find {nfl|genres} {football|genres} games
+are there any {suspense|genres} {film|type} {[on monday night|num:interval]|showtime}
+are there any {wes anderson|directors} {movies|type} {[on today|num:time]|showtime}
+show me a list of the {latest|sort} {documentaries|genres}
+what shows are on {hgtv|channel}
+show me all the {documentaries|genres} on tv {[tonight|num:interval]|showtime}
+show me {movies|type} directed by {tarantino|directors} starring {charlize theron|cast}
+what {comedies|genres} are {[on tonight|num:interval]|showtime}
+are there any {john wayne|cast} {movies|type} {[today|num:time]|showtime}
+show me the {most recently released|sort} {action|genres} {movies|type}
+are there any {cartoons|genres} on {after [midnight|num:time]|showtime}
+show me {popular|sort} {romantic comedies|genres}
+show me anything directed by {mel gibson|directors}
+are there any {shows|type} directed by {j j abrams|directors} {[on this weekend|num:interval]|showtime}
+what s the {newest release|sort} {comedy|genres} {movie|type} that will be shown {[today|num:time]|showtime}
+show me {action|genres} {movies|type} {[on this sunday|num:time]|showtime}
+show me {music|genres} {movies|type}
+give me a {sitcom|genres}
+is there a {movie|type} with {leonardo dicaprio|cast} on
+what {horror|genres} {movies|type} will be shown {[today|num:time]|showtime}
+are there any {james bond|series} {movies|type} showing {[this week|num:time]|showtime}
+i want to see an {action|genres} {movie|type} is there one {[on now|num:time]|showtime}
+what are all the {action adventure|genres} {shows|type} available to me
+will there be any {comedy|genres} {shows|type} {[on friday night|num:interval]|showtime}
+can you show me {cartoons|genres} {movies|type}
+is {family guy|title} {[on now|num:time]|showtime}
+are any {star wars|series} {movies|type} playing {[today|num:time]|showtime}
+what {romantic comedies|genres} are showing {[on friday night|num:interval]|showtime}
+i want to see a {film|type} which includes {toshiro mifune|cast}
+show me {movies|type} directed by {judd apatow|directors}
+anything directed by {j j abrams|directors} on
+show me any {movies|type} by {george lucas|directors}
+what {action|genres} moves are being shown {[today|num:time]|showtime}
+what {gameshows|genres} will be {[on today|num:time]|showtime}
+take me to the interesting {documentary|genres}
+show me primetime {nbc|channel} {shows|type}
+what are the {top|sort} {movies|type} by {quentin tarantino|directors}
+are there any {movies|type} directed by {ridley scott|directors} playing {[this week|num:time]|showtime}
+show me any {movies|type} by {quentin tarantino|directors}
+show me {horror|genres} {movies|type}
+what {movies|type} in the {comedy|genres} genre are there
+any {movies|type} with {nicolas cage|cast} in them
+are there {movies|type} starring {amy schumer|cast} {[on now|num:time]|showtime}
+show me {crime|genres} {shows|type}
+what {scary|genres} {movies|type} are {[on saturday night|num:interval]|showtime}
+show me {matt damon|cast} {movies|type}
+what {new|sort} {drama|genres} {movies|type} are coming out soon
+show me all {movies|type} {[on friday evening|num:interval]|showtime}
+are there any {tarantino|directors} {movies|type} on
+is there anything on with {drew barrymore|cast} {[right now|num:time]|showtime}
+what {romantic comedies|genres} are playing {[this weekend|num:interval]|showtime}
+i want to see {alfred hitchcock|directors} {movies|type}
+show me {shows|type} with space ships
+show me all {andy sandberg|cast} {show|type} episodes
+what is the complete list of {movies|type} that {charlie hunnam|cast} has starred in
+are there any {series|type} marathons currently {running|genres}
+are there any {james bond|series} {movies|type}
+what shows will be shown during primetime {[tonight|num:interval]|showtime}
+show me a {movie|type} with a sad ending
+are there any {movies|type} with {daisy ridley|cast} {[on this weekend|num:interval]|showtime}
+show all {johnny depp|cast} {movies|type}
+are there any good {romance|genres} {movies|type} out
+find a {movie|type} with {tom hanks|cast}
+show me {movies|type} directed by {ridley scott|directors}
+show me a {comedy|genres} {show|type}
+which are the {best|sort} {movies|type} with {kate beckinsale|cast}
+show me a list of {horror|genres} {film|type} {[this week|num:time]|showtime}
+what are {movies|type} good {for kids|genres}
+show me all {shows|type} with {bruce willis|cast}
+show me all {documentaries|genres}
+what {movies|type} directed by {woody allen|directors} are playing
+what {movies|type} with {gary cooper|cast} are {[on today|num:time]|showtime}
+show me {shows|type} with {tina fey|cast}
+please find me a {kids|genres} {[christmas|num:time]|showtime} {movie|type}
+show me {shows|type} that include {jerry springer|cast}
+can i see a {brad pitt|cast} {movie|type}
+are there any {movies|type} directed by {spike lee|directors} showing {[thursday|num:time]|showtime}
+what are the top {comedy|genres} {movies|type}
+show me {comedies|genres} with {eddie murphy|cast}
+are there any {movies|type} with {bing crosby|cast} {[on today|num:time]|showtime}
+play a {drama|genres} {movie|type} showing now
+let me see {comedy|genres} {shows|type}
+show me things with {matthew mcconaughey|cast}
+show me {peter jackson|cast} {movies|type}
+filter out {adult|genres} {movies|type}
+find {animated|genres} {movies|type}
+are there any {movies|type} with {christopher walken|cast} {[on tonight|num:interval]|showtime}
+what shows have {lady gaga|cast} {[on wednesday|num:time]|showtime}
+what {fantasy|genres} {movies|type} are playing {[today|num:time]|showtime}
+is {seinfeld|title} {[on tonight|num:interval]|showtime}
+show me {horror|genres} {movies|type} airing {[this weekend|num:interval]|showtime}
+are any {movies|type} directed by {quentin tarantino|directors} being shown {[this morning|num:interval]|showtime}
+any {movies|type} with {keanu reeves|cast} {[on now|num:time]|showtime}
+show me all {action|genres} {movies|type} {[on right now|num:time]|showtime}
+are there any {football|genres} games {[this saturday|num:time]|showtime}
+what {comedy|genres} {movies|type} will be shown {[today|num:time]|showtime}
+what do we have in {action|genres} {movies|type}
+are there any {fantasy|genres} {movies|type} available
+is {chopped|title} {[on today|num:time]|showtime}
+show me {movies|type} with {cillian murphy|cast}
+list any {comedies|genres} {[on right now|num:time]|showtime}
+what {drama|genres} {movies|type} are showing {[on saturday|num:time]|showtime}
+find a {comedy|genres} starring {robin williams|cast}
+can you find me {friends|title}
+find a {movie|type} with {winona ryder|cast}
+show me {comedy|genres} {movies|type}
+show me all {spongebob|title} episodes running {[today|num:time]|showtime}
+{movies|type} by {george lucas|directors}
+are there any episodes of {the l word|title} showing {[this weekend|num:interval]|showtime}
+what {comedy|genres} {tv shows|type} are {[on at 8 pm tonight|num:time]|showtime}
+i would like to see all {films|type} directed by {stanley kubrick|directors}
+are there any television {shows|type} by {david lynch|directors} {[on this evening|num:interval]|showtime}
+show me {movies|type} with {jim carrey|cast}
+are there any {shows|type} with {andrew lincoln|cast} {[tonight|num:interval]|showtime}
+show me {movies|type} directed by {martin scorsese|directors}
+show me {comedy romance|genres} {movies|type} with dogs in it
+can i watch a {movie|type} directed by {guillermo del toro|directors} {[this weekend|num:interval]|showtime}
+can you show me {fantasy|genres} {movies|type}
+are there any {movies|type} starring {brad pitt|cast} {[on sunday|num:time]|showtime}
+are there any {new|sort} {shows|type} beginning {[this week|num:time]|showtime}
+what {suspense|genres} {movies|type} are playing {[this month|num:time]|showtime}
+can you show me any {action|genres} {movies|type} directed by {guillermo del toro|directors}
+please play {game of thrones|title} {season [5|num:number]|range}
+which {comedies|genres} are {[on at 10:00 tonight|num:time]|showtime}
+what {children|genres} {shows|type} are playing
+show me {science fiction|genres} {shows|type}
+what {movies|type} are on {showtime|channel} {[today|num:time]|showtime}
+let me see what {horror|genres} {movies|type} are available
+i want to see {movies|type} by {tarantino|directors}
+do you have any good {romance|genres} {movies|type}
+show me {johnny depp|cast} {movies|type} playing {[this week|num:time]|showtime}
+what is the {oldest|sort} {charlize theron|cast} {movie|type} that is available
+show me {movies|type} starring {jessica alba|cast}
+what show has {ice cube|cast} in it
+find {reality|genres} {shows|type}
+{[tomorrow|num:time]|showtime} will there be any {drama|genres} {movies|type}
+are there any {sitcoms|genres} {[coming on next tuesday|num:time]|showtime}
+are there any good {horror|genres} {movies|type} {[on tonight|num:interval]|showtime}
+show me something {funny|genres} with {kevin hart|cast}
+are there any {crime dramas|genres} on
+show me {romantic comedy|genres} {movies|type}
+are there any {horror|genres} {movies|type} about haunted house {[on this weekend|num:interval]|showtime}
+show all {shows|type} with {matthew fox|cast}
+can you find me {movies|type} directed by {spike lee|directors}
+show me {war|genres} {movies|type} {[on today|num:time]|showtime}
+show me all {sports|type}
+what is the {highest rated|sort} {comedy|genres} {movie|type} {[on right now|num:time]|showtime}
+are there any {movies|type} with {jennifer aniston|cast} playing {[tonight|num:interval]|showtime}
+are there any {movies|type} currently on that star {brad pitt|cast}
+display {films|type} by {uwe boll|directors} please
+any {movies|type} on with {kevin hart|cast} as the main character
+could you show me some {romance|genres} genre {shows|type}
+are there any {joss whedon|directors} {shows|type} on
+what {drama|genres} {movies|type} are {[on tonight|num:interval]|showtime}
+are there any {wes anderson|directors} {movies|type} on tv {[this weekend|num:interval]|showtime}
+are there any {adam sandler|cast} {comedies|genres} {[on tonight|num:interval]|showtime}
+show me {movies|type} by {j j abrams|directors} please
+what {kid|genres} {shows|type} are available
+what {drama|genres} {movies|type} will be {[on tonight|num:interval]|showtime}
+will there be any {movies|type} by {george lucas|directors} on later {[today|num:time]|showtime}
+are there any {quentin tarantino|directors} {movies|type} out {[right now|num:time]|showtime}
+are there any {movies|type} by {quentin tarantino|directors} {[this week|num:time]|showtime}
+show me what {comedies|genres} are available
+i want to find all {nature|genres} {shows|type}
+what {drama|genres} {movies|type} are about to start
+are there any {adult|genres} {movies|type} available {[today|num:time]|showtime}
+show me {sports events|type} that are {[on right now|num:time]|showtime}
+show me a {steven spielberg|directors} {movie|type}
+i want to see {tv shows|type} with {wayne brady|cast}
+show me any {musical|genres} {movies|type}
+i want to watch a {romantic comedy|genres} {[tonight|num:interval]|showtime}
+what shows with {will arnett|cast} are {[on today|num:time]|showtime}
+any {romantic comedy|genres} {movies|type} {[on right now|num:time]|showtime}
+list any {movies|type} showing {[today|num:time]|showtime} that star {steve carell|cast}
+show me {movies|type} that {kate mara|cast} is in
+are there any {sylvester stallone|cast} {movies|type} playing {[today|num:time]|showtime}
+show {basketball|genres} games
+what {movies|type} have {vin diesel|cast}
+what {movies|type} are on that {mel brooks|directors} directed
+what {horror|genres} {movies|type} are currently on
+what {adventure|genres} {movies|type} will be playing {[on january 17th|num:time]|showtime}
+are there any good {children|genres} {movies|type} out {[this week|num:time]|showtime}
+are there any {documentaries|genres} on
+show me a {drama|genres} {show|type}
+{gillian anderson|cast} {tv shows|type}
+{best|sort} {drama|genres} {films|type} direction by {steven spielberg|directors}
+provide me the {newest|sort} {movie|type} with actress {julia roberts|cast}
+please play any random {thriller|genres} {movie|type}
+list all {comedies|genres} with {bill murray|cast} or {john belushi|cast}
+i d like to see a {music|genres} {documentary|genres}
+are there any {mystery|genres} {movies|type} {[on today|num:time]|showtime}
+show me {movies|type} with {burt reynolds|cast}
+can you find me something {funny|genres} to watch
+is there any {mob|genres} {movies|type} on
+display all {films|type} with {james franco|cast}
+are there any {horror|genres} {movies|type} {[on friday night|num:interval]|showtime}
+show me {in the heat of the night|title} episodes containing {carroll o connor|cast}
+show me the {james bond|series} lineup
+what {horror|genres} {movies|type} are playing {[this weekend|num:interval]|showtime}
+what {comedy|genres} {shows|type} are {[on today|num:time]|showtime}
+show me some upcoming {movies|type} directed by {robert zemeckis|directors}
+what {comedy|genres} {movies|type} will be playing {[this weekend|num:interval]|showtime}
+let s see {movies|type} by {j j abrams|directors}
+show me {action|genres} {movies|type} with {meg tilly|cast}
+show me {documentary|genres} {movies|type}
+{movies|type} with {humphrey bogart|cast}
+what {movies|type} have {james mcavoy|cast} {[this week|num:time]|showtime}
+look for {movies|type} directed by {quentin tarantino|directors}
+show me {tv shows|type} starring {jennifer aniston|cast}
+show me {michelle rodriguez|cast} {movies|type}
+show me all {tv shows|type} starring {bryan cranston|cast} {[on saturday|num:time]|showtime}
+what {sports games|type} are happening {[this weekend|num:interval]|showtime}
+show me {shows|type} with {hugh laurie|cast}
+list {horror|genres} please
+are there any {suspense|genres} {movies|type} starring {matt damon|cast}
+what stephen king {movies|type} are {[on today|num:time]|showtime}
+display any {shows|type} with {charlie day|cast} in them that are {[on tomorrow|num:time]|showtime}
+what {tv shows|type} with {michael j fox|cast} showing {[on monday|num:time]|showtime}
+please pick a {show|type} directed by {gerren keith|directors}
+show me {movies or tv shows|type} featuring {madonna|cast}
+find {seinfeld|title} for me
+find {standup|genres} {comedies|genres}
+show me {shows|type} starring {tom hanks|cast}
+show me all {movies|type} directed by {tarantino|directors} for {[this week|num:time]|showtime}
+what {standup|genres} comedians are {[on today|num:time]|showtime}
+would you please filter out all {films|type} with {matthew mcconaughey|cast}
+show me {horror|genres} {documentaries|genres}
+are there any {nature|genres} {documentaries|genres} {[tomorrow between 8:15 pm and 10:45 pm|num:interval]|showtime}
+show me some {horror|genres} {movies|type}
+can you show me the {sports games|type} {[on today|num:time]|showtime}
+what {sports|type} are on live now
+are there any ongoing {movies|type} at the moment
+what is the {top rated|sort} {show|type} {[on tonight|num:interval]|showtime}
+are any {action|genres} {movies|type} playing {[around 2:00 pm|num:time]|showtime}
+are there any {quentin tarantino|directors} {movies|type} showing {[this weekend|num:interval]|showtime}
+please play a {movie|type} directed by {quentin tarantino|directors}
+show me {drama|genres} {movies|type} on tv {[today|num:time]|showtime}
+which {children s|genres} {programs|type} are {[on this evening|num:interval]|showtime}
+are there any {animes|genres} on
+show me some {bbc|channel} {shows|type}
+show me what {baseball|genres} games on
+are there any {movies|type} with {clint eastwood|cast} airing {[on wednesday|num:time]|showtime}
+i want to watch a {comedy|genres}
+show me any {show|type} with {aziz ansari|cast}
+show me {movies|type} with {james franco|cast}
+are there any {horror|genres} {movies|type} {[on tonight|num:interval]|showtime}
+show me anything with {bill burr|cast}

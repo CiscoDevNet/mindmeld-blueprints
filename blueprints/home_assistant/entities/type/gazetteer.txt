@@ -1,0 +1,47 @@
+1.0	movies
+1.0	sports show
+1.0	tv shows and movies
+1.0	showing
+1.0	movies or shows
+1.0	sports programs
+1.0	movies and films
+1.0	tv shows or movies
+1.0	sport programs
+1.0	movies and shows
+1.0	films or movies
+1.0	sport program
+1.0	sports program
+1.0	flicks
+1.0	television shows
+1.0	movies or tv shows
+1.0	movies and tv shows
+1.0	programs
+1.0	sports shows
+1.0	tv show
+1.0	sports
+1.0	sports games
+1.0	movies or films
+1.0	shows and movies
+1.0	sport events
+1.0	shows or movies
+1.0	movie
+1.0	sports events
+1.0	athletics
+1.0	tv shows
+1.0	shows
+1.0	sport show
+1.0	showings
+1.0	television show
+1.0	sports event
+1.0	films and movies
+1.0	tv series
+1.0	sporting event
+1.0	films
+1.0	sporting events
+1.0	show
+1.0	sport
+1.0	sport event
+1.0	flick
+1.0	sport shows
+1.0	film
+1.0	series

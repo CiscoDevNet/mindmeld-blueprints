@@ -1,0 +1,37 @@
+1.0	out @time@
+1.0	made before @time@
+1.0	of the @interval@
+1.0	@duration@
+1.0	from @interval@
+1.0	episode @number@
+1.0	@time@
+1.0	made in @time@
+1.0	made after @time@
+1.0	in @time@
+1.0	series premiere
+1.0	less than @duration@
+1.0	of @interval@
+1.0	over @duration@
+1.0	released in @time@
+1.0	of @time@
+1.0	in @interval@
+1.0	playing @time@
+1.0	season premier
+1.0	shorter than @duration@
+1.0	less than @duration@ long
+1.0	released after @time@
+1.0	season premiere
+1.0	in the @interval@
+1.0	longer than @duration@
+1.0	from @time@
+1.0	for @interval@
+1.0	@duration@ long
+1.0	made @time@
+1.0	@interval@
+1.0	series premier
+1.0	season @number@
+1.0	from the @interval@
+1.0	released before @time@
+1.0	after @time@
+1.0	under @duration@
+1.0	before @time@

@@ -1,0 +1,21 @@
+is the {news|genres} {[on at 6|num:time]|showtime}
+find local {nbc|channel} {news|genres}
+does {msnbc|channel} {news|genres} replay again later
+{nbc|channel} {news|genres} broadcast
+find local {news|genres} {show|type}
+show me the {news|genres}
+take me to {abc|channel} {nightly news|title}
+show me the cable {news|genres} programming for {[this evening|num:interval]|showtime}
+show me the local {news|genres}
+turn on the {news|genres}
+what is the {news|genres} {[tonight|num:interval]|showtime}
+when is the {news|genres} on
+how soon is the {news|genres} on
+show me some {news|genres}
+let me see the {news|genres}
+what is on the {news|genres} {[today|num:time]|showtime}
+show me the {[evening|num:interval]|showtime} {news|genres}
+show me {[evening|num:interval]|showtime} {news|genres}
+show me {[today|num:time]|showtime} s {news|genres}
+show me this {[evening|num:interval]|showtime} s {news|genres}
+show me {[tonight|num:interval]|showtime} s {news|genres}

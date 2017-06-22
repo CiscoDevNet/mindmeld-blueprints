@@ -1,0 +1,12 @@
+What channel is {south park|title}?
+what channel is {American horror story|title} on?
+What channel is {Big Bang Theory|title} on?
+What channel is {Seinfeld|title} on?
+What channel is {Wheel of Fortune|title} on?
+What channels are showing {The Amazing Spider-Man|title}?
+What channel will the {Seahawks|teams} game be on?
+What channel is {the Blacklist|title} on?
+What channels are playing episodes of {Friends|title} {[today|num:time]|showtime}?
+Is {White Oleander|title} playing at all {[this week|num:time]|showtime} on any channel?
+What network station is playing {football|genres} {[tonight|num:interval]|showtime}?
+What channel are the {Cowboys|teams} on?
