@@ -1,0 +1,8 @@
+change my {6 am|time|oldtime} alarm
+change my {6 am|time|oldtime} alarm to {7 am|time|newtime}
+move my {6 am|time|oldtime} alarm to {tomorrow at 8am|time|newtime}
+switch my {6 am|time|oldtime} alarm to {friday at noon|time|newtime}
+reschedule my {6 am|time|oldtime} alarm to {tomorrow morning at 10|time|newtime}
+change my {6 am|time|oldtime} alarm to {7pm in the evening|time|newtime}
+move my {6 am|time|oldtime} alarm to {3pm in the afternoon|time|newtime}
+change my alarm from {6 am|time|oldtime} to {7 am|time|newtime}

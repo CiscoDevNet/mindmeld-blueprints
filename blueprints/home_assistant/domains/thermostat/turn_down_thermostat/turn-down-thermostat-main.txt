@@ -1,0 +1,135 @@
+adjust the temperature {5 degrees|temperature} colder
+at {12pm|time} turn the temperature down by {3 degrees|temperature}
+can you chill the household
+chill the {bedroom|location}
+please chill the air a bit
+can you make it cooler in the {living room|location}
+can you please make it colder
+change the temperature to {3 degrees|temperature} less
+change the temperature to {2 degrees|temperature} lower
+change the temperature lower {a few degrees|temperature}
+set the thermostat to {5 degrees|temperature} less
+set the thermostat {5 degrees|temperature} lower
+set the temperature {a few degrees|temperature} lower
+set the temperature lower {3 degrees|temperature}
+set the thermostat lower {2 degrees|temperature} in the {kitchen|location}
+colder in the {bedroom|location}
+cool down the guest {bathroom|location}
+cool down the {dining room|location}
+cool down the {garage|location} please
+cool down the {kitchen|location}
+cool down the {kitchen|location} {a few degrees|temperature}
+cool down the {study|location}
+cool it down
+cool it down in here
+cool it down in here
+cool my place down now
+cool the air down by {5 degrees|temperature}
+cool the {bedroom|location} by {5 degrees|temperature}
+cool the {living room|location}
+could you turn down the heat please
+decrease the temperature in the {living room|location} by {4 degrees|temperature}
+drop temp {3 degrees|temperature}
+drop the temperature a bit
+drop the temp {a few degrees|temperature}
+heat down in the {kitchen|location}
+i am hot please decrease heat by {2 degrees|temperature}
+i m about to work out cool down the room
+i want it {3 degrees|temperature} cooler in here
+if the temperature is over {70|temperature} can you lower it by {a few degrees|temperature}
+i m sweating turn down the heat by {5|temperature}
+it is hot in here please turn temperature down {5 degrees|temperature}
+it is too hot please turn down the heat to {63|temperature}
+it is too hot please turn down the heat to {65|temperature}
+it s hot cool me off
+it s too hot
+it s too hot in here
+it s way to warm in here please lower the temperature by {three degrees|temperature}
+its a bit warm take the heat down by {2|temperature}
+its warm adjust down {2 degrees|temperature}
+its warm cool it down by {a few degrees|temperature}
+let the {bedroom|location} be {2 degrees|temperature} cooler.
+lower heat {4 degrees|temperature} in bedrooms
+lower it {3 degrees|temperature} cooler
+lower temperature
+lower temperature
+lower temperature setting {3 degrees|temperature}
+lower the air conditioning by {2 degrees|temperature}
+lower the heat by {3 degrees|temperature}
+lower the heat in the {bedroom|location}
+lower the heat in this room
+lower the overall temperature {5 degrees|temperature}
+lower the temp {5 degrees|temperature} in the {family room|location}
+lower the temperature by {3 degrees|temperature} in the {bedroom|location}
+lower the temperature by {5 degrees|temperature} for the next 8 hours
+lower the temperature by {four degrees|temperature} in the {kitchen|location}
+lower the temperature in the house by {5 degrees|temperature}
+lower the temperature in the {guest room|location} by {5 degrees|temperature}
+lower the temperature {2 degrees|temperature} please
+lower the temperature {3 degrees|temperature}
+lower the temperature {5 degrees|temperature}
+lower the thermostat down by {2|temperature}
+lower whole {home|location} temperature by {5 degrees|temperature}
+make it a little cooler
+make it a bit colder
+make the air cold
+make the air colder in here
+please make it cold
+make it cold
+make it cold in here
+make it colder
+make it colder please
+make it colder in here
+make it colder {2 degrees|temperature}
+make it cooler
+make it cooler here
+make it cooler in the {dining room|location} please
+make it less warm
+make it less warm in here
+please make the temperature less warm
+make it chilly
+make it more chilly
+make it more chilly here
+make it {3 degrees|temperature} cooler please
+make it {4 degrees|temperature} colder in here
+make room cooler
+make the room {5 degrees|temperature} cooler
+make the {bedroom|location} cooler
+make the {kitchen|location} colder
+make the {living room|location} less hot
+make the {living room|location} {6 degrees|temperature} cooler
+need to cool down the room by {a couple degrees|temperature}
+please cool down my {bedroom|location}
+please cool the house down
+please lower it {5 degrees|temperature} in here
+please lower temperature by {10 degrees|temperature}
+please lower the heat by {3 degrees|temperature}
+please lower the heat {10 degrees|temperature}
+please lower the temperature by {5 degrees|temperature}
+please make the {master bedroom|location} {two degrees|temperature} cooler
+please turn down the heat by {5 degrees|temperature}
+please turn the heating down
+please turn the thermostat down
+stat down {2 degrees|temperature}
+stat turn down {1 degree|temperature}
+the heat is too hot here
+the {bathroom|location} is too hot please turn the heat down {2 degrees|temperature} in the {bathroom|location}
+the {living room|location} is too hot turn the heat down {4 degrees|temperature}
+turn down by {2 degrees|temperature}
+turn down heat
+turn down heat in {kitchen|location}
+turn down the heat in the {basement|location}
+turn down the heat in the {whole house|all}
+turn down the heat just a little
+turn down the heat {1 degree|temperature}
+turn down the heat {1 degree|temperature}
+turn down the temperature by {3 degrees|temperature}
+turn down the temperature by {3 degrees|temperature} for the {whole house|all}.
+turn it down {a few degrees|temperature}
+turn the heat down
+turn the heat in the {living room|location} down {5 degrees|temperature} please
+turn the heater down in my {bedroom|location} by {10 degrees|temperature}
+turn the temperature down {10 degrees|temperature} in the {bathroom|location}
+turn the temperature down {3 degrees|temperature}
+{2 degrees|temperature} colder in the {bedroom|location} please
+{bedroom|location} temp down

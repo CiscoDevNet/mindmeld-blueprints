@@ -1,0 +1,29 @@
+remove my {6 am|time|time} alarm
+delete my {6 am|time|time} alarm
+erase my {6 am|time|time} alarm
+remove the {6 am|time|time} alarm
+delete the {6 am|time|time} alarm
+erase the {6 am|time|time} alarm
+remove {6 am|time|time} alarm
+delete {6 am|time|time} alarm
+erase {6 am|time|time} alarm
+remove {all|all} alarms {tomorrow|time|time}
+delete {all|all} alarms {tomorrow|time|time}
+remove {all|all} alarms {on friday|time|time}
+delete {all|all} alarms {on sunday|time|time}
+remove {all|all} alarms
+delete {all|all} alarms
+erase {all|all} alarms
+remove {all|all} the alarms
+delete {all|all} the alarms
+erase {all|all} the alarms
+remove my {morning|interval} alarm
+remove my {morning|interval} alarms
+delete my {morning|interval} alarm
+delete my {morning|interval} alarms
+remove my alarms for {tomorrow|time|time}
+delete my alarms for {tomorrow|time|time}
+remove my alarms {on sunday|time|time}
+delete my alarms {on sunday|time|time}
+remove {all|all} my alarms {tomorrow|time|time}
+delete {all|all} my alarms {tomorrow|time|time}

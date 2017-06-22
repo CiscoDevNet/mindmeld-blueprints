@@ -1,0 +1,25 @@
+set the temperature to {72 degrees|temperature}
+set the temp to {72 degrees|temperature}
+set the thermostat to {72 degrees|temperature}
+temperature to {72|temperature}
+thermostat to {72 degrees|temperature}
+change the thermostat to {72|temperature}
+change the temperature to {72 degrees|temperature}
+set the temperature to {72|temperature} in the {bedroom|location}
+temperature to {72 degrees|temperature} in the {living room|location}
+{kitchen|location} temperature to {72|temperature}
+set the thermostat in the {bathroom|location} to {72|temperature}
+change the {living room|location} temperature to {72|temperature}
+set the {kitchen|location} temp to {72 degrees|temperature}
+set the {garage|location} thermostat to {72|temperature}
+change the temp in the {garage|location} to {72 degrees|temperature}
+change the thermostat in the {garage|location} to {72|temperature}
+change the temperature in the {garage|location} to {72 degrees|temperature}
+set the temperature to {72 degrees|temperature} {at 5 pm|time}
+set the thermostat to {72|temperature} {at 5 am|time}
+set the temp to {72 degrees|temperature} {at 6 pm tonight|time}
+temperature to {72 degrees|temperature} {at 6 pm|time}
+change the {bedroom|location} temperature to {72 degrees|temperature} {at 8 am|time}
+set the thermostat in the {living room|location} to {72|temperature} {at 8|time}
+set the temperature in the {living room|location} to {72 degrees|temperature} {at 8 pm|time}
+set the temp in the {living room|location} to {72 degrees|temperature} {at 8 o clock tonight|time}
