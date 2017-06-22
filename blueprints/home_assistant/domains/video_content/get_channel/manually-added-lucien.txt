@@ -1,7 +1,0 @@
-what channel is {the tonight show|title} on
-where is the {today|title} {show|type}
-{tonight show|title} channel
-channel for {today|title} {show|type} episodes
-where is {walking dead|title} showing
-what channel is showing {ncis|title} {[tonight|num:interval]|showtime}
-which channel is playing {tom clancy|series} {movies|type} {[today|num:time]|showtime}

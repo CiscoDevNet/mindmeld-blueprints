@@ -1,5 +1,0 @@
-1.0	on demand
-1.0	the tv guide
-1.0	on the cable
-1.0	on epg
-1.0	on cable
