@@ -30,8 +30,8 @@ class DataProcessingTask(luigi.Task):
             s3_path = s3_prefix + date_str + "/" + hour_str + "/" + full_filename
             return S3Target(s3_path, format=Gzip)
         elif self.target == 'local':
-            # return luigi.LocalTarget(os.path.join(self.output_dir, filename))
-            return luigi.LocalTarget(filename)
+            return luigi.LocalTarget(os.path.join(self.output_dir, filename))
+            # return luigi.LocalTarget(filename)
         else:
             logging.error("invalid target type: {}".format(self.target))
             raise

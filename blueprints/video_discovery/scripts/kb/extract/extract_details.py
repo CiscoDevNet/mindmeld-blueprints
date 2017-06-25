@@ -26,7 +26,7 @@ class GetDetail(GetTMDB):
                           output_filename=output_filename)
 
 
-class GetDetails(luigi.WrapperTask):
+class GetDetails(luigi.Task):
     input_file = luigi.Parameter()
     doc_type = luigi.Parameter()
     tmdb_endpoint = luigi.Parameter()
@@ -42,6 +42,9 @@ class GetDetails(luigi.WrapperTask):
                       doc_id=doc_id)
             for doc_id in doc_ids
         ]
+
+    def output(self):
+        return self.input()
 
 
 class GetMovieDetails(GetDetails):
@@ -62,14 +65,14 @@ class ExtractTVDetails(BaristaDataProcessingTask):
     output_episode_file = luigi.Parameter()
 
     def requires(self):
-        return GetTVDetails(), ReadLocalDir(self.input_dir)
+        return GetTVDetails()
 
     def output(self):
         return self.get_output_target(self.output_episode_file)
 
     def run(self):
         # extract episode info
-        episode_info = self._extract_episodes(self.input()[1])
+        episode_info = self._extract_episodes(self.input())
         dump_json(self.output(), episode_info)
 
     @staticmethod
