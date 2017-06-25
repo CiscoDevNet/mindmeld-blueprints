@@ -30,7 +30,8 @@ class DataProcessingTask(luigi.Task):
             s3_path = s3_prefix + date_str + "/" + hour_str + "/" + full_filename
             return S3Target(s3_path, format=Gzip)
         elif self.target == 'local':
-            return luigi.LocalTarget(os.path.join(self.output_dir, filename))
+            # return luigi.LocalTarget(os.path.join(self.output_dir, filename))
+            return luigi.LocalTarget(filename)
         else:
             logging.error("invalid target type: {}".format(self.target))
             raise
@@ -98,3 +99,16 @@ class ReadLocalFile(luigi.Task):
     def output(self):
         logging.info(u'Reading local file: {}'.format(self.file_path))
         return luigi.LocalTarget(self.file_path)
+
+
+class ReadLocalDir(luigi.Task):
+    input_dir = luigi.Parameter()
+
+    def output(self):
+        output_files = os.listdir(self.input_dir)
+        logging.info(u'Reading {:,d} files from local dir: {}'.format(len(output_files),
+                                                                      self.input_dir))
+        return [
+            luigi.LocalTarget(os.path.join(self.input_dir, file_path))
+            for file_path in output_files
+        ]

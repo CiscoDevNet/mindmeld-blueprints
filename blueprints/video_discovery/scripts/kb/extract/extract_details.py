@@ -6,8 +6,9 @@ from .commons import GetTMDB
 
 sys.path.append('..')
 from barista_task import BaristaDataProcessingTask  # noqa: F401
+from libs.tasks import ReadLocalDir  # noqa: F401
 from libs.tasks import RequestAPI  # noqa: F401
-from utils import load_plain_json  # noqa: F401
+from utils import dump_json, load_json, load_plain_json  # noqa: F401
 
 
 class GetDetail(GetTMDB):
@@ -56,9 +57,55 @@ class GetTVDetails(GetDetails):
     pass
 
 
-class ExtractTVDetails(luigi.WrapperTask):
+class ExtractTVDetails(BaristaDataProcessingTask):
+    input_dir = luigi.Parameter()
+    output_episode_file = luigi.Parameter()
+
     def requires(self):
-        return GetTVDetails()
+        return GetTVDetails(), ReadLocalDir(self.input_dir)
+
+    def output(self):
+        return self.get_output_target(self.output_episode_file)
+
+    def run(self):
+        # extract episode info
+        episode_info = self._extract_episodes(self.input()[1])
+        dump_json(self.output(), episode_info)
+
+    @staticmethod
+    def _extract_episodes(tv_targets):
+        """
+        [
+            {
+                'tv_id': 1399,
+                'name': 'Game of Thrones'
+                'season_number': 1,
+                'episode_count': 10,
+            },
+            {
+                'tv_id': 1399,
+                'name': 'Game of Thrones'
+                'season_number': 2,
+                'episode_count': 10,
+            },
+            ...
+        ]
+        """
+        episodes_info = []
+        for target in tv_targets:
+            tv_obj = load_json(target)
+            season_info = tv_obj.get('seasons', [])
+            if not season_info:
+                continue
+            for season in season_info:
+                episodes_info.append({
+                    'tv_id': tv_obj['id'],
+                    'name': tv_obj['name'],
+                    'season_number': season['season_number'],
+                    'episode_count': season['episode_count'],
+                })
+        return episodes_info
+
 
 if __name__ == '__main__':
     luigi.run()

@@ -6,6 +6,7 @@ from .extract_details import ExtractMovieDetails
 from .extract_details import ExtractTVDetails
 from .extract_credits import ExtractMovieCredits
 from .extract_credits import ExtractTVCredits
+from .extract_episodes import GetEpisodes
 
 
 class ExtractIDs(luigi.WrapperTask):
@@ -33,7 +34,10 @@ class ExtractCredits(luigi.WrapperTask):
 
 class ExtractEpisodes(luigi.WrapperTask):
     def requires(self):
-        return ExtractIDs()
+        return ExtractDetails()
+
+    def run(self):
+        yield GetEpisodes()
 
 
 class ExtractAll(luigi.WrapperTask):
