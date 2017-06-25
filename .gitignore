@@ -90,3 +90,6 @@ ENV/
 
 # Workbench generated files
 .generated
+
+# Crawled Data
+blueprints/video_discovery/scripts/kb/output_data/
