@@ -1,0 +1,49 @@
+turn off the thermostat
+turn off the heat
+turn off the air conditioning
+turn off the ac
+turn off the a c
+turn off the aircon
+turn off the air con
+please turn off the heat
+please turn off the air conditioning
+please turn off the a c
+please turn off the ac
+please turn off the air con
+please turn off the aircon
+turn off the heat {at 5 pm|time}
+heat off {at 6 o clock|time}
+turn the air conditioning off {at 8 am|time}
+ac off {at noon|time}
+heat off {at 3 pm|time}
+turn off the thermostat in the {bedroom|location}
+turn off the heat in the {bathroom|location}
+heat off in the {kitchen|location} {at 2 am|time}
+{at 11 o clock|time} turn off the ac in the {kitchen|location}
+turn off the thermostat {at 4 pm|time} in the {bedroom|location}
+turn the heat off {at 7|time}
+put the heat off in the {bedroom|location} {at 9|time}
+thermostat off
+thermostat off please
+heat off
+ac off 
+aircon off
+heat off please
+ac off please
+air conditioning off please
+aircon off please
+turn the air conditioning off
+air conditioning off please
+AC off
+kill the air conditioning
+turn the heat off
+shut the heat off
+turn off the AC
+shut the AC off
+shut down the temp
+deactivate the temp
+shut off the air conditioning
+shut the temperature off
+switch off the air conditioning
+turn the heating off
+stop the air conditioning

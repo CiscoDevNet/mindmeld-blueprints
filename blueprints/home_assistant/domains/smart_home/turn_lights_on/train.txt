@@ -1,0 +1,183 @@
+{all|all} lights wake up
+{bathroom|location} light on please
+i want {all|all} lights on
+let there be light
+let's have some light in here
+let's have some light in the {living room|location}
+lights
+lights
+lights on
+lights on in the {bedroom|location}
+lights on in the {dining room|location}
+lights on in the {whole house|all}
+lights on
+please turn on the {bedroom|location} lights
+turn {all|all} the lights on
+turn on the {garage|location} light
+turn on the {kitchen|location} lights
+turn on the lights
+turn on the lights ASAP
+turn on the lights in the {living room|location}
+turn on the lights in the {living room|location} and the {kitchen|location}
+{all|all} lights on
+{all|all} lights on
+{all|all} lights on now immediately
+{backyard|location} lights on now
+{basement|location} lights on
+{bathroom|location} light on
+{bedroom|location} lights on
+{garage|location} light on
+{hall|location} lights on
+{hallway|location} light on please
+{kitchen|location} lights on
+{kitchen|location} lights on please
+{living room|location} lights
+{living room|location} lights up
+{porch|location} lights on
+{upstairs|location} lights on
+activate {hall|location} light
+activate {outside|location} lights
+activate lights in {guest room|location}
+can i get some light in the {bedroom|location}
+can you put on the light in the {family room|location}
+can you turn on the {porch|location} light
+can you turn on the {porch|location} light
+can you turn on the light in the {upstairs|location} {bathroom|location}
+can you turn on the lights in the {kitchen|location}
+flick on a light
+flip on the lights in my room
+flip the lights on
+get the {hallway|location} lights on
+give me a light in here
+i need the light on in the {basement|location}
+i need the lights on
+i need the lights to be on in the {whole house|all}
+keep the {hallway|location} lights on
+let there be light
+light on in {kitchen|location}
+light on in the {bathroom|location}
+lights in the {kitchen|location}
+lights on
+lights on
+lights on {all|all} room
+lights on in {bathroom|location}
+lights on in {master bedroom|location}
+lights on in the {basement|location}
+lights on in the {bathroom|location}
+lights on in the {bedroom|location}
+lights on in the {kitchen|location} only
+lights on in the {nursery|location}
+need {hall|location} light on
+please put on the {bathroom|location} light
+please switch the lights on in the {kitchen|location}
+please turn on the {exterior|location} lights
+please turn on the {kitchen|location} light
+please turn on the lights in the {basement|location}
+please turn on the lights in the {upstairs|location} {hallway|location}
+please turn the lights in this room on
+smart home turn the lights on
+turn {all|all} lights on
+turn lights on
+turn lights on now
+turn on {all|all} lights
+turn on {all|all} lights in {all|all} rooms
+turn on {all|all} the house lights
+turn on {all|all} the lights
+turn on {bathroom|location} light
+turn on {bedroom|location} light please
+turn on {bedroom|location} lights
+turn on {corridor|location} lights
+turn on {downstairs|location} lights
+turn on {hallway|location} light
+turn on {kitchen|location} light
+turn on a light if you would please
+turn on light
+turn on light in front {hallway|location}
+turn on lights
+turn on lights
+turn on lights
+turn on the {basement|location} light
+turn on the {bathroom|location} light
+turn on the {bathroom|location} light
+turn on the {bedroom|location} light
+turn on the {garage|location} light
+turn on the {hall|location} lights
+turn on the {hallway|location} light
+turn on the {kitchen|location} light
+turn on the {outside|location} light
+turn on the light in the {entryway|location}
+turn on the light in the {bedroom|location}
+turn on the lights
+turn on the lights
+turn on the lights in the {downstairs|location} {bedroom|location}
+turn on the lights in the {garage|location}
+turn on the lights in the {master bedroom|location}
+turn the {bedroom|location} light on for a minute
+turn the lights on
+turn the lights on
+turn the lights on {upstairs|location}
+turn the lights on in the {living room|location}
+turn the lights on please
+will you please turn on the lights
+will you turn on the lights
+i can t see inside the {bathroom|location}
+illuminate {dining room|location}
+illuminate {living room|location}
+illuminate the front {porch|location}
+switch the light in the {bathroom|location} on
+turn on the light in {guest bedroom|location}
+turn on the light on the {front|location} {porch|location}
+light up the {closet|location} for me
+bring up the lights
+house can you please turn on the lights
+lights on
+lights please
+may you turn on the lights
+please turn on the lights
+please turn on the lights
+switch {all|all} lights on
+switch on the light
+turn on {all|all} lights please
+turn on {hall|location} lights
+turn on {living room|location} lights
+turn on {porch|location} light
+turn on the {back|location} {porch|location} light
+turn on the {basement|location} lights
+turn on the {kitchen|location} lights
+turn on the light in the {bathroom|location}
+turn on the lights in the {kitchen|location}
+turn on the {porch|location} light
+turn the {bedroom|location} light on
+turn the light in the {hallway|location} on
+turn the lights on
+light the {living room|location}
+turn lights on
+turn {all|all} the lights on
+house lights on
+lights on in here
+switch on {all|all} lights
+turn on lights in here
+{living room|location} lights on
+{kitchen|location} lights on
+{bedroom|location} lights on
+lights on in the {living room|location}
+turn on {bathroom|location} lights
+lights on in the {bathroom|location}
+turn the {kitchen|location} lights on
+switch on the {living room|location} lights
+switch on {kitchen|location} lights
+turn on {all|all} the lights
+lights on {everywhere|all}
+turn the {living room|location} lights on
+turn on lights
+lights on in the house
+turn on lights {everywhere|all}
+switch on {bedroom|location} lights
+switch on lights in {all|all} the rooms
+switch on {living room|location} lights
+turn the {bedroom|location} lights on
+switch on {all|all} the lights
+turn {living room|location} lights on
+lights on here
+turn on {all|all} lights
+turn on {kitchen|location} lights
