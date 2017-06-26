@@ -4,7 +4,7 @@ import json
 
 from .commons import get_director, get_names
 from .commons import TransformDocuments
-from .constants import POSTER_IMG_URL
+from .constants import POSTER_IMG_URL, TYPE_TV
 
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
@@ -20,6 +20,7 @@ class TransformTVs(TransformDocuments):
             for in_target in in_targets:
                 tv_obj = load_json(in_target)
                 transformed_tv_obj = {
+                    'type': TYPE_TV,
                     'title': tv_obj['name'],  # To be consistent with movies
                     'id': tv_obj['id'],
                     'overview': tv_obj.get('overview'),
