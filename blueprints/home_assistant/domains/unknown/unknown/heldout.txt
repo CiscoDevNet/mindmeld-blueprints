@@ -1,46 +1,1107 @@
-increase heat {everywhere|all} just a tiny bit
-heat higher a little bit
-increase {bedroom|location} temperature
-warm up {bathroom|location} by a little bit
-crank up {bathroom|location} heater by just a tiny bit
-raise temp just a little
-heat up the {bathroom|location} {4 degrees|temperature}
-heat up the {kitchen|location} by just a little
-heat up {living room|location} {6 degrees|temperature}
-heat higher here by a small amount
-make it just a tiny bit hotter in the {bedroom|location}
-heat up {bathroom|location} by {6 degrees|temperature}
-heat up in the house {1|temperature}
-increase the {living room|location} heating just a little bit
-heater up by just a little bit
-heater higher {everywhere|all} by {6 degrees|temperature}
-crank up the {bathroom|location} temp by a little
-warm up {kitchen|location} by {1 degree|temperature}
-heating up
-heater up {3|temperature}
-raise the temp
-temperature higher
-increase {living room|location} heater a small amount
-make it {4 degrees|temperature} warmer
-crank up heater in the {bedroom|location}
-make it {1|temperature} warmer in the {bedroom|location}
-warm up the {bedroom|location} a little bit
-increase the {living room|location} heat by {6|temperature}
-heat up a little bit
-make it a tiny bit hotter in the {kitchen|location}
-heat up {2 degrees|temperature}
-crank up the {bedroom|location} heating by {5 degrees|temperature}
-crank up heating in the house by just a little bit
-warm up the {living room|location} {4|temperature}
-crank up the {bathroom|location} thermostat by {1|temperature}
-temp up by {5 degrees|temperature}
-thermostat up just a small amount
-crank up heater just a small amount
-increase the heat by a small amount
-bump up {living room|location} temp by a small amount
-warm up the {bathroom|location} by {3 degrees|temperature}
-heat up {bedroom|location} by a small amount
-turn up {living room|location} thermostat {5|temperature}
-turn up the {kitchen|location} heating by {1 degree|temperature}
-increase {kitchen|location} temp by {1|temperature}
-turn up the {bathroom|location} temp
+where did james baldwin go to school?
+who played carl fredricksen in up?
+where does delaware river start?
+who created english alphabet?
+what is the present form of government in iran?
+who does alyson stoner play in camp rock?
+who was peter frampton married to?
+what is john cena doing right now?
+who played as barney?
+which is the main train station in rome?
+what is the dominant language in israel?
+where did michael jackson went to school?
+who is the member of rajya sabha?
+where north dakota located?
+where did vietnamese people originate from?
+how many tracks has the band recorded
+where was lady washington built
+who does nolan ryan play for?
+what is chris paul's son name?
+who were king henry vii children?
+what is pennsylvania's state flower called?
+what is the atlanta braves mascot?
+where did african american slaves come from?
+what's sweden's currency?
+where do kfc get their chicken from?
+what is the short name for stephanie?
+how many free exhibits have there been at the science museum
+who was rudolf virchow?
+how many children does danny devito have
+where do the san francisco giants play home games?
+where did jane mansfield die?
+who is james dean?
+who did alf's voice?
+who are the current maryland senators?
+who was rosemary clooney married to?
+who does david beckham play for in 2012?
+who are the main cast members of sesame street
+who was sworn into office when john f kennedy was assassinated?
+how many visitors does mammoth cave national park get in a year
+who did kimberly williams marry?
+who played hannah montana best friend?
+who plays stella in coronation street?
+where does manny pacquiao live?
+what are the 3 official languages of spain?
+who played berger in sex and the city?
+who was king after leonidas died?
+where did alex chilton die?
+who are betty white's parents?
+who was the colts coach in 2011?
+who nominated stephen g. breyer?
+who have the lakers signed?
+where do ba fly to from london city airport?
+who was the voice of kitt?
+who was carrie underwood in soul surfer?
+what is capital city of ontario?
+who plays knox overstreet?
+who played forrest gump as a kid?
+where was f scott fitzgerald education?
+where was dwight d. eisenhower from?
+how many people have been influenced by socrates
+who was the 2nd prime minister of pakistan?
+how tall is jerry seinfeld
+where did heidi klum and seal get married?
+where did kobe earthquake happen?
+who were the curators for renoir in the 20th century
+what is the name of the pittsburgh steelers stadium?
+who was johnny cash's first wife?
+who is the arizona cardinals football coach?
+where was dwight howard born?
+who completed mozart_s requiem
+where did chickasaw indians live?
+who is the governor of indiana 2012?
+where did emperor constantine die?
+where do the kansas city chiefs play?
+who started pixar?
+where did morgan freeman come from?
+who wrote john 3 16 in the bible?
+where do the orioles play spring training?
+where does the fda get its authority?
+who did michael vick play for in 2008?
+what is the best neighborhood to live in in philadelphia?
+who is the head coach of the new orleans saints?
+who was the cohost in 1993 on cbs evening news
+who are china's trading partners?
+who played samantha stephens in bewitched?
+where did kurds originate from?
+what is there fun to do in san diego?
+which country uses euro as its main currency?
+who did jennifer lawrence play in x men?
+how many wins has larry bird had in his career
+which states does the mississippi river pass through?
+what is there to see in barcelona?
+what are the 5 countries in the united kingdom?
+where was jesus after he died on the cross?
+who plays riley on buffy the vampire slayer?
+who are the linebackers on the chicago bears
+where did matthias schleiden do his work?
+where does kirk cameron live now?
+where did charlton heston live?
+who influenced michael jackson?
+who invented islamic religion?
+who is nina dobrev playing in perks of being a wallflower?
+how many awards did sesame street win
+where was gabriel faure born?
+where was hackney 2012 held?
+who was vice president after kennedy died?
+what are all the inventions benjamin franklin made?
+what are the main languages of nigeria?
+who won utah attorney general?
+who played samuel sullivan in heroes?
+who is in charge of libya now?
+how many ships has nathanael herreshoff designed
+who is the current president of china 2010?
+what is the main religion in eastern europe?
+who did steve spurrier play pro football for?
+what's the focus of the last minute blog
+which countries does south africa export to?
+where does the zambezi river end?
+where do most illegal immigrants in the us come from?
+where did newt gingrich attend college?
+who did australia fight in the first world war?
+who are the two current senators of illinois?
+who is aidan quinn?
+who was arthur miller father?
+what were the causes of the russian revolution in 1917?
+in what year did columbus sail to the new world?
+on what continent is canada found?
+where did kevin james go to college?
+who did mozart write his four horn concertos for?
+where great britain on the world map?
+during what war did abraham lincoln serve as president?
+where did andrew young go to school?
+who is chelsea kane?
+where did derek fisher go to college?
+who is the head coach of the indianapolis colts?
+who does cristiano ronaldo play for in 2010?
+who wrote the jana gana mana?
+what is the legislature of missouri called?
+how many people practice buddhism
+what are some of the religions in australia?
+who became president when henry harrison died?
+what is the government structure of germany?
+what is the dominican republic's capital?
+what are the islands of oceania?
+who has britney spears married?
+what are the gods of islam?
+who played lauren reed on alias?
+who plays bilbo baggins in the hobbit?
+who did corey feldman married?
+where did brian williams go to college?
+who owns google 2012?
+where do american bulldogs originate from?
+which country is north of the usa?
+where was princess leia raised?
+what is calabria italy?
+who is clint eastwood dating?
+who won fa cup 1976?
+how many tennis events are there at the olympics
+who played amy squirrel in bad teacher?
+where did matt barnes play?
+where do islamic people go to worship?
+who did anne frank wrote her diary to?
+who was married to lance armstrong?
+who were the members of the soul stirrers
+where did al capone go to jail?
+who does the islam worship?
+where to go in london england?
+where did laura bush grow up?
+who was the prime minister of canada in 1998?
+which island in greece?
+how long is the golden gate bridge
+what was the name of tecumseh brother?
+who is the leader of japan right now?
+who does jamie campbell bower play in breaking dawn?
+how many breeds are in the sporting group of the american kennel club
+how much protein is in quinoa
+who was the first jedi master?
+who was francis drake married to?
+where turkish people originate?
+who won governor race in indiana?
+who played heath barkley?
+where did robin cook die?
+where does joey king live?
+where did edgar allan poe died?
+where did the cuban missile crisis happen?
+which team does ronaldinho play for?
+who did plaxico burress sign with 2012?
+who is the state governor of tennessee?
+who played lt uhura?
+where to go in downtown nashville tn?
+how many record labels was omarion under
+who did rufus wainwright married?
+where did john boehner come from?
+what is the name of dawn french's first novel?
+which ocean does the zambezi river flow into?
+what is currency in dominican republic?
+in what martial art does christopher adams have a black belt
+what was walt disney's first cartoon called?
+what are fun things to do in seattle wa?
+where to stay in paris france?
+who was selena gomez in barney and friends?
+who was the first leader of the afl?
+what is the money called in spain?
+what is the primary language of israel?
+what is the language spoken in brazil?
+what is time zone in hawaii?
+who was jessica simpson married too?
+who did terrell owens play for in 2010?
+where did the rolling stones 2009 concert tour take place
+who played the voice of aladdin?
+who is the music by in bruce almighty
+who was the leader of soviet union during wwii?
+who owns the steelers football team?
+where did darfur happen?
+who plays ray barone?
+who is lamar odom married too?
+who will win the 2011 nhl stanley cup?
+where did they find jenni rivera's body?
+what are west african countries?
+where to stay in thailand koh samui?
+who is the governor of wyoming currently?
+who was gerald ford vp?
+who invented koolaid
+who played maggie in himym?
+what is the state flag of colorado called?
+who is the coach for the new york knicks?
+where did justin bieber grew up?
+who does the united states export the most to?
+which continents were part of the roman empire?
+who founded the sisters of saint joseph?
+who did tim tebow play college football for?
+who is the governor of arizona 2009?
+who does matt damon have kids with?
+who is lincoln steffens?
+where did the battle of passchendaele happen?
+who founded the kkk?
+who to vote for in san francisco 2012?
+who was demi lovato dating?
+who owns wikimedia foundation?
+how many religions use the bible
+which english team won the champions league first?
+who was juan ponce de leon family?
+what is the mascot of dartmouth college?
+where did chancellorsville battle take place?
+who created the character of sherlock holmes?
+where did tennessee williams live?
+who's dating claire danes?
+what is a city in belgium?
+who did david villa play for?
+where did melba beals live?
+how many languages do they speak in switzerland?
+how many documentaries are there on netflix
+what was the first name of the washington redskins?
+what is the currency in croatia 2012?
+how many games are in the final fantasy series
+which country was michael jackson born?
+who were ulysses s grant and robert e lee?
+what is considered eastern canada?
+where did giuliana rancic grow up?
+who fought the battle of gettysburg?
+who won the governor election in texas?
+who was the story of charlie_s angels by
+in which province is johannesburg?
+who juan ponce de leon?
+who is my state senator arizona?
+who is the governor of kentucky 2012?
+who manufactures the t-38 talon
+where did christopher columbus began his journey?
+who is cameron crowe?
+for what albums did barack obama win a grammy award for best spoken word album
+who was vp for nixon?
+where was the battle of appomattox located?
+who is steve nash married to?
+where was huey newton killed?
+who was the librettist for the magic flute
+where did france colonise?
+where was the 3 juno asteroid discovered
+what is osama bin laden race?
+where do cruises leave from in rome?
+who was the original voice of meg on family guy?
+who played emma frost?
+in what modern country is the yucatan peninsula located?
+what is the time zone in france?
+where to get a marriage license in long island?
+where did jesse james die?
+who plays jacob black in twilight?
+where does portuguese language come from?
+who are the senators of kansas 2013?
+who plays ferris bueller's best friend?
+who was the founder of the colony of virginia?
+who was vp for lincoln?
+what is the currency used in brazil?
+where did gettysburg start?
+what is ayrton senna?
+who play luke skywalker?
+where to go in ibiza for families?
+who was president when the us navy department was established?
+who did carrie ann inaba get engaged to?
+where does unesco operate?
+who were the major trade partners of russia?
+who does malcom floyd play for?
+who is on the board of facebook?
+where did the second battle of ypres occur?
+where did captain james cook grow up?
+where does bradley walsh live?
+where did robert hooke get his education?
+what is the official language of the ukraine?
+where does lena river begin and end?
+who was queen elizabeth ii mom?
+where did irish people come from?
+who is khloe kardashian's husband?
+who invented facebook wikipedia?
+how long is the haunted mansion ride at disneyland
+how many games are there for nintendo ds
+who are the players on the toronto maple leafs?
+which team does ronaldinho play for 2013?
+who did lamar odom sign with?
+who is the captain of the edmonton oilers
+what is the closest airport to naples florida?
+what is the capital city of assyrian empire?
+who did michael j fox marry?
+who is number 5 on the boston celtics?
+who is jeremy sumpter?
+who was vice president when jfk was president?
+what is the capital city of south carolina?
+what is the name of currency used in spain?
+who did granville t. woods married?
+who was michael j fox?
+which states touch canadian soil?
+where in oklahoma are scorpions found?
+what was tupac name in juice?
+where did romney graduated college?
+who is the present chief justice of the u.s. supreme court?
+what is the most practiced religion in the us?
+who coaches the toronto maple leafs
+how many speeches did winston churchill give
+who is kristen stewart parents?
+who was the general for the british in the revolutionary war?
+where did the san diego chargers originate?
+where did carmen electra grow up?
+what is vanderbilt's mascot?
+where to watch live opening ceremony in london?
+how many other names is prostate cancer known as
+who got the gold medal in men_s singles tennis at the 1896 summer olympics
+who won the 2000 fa cup final?
+how deep is lake merritt oakland?
+who all has kim kardashian dated?
+who is the governor of oregon 2012?
+who makes lois griffin voice?
+where did rihanna come from?
+what is the state flower of pennsylvania?
+what is the postcode for seoul south korea?
+who plays sarah wittle in jumanji?
+where do the chicago white sox play home games?
+what is zip code for chicago illinois?
+in what country do people speak danish?
+who was the apostle paul considered to be?
+in which city was president kennedy killed?
+who is angelina jolie's husband?
+where did mendeleev died?
+who owns aston martin 2012?
+how much mlb teams are there?
+what is jessica ennis sport?
+what is the currency in england 2012?
+who killed martin luther king jr video?
+who is the prime minister of jamaica west indies?
+who was the founder of rhode island?
+who does the voice of lois in family guy?
+who was the president of the united states during ww2?
+who did shaq first play for?
+who is niall ferguson's wife?
+what are the traditions in jamaica?
+who did tyson chandler play for?
+who did ayrton senna drive for?
+who do islamic people follow?
+where do navajo indians live?
+who does david carr play for?
+who is the leader of the dominican republic 2011?
+where does kyla ross live?
+who played captain kirk in star trek?
+what was the name of the original seattle baseball team?
+where did james franco study acting?
+who was the vice president when bill clinton was in office?
+who does avril lavigne play in over the hedge?
+who designs for bill blass limited
+what are five countries that border france?
+where does honda play soccer?
+where was ronald reagan born and raised?
+who plays marlo on the wire?
+who was ulysses s. grant?
+who was the leader of the us during wwii?
+who won the governor election in michigan?
+what are the holidays of islam?
+who will alex smith play for in 2011?
+where did giovanni pierluigi da palestrina live?
+where does name pennsylvania come from?
+who did japan surrender to in ww2?
+who coached the dallas cowboys in 1996?
+who plays jim halpert?
+who plays lois griffin in family guy?
+how many players are in the current roster of the new york mets
+which kardashians are having babies?
+where was the battle of verdun ww1?
+who played maxie jones on general hospital?
+in what events did ian thorpe compete in the 2004 summer olympics
+where did fred west work?
+from which university did president obama receive his bachelor's degree?
+where did lee surrender to grant to end the civil war?
+where did jerome david salinger died?
+who are betty white's husbands?
+where did vietnam originate?
+what are the basic beliefs of sikhism?
+where did the gallipoli war take place?
+who are some bauhaus architects
+where did crabtree go to college?
+who was queen elizabeth the first's mother?
+where does princess leia live?
+where do haitian people come from?
+who developed capri sun
+how long is wired_s gadget lab podcast
+where do most chinese live?
+where did robert boyle study?
+where to live near seattle wa?
+is the university of lima public or private
+what are 2 inventions benjamin franklin is credited with creating?
+who voices ray in archer?
+where was luke skywalker born
+how many countries are in the european union
+who were michael jackson's brothers and sisters?
+how high is niagara falls
+who is sir james dyson?
+what is venus named for?
+where was neanderthal 1 found
+what are the three major rivers in south america?
+where did starbucks get their logo?
+who played giles on buffy the vampire slayer?
+who owns skywest?
+who are the creators of teenage mutant ninja turtles
+where was the battle of vicksburg held?
+who are the current senators of colorado
+what is fresno state's zip code?
+who did jason segel date?
+who does queen elizabeth hair?
+where do most earthquakes happen in japan?
+who won 2012 presidential election in france?
+who portrayed indiana jones in raiders of the lost ark?
+where did chef chuck hughes go to school?
+who won the presidential election in egypt 2012?
+how many people died of a skiing accident
+how old was woodrow wilson when he was elected president?
+who played laura ingalls mother?
+what is the name of the new orleans saints football stadium?
+who voices anakin in the clone wars?
+who manages fulham f. c.
+which countries in africa were slaves taken from?
+where did emperor hirohito live?
+who played betty rizzo in grease?
+who produced the three doctors
+where do they grow rice in italy?
+which country in europe has the largest land area?
+where did martin luther king got shot?
+how many commanders were there in the civil war
+who was the owner of kfc?
+what are the countries and capitals of central america?
+who is emma stone father?
+what is the current government system in france?
+who was jacob riis and why was he important?
+where was the gallipoli campaign waged?
+who is currently number 6 on the washington wizards
+who manufactures the specialized stumpjumper
+where did reagan die?
+who is facebook's founder?
+what are all the things thomas edison invented?
+who is the leader of cuba 2012?
+where did robin williams get married?
+who is the governor of california 2010?
+who was vincent van gogh inspired by?
+where does the atlanta braves play?
+who controls panama?
+who became president after harding died?
+where does robert irvine come from?
+where to stay in bermuda tripadvisor?
+what are the name of mitt romney sons?
+what is the syracuse university mascot?
+who killed david ruffin?
+which airport to fly into rome?
+where did joe namath live?
+what is the money of argentina called?
+who does debbie dingle go out with?
+where was tupac born?
+what is the currency in germany in 2010?
+which countries speak english?
+who invented morse code?
+where did eleanor roosevelt die?
+what are the major languages of italy?
+are lithium batteries rechargable
+where did the australian floods take place?
+what is the boston celtics current roster?
+where do most of the people live in russia?
+how many beers come a can
+who is vancouver canucks coach?
+who does john beck play for?
+how many protected sites does the u.s. national park service govern
+where did adolf hitler die?
+what is the capital of spain in 2010?
+who is gimli's father in the hobbit?
+who was the leader of the soviet union in 1945?
+where was the first microsoft headquarters located?
+where did andy murray started playing tennis?
+what is the time in france if it is 8am in scotland?
+who is angelina jolie?
+who was the music by in titanic
+what are the most common religions in the united states?
+where did alexander graham bell die?
+who wrote the gospel according to john?
+what is jonas brothers names?
+what is the major language spoken in canada?
+where did kate gosselin grew up?
+where does leland chapman live now?
+who played dana scully in x files?
+who does marion barber play 4?
+who is amy grant's first husband?
+who was the nutty professor produced by
+how many awards did titanic win
+who won fedex cup 2012?
+what is colorado's state flower?
+how much did the construction of the taj mahal cost
+how many cow's milk cheeses are there
+where does the oklahoma city thunder practice?
+where does sherrod brown live?
+where did mubarak get his wealth?
+where does the english football team train?
+who founded nivea
+where did kevin love go to college?
+what is the zip code for fort stockton texas?
+where did joe namath attend college?
+where do baltimore ravens play?
+what is the capital city of albania?
+how many inversions does the mind eraser have
+who is tatyana ali parents?
+who is the voice of kitt?
+where indian ocean is located?
+where did joe montana go to high school?
+who did woody harrelson play on cheers?
+who played boss hogg dukes of hazzard?
+how many other names is jerry seinfeld known by
+where was selena gomez raised?
+who ran against abraham lincoln for president in 1860?
+who was frida kahlo influenced by?
+which hmv stores are open?
+how many students are there at the university of iceland
+what are the four nations of the uk?
+how many nicknames does shaquille o'neal have
+who was president after william henry harrison?
+what is the president of brazil?
+where was john lennon standing when he was shot?
+where did charles darwin and his wife live?
+where did john steinbeck go to college?
+who does billy beane work for now?
+who plays jackson gibbs on ncis?
+who is the leader of north korea today?
+where was the earthquake in chile 2010?
+where did george w bush live as a child?
+which three countries share a land border with cambodia?
+what was the name of wright brothers plane?
+who was the leader of germany in wwii?
+who was donald duck's girlfriend?
+where did galileo go to school?
+where was the city of david?
+who created the runaways comic book series
+who has pudge rodriguez played for?
+who directed 13 going on 30
+where did rick santorum attend high school?
+where does the tsunami happened in japan?
+where do the seattle seahawks play?
+who does cristiano ronaldo play for 2012?
+who did tupac shakur date?
+who won the battle of gettysburg?
+what is the official language in mexico?
+who wrote 2 timothy 4?
+what is the name of money in brazil?
+where was henry iii buried
+where does sami yusuf live?
+who were jesus siblings?
+where did pavlova originate?
+who was the voice of simba?
+who founded the roanoke settlement?
+where did the allied invasion of france take place?
+how many soccer players are goalkeepers
+how many people collect automobiles
+where did francisco coronado come from?
+which asian country has the biggest population?
+what is anderson silva trained in?
+who did president kennedy marry?
+who is queen elizabeth 1 father?
+where in tennessee are the smoky mountains?
+who founded the american federation of labor afl in 1886?
+who is reba mcentire's son?
+in what town did ned kelly and his family grow up?
+who was jesse james killed by?
+who was arthur miller influenced by?
+who does albert pujols play for 2012?
+where did pope benedict xvi live?
+who is the elected governor of california?
+at what age to kids usually start second grade
+how many national parks does the national wildlife refuge have
+which country does irish language come from?
+where did salvador dali study art?
+where was ancient carthage located?
+who are the current senators from missouri?
+who did viggo mortensen play in lord of the rings?
+who plays jason gideon?
+who played in the game of the century
+who played bernie focker?
+where does freddie ljungberg come from?
+what was the name of the newspaper where hemingway wrote?
+who is roger bacon inventor of?
+who was the queen of the iceni tribe?
+where did omarion 's musical career begin
+who was the leader of the first communist party of china?
+where gm cars are built?
+what is the timezone in vancouver?
+where did terrell owens get traded to?
+where do the ny rangers play?
+how many people influenced karl marx
+how many judges has the high court of justice had
+who does lea michele dating in real life?
+how did samuel beckett die
+who was the fascist dictator of germany?
+who was the secretary of state when andrew jackson was president?
+what is al in arabic names?
+how many companies are traded by the nyse
+where did vince scully go to college?
+who was titanic directed by
+where was the assyrian homeland?
+who does obama look up to?
+which roman god goddess are you?
+where did paul ryan live?
+who are gatorade 's major sponsors
+who was general cornwallis american revolution?
+who did michael jordan marry?
+who was kim kardashian's first husband?
+who did reese witherspoon get married to?
+who did mario lopez just marry?
+who did tom landry play for?
+where did theodor schwann get his education?
+who did queen mary marry?
+where does fabio capello come from?
+where did alex smith play high school football?
+who plays nicholas newman on the young and the restless?
+how large is kony army?
+who did walter raleigh sail for?
+who do nate robinson play for?
+where did pixie lott go to school?
+who played in the 1973 fa cup final
+what are buddhist gods?
+what is mexico city time zone?
+who made the ancient egyptian pyramids?
+what are fun things to do in denver colorado?
+where jay z was raised?
+who does michael oher play for in 2009?
+how many conferences have been held at the los angeles convention center
+what is the current leader of japan?
+what is a king charles cavalier dog?
+where was the ancient region of mesopotamia?
+who created youtube?
+who is the falcons kicker?
+where did willy wonka take place?
+who is carl edwards racing for?
+where was benjamin franklin raised?
+where did dmitri mendeleev teach?
+where was farrah fawcett buried?
+who was dan white?
+where do italy people live?
+who is number 22 on miami dolphins?
+who designed the hawker sea hawk
+what is shakespeare's parents names?
+who plays eowyn in lord of the rings?
+where was abraham lincoln buried?
+where did hernando cortez die?
+which country was justin bieber born in?
+which legend of zelda game is the first?
+who is keyshia cole married too?
+where did pizarro land?
+where was anne frank born?
+who does don draper gets engaged to?
+what are the best places to go in germany?
+what was wrong with joan crawford?
+who is jennifer lawrence boyfriend 2012?
+who won governor of indiana 2012?
+what are all the names of harry potter?
+who did richard nixon run against?
+how many main characters did charlie_s angels have
+where did the crimean war take place?
+who composed the song ship of fools
+who does amy stiller play in dodgeball?
+how many exhibitions have there been about leonardo da vinci
+how many units does the us army have
+how many knights of the garter did the order of the garter have
+what is in liverpool england?
+what is the name of justin bieber brother?
+what are the two major religions in canada?
+who lived in fallingwater
+who is the screenplay for the nutty professor by
+who plays marvin eriksen?
+where did neil gaiman grow up?
+who plays marshall eriksen?
+who played sean in scrubs?
+what is there to do in palm springs?
+who is ruling libya?
+where did paul ryan attend college?
+where john tyler was born?
+where to ski in andorra reviews?
+who built the uss nautilus
+who is judy garland father?
+who designed the parthenon
+where was adolf hitler died?
+who was 8 mile directed by
+who is kobe bryant wife bio?
+who taught michelangelo to sculpt?
+who did queen elizabeth 1 executed?
+who owns the new england patriots football team?
+who is the head coach of the chicago bulls
+who did etta james marry?
+how many teams did joe torre manage
+how many stores are in nittany mall
+who is nicolas cage married too?
+who is blackwell?
+where does dr. sanjay gupta practice?
+who owns chrysler corporation 2012?
+where do burmese cats originate from?
+who is the developer of java language
+what are the major religions practiced in israel?
+what is lil wayne real name?
+where did anne frank live before the war?
+who's betty white?
+who wrote travels with my cello
+where was the peseta used as currency
+who played bilbo in the fellowship of the ring?
+what is kevin durant play style?
+who do islamic people pray to?
+who is number 22 for the dallas cowboys?
+what are dollars called in spain?
+where do houston aeros play?
+what is happening in germany right now?
+who was queen isabella's mother?
+who were the children of king solomon?
+where was rod stewart born?
+who played nba finals 2010?
+how much did a canon powershot tx1 cost how many people does borders employ
+who is moira en x men?
+what is the political system in egypt?
+where to fly in for galapagos islands?
+who currently plays for the san jose sharks
+who was the president of the us in 1971?
+who was the son of king leonidas?
+who did cliff lee play for last year?
+who plays kenneth on 30 rock?
+who did alicia keys have a baby with?
+who has won the most fa cup?
+where did the name nazi come from?
+what is the postcode for london?
+who did the cleveland cavaliers draft?
+at what institutions was marshall hall a professor
+on what network was gilligan_s island first aired
+who plays nana in the royal family?
+who is eli whitney and what did he invent?
+who owns nissan car manufacturer?
+where ulysses s grant go to school?
+what was marilyn monroe known for?
+where does bill richardson live?
+who plays edward scissorhands?
+who is rob kardashian dating now 2012?
+how many people can play settlers of catan
+where does drogba play now?
+who was killed first tupac or biggie?
+where did the loma prieta earthquake occur?
+how many other names is ron glass known by
+where did clay matthews go to school?
+who plays captain kirk in 2009?
+who was the prime minister of australia in 1958?
+what is there to do in mt baldy california?
+who produces meet the press
+who will coach carolina panthers in 2013?
+who did heinrich himmler marry?
+what is the currency name of china?
+who did cristina yang's husband cheated on her with?
+who is steven seagal sister?
+who did king tut married?
+where does kenya moore get her money?
+who was wesley snipes?
+who plays the voice of lois griffin on family guy?
+where did pablo picasso die?
+who plays harold saxon in doctor who?
+where does turkish language?
+where does marta play soccer?
+who founded the order of the dragon
+where was the first ford motor company located?
+who created charlie brown
+who is president of israel?
+where does bronx begin?
+where was president chester arthur born?
+where do the chicago cubs play?
+what are the 5 biggest cities in the usa?
+how old is the current president of north korea?
+who were mary shelley's parents?
+who is hammurabi and what did he do?
+who is sherri shepherd's new husband?
+which states does the colorado river run through?
+who designed the rolls-royce welland
+how rich is the roman catholic church?
+who does peter griffin voice?
+where does robin williams live 2011?
+how many other names is omarion known by
+who played princess leia's mother in star wars?
+where was the boston tea party 1773?
+who is the texas state senator?
+what is the world's tallest building in dubai called?
+who does kroy biermann play football for?
+who created superman
+where did william mckinley go to high school?
+where does jason statham live?
+who is aidan davis?
+who won the state of texas in 2008?
+what is the government of chile?
+what are some sights to see in rome?
+who used to be quarterback for the green bay packers
+which countries share borders with spain?
+who plays king julian madagascar?
+who is andy williams brother?
+what are the major cities in france?
+where herman cain stance on the issues?
+what is the center of london called?
+who coaches the australian cricket team
+who are the senators of virginia 2013?
+who does messi play with?
+where did barosaurus live
+which country in north america is divided into provinces?
+where did eleanor roosevelt go to school?
+who hosted the 2003 cricket world cup
+who won 2001 fa cup?
+who currently owns the steelers?
+which party did lincoln belong to?
+who were the parents of ferdinand ii
+where marie curie come from?
+what are the two houses in congress?
+what is the zip code for moorpark ca?
+who studied martial arts under yip man
+where did michelle obama graduated from?
+where the murray river located?
+where does the city of paris get its name?
+what is the name of the first harry potter novel?
+where did cs lewis wrote?
+what is the name of the bengals quarterback?
+which states share borders with virginia?
+who are the famous athletes in kenya?
+what is north dakota state's mascot?
+who is governor of ohio 2011?
+how many people blog on beyond robson
+where to stay in south rim grand canyon?
+where does jamie chung live?
+where did andreas vesalius die?
+what is the name of the first prophet of islam?
+who are the hosts of car talk
+who was dan cody?
+did the big bang exhibit at the science museum cost money
+for what country did bernard lagat play in the 2000 summer olympics
+what is the local currency in the dominican republic?
+who was charlemagne's wife?
+what is the buddhist holy book?
+where did kirk herbstreit?
+where was ben franklin born?
+who did george lucas get engaged to?
+where was joseph p kennedy born?
+who were the key designers of the macintosh
+what's the symbol for mercury
+who is anne hathaway parents?
+who was betty white married too?
+who seized power in italy in 1922?
+who influenced picasso art?
+what is the hawaii time zone?
+who played nba last night?
+where did queensland get its name from?
+who plays london tipton in suite life on deck?
+where does sally pearson live?
+how many domains are in the science & technology category
+how much does the average american pay in taxes over their lifetime?
+who originally voiced lois griffin?
+where did dolly parton grew up?
+who did juan ponce de leon married?
+where did the anglican church start?
+where can you find wind turbines in canada?
+who did howie long married?
+which airport to fly in rome?
+who was the editor in chief of die welt in 2000
+what are the major religions in uk?
+what are all of michael jackson albums?
+where did saki live?
+where did george michael go to school?
+what is the local language of israel?
+how many cards do you need to play canasta
+who was the communist dictator of north korea?
+who is jimmy fallon married to?
+who was rolling stones' greatest guitarist of all time in 2003
+where was benjamin franklin educated?
+who was the vice president during george w bush?
+who is kobe bryant dad?
+how many monarchs are from the house of tutor
+who ran against bill clinton in the presidential election?
+since when has the california gull been the state bird of utah
+where was st elizabeth ann seton born?
+where george washington carver go to school?
+what is the northeast of the united states?
+who is jacob latimore?
+who should play harley quinn?
+where did they get the name stanley cup?
+in what year did harry potter and the goblet of fire win the hugo award for best novel
+what is vanderbilt university mascot?
+which country did james cook sailed for?
+who plays john connor in terminator salvation?
+who killed vincent chin dvd?
+where donald trump went to college?
+who will be the red sox next coach?
+who was the winner of the 2009 nobel peace prize?
+where the seneca indians lived?
+what is cher's son's name?
+who was luke skywalker played by?
+who was queen victoria's husband?
+who plays mary jane in spiderman 3?
+who inspired obama?
+who owns the chrysler corporation?
+what is the money currency in switzerland?
+who does mike marry at the end of season 5 desperate housewives?
+who influenced wolfgang amadeus mozart?
+what is the name of the capital of spain?
+who is the miami dolphins quarterback?
+where was rihanna raised?
+where does brian williams live?
+where was martin luther king jr buried?
+who is mexico's president right now 2011?
+who is the lyricist for spamalot
+who plays kenneth?
+who played luke skywalker in star wars episode 4?
+who's the oakland raiders head coach?
+who managed liverpool f.c. from 2004 to june 2010
+who played anakin skywalker in phantom menace?
+where did helen keller go to school?
+where does fabio aurelio play?
+what is st mary mascot?
+who is ruling north korea now?
+in 1981 what award did danny devito win
+what are the best things to do in san diego?
+who were the astronauts in the apollo 12 mission
+during what time period did uluru form
+who made the laws in canada?
+who makes up tomkat
+where laura ingalls wilder lived?
+what is vanderbilt university known for?
+where did charles drew go to college?
+with which country does south africa border?
+what is medicare a?
+who is francis bacon and what did he do?
+who is lamar odom playing for in 2012?
+what is the most practiced religion in the united states?
+what are bridgit mendler's parents names?
+where did drew brees go to college wikianswers?
+who produced sabotage by the beastie boys
+where did carrie underwood live?
+who was wale signed to?
+who is prime minister of japan 2012?
+who did bryce dallas howard play in eclipse?
+who does donnie wahlberg play in the sixth sense?
+what are the zoroastrian scriptures called?
+what is the name of the book hitler wrote while in prison?
+where did brad paisley graduate from college?
+who started twa airlines?
+where was lance armstrong born and in what year?
+what is the philadelphia church of god?
+who plays voldemort?
+who is tony romo engaged to?
+who does hank baskett play for now nov 2010?
+who was queen victoria's parents called?
+where did kate middleton go to prep school?
+what is the currency in the dominican republic 2010?
+who did hera marry?
+who painted the mona lisa
+what are fun things to do in philadelphia?
+who plays the voice of kitt in knight rider?
+who is darwin and what is his theory?
+how long overall is the tahina
+which is faster amd dual core or intel dual core?
+what is the currency in australia 2011?
+where tupac grew up?
+who were demeter's siblings?
+where did boston terriers come from?
+how many teams are there in the ncaa football?
+who is the leader of france 2012?
+where does dave ramsey live?
+how many products has mattel produced
+who is the costume designer for bruce almighty
+who is the 2011 heisman trophy winner?
+where can i go running in sacramento?
+who started the federal reserve board?
+what are the primary languages of france?
+who plays simon birch?
+who does cristiano ronaldo play for now 2011?
+how many countries use uk money
+what are historical places in new york?
+who is the senior senator of louisiana?
+where were greek temples built?
+who is the governor of hawaii now?
+who owns the sf giants owner?
+what is the dominant language of jamaica?
+in what state was the air force academy established?
+who was the first wife of prophet muhammad?
+where can you go on eco holidays in the uk?
+how many pets did john f kennedy own
+in what year did motorola have the most revenue
+where did james cook go on his voyages?
+who is the head coach of the tennessee titans?
+what are the two dialects of chinese?
+where did wassily kandinsky work?
+how many cancer centers are comprehensive
+what are the duggars kids names and ages?
+who plays captain kirk in star trek?
+who has played edward quartermaine on general hospital?
+where the grimm brothers were born?
+where were the chickasaw indians located?
+who is the president of israel 2012?
+where did chris cuomo go?
+who is abraham descended from?
+where did bruno mars get his start?
+how many generations of the ipod are there
+who did kat graham play in parent trap?
+where does archbishop desmond tutu live?
+who are the coaches for the oakland raiders?
+who is ryan reynolds married to 2012?
+what was woodrow wilson's major accomplishments?
+what is the dollar called in brazil?
+where was the battle of waterloo held?
+where did the mississippi river end?
+who are the characters in to kill a mockingbird
+where does the philadelphia union soccer team play?
+who played marty mcfly's dad?
+where to go fishing in roanoke va?
+who led the campaign in the shenandoah valley?
+where did giovanni da verrazano come from?
+where honduras in the world?
+where did jack johnson go to high school?
+who plays lois lane in superman returns?
+who was vice president under ronald reagan?
+how many teams has curly lambeau coached
+how many speeches have been given about world war ii
+where in georgia does usher live?
+how long are adventure time episodes
+where does luke skywalker live in star wars?
+where was zachary taylor elected from?
+what is the braves mascot?
+who won the 1964 united states presidential election
+who played bilbo baggins?
+who does lee clark manager?
+who invented the ford motor company?
+who did sir francis drake marry?
+where president nixon was born?
+where did rudolf virchow conduct his research?
+who plays walter in fringe?
+where was the prophet mohammed from?
+where do i vote milwaukee wisconsin?
+who has stephen ireland played for?
+who won the nobel peace prize in 2007?
+what is the main language of israel?
+where did macho camacho got shot at?
+who tom cruise been married to?
+where did antoine lavoisier die?
+who was the members of blackstreet?
+what is the large mountain range in the western united states?
+where to go in florida for vacation?
+who are the colorado eagles?
+who did tebow get traded to?
+who did julie andrews play in shrek?
+where did gareth southgate play?
+who operates the silver star railway
+where did c.s. lewis go to college?
+who was president after franklin d. roosevelt?
+where did tim mcgraw grew up?
+how many sites are on the national register of historic places
+which airport is closest to barcelona port?
+how many awards did big daddy win
+who was papa doc in real life?
+who did john kennedy have affairs with?
+who fought in the battle of vicksburg?
+who does paul walker play in fast and furious?
+how many countries use the indian rupee
+who is paul revere and what did he do?
+who is the political leader of japan?
+what is the current time in nigeria lagos?
+how tall do you have to be to ride the american eagle
+who did roger federer married?
+who owns flickr
+where's the hudson river?
+what is the battle of antietam?
+who is henry david thoreau?
+what is there to do in laredo tx?
+who played lex luthor in the original superman?
+in which state did the santa fe trail begin?
+which four states touch mexico?
+where did charles darwin die?
