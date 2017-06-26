@@ -1,0 +1,46 @@
+increase heat {everywhere|all} just a tiny bit
+heat higher a little bit
+increase {bedroom|location} temperature
+warm up {bathroom|location} by a little bit
+crank up {bathroom|location} heater by just a tiny bit
+raise temp just a little
+heat up the {bathroom|location} {4 degrees|temperature}
+heat up the {kitchen|location} by just a little
+heat up {living room|location} {6 degrees|temperature}
+heat higher here by a small amount
+make it just a tiny bit hotter in the {bedroom|location}
+heat up {bathroom|location} by {6 degrees|temperature}
+heat up in the house {1|temperature}
+increase the {living room|location} heating just a little bit
+heater up by just a little bit
+heater higher {everywhere|all} by {6 degrees|temperature}
+crank up the {bathroom|location} temp by a little
+warm up {kitchen|location} by {1 degree|temperature}
+heating up
+heater up {3|temperature}
+raise the temp
+temperature higher
+increase {living room|location} heater a small amount
+make it {4 degrees|temperature} warmer
+crank up heater in the {bedroom|location}
+make it {1|temperature} warmer in the {bedroom|location}
+warm up the {bedroom|location} a little bit
+increase the {living room|location} heat by {6|temperature}
+heat up a little bit
+make it a tiny bit hotter in the {kitchen|location}
+heat up {2 degrees|temperature}
+crank up the {bedroom|location} heating by {5 degrees|temperature}
+crank up heating in the house by just a little bit
+warm up the {living room|location} {4|temperature}
+crank up the {bathroom|location} thermostat by {1|temperature}
+temp up by {5 degrees|temperature}
+thermostat up just a small amount
+crank up heater just a small amount
+increase the heat by a small amount
+bump up {living room|location} temp by a small amount
+warm up the {bathroom|location} by {3 degrees|temperature}
+heat up {bedroom|location} by a small amount
+turn up {living room|location} thermostat {5|temperature}
+turn up the {kitchen|location} heating by {1 degree|temperature}
+increase {kitchen|location} temp by {1|temperature}
+turn up the {bathroom|location} temp

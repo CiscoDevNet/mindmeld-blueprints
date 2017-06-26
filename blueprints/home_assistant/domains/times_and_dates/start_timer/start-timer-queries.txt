@@ -1,7 +1,0 @@
-set a timer for {20 minutes|duration}
-set a timer for {1 hour|duration}
-{2 minute|duration} timer
-remind me in {1 hour|duration}
-timer for {1 minute|duration}
-timer for {60 seconds|duration}
-{1 hour|duration} timer
