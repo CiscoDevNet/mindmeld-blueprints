@@ -57,8 +57,6 @@ class TransformEpisodes(VideoDataProcessingTask):
 
     @staticmethod
     def _get_episodes(season_objs, base_tv_obj):
-        # import ipdb
-        # ipdb.set_trace()
         if not season_objs:
             return []
         ep_objs = []
@@ -73,11 +71,11 @@ class TransformEpisodes(VideoDataProcessingTask):
             },
             '''
             episode_count = season_obj['episode_count']
-            print(season_obj)
             for episode_num in range(1, episode_count + 1):
                 episode_obj = copy.deepcopy(base_tv_obj)
                 episode_obj.update({
-                    'id': season_obj.get('id', '0'),
+                    'id': get_episode_id(season_obj.get('id', '0'),
+                                         season_obj.get('season_number', '')),
                     'season_number': season_obj.get('season_number'),
                     'episode_number': episode_num,
                     'img_url': get_poster_img_url(season_obj.get('poster_path', '')),
@@ -85,3 +83,7 @@ class TransformEpisodes(VideoDataProcessingTask):
                 })
                 ep_objs.append(episode_obj)
         return ep_objs
+
+
+def get_episode_id(season_id, episode_num):
+    return u'{}_{}'.format(season_id, episode_num)
