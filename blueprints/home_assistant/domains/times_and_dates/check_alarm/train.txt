@@ -1,0 +1,108 @@
+check alarm
+check alarm time
+check alarms for {today|time|time}
+check if my {7 a m|time|time} alarm is on
+check if the alarms are off
+check if the alarms are on
+check my alarms
+check my alarms for me
+check that {all|all} alarms are on
+check that my alarm is on
+check to see if alarm is set for {6:00 am|time|time}
+do have an alarm set for {tomorrow morning|interval}
+do i have an alarm set
+do i have an alarm set for {6:15|time|time}
+do i have an alarm set for {thursday|time|time}
+do i have an alarm set for the {morning|interval} alarms
+do i have any {morning|interval} alarms
+do i have any alarms set
+do i have any alarms set for {this week|time|time}
+do i have any daily alarms
+is my alarm set
+is my alarm set for {tomorrow morning|interval}
+please tell me my current alarms
+show {saturday|time|time} alarms
+show alarms
+tell me {all|all} the current alarms
+tell me my alarms
+tell me what alarms i have set
+tell me what alarms i ve set up
+what {morning|interval} alarms do i currently have
+what alarm settings do i have
+what alarms do i have {tomorrow|time|time}
+what alarms do i have {tomorrow|time|time}
+what alarms do i have for {monday morning|interval}
+what alarms do i have for {wednesday|time|time}
+what alarms do i have for the {evening|interval}
+what alarms do i have for the {morning|interval}
+what alarms do i have set for {this afternoon|interval}
+what alarms do i have set for {tomorrow|time|time}
+what days do i have alarms set for {this week|time|time}
+what time is my alarm set to go off {tomorrow|time|time}
+when is my alarm going off {tomorrow morning|interval}
+which alarms do i currently have on
+please list {all|all} my current alarms
+see {all|all} alarm settings
+see alarm settings
+{all|all} alarm settings
+what are my {weekend|interval} alarms
+what time is my first alarm set for
+check what time the alarm is set {in the morning|interval}
+tell me what {friday|time|time} s alarm is
+what alarms are set right now
+what alarms are set for {saturday|time|time}
+what alarms are set for {tomorrow|time|time}
+what is the alarm for {sunday|time|time}
+when is my alarm set for {tomorrow|time|time}
+{all|all} alarms are working
+what alarms are working
+are {all|all} alarms working
+are {all|all} alarms set
+are {all|all} my alarms set
+can i test out the alarms
+test out the alarms
+list {all|all} alarms set
+list {all|all} my alarms for {tuesday|time|time}
+list alarms
+what alarms are active
+what alarms are currently set up
+what are my current alarm settings
+what are my current alarms set at
+what is my alarm set to
+what is my alarm settings
+what are my alarm settings
+what is my earliest alarm set at
+when will i wake up {in the morning|interval}
+when will the alarm ring {in the morning|interval}
+when is the alarm going off {tomorrow|time}
+when will the next alarm go off
+when is my next alarm
+when is my next alarm
+when is my next alarm
+when is the next alarm
+what is {tuesday|time|time} s alarm
+what is {tomorrow|time|time} s wake up time
+what time is alarm set for {today|time|time}
+what time is my alarm on {friday|time|time}
+what time is my alarm set for
+what time is my alarm set for on {wednesday|time|time}
+what time is my alarm set for {tomorrow|time|time}
+when am I waking up {tomorrow|time|time} again
+when does the next alarm go off
+when is my alarm set to go off
+what s my lastest alarm set at
+what time is the alarm for {tomorrow|time|time} set for
+what time will the next alarm go off
+what time is my latest alarm
+what time is my alarm set for
+what time is my alarm {tomorrow|time|time}
+when s my next alarm
+how long do i have to sleep
+how many alarms are active
+how many alarms are set
+how many alarms are set for {tomorrow morning|interval}
+what are my alarm settings for {tomorrow|time|time}
+alarm settings for {tomorrow|time|time}
+show my alarm settings for {tomorrow|time|time}
+check alarm set for {6 am|time|time}
+please tell me the alarms set for {tomorrow|time|time}

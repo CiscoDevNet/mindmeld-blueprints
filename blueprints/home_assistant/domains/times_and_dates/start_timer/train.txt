@@ -1,0 +1,117 @@
+{15 minute|duration} alarm
+{25 minute|duration} alarm
+activate timer
+activate new timer
+activate the timer
+activate a timer
+activate a new timer
+begin {one hour|duration} nap alarm
+begin a {5 minute|duration} countdown now
+count down {2 minutes|duration} for me
+countdown {5 minutes|duration}
+do not disturb me for {2 hours|duration}
+give me {15 more minutes|duration}
+i got to leave in {exactly 10 minutes|duration} set a timer
+i would like to take a {one hour|duration} nap
+in {10 minutes|duration} remind me to check on the baby
+let the timer begin
+please set a timer for {10 minutes|duration}
+please set timer for {2 minutes|duration}
+please start the timer for {4 minutes|duration}
+please start the timer for {4 minutes|duration}
+remind me in {5 minutes|duration}
+remind me to check laundry in {10 minutes|duration}
+remind me to check on the cake in {10 minutes|duration}
+remind me to check the dog in {one hour|duration}
+remind me to stir supper in {5 minutes|duration}
+remind me to stop the oven in {20 minutes|duration}
+remind me to throw away garbage in {20 minutes|duration}
+remind me to wake up in {5 minutes|duration}
+resume the timer
+resume that timer
+resume the timer again
+run timer for {30 minutes|duration}
+set a reminder for {8 minutes|duration}
+set a timer for {20 minutes|duration}
+set a timer for {3 hours|duration}
+set a timer for {5 hours|duration}
+set a timer for {5 minutes|duration}
+set a timer for my pizza
+please set an alarm for {10 minutes|duration} from now
+set alarm to check dishwasher in {10 minutes|duration}
+set alarm to go off in {thirty minutes|duration}
+set an alarm {one hour|duration} from now
+set an alarm for {30 minutes|duration} from now
+set an alarm for {5 minutes|duration} from now
+set an alarm for {5 minutes|duration}
+set an alarm for {9 hours|duration} from now.
+set an alarm for {3 hours|duration} later
+set alarm for {2 hours|duration}
+set an alarm for {five minutes|duration} from now.
+set an alarm for {ten minutes|duration} from now.
+set oven timer for {22 minutes|duration}
+set the timer for {10 minutes|duration}
+set the timer for {30 seconds|duration}
+set the timer for {6 minutes|duration}
+set timer for {24 minutes|duration}
+set timer for {one hour|duration}
+set timer for the oven
+set oven timer
+set an oven timer
+set a timer for the coffee
+set a timer for the tea
+set the timer
+set timer
+set an egg timer
+set timer: {5 minutes|duration}
+start a {20 minute|duration} countdown
+start a {30 second|duration} timer for me
+start a {45 minute|duration} cooking timer
+start a {5 minute|duration} countdown
+start a stop watch for {3 minutes|duration}
+start a stop watch for {5 minutes|duration}
+start a timer for {30 minutes|duration}
+start countdown for {10 minutes|duration}
+start a timer
+start a new timer
+start the timer
+start my timer
+start the timer for {5 minutes|duration}
+start timer for {1 hour|duration}
+start timer for {15 minutes|duration}
+start timer: {2 minutes|duration}
+tell me when {30 minutes|duration} have passed
+tell me when {40 minutes|duration} is up
+tell me when {5 minutes|duration} are up
+tell me when {5 minutes|duration} have elapsed
+tell me when it has been {3 minutes|duration}
+time my exercise for {45 minutes|duration}
+timer on
+timer activate
+timer initiate
+new timer on
+put timer on
+turn timer on
+timer set for {1 minute|duration}
+timer set for {45 minutes|duration}
+turn on the timer
+turn on the timer
+turn the timer on for {5 minutes|duration}
+alert me {in 20 minutes|time|newtime}
+start my timer
+start the timer
+start {half hour|duration} nap time timer
+timer initiate
+initiate timer
+initiate my timer
+initiate a timer
+can you set the timer for {4 minutes 30 seconds|duration}
+can you set the timer for {4 hours 30 minutes|duration}
+set a timer for {5 minutes 20 seconds|duration}
+set a timer for {4 hours 20 minutes|duration}
+set the timer for {6 minutes 20 seconds|duration}
+set the timer for {7 hours 20 minutes|duration}
+tell me when {6 minutes 20 seconds|duration} is up
+tell me when {6 hours 20 minutes|duration} is up
+set timer for {6 minutes 20 seconds|duration}
+set timer for {4 hours 10 minutes|duration}

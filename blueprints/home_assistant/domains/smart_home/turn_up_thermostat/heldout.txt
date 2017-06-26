@@ -1,0 +1,89 @@
+turn up the thermostat
+turn up the heat
+make it hotter
+make it hotter in here
+make it warmer
+make it warmer in here
+make it warmer in the {living room|location}
+turn up the thermostat
+turn up the heat
+turn up the temperature
+bump up the temp
+turn up the temp
+bump up the heat
+bump up the thermostat
+turn up the temp in the {kitchen|location}
+turn up the thermostat in the {kitchen|location}
+make it hotter in the {kitchen|location}
+turn up the temperature by {2 degrees|temperature}
+turn up the temp by {2 degrees|temperature}
+make it a little bit warmer
+make it a little bit hotter
+temperature up {2 degrees|temperature}
+temperature up by {2 degrees|temperature}
+temp up {2 degrees|temperature}
+temp up {2 degrees|temperature}
+thermostat up {2 degrees|temperature}
+thermostat up by {2 degrees|temperature}
+make it a little bit warmer in the {kitchen|location}
+make it a little bit hotter in the {kitchen|location}
+temperature up {2 degrees|temperature} in the {kitchen|location}
+temperature up by {2 degrees|temperature} in the {kitchen|location}
+temp up {2 degrees|temperature} in the {kitchen|location}
+temp up {2 degrees|temperature} in the {kitchen|location}
+thermostat up {2 degrees|temperature} in the {kitchen|location}
+thermostat up by {2 degrees|temperature} in the {kitchen|location}
+heat higher in here
+make it a bit warmer in the {living room|location}
+turn up heat
+make it just a tiny bit hotter in the {bedroom|location}
+heater up by a little
+warm up the {living room|location} {4|temperature}
+bump up the {bedroom|location} heating by {6|temperature}
+increase {living room|location} heat just a small amount
+heat up the {living room|location} {3|temperature}
+heat up {living room|location} {6 degrees|temperature}
+make it {1|temperature} hotter
+increase the heater in here by just a little bit
+make it a small amount warmer
+thermostat up just a small amount
+crank up the {kitchen|location} heater by just a little
+heat up the {bedroom|location} {5|temperature}
+turn up heater {1|temperature}
+crank up the {bedroom|location} temp
+heat up {bedroom|location} by {4 degrees|temperature}
+make it {1 degree|temperature} hotter in the {bedroom|location}
+turn up heating
+bump up the {kitchen|location} heating by a little
+make it {1|temperature} warmer in the {bedroom|location}
+crank up the heating {everywhere|all}
+heat up the {kitchen|location} by just a little
+make it {1 degree|temperature} warmer
+bump up the heating here
+heat up {bathroom|location} by {6 degrees|temperature}
+increase {bathroom|location} heat a tiny bit
+warm up {living room|location} by a tiny bit
+make it {4|temperature} warmer in the {kitchen|location}
+crank up {bathroom|location} heater by just a tiny bit
+crank up the {bathroom|location} thermostat by {1|temperature}
+heat higher here by {5|temperature}
+crank up the {living room|location} temp {3 degrees|temperature}
+warm up {kitchen|location} by {1 degree|temperature}
+heat up {bathroom|location} a small amount
+increase the {kitchen|location} heater by {4|temperature}
+turn up the thermostat in here
+raise the {living room|location} thermostat {6|temperature}
+increase {bedroom|location} temp {4|temperature}
+crank up the {kitchen|location} temp
+warm up {bathroom|location} by a little bit
+increase {living room|location} thermostat {2 degrees|temperature}
+thermostat up in {all|all} the rooms {6 degrees|temperature}
+bump up the {bathroom|location} thermostat by {2|temperature}
+turn up thermostat
+crank up the {bedroom|location} heating by {5 degrees|temperature}
+warm up the {bedroom|location} a little bit
+increase the heat by a small amount
+warm up {bathroom|location} by just a bit
+crank up the {bathroom|location} temp by a little
+make it just a bit hotter
+bump up {bedroom|location} heater just a tiny bit
