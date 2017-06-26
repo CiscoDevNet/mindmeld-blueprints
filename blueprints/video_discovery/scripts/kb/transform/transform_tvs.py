@@ -2,9 +2,9 @@ import luigi
 import sys
 import json
 
-from .commons import get_director, get_names
+from .commons import get_director, get_names, get_poster_img_url
 from .commons import TransformDocuments
-from .constants import POSTER_IMG_URL, TYPE_TV
+from .constants import TYPE_TV
 
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
@@ -31,8 +31,10 @@ class TransformTVs(TransformDocuments):
                     'vote_count': tv_obj.get('vote_count'),
                     'vote_average': tv_obj.get('vote_average'),
                     'release_date': tv_obj.get('first_air_date'),
-                    'runtime': tv_obj.get('runtime'),  # TODO: check episode data
-                    'img_url': POSTER_IMG_URL + tv_obj.get('poster_path', ''),
+                    'runtime': tv_obj.get('runtime'),
+                    'number_of_seasons': tv_obj.get('number_of_seasons'),
+                    'number_of_episodes': tv_obj.get('number_of_episodes'),
+                    'img_url': get_poster_img_url(tv_obj.get('poster_path', '')),
                 }
                 line = json.dumps(transformed_tv_obj, fout, sort_keys=True)
                 fout.write(line + '\n')

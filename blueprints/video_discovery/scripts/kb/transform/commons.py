@@ -3,6 +3,8 @@ import luigi
 import sys
 import os
 
+from .constants import POSTER_IMG_URL
+
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
 from utils import dump_json, load_json, load_plain_json  # noqa: F401
@@ -83,3 +85,10 @@ def get_director(raw_crew):
     candidates = [obj['name'] for obj in raw_crew if obj.get('job') == 'Director']
     if candidates:
         return candidates[0]
+
+
+def get_poster_img_url(poster_path):
+    if not poster_path:
+        return ''
+    else:
+        return POSTER_IMG_URL + poster_path
