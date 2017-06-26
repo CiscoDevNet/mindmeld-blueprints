@@ -74,12 +74,11 @@ class TransformEpisodes(VideoDataProcessingTask):
             for episode_num in range(1, episode_count + 1):
                 episode_obj = copy.deepcopy(base_tv_obj)
                 episode_obj.update({
-                    'id': get_episode_id(season_obj.get('id', '0'),
-                                         season_obj.get('season_number', '')),
+                    'id': get_episode_id(season_obj.get('id', '0'), episode_num),
                     'season_number': season_obj.get('season_number'),
                     'episode_number': episode_num,
                     'img_url': get_poster_img_url(season_obj.get('poster_path', '')),
-                    'release_date': season_obj.get('first_air_date'),
+                    'release_date': season_obj.get('air_date'),
                 })
                 ep_objs.append(episode_obj)
         return ep_objs
