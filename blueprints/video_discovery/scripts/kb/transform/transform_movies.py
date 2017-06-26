@@ -7,7 +7,7 @@ from .commons import TransformDocuments
 from .constants import POSTER_IMG_URL
 
 sys.path.append('..')
-from barista_task import BaristaDataProcessingTask  # noqa: F401
+from video_task import VideoDataProcessingTask  # noqa: F401
 from utils import load_json  # noqa: F401
 
 

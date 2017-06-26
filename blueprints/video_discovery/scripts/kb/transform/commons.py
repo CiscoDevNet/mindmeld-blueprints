@@ -4,12 +4,12 @@ import sys
 import os
 
 sys.path.append('..')
-from barista_task import BaristaDataProcessingTask  # noqa: F401
+from video_task import VideoDataProcessingTask  # noqa: F401
 from utils import dump_json, load_json, load_plain_json  # noqa: F401
 from libs.tasks import ReadLocalFile  # noqa: F401
 
 
-class MergeCredit(BaristaDataProcessingTask):
+class MergeCredit(VideoDataProcessingTask):
     doc_id = luigi.Parameter()
     doc_type = luigi.Parameter()
     detail_dir = luigi.Parameter()
@@ -43,7 +43,7 @@ class MergeTVInfo(MergeCredit):
     pass
 
 
-class TransformDocuments(BaristaDataProcessingTask):
+class TransformDocuments(VideoDataProcessingTask):
     input_file = luigi.Parameter()
     doc_type = luigi.Parameter()
 

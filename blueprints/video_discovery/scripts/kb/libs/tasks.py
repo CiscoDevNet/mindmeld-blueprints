@@ -17,7 +17,7 @@ class DataProcessingTask(luigi.Task):
     target = luigi.Parameter(default='local')
     output_dir = luigi.Parameter(default='out/')
     # TODO: remove app logic
-    app_name = luigi.Parameter(default='video-discovery')
+    app_name = luigi.Parameter(default='default-app')
 
     def get_output_target(self, filename):
         if self.target == 's3':
@@ -43,12 +43,6 @@ class DataProcessingTask(luigi.Task):
 
 class CrawlWebPage(DataProcessingTask):
     """
-    This task downloads metric logs from S3.
-    Format of path is:
-        s3://mindmeld-metrics/<app-name>/<env>/yyyy_mm_dd_<env>.json.gz
-    Example:
-        s3://mindmeld-metrics/uniqlo/dev/2016_10_07_dev.jsonl.gz
-
     """
     output_filename = luigi.Parameter(default='default_out')
     url = luigi.Parameter()
@@ -70,12 +64,6 @@ class CrawlWebPage(DataProcessingTask):
 
 class RequestAPI(DataProcessingTask):
     """
-    This task downloads metric logs from S3.
-    Format of path is:
-        s3://mindmeld-metrics/<app-name>/<env>/yyyy_mm_dd_<env>.json.gz
-    Example:
-        s3://mindmeld-metrics/uniqlo/dev/2016_10_07_dev.jsonl.gz
-
     """
     output_filename = luigi.Parameter(default='default_out')
     url = luigi.Parameter()

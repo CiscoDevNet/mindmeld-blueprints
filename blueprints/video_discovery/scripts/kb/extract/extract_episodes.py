@@ -5,7 +5,7 @@ import sys
 from .commons import GetTMDB
 
 sys.path.append('..')
-from barista_task import BaristaDataProcessingTask  # noqa: F401
+from video_task import VideoDataProcessingTask  # noqa: F401
 from libs.tasks import RequestAPI  # noqa: F401
 from utils import load_plain_json  # noqa: F401
 
