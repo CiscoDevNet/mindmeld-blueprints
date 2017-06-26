@@ -40,10 +40,9 @@ class ExtractEpisodes(luigi.WrapperTask):
         yield GetEpisodes()
 
 
-class ExtractAll(luigi.WrapperTask):
+class ExtractTMDB(luigi.WrapperTask):
     def requires(self):
         return [ExtractDetails(), ExtractCredits()]
-        # return [ExtractDetails(), ExtractCredits(), ExtractEpisodes()]
 
 
 if __name__ == '__main__':

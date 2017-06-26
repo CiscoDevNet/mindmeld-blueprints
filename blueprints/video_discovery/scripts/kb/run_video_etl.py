@@ -1,7 +1,7 @@
 import luigi
 
 from libs.run_etl import RunETL
-from extract_tmdb import ExtractTMDB
+from extract.extract_tmdb import ExtractTMDB
 from transform.transform_tmdb import TransformTMDB
 
 
