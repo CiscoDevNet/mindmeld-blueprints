@@ -1,46 +1,39 @@
 import logging
 import luigi
 import sys
+import json
 
-from .commons import GetTMDB
+from .commons import API_KEY
 
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
-from libs.tasks import RequestAPI  # noqa: F401
+from libs.tasks import request_api  # noqa: F401
 from utils import load_plain_json  # noqa: F401
 
 
-class GetCredits(GetTMDB):
-    """
-    Get the credits of a single tv/movie.
-    """
-    doc_type = luigi.Parameter()
-    doc_id = luigi.Parameter()
-
-    def requires(self):
-        output_filename = '{}_{}.json'.format(self.doc_type, self.doc_id)
-        url = '{:s}/{:d}/credits?api_key={:s}'.format(self.tmdb_endpoint, self.doc_id, self.api_key)
-        return RequestAPI(url=url,
-                          output_dir=self.output_dir,
-                          output_filename=output_filename)
-
-
-class GetAllCredits(luigi.WrapperTask):
+class GetAllCredits(VideoDataProcessingTask):
     input_file = luigi.Parameter()
     doc_type = luigi.Parameter()
     tmdb_endpoint = luigi.Parameter()
     output_dir = luigi.Parameter()
 
-    def requires(self):
+    def run(self):
         doc_ids = load_plain_json(self.input_file)
         logging.info('Getting {:d} {} credits...'.format(len(doc_ids), self.doc_type))
-        return [
-            GetCredits(tmdb_endpoint=self.tmdb_endpoint,
-                       output_dir=self.output_dir,
-                       doc_type=self.doc_type,
-                       doc_id=doc_id)
-            for doc_id in doc_ids
-        ]
+
+        fout = self.output().open('w')
+        for doc_id in doc_ids:
+            url = '{:s}/{:d}/credits?api_key={:s}'.format(self.tmdb_endpoint, doc_id, API_KEY)
+            response = request_api(url)
+            if not response:
+                continue
+            line = '{}\n'.format(json.dumps(response.json(), sort_keys=True))
+            fout.write(line)
+        fout.close()
+
+    def output(self):
+        filename = '{}_credits.jsonl'.format(self.doc_type)
+        return self.get_output_target(filename)
 
 
 class GetMovieCredits(GetAllCredits):

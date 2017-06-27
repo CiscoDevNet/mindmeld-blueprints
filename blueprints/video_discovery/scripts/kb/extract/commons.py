@@ -1,9 +1,10 @@
 import os
 import luigi
+API_KEY = os.environ['TMDB_API_KEY']
 
 
 class GetTMDB(luigi.Task):
-    api_key = os.environ['TMDB_API_KEY']
+    api_key = API_KEY
     tmdb_endpoint = luigi.Parameter()
     output_dir = luigi.Parameter()
 

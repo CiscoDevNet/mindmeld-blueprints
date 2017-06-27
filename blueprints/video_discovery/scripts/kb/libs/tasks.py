@@ -81,6 +81,16 @@ class RequestAPI(DataProcessingTask):
         return self.get_output_target(self.output_filename)
 
 
+def request_api(url):
+    logging.info('Requesting API from {}...'.format(url))
+    response = requests.get(url)
+    if response.status_code != 200:
+        logging.error('Error {} when requesting {}! :('.format(response.status_code, url))
+        return
+    time.sleep(SLEEP_TIME)
+    return response
+
+
 class ReadLocalFile(luigi.Task):
     file_path = luigi.Parameter()
 

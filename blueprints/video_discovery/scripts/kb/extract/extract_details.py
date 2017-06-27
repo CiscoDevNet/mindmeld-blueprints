@@ -1,50 +1,40 @@
 import logging
 import luigi
 import sys
+import json
 
-from .commons import GetTMDB
+from .commons import API_KEY
 
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
 from libs.tasks import ReadLocalDir  # noqa: F401
-from libs.tasks import RequestAPI  # noqa: F401
+from libs.tasks import request_api  # noqa: F401
 from utils import dump_json, load_json, load_plain_json  # noqa: F401
 
 
-class GetDetail(GetTMDB):
-    """
-    Get the detail of a single tv/movie.
-    """
-    doc_type = luigi.Parameter()
-    doc_id = luigi.Parameter()
-
-    def requires(self):
-        output_filename = '{}_{}.json'.format(self.doc_type, self.doc_id)
-        url = '{:s}/{:d}?api_key={:s}'.format(self.tmdb_endpoint, self.doc_id, self.api_key)
-        return RequestAPI(url=url,
-                          output_dir=self.output_dir,
-                          output_filename=output_filename)
-
-
-class GetDetails(luigi.Task):
+class GetDetails(VideoDataProcessingTask):
     input_file = luigi.Parameter()
     doc_type = luigi.Parameter()
     tmdb_endpoint = luigi.Parameter()
     output_dir = luigi.Parameter()
 
-    def requires(self):
+    def run(self):
         doc_ids = load_plain_json(self.input_file)
         logging.info('Getting {:d} {} details...'.format(len(doc_ids), self.doc_type))
-        return [
-            GetDetail(tmdb_endpoint=self.tmdb_endpoint,
-                      output_dir=self.output_dir,
-                      doc_type=self.doc_type,
-                      doc_id=doc_id)
-            for doc_id in doc_ids
-        ]
+
+        fout = self.output().open('w')
+        for doc_id in doc_ids:
+            url = '{:s}/{:d}?api_key={:s}'.format(self.tmdb_endpoint, doc_id, API_KEY)
+            response = request_api(url)
+            if not response:
+                continue
+            line = '{}\n'.format(json.dumps(response.json(), sort_keys=True))
+            fout.write(line)
+        fout.close()
 
     def output(self):
-        return self.input()
+        filename = '{}_details.jsonl'.format(self.doc_type)
+        return self.get_output_target(filename)
 
 
 class GetMovieDetails(GetDetails):
@@ -76,7 +66,7 @@ class ExtractTVDetails(VideoDataProcessingTask):
         dump_json(self.output(), episode_info)
 
     @staticmethod
-    def _extract_episodes(tv_targets):
+    def _extract_episodes(tv_details):
         """
         [
             {
@@ -95,18 +85,21 @@ class ExtractTVDetails(VideoDataProcessingTask):
         ]
         """
         episodes_info = []
-        for target in tv_targets:
-            tv_obj = load_json(target)
-            season_info = tv_obj.get('seasons', [])
-            if not season_info:
-                continue
-            for season in season_info:
-                episodes_info.append({
-                    'tv_id': tv_obj['id'],
-                    'name': tv_obj['name'],
-                    'season_number': season['season_number'],
-                    'episode_count': season['episode_count'],
-                })
+
+        # for target in tv_details:
+        with tv_details.open('r') as fin:
+            for line in fin:
+                tv_obj = json.loads(line)
+                season_info = tv_obj.get('seasons', [])
+                if not season_info:
+                    continue
+                for season in season_info:
+                    episodes_info.append({
+                        'tv_id': tv_obj['id'],
+                        'name': tv_obj['name'],
+                        'season_number': season['season_number'],
+                        'episode_count': season['episode_count'],
+                    })
         return episodes_info
 
 
