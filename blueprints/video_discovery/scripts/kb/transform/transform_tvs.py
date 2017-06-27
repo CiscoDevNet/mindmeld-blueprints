@@ -21,7 +21,7 @@ class TransformTVs(TransformDocuments):
                 tv_obj = load_json(in_target)
                 transformed_tv_obj = {
                     'type': TYPE_TV,
-                    'title': tv_obj['name'],  # To be consistent with movies
+                    'title': tv_obj.get('name', ''),  # To be consistent with movies
                     'id': tv_obj['id'],
                     'overview': tv_obj.get('overview'),
                     'genres': get_names(tv_obj.get('genres', [])),

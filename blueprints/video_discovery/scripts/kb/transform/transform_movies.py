@@ -2,9 +2,9 @@ import luigi
 import sys
 import json
 
-from .commons import get_director, get_names
+from .commons import get_director, get_names, get_poster_img_url
 from .commons import TransformDocuments
-from .constants import POSTER_IMG_URL, TYPE_MOVIE
+from .constants import TYPE_MOVIE
 
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
@@ -33,7 +33,7 @@ class TransformMovies(TransformDocuments):
                     'vote_average': movie_obj.get('vote_average'),
                     'release_date': movie_obj.get('release_date'),
                     'runtime': movie_obj.get('runtime'),
-                    'img_url': POSTER_IMG_URL + movie_obj.get('poster_path', ''),
+                    'img_url': get_poster_img_url(movie_obj.get('poster_path', '')),
                 }
                 line = json.dumps(transformed_movie_obj, fout, sort_keys=True)
                 fout.write(line + '\n')
