@@ -92,4 +92,5 @@ ENV/
 .generated
 
 # Crawled Data
-blueprints/video_discovery/scripts/kb/output_data/
+blueprints/video_discovery/scripts/kb/output_data*
+blueprints/video_discovery/scripts/kb/log*
