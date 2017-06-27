@@ -2,7 +2,9 @@
 """This module contains the Workbench home assistant blueprint application"""
 from __future__ import unicode_literals
 from mmworkbench import Application
+from urllib.request import urlopen
 import json
+import os
 
 app = Application(__name__)
 
@@ -11,62 +13,35 @@ def check_weather(context, slots, responder):
     """
     When the user asks for weather, return the weather in that location or use San Francisco if no location given
     """
-
-    selected_location = None
-    selected_unit = None
-    current_location_coordinates = None
+    # Check to make sure API key is present, if not tell them to follow setup instructions
+    try:
+        openweather_api_key = os.environ['OPEN_WEATHER_KEY']
+    except:
+        reply = "Open weather API is not setup, please follow instructions to setup the API."
+        responder.reply(reply)
 
     # Check for user's requested city and temperature unit
     location_entity = next((e for e in context['entities'] if e['type'] == 'city'), None)
     unit_entity = next((e for e in context['entities'] if e['type'] == 'unit'), None)
 
-    # Use user location if location is none
-    if location_entity:
-        selected_location = _kb_fetch('cities', location_entity['value'][0]['id'])
-    else:
-        # Option 1: Prompt them for location if it cannot be determined
-        # try:
-        #     current_location_coordinates = context['request']['session']['location']
-        #
-        # except KeyError:
-        #
-        #     responder.prompt("I couldn't figure out where you are, what city would you like the weather for?")
-        #     return
-
-        # Option 2: Default to San Francisco
-        selected_location = 'San Francisco'
-
+    # Get the location the user wants
+    selected_location = _get_location(location_entity)
     # Figure out which unit the user wants information in
-    if unit_entity:
-        selected_unit = _kb_fetch('units', unit_entity['value'][0]['id'])
-        context['frame']['unit'] = selected_unit
-    else:
-        # Default to Fahrenheit
-        selected_unit = 'Fahrenheit'
+    selected_unit = _get_unit(unit_entity)
 
-    # TODO - Is this necessary for this type of flow?
-    context['frame']['city'] = selected_location
-    context['frame']['unit'] = selected_unit
+    # Get weather information via the API
+    url_string = _construct_weather_api_url(selected_location, selected_unit, openweather_api_key)
+    try:
+        weather_info = json.load(urlopen(url_string))
+    except:
+        reply = "Sorry, I was unable to connect to the weather API, please check your connection."
+        responder.reply(reply)
 
-    # Construct the api url to get the weather information
-    base_string = "http://api.openweathermap.org/data/2.5/weather"
-    api_key_string = "&appid=9a648df5a003b74f815f0d3f27a5be84"
-    unit_key_string = '&units='
-    if selected_unit=='Celcius':
-        unit_key_string += 'metric'
-    else:
-        unit_key_string += 'imperial'
-
-    if selected_location: # City
-        location_string = "?q=" + selected_location.replace(" ", "+")
-    else: # Coordinates
-        location_string = "?lat={}&lon={}".format(current_location_coordinates['lat'], current_location_coordinates['lon'])
-
-    url = base_string + api_key_string + unit_key_string + location_string
-    weather_info = json.load(url)
-
-    if weather_info['message'] == 'city not found':
-        reply = "Sorry, I wasn't able to recognize that city"
+    if weather_info['cod'] == '404':
+        reply = "Sorry, I wasn't able to recognize that city."
+        responder.reply(reply)
+    elif weather_info['cod'] == '401':
+        reply = "Sorry, the API key is invalid."
         responder.reply(reply)
     else:
         slots['city'] = weather_info['name']
@@ -82,19 +57,54 @@ def default(context, slots, responder):
     prompts = ["Sorry, not sure what you meant there."]
     responder.prompt(prompts)
 
-def _kb_fetch(kb_index, kb_id):
+def _construct_weather_api_url(selected_location, selected_unit, openweather_api_key):
+    base_string = "http://api.openweathermap.org/data/2.5/weather"
+    api_key_string = "&appid=" + openweather_api_key
+    location_string = "?q=" + selected_location.replace(" ", "+")
+    unit_key_string = '&units='
+    if selected_unit=='Celcius':
+        unit_key_string += 'metric'
+    else:
+        unit_key_string += 'imperial'
+
+    url_string = base_string + api_key_string + unit_key_string + location_string
+    return url_string
+
+def _get_unit(unit_entity):
     """
-    Retrieve the detailed knowledge base entry for a given ID from the specified index.
+    Get's the user desired temperature unit from the query, defaulting to Fahrenheit if none provided
 
     Args:
-        index (str): The knowledge base index to query
-        id (str): Identifier for a specific entry in the index
+        unit_entity (entity):
 
     Returns:
-        dict: The full knowledge base entry corresponding to the given ID.
+        string: resolved temperature unit entity
     """
-    return app.question_answerer.get(index=kb_index, id=kb_id)[0]
+    if unit_entity:
+        selected_unit = app.question_answerer.get(index='units', id=unit_entity['value'][0]['id'])[0]
+    else:
+        # Default to Fahrenheit
+        selected_unit = 'Fahrenheit'
 
+    return selected_unit
+
+def _get_location(location_entity):
+    """
+    Get's the user location from the query, defaulting to San Francisco if none provided
+
+    Args:
+        location_entity (entity):
+
+    Returns:
+        string: resolved location entity
+    """
+    if location_entity:
+        selected_location = app.question_answerer.get(index='cities', id=location_entity['value'][0]['id'])[0]
+    else:
+        #
+        selected_location = 'San Francisco'
+
+    return selected_location
 
 if __name__ == '__main__':
     app.cli()
