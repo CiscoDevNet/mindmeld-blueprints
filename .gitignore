@@ -93,3 +93,6 @@ ENV/
 
 # OS file
 .DS_Store
+
+# Pycharm
+.idea/
