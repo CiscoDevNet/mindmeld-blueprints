@@ -1,8 +1,8 @@
-change my {6 am|sys:time|old_time} alarm
-change my {6 am|sys:time|old_time} alarm to {7 am|sys:time|new_time}
-move my {6 am|sys:time|old_time} alarm to {tomorrow at 8am|sys:time|new_time}
-switch my {6 am|sys:time|old_time} alarm to {friday at noon|sys:time|new_time}
-reschedule my {6 am|sys:time|old_time} alarm to {tomorrow morning at 10|sys:time|new_time}
-change my {6 am|sys:time|old_time} alarm to {7pm in the evening|sys:time|new_time}
-move my {6 am|sys:time|old_time} alarm to {3pm in the afternoon|sys:time|new_time}
-change my alarm from {6 am|sys:time|old_time} to {7 am|sys:time|new_time}
+change my {6 am|sys_time|old_time} alarm
+change my {6 am|sys_time|old_time} alarm to {7 am|sys_time|new_time}
+move my {6 am|sys_time|old_time} alarm to {tomorrow at 8am|sys_time|new_time}
+switch my {6 am|sys_time|old_time} alarm to {friday at noon|sys_time|new_time}
+reschedule my {6 am|sys_time|old_time} alarm to {tomorrow morning at 10|sys_time|new_time}
+change my {6 am|sys_time|old_time} alarm to {7pm in the evening|sys_time|new_time}
+move my {6 am|sys_time|old_time} alarm to {3pm in the afternoon|sys_time|new_time}
+change my alarm from {6 am|sys_time|old_time} to {7 am|sys_time|new_time}
