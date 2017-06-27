@@ -15,25 +15,28 @@ class TransformMovies(TransformDocuments):
     input_file = luigi.Parameter()
 
     @staticmethod
-    def transform(in_targets, out_target):
-        with out_target.open('w') as fout:
-            for in_target in in_targets:
-                movie_obj = load_json(in_target)
-                transformed_movie_obj = {
-                    'type': TYPE_MOVIE,
-                    'title': movie_obj['title'],
-                    'id': movie_obj['id'],
-                    'imdb_id': movie_obj.get('imdb_id'),
-                    'overview': movie_obj.get('overview'),
-                    'genres': get_names(movie_obj.get('genres', [])),
-                    'casts': get_names(movie_obj.get('cast', [])),
-                    'director': get_director(movie_obj.get('crew', [])),
-                    'popularity': movie_obj.get('popularity'),
-                    'vote_count': movie_obj.get('vote_count'),
-                    'vote_average': movie_obj.get('vote_average'),
-                    'release_date': movie_obj.get('release_date'),
-                    'runtime': movie_obj.get('runtime'),
-                    'img_url': get_poster_img_url(movie_obj.get('poster_path', '')),
-                }
-                line = json.dumps(transformed_movie_obj, fout, sort_keys=True)
-                fout.write(line + '\n')
+    def transform(in_target, out_target):
+        fout = out_target.open('w')
+        fin = in_target.open('r')
+        for line in fin:
+            movie_obj = json.loads(line)
+            transformed_movie_obj = {
+                'type': TYPE_MOVIE,
+                'title': movie_obj['title'],
+                'id': movie_obj['id'],
+                'imdb_id': movie_obj.get('imdb_id'),
+                'overview': movie_obj.get('overview'),
+                'genres': get_names(movie_obj.get('genres', [])),
+                'casts': get_names(movie_obj.get('cast', [])),
+                'director': get_director(movie_obj.get('crew', [])),
+                'popularity': movie_obj.get('popularity'),
+                'vote_count': movie_obj.get('vote_count'),
+                'vote_average': movie_obj.get('vote_average'),
+                'release_date': movie_obj.get('release_date'),
+                'runtime': movie_obj.get('runtime'),
+                'img_url': get_poster_img_url(movie_obj.get('poster_path', '')),
+            }
+            line = json.dumps(transformed_movie_obj, fout, sort_keys=True)
+            fout.write(line + '\n')
+        fout.close()
+        fin.close()

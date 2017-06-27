@@ -14,46 +14,47 @@ from libs.tasks import ReadLocalDir  # noqa: F401
 
 class TransformEpisodes(VideoDataProcessingTask):
     doc_type = luigi.Parameter()
-    input_dir = luigi.Parameter()
-
-    def requires(self):
-        return ReadLocalDir(input_dir=self.input_dir)
+    input_file = luigi.Parameter()
 
     def output(self):
         filename = u'transformed_{}s.jsonl'.format(self.doc_type)
         return self.get_output_target(filename)
 
     def run(self):
-        self.transform(self.input(), self.output())
+        self.transform(self.input_file, self.output())
 
     @staticmethod
-    def transform(in_targets, out_target):
-        with out_target.open('w') as fout:
-            for in_target in in_targets:
-                tv_obj = load_json(in_target)
+    def transform(input_file, out_target):
 
-                # Use values in TV objects as default values of episode objects.
-                base_tv_obj = {
-                    'type': TYPE_EPISODE,
-                    'title': tv_obj['name'],  # To be consistent with movies
-                    'parent_id': tv_obj['id'],
-                    'overview': tv_obj.get('overview'),
-                    'genres': get_names(tv_obj.get('genres', [])),
-                    'casts': get_names(tv_obj.get('cast', [])),
-                    'director': get_director(tv_obj.get('crew', [])),
-                    'popularity': tv_obj.get('popularity'),
-                    'vote_count': tv_obj.get('vote_count'),
-                    'vote_average': tv_obj.get('vote_average'),
-                    'release_date': tv_obj.get('first_air_date'),
-                    'runtime': tv_obj.get('runtime'),
-                    'number_of_seasons': tv_obj.get('number_of_seasons'),
-                    'number_of_episodes': tv_obj.get('number_of_episodes'),
-                    'img_url': get_poster_img_url(tv_obj.get('poster_path', '')),
-                }
-                ep_objs = TransformEpisodes._get_episodes(tv_obj.get('seasons'), base_tv_obj)
-                for ep_obj in ep_objs:
-                    line = json.dumps(ep_obj, fout, sort_keys=True)
-                    fout.write(line + '\n')
+        fout = out_target.open('w')
+        fin = open(input_file, 'r')
+        for line in fin:
+            tv_obj = json.loads(line)
+
+            # Use values in TV objects as default values of episode objects.
+            base_tv_obj = {
+                'type': TYPE_EPISODE,
+                'title': tv_obj['name'],  # To be consistent with movies
+                'parent_id': tv_obj['id'],
+                'overview': tv_obj.get('overview'),
+                'genres': get_names(tv_obj.get('genres', [])),
+                'casts': get_names(tv_obj.get('cast', [])),
+                'director': get_director(tv_obj.get('crew', [])),
+                'popularity': tv_obj.get('popularity'),
+                'vote_count': tv_obj.get('vote_count'),
+                'vote_average': tv_obj.get('vote_average'),
+                'release_date': tv_obj.get('first_air_date'),
+                'runtime': tv_obj.get('runtime'),
+                'number_of_seasons': tv_obj.get('number_of_seasons'),
+                'number_of_episodes': tv_obj.get('number_of_episodes'),
+                'img_url': get_poster_img_url(tv_obj.get('poster_path', '')),
+            }
+            ep_objs = TransformEpisodes._get_episodes(tv_obj.get('seasons'), base_tv_obj)
+            for ep_obj in ep_objs:
+                line = json.dumps(ep_obj, fout, sort_keys=True)
+                fout.write(line + '\n')
+        fout.close()
+        fin.close()
 
     @staticmethod
     def _get_episodes(season_objs, base_tv_obj):

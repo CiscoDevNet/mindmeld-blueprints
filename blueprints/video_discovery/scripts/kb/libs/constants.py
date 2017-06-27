@@ -1,2 +1,2 @@
 # Sleeping time between requests
-SLEEP_TIME = 0.2
+SLEEP_TIME = 0.01

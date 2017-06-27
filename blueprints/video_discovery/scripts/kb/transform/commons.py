@@ -1,7 +1,7 @@
 import logging
 import luigi
 import sys
-import os
+import json
 
 from .constants import POSTER_IMG_URL
 
@@ -11,30 +11,44 @@ from utils import dump_json, load_json, load_plain_json  # noqa: F401
 from libs.tasks import ReadLocalFile  # noqa: F401
 
 
+def load_credits(credit_file):
+    objs = []
+    with open(credit_file, 'r') as fp:
+        for line in fp:
+            objs.append(json.loads(line))
+    logging.info('Got {} credits from {}'.format(len(objs), credit_file))
+    return {
+        obj['id']: obj
+        for obj in objs
+    }
+
+
 class MergeCredit(VideoDataProcessingTask):
-    doc_id = luigi.Parameter()
     doc_type = luigi.Parameter()
-    detail_dir = luigi.Parameter()
-    credit_dir = luigi.Parameter()
+    detail_file = luigi.Parameter()
+    credit_file = luigi.Parameter()
     output_dir = luigi.Parameter()
 
-    def requires(self):
-        filename = u'{}_{}.json'.format(self.doc_type, self.doc_id)
-        detail_file = os.path.join(self.detail_dir, filename)
-        credit_file = os.path.join(self.credit_dir, filename)
-
-        return [ReadLocalFile(file_path=detail_file), ReadLocalFile(file_path=credit_file)]
-
     def output(self):
-        filename = u'{}_{}.json'.format(self.doc_type, self.doc_id)
+        filename = u'{}_merged.jsonl'.format(self.doc_type)
         return self.get_output_target(filename)
 
     def run(self):
-        detail = load_json(self.input()[0])
-        credit = load_json(self.input()[1])
-
-        detail.update(credit)
-        dump_json(self.output(), detail)
+        credit_dict = load_credits(self.credit_file)
+        fin = open(self.detail_file, 'r')
+        fout = self.output().open('w')
+        for line in fin:
+            detail = json.loads(line)
+            detail_id = detail['id']
+            credit_obj = credit_dict.get(detail_id)
+            if not credit_obj:
+                logging.error('Cannot find credit for {} {}.'.format(self.doc_type, detail_id))
+                continue
+            detail.update(credit_obj)
+            new_line = '{}\n'.format(json.dumps(detail, sort_keys=True))
+            fout.write(new_line)
+        fin.close()
+        fout.close()
 
 
 class MergeMovieInfo(MergeCredit):
@@ -46,7 +60,6 @@ class MergeTVInfo(MergeCredit):
 
 
 class TransformDocuments(VideoDataProcessingTask):
-    input_file = luigi.Parameter()
     doc_type = luigi.Parameter()
 
     def requires(self):
@@ -55,12 +68,8 @@ class TransformDocuments(VideoDataProcessingTask):
         elif self.doc_type == 'tv':
             mergeTask = MergeTVInfo
 
-        doc_ids = load_plain_json(self.input_file)
-        logging.info('Getting {:d} {}...'.format(len(doc_ids), self.doc_type))
-        return [
-            mergeTask(doc_id=doc_id)
-            for doc_id in doc_ids
-        ]
+        # logging.info('Getting {:d} {}...'.format(len(doc_ids), self.doc_type))
+        return mergeTask()
 
     def output(self):
         filename = u'transformed_{}s.jsonl'.format(self.doc_type)
