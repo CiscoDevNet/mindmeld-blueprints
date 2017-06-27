@@ -1,0 +1,26 @@
+Crime	6874
+Romance	222
+Animation	10814
+Music	6
+Comedy	18767
+Soap	15248
+Horror	290
+War	4
+Science Fiction	436
+Western	100
+News	5400
+Thriller	655
+Adventure	545
+Mystery	5232
+Kids	1178
+Drama	30404
+Action	726
+Reality	2868
+Documentary	1374
+Talk	970
+History	4
+Family	4204
+Action & Adventure	11519
+Sci-Fi & Fantasy	9773
+War & Politics	126
+Fantasy	571
