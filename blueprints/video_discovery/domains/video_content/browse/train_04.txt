@@ -1,500 +1,500 @@
-i want to watch a {movie|type} from {james cameron|director}
-show me {sandra bullock|cast} {movies|type}
-show me some {matt damon|cast} {movies|type}
-show me {movies|type} with {pierce brosnan|cast}
-{movies|type} with music by elton john
-{action|genre} {movies|type}
-{jackie chan|cast} {films|type}
-show me {pulp fiction|title}
-{movies|type} with {richard dawkins|cast}
-{clueless|title}
-show me some {movies|type} directed by {woody allen|director}
-show me {movies|type} by {steven spielberg|director}
-show me {movie|type} directed by {james cameron|director}
-show me {movies|type} with {matt damon|cast} directed by {martin scorsese|director}
-what is the {movie|type} with {Angelina Jolie|cast} where her character's name is Lara Croft
-{contact|title}
-{melissa smith|cast} {movies|type}
-show me {movies|type} directed by {martin scorsese|director} that also have {leonardo dicaprio|cast}
-{friday|title}
-{wasabi|title}
-{terminator|title}
-show me {movies|type} with {morgan freeman|cast}
-imax {jurassic park|title} 3d
-{fear and loathing in las vegas|title}
-do you have any {movies|type} with {kevin bacon|cast}
-what {movies|type} has {keanu reeves|cast} played in
-show me the {movie|type} about boston red sox
-{bahubali|title}
-{american|country} {movies|type} from {will smith|cast}
-{mission impossible|title}
-show me any {science fiction|genre} {movie|type}
-{john goodman|cast} {movie|type}
-{robert downey jr|cast} {movie|type}
-{american sniper|title}
-what are some {harrison ford|cast} {movies|type}
-what {movies|type} are directed by {christopher nolan|director}
-show me {movies|type} from disney
-{funny|genre} {movies|type} with {kevin bacon|cast}
-{ray|title}
-{watership down|title}
-{star trek|title}
-show me {wes anderson|director} {movies|type}
-what was that {movie|type} with {bill murray|cast} in japan
-{matt damon|cast} {movies|type}
-show me some {movies|type} with {julia roberts|cast}
-{ted|title}
-show me some high tech {movies|type}
-what s the {highest rated|sort} {documentary|genre} about artificial intelligence
-what is the {movie|type} where {arnold schwarzenegger|cast} is a robot
-show me all the {movies|type} with {nicole kidman|cast}
-what {films|type} were directed by {m night shyamalan|director}
-i m looking for {movies|type} directed by {christopher nolan|director}
-{movies|type} about north korea
-show me the {avengers|title}
-{moon|title} the {movie|type}
-show me {movies|type} by {sylvester stallone|cast}
-show {recent|sort} {james cameron|director} {movies|type}
-what {movie|type} has {val kilmer|cast} and {al pacino|cast}
-what are some good {movies|type} for {children|genre}
-{fast and furious 7|title}
-show me some {crime dramas|genre}
-{movie|type} about a man who s on the television show 24 hours a day and doesn t know
-{heaven|title}
-what are all the {wes anderson|director} {movies|type}
-what s a good kung fu {movie|type}
-{milk|title}
-what is the {most reviewed|sort} {movie|type}
-what's a {top rated|sort} with a person from Scotland
-show me the {worst rated|sort} {movie|type} starring {clint eastwood|cast}
-{insidious 3|title}
-{furious 7|title}
-are there ones with science
-{movies|type} about christmas
-what {movie|type} did {clint eastwood|cast} make after unforgiven
-{movies|type} by {chiranjeevi|cast}
-{guardians of galaxy|title}
-what {movie|type} starring {sigourney weaver|cast} involved a big spaceship
-what {films|type} was {eddie murphy|cast} in
-which {movie|type} has {christian bale|cast}
-what s the name of the {movie|type} with the kid and an orca
-{movies|type} composed by john williams
-{martin scorsese|director} s {best reviewed|sort} {movies|type}
-show me a {tom hanks|cast} {movie|type}
-show me {old|sort} {movies|type}
-what are some good {robin williams|cast} {movies|type}
-what are the {highest rated|sort} disney {movies|type} available
-whats the {latest|sort} {sci fi|genre} {movie|type} available
-what other {movies|type} has {edward norton|cast} been the narrator
-which {movie|type} has the highest imdb rating
-are any of these {movies|type} rated r
-show me every {movie|type} {jack lemmon|cast} and {walter matthau|cast} have starred in together
-play {jamie lee curtis|cast} {first|sort} {movie|type}
-play the {lowest rated|sort} rotten tomatoes {film|type}
-what are some other {robert downey jr|cast} {movies|type}
-what is the {highest rated|sort} dinosaur {movie|type}
-all the {movies|type} with {matt damon|cast}
-list of all {war|genre} {movies|type} based on world war 2
-show me bloody {horror|genre} {movies|type}
-list all {sandra bullock|cast} {movies|type}
-show me {fantasy|genre} {movies|type} with dragons
-what are {stanley kubrick|cast} s {best rated|sort} {movies|type}
-i want to watch a {movie|type} with lots of sex but well written and good
-is there a {movie|type} with gory {animation|genre} in english
-i want to see {old|sort} {ken russell|director} {movies|type}
-what is your {top rated|sort} {movie|type}
-can you play {star wars|title}
-show me a {movie|type} with {william shatner|cast}
-do you have any {movies|type} with {sylvester stallone|cast}
-i want to see {william shatner|cast} s {best rated|sort} {movies|type}
-what was the name of {louis ck|cast} {latest|sort} {movie|type}
-play the {movie|type} where {john malkovich|cast} plays a russian gambler
-show me {popular|sort} {horror|genre} {movies|type}
-show me the {highest rated|sort} {comedies|genre}
-show me {newest releases|sort}
-play a {science fiction|genre} {movie|type} that is set in the distant future
-show me a {thriller|genre} that stars {jeff daniels|cast}
-show me {movies|type} about hiking the appalachian trail
-show me a {movie|type} about the boston red sox
-show me {movies|type} involving artificial intelligence
-show me {movies|type} directed by {joss whedon|director}
-what is the name of that {tarantino|director} {movie|type} with a female ninja
-show me {movies|type} that take place in iowa
-show me {popular|sort} {documentaries|genre}
-show me all {movies|type} with {tom cruise|cast} in them
-could you please show me {movies|type} that star {will ferrell|cast}
-i would like to know the {movie|type} that stars {keanu reeves|cast} where an intruder kills his dog
-show me {comedies|genre} starring {steve carell|cast}
-i want to see all {movies|type} starring {arnold schwarzenegger|cast}
-show me all seasons of {supernatural|title}
-what {movies|type} came out within the last week
-show me a list of {sandra bullock|cast} {movies|type}
-play me a zombie {movie|type}
-show me {movies|type} categorized as {comedy|genre}
-show me {movies|type} that {william shatner|cast} is in
-i wanna see {movies|type} about aliens
-{movies|type} with robots
-show me all {movies|type} directed by {tim burton|director}
-what is the {comedy|genre} with {tom hanks|cast} and the volcano
-show me {movies|type} filmed in hawaii
-bring up a {movie|type} with {doris day|cast}
-play a {movie|type} that {alfred hitchcock|director} directed
-i would like to watch a {movie|type} with {kate hudson|cast}
-play {audrey hepburn|cast} s {most popular|sort} {film|type}
-what is the {movie|type} with kids losing their dad s baseball
-show me {movies|type} with {taylor kitsch|cast}
-show me {classic|sort} {scary|genre} {movies|type}
-show me {movies|type} directed by {steven spielberg|director}
-i want to watch the {movie|type} with {michael j fox|cast} when he time travels
-show me every {john wayne|cast} {western|genre}
-show me every {movie|type} based on a true story
-show me {movies|type} with {jack black|cast}
-i want to see {james cameron|director} s {best rated|sort} {film|type}
-show me all the {movies|type} {joss whedon|cast} has had a cameo in
-show me {movies|type} {nathan fillion|cast} has appeared in
-show me the ten {best|sort} {movies|type} according to imdb
-show me a list of 4 to 5 star rated {action|genre} {movies|type}
-what are the {newest|sort} {movies|type} that were added
-{movies|type} that were directed by {j j abrams|director} and {james cameron|director}
-show me the list of pixar {movies|type}
-what are the {latest|sort} {movies|type}
-show me feel good {movies|type}
-show me {movie|type} suggestions based on my viewing history
-show me the {movie|type} in which {tom hanks|cast} is named forrest
-play me the {movie|type} in which {denzel washington|cast} is a psychiatrist
-i want to see the {movie|type} with {sean patrick thomas|cast} and {julia stiles|cast}
-show me a list of {action|genre} {movies|type} with female lead actresses
-play {christopher walken|cast} s {most recent|sort} release
-show me {mark wahlberg|cast} {films|type}
-play {quentin tarantino|director} {movies|type}
-list {jack nicholson|cast} {comedies|genre}
-show me some recent {highly rated|sort} {comedies|genre}
-what are the {best|sort} {new|sort} {documentaries|genre}
-i d like to see some {popular|sort} concert {movies|type} please
-find me cult international {classics|sort}
-what {movies|type} have {leonardo dicaprio|cast} and {christopher nolan|director} teaming up together
-show me the 100 {top rated|sort} {films|type} of all time
-show me all the {films|type} with {robin williams|cast}
-show me {adam sandler|cast} s {highest rated|sort} {film|type}
-i want to see one of {jack nicholson|cast} s {first|sort} {movies|type}
-i want to watch the {first|sort} {movie|type} {jim carrey|cast} starred in
-trailers
-i would like to see all {movies|type} with {tom hiddleston|cast}
-i want to see all the pixar {movies|type}
-a good {animated|genre} {movie|type} for 2 3 yr old
-show me {shia labeouf|cast} s {latest|sort} {movie|type}
-what is {leonardo dicaprio|cast} s most {critically acclaimed|sort} {film|type}
-show me {films|type} starring {jim carrey|cast}
-show me {animated|genre} {movies|type} with the most singing
-i want to see any {movie|type} with {mark wahlberg|cast}
-show me {martial arts|genre} {movies|type} starring {jean claude van damme|cast}
-play the {top rated|sort} {francis ford coppola|director} {film|type}
-i want to see {quentin tarantino|director} s {first|sort} {movie|type}
-play a {fantasy|genre} {movie|type} with a female lead
-show me all {movies|type} by studio ghibli
-show me all {recent|sort} {comedy|genre} {movies|type}
-show me {movies|type} with both {brad pitt|cast} and {george clooney|cast}
-i want a {recent|sort} indie {movie|type} in english with young hit actors and actresses
-find me all {drama|genre} {movies|type} that involve sports related plots
-show me the {movies|type} that star {michael j fox|cast}
-what is that {movie|type} with {goldie hawn|cast} where {chevy chase|cast} is her ex husband
-show me {movies|type} directed by {milos forman|director}
-play that {movie|type} with the do i amuse you line
-i want to see {stanley kubrick|director} {first|sort} {movie|type}
-show me {movies|type} with {ben stiller|cast}
-show me {new releases|sort}
+play {hocus pocus|title}
+play {heat|title} now
+put on {point break|title} {old|sort} one
+play {life of pi|title}
+start playing {eternal sunshine of the spotless mind|title}
+put on {ghost world|title}
+start {the wizard of oz|title}
+i want to watch {paddington|title} bear
+play {blade|title}
+launch {fear and loathing in las vegas|title}
+run {interstellar|title}
+can you launch {men in black|title} for me
+i want to see {the godfather|title}
+start {apocalypse now|title}
+put {rocky iv|title} on
+i want to watch {interstellar|title}
+play {lost in translation|title}
+i want to see {the martian|title}
+can you play {inception|title} for me
+i want {the conjuring|title}
+play {the godfather|title} with subtitles
+{the matrix|title} play
+start {the simpsons movie|title}
+show {movies|type} play {die hard|title}
+i want to watch {star wars return of the jedi|title}
+i want to watch {halloween|title}
+play the {shortest|sort} {movie|type} that {steven spielberg|director} directed
+show me the {last|sort} {film|type} that {robin williams|cast} starred in
+show me {hitchhiker s guide to the galaxy|title}
+show me {ghostbusters|title}
+play {caddyshack|title}
+please play me {fight club|title}
+i want to watch {cinderella|title}
+start {alice in wonderland|title}
+start playing {reservoir dogs|title}
+let s watch {pulp fiction|title}
+begin {jackie brown|title}
+start playing {legally blonde|title}
+queue up {clueless|title}
+get me {die hard 3|title}
+{movies|type} with attack in the title
+play {avatar|title} in 3 d high definition
+i want to see {silver linings playbook|title} please
+i want to watch {crouching tiger hidden dragon|title} in the original mandarin with english subtitles
+watch {pee-wee's big adventure|title}
+find {police academy|title} {films|type}
+can you please play {django unchained|title}
+play {dawn of the dead|title}
+show me {movies|type} in the {comedy|genre} genre
+let me see {legally blonde|title}
+i would like to watch {spider man|title}
+watch {casablanca|title}
+start the {corpse bride|title}
+list all {movies|type} with {bill murray|cast}
+play me {sleepy hollow|title} with {johnny depp|cast}
+i want to watch {big fish|title}
+i want to see {the shawshank redemption|title}
+play {harry potter and the deathly hallows|title}
+watch {the ring|title}
+show me {the penguins of madagascar|title}
+can i see {the princess bride|title}
+load {out cold|title}
+view {major league|title}
+play {love actually|title}
+watch {good will hunting|title}
+find me {harry potter and the prisoner of azkaban|title}
+play the {movie|type} {need for speed|title}
 show me {back to the future|title}
-show me the {best|sort} top ten {sci fi|genre} {movies|type}
-show me {movies|type} with dinosaurs
-show me all {movies|type} with {will smith|cast}
-what is the {movie|type} where {bill murray|cast} plays a character named bob
-show me {christopher nolan|director} {films|type}
-what {movie|type} has {leonardo dicaprio|cast} looking for diamonds
-i m in the mood for something creepy
-can you show me all the {movies|type} with dinosaurs
-show me {movies|type} with {jason statham|cast}
-show me {movies|type} with {jessica alba|cast}
-what {movies|type} was {elvis presley|cast} in
-what is {james dean|cast} s most famous {movie|type}
-show me a {movie|type} similar to {almost famous|title}
-{johnny depp|cast} {classic|sort}
-{robert de niro|cast} {thriller|genre}
-{al pacino|cast} {classic|sort} {movie|type}
-show {sci fi|genre} {movies|type}
-{movies|type} with beautiful actresses
-play me a {comedy|genre} or {romantic comedy|genre} {movie|type}
-show me {new|sort} {horror|genre} {movies|type}
-show me a {classic|sort}
-please show me every {edward norton|cast} {movie|type}
-what is the {movie|type} about a girl getting revenge on a pedophile
-show me a list of psychological {dramas|genre}
-show me {horror|genre} {movies|type}
-show me {vin diesel|cast} {movies|type}
-show me {tom hanks|cast} {movies|type}
-i want to see a {movie|type} with {matthew mcconaughey|cast} in it
-play a {movie|type} that {spielberg|director} directed
-find me a {movie|type} i would like
-show me a {horror|genre} {movie|type}
-show me the {top|sort} ten {movies|type} of all time
-show me some lgbt {movies|type}
-i want to see a {movie|type} with strong female characters
-show me {movies|type} with female directors
-i want a {recent|sort} {drama|genre} with time travel
-i want the {movie|type} with {reese witherspoon|cast} recently released
-i want to see the christian {movie|type} with an entire football team converted to become believers
-tell me all the {romance|genre} {movies|type} related to ireland
-what {action|genre} {movies|type} have {chris hemsworth|cast}
-show me all {joss whedon|director} {movies|type}
-show me {steven seagal|cast} {movies|type}
-show me {top rated|sort} {movies|type}
-show me {movies|type} directed by {clint eastwood|director}
-display the {highest rated|sort} {movies|type}
-i want to watch an {adam sandler|cast} {comedy|genre}
-i want to see {comedy|genre} {movies|type} starring {tom hanks|cast}
-play a {family friendly|genre} christmas {movie|type}
-play {star trek|title}
-what are the {newest|sort} {movies|type} out
-show me a {classic|sort} time travel {movie|type}
-what s the {most recent|sort} {movie|type} {bill murray|cast} has starred in
-show a {jason statham|cast} {movie|type}
-show me {action|genre} {movies|type} with {eddie murphy|cast}
-show me {sci fi|genre} {movies|type}
-show me sports {movies|type}
-what is {clint eastwood|cast} s only {musical|genre}
-how many zombie {comedy|genre} {movies|type} are there
-show me all {horror|genre} {movies|type}
-show me {movies|type} with the {best|sort}
-i want to see all {romantic comedies|genre}
-please provide me with all of {quentin tarantino|director} s {films|type}
-what {movie|type} has {molly ringwald|cast} and {emilio estevez|cast} in it as high school students in detention
-i want to see the {movie|type} based on a stephen king novel with {kathy bates|cast} in it
-show me {movies|type} with {george clooney|cast}
-what is the {movie|type} that shows {van damme|cast} totally naked in a mirror
-show me {whoopi goldberg|cast} s {latest|sort} {movie|type}
-i want to see a kung fu {movie|type} starring {jackie chan|cast}
-play a {new|sort} {sci fi|genre} {movie|type}
-play the {newest|sort} {j j abrams|director} {movie|type}
-show me {movies|type} with {nicolas cage|cast}
-i want to see all {movies|type} that cast {ben stiller|cast}
-what is the name of the {movie|type} where {johnny depp|cast} is evil barber
-show me all the {movies|type} starring {ben affleck|cast}
-what are {movies|type} starring {tom cruise|cast}
-what are some {movies|type} that are similar to {the visit|title}
-i d like to watch a {spielberg|director} {movie|type}
-show me the {first|sort} {movie|type} made by {christopher nolan|director}
-list the {top|sort} 15 christmas themed {movies|type}
-display {movies|type} that take place in paris
-show me {horror|genre} {movies|type} released between the years of 1970 and 1990
-is there a list of all pixar {animated|genre} {movies|type} in your database
-what s that {movie|type} where {david bowie|cast} sings and dances
-show me {highest rated|sort} {horror|genre} {movies|type}
-find {top|sort} {bill murray|cast} {movies|type}
-show me {documentaries|genre} that are depressing or dark in nature
-i want to watch a {movie|type} that was oscar nominated for sound mixing
-what was that {movie|type} where {jake gyllenhaal|cast} was a reporter
-will you show me {cartoons|genre} like {rick and morty|title}
-what can i watch that has {samuel jackson|cast}
-what {movies|type} have {melissa mccarthy|cast} and {ben falcone|cast}
-show me {movies|type} with {jason statham|cast}
-what is the name of that {quentin tarantino|director} {movie|type} where {jamie foxx|cast} plays a freed slave
-show me {samuel l jackson|cast} s {highest rated|sort} {movie|type}
-show me the {best|sort} {anime|genre}
-show me the {best rated|sort} {action|genre} {films|type}
-show me the {top|sort} so bad it s good {movies|type}
-what are some good gangster {movies|type}
-what {movies|type} are by the {coen brothers|director}
-show me {movies|type} set on alien planets
-play a {movie|type} filmed in alaska
-what {movies|type} are {popular|sort} right now
-show me all {judd apatow|director} {movies|type}
-give me a list of {historical|genre} epic {films|type}
-show me all {movies|type} based on stephen king books
-show me all {movies|type} starring {leonardo dicaprio|cast}
-please show me all {bette davis|cast} {movies|type}
-what is the {last|sort} {movie|type} by {russell crowe|cast}
-show me the {latest|sort} christmas {movie|type}
-what s that {coen brothers|director} {movie|type} that ends with a huge tornado
-what s the {movie|type} with {anna kendrick|cast} and she sings in a girl group for school
-show me {dark spot|title}
-show me {back to the future|title}
-show me {goosebumps|title}
-are there any {movies|type} with {wesley snipes|cast}
-show me {movies|type} with {robert de niro|cast}
-show me {movies|type} directed by {james cameron|director}
-play a {movie|type} starring {jackie chan|cast}
-what was the {first|sort} {movie|type} {tom hanks|cast} was ever in
-show me a {movie|type} that takes place in france
-show me a baseball {movie|type} with kids
-show me all {will smith|cast} {movies|type}
-show me all {bruce willis|cast} {movies|type}
-play {top gun|title}
-play a {will ferrell|cast} {movie|type}
-show me {movies|type} starring {sam elliott|cast}
-show me a {classic|sort} {movie|type} starring {cary grant|cast}
-show me a {movie|type} about 9 11
-what year was {the matrix|title} made
-how many awards did {no country for old men|title} win
-what are the {top|sort} 5 {romantic comedies|genre}
-show me {movies|type} about vampires
-i d like to see {movies|type} about sports
-play {tarantino|director} s {first|sort} {movie|type}
-show me a cop {thriller|genre}
-give me a {highly rated|sort} independent {drama|genre}
-find all the {movies|type} {johnny depp|cast} has acted in
-play an {old|sort} {western|genre} {movie|type} that was {highly rated|sort} by critics
-please show me spy {movies|type}
-show me {movies|type} with {tom hanks|cast}
-what are the {best|sort} {movies|type} with {matthew mcconaughey|cast}
-play me a {quentin tarantino|director} {movie|type}
-i want a {movie|type} with a strong female lead
-show me {movies|type} about magic
-show me {movies|type} with {jim carrey|cast} in them
-show me time travel {movies|type} where they go back to the 1920 s
-do you have outer space {movies|type} but with no aliens
-are there {sean connery|cast} {movies|type} where he s not using a scottish accent
-put on a random {comedy|genre} {movie|type}
-show me all {movies|type} directed by {george a romero|director}
-show me the {best rated|sort} {movies|type} by director {rob zombie|director}
-play a {film|type} starring {warren beatty|cast}
-show me {tarantino|director} {movies|type}
-show me dark {drama|genre} {movies|type}
-show me {movies|type} with {johnny depp|cast}
-what is the name of that {movie|type} about a plane with snakes on it
-show me all {coen brothers|director} {movies|type}
-what is the {movie|type} with {adam sandler|cast} going back to elementary school
-what {movies|type} starred {julia roberts|cast}
-what {comedy|genre} {movies|type} starred {james franco|cast}
-show me all the {sci fi|genre} {fantasy|genre} selections
-i want to see the {best rated|sort} on the rotten tomatoes
-what is the {most popular|sort} {movie|type} on social media right now
-give me all the {movies|type} with {will smith|cast} in it
-what are some {great|sort} {comedy|genre} {films|type} to watch currently
-play me a {romantic|genre} {film|type} that s been in theaters
-show me a dark {movie|type}
-list of {movies|type} with {christopher lee|cast}
-play a {sci fi|genre} {film|type}
-i want to see a {movie|type} with {benedict cumberbatch|cast} in it
-i want to see a {movie|type} with {brad pitt|cast} in it
-i want to see a {movie|type} with {orlando bloom|cast} in it
-show me {movies|type} with {laurence fishburne|cast}
-can i see {amy schumer|cast} s {new|sort} {movie|type}
-what are some {romantic comedies|genre}
-i want an {old|sort} {scary|genre} {movie|type} for halloween
-show me {movies|type} that have to do with vampires
-show me {movies|type} that have to do with ghosts
-show me all the {movies|type} you have with {james franco|cast}
-do you have any {movies|type} with {zac efron|cast} in them
-play the {top rated|sort} {m night shyamalan|director} {movie|type}
-give me a {horror|genre} {film|type} with patrick bateman
-{best|sort} {movies|type} of the month
-{comedy|genre} {movies|type}
-find me {movies|type} with {brad pitt|cast}
-show me disney {movies|type} about dogs
-give me a list of pixar {movies|type}
-what are some {movies|type} for {children|genre} 10 and under
-is there a remake of {scarface|title}
-show me {romantic comedies|genre} starring {meg ryan|cast}
-show me {documentaries|genre} about {war|genre}
-i d like to see what {coen brothers|director} {movies|type} are available
-what {movie|type} did {michael j fox|cast} and {christopher lloyd|cast} star in together
-i want to see the {best|sort} {movie|type} that {michael j fox|cast} did
-show me {movies|type} that are historic and within the roman republic time frame
-give me all chinese {historical|genre} {war|genre} {movies|type}
-find me a {movie|type} about the founding of microsoft
-what is the {highest rated|sort} {matt damon|cast} {movie|type}
-show me {movies|type} with {jon hamm|cast}
-what are the {comedies|genre} in the afi {top|sort} 100 {movie|type} list
-play that {movie|type} based on a philip k dick book
-show me {horror|genre} {films|type} with a cult following
-show me parodies
-show me {dramas|genre} based on true stories
-show me the {best rated|sort} {vietnam|country} {films|type}
-i want to watch {documentaries|genre} about the american justice system
-what are the {top rated|sort} {films|type} in a post apocalyptic setting
-show me the {latest|sort} releases
-play a random {movie|type}
-show me {quentin tarantino|director} {movies|type}
-play a random criterion collection {movie|type}
-show me {top|sort} {horror|genre} {films|type}
-show me {sandra bullock|cast} {movies|type}
-show me a {movie|type} my girlfriend will love
-what is the {movie|type} with {sandra bullock|cast} on a speeding bus
-show me {movies|type} with {m c gainey|cast}
-play the {movie|type} where {kate hudson|cast} and {matthew mcconaughey|cast} play deep sea treasure hunters
-what are some {highly rated|sort} {sci fi|genre} {movies|type}
-play a {sandra bullock|cast} {movie|type}
-choose a {marlon brando|cast} {movie|type}
-i want a black and white {film|type}
-show me the {most popular|sort} current {movie|type} list
-what {films|type} has {edward norton|cast} been in
-show me {movies|type} with {william shatner|cast}
-play a {movie|type} with {shia labeouf|cast}
-show me all {movies|type} with {jon voight|cast}
-i want to watch {the lion king|title}
+play {san andreas|title}
+i want to watch {transylvania 2|title}
+play the {movie|type} {shrek|title}
+i want to see {the godfather part 2|title}
+play the {movie|type} {old school|title}
+show the {film|type} {the shawshank redemption|title}
+show me {movies|type} with {sandra bullock|cast} in them
+show me {movies|type} based on super heroes
+play {mockingjay part 1|title}
+start playing {judge dredd|title}
+i want to watch {the transporter|title}
+search for {back to the future|title}
+play {the hunger games catching fire|title}
+let me see {jurassic world|title}
+please play {fast and furious 7|title} for me
+start showing {mad max fury road|title}
+can you find {pretty woman|title}
+do you have {the bourne identity|title}
+start {the perfect storm|title} now
+play {the martian|title}
+play the {movie|type} {the hangover|title}
+play {we are marshall|title}
+i want to watch {scary|genre} {movies|type}
+show me {movies|type} for halloween
+load the {movie|type} {superbad|title}
+start {the wire|title} show
+open {the walking dead|title}
+show me the {movies|type} in {horror|genre}
+can i watch {halloween 2|title}
+please play {san andreas|title}
+i wish to watch {the godfather|title}
+play {the hunger games|title}
+start {ex machina|title}
+i want to see {scarface|title}
 play {batman begins|title}
-i want to watch an {action|genre} {movie|type}
-show me {recent|sort} {comedies|genre}
-is {sleepy hollow|title} available to watch
-i want to watch {the goonies|title}
-show me {the hobbit|title}
-please open {gone with the wind|title} {movie|type}
-show me {movies|type} with {back to the future|title} in the name
-play {almost famous|title}
-play {shaun of the dead|title}
-i want to watch {star wars|title}
-i want to watch {star trek|title}
-i want to watch {groundhog day|title}
-play {the big lebowski|title}
-show me {inglourious basterds|title}
-put on {lost|title}
-i want to watch the {first|sort} {back to the future|title}
-i d like to watch {tropic thunder|title}
-can you show me {the twilight zone|title} {movie|type}
-i would like to observe {the polar express|title} please
-i want to watch {godfather|title}
-play {gone with the wind|title}
-play the {movie|type} {miracle mile|title}
-show me the {latest|sort} remake of {godzilla|title}
-i want to see the original version of {20 000 leagues under the sea|title}
-play {reds|title}
-show me {time bandits|title}
-let me watch {titanic|title}
-play for me {saving private ryan|title}
-i want to watch {transformers|title}
-i want to see {die hard|title}
-start {toy story 2|title}
-play {mrs doubtfire|title}
-show me the original {dawn of the dead|title}
+play {the godfather|title}
+can you play {the transporter|title}
+i want to watch {mallrats|title}
+play the {first|sort} {avengers|title} {movie|type}
+find and play {argo|title}
+search for {inside out|title}
+take me to {star wars episode i|title}
+please play {gladiator|title} starring {russell crowe|cast}
+let s play {poltergeist|title}
+find all {movies|type} named {a christmas carol|title}
+search for {the ghost and mrs muir|title}
+stream {the dark knight|title}
+find me {movies|type} like {interstellar|title}
+play me a {movie|type} directed by {j j abrams|director}
+search {mad max|title}
+find {mad max|title}
+play {mad max|title}
+open {me and earl and the dying girl|title}
+start playing {blade|title}
+find {movies|type} including {back to the future|title}
+find me {toy story|title}
+do you have {finding nemo|title}
+i want to see {jurassic park|title}
+show me {movies|type} by director {guillermo del toro|director}
+trending {action|genre} {films|type}
+load up {my neighbor totoro|title}
+please play {the lion king|title}
+search for {movies|type} about world war 2
+play {silence of the lambs|title} for me
+are there any {movies|type} about pennsylvania
+watch {the shawshank redemption|title}
+find and play the {goosebumps|title} {movie|type}
+locate {any given sunday|title}
+i would like to watch {jurassic park|title}
+start {mission impossible 3|title}
+please show me {ocean s 13|title}
+show me pixar {movies|type}
+i want to watch {lion king|title}
+show me the {latest|sort} disney {movie|type}
+play {john wick|title}
+show me {keanu reeves|cast} {movies|type}
+show me {keanu|cast} {movies|type}
+what is {mark strong|cast} s {best|sort} {movie|type}
+i want to watch {paul newman|cast} s {first|sort} {movie|type}
+play {alfred hitchcock|director} s {last|sort} {film|type}
+please play {frozen|title}
+i would like to watch {halloween|title} by {rob zombie|director}
+show {movies|type} like {top gun|title}
+play {top gun|title} the directors cut
+play {movies|type} made by {quentin tarantino|director}
+show me {movies|type} with {brad pitt|cast}
+get me any {horror|genre} {film|type} with zombies in the title
+{dawn of the dead|title} please
+let s see {resident evil|title} now
+please play the {movie|type} {the shawshank redemption|title}
+can you find the {movie|type} called {amadeus|title}
+i would like to watch the {film|type} titled {best in show|title}
+i want to watch {commando|title}
+play {delta force|title}
+i want to watch some kung fu {movies|type}
+show me {movies|type} with tits in them
+can you recommend me a {movie|type} about wrestling
+show me the {movie|type} with the english title {one armed swordsman|title}
+can i see {the dark crystal|title}
+i d like to watch {legend|title}
+could i see {the cell|title}
+show me {movies|type} that has {jason statham|cast}
+i would like to watch {top gun|title}
+suggest a {movie|type} for me
+show me all the available {movies|type} by disney
+find {nightmare before christmas|title}
+please play {johnny dangerously|title}
+please show me {movies|type} with manhattan in the title
+put on {goldeneye|title} please
+i want to watch {taken 2|title}
+show me {the dark knight rises|title}
+show me all {movies|type} with nudity
+play only mmf {movies|type}
+list {cheech and chong|cast} {movies|type}
+is {back to the future|title} available
+play {back to the future 2|title}
+show me {movies|type} with {johnny depp|cast} starring in them
+please play {edward scissorhands|title}
+i would like to watch {ghostbusters|title}
+play {monty python and the holy grail|title}
+watch the {avengers|title}
+play {lion king|title}
+show me all {movies|type} with {twilight|title}
+show me {the green mile|title}
+play {dirty dancing|title}
+could you give me a {movie|type} line up
+can i watch the {movie|type} {titanic|title}
+is the {movie|type} {the fault in our stars|title} out yet to watch
+{jack reacher|title} {movies|type}
+show me all disney {movies|type}
+i want to see {titanic|title}
+can you show me a {romantic|genre} {movie|type}
+i want a comic book {movie|type}
+i want to watch {scarface|title}
+play {goodfellas|title}
+play the {movie|type} {walk to remember|title}
+show me {jurassic park|title}
+play {movies|type} of {horror|genre}
+i want to watch {the great escape|title}
+play {the hangover|title}
+go to the scene where neo fights agent smith in {the matrix|title}
+who is the {music|genre} composer in the amazing spiderman
+start playing {iron man|title}
+begin playing {batman returns|title}
+play {die hard|title}
+play {the exorcist|title}
+i want to watch {dragon ball z|title}
+show me {movies|type} about cowboys
+{movies|type} with hot leading ladies
+{movies|type} about marijuana cultivation
+anything with {leonardo dicaprio|cast}
+start playing {fight club|title}
+go to {fast and the furious|title}
+play my favorite {movie|type} {caddyshack|title}
+what {action|genre} {movies|type} are currently available
+play {django unchained|title}
+search for {poltergeist|title}
+put on {a walk to remember|title}
+pull up the original {annie|title} {movie|type}
+play {dracula|title} with {bela lugosi|cast}
+search {frankenstein|title} starring {lon chaney jr|cast}
+watch {the ring|title}
+can you bring up {the lion king|title}
+will you play {die hard|title}
+i ve been wanting to see {jurassic park|title}
+i want to watch {magnolia|title}
+show me {movies|type} in the 7 up series
+restart {silence of the lambs|title} from the beginning
+show me all {funny|genre} {movies|type}
+i want to watch a {scary|genre} {movie|type}
+show all titles with {adam sandler|cast} in them
+play {the nightmare before christmas|title}
+show me {movies|type} with {avengers|title} in the name
+i want to watch {corpse bride|title}
+resume {the rules of attraction|title} from where i left off
+play {american psycho|title} from the beginning
+restart {happy feet|title} from the beginning
+turn on {star wars 3 revenge of the sith|title}
+i d like to watch {the notebook|title}
+begin search for {the matrix|title}
+find me {the matrix reloaded|title} {movie|type}
+start showing {the darjeeling limited|title}
+play the {movie|type} {star wars the empire strikes back|title}
+i m looking for the {movie|type} {the wolf of wall street|title}
+i m interested in watching the {movie|type} {fight club|title}
+play {unbroken|title}
+i want to watch {the wolf of wall street|title}
+show me {movies|type} with {bill murray|cast}
+what {movies|type} has {keanu reeves|cast} done since {the matrix reloaded|title}
+start playing {the little mermaid|title}
+give me a list of {movies|type} with orange in the title
+show me the {avengers age of ultron|title}
+i want to watch {armageddon|title}
+can i see {the longest yard|title}
+please show me {kung pow enter the fist|title}
+i want to watch {scanners|title}
+can you play the {avengers|title}
+i wish to watch {the blue lagoon|title}
+is the {south park|title} {movie|type} available
+find me {action|genre} {movies|type}
+find me {movies|type} with {alec baldwin|cast} in them
 i want to watch {back to the future|title}
-load the {film|type} {once upon a time in mexico|title}
-i want to see the original and the remake of {the mummy|title} {movies|type}
-i want to watch {tangled|title}
-play {mulan|title}
-play {pulp fiction|title}
-i want to watch {enter the dragon|title}
-show me {movies|type} with blood in the name
-play {monsters inc|title}
-play {a nightmare on elm street|title}
-please show {fast and furious|title}
-lets watch {the martian|title}
-im in the mood for some {expelled from paradise|title}
-do you have {the martian|title}
-please load {alice in wonderland|title}
-show me {horror|genre} {movies|type}
-play {saw|title}
-i want to watch {american horror story|title}
-i d like to watch {this is the end|title}
-play {spaceballs|title}
-can you please play {the shawshank redemption|title}
-i want to watch {movies|type} with {dusk till dawn|title} in the title
-i want to watch {chungking express|title}
-who s the starring role in {defiance|title}
-{roger rabbit|title} was directed by whom
-watch {the evil dead|title}
-play {back to the future|title}
-show me the {movie|type} {the fast and the furious|title}
-i want to watch {indiana jones|title}
-let s see the {movie|type} {harlem nights|title}
-do we have the {movie|type} {to sir with love|title}
-watch {my neighbor totoro|title}
-show me {pokemon the movie|title}
+play {the notebook|title}
+i want to watch {pulp fiction|title}
+play {the amazing spider man 2|title}
+show me {the shawshank redemption|title}
+play {the green mile|title} for me
+search for title {last of the mohicans|title}
+show me {movies|type} similar to {pan s labyrinth|title}
+find {movies|type} by the same director as {the grand budapest hotel|title}
+put {frida|title} in my queue
+find {guardians of the galaxy|title}
+let s watch {a christmas story|title}
+play {hocus pocus|title}
+show me {movies|type} {wes anderson|director} directed
+i would like to watch {casablanca|title}
+please find me {blackhat|title}
+is there a {movie|type} called {it s a wonderful life|title}
+i want to watch {the little mermaid|title}
+play me {harry potter and the goblet of fire|title}
+show me {movies|type} with casper in the title
+show me {movies|type} with {brad pitt|cast}
+i would like to see a {kevin smith|cast} {movie|type}
+can you show me a {wes craven|director} {movie|type}
+show me {the bourne ultimatum|title}
+watch {superman 3|title}
+{mall cop 2|title} {movie|type}
+{jurassic park|title}
+{baby s day out|title}
+show me {memento|title}
+play {star wars|title}
+i want to watch {x men first class|title}
+play {wuthering heights|title} original version
+let s watch {pitch perfect 2|title}
+start the {movie|type} {maleficent|title}
+i would like to watch {when harry met sally|title}
+show me {harry potter and the goblet of fire|title}
+play {the prestige|title}
+let me watch {back to the future|title}
+begin the {film|type} the {maze runner 2|title}
+start playing {finding neverland|title}
+i want to watch the {film|type} {x men first class|title}
+what is the rating of the {film|type} {the hobbit|title}
+show me {comedy|genre} {movies|type} with {adam sandler|cast}
+i want to see the {new|sort} release {comedy|genre} {movies|type}
+what {movies|type} have the {best|sort} reviews
+find {attack on titan|title}
+please play {maleficent|title}
+i want to watch {fast and furious 7|title}
+i want to watch {superman|title}
+show me {movies|type} with {mel gibson|cast} as the actor
+show {movies|type} that have {ryan gosling|cast} in them
+let me see {movies|type} with love in the title
+play {the notebook|title}
+i would like to watch {lost in translation|title}
+please show {waiting for guffman|title}
+{the matrix reloaded|title}
+{darjeeling limited|title}
+find some {movies|type} directed by {nagisa oshima|director}
+play {to live and die in l a|title}
+i want to watch {the white diamond|title}
+find the {movie|type} {sweet home alabama|title}
+let s watch {maze runner|title}
+show the {movie|type} {across the universe|title}
+i want to watch {star trek into darkness|title}
+i would like to see a {romantic comedy|genre} called {how to lose a man in 10 days|title}
+watch {sleepy hollow|title}
+play {django unchained|title}
+show me {johnny depp|cast} {movies|type}
+start the {american dad|title}
+find me {the dark|title}
+go to {the circle|title}
+take me to the {movie|type} {rent|title}
+give me {moonrise kingdom|title}
+begin {almost famous|title}
+start the {little black book|title}
+i want to watch {american beauty|title}
+play {national treasure|title}
+i want to watch {sci fi|genre} {action|genre} {movies|type}
+play {movies|type} with {dana carvey|cast} in it
+play {the breakfast club|title}
+i want to watch {the color purple|title}
+play {doctor dolittle|title}
+play superhero {movies|type}
+i want to watch the {avengers|title}
+show {movies|type} with {charlize theron|cast}
+show me series {movies|type}
+what are some {movie|type} with {johnny knoxville|cast}
+show me {action|genre} {movies|type}
+show me {movies|type} with {bradley cooper|cast}
+i would like to watch {ferris bueller|title}
+lets watch {the breakfast club|title}
+show me {movies|type} my wife will love
+can i please watch {star wars|title}
+put on {casablanca|title}
+turn on {sharknado|title}
+please find all {johnny depp|cast} {movies|type}
+find {movies|type} related to the doors
+i would like to watch {sci fi|genre} {movies|type} with {william shatner|cast} in them
+we want to watch {the importance of being earnest|title} with {colin firth|cast}
+show me {historical dramas|genre} with elizabeth the first in the name
+show me the {newest|sort} version of {annie|title}
+get me {for your eyes only|title} starring {roger moore|cast}
+i m looking for {movies|type} with the word diamonds in the title
+i m looking for {pirates of the caribbean on stranger tides|title}
+search and play {oblivion|title}
+put on {drive|title}
+i want to watch {star trek|title}
+play {interstellar|title}
+play the {fast and furious|title}
+play {the expendables|title} {movie|type}
+i want to see the {predator|title}
+i want to see all {a star is born|title} {movies|type}
+{mahogany|title}
+{lady sings the blues|title}
+any {back to the future|title} {movie|type} please
+{the notebook|title} now
+show me {movies|type} starring {bob hope|cast}
+play {breakfast at tiffany s|title}
+play {gravity|title}
+play {scarface|title}
+i want to see the {animated|genre} {hobbit|title}
+let s watch a {back to the future|title} {movie|type}
+choose the {titanic|title} {movie|type}
+i want to see {mission impossible|title}
+start {pitch perfect|title} from the beginning
+let s watch {the purge|title}
+play the {titanic|title}
+list all {movies|type} with the word school in the name
+start {the hobbit|title}
+do you have {crimson rivers|title}
+i m looking for the {latest|sort} {mockingjay|title} {movie|type}
+please show us {north by northwest|title}
+i would like to watch {mean girls|title}
+put on {the lion king|title}
+{movies|type} starring {michael j fox|cast}
+i want to watch {hancock|title}
+show me the {back to the future|title} {movie|type} choices
+i want to see the {movie|type} {love and basketball|title}
+play the {movie|type} {titanic|title}
+i like the {movie|type} {set it off|title}
+play {the notebook|title}
+i want to watch {legally blonde|title}
+i want to watch {saw 1|title}
+show me {movies|type} that begin with possession in the name
+can you play {the usual suspects|title}
+start playing {the goonies|title}
+do you have {movies|type} with waterfall in the title
+please find {les miserables|title} for me
+play {gone with the wind|title}
+i want to watch {national lampoon s christmas|title}
+find {scudda hoo scudda hay|title}
+play {matrix reloaded|title}
+play {darjeeling limited|title}
+show me {movies|type} starring {priscilla presley|cast}
+show me {movies|type} with the name lord in them
+find {labyrinth|title}
+{labyrinth|title}
+only find {movies|type} with the word {labyrinth|title}
+i want to watch {labyrinth|title} and only {labyrinth|title}
+i want to watch a {john wayne|cast} {movie|type}
+i want to watch {chisum|title}
+i want to watch a {war|genre} {movie|type}
+anything with {gwyneth paltrow|cast}
+show me {movies|type} with i love you in the name
+i want to watch {sex in the city|title}
+find {saving private ryan|title}
+show {selma|title}
+watch {the wolf of wall street|title}
+let s watch {love actually|title}
+turn on {the wizard of oz|title}
+i want to watch {when harry met sally|title}
+show me {jackie chan|cast} {movies|type}
+show me {eddie murphy|cast} {movies|type}
+show me {movies|type} about {politics|genre}
+show me christmas {movies|type}
+please play {pride and prejudice|title}
+let me see {the naked gun|title}
+start showing {the transporter|title}
+start {toy story 3|title}
+replay {aladdin|title}
+i want to watch {a clockwork orange|title}
+play {fight club|title}
+show me {movies|type} with club in the name
+show me {how to train your dragon|title}
+play me the third {back to the future|title}
+start {fight club|title}
+i would like to watch {the wedding singer|title}
+show me {back to the future|title} {movies|type}
+{classic|sort} {movies|type} {john wayne|cast}
+{classic|sort} {movies|type} {montgomery clift|cast}
+{classic|sort} {movies|type} {alfred hitchcock|cast}
+do you have {grave of the fireflies|title}
+i ve never seen {seven psychopaths|title} show me that
+watch {the godfather|title}
+show me {the wedding singer|title}
+are there any sequels to {mean girls|title}
+play {bug s life|title}
+what {movies|type} have california in the title
+play {django unchained|title}
+i want to watch {james and the giant peach|title}
+i feel like watching {daddy day care|title}
+show me the {movie|type} {the expendables|title}
+i want to watch {pretty woman|title}
+play {bones|title}
+i want to watch {superman|title}
+start {super troopers|title}
+show {movies|type} similar to {the breakfast club|title}
+play the {movie|type} {major league|title}
+i want to watch {field of dreams|title}
+play {the matrix|title}
+show me all {movies|type} with pain in the name
+go to the {back to the future|title} {movies|type}
+start {terminator 2|title}
+find {the big lebowski|title}
+search {rain man|title}
+play {top gun|title}
+play {love actually|title}
+what {movies|type} are available with holiday in the title
+play {clockwork orange|title}
+i want to watch the original {evil dead|title}
+show me {flight of the navigator|title}
+i would like to watch the {evil dead 2|title}
+play the {avengers age of ultron|title}
+show me {gattaca|title}
+i d like to watch the {back to the future|title} trilogy
+play {the sixth sense|title}
+bring up {jurassic world|title}
+find and play the {movie|type} {guardians of the galaxy|title}
+i want to watch {men in black 3|title}
+list {movies|type} directed by {quentin tarantino|director}
+what {jackie chan|cast} {movies|type} do you have

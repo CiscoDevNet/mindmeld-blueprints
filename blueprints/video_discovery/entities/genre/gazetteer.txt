@@ -1,0 +1,26 @@
+6874	Crime	
+222	Romance	
+10814	Animation	
+6	Music	
+18767	Comedy	
+15248	Soap	
+290	Horror	
+4	War	
+436	Science Fiction	
+100	Western	
+5400	News	
+655	Thriller	
+545	Adventure	
+5232	Mystery	
+1178	Kids	
+30404	Drama	
+726	Action	
+2868	Reality	
+1374	Documentary	
+970	Talk	
+4	History	
+4204	Family	
+11519	Action & Adventure	
+9773	Sci-Fi & Fantasy	
+126	War & Politics	
+571	Fantasy	

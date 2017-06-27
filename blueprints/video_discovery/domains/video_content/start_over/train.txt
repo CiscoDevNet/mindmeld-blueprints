@@ -22,8 +22,6 @@ actually scratch that
 actually scratch that
 actually scratch that
 ah start over
-back to order
-back to order
 back to start
 back to start
 back to start
@@ -42,21 +40,6 @@ cancel
 cancel and start over
 cancel and start over
 cancel and start over
-cancel entire order
-cancel entire order
-cancel entire order
-cancel my order
-cancel my order
-cancel my order
-cancel order
-cancel order
-cancel order
-cancel the order
-cancel the order
-cancel the order
-cancel this order
-cancel this order
-cancel this order
 clear
 clear
 clear
@@ -66,75 +49,10 @@ clear
 clear all
 clear all
 clear all
-clear basket
-clear basket
-clear basket
-clear cart
-clear cart
-clear cart
-clear my basket
-clear my basket
-clear my basket
-clear my cart
-clear my cart
-clear my cart
-clear my order
-clear my order
-clear my order
-clear order
-clear order
-clear order
-clear the basket
-clear the basket
-clear the basket
-clear the cart
-clear the cart
-clear the cart
-clear the order
-clear the order
-clear the order
-decline
-decline
-delete my order
-delete my order
-delete my order
-delete order
-delete order
-delete order
-delete orders
-delete orders
-delete orders
-delete the order
-delete the order
-delete the order
 display something different
 do you have something different
-empty basket
-empty basket
-empty basket
-empty cart
-empty cart
-empty cart
-empty my basket
-empty my basket
-empty my basket
-empty my cart
-empty my cart
-empty my cart
-empty the basket
-empty the basket
-empty the basket
-empty the cart
-empty the cart
-empty the cart
 forget about it
 forget it
-go back to order
-go back to order
-go back to order
-go back to order again
-go back to order again
-go back to order again
 go back to the beginning
 go back to the beginning
 go back to the beginning
@@ -142,18 +60,6 @@ hard pass
 hard pass
 how about no
 how about no
-i did not order that.
-i did not order that.
-i did not order that.
-i do not
-i do not
-i don't
-i don't
-i meant a different drink
-i meant a different drink
-i meant a different drink
-i meant a different meal
-i meant a different sandwich
 i meant something different
 i meant something different
 i meant something different
@@ -167,8 +73,6 @@ i want something different
 i want to cancel that.
 i want to cancel that.
 i want to cancel that.
-i would not like that
-i would not like that
 i'd like to cancel
 i'd like to cancel
 i'd like to cancel
@@ -182,12 +86,6 @@ i'm good thank you
 i'm good thank you
 i'm good thanks
 i'm good thanks
-i'm sorry, please cancel that order.
-i'm sorry, please cancel that order.
-i'm sorry, please cancel that order.
-incorrect, lets try that order again.
-incorrect, lets try that order again.
-incorrect, lets try that order again.
 let's redo
 let's redo
 let's redo
@@ -199,9 +97,6 @@ let's start this thing over
 let's start this thing over
 let's start this thing over
 let's try again
-lets try that order again.
-lets try that order again.
-lets try that order again.
 nah
 nah
 nah actually
@@ -224,15 +119,6 @@ never mind
 nevermind
 nevermind
 nevermind
-new basket
-new basket
-new basket
-new cart
-new cart
-new cart
-new order
-new order
-new order
 new search
 nix
 no
@@ -272,15 +158,9 @@ no, that is incorrect.
 no, that is wrong.
 no, that is wrong.
 no, that is wrong.
-no, that order is wrong.
-no, that order is wrong.
-no, that order is wrong.
 no, wrong!
 no, wrong!
 no, wrong!
-no, you heard the wrong order.
-no, you heard the wrong order.
-no, you heard the wrong order.
 nope
 nope
 nope reset
@@ -320,15 +200,9 @@ omg reset
 please cancel
 please cancel
 please cancel
-please cancel that order.
-please cancel that order.
-please cancel that order.
 please cancel that.
 please cancel that.
 please cancel that.
-please cancel the order.
-please cancel the order.
-please cancel the order.
 please no
 please no
 please start over.
@@ -340,9 +214,6 @@ redo
 redo it
 redo it
 redo it
-redo the order
-redo the order
-redo the order
 reset
 reset
 reset
@@ -355,9 +226,6 @@ reset and start again
 reset it
 reset it
 reset it
-reset the order
-reset the order
-reset the order
 reset the system
 reset the system
 reset the system
@@ -367,18 +235,6 @@ restart
 restart
 restart
 restart
-restart order
-restart order
-restart order
-restart the order
-restart the order
-restart the order
-restart this order
-restart this order
-restart this order
-revert order
-revert order
-revert order
 scratch that
 scratch that
 scratch that
@@ -399,18 +255,12 @@ start again.
 start new
 start new
 start new
-start new order
-start new order
-start new order
 start over
 start over
 start over
 start over
 start over
 start over
-start the order over
-start the order over
-start the order over
 starting over
 starting over
 starting over
@@ -419,9 +269,6 @@ startover
 stop
 stop
 stop
-stop order
-stop order
-stop order
 thank you but no
 thank you but no
 thanks but no
@@ -440,18 +287,12 @@ that is wrong
 that's not correct.
 that's not correct.
 that's not correct.
-that's not my order.
-that's not my order.
-that's not my order.
 that's not right at all.
 that's not right at all.
 that's not right at all.
 that's not right.
 that's not right.
 that's not right.
-that's not what i ordered.
-that's not what i ordered.
-that's not what i ordered.
 that's not what i said.
 that's not what i said.
 that's not what i said.
@@ -460,28 +301,13 @@ that's okay i'll pass
 that's wrong.
 that's wrong.
 that's wrong.
-the order is incorrect.
-the order is incorrect.
-the order is incorrect.
-the order is wrong.
-the order is wrong.
-the order is wrong.
-this is not right, restart the order.
-this is not right, restart the order.
-this is not right, restart the order.
 try a redo
 try a redo
 try a redo
 try again
-undo order
-undo order
-undo order
 wait, that's not right
 wait, that's not right
 wait, that's not right
-wrong, let's try that order again
-wrong, let's try that order again
-wrong, let's try that order again
 you misheard me
 you misheard me
 you misheard me
