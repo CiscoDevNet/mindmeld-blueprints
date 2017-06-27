@@ -101,3 +101,10 @@ def get_poster_img_url(poster_path):
         return ''
     else:
         return POSTER_IMG_URL + poster_path
+
+
+def get_release_date(release_date):
+    if not release_date:
+        return None
+    else:
+        return release_date

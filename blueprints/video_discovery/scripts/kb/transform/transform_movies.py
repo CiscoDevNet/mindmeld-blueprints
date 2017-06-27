@@ -2,7 +2,7 @@ import luigi
 import sys
 import json
 
-from .commons import get_director, get_names, get_poster_img_url
+from .commons import get_director, get_names, get_poster_img_url, get_release_date
 from .commons import TransformDocuments
 from .constants import TYPE_MOVIE
 
@@ -32,7 +32,7 @@ class TransformMovies(TransformDocuments):
                 'popularity': movie_obj.get('popularity'),
                 'vote_count': movie_obj.get('vote_count'),
                 'vote_average': movie_obj.get('vote_average'),
-                'release_date': movie_obj.get('release_date'),
+                'release_date': get_release_date(movie_obj.get('release_date')),
                 'runtime': movie_obj.get('runtime'),
                 'img_url': get_poster_img_url(movie_obj.get('poster_path', '')),
             }

@@ -3,7 +3,7 @@ import luigi
 import sys
 import json
 
-from .commons import get_director, get_names, get_poster_img_url
+from .commons import get_director, get_names, get_poster_img_url, get_release_date
 from .constants import TYPE_EPISODE
 
 sys.path.append('..')
@@ -43,7 +43,7 @@ class TransformEpisodes(VideoDataProcessingTask):
                 'popularity': tv_obj.get('popularity'),
                 'vote_count': tv_obj.get('vote_count'),
                 'vote_average': tv_obj.get('vote_average'),
-                'release_date': tv_obj.get('first_air_date'),
+                'release_date': get_release_date(tv_obj.get('first_air_date')),
                 'runtime': tv_obj.get('runtime'),
                 'number_of_seasons': tv_obj.get('number_of_seasons'),
                 'number_of_episodes': tv_obj.get('number_of_episodes'),
