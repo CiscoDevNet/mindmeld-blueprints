@@ -82,10 +82,9 @@ def _construct_weather_api_url(selected_location, selected_unit, openweather_api
     else:
         unit_string = 'imperial'
 
-    url_string = "{base_string}?q={location}&units={unit}&appid={key}".format(base_string=OPENWEATHER_BASE_STRING,
-                                                                              location=selected_location.replace(" ", "+"),
-                                                                              unit=unit_string,
-                                                                              key=openweather_api_key)
+    url_string = "{base_string}?q={location}&units={unit}&appid={key}".format(
+        base_string=OPENWEATHER_BASE_STRING, location=selected_location.replace(" ", "+"), unit=unit_string,
+        key=openweather_api_key)
 
     return url_string
 
