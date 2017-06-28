@@ -1,7 +1,6 @@
 import json
 import logging
 import luigi
-import os
 import sys
 
 from .commons import API_KEY
@@ -24,12 +23,11 @@ class GetTMDBIDs(VideoDataProcessingTask):
 
     def run(self):
         urls = self._get_all_url()
-        ids = crawl_urls(urls, output_file=self.get_output_path(self.output_path()))
-        logging.info(ids)
+        logging.info('Start crawling {:,d} {:s} ID docs.'.format(len(urls), self.doc_type))
+        crawl_urls(urls, output_file=self.get_output_path(self.output_path()))
+        logging.info('Got {:,d} {:s} ID docs.'.format(len(urls), self.doc_type))
 
     def output_path(self):
-        if not os.path.exists(self.output_dir):
-            os.makedirs(self.output_dir)
         return '{}_ids.jsonl'.format(self.doc_type)
 
     def output(self):
@@ -38,7 +36,7 @@ class GetTMDBIDs(VideoDataProcessingTask):
     def _get_all_url(self):
         urls = []
 
-        for year_idx in range(self.year_start, self.year_end - 2, -1):
+        for year_idx in range(self.year_start, self.year_end - 1, -1):
             if year_idx == 2017:
                 year_filter = '{0}.gte={1}'.format(self.tmdb_filter, year_idx)
             else:

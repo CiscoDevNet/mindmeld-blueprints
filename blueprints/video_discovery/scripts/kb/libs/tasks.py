@@ -44,6 +44,8 @@ class DataProcessingTask(luigi.Task):
     def __init__(self, *args, **kwargs):
         self._complete = False
         luigi.Task.__init__(self, *args, **kwargs)
+        if not os.path.exists(self.output_dir):
+            os.makedirs(self.output_dir)
 
 
 class CrawlWebPage(DataProcessingTask):
@@ -133,12 +135,12 @@ def run_task(url, output_file, lock):
 
     with open(output_file, mode) as fp:
         # line = json.dumps(ids)
-        line = json.dumps(res)
+        line = json.dumps(res, sort_keys=True)
         fp.write(line + '\n')
     lock.release()
 
 
-def crawl_urls(urls, output_file, num_workers=6):
+def crawl_urls(urls, output_file, num_workers=5):
     m = multiprocessing.Manager()
     mp_lock = m.Lock()
     offset = 0
