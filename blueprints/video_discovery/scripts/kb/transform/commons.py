@@ -90,10 +90,8 @@ def get_names(raw_objs):
     return [obj['name'] for obj in raw_objs]
 
 
-def get_director(raw_crew):
-    candidates = [obj['name'] for obj in raw_crew if obj.get('job') == 'Director']
-    if candidates:
-        return candidates[0]
+def get_directors(raw_crew):
+    return [obj['name'] for obj in raw_crew if obj.get('job') == 'Director']
 
 
 def get_poster_img_url(poster_path):

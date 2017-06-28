@@ -2,7 +2,7 @@ import luigi
 import sys
 import json
 
-from .commons import get_director, get_names, get_poster_img_url, get_release_date
+from .commons import get_directors, get_names, get_poster_img_url, get_release_date
 from .commons import TransformDocuments
 from .constants import TYPE_MOVIE
 
@@ -27,8 +27,8 @@ class TransformMovies(TransformDocuments):
                 'imdb_id': movie_obj.get('imdb_id'),
                 'overview': movie_obj.get('overview'),
                 'genres': get_names(movie_obj.get('genres', [])),
-                'casts': get_names(movie_obj.get('cast', [])),
-                'director': get_director(movie_obj.get('crew', [])),
+                'cast': get_names(movie_obj.get('cast', [])),
+                'directors': get_directors(movie_obj.get('crew', [])),
                 'popularity': movie_obj.get('popularity'),
                 'vote_count': movie_obj.get('vote_count'),
                 'vote_average': movie_obj.get('vote_average'),
