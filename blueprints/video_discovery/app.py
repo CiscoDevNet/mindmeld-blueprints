@@ -46,13 +46,13 @@ def provide_help(context, slots, responder):
 
 @app.handle(intent='unsupported')
 def handle_unsupported(context, slots, responder):
-    # Respond with a message explaining the app does not support that # query. 
+    # Respond with a message explaining the app does not support that # query.
     responder.reply("unsupported placeholder.")
 
 
 @app.handle(intent='unrelated')
 def handle_unrelated(context, slots, responder):
-    # Respond with a message explaining the app does not support that # query. 
+    # Respond with a message explaining the app does not support that # query.
     responder.reply("unrelated placeholder.")
 
 
@@ -75,7 +75,6 @@ def default(context, slots, responder):
     information and prompt to return to video discovery.
     """
     responder.reply("default placeholder.")
-
 
 
 if __name__ == '__main__':
