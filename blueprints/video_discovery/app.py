@@ -5,6 +5,15 @@ from mmworkbench import Application
 
 app = Application(__name__)
 
+GENERAL_PROMPTS = ['I can help you find movies and tv shows. What do you feel like watching today?']
+
+GENERAL_SUGGESTIONS = [{'text': 'Most popular', 'type': 'text'},
+                      {'text': 'Most recent', 'type': 'text'},
+                      {'text': 'Movies', 'type': 'text'},
+                      {'text': 'TV Shows', 'type': 'text'},
+                      {'text': 'Action', 'type': 'text'},
+                      {'text': 'Dramas', 'type': 'text'},
+                      {'text': 'Sci-Fi', 'type': 'text'}]
 
 @app.handle(intent='greet')
 def welcome(context, slots, responder):
@@ -59,13 +68,31 @@ def handle_unrelated(context, slots, responder):
 @app.handle(intent='compliment')
 def say_something_nice(context, slots, responder):
     # Respond with a compliment or something nice.
-    responder.reply("compliment placeholder.")
+    compliments = ['Thank you, you rock!',
+                   'You\'re too kind.']
+    
+    responder.reply(compliments)
+
+    responder.prompt(GENERAL_PROMPTS)
+    # Get default videos
+    responder.respond(get_default_videos_action())
+    responder.suggest(GENERAL_SUGGESTIONS)
 
 
 @app.handle(intent='insult')
 def handle_insult(context, slots, responder):
     # Evade the insult and come back to the app usage.
-    responder.reply("insult placeholder.")
+    insult_resplies = ['Sorry, I do my  best!',
+                       'Someone needs to watch a romantic movie.']
+    
+    responder.reply(insult_resplies)
+
+    responder.prompt(GENERAL_PROMPTS)
+
+    # Get default videos
+    responder.respond(get_default_videos_action())
+
+    responder.suggest(GENERAL_SUGGESTIONS)
 
 
 @app.handle()
@@ -76,6 +103,23 @@ def default(context, slots, responder):
     """
     responder.reply("default placeholder.")
 
+def get_default_videos_action():
+    """
+    Get a client action with the most recent and popular videos.
+    """
+    return {}
+
+def get_default_videos():
+    """
+    Retrieve the most popular and recent videos in the knowledge base.
+
+
+    Returns:
+        list: The list of movies.
+    """
+    results = app.question_answerer.get(index='video_discovery')
+    print(results)
+    return results
 
 if __name__ == '__main__':
     app.cli()
