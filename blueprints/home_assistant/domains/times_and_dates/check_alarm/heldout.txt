@@ -5,7 +5,7 @@ what alarms do I have
 check my alarms for {tomorrow|sys_time}
 check my alarm for {6 am|sys_time}
 what alarms do I have for {friday|sys_time}
-do i have any alarms for {tomorrow morning|sys_time}
+do i have any alarms for {tomorrow morning|sys_interval}
 do i have an alarm for {4 am|sys_time}
 show me my alarms
 show me {all|all} alarms
@@ -15,6 +15,6 @@ check alarms for {tomorrow|sys_time}
 check alarm for {tomorrow|sys_time}
 did you set an alarm for {6 am|sys_time}
 did you set an alarm to wake me up {at 6 am|sys_time}
-did you set an alarm to wake me up {in the morning|sys_time}
+did you set an alarm to wake me up {in the morning|sys_interval}
 is there an alarm set to wake me up {at 6 am|sys_time}
-is there an alarm set to wake me up {in the morning|sys_time}
+is there an alarm set to wake me up {in the morning|sys_interval}
