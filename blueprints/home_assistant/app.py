@@ -9,7 +9,9 @@ app = Application(__name__)
 
 CITY_NOT_FOUND_CODE = '404'
 INVALID_API_KEY_CODE = '401'
-
+DEFAULT_TEMPERATURE_UNIT = 'Fahrenheit'
+DEFAULT_LOCATION = 'San Francisco'
+OPENWEATHER_BASE_STRING = 'http://api.openweathermap.org/data/2.5/weather'
 
 @app.handle(intent='check-weather')
 def check_weather(context, slots, responder):
@@ -19,7 +21,7 @@ def check_weather(context, slots, responder):
     # Check to make sure API key is present, if not tell them to follow setup instructions
     try:
         openweather_api_key = os.environ['OPEN_WEATHER_KEY']
-    except:
+    except KeyError:
         reply = "Open weather API is not setup, please follow instructions to setup the API."
         responder.reply(reply)
         return
@@ -33,7 +35,7 @@ def check_weather(context, slots, responder):
     url_string = _construct_weather_api_url(selected_location, selected_unit, openweather_api_key)
     try:
         weather_info = requests.get(url_string).json()
-    except:
+    except ConnectionError:
         reply = "Sorry, I was unable to connect to the weather API, please check your connection."
         responder.reply(reply)
         return
@@ -59,17 +61,32 @@ def default(context, slots, responder):
     responder.prompt(prompts)
 
 
-def _construct_weather_api_url(selected_location, selected_unit, openweather_api_key):
-    base_string = "http://api.openweathermap.org/data/2.5/weather"
-    api_key_string = "&appid=" + openweather_api_key
-    location_string = "?q=" + selected_location.replace(" ", "+")
-    unit_key_string = '&units='
-    if selected_unit=='Celcius':
-        unit_key_string += 'metric'
-    else:
-        unit_key_string += 'imperial'
+def _kb_fetch(kb_index, kb_id):
+    """
+    Retrieve the detailed knowledge base entry for a given ID from the specified index.
 
-    url_string = base_string + api_key_string + unit_key_string + location_string
+    Args:
+        index (str): The knowledge base index to query
+        id (str): Identifier for a specific entry in the index
+
+    Returns:
+        dict: The full knowledge base entry corresponding to the given ID.
+    """
+    return app.question_answerer.get(index=kb_index, id=kb_id)[0]
+
+
+def _construct_weather_api_url(selected_location, selected_unit, openweather_api_key):
+
+    if selected_unit=='Celsius':
+        unit_string = 'metric'
+    else:
+        unit_string = 'imperial'
+
+    url_string = "{base_string}?q={location}&units={unit}&appid={key}".format(base_string=OPENWEATHER_BASE_STRING,
+                                                                              location=selected_location.replace(" ", "+"),
+                                                                              unit=unit_string,
+                                                                              key=openweather_api_key)
+
     return url_string
 
 
@@ -78,7 +95,7 @@ def _get_unit(context):
     Get's the user desired temperature unit from the query, defaulting to Fahrenheit if none provided
 
     Args:
-        unit_entity (dict): a unit entity with two possible resolved values (Celcius and Fahrenheit)
+        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved temperature unit entity
@@ -86,10 +103,10 @@ def _get_unit(context):
     unit_entity = next((e for e in context['entities'] if e['type'] == 'unit'), None)
 
     if unit_entity:
-        return app.question_answerer.get(index='units', id=unit_entity['value'][0]['id'])[0]
+        return _kb_fetch('units', unit_entity['value'][0]['id'])
     else:
         # Default to Fahrenheit
-        return 'Fahrenheit'
+        return DEFAULT_TEMPERATURE_UNIT
 
 
 def _get_location(context):
@@ -97,7 +114,7 @@ def _get_location(context):
     Get's the user location from the query, defaulting to San Francisco if none provided
 
     Args:
-        location_entity (dict): a location entity with potentially many candidate resolved locations
+        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved location entity
@@ -105,10 +122,10 @@ def _get_location(context):
     location_entity = next((e for e in context['entities'] if e['type'] == 'city'), None)
 
     if location_entity:
-        return app.question_answerer.get(index='cities', id=location_entity['value'][0]['id'])[0]
+        return _kb_fetch('cities', id=location_entity['value'][0]['id'])
     else:
         # Default to San Francisco
-        return 'San Francisco'
+        return DEFAULT_LOCATION
 
 if __name__ == '__main__':
     app.cli()
