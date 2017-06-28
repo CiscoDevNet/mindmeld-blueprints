@@ -1,0 +1,5 @@
+test:
+  pre:
+    - pip install -r test-requirements.txt
+  override:
+    - ./lintme
