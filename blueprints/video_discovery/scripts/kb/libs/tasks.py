@@ -8,6 +8,8 @@ import requests
 import time
 import json
 
+import multiprocessing
+
 from .constants import SLEEP_TIME
 
 
@@ -35,6 +37,9 @@ class DataProcessingTask(luigi.Task):
         else:
             logging.error("invalid target type: {}".format(self.target))
             raise
+
+    def get_output_path(self, filename):
+        return os.path.join(self.output_dir, filename)
 
     def __init__(self, *args, **kwargs):
         self._complete = False
@@ -84,8 +89,11 @@ class RequestAPI(DataProcessingTask):
 def request_api(url):
     logging.info('Requesting API from {}...'.format(url))
     response = requests.get(url)
-    if response.status_code != 200:
-        logging.error('Error {} when requesting {}! :('.format(response.status_code, url))
+
+    try:
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        logging.error('Error {} when requesting {}! :('.format(str(e), url))
         return
     time.sleep(SLEEP_TIME)
     return response
@@ -110,3 +118,35 @@ class ReadLocalDir(luigi.Task):
             luigi.LocalTarget(os.path.join(self.input_dir, file_path))
             for file_path in output_files
         ]
+
+
+def run_task(url, output_file, lock):
+    res = request_api(url)
+    if not res:
+        return
+    res = res.json()
+    # ids = [result.get('id', None) for result in res.get('results', [])]
+    lock.acquire()
+    mode = 'w'
+    if os.path.isfile(output_file):
+        mode = 'a'
+
+    with open(output_file, mode) as fp:
+        # line = json.dumps(ids)
+        line = json.dumps(res)
+        fp.write(line + '\n')
+    lock.release()
+
+
+def crawl_urls(urls, output_file, num_workers=6):
+    m = multiprocessing.Manager()
+    mp_lock = m.Lock()
+    offset = 0
+    while offset < len(urls):
+        pool = multiprocessing.Pool(num_workers)
+        params = [(url, output_file, mp_lock) for url in urls[offset:offset+num_workers]]
+        pool.starmap(run_task, params)
+        pool.close()
+        pool.join()
+        offset += num_workers
+        time.sleep(1)
