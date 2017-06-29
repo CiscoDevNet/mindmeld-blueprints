@@ -98,18 +98,26 @@ def specify_temperature(context, slots, responder):
     selected_location = context['frame']['thermostat_location']
 
     if context['frame']['desired_action'] == 'Set Thermostat':
-        context['request']['session']['thermostat_temperatures'][selected_location] = selected_temperature_amount
-        reply = _handle_thermostat_change_reply(selected_location, desired_temperature=selected_temperature_amount)
+        context['request']['session']['thermostat_temperatures'][selected_location] \
+            = selected_temperature_amount
+        reply = _handle_thermostat_change_reply(selected_location,
+                                                desired_temperature=selected_temperature_amount)
     elif context['frame']['desired_action'] == 'Turn Up Thermostat':
-        context['request']['session']['thermostat_temperatures'][selected_location] += selected_temperature_amount
+        context['request']['session']['thermostat_temperatures'][selected_location] \
+            += selected_temperature_amount
 
-        new_temperature = context['request']['session']['thermostat_temperatures'][selected_location]
-        reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temperature)
+        new_temperature = \
+            context['request']['session']['thermostat_temperatures'][selected_location]
+        reply = _handle_thermostat_change_reply(selected_location,
+                                                desired_temperature=new_temperature)
     elif context['frame']['desired_action'] == 'Turn Down Thermostat':
-        context['request']['session']['thermostat_temperatures'][selected_location] -= selected_temperature_amount
+        context['request']['session']['thermostat_temperatures'][selected_location] \
+            -= selected_temperature_amount
 
-        new_temperature = context['request']['session']['thermostat_temperatures'][selected_location]
-        reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temperature)
+        new_temperature = \
+            context['request']['session']['thermostat_temperatures'][selected_location]
+        reply = _handle_thermostat_change_reply(selected_location,
+                                                desired_temperature=new_temperature)
 
     responder.reply(reply)
 
@@ -261,8 +269,10 @@ def set_thermostat(context, slots, responder):
     selected_temperature = _get_temperature(context)
 
     if selected_temperature:
-        context['request']['session']['thermostat_temperatures'][selected_location] = selected_temperature
-        reply = _handle_thermostat_change_reply(selected_location, desired_temperature=selected_temperature)
+        context['request']['session']['thermostat_temperatures'][selected_location] \
+            = selected_temperature
+        reply = _handle_thermostat_change_reply(selected_location,
+                                                desired_temperature=selected_temperature)
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = "Set Thermostat"
@@ -277,10 +287,13 @@ def turn_down_thermostat(context, slots, responder):
     selected_temperature_amount = _get_temperature(context)
 
     if selected_temperature_amount:
-        context['request']['session']['thermostat_temperatures'][selected_location] -= selected_temperature_amount
-        new_temperature = context['request']['session']['thermostat_temperatures'][selected_location]
+        context['request']['session']['thermostat_temperatures'][selected_location] \
+            -= selected_temperature_amount
+        new_temperature \
+            = context['request']['session']['thermostat_temperatures'][selected_location]
 
-        reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temperature)
+        reply = _handle_thermostat_change_reply(selected_location,
+                                                desired_temperature=new_temperature)
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = "Turn Down Thermostat"
@@ -296,10 +309,13 @@ def turn_up_thermostat(context, slots, responder):
     selected_temperature_amount = _get_temperature(context)
 
     if selected_temperature_amount:
-        context['request']['session']['thermostat_temperatures'][selected_location] += selected_temperature_amount
-        new_temperature = context['request']['session']['thermostat_temperatures'][selected_location]
+        context['request']['session']['thermostat_temperatures'][selected_location] \
+            += selected_temperature_amount
+        new_temperature = \
+            context['request']['session']['thermostat_temperatures'][selected_location]
 
-        reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temperature)
+        reply = _handle_thermostat_change_reply(selected_location,
+                                                desired_temperature=new_temperature)
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = "Turn Up Thermostat"
@@ -363,7 +379,8 @@ def _handle_lights_reply(selected_all, selected_location, desired_state):
     if selected_all:
         reply = "Ok. All lights have been turned {state}.".format(state=desired_state)
     elif selected_location:
-        reply = "Ok. The {location} lights have been turned {state}.".format(location=selected_location.lower(), state=desired_state)
+        reply = "Ok. The {location} lights have been turned {state}.".format(
+            location=selected_location.lower(), state=desired_state)
 
     return reply
 
@@ -373,21 +390,24 @@ def _handle_door_reply(selected_all, selected_location, desired_state):
     if selected_all:
         reply = "Ok. All doors have been {state}.".format(state=desired_state)
     elif selected_location:
-        reply = "Ok. The {location} door has been {state}.".format(location=selected_location.lower(), state=desired_state)
+        reply = "Ok. The {location} door has been {state}.".format(
+            location=selected_location.lower(), state=desired_state)
 
     return reply
 
 
 def _handle_appliance_reply(selected_location, selected_appliance, desired_state):
 
-    reply = "Ok. The {appliance} has been turned {state}.".format(appliance=selected_appliance, state=desired_state)
+    reply = "Ok. The {appliance} has been turned {state}.".format(appliance=selected_appliance,
+                                                                  state=desired_state)
     return reply
 
 
-def _handle_thermostat_change_reply(selected_location, desired_temperature=None, desired_state=None):
+def _handle_thermostat_change_reply(selected_location, desired_temperature=None,
+                                    desired_state=None):
 
     if desired_temperature:
-        reply = "The thermostat temperature in the {location} is now {temp} degrees Fahrenheit.".format(
+        reply = "The thermostat temperature in the {location} is now {temp} degrees F.".format(
             location=selected_location, temp=desired_temperature)
     elif desired_state:
         reply = "Ok. The thermostat in the {location} has been turned {state}.".format(
@@ -403,7 +423,8 @@ def _get_location(context):
     Get's the user desired location within house from the query
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved location entity
@@ -422,7 +443,8 @@ def _get_command_for_all(context):
     Looks at user query to see if user wants all the lights or all the doors turned off
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
 
     Returns:
         bool: whether or not the user made a command for all
@@ -440,7 +462,8 @@ def _get_appliance(context):
     Get's the user target appliance, should always detect something
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved appliance entity
@@ -458,7 +481,8 @@ def _get_thermostat_location(context):
     Get's the user desired thermostat location within house from the query, defaults to 'home'
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved location entity, 'home' if no resolution
@@ -476,7 +500,8 @@ def _get_temperature(context):
     Get's the user desired temperature or temperature change
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved temperature entity
