@@ -89,7 +89,7 @@ class RequestAPI(DataProcessingTask):
 
 
 def request_api(url):
-    logging.info('Requesting API from {}...'.format(url))
+    logging.debug('Requesting API from {}...'.format(url))
     response = requests.get(url)
 
     try:
