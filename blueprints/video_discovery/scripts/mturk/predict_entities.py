@@ -18,19 +18,20 @@ nlp = NaturalLanguageProcessor('../mindmeld-blueprints/blueprints/video_discover
 nlp.load()
 
 with open(input_file, 'r') as queries:
-	with open('pre_annotate.txt', 'w+') as predictions:
-		for query in queries:
-			query = query.rstrip()
-			prediction = nlp.domains["video_content"]._children["browse"].entity_recognizer.predict(query)
-			new_string = ''
-			counter = 0
-			for entity in prediction:
-				entity_text = entity.text
-				entity_start = entity.span.start
-				entity_end = entity.span.end
-				entity_type = entity.entity.type
-				new_string += query[counter:entity_start]
-				new_string += ('{' + entity_text + '|' + entity_type + '}')
-				counter = entity.span.end + 1
-			new_string += query[counter:]
-			predictions.write(new_string + '\n')
+    with open('pre_annotate.txt', 'w+') as predictions:
+        for query in queries:
+            query = query.rstrip()
+            prediction = nlp.domains["video_content"]._children["browse"]\
+                .entity_recognizer.predict(query)
+            new_string = ''
+            counter = 0
+            for entity in prediction:
+                entity_text = entity.text
+                entity_start = entity.span.start
+                entity_end = entity.span.end
+                entity_type = entity.entity.type
+                new_string += query[counter:entity_start]
+                new_string += ('{' + entity_text + '|' + entity_type + '}')
+                counter = entity.span.end + 1
+            new_string += query[counter:]
+            predictions.write(new_string + '\n')
