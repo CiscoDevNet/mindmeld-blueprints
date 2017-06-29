@@ -122,13 +122,13 @@ class ReadLocalDir(luigi.Task):
         ]
 
 
-def run_task(url, output_file, lock):
+def run_task(url, output_file, lock=None):
     res = request_api(url)
     if not res:
         return
     res = res.json()
-    # ids = [result.get('id', None) for result in res.get('results', [])]
-    lock.acquire()
+    if lock:
+        lock.acquire()
     mode = 'w'
     if os.path.isfile(output_file):
         mode = 'a'
@@ -137,10 +137,11 @@ def run_task(url, output_file, lock):
         # line = json.dumps(ids)
         line = json.dumps(res, sort_keys=True)
         fp.write(line + '\n')
-    lock.release()
+    if lock:
+        lock.release()
 
 
-def crawl_urls(urls, output_file, num_workers=5):
+def crawl_urls_in_parallel(urls, output_file, num_workers=5):
     m = multiprocessing.Manager()
     mp_lock = m.Lock()
     offset = 0
@@ -152,3 +153,8 @@ def crawl_urls(urls, output_file, num_workers=5):
         pool.join()
         offset += num_workers
         time.sleep(1)
+
+
+def crawl_urls(urls, output_file, num_workers=5):
+    for url in urls:
+        run_task(url, output_file)
