@@ -36,7 +36,7 @@ i d like to wake up {at seven tomorrow|sys_time|new_time}
 i must have a loud alarm {at 6:30 am|sys_time|new_time}
 i need to get up {at 7:15am|sys_time|new_time}
 i need to get up {at 8am on saturday|sys_time|new_time}
-i want a {daily|sys_time|new_time} alarm {at 8 am|sys_time|new_time}
+i want a {daily|sys_interval|new_time} alarm {at 8 am|sys_time|new_time}
 i want the alarm to go off {at 5:30 am|sys_time|new_time}
 i want to wake up {at 6|sys_time|new_time}
 make a new alarm for me
@@ -65,7 +65,7 @@ please set my alarm to {7am|sys_time|new_time} and {7:30am|sys_time|new_time}
 please set my alarm to {8am|sys_time|new_time}
 please set the alarm for {6|sys_time|new_time}
 please turn on alarm {6am in morning|sys_time|new_time}
-please turn on my {thursday evening|sys_time|new_time} alarm
+please turn on my {thursday evening|sys_interval|new_time} alarm
 remind me to get kids {at 3:30|sys_time|new_time}
 remind me to move the laundry {at 5:00|sys_time|new_time}
 remind me to turn off the oven {at 2:35|sys_time|new_time}
@@ -183,7 +183,7 @@ wake me up {at 8 am|sys_time|new_time}
 wake me up {at 8 am|sys_time|new_time}
 wake me up {in 1 hour|sys_time|new_time}
 wake me up {in 2 hours|sys_time|new_time}
-wake me up {in the morning|sys_time|new_time}
+wake me up {in the morning|sys_interval|new_time}
 wake me up after {9am|sys_time|new_time}
 wake me up by {7 am|sys_time|new_time}
 set an alarm for {8:00 am|sys_time|new_time}
@@ -197,16 +197,16 @@ turn on alarms
 please set my alarm to go off {1 hour from now|sys_time|new_time}
 {8:30am tomorrow|sys_time|new_time} please
 create a {9:30pm|sys_time|new_time} alarm
-please turn on my alarm for {friday night|sys_time|new_time}
+please turn on my alarm for {friday night|sys_interval|new_time}
 activate {saturday|sys_time|new_time} playtime alarm
 activate {sunday|sys_time|new_time} laundry alarm
 i d like to wake up {at ten tomorrow|sys_time|new_time}
 i d like to wake up {tomorrow at nine|sys_time|new_time}
 i want to wake up {at eight tomorrow|sys_time|new_time}
 wake me up {tomorrow at 8:30|sys_time|new_time}
-please turn on my {tuesday evening|sys_time|new_time} alarm
-please activate my {sunday night|sys_time|new_time} alarm
-please set my {monday morning|sys_time|new_time} alarm
+please turn on my {tuesday evening|sys_interval|new_time} alarm
+please activate my {sunday night|sys_interval|new_time} alarm
+please set my {monday morning|sys_interval|new_time} alarm
 please {9am tomorrow|sys_time|new_time}
 {7:30am tomorrow|sys_time|new_time} please
 {10pm tomorrow|sys_time|new_time} please
