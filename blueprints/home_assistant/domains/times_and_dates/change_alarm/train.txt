@@ -12,7 +12,7 @@ change alarm to {7am|sys_time|new_time} from {6am|sys_time|old_time}
 change alarm from {6 am|sys_time|old_time} to {7 am|sys_time|new_time}
 change alarm from {7 am|sys_time|old_time} to {6 am|sys_time|new_time}
 change alarm time
-change my alarm from {7 am|sys_time|old_time} alarm to {9am morning|sys_time}
+change my alarm from {7 am|sys_time|old_time} alarm to {9am morning|sys_time|new_time}
 change alarms to {an hour from now|sys_time|new_time}
 change me alarm for {tomorrow|sys_time|old_time} to {7 am|sys_time|new_time}
 change my {10 am|sys_time|old_time} alarm to {10 pm|sys_time|new_time}
@@ -28,7 +28,7 @@ change my {7 a m|sys_time|old_time} alarm to a {6:45 a m|sys_time|old_time} alar
 change my {7:00 a m|sys_time|old_time} alarm to {6:00 a m|sys_time|new_time}
 change my alarm to {11 am|sys_time|new_time}
 change my alarm to {9|sys_time|new_time}
-move my {6 am|sys_time|old_time} alarm to {3pm in the afternoon|sys_time}
+move my {6 am|sys_time|old_time} alarm to {3pm in the afternoon|sys_time|new_time}
 change my alarm for {tomorrow|sys_time|old_time} to {7 am|sys_time|new_time}
 change my alarm from {5:00 pm|sys_time|old_time} to {5:00 am|sys_time|new_time}
 change my alarm from {7am|sys_time|old_time} to {6am|sys_time|new_time}
