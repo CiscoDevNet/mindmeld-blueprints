@@ -87,7 +87,13 @@ def provide_help(context, slots, responder):
 @app.handle(intent='unsupported')
 def handle_unsupported(context, slots, responder):
     # Respond with a message explaining the app does not support that # query.
-    responder.reply("Sorry, I can’t help you with that information.")
+    unsupported = ['Sorry, I can\'t help you with that information.',
+                   'Sorry, I don\'t have that information.',
+                   'Sorry, I can\'t help you with that.',
+                   'Sorry, I can only help you browse movies and tv shows.',
+                   'Sorry, I don\'t have that information, would you like to try something else?']
+
+    responder.reply(unsupported)
 
     responder.prompt(GENERAL_PROMPTS)
 
@@ -143,11 +149,11 @@ def default(context, slots, responder):
     When the user asks an unrelated question, convey the lack of understanding for the requested
     information and prompt to return to video discovery.
     """
-    unrelated = ["Sorry, I didn't understand your request.",
-                 "I\'m sorry, I\'m not sure what you mean.",
-                 "Sorry, could you try a different request?",
-                 "I\'m sorry, could you ask me something else related to movies or tv shows?",
-                 "Sorry, I was programmed to only serve your movie and tv show requests."]
+    unrelated = ['Sorry, I didn\'t understand your request.',
+                 'I\'m sorry, I\'m not sure what you mean.',
+                 'Sorry, could you try a different request?',
+                 'I\'m sorry, could you ask me something else related to movies or tv shows?',
+                 'Sorry, I was programmed to only serve your movie and tv show requests.']
 
     responder.reply(unrelated)
 
