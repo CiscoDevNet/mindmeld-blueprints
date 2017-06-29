@@ -20,7 +20,18 @@ def welcome(context, slots, responder):
     """
     When the user starts a conversation, say hi.
     """
-    responder.reply("greet placeholder.")
+    try:
+        # Get user's name from session information in request context to personalize the greeting.
+        slots['name'] = context['request']['session']['name']
+        prefix = 'Hello, {name}. '
+    except KeyError:
+        prefix = 'Hello. '
+
+    responder.prompt(GENERAL_PROMPTS)
+
+    # Get default videos
+    responder.respond(get_default_videos_action())
+    responder.suggest(GENERAL_SUGGESTIONS)
 
 
 @app.handle(intent='browse')
@@ -56,14 +67,18 @@ def provide_help(context, slots, responder):
 @app.handle(intent='unsupported')
 def handle_unsupported(context, slots, responder):
     # Respond with a message explaining the app does not support that # query.
-    responder.reply("unsupported placeholder.")
+    responder.reply("Sorry, I can’t help you with that information.")
 
+    responder.prompt(GENERAL_PROMPTS)
+
+    # Get default videos
+    responder.respond(get_default_videos_action())
+    responder.suggest(GENERAL_SUGGESTIONS)
 
 @app.handle(intent='unrelated')
 def handle_unrelated(context, slots, responder):
     # Respond with a message explaining the app does not support that # query.
     responder.reply("unrelated placeholder.")
-
 
 @app.handle(intent='compliment')
 def say_something_nice(context, slots, responder):
@@ -82,10 +97,10 @@ def say_something_nice(context, slots, responder):
 @app.handle(intent='insult')
 def handle_insult(context, slots, responder):
     # Evade the insult and come back to the app usage.
-    insult_resplies = ['Sorry, I do my  best!',
+    insult_replies = ['Sorry, I do my  best!',
                        'Someone needs to watch a romantic movie.']
     
-    responder.reply(insult_resplies)
+    responder.reply(insult_replies)
 
     responder.prompt(GENERAL_PROMPTS)
 
