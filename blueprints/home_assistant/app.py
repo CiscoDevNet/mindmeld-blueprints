@@ -13,10 +13,12 @@ DEFAULT_TEMPERATURE_UNIT = 'Fahrenheit'
 DEFAULT_LOCATION = 'San Francisco'
 OPENWEATHER_BASE_STRING = 'http://api.openweathermap.org/data/2.5/weather'
 
+
 @app.handle(intent='check-weather')
 def check_weather(context, slots, responder):
     """
-    When the user asks for weather, return the weather in that location or use San Francisco if no location given
+    When the user asks for weather, return the weather in that location or use San Francisco if no
+      location is given.
     """
     # Check to make sure API key is present, if not tell them to follow setup instructions
     try:
@@ -51,7 +53,8 @@ def check_weather(context, slots, responder):
         slots['temp_min'] = weather_info['main']['temp_min']
         slots['temp_max'] = weather_info['main']['temp_max']
         slots['condition'] = weather_info['weather'][0]['main']
-        responder.reply("The weather in {city} is {condition} with a min of {temp_min} and a max of {temp_max}")
+        responder.reply("The weather in {city} is {condition} with a min of {temp_min} and a max of"
+                        " {temp_max}")
 
 
 @app.handle(intent='unsupported')
@@ -76,25 +79,22 @@ def _kb_fetch(kb_index, kb_id):
 
 
 def _construct_weather_api_url(selected_location, selected_unit, openweather_api_key):
-
-    if selected_unit=='Celsius':
-        unit_string = 'metric'
-    else:
-        unit_string = 'imperial'
-
+    unit_string = 'metric' if selected_unit == 'Celsius' else 'imperial'
     url_string = "{base_string}?q={location}&units={unit}&appid={key}".format(
-        base_string=OPENWEATHER_BASE_STRING, location=selected_location.replace(" ", "+"), unit=unit_string,
-        key=openweather_api_key)
+        base_string=OPENWEATHER_BASE_STRING, location=selected_location.replace(" ", "+"),
+        unit=unit_string, key=openweather_api_key)
 
     return url_string
 
 
 def _get_unit(context):
     """
-    Get's the user desired temperature unit from the query, defaulting to Fahrenheit if none provided
+    Get's the user desired temperature unit from the query, defaulting to Fahrenheit if none
+      is provided
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
+        context (dict): contains info about the conversation up to this point (e.g. domain, intent,
+          entities, etc)
 
     Returns:
         string: resolved temperature unit entity
@@ -113,7 +113,8 @@ def _get_location(context):
     Get's the user location from the query, defaulting to San Francisco if none provided
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent, entities, etc)
+        context (dict): contains info about the conversation up to this point (e.g. domain, intent,
+          entities, etc)
 
     Returns:
         string: resolved location entity
@@ -125,6 +126,7 @@ def _get_location(context):
     else:
         # Default to San Francisco
         return DEFAULT_LOCATION
+
 
 if __name__ == '__main__':
     app.cli()
