@@ -1,0 +1,54 @@
+1    recent
+1    last
+1    latest
+1    new
+1    newer
+1    newest
+1    most recent
+1    most recently released
+1    brand new
+1    new releases
+1    newest release
+1    newest releases
+1    what's new
+1    old
+1    first
+1    older
+1    oldest
+1    old classic
+1    classic
+1    classics
+1    in chronological order
+1    popular
+1    hot
+1    blockbuster
+1    blockbusters
+1    most popular
+1    most reviewed
+1    most watched
+1    hottest
+1    highest grossing
+1    top
+1    top grossing
+1    highest rated
+1    highly rated
+1    high ratings
+1    top rated
+1    best
+1    great
+1    best rated
+1    top-rated
+1    best-rated
+1    best reviewed
+1    good reviews
+1    good review
+1    most successful
+1    successful
+1    critically acclaimed
+1    worst rated
+1    lowest rated
+1    worst
+1    least favorite
+1    longest
+1    shortest
+1    earliest
