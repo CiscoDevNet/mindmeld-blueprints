@@ -97,25 +97,22 @@ def specify_temperature(context, slots, responder):
     selected_temperature_amount = _get_temperature(context)
     selected_location = context['frame']['thermostat_location']
 
+    thermostat_temperature_dict = context['request']['session']['thermostat_temperatures']
+
     if context['frame']['desired_action'] == 'Set Thermostat':
-        context['request']['session']['thermostat_temperatures'][selected_location] \
-            = selected_temperature_amount
+        thermostat_temperature_dict[selected_location] = selected_temperature_amount
         reply = _handle_thermostat_change_reply(selected_location,
                                                 desired_temperature=selected_temperature_amount)
     elif context['frame']['desired_action'] == 'Turn Up Thermostat':
-        context['request']['session']['thermostat_temperatures'][selected_location] \
-            += selected_temperature_amount
+        thermostat_temperature_dict[selected_location] += selected_temperature_amount
 
-        new_temperature = \
-            context['request']['session']['thermostat_temperatures'][selected_location]
+        new_temperature = thermostat_temperature_dict[selected_location]
         reply = _handle_thermostat_change_reply(selected_location,
                                                 desired_temperature=new_temperature)
     elif context['frame']['desired_action'] == 'Turn Down Thermostat':
-        context['request']['session']['thermostat_temperatures'][selected_location] \
-            -= selected_temperature_amount
+        thermostat_temperature_dict[selected_location] -= selected_temperature_amount
 
-        new_temperature = \
-            context['request']['session']['thermostat_temperatures'][selected_location]
+        new_temperature = thermostat_temperature_dict[selected_location]
         reply = _handle_thermostat_change_reply(selected_location,
                                                 desired_temperature=new_temperature)
 
@@ -268,9 +265,10 @@ def set_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature = _get_temperature(context)
 
+    thermostat_temperature_dict = context['request']['session']['thermostat_temperatures']
+
     if selected_temperature:
-        context['request']['session']['thermostat_temperatures'][selected_location] \
-            = selected_temperature
+        thermostat_temperature_dict[selected_location] = selected_temperature
         reply = _handle_thermostat_change_reply(selected_location,
                                                 desired_temperature=selected_temperature)
         responder.reply(reply)
@@ -286,11 +284,11 @@ def turn_down_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature_amount = _get_temperature(context)
 
+    thermostat_temperature_dict = context['request']['session']['thermostat_temperatures']
+
     if selected_temperature_amount:
-        context['request']['session']['thermostat_temperatures'][selected_location] \
-            -= selected_temperature_amount
-        new_temperature \
-            = context['request']['session']['thermostat_temperatures'][selected_location]
+        thermostat_temperature_dict[selected_location] -= selected_temperature_amount
+        new_temperature = thermostat_temperature_dict[selected_location]
 
         reply = _handle_thermostat_change_reply(selected_location,
                                                 desired_temperature=new_temperature)
@@ -308,11 +306,11 @@ def turn_up_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature_amount = _get_temperature(context)
 
+    thermostat_temperature_dict = context['request']['session']['thermostat_temperatures']
+
     if selected_temperature_amount:
-        context['request']['session']['thermostat_temperatures'][selected_location] \
-            += selected_temperature_amount
-        new_temperature = \
-            context['request']['session']['thermostat_temperatures'][selected_location]
+        thermostat_temperature_dict[selected_location] += selected_temperature_amount
+        new_temperature = thermostat_temperature_dict[selected_location]
 
         reply = _handle_thermostat_change_reply(selected_location,
                                                 desired_temperature=new_temperature)
