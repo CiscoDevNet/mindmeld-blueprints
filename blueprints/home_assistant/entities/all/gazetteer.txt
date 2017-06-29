@@ -1,0 +1,5 @@
+1.0	all
+1.0	whole house
+1.0	entire house
+1.0	everywhere
+1.0	everything

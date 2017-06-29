@@ -1,3 +1,18 @@
+i'd like to order another {tea|dish} from {Sallys|restaurant}
+add an order of {tea|dish} from {Sallys|restaurant}
+add an order of {tea|dish}
+can i order another {burger|dish}
+one more {pasta|dish} please
+i will order {3 tacos|dish}
+i'll order a {tea|dish}
+can i order {pizza|dish}
+let's order some {beach shrimp|dish}
+order a {coconut water|dish} as well
+i'd like to order from {Oolong Noodles Restaurant|restaurant}
+i'd like to order from {Thep Phanom Thai Restaurant|restaurant} please
+i would like to order from {Noodle Bar and Grill|restaurant}
+i'll order from {Peasant Pies|restaurant}
+get me something from {Dinosaurs Vietnamese Sandwiches|restaurant}
 i'll take the {eggs and cheese veggie pie|dish}
 i'll take a [{half pounder burger|dish} {medium rare|option} with a side of {garlic fries|option}|dish]
 order an [{extra large|option} {pizza|dish} with {onions|option}, {diced tomatoes|option} and {extra sauce|option}|dish]
@@ -530,3 +545,27 @@ how about {chinese|cuisine}?
 let's do {mexican|cuisine}
 let's try {Little Nepal|restaurant}
 let's do {Crystal Jade|restaurant}
+order from {cafe taboo|restaurant}
+order form {dosa on valencia|restaurant}
+order from {k-oz|restaurant}
+order from {grandma's deli|restaurant}
+i would like to order from {k-oz restaurant|restaurant}
+i want to order from {tsing tao restaurant|restaurant}
+i want to order from {crepe house III|restaurant}
+i want to order from {sam's sandwiches & coffee|restaurant}
+i want to order from {gilberth's|restaurant}
+{Gilberth's Restaurant|restaurant}
+{Katana-Ya|restaurant}
+{NEWA|restaurant}
+{Sajj|restaurant}
+{L'Ottavo Ristorante|restaurant}
+{Maneelap Srimongkoun|restaurant}
+{Escape From New York Pizza|restaurant}
+{Escape From NY Pizza|restaurant}
+{Dinosaurs Sandwiches|restaurant}
+{Amici's Pizzeria|restaurant}
+{Elixiria|restaurant}
+{Sallys|restaurant}
+{Mo'z cafe|restaurant}
+{Extreme Pizza|restaurant}
+{Don Ramon's|restaurant}

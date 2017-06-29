@@ -81,7 +81,16 @@ def provide_help(context, slots, responder):
     """
     When the user asks for help, provide some sample queries they can try.
     """
-    responder.reply("help placeholder.")
+    help_replies = ["I can help you find movies and tv shows based on your preferences."
+                    " Just say want you feel like watching and I can find great options for you."]
+    responder.reply(help_replies)
+
+    help_prompts = "Here's some content for you."
+    responder.prompt(help_prompts)
+
+    # Get default videos
+    responder.respond(get_default_videos_action())
+    responder.suggest(GENERAL_SUGGESTIONS)
 
 
 @app.handle(intent='unsupported')

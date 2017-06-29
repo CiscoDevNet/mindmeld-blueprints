@@ -1,0 +1,9 @@
+---
+machine:
+  python:
+    version: 3.6.1
+test:
+  pre:
+    - pip install -r test-requirements.txt
+  override:
+    - ./lintme

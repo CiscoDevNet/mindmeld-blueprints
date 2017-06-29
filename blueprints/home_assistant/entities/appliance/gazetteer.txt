@@ -1,0 +1,51 @@
+1.0	television
+1.0	slow cooker
+1.0	clothes dryer
+1.0	vents
+1.0	coffee
+1.0	microwave
+1.0	stove
+1.0	water heater
+1.0	washing machine
+1.0	dish washer
+1.0	fridge
+1.0	oven
+1.0	dvd player
+1.0	shower
+1.0	fan
+1.0	security system
+1.0	music player
+1.0	wireless internet
+1.0	refrigerator
+1.0	jacuzzi
+1.0	air purifier
+1.0	wifi
+1.0	sound system
+1.0	coffee maker
+1.0	desktop
+1.0	radio
+1.0	computer
+1.0	laptop
+1.0	espresso machine
+1.0	hifi
+1.0	espresso maker
+1.0	water cooker
+1.0	fans
+1.0	tv
+1.0	dryer
+1.0	ceiling fan
+1.0	coffee machine
+1.0	security
+1.0	stereo
+1.0	sink
+1.0	ice machine
+1.0	air conditioner
+1.0	music
+1.0	dishwasher
+1.0	hi fi
+1.0	humidifier
+1.0	printer
+1.0	ac
+1.0	lamp
+1.0	toaster
+1.0	video player

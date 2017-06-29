@@ -1,7 +1,14 @@
 # -*- coding: utf-8 -*-
-"""This module contains the Video Discovery Blueprint Application"""
+"""This module contains the Home Assistant Blueprint Application"""
 
 PARSER_CONFIG = {
+    'dish': {
+        'option': {'linking_words': {'with'}},
+        'sys_number': {'max_instances': 1, 'right': False}
+    },
+    'option': {
+        'sys_number': {'max_instances': 1, 'right': False}
+    }
 }
 
 INTENT_MODEL_CONFIG = {
@@ -45,4 +52,4 @@ DOMAIN_MODEL_CONFIG = {
     }
 }
 
-APP_NAME = 'video_discovery'
+APP_NAME = 'home_assistant'
