@@ -49,7 +49,13 @@ def start_over(context, slots, responder):
     """
     When the user wants to start over, clear the dialogue frame and prompt for the next request.
     """
-    responder.reply("start_over placeholder.")
+    context['frame'] = {}
+    prompts = ['Sure, what do you want to watch?']
+    responder.prompt(prompts)
+
+    # Get default videos
+    responder.respond(get_default_videos_action())
+    responder.suggest(GENERAL_SUGGESTIONS)
 
 
 @app.handle(intent='exit')
@@ -57,7 +63,10 @@ def say_goodbye(context, slots, responder):
     """
     When the user ends a conversation, clear the dialogue frame and say goodbye.
     """
-    responder.reply("exit placeholder.")
+    context['frame'] = {}
+    goodbyes = ['Bye!', 'Goodbye!', 'Have a nice day.', 'See you later.']
+
+    responder.reply(goodbyes)
 
 
 @app.handle(intent='help')
