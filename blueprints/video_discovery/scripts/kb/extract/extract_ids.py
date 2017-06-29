@@ -37,10 +37,7 @@ class GetTMDBIDs(VideoDataProcessingTask):
         urls = []
 
         for year_idx in range(self.year_start, self.year_end - 1, -1):
-            if year_idx == 2017:
-                year_filter = '{0}.gte={1}'.format(self.tmdb_filter, year_idx)
-            else:
-                year_filter = '{0}.gte={1}&{0}.lte={1}'.format(self.tmdb_filter, year_idx)
+            year_filter = '{0}={1}'.format(self.tmdb_filter, year_idx)
 
             # Get the first page for total pages.
             url = '{:s}?query=*&{:s}&api_key={:s}'.format(self.tmdb_endpoint, year_filter, API_KEY)
