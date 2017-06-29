@@ -25,9 +25,11 @@ def welcome(context, slots, responder):
     try:
         # Get user's name from session information in request context to personalize the greeting.
         slots['name'] = context['request']['session']['name']
-        prefix = 'Hello, {name}. '
+        greeting = 'Hello, {name}.'
     except KeyError:
-        prefix = 'Hello. '
+        greeting = 'Hello.'
+
+    responder.reply(greeting)
 
     responder.prompt(GENERAL_PROMPTS)
 
