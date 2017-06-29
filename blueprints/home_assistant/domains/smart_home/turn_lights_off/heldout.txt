@@ -1,0 +1,52 @@
+turn the lights off
+turn off the lights
+please turn the lights off 
+switch off the lights
+can you switch off the lights
+lights off
+turn off the lights in the {bedroom|location}
+lights off in the {kitchen|location}
+lights off the {bedroom|location}
+{living room|location} lights off
+lights off {basement|location}
+{bathroom|location} lights off
+please turn off the lights in the {family room|location}
+turn off {all|all} the lights
+turn off {all|all} lights
+{all|all} lights off
+turn off the lights {everywhere|all}
+lights off {everywhere|all}
+lights off in the {kitchen|location}
+turn the lights off
+turn the lights in the {office|location} off
+turn the lights off in the {bathroom|location}
+lights off in the {back|location}
+turn {kitchen|location} light out
+turn off the {living room|location} light
+kill {bedroom|location} lights
+turn the {living room|location} light off
+turn {all|all} lights off
+turn the {bedroom|location} light off
+turn the {kitchen|location} lights out
+switch off {all|all} lights
+shut off the {living room|location} lights
+turn {bedroom|location} lights out
+turn the {living room|location} lights off
+turn {kitchen|location} lights off
+shut off the {bedroom|location} light
+turn {kitchen|location} lights out
+lights off here
+switch off lights
+{living room|location} lights off
+turn off {living room|location} lights
+lights out in the house
+turn the {bedroom|location} lights out
+turn off lights
+kill light
+turn the {bathroom|location} light off
+kill {all|all} the lights
+shut off {all|all} the lights
+turn {living room|location} lights off
+switch off the {bathroom|location} lights
+lights out in {all|all} rooms
+turn off {all|all} lights

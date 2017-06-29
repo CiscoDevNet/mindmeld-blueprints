@@ -1,0 +1,115 @@
+{back|location} door lock set
+check the {bedroom|location} door lock
+engage {front|location} door lock
+i am leaving please lock {all|all} doors
+i want to lock {all|all} the doors in the house please
+lock {all|all}
+lock {all|all}
+lock {all|all} doors
+lock {all|all} doors
+lock {all|all} doors
+lock {all|all} doors
+lock {all|all} doors please
+lock {all|all} rooms
+lock {all|all} the doors
+lock {all|all} the doors
+lock {all|all} the doors
+lock {back|location}
+lock {back|location} door
+lock {back|location} door
+lock {front|location}
+lock {garage|location}
+lock {garage|location} door
+lock {garage|location} door
+lock {garage|location} door
+lock {guest room|location} door
+lock {all|all} doors in the house
+lock {all|all} of my doors
+lock {all|all} of the doors
+lock {all|all} the doors in the house
+lock {all|all} the doors in the house
+lock down {all|all} doors
+lock {every|all} door in my house
+lock {everything|all} now
+lock just the {bathroom|location} door
+lock my {bathroom|location} door
+lock my {bedroom|location} door
+lock my {master bedroom|location}
+lock only {back|location} door
+lock the {back|location} door
+lock the {back|location} door
+lock the {back|location} door
+lock the {back|location} door
+lock the {back|location} door
+lock the {back|location} door
+lock the {back|location} door
+lock the {back|location} door
+lock the {basement|location} door
+lock the {basement|location} door
+lock the {basement|location} door
+lock the {basement|location} door
+lock the {basement|location} door
+lock the {bathroom|location}
+lock the {bathroom|location}
+lock the {bathroom|location} door
+lock the {bathroom|location} door
+lock the {bathroom|location} door now
+lock the {bedroom|location} door
+lock the {bedroom|location} door
+lock the {bedroom|location} door now
+lock the {bedroom|location} doors
+lock the {front|location} door
+lock the {front|location} door
+lock the {front|location} door
+lock the {front|location} door
+lock the {front|location} door
+lock the {front|location} door
+lock the {front|location} door
+lock the {front|location} door
+lock the {front|location} door
+lock the {front|location} screen door
+lock the {garage|location}
+lock the {garage|location} door
+lock the {garage|location} door
+lock the door to the {garage|location}
+lock the door to the {garage|location}
+lock the door to the {office|location}
+lock the {guestroom|location}
+lock the {master bathroom|location} door
+lock the {master bedroom|location} door
+lock the {master bedroom|location} door
+lock the {patio|location} door
+lock the {side|location} door
+lock the {side|location} door
+lock the {side|location} door
+lock the {whole house|all} please
+please lock {all|all} doors
+please lock my {back|location} {bedroom|location}
+please lock my {front|location} door
+system please lock the {outside|location} doors
+lock {front|location} door
+latch the {patio|location} door
+door locks set
+make sure {all|all} doors are locked
+locked {all|all} doors in house
+locks on {bedroom|location} door activated
+secure {all|all} doors
+secure {back|location} door
+secure the {back|location} door
+secure the {front|location} door
+deadbolt the {back|location} door
+bolt the {back|location} door
+secure the {basement|location} door
+please secure the {back|location} door
+locks on {all|all} doors
+locks on {back|location} door activated
+{all|all} lock now
+secure {all|all} locks
+make sure {all|all} of the doors and locks are closed
+lock door
+lock the door
+lock the door
+lock the doors
+lock the doors
+please lock my door
+bolt the {front|location} door please
