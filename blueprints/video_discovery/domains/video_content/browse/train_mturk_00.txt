@@ -1,0 +1,458 @@
+What are high ranking {horror|genre} {movies|type} from {2016|sys_time}?
+Can I see {shows|type} starring {Jeffrey Dean Morgan|cast}?
+What are {popular|sort} {comedies|genre} right now?
+Show me suggestions to watch right now.
+What's a good {science fiction|genre} {movie|type} from {the last year|sys_interval}?
+Show me {movies|type} with {Robin Williams|cast}.
+What are some good {movies|type} from the {80s|sys_interval}?
+What {new|sort} {science fiction|genre} {TV|type} series have been added lately?
+I want to look up all the {talk shows|genre} which had {Carrie Fisher|cast} as a guest back in the {90's|sys_interval}. I want to watch them all.
+Can you look up the {most critically acclaimed|sort} {movie|type} so far for {2017|sys_time}?
+Can you come up with a list of the {top ten|sort} {horror|genre} {films|type} of {all time|sys_interval}?
+I want to watch {Alfred Hitchcock|director} {films|type}, can you suggest the {best|sort} one?
+Show me {movies|type} directed by {Edgar Wright|director}.
+I want to watch {documentaries|genre} about labor organizing.
+Do you have anything similar to {Game of Thrones|title}?
+What's the selection of {Adam Sandler|cast} {movies|type} like?
+Show me the {top rated|sort} {action|genre} {films|type}.
+I'm in the mood for a Nicholas Cage {movie|type}, which ones have you got?
+Can you browse {favorite|sort} {comedy|genre} {series|type} in tv channels?
+Can you suggest {last week|sys_time} {hit|sort} and ranking channels and {favorite|sort} {series|type}?
+Show me some {new|sort} {kid|genre}'s {movies|type}.
+Show me some {stand up comedies|genre}.
+Find some supernatural {horror|genre} {movies|type}.
+Show me some {movies|type} produced by the {Wayans Bros|director}.
+What's a good {Christmas|genre} {movie|type} to watch?
+What is the {best rated|sort} {film|type} from {this year|sys_time}?
+What's a good {family|genre} {movie|type} to watch?
+Show me {movies|type} with {Kate McKinnon|cast}
+What are the {top|sort} 10 thrillers of {2016|sys_time}?
+What are the {trending|sort} {TV|type} {dramas|genre} {right now|sys_time}?
+Can you show me a list of {movies|type} starring {Jennifer Lawrence|cast}?
+Any {movie|type} suggestions inspired by {true events|genre}?
+I want to see {family|genre} {comedies|genre}?
+Show me {movies|type} with {Superheroes|genre}?
+What are some {sitcoms|genre} from the {1980s|sys_interval}?
+What {movies|type} have {Tim Allen|cast}?
+Who played Dr. Sloan on {Grey's Anatomy|title}?
+What were the {top|sort} {teen|genre} {movies|type} in the {80's|sys_interval}?
+show {movies|type} with {Jennifer Aniston|cast}.
+show {this years|sys_time} {comedies|genre}
+show {popular|sort} {90|genre}'s {TV shows|type}
+Find me {movies|type} with {Peter Firth|cast}.
+What {Star Wars|title} {movies|type} haven't I already seen?
+Find {Australian|country} {movies|type} that have won Logie awards.
+Can I see {movies|type} that are {cult|genre} {movies|type}?
+Where can I find {obscure|sort} {tv series|type} from the {1960s|sys_interval}?
+Can i locate {informational|genre} type {documentaries|genre}?
+Where can I see {experimental|genre} {movies|type}?
+What are {popular|sort} {movies|type} with {Jason Statham|cast}?
+Can you suggest {popular|sort} {comedies|genre} {from 2010-2015|sys_interval}?
+What {movie|type} was {most watched|sort} in {1993|sys_time}?
+What {TV show|type} is {best|sort} to watch in the morning with {kids|genre}?
+What were the {popular|sort} {90's|sys_interval} {kid|genre} {shows|type}?
+Who won the most awards of {2017|sys_time} so far?
+Can I see more {movies|type} with {Johnny Depp|cast}?
+What is the {most popular|sort} {TV|type} airing {today|sys_time}?
+What are some {new|sort} {movie|type} releases from {2017|sys_time}?
+What are some {movies|type} starring {Hugh Jackman|cast}?
+Can I see {top rated|sort} {sitcoms|genre}?
+What {shows|type} are {educational|genre} for {toddlers|genre}?
+Show me some {cartoons|genre} from the {80s|sys_interval}.
+I want to watch {Game of Thrones|title}.
+What is {Tom Cruise|cast}'s {most popular|sort} {movie|type}?
+Are there any other {shows|type} like {Breaking Bad|title}?
+Please show me the {newest|sort} {action|genre} {movies|type}.
+What are the {most popular|sort} {Disney Jr.|genre} {shows|type}?
+Can you show me {popular|sort} {kids|genre} {movies|type} from the {1980s|sys_interval}?
+Do you have any of the {rainbow bright|genre} {movies|type}?
+can i see some {ghost|genre} caught on camera videos?
+Can i see a {black comedy|genre} serials?
+What is the {most|sort} {shocking accident|genre} videos ever ?
+Can I see a {John Wayne|cast} {Movie|type} from {1954|sys_time}?
+What was the {last|sort} {Monkees|titile} {TV episode|type}?
+What year was the {first|sort} {Monday Night Football|title} game?
+Can I see the {latest|sort} {Superbowl|title}?
+What's the {most popular|sort} {TV series|type} {now|sys_time}?
+Can you show me {popular|sort} {comedy|genre} {Anime|genre}?
+Show me {hentai|genre} {movies|type}
+Give me {comedies|genre} from the {80's|sys_interval}
+is there any {movie|type} {premiere|title} on {TV|type} this afternoon
+find me some {comedies|genre} to watch tonight
+Is there a {classic|genre} {movie|type} {thriller|genre} on tv tonight
+I want to watch any {Alfred Hitchcock|director}'s {movie|type}
+What {cooking|genre} {shows|type} are on between 4 and 6pm
+Are any {Star Trek|title} {episodes|type} on now
+What is on {masterpiece theater|genre} {pbs|genre} {this month|sys_time}
+What {movie|type} were {Daniel Day LEWIS|cast}
+Can I watch some {Chris Pratt|cast} {movies|type}?
+Any {movies|type} featuring {Daniel Craig|cast}?
+Can I watch a {movie|type} which won an Oscar in {2016|sys_time}?
+Any {recent|sort} {films|type} worth watching?
+What is a {show|type} similar to {Gilmore Girls|title}?
+What are the {most popular|sort} {movies|type} being watched {right now|sys_time}?
+What are the {most successful|sort} {movies|type} at the box office {this summer|sys_time}?
+Can I see some {cult|genre} {classic|genre} {films|type}?
+Can you find me the {last|sort} {episode|type} of {Grey's Anatomy|title}?
+What would be a good {movie|type} for my 13 year old daughter and I to watch together?
+Any good {action|genre} {movie|type} suggestions from {the last year|sys_time}?
+Please find me {the Hunger games|title}.
+Yo quiero ver una pelicula de {horror|genre}
+What is the {best|sort} {movie|type} playing {right now|sys_time}?
+what {show|type} should i watch?
+what is the {best|sort} {show|type} from the {90's|sys_interval}?
+suggest me some {comedy|genre} {movies|type} of {2016|sys_time}?
+When will the {newest|sort} {Star Trek|title} {movie|type} come out?
+When does the {new|sort} {season|type} of {Stranger Things|title} start?
+Is there going to be a reboot of {Rosanne|title}?
+When does the {new|sort} {Will and Grace|title} start?
+What was the {most popular|sort} {drama|genre} {movie|type} in {2007|sys_time}?
+How many {movies|type} has {Bill Murray|cast} acted in?
+What is a {scary|genre} {movie|type} that has good ratings?
+What is {Brad Pitt|cast}'s {most popular|sort} {movie|type}?
+Can you show  me the list of some good {old|sort} {comedies|genre} ?
+What are the {best|sort} {animation|genre} {movies|type} in {2016|sys_time}?
+Can you give me for tonight good {horror|genre} {movie|type}?
+Is there any {action|genre} {movies|type} rating over 8 on IMDB?
+What's a good {show|type} to watch based on my history?
+Are there any {new|sort} {kids|genre} {shows|type} added?
+What should we watch tonight for {movie|type} night?
+What's a good {tearjerker|genre} {movie|type}?
+What is everyone else watching the {most|sort} {right now|sys_time}?
+What {movie|type} can I watch that will make me {laugh|genre}?
+{Top-rated|sort} {movies|type} of {2016|sys_time}.
+What are the {best reviewed|sort} comedies of {the last two years|sys_interval}?
+{Sci-fi|genre} {film|type} from {2014|sys_time} starring {Tom Cruise|cast}?
+{Top|sort} ten {films|type} of the {2000s|sys_interval}.
+Could I get a list of {most talked about|sort} {musicals|genre} ({movies|type}, not {Broadway|genre})  from {the last decade|sys_interval}?
+I'm looking for a really {scary|genre} {horror|genre} {movie|type} - maybe one that {tops|sort} scariest {movies|type} lists out there?
+What {TV shows|type} other than {Buffy the Vampire Slayer|title} have random {musical|genre} episodes in them?
+Has {Sandra Bullock|cast} been in some good {movies|type} since {Gravity|title}?
+Can I see some {movies|type} that feature {Tom Cruise|cast}?
+What are some {romance|genre} {movies|type} from {this year|sys_time}?
+Are there any {new|sort} {zombie|genre} {movies|type} that you would suggest?
+What {tv shows|type} are {popular|sort} {this year|sys_time}?
+What were the {most popular|sort} {action|genre} {movies|type} from {2015|sys_time}?
+What's {Quentin Tarantino|director}'s {most recent|sort} {film|type}?
+Do you have any {new|sort} recommandations for me?
+Show me some {latest|sort} hit {movies|type} of {year 2000|sys_time}
+{Popular|sort} {kids|genre} rhymes please
+Show me {last|sort} {episode|type} of {Lost|title} {season|type} {6|sys_number}
+show me the {most recent|sort} {DVD|type} releases for {this month|sys_time}
+Can i play {Season|type} {2|sys_number} of {Breaking Bad|title}
+I want to watch that {movie|type} with {Jim Carey|cast} as a pet detective
+I'm searching for a {comedy|genre} staring {Jonah Hill|cast}
+Can I see the list of {best|sort} {comedy|genre} {movies|type} of {all time|sys_interval}?
+Which is the {current|sort} {highly rated|sort}  {TV show|type}?
+what are the {movies|type} releasing in {2017|sys_time}?
+How can I watch {movies|type} online?
+What are the {latest|sort} {animation|genre} releases in {2017|sys_time}?
+What is the {most popular|sort} {horror|genre} {movie|type} {this year|sys_time}?
+When will the next {season|type} of {Supernatural|title} come?
+What are the ratings of {Despicable Me 3|title}?
+What are some {crime dramas|genre} from the {40's|sys_interval}?
+Any {movies|type} with {John Wayne|cast}?
+What {shows|type} did {Carol Burnett|cast} do?
+Suggest some {spaghetti westerns|genre}.
+Could I watch a {well-rated|sort} {sci-fi|genre} {movie|type}?
+What is the {most watched|sort} {TV show|type} of {the year|sys_time}?
+What {new|sort} {movies|type} would you suggest to watch?
+What {comedy|genre} {show|type} would you recommend?
+Are there any {new|sort} {series|type} starting soon?
+What was the {most popular|sort} {science fiction|genre} {film|type} {last month|sys_time}?
+Are there any {movies|type} longer than {100 minutes?
+Can you show me the {highest rated|sort} {Adam Sandler|cast} {movie|type}?
+Where can I find {old|sort} {episodes|type} of {Babylon 5|title}?
+Do you have any {well-reviewed|sort} {horror|genre} {movies|type}?
+Where can I stream {yesterday|sys_time}'s {episode|type} of {Conan|title}?
+Can you show me some raunchy {comedies|genre} from the {1980s|sys_interval}?
+Could you please suggest me some {top IMDB rated|sort} {horror|genre} {movies|type}?
+Is there any {adult animation|genre} {series|type} in {TV|type} to watch regularly?
+Please help me to find {most recent|sort} {Angelina Jolie|cast} {movie|type}.
+I am in {romantic|genre} mood today, any {movies|type} to match it?
+What are great {movies|type} for when you are {sad|genre}?
+What are the {funniest|genre} {movies|type} out {right now|sys_time}?
+What is a great {Brad Pitt|cast} {movie|type}?
+What is one of the {best|sort} {classic|genre} {films|type} that I can watch right now?
+Whats on {Nickelodeon|title} {right now|sys_time}?
+Any {horror|genre}/{thriller|genre} {movies|type} on right now?
+Can i watch {the price is right|title}?
+What are some {recent|sort} {action|genre} {movies|type}?
+What {TV shows|type} are {popular|sort} {this year|sys_time}?
+Can you show me all the {Tom Cruise|cast} {movies|type}?
+What {80s|sys_interval} {dramas|genre} won Oscars?
+Can I see all the Best Picture winners {from 2000 to now|sys_interval}?
+What are the {newest|sort} {Animes|genre} that are out?
+Can I see some {dramatic|genre} {war|genre} themed {films|type}?
+What are the {highest rated|sort} {movies|type} of {2016|sys_time}?
+What is the {best|sort} {Bond|title} {movie|type}?
+What's the {best|sort} {action|genre} {TV show|type} on tonight?
+Is {Jason Bateman|cast} still acting?
+{Spongebob|title} or {Fairy Odd Parents|title}?
+Who is the {director of the {movie|type} {the mummy|title}?
+What is the imdb rating for {the dark knight|title}?
+{season|type} {7|sys_number} release date for {game of thrones|title}?
+{best|sort} supportive actress award for {2017|sys_time}?
+I feel like watching a {Western|genre}.
+What's a good {family|genre} {comedy|genre}?
+Is there a {sci-fi|genre} {film|type} suitable {for kids|genre}?
+What's the {most popular|sort} {film|type} for {Halloween|genre}?
+Will you please show me {horror|genre} {movie|type} options?
+What {movies|type} do you have starring {Denzel Washington|cast}?
+What's the {most watched|sort} {documentary|genre}?
+What's the {drama|genre} with the {highest viewer rating|sort}?
+CAN I SEE SOME {HORROR|genre} {MOVIES|type}
+ARE THERE ANY GOOD {COMEDIES|genre} OUT {THIS YEAR|sys_time}
+I DONT KNOW WHAT TO WATCH TONIGHT, ANY SUGGESTIONS
+{Best|sort} {tv drama|type} of {all time|sys_interval}?
+What's the {best|sort} {horror|genre} {movie|type} of {2013|sys_time}?
+What's the {funniest|genre} {sitcom|genre} from the {90's|sys_interval}?
+What's a good rainy day {movie|type}?
+What is the {latest|sort} {Brad Pitt|cast} {movie|type}?
+Show me {comedy|genre} {movies|type} from {2014|sys_time}.
+Can i see some {movies|type} with {Adam Sandler|cast}?
+Can you suggest {movies|type} like {Batman|title}?
+Which {TV shows|type} are {trending|sort} {right now|sys_time}?
+Which {drama|genre} {TV shows|type} were nominated for an Emmy in {2016|sys_time}?
+Which {movies|type} were nominated for Best Picture in {2016|sys_time}?
+Which {movies|type} are rated {top|sort} 10 of {all time|sys_interval}?
+What's the {most popular|sort} {action|genre} {tv show|type} in {this moment|sys_time}?
+Can you show me a list of {legal|genre} {tv shows|type}?
+What {television show|type} has {Kaley Cuoco|cast} worked on?
+There's an {educational|genre} {tv show|type} available for watch {tonight|title}?
+I want to see an {action|genre} {movie|type}, what is {popular|sort} {now|sys_time}?
+What {animated|genre} {movie|type} won at the last Oscar's?
+Can you find a {kids|genre} {show|type} without violence?
+Can you find a {romantic|genre} {movie|type} without nudity?
+Show me {TV shows|type} from the {2000s|sys_interval}
+Can you suggest {comedy|genre} {movies|type} with {Hugh Grant|cast}?
+Show me {movies|type} to watch with my girlfriend
+Can I see {movies|type} about {wars|genre}?
+I want to see {Jim Carey|cast}
+please show me a current {Comedy|genre}
+please suggest a {movie|type} for a rainy Friday night
+list {movies|type} with a strong female lead
+Can you find some short {movies|type}?
+Show me some {movies|type} about World War I.
+Are there any {movies|type} where the good guys don't win?
+Any {classic|sort} {Christmas|genre} {movies|type}?
+{TV shows|type} like {True Detective|title}?
+What are the imdb ratings of {Twin Peaks|title} season {3|sys_number}?
+What are some of {Christoph Watlz|cast} 's {best|sort} {movies|type}?
+Search for list of {movies|type} of {will smith|cast}.
+{2017|sys_time} {comedy|genre} {movies|type}
+{Most viewed|sort} {horror|genre} {movies|type}
+{Blockbuster|sort} {movies|type} this quarter
+Can I see a {movie|type} that is similar to {Forrest Gump|title}?
+What {sitcom|genre} should I watch next?
+Show me a {popular|sort} {documentary|genre} that I haven't seen.
+Which {movies|type} won at Cannes {last year|sys_time}?
+Can you show me {movies|type} that have {Adam Sandler|cast}?
+What is the {most popular|sort} {TV|type} right now?
+What is the {best|sort} {educational|genre} {show|type} for {children|genre}?
+What are some of the {newest|sort} {comedies|genre} that have come out {within the past year|sys_time}?
+The {movie|type} {wonder women|title} is watchable or boring?
+What are the {record breaking|sort} {movies|type} in {2017|sys_time}?
+What about the {Baywatch|title} collection?
+When the {movie|type} {Avatar 2|title} is release?
+Can i watch {last year|sys_time} 's oscar winning {animation|genre} {movie|type}?
+which {TV show|type} is {trending|sort} now?
+Can you list some {movies|type} of {Anne Hathaway|cast}?
+Can you give me a list of {top|sort} 10 {rom coms|genre} of {this year|sys_time}?
+Show me {shows|type} with MATURE ratings
+Play a {show|type} with {action|genre} and {adventure|genre}
+Find a listing of {shows|type} with nudity
+List {shows|type} with zombies in them
+Can I see some {thriller|genre} {movie|type} {from 1980s|sys_interval}
+Which are the {highly rated|sort} {movies|type} {this year|sys_time}?
+Can I see some {movies|type} related to Agatha Christie Novels
+Can I see a {romance|genre} {movie|type} from {2016|sys_time} with a rate of above 8
+{Drama|genre} now
+Go {houses|title}
+{Music|genre} please
+That show I don't know the name of {marvel|title}
+May I have {Jason Strathan|cast} {movies|type}?
+Which are the {best rated|sort} {comedies|genre} in {2017|sys_time}?
+When does {Colony|title} Season {2|sys_number} air on the {TV|type}?
+Which {movies|type} are {best|sort} for the weekend?
+Show me the {highest rated|sort} {sci-fi|genre} {movie|type} from the {80s|sys_interval}
+Can you suggest a good {movie|type} about clowns?
+What is a {feel good|genre} {movie|type}?
+Can I see the {latest|sort} {movie|type} with {Johnny Depp|cast}?
+Are there any {movies|type} about the Central Intelligence Agency?
+What are some {movies|type} with Steven Segal as the main character?
+Can you tell me what the {best|sort} F.B.I. {movie|type} is?
+Could you check on a {futuristic|genre} {movie|type} done about 4036?
+Show me {movies|type} like {The Princess Bride|title}.
+What comic book, {adventure|genre} {movies|type} are showing?
+List {anime|genre} similar to {Yuri on Ice|title}.
+List any {Dr. Who|title} {episodes|type} filmed {after 2014|sys_interval}.
+Which is the {latest|sort} {horror|genre} {movie|type}?
+What {movies|type} were directed by {Steven Spielberg|director}?
+Which {movies|type} are in the {Harry Potter|title} series?
+Any good {British|country} {comedy|genre}?
+What superhero {movies|type} came out {this year|sys_time}?
+Which {animated|genre} {movies|type} are available now?
+which was the {most popular|sort} sitcom in {the past 5 years|sys_interval}?
+find oscar winner {movies|type} in {2015|sys_time}?
+I want teen {dramas|genre} from the {1990's|sys_interval}.
+What are some {family sitcoms|genre} from 1980's.
+Any {romantic historical|genre} {movies|type} from this century?
+I would like to see some {movies|type} with Brendan Frasier.
+Can I see some period {dramas|genre}?
+What are some {British|country} mysteries I might watch?
+What are some {movies|type} with {Faye Dunaway|cast}?
+What do you suggest I watch with my {children|genre}?
+How many {movies|type} is {Leonardo DiCaprio|cast} in?
+Which genre has the {highest rated|sort} {movies|type}?
+What {classic|sort} {movies|type} can you suggest?
+Can you bring up any {new releases|sort}?
+What are the {best-rated|sort} {movies|type} by female directors made in {the last 10 years|sys_interval}?
+Are there good {movies|type} similar to {XXY|title} (I mean the one made in {Argentina|country})?
+What are the {best|sort} {comedies|genre} with lesbian characters?
+What are the {best|sort} {European|country} {movies|type} with main characters being in their 30-s?
+What type of {Korean|country} {Dramas|genre} that you like the {most|sort}?
+Is there a {new|sort} {episode|type} of {Fargo tonight|title}?
+What's the {latest|sort} {Fast and Furious|title} {movie|type}?
+What is the {highest rated|sort} {batman|genre} {movie|type}?
+Play {Johnny Depp|cast}'s {newest|sort} {movie|type} please.
+Are there any {new|sort} {Family Guy|title} episodes out {this year|sys_time}?
+Do you have any {MTV|genre} {shows|type} on here?
+What {reality|genre} shows have {new|sort} {episodes|type} coming out right now?
+What shows are people in my age group watching?
+what {kids|genre} {films|type} star talking animals?
+can you find me some {classic|sort} {films|type} with {popular|sort} cultural references?
+What {films|type} have strong female role models for teens?
+Show me a series like {Fargo|title}
+What {comedy|genre} {movies|type} are the {funniest|genre}?
+Any good {documentaries|genre}
+Something written by the {Coen Brothers|director}
+What {movie|type} won the {best|sort} picture Oscar in {2015|sys_time}?
+What's a {popular|sort} {TV show|type} from the {70s|sys_interval}?
+Can I see some {movies|type} with {George Clooney|cast}?
+What are some {popular|sort} {reality|genre} {TV shows|type}?
+can i watch live {tv shows|type}
+what are the special {programs|type} available now
+Can you please find me a good {movie|type} for tonight?
+When is the next {episode|type} of {Keeping Up With The Kardashians|title}?
+Can I see the {Pirates of the Caribbean|title} {movie|type} {franchice|country}?
+What {movie|type} is ACME Channel playing tonight?
+Which is the {movie|type} of the month?
+Any special {program|type} in this week?
+Is there any {program|type} related to {travel|genre} and {History|genre} this week?
+What was the {best rated|sort} {program|type} last week?
+May I watch some {movies|type} starring {Keira Knightley|cast}?
+Can you show me some Marvel {movies|type}?
+Who won {Best|sort} Actor Oscar in {1998|sys_time}?
+Can you please suggest some {movies|type} about baseball?
+What's the {best|sort} {sci-fi|genre} {movie|type}?
+What are some {sitcoms|genre} about friends hanging out?
+What's the most original {movie|type} of {2016|sys_time}?
+What was the biggest {blockbuster|sort} in {1980|sys_time}?
+Show me {box office hits|sort} {from the 90s|sys_interval}.
+Suggest {films|type} directed by {Steven Spielberg|director}.
+What else is {Tom Cruise|cast} from?
+Can you show me the {highest rated|sort} {movies|type} from {2016|sys_time}?
+Is there a {new|sort} {popular|sort} {show|type}?
+Could you play the {latest|sort} {Scarlett Johanson|cast} {movie|type}?
+Is there a {new|sort} {TV drama|type} for me to watch?
+What {movie|type} won {best|sort} picture at the Oscars in {2015|sys_time}?
+What is {Jared Leto|cast}’s {upcoming|sort} {movie|type}?
+Where can I watch {The Handmaid’s Tale|title}?
+What are some {90s|sys_interval} {movies|type} with {Nicole Kidman|cast} in them?
+What are the {recently|sort} uploaded {Movies|type}?
+{Has|title} season {2|sys_number} of "{Good Morning Call|title}" been added yet?
+Any {cooking|genre} {shows|type} streaming at the moment?
+What {Movie|type} starred {Jim Carey|cast} and {Jeff Daniels|cast}?
+What show starred {james Garner|cast} as a private investigator?
+What are some {comedies|genre} with {Arnold Schwarzenegger|cast}?
+What {baseball|genre} {movies|type} are available?
+watch {day after tomorrow|title}
+{new|sort} {kids|genre} {tv show|type}
+show all {movies|type} starring {will smith|cast}
+recommend a good {show|type}
+HOW MANY {COMEDY|genre} ACTORS IN THIS {MOVIE|type}?
+What is the {most popular|sort} {tv show|type} today?
+Can I watch a {movie|type} with {George Clooney|cast}?
+What is a {tv show|type} with {Matthew Perry|cast}?
+What was a {popular|sort} {tv show|type} from {1994|sys_time}?
+What's a good current show about New York?
+Can you find me a {black and white|genre} {movie|type} from {1950|sys_time}?
+Can I see some {tv shows|type} about working women?
+What is the {newest|sort} {movie|type} out right now?
+Could you find a silent {film|type} with {Charlie Chaplin|cast}?
+Can you search for a {western|genre} {movie|type} with {John Wayne|cast}?
+Would any {historical|genre} {documentaries|genre} about world war II be on tonight?
+Are there any {movies|type} showing tonight about {Christmas|genre}?
+Are there any {movies|type} with {Tom Cruise|cast} and {Johnny Depp|cast}?
+Recommend me some good {romantic|genre} {movies|type}.
+What is the {highest rated|sort} {horror|genre} {film|type} on Metacritic?
+What {adult|genre} {cartoons|genre} are currently {trending|sort}?
+Can you recommend a {recent|sort} {drama|genre}?
+Can I see {movies|type} with {Brad Pitt|cast}?
+I'd like to watch a {movie|type} that came out in {1982|sys_time}.
+What would you suggest that has a happy ending?
+What {movies|type} were first shown at a {film|type} festival?
+What are some {movies|type} that are based on a true story?
+Are there any {new|sort} {documentaries|genre} out?
+What are some {TV shows|type} like {Orange is the New Black|title}?
+What's the {highest rated|sort} {film|type} of {1985|sys_time}?
+Is anything unusually {popular|sort} tonight?
+What's the {least viewed|sort} {movie|type} I can watch?
+What's the {best|sort} modern {silent movie|title}?
+What's a good super hero {movie|type}?
+What's the {best|sort} {TV show|type} right now?
+What are {movies|type} with {Johnny Depp|cast}?
+Who is the {best|sort} actor {movies|type}?
+Can I see some {movies|type} with {John Cusack|cast}?
+What {movie|type} won the Oscar, for {best|sort} {film|type}, in {1956|sys_time}?
+What {movie|type} won the Oscar for {best|sort} director in {1977|sys_time}?
+What are some {action adventure|genre} {films|type} from {this year|sys_time}?
+How many {movies|type} are there with {Mark Wahlberg|cast}?
+What {movie|type} is playing on Friday that you would suggest for a {family|genre}?
+Can you give some {movie|type} or {tv show|type} suggestions with {Donnie Wahlberg|cast}?
+What {movies|type} {from the 1990's|sys_interval} involved cops?
+What {movies|type} were nominated for {Best|sort} Picture in {2016|sys_time}?
+What {movies|type} has {Oscar Isaac|cast} been in?
+Can you recommend any {shows|type} similar to {Orphan Black|title}?
+What are some {popular|sort} {tv|type} mini series?
+Can I see {action|genre} {movies|type}?
+What's an interesting {documentary|genre} to watch?
+What is a {popular|sort} reality {tv show|type}?
+Can I see {movies|type} starring Oscar winning actors?
+Can you show me {small wonders|title} {TV shows|type} from the {90s|sys_interval}?
+Which {movie|type} should I watch in the evening?
+What is the show timing of The Originals TV series and on which channel?
+List the name of {movies|type} of {Keanu Reeves|cast}?
+When will the {last|sort} {episode|type} of {Seinfeld|title} be aired again?
+Can you schedule me about {Castle|title} {this week|sys_time}?
+How many {animation|genre} {movies|type} were in theater {last year|sys_time}?
+List {war|genre} {movies|type} with {Owen Wilson|cast}.
+Director {David Lynch|director} {films|type}
+{Movies|type} starring {Robert de Niro|cast}
+{Movies|type} this month with 8 or higher on IMDB
+{Last|sort} {film|type} starring {Johnny Depp|cast}
+What are the {top rated|sort} {tv shows|type} on Imdb this week?
+Which {tv show|type} is similar to Netflix's {Stranger Things|title}?
+When is the next season of {Better Call Saul|title} coming out?
+What is the name of upcoming {Christopher Nolan|director}'s {movie|type}?
+Are there any {new|sort} {horror|genre} {movies|type}?
+Can I see {crime dramas|genre} from the {90s|sys_interval}?
+What {movies|type} star {Mel Gibson|cast}?
+Can see the {newest|sort} {war|genre} {movies|type}?
+Show me {funny|genre} {movies|type}
+I want to see {action|genre} packed {movies|type}
+What {movies|type} have Leo in them
+A good late night {thriller|genre}
+I would like a list of {Vince Vaughn|cast} {movies|type}.
+{Best|sort} {comedies|genre} of {2017|sys_time}.
+{Popular|sort} {movies|type} right now.
+Find me a {romantic comedy|genre}.
+Show me all the {horror|genre} {movies|type} available.
+Who starred in the original {movie|type} {The Omen|title}?
+Please show me {classic|sort} {comedies|genre} from the {1950s|sys_interval} through the {2000s|sys_interval}
+Who directed {Raging Bull|title}?
+What are the {Best|sort} Zombie {movies|type}?
+What is the {best|sort} {romantic comedy|genre} with {Kate Hudson|cast}?
+Which is {Adam Sandler|cast}'s {latest|sort} {movie|type}?
+What is the {longest|sort} {running|genre} {tv show|type}
