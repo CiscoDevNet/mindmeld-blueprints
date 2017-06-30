@@ -15,14 +15,14 @@ set the {garage|location} thermostat to {72|sys_temperature}
 change the temp in the {garage|location} to {72 degrees|sys_temperature}
 change the thermostat in the {garage|location} to {72|sys_temperature}
 change the temperature in the {garage|location} to {72 degrees|sys_temperature}
-set the temperature to {72 degrees|sys_temperature} {at 5 pm|time}
-set the thermostat to {72|sys_temperature} {at 5 am|time}
-set the temp to {72 degrees|sys_temperature} {at 6 pm tonight|time}
-temperature to {72 degrees|sys_temperature} {at 6 pm|time}
-change the {bedroom|location} temperature to {72 degrees|sys_temperature} {at 8 am|time}
-set the thermostat in the {living room|location} to {72|sys_temperature} {at 8|time}
-set the temperature in the {living room|location} to {72 degrees|sys_temperature} {at 8 pm|time}
-set the temp in the {living room|location} to {72 degrees|sys_temperature} {at 8 o clock tonight|time}
+set the temperature to {72 degrees|sys_temperature} {at 5 pm|sys_time}
+set the thermostat to {72|sys_temperature} {at 5 am|sys_time}
+set the temp to {72 degrees|sys_temperature} {at 6 pm tonight|sys_time}
+temperature to {72 degrees|sys_temperature} {at 6 pm|sys_time}
+change the {bedroom|location} temperature to {72 degrees|sys_temperature} {at 8 am|sys_time}
+set the thermostat in the {living room|location} to {72|sys_temperature} {at 8|sys_time}
+set the temperature in the {living room|location} to {72 degrees|sys_temperature} {at 8 pm|sys_time}
+set the temp in the {living room|location} to {72 degrees|sys_temperature} {at 8 o clock tonight|sys_time}
 heat to {77 degrees|sys_temperature} in the {living room|location}
 {bathroom|location} temperature to {80|sys_temperature}
 set thermostat to {79|sys_temperature} in the {kitchen|location}
