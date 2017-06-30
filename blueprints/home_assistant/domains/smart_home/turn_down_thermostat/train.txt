@@ -1,5 +1,5 @@
 adjust the temperature {5 degrees|sys_temperature} colder
-at {12pm|time} turn the temperature down by {3 degrees|sys_temperature}
+at {12pm|sys_time} turn the temperature down by {3 degrees|sys_temperature}
 can you chill the household
 chill the {bedroom|location}
 please chill the air a bit
