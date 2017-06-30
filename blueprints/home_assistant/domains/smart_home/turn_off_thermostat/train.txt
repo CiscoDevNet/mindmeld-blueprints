@@ -89,7 +89,7 @@ turn off thermostat {now|sys_time}
 turn over off {in 3 minutes|sys_time}
 turn the air off please
 turn the air off please
-turn the heat off at {76|sys_time} degrees
+turn the heat off at {76 degrees|sys_temperature}
 turn the thermostat off
 turrn off all timers
 we re heading out please turn off the thermostat
