@@ -569,3 +569,33 @@ i want to order from {gilberth's|restaurant}
 {Mo'z cafe|restaurant}
 {Extreme Pizza|restaurant}
 {Don Ramon's|restaurant}
+{Mehfil|restaurant}
+get me some {chowder|dish}
+get me some {pizza|dish}
+get me some {sandwiches|dish}
+get me some {roast duck|dish}
+get me some {fried rice|dish}
+get me some {dinner|category}
+get me some {lunch|category}
+get me something for {snacks|category}
+get me something for {starters|category}
+get me something {vegetarian|category}
+get me something with {fish|dish}
+get me something with lots of {vegetables|category}
+get me {seafood|category}
+some {sweets|category}
+the {thursday special|category}
+what's the {special|category}
+what are the {specials|category}
+what's for {lunch|category}
+i feel like having some {paneer|dish}
+i feel like having some {noodle soup|dish}
+i feel like having a {chili naan|dish}
+i feel like having some {chicken tikka masala|dish}
+i feel like having some {falafel|dish}
+i feel like having some {Green Tea|dish}
+i feel like having some {falafel|dish}
+i feel like having some {Kale Caesar Salad|dish}
+i feel like having some {Lemon Tea|dish}
+i feel like having some {Onion Bagel|dish}
+i feel like having some {Prawn Kebab|dish}
