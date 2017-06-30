@@ -34,19 +34,19 @@ please turn off the heat
 please turn off the heat
 please turn off the heat
 please turn off the thermostat
-please turn off the thermostat {at 10 pm|time}
-please turn off the thermostat {at 8 pm|time}
-please turn off the thermostat {at noon|time}
+please turn off the thermostat {at 10 pm|sys_time}
+please turn off the thermostat {at 8 pm|sys_time}
+please turn off the thermostat {at noon|sys_time}
 please turn off the thermostat the temperature is just right
-please turn the heat off {at 6 am|time}
-set my thermostat to turn off {at 2 am|time}
+please turn the heat off {at 6 am|sys_time}
+set my thermostat to turn off {at 2 am|sys_time}
 set the thermostat to switch off
 set thermostat off
 shut down the heat in the {kitchen|location}
 shut down the thermostat
 shut off heat
 shut off heating please
-shut off the thermostat {now|time}
+shut off the thermostat {now|sys_time}
 stop running the heater
 stop the heat
 therm off
@@ -56,7 +56,7 @@ thermostat off
 thermostat off
 thermostat off
 thermostat off
-thermostat off {in 10 minutes|time}
+thermostat off {in 10 minutes|sys_time}
 thermostat off in {bathroom|location} please
 thermostat off only in {bedroom|location}
 turn ac off
@@ -82,14 +82,14 @@ turn off the heat in the {downstairs|location} {bedroom|location}
 turn off the heater
 turn off the heater
 turn off the heater in the {living room|location}
-turn off the thermostat {now|time}
+turn off the thermostat {now|sys_time}
 turn off thermostat
-turn off thermostat {in 30 minutes|time}
-turn off thermostat {now|time}
-turn over off {in 3 minutes|time}
+turn off thermostat {in 30 minutes|sys_time}
+turn off thermostat {now|sys_time}
+turn over off {in 3 minutes|sys_time}
 turn the air off please
 turn the air off please
-turn the heat off at {76|time} degrees
+turn the heat off at {76|sys_time} degrees
 turn the thermostat off
 turrn off all timers
 we re heading out please turn off the thermostat
