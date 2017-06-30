@@ -20,8 +20,6 @@ DEFAULT_THERMOSTAT_LOCATION = 'home'
 DEFAULT_HOUSE_LOCATION = None
 DEFAULT_TEMPERATURE_CHANGE = None
 
-DEFAULT_NEW_TIME = None
-DEFAULT_OLD_TIME = None
 DEFAULT_SYS_TIME = '09:00:00'
 TIME_START_INDEX = 11
 TIME_END_INDEX = 19
@@ -353,8 +351,6 @@ def turn_on_thermostat(context, slots, responder):
 
 # Times and Dates #
 
-# How sophisticated should this be? Alarms on different days?
-
 
 @app.handle(intent='change_alarm')
 def change_alarm(context, slots, responder):
@@ -363,10 +359,10 @@ def change_alarm(context, slots, responder):
     selected_new_time = _get_new_time(context)
 
     try:
-        existing_alarms_set = context['frame']['alarms']
-        if selected_old_time in existing_alarms_set:
-            existing_alarms_set.remove(selected_old_time)
-            existing_alarms_set.add(selected_new_time)
+        existing_alarms_dict = context['frame']['alarms']
+        if selected_old_time in existing_alarms_dict:
+            del existing_alarms_dict[selected_old_time]
+            existing_alarms_dict[selected_new_time] = None
 
             reply = "Ok. I have changed your {old} alarm to {new}".format(old=selected_old_time,
                                                                           new=selected_new_time)
@@ -383,7 +379,7 @@ def change_alarm(context, slots, responder):
 def check_alarm(context, slots, responder):
 
     try:
-        ordered_alarms = sorted(context['frame']['alarms'])
+        ordered_alarms = sorted(context['frame']['alarms'].keys())
         reply = "Your current active alarms: {alarms}".format(alarms=", ".join(ordered_alarms))
     except KeyError:
         reply = "You have no alarms currently set."
@@ -398,10 +394,10 @@ def remove_alarm(context, slots, responder):
     selected_time = _get_sys_time(context)
 
     try:
-        existing_alarms_set = context['frame']['alarms']
+        existing_alarms_dict = context['frame']['alarms']
 
-        if selected_time in existing_alarms_set:
-            existing_alarms_set.remove(selected_time)
+        if selected_time in existing_alarms_dict:
+            del existing_alarms_dict[selected_time]
             reply = "Ok, I have removed your {time} alarm.".format(selected_time)
         else:
             reply = "There is no alarm currently set for that time."
@@ -417,14 +413,18 @@ def set_alarm(context, slots, responder):
 
     selected_time = _get_sys_time(context)
 
-    try:
-        existing_alarms_set = context['frame']['alarms']
-        existing_alarms_set.add(selected_time)
-    except KeyError:
-        context['frame']['alarms'] = set([selected_time])
+    if selected_time:
+        try:
+            existing_alarms_dict = context['frame']['alarms']
+            existing_alarms_dict[selected_time] = None
+        except KeyError:
+            context['frame']['alarms'] = {selected_time: None}
 
-    reply = "Ok, I have set your alarm for {time}.".format(time=selected_time)
-    responder.reply(reply)
+        reply = "Ok, I have set your alarm for {time}.".format(time=selected_time)
+        responder.reply(reply)
+    else:
+        prompt = "Please try your request again with a specific time."
+        responder.prompt(prompt)
 
 
 @app.handle(intent='start_timer')
@@ -551,7 +551,7 @@ def _get_duration(context):
 
 def _get_sys_time(context):
     """
-    Get's the user desired alarm time
+    Get's the user desired time
 
     Args:
         context (dict): contains info about the conversation up to this point
@@ -566,7 +566,7 @@ def _get_sys_time(context):
         resolved_time = parse_numerics(sys_time_entity['text'].lower(), dimensions=['time'])
         return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
     else:
-        return DEFAULT_SYS_TIME
+        return None
 
 
 def _get_old_time(context):
@@ -586,7 +586,7 @@ def _get_old_time(context):
         resolved_time = parse_numerics(old_time_entity['text'].lower(), dimensions=['time'])
         return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
     else:
-        return DEFAULT_OLD_TIME
+        return None
 
 
 def _get_new_time(context):
@@ -607,7 +607,7 @@ def _get_new_time(context):
 
         return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
     else:
-        return DEFAULT_NEW_TIME
+        return None
 
 
 def _get_location(context):
