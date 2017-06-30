@@ -348,9 +348,6 @@ def turn_on_thermostat(context, slots, responder):
 @app.handle(intent='unsupported')
 @app.handle()
 def default(context, slots, responder):
-
-    print(context)
-
     prompts = ["Sorry, not sure what you meant there."]
     responder.prompt(prompts)
 
@@ -358,7 +355,6 @@ def default(context, slots, responder):
 # Helper Functions
 
 def _timer_finished(context):
-    print("Timer Finished!")
     context['frame']['timer'] = None  # Remove the timer
 
 
@@ -370,22 +366,6 @@ def _construct_weather_api_url(selected_location, selected_unit, openweather_api
 
     return url_string
 
-
-def _kb_fetch(kb_index, kb_id):
-    """
-    Retrieve the detailed knowledge base entry for a given ID from the specified index.
-
-    Args:
-        index (str): The knowledge base index to query
-        id (str): Identifier for a specific entry in the index
-
-    Returns:
-        dict: The full knowledge base entry corresponding to the given ID.
-    """
-    return app.question_answerer.get(index=kb_index, id=kb_id)[0]
-
-
-# Reply handlers
 
 def _handle_lights_reply(selected_all, selected_location, desired_state):
 
