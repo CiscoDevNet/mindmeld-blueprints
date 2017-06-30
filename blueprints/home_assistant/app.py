@@ -10,7 +10,7 @@ app = Application(__name__)
 # Weather constants
 CITY_NOT_FOUND_CODE = '404'
 INVALID_API_KEY_CODE = '401'
-DEFAULT_TEMPERATURE_UNIT = 'Fahrenheit'
+DEFAULT_TEMPERATURE_UNIT = 'fahrenheit'
 DEFAULT_LOCATION = 'San Francisco'
 OPENWEATHER_BASE_STRING = 'http://api.openweathermap.org/data/2.5/weather'
 
@@ -18,6 +18,8 @@ DEFAULT_THERMOSTAT_TEMPERATURE = 72
 DEFAULT_THERMOSTAT_LOCATION = 'home'
 DEFAULT_HOUSE_LOCATION = None
 DEFAULT_TEMPERATURE_CHANGE = None
+
+# Check Weather #
 
 
 @app.handle(intent='check-weather')
@@ -58,12 +60,18 @@ def check_weather(context, slots, responder):
         slots['city'] = weather_info['name']
         slots['temp_min'] = weather_info['main']['temp_min']
         slots['temp_max'] = weather_info['main']['temp_max']
-        slots['condition'] = weather_info['weather'][0]['main']
-        responder.reply("The weather in {city} is {condition} with a min of {temp_min} and a max of"
-                        " {temp_max}")
+        slots['condition'] = weather_info['weather'][0]['main'].lower()
+        if selected_unit == "fahrenheit":
+            slots['unit'] = 'F'
+        else:
+            slots['unit'] = 'C'
+        responder.reply("The weather forecast in {city} is {condition} with a min of {temp_min} "
+                        "{unit} and a max of {temp_max} {unit}")
 
 
-@app.handle(intent='specify-location')
+# Smart Home #
+
+@app.handle(intent='specify_location')
 def specify_location(context, slots, responder):
 
     selected_all = False
@@ -91,13 +99,13 @@ def specify_location(context, slots, responder):
     responder.reply(reply)
 
 
-@app.handle(intent='specify-temperature')
+@app.handle(intent='specify_temperature')
 def specify_temperature(context, slots, responder):
 
     selected_temperature_amount = _get_temperature(context)
     selected_location = context['frame']['thermostat_location']
 
-    thermostat_temperature_dict = context['request']['session']['thermostat_temperatures']
+    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
 
     if context['frame']['desired_action'] == 'Set Thermostat':
         thermostat_temperature_dict[selected_location] = selected_temperature_amount
@@ -119,7 +127,7 @@ def specify_temperature(context, slots, responder):
     responder.reply(reply)
 
 
-@app.handle(intent='close-door')
+@app.handle(intent='close_door')
 def close_door(context, slots, responder):
 
     selected_all = _get_command_for_all(context)
@@ -134,7 +142,7 @@ def close_door(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='open-door')
+@app.handle(intent='open_door')
 def open_door(context, slots, responder):
 
     selected_all = _get_command_for_all(context)
@@ -149,7 +157,7 @@ def open_door(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='lock-door')
+@app.handle(intent='lock_door')
 def lock_door(context, slots, responder):
 
     selected_all = _get_command_for_all(context)
@@ -164,7 +172,7 @@ def lock_door(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='unlock-door')
+@app.handle(intent='unlock_door')
 def unlock_door(context, slots, responder):
 
     selected_all = _get_command_for_all(context)
@@ -179,7 +187,7 @@ def unlock_door(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='turn-appliance-on')
+@app.handle(intent='turn_appliance_on')
 def turn_appliance_on(context, slots, responder):
 
     selected_location = _get_location(context)
@@ -196,7 +204,7 @@ def turn_appliance_on(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='turn-appliance-off')
+@app.handle(intent='turn_appliance_off')
 def turn_appliance_off(context, slots, responder):
 
     selected_location = _get_location(context)
@@ -213,7 +221,7 @@ def turn_appliance_off(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='turn-lights-on')
+@app.handle(intent='turn_lights_on')
 def turn_lights_on(context, slots, responder):
 
     selected_all = _get_command_for_all(context)
@@ -228,7 +236,7 @@ def turn_lights_on(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='turn-lights-off')
+@app.handle(intent='turn_lights_off')
 def turn_lights_off(context, slots, responder):
 
     selected_all = _get_command_for_all(context)
@@ -243,29 +251,29 @@ def turn_lights_off(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='check-thermostat')
+@app.handle(intent='check_thermostat')
 def check_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
 
     try:
-        current_temp = context['request']['session']['thermostat_temperatures'][selected_location]
+        current_temp = context['frame']['thermostat_temperatures'][selected_location]
     except KeyError:
         current_temp = DEFAULT_THERMOSTAT_TEMPERATURE
-        context['request']['session']['thermostat_temperatures'] = {selected_location, current_temp}
+        context['frame']['thermostat_temperatures'] = {selected_location: current_temp}
 
-    reply = "Current thermostat temperature in the {location} is {temp}.".format(
+    reply = "Current thermostat temperature in the {location} is {temp} F.".format(
         location=selected_location.lower(), temp=current_temp)
     responder.reply(reply)
 
 
-@app.handle(intent='set-thermostat')
+@app.handle(intent='set_thermostat')
 def set_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
     selected_temperature = _get_temperature(context)
 
-    thermostat_temperature_dict = context['request']['session']['thermostat_temperatures']
+    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
 
     if selected_temperature:
         thermostat_temperature_dict[selected_location] = selected_temperature
@@ -278,13 +286,13 @@ def set_thermostat(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='turn-down-thermostat')
+@app.handle(intent='turn_down_thermostat')
 def turn_down_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
     selected_temperature_amount = _get_temperature(context)
 
-    thermostat_temperature_dict = context['request']['session']['thermostat_temperatures']
+    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
 
     if selected_temperature_amount:
         thermostat_temperature_dict[selected_location] -= selected_temperature_amount
@@ -300,13 +308,13 @@ def turn_down_thermostat(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='turn-up-thermostat')
+@app.handle(intent='turn_up_thermostat')
 def turn_up_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
     selected_temperature_amount = _get_temperature(context)
 
-    thermostat_temperature_dict = context['request']['session']['thermostat_temperatures']
+    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
 
     if selected_temperature_amount:
         thermostat_temperature_dict[selected_location] += selected_temperature_amount
@@ -321,7 +329,7 @@ def turn_up_thermostat(context, slots, responder):
         responder.prompt(prompt)
 
 
-@app.handle(intent='turn-off-thermostat')
+@app.handle(intent='turn_off_thermostat')
 def turn_off_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
@@ -329,7 +337,7 @@ def turn_off_thermostat(context, slots, responder):
     responder.reply(reply)
 
 
-@app.handle(intent='turn-on-thermostat')
+@app.handle(intent='turn_on_thermostat')
 def turn_on_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
@@ -340,11 +348,18 @@ def turn_on_thermostat(context, slots, responder):
 @app.handle(intent='unsupported')
 @app.handle()
 def default(context, slots, responder):
+
+    print(context)
+
     prompts = ["Sorry, not sure what you meant there."]
     responder.prompt(prompts)
 
 
 # Helper Functions
+
+def _timer_finished(context):
+    print("Timer Finished!")
+    context['frame']['timer'] = None  # Remove the timer
 
 
 def _construct_weather_api_url(selected_location, selected_unit, openweather_api_key):
@@ -416,6 +431,15 @@ def _handle_thermostat_change_reply(selected_location, desired_temperature=None,
 
 # Entity Resolvers
 
+
+def _get_duration(context):
+    pass  # TODO
+
+
+def _get_time(context):
+    pass  # TODO
+
+
 def _get_location(context):
     """
     Get's the user desired location within house from the query
@@ -430,7 +454,7 @@ def _get_location(context):
     location_entity = next((e for e in context['entities'] if e['type'] == 'location'), None)
 
     if location_entity:
-        return _kb_fetch('locations', location_entity['value'][0]['id'])
+        return location_entity['text'].lower()
     else:
         # Default to Fahrenheit
         return DEFAULT_HOUSE_LOCATION
@@ -447,12 +471,7 @@ def _get_command_for_all(context):
     Returns:
         bool: whether or not the user made a command for all
     """
-    all_entity = next((e for e in context['entities'] if e['type'] == 'all'), None)
-
-    if all_entity:
-        return True
-    else:
-        return False
+    return next((e for e in context['entities'] if e['type'] == 'all'), None)
 
 
 def _get_appliance(context):
@@ -469,7 +488,7 @@ def _get_appliance(context):
     appliance_entity = next((e for e in context['entities'] if e['type'] == 'appliance'), None)
 
     if appliance_entity:
-        return _kb_fetch('appliances', appliance_entity['value'][0]['id'])
+        return appliance_entity['text'].lower()
     else:
         raise Exception("There should always be a recognizable appliance if we go down this intent")
 
@@ -488,7 +507,7 @@ def _get_thermostat_location(context):
     location_entity = next((e for e in context['entities'] if e['type'] == 'location'), None)
 
     if location_entity:
-        return _kb_fetch('locations', location_entity['value'][0]['id'])
+        return location_entity['text'].lower()
     else:
         return DEFAULT_THERMOSTAT_LOCATION
 
@@ -504,10 +523,13 @@ def _get_temperature(context):
     Returns:
         string: resolved temperature entity
     """
-    temperature_entity = next((e for e in context['entities'] if e['type'] == 'temperature'), None)
+    temperature_entity = next((e for e in context['entities'] if e['type'] == 'sys_temperature'),
+                              None)
 
     if temperature_entity:
-        return _kb_fetch('temperatures', temperature_entity['value'][0]['id'])
+        temperature_text = temperature_entity['text']
+        # Get the first number
+        return int(next(w for w in temperature_text.split() if w.isdigit()))
     else:
         return DEFAULT_TEMPERATURE_CHANGE
 
@@ -527,7 +549,7 @@ def _get_unit(context):
     unit_entity = next((e for e in context['entities'] if e['type'] == 'unit'), None)
 
     if unit_entity:
-        return _kb_fetch('units', unit_entity['value'][0]['id'])
+        return unit_entity['text'].lower()
     else:
         # Default to Fahrenheit
         return DEFAULT_TEMPERATURE_UNIT
@@ -544,10 +566,10 @@ def _get_city(context):
     Returns:
         string: resolved location entity
     """
-    location_entity = next((e for e in context['entities'] if e['type'] == 'city'), None)
+    city_entity = next((e for e in context['entities'] if e['type'] == 'city'), None)
 
-    if location_entity:
-        return _kb_fetch('cities', id=location_entity['value'][0]['id'])
+    if city_entity:
+        return city_entity['text']
     else:
         # Default to San Francisco
         return DEFAULT_LOCATION
