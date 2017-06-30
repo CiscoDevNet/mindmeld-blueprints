@@ -70,7 +70,7 @@ can i see some {ghost|genre} caught on camera videos?
 Can i see a {black comedy|genre} serials?
 What is the {most|sort} {shocking accident|genre} videos ever ?
 Can I see a {John Wayne|cast} {Movie|type} from {1954|sys_time}?
-What was the {last|sort} {Monkees|titile} {TV episode|type}?
+What was the {last|sort} {Monkees|title} {TV episode|type}?
 What year was the {first|sort} {Monday Night Football|title} game?
 Can I see the {latest|sort} {Superbowl|title}?
 What's the {most popular|sort} {TV series|type} {now|sys_time}?
@@ -160,7 +160,7 @@ What {new|sort} {movies|type} would you suggest to watch?
 What {comedy|genre} {show|type} would you recommend?
 Are there any {new|sort} {series|type} starting soon?
 What was the {most popular|sort} {science fiction|genre} {film|type} {last month|sys_time}?
-Are there any {movies|type} longer than {100 minutes?
+Are there any {movies|type} longer than 100 minutes?
 Can you show me the {highest rated|sort} {Adam Sandler|cast} {movie|type}?
 Where can I find {old|sort} {episodes|type} of {Babylon 5|title}?
 Do you have any {well-reviewed|sort} {horror|genre} {movies|type}?
@@ -189,7 +189,7 @@ What is the {best|sort} {Bond|title} {movie|type}?
 What's the {best|sort} {action|genre} {TV show|type} on tonight?
 Is {Jason Bateman|cast} still acting?
 {Spongebob|title} or {Fairy Odd Parents|title}?
-Who is the {director of the {movie|type} {the mummy|title}?
+Who is the director of the {movie|type} {the mummy|title}?
 What is the imdb rating for {the dark knight|title}?
 {season|type} {7|sys_number} release date for {game of thrones|title}?
 {best|sort} supportive actress award for {2017|sys_time}?
