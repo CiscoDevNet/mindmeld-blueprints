@@ -345,11 +345,11 @@ def turn_on_thermostat(context, slots, responder):
     responder.reply(reply)
 
 
-@app.handle(intent='unsupported')
+@app.handle(intent='unknown')
 @app.handle()
 def default(context, slots, responder):
-    prompts = ["Sorry, not sure what you meant there."]
-    responder.prompt(prompts)
+    replies = ["Sorry, not sure what you meant there."]
+    responder.reply(replies)
 
 
 # Helper Functions
