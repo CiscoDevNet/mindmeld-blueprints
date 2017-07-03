@@ -46,7 +46,47 @@ def welcome(context, slots, responder):
 @app.handle(intent='browse')
 def show_content(context, slots, responder):
     # Show the video content based on the entities found.
+
+    results = []
+
+    # 1) Update the frame with the new entities extracted.
+    # TODO: Update frame logic here.
+    context['frame'] = update_frame(context['entities'])
+
+    # 2) Call the KB filtering by the entities in the frame
+    # TODO: Get results from the knowledgebase using all entities in frame as filters.
+    results = get_video_content(context['frame'])
+
+    # 3.1) Fill reply slots.
+    # TODO: Fill the slots with the frame.
+    slots = fill_browse_slots(context['frame'], slots)
+
+    # 3.2) Build response based on available slots and results.
+    # TODO: Have a set of response templates, and select one based on the slots.
+    # Finally reply to the user, including the results and any prompts.
+    build_browse_response(slots, results)
+
     responder.reply("browse placeholder.")
+
+
+def update_frame(entities, frame):
+    # TODO: Fill this function
+    return frame
+
+
+def get_video_content(frame):
+    # TODO: Fill this function.
+    return []
+
+
+def fill_browse_slots(frame, slots):
+    # TODO: Fill the slots from the current frame.
+    return slots
+
+
+def build_browse_response(slots, results):
+    # Retunr the given template based on the available slots.
+    return None
 
 
 @app.handle(intent='start_over')
