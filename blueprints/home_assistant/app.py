@@ -2,6 +2,7 @@
 """This module contains the Workbench home assistant blueprint application"""
 from __future__ import unicode_literals
 from mmworkbench import Application
+from mmworkbench.ser import parse_numerics
 import requests
 import os
 
@@ -19,10 +20,13 @@ DEFAULT_THERMOSTAT_LOCATION = 'home'
 DEFAULT_HOUSE_LOCATION = None
 DEFAULT_TEMPERATURE_CHANGE = None
 
-# Check Weather #
+TIME_START_INDEX = 11
+TIME_END_INDEX = 19
+
+DEFAULT_TIMER_DURATION = '60 seconds'  # Seconds
 
 
-@app.handle(intent='check-weather')
+@app.handle(intent='check_weather')
 def check_weather(context, slots, responder):
     """
     When the user asks for weather, return the weather in that location or use San Francisco if no
@@ -273,7 +277,11 @@ def set_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature = _get_temperature(context)
 
-    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    try:
+        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    except:
+        thermostat_temperature_dict = {}
+        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
     if selected_temperature:
         thermostat_temperature_dict[selected_location] = selected_temperature
@@ -292,7 +300,11 @@ def turn_down_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature_amount = _get_temperature(context)
 
-    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    try:
+        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    except:
+        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
+        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
     if selected_temperature_amount:
         thermostat_temperature_dict[selected_location] -= selected_temperature_amount
@@ -314,7 +326,11 @@ def turn_up_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature_amount = _get_temperature(context)
 
-    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    try:
+        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    except:
+        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
+        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
     if selected_temperature_amount:
         thermostat_temperature_dict[selected_location] += selected_temperature_amount
@@ -342,6 +358,119 @@ def turn_on_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
     reply = _handle_thermostat_change_reply(selected_location, desired_state='on')
+    responder.reply(reply)
+
+# Times and Dates #
+
+
+@app.handle(intent='change_alarm')
+def change_alarm(context, slots, responder):
+
+    selected_old_time = _get_old_time(context)
+    selected_new_time = _get_new_time(context)
+
+    try:
+        existing_alarms_dict = context['frame']['alarms']
+        if selected_old_time in existing_alarms_dict:
+            del existing_alarms_dict[selected_old_time]
+            existing_alarms_dict[selected_new_time] = None
+
+            reply = "Ok. I have changed your {old} alarm to {new}".format(old=selected_old_time,
+                                                                          new=selected_new_time)
+        else:
+            reply = "There is no alarm currently set for that time that you want to change."
+
+    except KeyError:
+        reply = "There are no alarms currently set."
+
+    responder.reply(reply)
+
+
+@app.handle(intent='check_alarm')
+def check_alarm(context, slots, responder):
+
+    try:
+        ordered_alarms = sorted(context['frame']['alarms'].keys())
+        reply = "Your current active alarms: {alarms}".format(alarms=", ".join(ordered_alarms))
+    except KeyError:
+        reply = "You have no alarms currently set."
+
+    responder.reply(reply)
+
+
+@app.handle(intent='remove_alarm')
+def remove_alarm(context, slots, responder):
+
+    # Get time entity from query
+    selected_time = _get_sys_time(context)
+
+    try:
+        existing_alarms_dict = context['frame']['alarms']
+
+        if selected_time in existing_alarms_dict:
+            del existing_alarms_dict[selected_time]
+            reply = "Ok, I have removed your {time} alarm.".format(selected_time)
+        else:
+            reply = "There is no alarm currently set for that time."
+
+    except KeyError:
+        reply = "There are no alarms currently set."
+
+    responder.reply(reply)
+
+
+@app.handle(intent='set_alarm')
+def set_alarm(context, slots, responder):
+
+    selected_time = _get_sys_time(context)
+
+    if selected_time:
+        try:
+            existing_alarms_dict = context['frame']['alarms']
+            existing_alarms_dict[selected_time] = None
+        except KeyError:
+            context['frame']['alarms'] = {selected_time: None}
+
+        reply = "Ok, I have set your alarm for {time}.".format(time=selected_time)
+        responder.reply(reply)
+    else:
+        prompt = "Please try your request again with a specific time."
+        responder.prompt(prompt)
+
+
+@app.handle(intent='start_timer')
+def start_timer(context, slots, responder):
+
+    selected_duration = _get_duration(context)
+    try:
+        current_timer = context['frame']['timer']
+    except KeyError:
+        current_timer = None
+
+    if current_timer:
+        reply = 'There is already a timer running!'
+    else:
+        context['frame']['timer'] = True
+        reply = "Ok. A timer for {amt} has been set.".format(amt=selected_duration)
+
+    responder.reply(reply)
+
+
+@app.handle(intent='stop_timer')
+def stop_timer(context, slots, responder):
+
+    try:
+        current_timer = context['frame']['timer']
+    except KeyError:
+        current_timer = None
+        context['frame']['timer'] = None
+
+    if current_timer:
+        context['frame']['timer'] = None
+        reply = 'Ok. The current timer has been cancelled'
+    else:
+        reply = 'There is no active timer to cancel!'
+
     responder.reply(reply)
 
 
@@ -413,11 +542,83 @@ def _handle_thermostat_change_reply(selected_location, desired_temperature=None,
 
 
 def _get_duration(context):
-    pass  # TODO
+    """
+    Get's the duration the user wants to set a timer for
+
+    Args:
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
+
+    Returns:
+        int: the seconds
+    """
+    duration_entity = next((e for e in context['entities'] if e['type'] == 'duration'), None)
+
+    if duration_entity:
+        return duration_entity['text'].lower()
+    else:
+        return DEFAULT_TIMER_DURATION
 
 
-def _get_time(context):
-    pass  # TODO
+def _get_sys_time(context):
+    """
+    Get's the user desired time
+
+    Args:
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
+
+    Returns:
+        string: resolved 24-hour time in XX:XX:XX format
+    """
+    sys_time_entity = next((e for e in context['entities'] if e['type'] == 'sys_time'), None)
+
+    if sys_time_entity:
+        resolved_time = parse_numerics(sys_time_entity['text'].lower(), dimensions=['time'])
+        return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
+    else:
+        return None
+
+
+def _get_old_time(context):
+    """
+    Get's the alarm time the user wants to change
+
+    Args:
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
+
+    Returns:
+        string: resolved 24-hour time in XX:XX:XX format
+    """
+    old_time_entity = next((e for e in context['entities'] if e['role'] == 'old_time'), None)
+
+    if old_time_entity:
+        resolved_time = parse_numerics(old_time_entity['text'].lower(), dimensions=['time'])
+        return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
+    else:
+        return None
+
+
+def _get_new_time(context):
+    """
+    Get's the alarm time the user wants to change to
+
+    Args:
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
+
+    Returns:
+        string: resolved 24-hour time in XX:XX:XX format
+    """
+    new_time_entity = next((e for e in context['entities'] if e['role'] == 'new_time'), None)
+
+    if new_time_entity:
+        resolved_time = parse_numerics(new_time_entity['text'].lower(), dimensions=['time'])
+
+        return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
+    else:
+        return None
 
 
 def _get_location(context):
