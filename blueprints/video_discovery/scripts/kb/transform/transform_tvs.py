@@ -23,10 +23,11 @@ class TransformTVs(TransformDocuments):
             transformed_tv_obj = {
                 'type': TYPE_TV,
                 'title': tv_obj.get('name', ''),  # To be consistent with movies
-                'id': tv_obj['id'],
+                'id':  '{}_{}'.format(TYPE_TV, tv_obj['id']),
                 'overview': tv_obj.get('overview'),
                 'genres': get_names(tv_obj.get('genres', [])),
                 'cast': get_names(tv_obj.get('cast', [])),
+                'countries': tv_obj.get('origin_country', []),
                 'directors': get_directors(tv_obj.get('crew', [])),
                 'popularity': tv_obj.get('popularity'),
                 'vote_count': tv_obj.get('vote_count'),

@@ -4,7 +4,7 @@ import sys
 import json
 
 from .commons import get_directors, get_names, get_poster_img_url, get_release_date
-from .constants import TYPE_EPISODE
+from .constants import TYPE_EPISODE, TYPE_TV
 
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
@@ -35,9 +35,10 @@ class TransformEpisodes(VideoDataProcessingTask):
             base_tv_obj = {
                 'type': TYPE_EPISODE,
                 'title': tv_obj['name'],  # To be consistent with movies
-                'parent_id': tv_obj['id'],
+                'parent_id':  '{}_{}'.format(TYPE_TV, tv_obj['id']),
                 'overview': tv_obj.get('overview'),
                 'genres': get_names(tv_obj.get('genres', [])),
+                'countries': tv_obj.get('origin_country', []),
                 'cast': get_names(tv_obj.get('cast', [])),
                 'directors': get_directors(tv_obj.get('crew', [])),
                 'popularity': tv_obj.get('popularity'),
@@ -86,4 +87,4 @@ class TransformEpisodes(VideoDataProcessingTask):
 
 
 def get_episode_id(season_id, episode_num):
-    return u'{}_{}'.format(season_id, episode_num)
+    return u'{}_{}_{}'.format(TYPE_EPISODE, season_id, episode_num)
