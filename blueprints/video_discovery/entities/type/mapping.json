@@ -1,1 +1,29 @@
-{}
+[
+	{
+		"cname": "movie",
+		"whitelist": [
+			"film",
+			"films",
+			"movies",
+			"flick",
+			"flicks"
+		]
+	},
+	{
+		"cname": "tv-show",
+		"whitelist": [
+			"show",
+			"shows",
+			"tv show",
+			"tv shows",
+			"showing",
+			"showings",
+			"television shows",
+			"television show",
+			"series",
+			"tv series",
+			"program",
+			"programs"
+		]
+	}
+]

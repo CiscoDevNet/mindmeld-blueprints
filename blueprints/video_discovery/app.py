@@ -46,7 +46,51 @@ def welcome(context, slots, responder):
 @app.handle(intent='browse')
 def show_content(context, slots, responder):
     # Show the video content based on the entities found.
+
+    results = []
+
+    # 1) Update the frame with the new entities extracted.
+    # TODO: Update frame logic here.
+    context['frame'] = update_frame(context['entities'])
+
+    # 2) Call the KB filtering by the entities in the frame
+    # TODO: Get results from the knowledgebase using all entities in frame as filters.
+    results = get_video_content(context['frame'])
+
+    # 3.1) Fill reply slots.
+    # TODO: Fill the slots with the frame.
+    slots = fill_browse_slots(context['frame'], slots)
+
+    # 3.2) Build response based on available slots and results.
+    # TODO: Have a set of response templates, and select one based on the slots.
+    # Finally reply to the user, including the results and any prompts.
+    build_browse_response(slots, results)
+
     responder.reply("browse placeholder.")
+
+
+def update_frame(entities, frame):
+    # TODO: We need to update the entities in the frame with the new entities in the 'entities'
+    # dict. For now, I think we should accumulate all entities. That is, if we already have a 
+    # 'title' and we receive another one, keep both in the frame.
+    return frame
+
+
+def get_video_content(frame):
+    # TODO: Using all entities in the frame, get docs from ES. If we have multiple entities of the
+    # same type, decide if we want to 'or' or 'and' them together. This might depend on the entity type.
+    return []
+
+
+def fill_browse_slots(frame, slots):
+    # TODO: Using all entities in the current frame, fill the slots dict. 
+    return slots
+
+
+def build_browse_response(slots, results):
+    # Return the given template based on the available slots. Also build a client action
+    # with the results, and show any prompts if necesary.
+    return None
 
 
 @app.handle(intent='start_over')
