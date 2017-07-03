@@ -20,14 +20,13 @@ DEFAULT_THERMOSTAT_LOCATION = 'home'
 DEFAULT_HOUSE_LOCATION = None
 DEFAULT_TEMPERATURE_CHANGE = None
 
-DEFAULT_SYS_TIME = '09:00:00'
 TIME_START_INDEX = 11
 TIME_END_INDEX = 19
 
 DEFAULT_TIMER_DURATION = '60 seconds'  # Seconds
 
 
-@app.handle(intent='check-weather')
+@app.handle(intent='check_weather')
 def check_weather(context, slots, responder):
     """
     When the user asks for weather, return the weather in that location or use San Francisco if no
@@ -278,7 +277,11 @@ def set_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature = _get_temperature(context)
 
-    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    try:
+        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    except:
+        thermostat_temperature_dict = {}
+        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
     if selected_temperature:
         thermostat_temperature_dict[selected_location] = selected_temperature
@@ -297,7 +300,11 @@ def turn_down_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature_amount = _get_temperature(context)
 
-    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    try:
+        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    except:
+        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
+        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
     if selected_temperature_amount:
         thermostat_temperature_dict[selected_location] -= selected_temperature_amount
@@ -319,7 +326,11 @@ def turn_up_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature_amount = _get_temperature(context)
 
-    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    try:
+        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    except:
+        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
+        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
     if selected_temperature_amount:
         thermostat_temperature_dict[selected_location] += selected_temperature_amount
