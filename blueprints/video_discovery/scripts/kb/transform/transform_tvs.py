@@ -2,7 +2,7 @@ import luigi
 import sys
 import json
 
-from .commons import get_director, get_names, get_poster_img_url, get_release_date
+from .commons import get_directors, get_names, get_poster_img_url, get_release_date
 from .commons import TransformDocuments
 from .constants import TYPE_TV
 
@@ -26,8 +26,8 @@ class TransformTVs(TransformDocuments):
                 'id': tv_obj['id'],
                 'overview': tv_obj.get('overview'),
                 'genres': get_names(tv_obj.get('genres', [])),
-                'casts': get_names(tv_obj.get('cast', [])),
-                'director': get_director(tv_obj.get('crew', [])),
+                'cast': get_names(tv_obj.get('cast', [])),
+                'directors': get_directors(tv_obj.get('crew', [])),
                 'popularity': tv_obj.get('popularity'),
                 'vote_count': tv_obj.get('vote_count'),
                 'vote_average': tv_obj.get('vote_average'),

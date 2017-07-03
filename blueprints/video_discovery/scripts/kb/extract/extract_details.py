@@ -8,7 +8,7 @@ from .commons import API_KEY
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
 from libs.tasks import ReadLocalDir  # noqa: F401
-from libs.tasks import request_api  # noqa: F401
+from libs.tasks import crawl_urls, request_api  # noqa: F401
 from utils import dump_json, load_json, load_plain_json  # noqa: F401
 
 
@@ -18,23 +18,24 @@ class GetDetails(VideoDataProcessingTask):
     tmdb_endpoint = luigi.Parameter()
     output_dir = luigi.Parameter()
 
-    def run(self):
-        doc_ids = load_plain_json(self.input_file)
-        logging.info('Getting {:d} {} details...'.format(len(doc_ids), self.doc_type))
-
-        fout = self.output().open('w')
-        for doc_id in doc_ids:
-            url = '{:s}/{:d}?api_key={:s}'.format(self.tmdb_endpoint, doc_id, API_KEY)
-            response = request_api(url)
-            if not response:
-                continue
-            line = '{}\n'.format(json.dumps(response.json(), sort_keys=True))
-            fout.write(line)
-        fout.close()
+    def output_path(self):
+        return '{}_details.jsonl'.format(self.doc_type)
 
     def output(self):
-        filename = '{}_details.jsonl'.format(self.doc_type)
-        return self.get_output_target(filename)
+        return self.get_output_target(self.output_path())
+
+    def run(self):
+        urls = self._get_all_url()
+        logging.info('Start crawling {:,d} {:s} Detail docs.'.format(len(urls), self.doc_type))
+        crawl_urls(urls, output_file=self.get_output_path(self.output_path()))
+        logging.info('Got {:,d} {:s} Detail docs.'.format(len(urls), self.doc_type))
+
+    def _get_all_url(self):
+        doc_ids = load_plain_json(self.input_file)
+        return [
+            '{:s}/{:d}?api_key={:s}'.format(self.tmdb_endpoint, doc_id, API_KEY)
+            for doc_id in doc_ids
+        ]
 
 
 class GetMovieDetails(GetDetails):

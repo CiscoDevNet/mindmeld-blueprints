@@ -1,39 +1,59 @@
 import json
 import logging
 import luigi
-import os
 import sys
 
-from .commons import GetTMDB
+from .commons import API_KEY
 
 sys.path.append('..')
 from video_task import VideoDataProcessingTask  # noqa: F401
-from libs.tasks import RequestAPI  # noqa: F401
+from libs.tasks import crawl_urls, request_api  # noqa: F401
 from utils import load_plain_json  # noqa: F401
 
 
-class GetTMDBIDs(GetTMDB):
+class GetTMDBIDs(VideoDataProcessingTask):
     """
     TODO:
     """
+    tmdb_endpoint = luigi.Parameter()
+    tmdb_filter = luigi.Parameter()
     doc_type = luigi.Parameter()
-    page_start = luigi.IntParameter()
-    page_end = luigi.IntParameter()
+    year_start = luigi.IntParameter()
+    year_end = luigi.IntParameter()
 
     def run(self):
-        for page_idx in range(self.page_start, self.page_end):
-            output_filename = '{}_ids_{}.json'.format(self.doc_type, page_idx)
-            url = '{:s}?api_key={:s}&query=*&page={:d}'.format(self.tmdb_endpoint,
-                                                               self.api_key, page_idx)
-            yield RequestAPI(url=url,
-                             output_dir=self.output_dir,
-                             output_filename=output_filename)
-        logging.info('Got {} ids from page {} to {}.'.format(self.doc_type,
-                                                             self.page_start, self.page_end))
-        self._complete = True
+        urls = self._get_all_url()
+        logging.info('Start crawling {:,d} {:s} ID docs.'.format(len(urls), self.doc_type))
+        crawl_urls(urls, output_file=self.get_output_path(self.output_path()))
+        logging.info('Got {:,d} {:s} ID docs.'.format(len(urls), self.doc_type))
 
-    def complete(self):
-        return self._complete
+    def output_path(self):
+        return '{}_ids.jsonl'.format(self.doc_type)
+
+    def output(self):
+        return self.get_output_target(self.output_path())
+
+    def _get_all_url(self):
+        urls = []
+
+        for year_idx in range(self.year_start, self.year_end - 1, -1):
+            year_filter = '{0}={1}'.format(self.tmdb_filter, year_idx)
+
+            # Get the first page for total pages.
+            url = '{:s}?query=*&{:s}&api_key={:s}'.format(self.tmdb_endpoint, year_filter, API_KEY)
+            response = request_api(url)
+            total_pages = response.json().get('total_pages', None)
+
+            for page_idx in range(1, total_pages + 1):
+                url = '{:s}?query=*&page={:d}&{:s}&api_key={:s}'.format(self.tmdb_endpoint,
+                                                                        page_idx,
+                                                                        year_filter,
+                                                                        API_KEY)
+                urls.append(url)
+            logging.info('Getting {:,d} page of urls for {:s} at year {:d}.'.format(total_pages,
+                                                                                    self.doc_type,
+                                                                                    year_idx))
+        return urls
 
 
 class GetMovieIDs(GetTMDBIDs):
@@ -53,7 +73,7 @@ class ExtractIDs(VideoDataProcessingTask):
     doc_type = luigi.Parameter()
 
     def run(self):
-        doc_ids = collect_ids(self.input_dir, self.doc_type)
+        doc_ids = collect_ids(self.input(), self.doc_type)
         with self.output().open('w') as fp:
             json.dump(doc_ids, fp, indent=4)
 
@@ -72,16 +92,14 @@ class ExtractTVIDs(ExtractIDs):
         return GetTVIDs()
 
 
-def collect_ids(ids_dir, doc_type):
-    id_files = os.listdir(ids_dir)
-    logging.info('Got {:,d} {} id files.'.format(len(id_files), doc_type))
+def collect_ids(ids_file, doc_type):
     all_ids = []
-    for id_file in id_files:
-        path = os.path.join(ids_dir, id_file)
-        docs = load_plain_json(path)
-        docs = docs.get('results', [])
-        ids = [doc.get('id') for doc in docs]
-        all_ids.extend(ids)
+    with ids_file.open('r') as fp:
+        for line in fp:
+            docs = json.loads(line)
+            docs = docs.get('results', [])
+            ids = [doc.get('id') for doc in docs]
+            all_ids.extend(ids)
     logging.info('Got {:,d} {} ids.'.format(len(all_ids), doc_type))
     return all_ids
 
