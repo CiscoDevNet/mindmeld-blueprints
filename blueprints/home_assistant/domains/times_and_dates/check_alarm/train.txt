@@ -106,3 +106,13 @@ alarm settings for {tomorrow|sys_time}
 show my alarm settings for {tomorrow|sys_time}
 check alarm set for {6 am|sys_time}
 please tell me the alarms set for {tomorrow|sys_time}
+is there an alarm set for {2am tonight|sys_time}
+is there any alarms for {11 pm|sys_time}
+is there any alarm set to wake me up at {4pm|sys_time}
+did you have any alarm set to wake me up at {9 am|sys_time}
+did you manage to set an alarm for {4pm in the evening|sys_time}
+did you set an alarm for {10pm in the night|sys_time}
+is there some alarm to wake me up in the {night|sys_interval}
+are there any alarms set to wake us up in the {afternoon|sys_interval}
+did you set an alarm for {7am tomorrow|sys_time}?
+is there alarm set for {10pm today|sys_time}?
