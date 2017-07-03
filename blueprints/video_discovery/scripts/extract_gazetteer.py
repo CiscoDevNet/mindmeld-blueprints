@@ -6,64 +6,69 @@ Outputs: title.txt, cast.txt, director.txt, genre.txt
 
 import argparse
 import json
+import logging
+import os
+import sys
 
-parser = argparse.ArgumentParser()
-parser.add_argument(dest="input_file", type=str, help="Please provide input file path")
-args = parser.parse_args()
-input_file = args.input_file
+logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 
-f = open(input_file, 'r')
 
-titles = {}
-casts = {}
-directors = {}
-genres = {}
+def write_gazes(objs, output_dir, filename):
+    output_file = os.path.join(output_dir, filename)
+    with open(output_file, 'w') as fp:
+        for gaz, count in sorted(objs.items(), key=lambda x: x[0]):
+            fp.write(str(count) + '\t' + gaz + '\n')
 
-for line in f:
-    json_text = line
-    parsed_json = json.loads(json_text)
-    if parsed_json['title']:
-        parsed_title = str(parsed_json['title'])
-        if parsed_title in titles:
-            titles[parsed_title] += 1
-        else:
-            titles[parsed_title] = 1
-    for cast_member in parsed_json['cast']:
-        parsed_cast = str(cast_member)
-        if parsed_cast in casts:
-            casts[parsed_cast] += 1
-        else:
-            casts[parsed_cast] = 1
-    for director in parsed_json['directors']:
-        parsed_director = str(director)
-        if parsed_director in directors:
-            directors[parsed_director] += 1
-        else:
-            directors[parsed_director] = 1
-    for genre in parsed_json['genres']:
-        parsed_genre = str(genre)
-        if parsed_genre in genres:
-            genres[parsed_genre] += 1
-        else:
-            genres[parsed_genre] = 1
 
-f.close()
+def add_count(count_dict, entity):
+    if not entity:
+        return
+    entity = str(entity)
+    count = count_dict.get(entity, 0)
+    count_dict[entity] = count + 1
 
-title_gaz = open('title.txt', 'w+')
-cast_gaz = open('cast.txt', 'w+')
-director_gaz = open('director.txt', 'w+')
-genre_gaz = open('genre.txt', 'w+')
 
-for title, count in titles.items():
-    title_gaz.write(str(count) + '\t' + title + '\n')
-for cast, count in casts.items():
-    cast_gaz.write(str(count) + '\t' + cast + '\n')
-for director, count in directors.items():
-    director_gaz.write(str(count) + '\t' + director + '\n')
-for genre, count in genres.items():
-    genre_gaz.write(str(count) + '\t' + genre + '\t' + '\n')
+def add_list_count(count_dict, entities):
+    if not entities:
+        return
+    [add_count(count_dict, entity) for entity in entities]
 
-genre_gaz.close()
-director_gaz.close()
-cast_gaz.close()
-title_gaz.close()
+
+def main(args):
+    input_file = args.input_file
+    output_dir = args.output_dir
+
+    if not os.path.exists(output_dir):
+        logging.info('Folder {} not exist, creating one.'.format(output_dir))
+        os.mkdir(output_dir)
+
+    titles = {}
+    casts = {}
+    directors = {}
+    genres = {}
+
+    logging.info('Reading data from {}.'.format(input_file))
+    with open(input_file, 'r') as fp:
+        for line in fp:
+            json_text = line
+            parsed_json = json.loads(json_text)
+            add_count(titles, parsed_json['title'])
+
+            add_list_count(casts, parsed_json['cast'])
+            add_list_count(directors, parsed_json['directors'])
+            add_list_count(genres, parsed_json['genres'])
+
+    logging.info('Writing gazes to folder {}.'.format(output_dir))
+    write_gazes(titles, output_dir, 'title.txt')
+    write_gazes(casts, output_dir, 'cast.txt')
+    write_gazes(directors, output_dir, 'director.txt')
+    write_gazes(genres, output_dir, 'genre.txt')
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument(dest="input_file", type=str, help="Please provide input file path")
+    parser.add_argument("-o", dest="output_dir", type=str, help="Please provide output dir path",
+                        default='gazes')
+    args = parser.parse_args()
+    main(args)
