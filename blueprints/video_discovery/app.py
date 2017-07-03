@@ -70,22 +70,26 @@ def show_content(context, slots, responder):
 
 
 def update_frame(entities, frame):
-    # TODO: Fill this function
+    # TODO: We need to update the entities in the frame with the new entities in the 'entities'
+    # dict. For now, I think we should accumulate all entities. That is, if we already have a 
+    # 'title' and we receive another one, keep both in the frame.
     return frame
 
 
 def get_video_content(frame):
-    # TODO: Fill this function.
+    # TODO: Using all entities in the frame, get docs from ES. If we have multiple entities of the
+    # same type, decide if we want to 'or' or 'and' them together. This might depend on the entity type.
     return []
 
 
 def fill_browse_slots(frame, slots):
-    # TODO: Fill the slots from the current frame.
+    # TODO: Using all entities in the current frame, fill the slots dict. 
     return slots
 
 
 def build_browse_response(slots, results):
-    # Retunr the given template based on the available slots.
+    # Return the given template based on the available slots. Also build a client action
+    # with the results, and show any prompts if necesary.
     return None
 
 
