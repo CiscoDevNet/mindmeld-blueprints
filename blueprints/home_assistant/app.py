@@ -33,8 +33,6 @@ def check_weather(context, slots, responder):
       location is given.
     """
     # Check to make sure API key is present, if not tell them to follow setup instructions
-
-    print(context)
     context['frame'] = 0
     try:
         openweather_api_key = os.environ['OPEN_WEATHER_KEY']
@@ -412,7 +410,7 @@ def remove_alarm(context, slots, responder):
 
         if selected_time in existing_alarms_dict:
             del existing_alarms_dict[selected_time]
-            reply = "Ok, I have removed your {time} alarm.".format(selected_time)
+            reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
         else:
             reply = "There is no alarm currently set for that time."
 
