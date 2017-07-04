@@ -26,6 +26,10 @@ TIME_END_INDEX = 19
 DEFAULT_TIMER_DURATION = '60 seconds'  # Seconds
 
 
+@app.handle(frame=0)
+def test(context, slots, responder):
+    print("HERE!!!!")
+
 @app.handle(intent='check_weather')
 def check_weather(context, slots, responder):
     """
@@ -33,6 +37,9 @@ def check_weather(context, slots, responder):
       location is given.
     """
     # Check to make sure API key is present, if not tell them to follow setup instructions
+
+    print(context)
+    context['frame'] = 0
     try:
         openweather_api_key = os.environ['OPEN_WEATHER_KEY']
     except KeyError:
@@ -488,7 +495,7 @@ def _timer_finished(context):
 
 
 def _construct_weather_api_url(selected_location, selected_unit, openweather_api_key):
-    unit_string = 'metric' if selected_unit == 'Celsius' else 'imperial'
+    unit_string = 'metric' if selected_unit.lower() == 'celsius' else 'imperial'
     url_string = "{base_string}?q={location}&units={unit}&appid={key}".format(
         base_string=OPENWEATHER_BASE_STRING, location=selected_location.replace(" ", "+"),
         unit=unit_string, key=openweather_api_key)
@@ -730,7 +737,12 @@ def _get_unit(context):
     unit_entity = next((e for e in context['entities'] if e['type'] == 'unit'), None)
 
     if unit_entity:
-        return unit_entity['text'].lower()
+        unit_text = unit_entity['text'].lower()
+
+        if unit_text[0] == 'c':
+            return 'celsius'
+        else:
+            return 'fahrenheit'
     else:
         # Default to Fahrenheit
         return DEFAULT_TEMPERATURE_UNIT
