@@ -25,7 +25,9 @@ def write_gazes(objs, output_dir, filename):
 def add_count(count_dict, entity):
     if not entity:
         return
-    entity = str(entity)
+    entity = str(entity).strip()
+    entity = entity.replace('\t', '')
+    entity = entity.replace('  ', ' ')
     count = count_dict.get(entity, 0)
     count_dict[entity] = count + 1
 
