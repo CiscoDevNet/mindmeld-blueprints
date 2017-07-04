@@ -26,10 +26,6 @@ TIME_END_INDEX = 19
 DEFAULT_TIMER_DURATION = '60 seconds'  # Seconds
 
 
-@app.handle(frame=0)
-def test(context, slots, responder):
-    print("HERE!!!!")
-
 @app.handle(intent='check_weather')
 def check_weather(context, slots, responder):
     """
