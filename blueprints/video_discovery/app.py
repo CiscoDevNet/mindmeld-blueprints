@@ -51,7 +51,7 @@ def show_content(context, slots, responder):
 
     # 1) Update the frame with the new entities extracted.
     # TODO: Update frame logic here.
-    context['frame'] = update_frame(context['entities'])
+    context['frame'] = update_frame(context['entities'], context['frame'])
 
     # 2) Call the KB filtering by the entities in the frame
     # TODO: Get results from the knowledgebase using all entities in frame as filters.
@@ -70,20 +70,36 @@ def show_content(context, slots, responder):
 
 
 def update_frame(entities, frame):
-    # TODO: We need to update the entities in the frame with the new entities in the 'entities'
-    # dict. For now, I think we should accumulate all entities. That is, if we already have a 
-    # 'title' and we receive another one, keep both in the frame.
+    """
+    Update the entities in the frame with the new entities in the 'entities' dict.
+    For now, I think we should accumulate all entities.
+    That is, if we already have a 'title' and we receive another one, keep both in the frame.
+
+    Args:
+        entities (list of dict): current entities
+        frame (dict): current frame
+    Returns:
+        dict: updated frame
+    """
+    for entity in entities:
+        entity_type = entity.get('type', '')
+        existing_entities = frame.get(entity_type, [])
+        existing_entities.append({
+            'type': entity_type,
+            'text': entity.get('text', '')
+        })
+        frame[entity_type] = existing_entities
     return frame
 
 
 def get_video_content(frame):
     # TODO: Using all entities in the frame, get docs from ES. If we have multiple entities of the
-    # same type, decide if we want to 'or' or 'and' them together. This might depend on the entity type.
+    # same type, decide if we want to 'or' or 'and' them together. This might depend on entity type.
     return []
 
 
 def fill_browse_slots(frame, slots):
-    # TODO: Using all entities in the current frame, fill the slots dict. 
+    # TODO: Using all entities in the current frame, fill the slots dict.
     return slots
 
 
