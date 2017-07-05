@@ -8,3 +8,8 @@ class ConversationTest(object):
     def assert_intent(response, expected):
         actual = response['intent']
         assert actual == expected
+
+    @staticmethod
+    def assert_frame(conversation, expected):
+        actual = conversation.frame
+        assert actual == expected
