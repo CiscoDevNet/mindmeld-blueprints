@@ -29,3 +29,73 @@
 4089	War
 169	War & Politics
 4729	Western
+19547   actions,
+19547   action-packed
+2097    action adventure
+16294   cartoon,
+16294   cartoons,
+16294   animations,
+16294   animated
+57448   hilarious,
+57448   comedies,
+57448   humorous,
+57448   funny,
+57448   humor
+14023   mob
+32166   documentaries
+80660   dramas,
+80660   melodramas,
+80660   melodramatic
+11531   family friendly,
+11531   family-friendly
+6845    fantasies
+4600    historical
+15889   frightening,
+15889   horrific,
+15889   scary
+315 kid friendly,
+315 kid,
+315 kid's,
+315 children's,
+315 children,
+315 for kids,
+315 for children,
+315 kid appropriate,
+315 child appropriate,
+315 for the kids
+11856   about music
+1   musicals
+7318    mysteries,
+7318    mysterious,
+7318    detective
+1209    reality television,
+1209    reality tv
+19736   chick flick,
+19736   about love,
+19736   rom com,
+19736   romcom,
+19736   romantic comedies,
+19736   chick flicks,
+19736   romances,
+19736   romantic
+8047    sci fi,
+8047    scifi,
+8047    science fictions,
+8047    sci-fi,
+8047    syfy,
+8047    apocalypse
+4   sports
+258 talk shows,
+258 talk-show,
+258 talk show
+18732   suspense,
+18732   suspenseful,
+18732   thrillers,
+18732   thrilling,
+18732   bizarre
+4089    army,
+4089    wartime,
+4089    about war
+4729    cowboy,
+4729    wild west,
+4729    westerns

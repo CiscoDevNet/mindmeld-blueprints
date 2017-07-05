@@ -1,1 +1,220 @@
-{}
+[
+    {
+    	"cname":"Action",
+    	"whitelist": [
+    		"actions",
+    		"action-packed"
+    	]
+    },
+    {
+    	"cname":"Action & Adventure",
+    	"whitelist": [
+    		"action adventure"
+    	]
+    },
+    {
+    	"cname":"Adventure",
+    	"whitelist": []
+    },
+    {
+    	"cname":"Animation",
+    	"whitelist": [
+    		"cartoon",
+    		"cartoons",
+    		"animations",
+    		"animated"
+    	]
+    },
+    {
+    	"cname":"Comedy",
+    	"whitelist": [
+    		"hilarious",
+    		"comedies",
+    		"humorous",
+    		"funny",
+    		"humor"
+    	]
+    },
+    {
+    	"cname":"Crime",
+    	"whitelist": [
+    		"mob"
+    	]
+    },
+    {
+    	"cname":"Documentary",
+    	"whitelist": [
+    		"documentaries"
+    	]
+    },
+    {
+    	"cname":"Drama",
+    	"whitelist": [
+    		"dramas",
+    		"melodramas",
+    		"melodramatic"
+    	]
+    },
+    {
+    	"cname":"Erotic",
+    	"whitelist": []
+    },
+    {
+    	"cname":"Family",
+    	"whitelist": [
+    		"family friendly",
+    		"family-friendly"
+    	]
+    },
+    {
+    	"cname":"Fantasy",
+    	"whitelist": [
+    		"fantasies"
+    	]
+    },
+    {
+    	"cname":"Foreign",
+    	"whitelist": []
+    },
+    {
+    	"cname":"History",
+    	"whitelist": [
+    		"historical"
+    	]
+    },
+    {
+    	"cname":"Horror",
+    	"whitelist": [
+    		"frightening",
+    		"horrific",
+    		"scary"
+    	]
+    },
+    {
+    	"cname":"Kids",
+    	"whitelist": [
+    		"kid friendly",
+    		"kid",
+    		"kid's",
+    		"children's",
+    		"children",
+    		"for kids",
+    		"for children",
+    		"kid appropriate",
+    		"child appropriate",
+    		"for the kids"
+    	]
+    },
+    {
+    	"cname":"Music",
+    	"whitelist": [
+    		"about music"
+    	]
+    },
+    {
+    	"cname":"Musical",
+    	"whitelist": [
+    		"musicals"
+    	]
+    },
+    {
+    	"cname":"Mystery",
+    	"whitelist": [
+    		"mysteries",
+    		"mysterious",
+    		"detective"
+    	]
+    },
+    {
+    	"cname":"News",
+    	"whitelist": []
+    },
+    {
+    	"cname":"Reality",
+    	"whitelist": [
+    		"reality television",
+    		"reality tv"
+    	]
+    },
+    {
+    	"cname":"Romance",
+    	"whitelist": [
+    		"chick flick",
+    		"about love",
+    		"rom com",
+    		"romcom",
+    		"romantic comedies",
+    		"chick flicks",
+    		"romances",
+    		"romantic"
+    	]
+    },
+    {
+    	"cname":"Sci-Fi & Fantasy",
+    	"whitelist": [
+    	]
+    },
+    {
+    	"cname":"Science Fiction",
+    	"whitelist": [
+    	    "sci fi",
+    		"scifi",
+    		"science fictions",
+    		"sci-fi",
+    		"syfy",
+    		"apocalypse"
+    	]
+    },
+    {
+    	"cname":"Soap",
+    	"whitelist": []
+    },
+    {
+    	"cname":"Sport",
+    	"whitelist": [
+    		"sports"
+    	]
+    },
+    {
+    	"cname":"TV Movie",
+    	"whitelist": []
+    },
+    {
+    	"cname":"Talk",
+    	"whitelist": [
+    		"talk shows",
+    		"talk-show",
+    		"talk show"
+    	]
+    },
+    {
+    	"cname":"Thriller",
+    	"whitelist": [
+    		"suspense",
+    		"suspenseful",
+    		"thrillers",
+    		"thrilling",
+    		"bizarre"
+    	]
+    },
+    {
+    	"cname":"War",
+    	"whitelist": [
+    		"army",
+    		"wartime",
+    		"about war"
+    	]
+    },
+    {
+    	"cname":"War & Politics",
+    	"whitelist": []
+    },
+    {
+    	"cname":"Western",
+    	"whitelist": [
+    		"cowboy",
+    		"wild west",
+    		"westerns"
+    	]
+    }
+]
