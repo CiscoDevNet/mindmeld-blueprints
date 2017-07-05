@@ -13,6 +13,7 @@ ENTITY_MODEL_CONFIG = {
     'param_selection': {
         'type': 'k-fold',
         'k': 10,
+        'n_jobs': 4,
         'scoring': 'accuracy',
         'grid': {
             'penalty': ['l1', 'l2'],
@@ -41,6 +42,7 @@ INTENT_MODEL_CONFIG = {
     'param_selection': {
         'type': 'k-fold',
         'k': 10,
+        'n_jobs': 4,
         'grid': {
             'penalty': ['l1', 'l2'],
             'class_bias': [0, 0.5, 1],
@@ -67,6 +69,7 @@ DOMAIN_MODEL_CONFIG = {
     'param_selection': {
         'type': 'k-fold',
         'k': 10,
+        'n_jobs': 4,
         'grid': {
             'penalty': ['l1', 'l2'],
             'class_bias': [0, 0.5, 1],
