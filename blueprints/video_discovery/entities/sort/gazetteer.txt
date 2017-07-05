@@ -19,6 +19,7 @@
 1    classic
 1    classics
 1    in chronological order
+1    earliest
 1    popular
 1    hot
 1    blockbuster
@@ -49,6 +50,3 @@
 1    lowest rated
 1    worst
 1    least favorite
-1    longest
-1    shortest
-1    earliest

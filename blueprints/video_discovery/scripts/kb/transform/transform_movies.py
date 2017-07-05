@@ -2,7 +2,7 @@ import luigi
 import sys
 import json
 
-from .commons import get_director, get_names, get_poster_img_url, get_release_date
+from .commons import get_countries, get_directors, get_names, get_poster_img_url, get_release_date
 from .commons import TransformDocuments
 from .constants import TYPE_MOVIE
 
@@ -23,12 +23,13 @@ class TransformMovies(TransformDocuments):
             transformed_movie_obj = {
                 'type': TYPE_MOVIE,
                 'title': movie_obj['title'],
-                'id': movie_obj['id'],
+                'id':  '{}_{}'.format(TYPE_MOVIE, movie_obj['id']),
                 'imdb_id': movie_obj.get('imdb_id'),
                 'overview': movie_obj.get('overview'),
                 'genres': get_names(movie_obj.get('genres', [])),
-                'casts': get_names(movie_obj.get('cast', [])),
-                'director': get_director(movie_obj.get('crew', [])),
+                'cast': get_names(movie_obj.get('cast', [])),
+                'countries': get_countries(movie_obj.get('production_countries', [])),
+                'directors': get_directors(movie_obj.get('crew', [])),
                 'popularity': movie_obj.get('popularity'),
                 'vote_count': movie_obj.get('vote_count'),
                 'vote_average': movie_obj.get('vote_average'),
