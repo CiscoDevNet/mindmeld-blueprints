@@ -186,7 +186,7 @@ def fill_browse_slots(frame, slots):
             entity_text = entity['cname'] if entity['cname'] else entity['text']
 
             # Choose the proper casing
-            if entity_type == 'cast':
+            if entity_type == 'cast' or entity_type == 'director':
                 entity_text = entity_text.title()
             else:
                 entity_text = entity_text.lower()
@@ -264,6 +264,10 @@ def build_browse_response(context, slots, results):
         if 'country' in slots:
             country = [' from {country}', ' made in {country}']
             reply += random.choice(country)
+
+        if 'sys_time' in slots:
+            release = [' from {sys_time}', ' released in {sys_time}']
+            reply += random.choice(release)
 
         reply += ':'
 
