@@ -12,7 +12,7 @@ search for {doctor who|title}
 lets watch the {today|title} {show|type}
 what is the {weather|genre}
 show me some {comedy|genre} {movies|type}
-surf for {sports|type}
+surf for {sports|genre}
 display list general {tv shows|type}
 show me {the wild life|title} {shows|type}
 put the {news|genre} on
@@ -345,8 +345,8 @@ show me {tv shows|type} that just started
 show me {shows|type} that just started
 show me {show|type} that just started
 show me {showings|type} that just started
-show me {sports|type} that just started
-show me {sport|type} that just started
+show me {sports|genre} that just started
+show me {sport|genre} that just started
 what {apocalypse|genre} type {shows|type} are on
 what {sci fi|genre} type {shows|type} are on
 what {comedy|genre} type {shows|type} are on
@@ -467,10 +467,10 @@ show me {better call saul|title}
 an old lucy show
 is {lassie|title} on
 the {today|title} {show|type}
-surf for {sports|type}
+surf for {sports|genre}
 is {lassie|title} on
 i want to watch {bozo|title}
-i want to watch {sports|type}
+i want to watch {sports|genre}
 show me {action|genre} {movies|type}
 find me {bluebloods|title} re runs
 please find {jepardy|title}

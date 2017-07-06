@@ -137,9 +137,9 @@ What's {Quentin Tarantino|director}'s {most recent|sort} {film|type}?
 Do you have any {new|sort} recommandations for me?
 Show me some {latest|sort} hit {movies|type} of {year 2000|sys_time|range}
 {Popular|sort} {kids|genre} rhymes please
-Show me {last|sort} {episode|type} of {Lost|title} {season|type} {6|sys_number}
+Show me {last|sort} {episode|type} of {Lost|title} {season|type} 6
 show me the {most recent|sort} {DVD|type} releases for {this month|sys_time|range}
-Can i play {Season|type} {2|sys_number} of {Breaking Bad|title}
+Can i play {Season|type} 2 of {Breaking Bad|title}
 I want to watch that {movie|type} with {Jim Carey|cast} as a pet detective
 I'm searching for a {comedy|genre} staring {Jonah Hill|cast}
 Can I see the list of {best|sort} {comedy|genre} {movies|type} of {all time|sys_interval|range}?
@@ -191,7 +191,7 @@ Is {Jason Bateman|cast} still acting?
 {Spongebob|title} or {Fairy Odd Parents|title}?
 Who is the director of the {movie|type} {the mummy|title}?
 What is the imdb rating for {the dark knight|title}?
-{season|type} {7|sys_number} release date for {game of thrones|title}?
+{season|type} 7 release date for {game of thrones|title}?
 {best|sort} supportive actress award for {2017|sys_time|range}?
 I feel like watching a {Western|genre}.
 What's a good {family|genre} {comedy|genre}?
@@ -237,7 +237,7 @@ Show me some {movies|type} about World War I.
 Are there any {movies|type} where the good guys don't win?
 Any {classic|sort} {Christmas|genre} {movies|type}?
 {TV shows|type} like {True Detective|title}?
-What are the imdb ratings of {Twin Peaks|title} season {3|sys_number}?
+What are the imdb ratings of {Twin Peaks|title} season 3?
 What are some of {Christoph Watlz|cast} 's {best|sort} {movies|type}?
 Search for list of {movies|type} of {will smith|cast}.
 {2017|sys_time|range} {comedy|genre} {movies|type}
@@ -273,7 +273,7 @@ Go {houses|title}
 That show I don't know the name of {marvel|title}
 May I have {Jason Strathan|cast} {movies|type}?
 Which are the {best rated|sort} {comedies|genre} in {2017|sys_time|range}?
-When does {Colony|title} Season {2|sys_number} air on the {TV|type}?
+When does {Colony|title} Season 2 air on the {TV|type}?
 Which {movies|type} are {best|sort} for the weekend?
 Show me the {highest rated|sort} {sci-fi|genre} {movie|type} from the {80s|sys_interval|range}
 Can you suggest a good {movie|type} about clowns?
@@ -415,7 +415,7 @@ What {movies|type} {from the 1990's|sys_interval|range} involved cops?
 What {movies|type} were nominated for {Best|sort} Picture in {2016|sys_time|range}?
 What {movies|type} has {Oscar Isaac|cast} been in?
 Can you recommend any {shows|type} similar to {Orphan Black|title}?
-What are some {popular|sort} {tv|type} mini series?
+What are some {popular|sort} {tv mini series|type}?
 Can I see {action|genre} {movies|type}?
 What's an interesting {documentary|genre} to watch?
 What is a {popular|sort} reality {tv show|type}?

@@ -53,7 +53,7 @@ are there any {horror|genre} {movies|type} available
 are there any {cartoons|genre}
 i d like to watch {documentaries|genre}
 i would like to watch {bozo|title}
-go to a {sports|type} channel
+go to a {sports|genre} channel
 locate all {horror|genre} {movies|type}
 tv please locate {the walking dead|title}
 find {freaks and geeks|title} channel
@@ -148,7 +148,7 @@ list {shows|type} with {billy murray|cast} in them
 what {scifi|genre} {shows|type} are available to watch
 please play a {movie|type} directed by {wes anderson|director}
 look for a {show|type} with {michael j fox|cast}
-find local {sports|type}
+find local {sports|genre}
 show me {movies|type} directed by {quentin tarantino|director}
 show me all {ncis|title} {shows|type}
 show me current {action|genre} {movies|type}
@@ -353,7 +353,7 @@ are there any {crime dramas|genre} on
 show me {romantic comedy|genre} {movies|type}
 show all {shows|type} with {matthew fox|cast}
 can you find me {movies|type} directed by {spike lee|director}
-show me all {sports|type}
+show me all {sports|genre}
 are there any {movies|type} currently on that star {brad pitt|cast}
 display {films|type} by {uwe boll|director} please
 any {movies|type} on with {kevin hart|cast} as the main character
@@ -404,7 +404,7 @@ show me {shows|type} starring {tom hanks|cast}
 would you please filter out all {films|type} with {matthew mcconaughey|cast}
 show me {horror|genre} {documentaries|genre}
 show me some {horror|genre} {movies|type}
-what {sports|type} are on live now
+what {sports|genre} are on live now
 are there any ongoing {movies|type} at the moment
 please play a {movie|type} directed by {quentin tarantino|director}
 are there any {animes|genre} on
