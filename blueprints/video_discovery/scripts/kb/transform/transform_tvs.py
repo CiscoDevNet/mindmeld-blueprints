@@ -21,7 +21,7 @@ class TransformTVs(TransformDocuments):
         for line in fin:
             tv_obj = json.loads(line)
             transformed_tv_obj = {
-                'type': TYPE_TV,
+                'doc_type': TYPE_TV,
                 'title': tv_obj.get('name', ''),  # To be consistent with movies
                 'id':  '{}_{}'.format(TYPE_TV, tv_obj['id']),
                 'overview': tv_obj.get('overview'),

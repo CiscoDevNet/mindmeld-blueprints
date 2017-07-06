@@ -1,10 +1,17 @@
 # -*- coding: utf-8 -*-
 """This module contains the Workbench video discovery blueprint application"""
 from __future__ import unicode_literals
-from mmworkbench import Application
 import datetime
+import logging
+
+from mmworkbench import Application
+from mmworkbench.components._elasticsearch_helpers import get_scoped_index_name
+
 
 app = Application(__name__)
+
+APP_NAME = 'video_discovery'
+KB_INDEX_NAME = '20170705-2'
 
 GENERAL_PROMPTS = ['I can help you find movies and tv shows. What do you feel like watching today?',
                    'Tell me what you would like to watch today.',
@@ -84,18 +91,61 @@ def update_frame(entities, frame):
     for entity in entities:
         entity_type = entity.get('type', '')
         existing_entities = frame.get(entity_type, [])
+        entity_values = entity.get('value', [])
+        cname = None
+        if entity_values:
+            cname = entity_values[0].get('cname', None)
         existing_entities.append({
             'type': entity_type,
-            'text': entity.get('text', '')
+            'text': entity.get('text', ''),
+            'cname': cname
         })
+
         frame[entity_type] = existing_entities
     return frame
+
+
+ENTITY_TO_FIELD = {
+    'type': 'doc_type',
+    'genre': 'genres',
+    'director': 'directors',
+    'country': 'countries',
+}
 
 
 def get_video_content(frame):
     # TODO: Using all entities in the frame, get docs from ES. If we have multiple entities of the
     # same type, decide if we want to 'or' or 'and' them together. This might depend on entity type.
-    return []
+
+    index_name = get_scoped_index_name(APP_NAME, KB_INDEX_NAME)
+    search = app.question_answerer.build_search(index_name, {'query_clauses_operator': 'and'})
+
+    search_entities = {'title', 'cast', 'director'}
+    filter_entities = {'genre', 'type', 'country'}
+
+    for entity in get_next_entity(frame, search_entities):
+        search = search.query(**entity)
+
+    for entity in get_next_entity(frame, filter_entities):
+        search = search.filter(**entity)
+
+    # Sort entity
+    sort_entities = {
+        'latest': ('release_date', 'desc'),
+        'oldest': ('release_date', 'asc'),
+        'popular': ('popularity', 'desc'),
+        'worst': ('popularity', 'asc'),
+    }
+    for entity in get_next_entity(frame, {'sort'}):
+        field_name = list(entity.values())[0]
+        sort_entity = sort_entities.get(field_name)
+        if not sort_entity:
+            continue
+        search = search.sort(field=sort_entity[0], sort_type=sort_entity[1], location=None)
+    results = search.execute()
+    logging.info('Got {} results from KB.'.format(len(results)))
+
+    return results
 
 
 def fill_browse_slots(frame, slots):
@@ -257,8 +307,20 @@ def get_default_videos():
     Returns:
         list: The list of movies.
     """
-    results = app.question_answerer.get(index='video')
+    results = app.question_answerer.get(index=KB_INDEX_NAME)
     return results
+
+
+def get_next_entity(frame, entities):
+    for entity in entities:
+        if entity not in frame:
+            continue
+        entity_name = ENTITY_TO_FIELD.get(entity, entity)
+        for entity_value in frame[entity]:
+            clause_value = entity_value.get('cname')
+            if not clause_value:
+                clause_value = entity_value['text']
+            yield {entity_name: clause_value}
 
 
 if __name__ == '__main__':
