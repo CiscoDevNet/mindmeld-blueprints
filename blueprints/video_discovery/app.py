@@ -10,8 +10,9 @@ from mmworkbench.components._elasticsearch_helpers import get_scoped_index_name
 
 app = Application(__name__)
 
+
 APP_NAME = 'video_discovery'
-KB_INDEX_NAME = '20170705-2'
+KB_INDEX_NAME = '20170706'
 
 GENERAL_PROMPTS = ['I can help you find movies and tv shows. What do you feel like watching today?',
                    'Tell me what you would like to watch today.',
