@@ -17,35 +17,35 @@ are there any {2015|sys_time|range} {comedy|genre}
 are there any {2015|sys_time|range} {action|genre}
 are there any {2015|sys_time|range} {cowboy|genre}
 are there any {2015|sys_time|range} {health|genre}
-please play {game of throne|title} {season 5|sys_number|range}
-please play {the big bang theory|title} {season 5|sys_number|range}
-please play {grey s anatomy|title} {season 5|sys_number|range}
-please play {south park|title} {season 5|sys_number|range}
-please play {walking dead|title} {season 5|sys_number|range}
-please play {the office|title} {season 5|sys_number|range}
-please play {suit|title} {season 5|sys_number|range}
-please play {lie to me|title} {season 5|sys_number|range}
-i want to see {game of throne|title} {season 5|sys_number|range} again
-i want to see {the big bang theory|title} {season 5|sys_number|range} again
-i want to see {grey s anatomy|title} {season 5|sys_number|range} again
-i want to see {south park|title} {season 5|sys_number|range} again
-i want to see {walking dead|title} {season 5|sys_number|range} again
-i want to see {the office|title} {season 5|sys_number|range} again
-i want to see {suit|title} {season 5|sys_number|range} again
-i want to see {lie to me|title} {season 5|sys_number|range} again
-show {game of throne|title} {season 5|sys_number|range} {in chronological order|sort}
-show {the big bang theory|title} {season 5|sys_number|range} {in chronological order|sort}
-show {grey s anatomy|title} {season 5|sys_number|range} {in chronological order|sort}
-show {south park|title} {season 5|sys_number|range} {in chronological order|sort}
-show {walking dead|title} {season 5|sys_number|range} {in chronological order|sort}
-show {the office|title} {season 5|sys_number|range} {in chronological order|sort}
-show {suit|title} {season 5|sys_number|range} {in chronological order|sort}
-show {lie to me|title} {season 5|sys_number|range} {in chronological order|sort}
+please play {game of throne|title} season 5
+please play {the big bang theory|title} season 5
+please play {grey s anatomy|title} season 5
+please play {south park|title} season 5
+please play {walking dead|title} season 5
+please play {the office|title} season 5
+please play {suit|title} season 5
+please play {lie to me|title} season 5
+i want to see {game of throne|title} season 5 again
+i want to see {the big bang theory|title} season 5 again
+i want to see {grey s anatomy|title} season 5 again
+i want to see {south park|title} season 5 again
+i want to see {walking dead|title} season 5 again
+i want to see {the office|title} season 5 again
+i want to see {suit|title} season 5 again
+i want to see {lie to me|title} season 5 again
+show {game of throne|title} season 5 {in chronological order|sort}
+show {the big bang theory|title} season 5 {in chronological order|sort}
+show {grey s anatomy|title} season 5 {in chronological order|sort}
+show {south park|title} season 5 {in chronological order|sort}
+show {walking dead|title} season 5 {in chronological order|sort}
+show {the office|title} season 5 {in chronological order|sort}
+show {suit|title} season 5 {in chronological order|sort}
+show {lie to me|title} season 5 {in chronological order|sort}
 what {movies|type} are {playing right now|sys_time|range}
 {horror|genre} {movies|type} {from the 80 s|sys_interval|range} please
 {movies|type} that came out in {the last 6 months|sys_interval|range}
 are there any {2015|sys_time|range} {documentaries|genre} available
-please play {game of thrones|title} {season 5|sys_number|range}
+please play {game of thrones|title} season 5
 show me {romance|genre} {movies|type} {from the 1980s|sys_interval|range}
 what are the {best|sort} {sci-fi|genre} {movies|type} {in the last 10 years|sys_interval|range}
 what {90s|sys_interval|range} {movies|type} do you have
@@ -86,7 +86,7 @@ play a {william shatner|cast} {movie|type} {from the 80s|sys_interval|range}
 show me a list of all the {movies|type} about the holocaust {from the 2000s|sys_interval|range}
 show me {horror|genre} {movies|type} {from the 80 s|sys_interval|range}
 play a {tarantino|director} {movie|type} {from the late 1990 s|sys_interval|range}
-play {ghost adventures|title} {season two|sys_number|range} episode three
+play {ghost adventures|title} season two episode three
 show me {romantic comedies|genre} {from this year|sys_time|range}
 show me every {movie|type} released {this year|sys_time|range}
 play a {90s|sys_interval|range} {sci fi|genre} {tv show|type}
@@ -141,7 +141,7 @@ i want to watch {action|genre} {movies|type} {from the 90 s|sys_interval|range}
 may i see the {movie|type} {airplane|title} {from 1980|sys_time|range}
 show me {movies|type} that came out {in 1990 to 1995|sys_interval|range}
 show me a random selection {of 90s|sys_interval|range} {romantic comedies|genre}
-play the second episode of {walking dead|title} {season 1|sys_number|range}
+play the second episode of {walking dead|title} season 1
 browse all {tv shows|type} that were {made before 2000|sys_time|range}
 bring up {kids|genre} {movies|type} made {in the last year|sys_interval|range}
 bring up {adventure|genre} {movies|type} {from the 80s|sys_interval|range}
