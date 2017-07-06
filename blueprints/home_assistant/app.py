@@ -27,6 +27,17 @@ TIME_END_INDEX = 19
 DEFAULT_TIMER_DURATION = '60 seconds'  # Seconds
 
 
+@app.handle(intent='greet')
+def greet_intnet(context, slots, responder):
+    responder.reply('Hi, I am your home assistant. I can help you to check weather, set temperature'
+                    ' and control the lights and other appliances.')
+
+
+@app.handle(intent='exit')
+def exit_intent(context, slots, responder):
+    responder.reply('Bye!')
+
+
 @app.handle(intent='check_weather')
 def check_weather(context, slots, responder):
     """
@@ -113,7 +124,6 @@ def specify_location(context, slots, responder):
             selected_appliance = context['frame']['appliance']
             reply = _handle_appliance_reply(selected_location, selected_appliance,
                                             desired_state="off")
-
         responder.reply(reply)
     else:
         prompt = "I'm sorry, I wasn't able to recognize that location, could you try again?"
