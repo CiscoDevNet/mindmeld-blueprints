@@ -380,7 +380,7 @@ def get_default_videos_action():
     """
     default_videos = get_default_videos()
 
-    videos_client_action = video_results_to_action(results)
+    videos_client_action = video_results_to_action(default_videos)
 
     return videos_client_action
 
