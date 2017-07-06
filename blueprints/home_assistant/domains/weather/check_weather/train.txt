@@ -257,17 +257,17 @@ what's the temperature in {seattle|city} {tomorrow|sys_time}
 will it be sunny {on tuesday afternoon|sys_interval}
 check the current temperature outside in {San Francisco|city}
 check outside temperature outside in {Chicago|city} {today|sys_time}
-let me know the temperature in {kerala|city} on {monday|sys_time}
+let me know the temperature in {cochin|city} on {monday|sys_time}
 see the temperature {tomorrow|sys_time} in {dallas|city}
 what is the temperature in {pisa|city} {right now|sys_time}
 current temperature in {hawaii|city} {right now|sys_time}
-tell me the temperature in {israel|city} {now|sys_time}
+tell me the temperature in {tel aviv|city} {now|sys_time}
 {new delhi|city} temperature {now|sys_time}
 check the temperature outside in {bangalore|city}
 check the outside temperature outside in {san jose|city} {today|sys_time}
 let us know the temperature in {calcutta|city} on {friday|sys_time}
 can you show us the temperature {tomorrow|sys_time} in {houston|city}
-what's the temperature in {italy|city} {right now|sys_time}
+what's the temperature in {rome|city} {right now|sys_time}
 current temperature in {goa|city} {right now|sys_time}
 tell me the temperature in {mangalore|city} {now|sys_time}
 {shanghai|city} temperature {now|sys_time}
@@ -279,12 +279,12 @@ can you inform me the temperature in {aukland|city}
 tell me the temperature in {sydney|city}
 check the temperature outside in {San Leandro|city}
 check temperature outside in {chennai|city} {today|sys_time}
-temperature in {kerala|city} on {monday|sys_time}
+temperature in {cochin|city} on {monday|sys_time}
 what is the temperature in {goa|city}
 current temperature in {hawaii|city} {later tonight|sys_interval}
 tell us the temperature in {haifa|city} on {tuesday|sys_time}
 {new delhi|city} temperature {now|sys_time}
 check the outside temperature in {stanford|city}
 let us know the temperature in {calicut|city} on {monday|sys_time}
-can you give me the temperature {tomorrow|sys_time} in {bhutan|city}
-see what the temperature is in {nepal|city}
+can you give me the temperature {tomorrow|sys_time} in {thimphu|city}
+see what the temperature is in {kathmandu|city}
