@@ -150,7 +150,7 @@ def open_door(context, slots, responder):
 
     if selected_all or selected_location:
         reply = _handle_door_open_close_reply(selected_all, selected_location, context,
-                                              desired_state="closed")
+                                              desired_state="open")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Open Door'
@@ -165,8 +165,8 @@ def lock_door(context, slots, responder):
     selected_location = _get_location(context)
 
     if selected_all or selected_location:
-        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
-                                              desired_state="closed")
+        reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
+                                              desired_state="locked")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Lock Door'
@@ -181,8 +181,8 @@ def unlock_door(context, slots, responder):
     selected_location = _get_location(context)
 
     if selected_all or selected_location:
-        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
-                                              desired_state="closed")
+        reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
+                                              desired_state="unlocked")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Unlock Door'
