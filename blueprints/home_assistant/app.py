@@ -16,9 +16,10 @@ DEFAULT_LOCATION = 'San Francisco'
 OPENWEATHER_BASE_STRING = 'http://api.openweathermap.org/data/2.5/weather'
 
 DEFAULT_THERMOSTAT_TEMPERATURE = 72
+DEFAULT_THERMOSTAT_CHANGE = 1
 DEFAULT_THERMOSTAT_LOCATION = 'home'
+
 DEFAULT_HOUSE_LOCATION = None
-DEFAULT_TEMPERATURE_CHANGE = None
 
 TIME_START_INDEX = 11
 TIME_END_INDEX = 19
@@ -100,34 +101,6 @@ def specify_location(context, slots, responder):
     elif context['frame']['desired_action'] == 'Turn Off Appliance':
         selected_appliance = context['frame']['appliance']
         reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="off")
-
-    responder.reply(reply)
-
-
-@app.handle(intent='specify_temperature')
-def specify_temperature(context, slots, responder):
-
-    selected_temperature_amount = _get_temperature(context)
-    selected_location = context['frame']['thermostat_location']
-
-    thermostat_temperature_dict = context['frame']['thermostat_temperatures']
-
-    if context['frame']['desired_action'] == 'Set Thermostat':
-        thermostat_temperature_dict[selected_location] = selected_temperature_amount
-        reply = _handle_thermostat_change_reply(selected_location,
-                                                desired_temperature=selected_temperature_amount)
-    elif context['frame']['desired_action'] == 'Turn Up Thermostat':
-        thermostat_temperature_dict[selected_location] += selected_temperature_amount
-
-        new_temperature = thermostat_temperature_dict[selected_location]
-        reply = _handle_thermostat_change_reply(selected_location,
-                                                desired_temperature=new_temperature)
-    elif context['frame']['desired_action'] == 'Turn Down Thermostat':
-        thermostat_temperature_dict[selected_location] -= selected_temperature_amount
-
-        new_temperature = thermostat_temperature_dict[selected_location]
-        reply = _handle_thermostat_change_reply(selected_location,
-                                                desired_temperature=new_temperature)
 
     responder.reply(reply)
 
@@ -267,7 +240,7 @@ def check_thermostat(context, slots, responder):
         current_temp = DEFAULT_THERMOSTAT_TEMPERATURE
         context['frame']['thermostat_temperatures'] = {selected_location: current_temp}
 
-    reply = "Current thermostat temperature in the {location} is {temp} F.".format(
+    reply = "Current thermostat temperature in the {location} is {temp} degrees F.".format(
         location=selected_location.lower(), temp=current_temp)
     responder.reply(reply)
 
@@ -284,22 +257,17 @@ def set_thermostat(context, slots, responder):
         thermostat_temperature_dict = {}
         context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
-    if selected_temperature:
-        thermostat_temperature_dict[selected_location] = selected_temperature
-        reply = _handle_thermostat_change_reply(selected_location,
-                                                desired_temperature=selected_temperature)
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = "Set Thermostat"
-        prompt = "Of course, what temperature shall I set it to?"
-        responder.prompt(prompt)
+    thermostat_temperature_dict[selected_location] = selected_temperature
+    reply = _handle_thermostat_change_reply(selected_location,
+                                            desired_temperature=selected_temperature)
+    responder.reply(reply)
 
 
 @app.handle(intent='turn_down_thermostat')
 def turn_down_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
-    selected_temperature_amount = _get_temperature(context)
+    selected_temperature_change = _get_temperature_change(context)
 
     try:
         thermostat_temperature_dict = context['frame']['thermostat_temperatures']
@@ -307,25 +275,19 @@ def turn_down_thermostat(context, slots, responder):
         thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
         context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
-    if selected_temperature_amount:
-        thermostat_temperature_dict[selected_location] -= selected_temperature_amount
-        new_temperature = thermostat_temperature_dict[selected_location]
+    thermostat_temperature_dict[selected_location] -= selected_temperature_change
+    new_temperature = thermostat_temperature_dict[selected_location]
 
-        reply = _handle_thermostat_change_reply(selected_location,
-                                                desired_temperature=new_temperature)
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = "Turn Down Thermostat"
-        context['frame']['thermostat_location'] = selected_location
-        prompt = "Of course, by how much?"
-        responder.prompt(prompt)
+    reply = _handle_thermostat_change_reply(selected_location,
+                                            desired_temperature=new_temperature)
+    responder.reply(reply)
 
 
 @app.handle(intent='turn_up_thermostat')
 def turn_up_thermostat(context, slots, responder):
 
     selected_location = _get_thermostat_location(context)
-    selected_temperature_amount = _get_temperature(context)
+    selected_temperature_change = _get_temperature_change(context)
 
     try:
         thermostat_temperature_dict = context['frame']['thermostat_temperatures']
@@ -333,17 +295,12 @@ def turn_up_thermostat(context, slots, responder):
         thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
         context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
-    if selected_temperature_amount:
-        thermostat_temperature_dict[selected_location] += selected_temperature_amount
-        new_temperature = thermostat_temperature_dict[selected_location]
+    thermostat_temperature_dict[selected_location] += selected_temperature_change
+    new_temperature = thermostat_temperature_dict[selected_location]
 
-        reply = _handle_thermostat_change_reply(selected_location,
-                                                desired_temperature=new_temperature)
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = "Turn Up Thermostat"
-        prompt = "Of course, by how much?"
-        responder.prompt(prompt)
+    reply = _handle_thermostat_change_reply(selected_location,
+                                            desired_temperature=new_temperature)
+    responder.reply(reply)
 
 
 @app.handle(intent='turn_off_thermostat')
@@ -696,7 +653,7 @@ def _get_thermostat_location(context):
 
 def _get_temperature(context):
     """
-    Get's the user desired temperature or temperature change
+    Get's the user desired temperature to set thermostat to, defaults to 72 degrees
 
     Args:
         context (dict): contains info about the conversation up to this point
@@ -713,7 +670,29 @@ def _get_temperature(context):
         # Get the first number
         return int(next(w for w in temperature_text.split() if w.isdigit()))
     else:
-        return DEFAULT_TEMPERATURE_CHANGE
+        return DEFAULT_THERMOSTAT_TEMPERATURE
+
+
+def _get_temperature_change(context):
+    """
+    Get's the user desired temperature change for thermostat, defaults to 1 degree
+
+    Args:
+        context (dict): contains info about the conversation up to this point
+        (e.g. domain, intent, entities, etc)
+
+    Returns:
+        string: resolved temperature entity
+    """
+    temperature_entity = next((e for e in context['entities'] if e['type'] == 'sys_temperature'),
+                              None)
+
+    if temperature_entity:
+        temperature_text = temperature_entity['text']
+        # Get the first number
+        return int(next(w for w in temperature_text.split() if w.isdigit()))
+    else:
+        return DEFAULT_THERMOSTAT_CHANGE
 
 
 def _get_unit(context):
