@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 import datetime
 import logging
+import random
 
 from mmworkbench import Application
 from mmworkbench.components._elasticsearch_helpers import get_scoped_index_name
@@ -71,9 +72,14 @@ def show_content(context, slots, responder):
     # 3.2) Build response based on available slots and results.
     # TODO: Have a set of response templates, and select one based on the slots.
     # Finally reply to the user, including the results and any prompts.
-    build_browse_response(slots, results)
+    reply, videos_client_action, prompt = build_browse_response(context, slots, results)
 
-    responder.reply("browse placeholder.")
+    # Send the reply
+    responder.reply(reply)
+
+    # Build and return the client action
+    videos_client_action = video_results_to_action(results)
+    responder.respond(videos_client_action)
 
 
 def update_frame(entities, frame):
@@ -150,13 +156,98 @@ def get_video_content(frame):
 
 def fill_browse_slots(frame, slots):
     # TODO: Using all entities in the current frame, fill the slots dict.
+
+    for entity_type, entity_set in frame.items():
+        entities = []
+        for entity in entity_set:
+            entity_text = entity['cname'] if entity['cname'] else entity['text']
+
+            # Choose the proper casing
+            if entity_type == 'cast':
+                entity_text = entity_text.title()
+            else:
+                entity_text = entity_text.lower()
+
+            entities.append(entity_text)
+
+        if len(entities) > 1:
+            last_entity = entities.pop()
+            entities_string = ', '.join(entities)
+            entities_string += ' and ' + last_entity
+            slots[entity_type] = entities_string
+
+        else:
+            slots[entity_type] = entities[0]
+
     return slots
 
 
-def build_browse_response(slots, results):
+def build_browse_response(context, slots, results):
     # Return the given template based on the available slots. Also build a client action
     # with the results, and show any prompts if necesary.
-    return None
+
+    reply = ''
+    videos_client_action = {}
+    prompt = ''
+
+    # If no results match, respond accordingly.
+    if len(results) == 0:
+        reply = 'Sorry, no results match your search criteria. Please try again.'
+
+        # Since user reached dead-end here, clear the frame.
+        context['frame'] = {}
+
+        return reply, videos_client_action, prompt
+
+    else:
+        # Build the language response based on the slots available.
+        reply = ''
+
+        # Add default aknowledgment.
+        aknowledgments = ['Done.', 'Ok.', 'Perfect.']
+        reply += random.choice(aknowledgments)
+        reply += ' Here are'
+
+        print(slots)
+
+        # Now add the different slots
+        if 'sort' in slots:
+            if slots['sort'] == 'popular':
+                reply += ' {sort}'
+            else:
+                reply += ' the {sort}'
+        else:
+            reply += ' some'
+
+        if 'genre' in slots:
+            reply += ' {genre}'
+
+        if 'type' in slots:
+            reply += ' {type}s'
+        else:
+            reply += ' results'
+
+        if 'title' in slots:
+            reply += ' titled {title}'
+
+        if 'cast' in slots:
+            cast = [' with {cast}', ' starring {cast}']
+            reply += random.choice(cast)
+
+        if 'director' in slots:
+            director = [' directed by {director}', ' by {director}']
+            reply += random.choice(director)
+
+        if 'country' in slots:
+            country = [' from {country}', ' made in {country}']
+            reply += random.choice(cast)
+
+        reply += ':'
+
+        # Build and return the client action
+        videos_client_action = video_results_to_action(results)
+
+        return reply, videos_client_action, prompt
 
 
 @app.handle(intent='start_over')
@@ -289,15 +380,20 @@ def get_default_videos_action():
     """
     default_videos = get_default_videos()
 
-    videos_client_action = {'videos': []}
+    videos_client_action = video_results_to_action(results)
 
-    for video in default_videos:
+    return videos_client_action
+
+
+def video_results_to_action(results):
+    videos_client_action = {'videos': []}
+    
+    for video in results:
         release_date = datetime.datetime.strptime(video['release_date'], '%Y-%m-%d')
         video_summary = {'title': video['title'], 'release_year': release_date.year}
         videos_client_action['videos'].append(video_summary)
 
     return videos_client_action
-
 
 def get_default_videos():
     """
