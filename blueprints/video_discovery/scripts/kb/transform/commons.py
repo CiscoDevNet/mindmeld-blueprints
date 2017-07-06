@@ -110,3 +110,11 @@ def get_release_date(release_date):
         return None
     else:
         return release_date
+
+
+def get_release_year(release_date):
+    _date = get_release_date(release_date)
+    if not _date or len(_date) < 4:
+        return None
+    else:
+        return int(_date[:4])
