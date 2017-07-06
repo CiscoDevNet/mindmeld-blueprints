@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 """This module contains the Workbench video discovery blueprint application"""
 from __future__ import unicode_literals
-from mmworkbench import Application
 import datetime
+from mmworkbench import Application
+from mmworkbench.components._elasticsearch_helpers import get_scoped_index_name
+
 
 app = Application(__name__)
 
+APP_NAME = 'video_discovery'
+KB_INDEX_NAME = '20170705-2'
 GENERAL_PROMPTS = ['I can help you find movies and tv shows. What do you feel like watching today?',
                    'Tell me what you would like to watch today.',
                    'Talk to me to browse movies and tv shows.']
@@ -257,7 +261,7 @@ def get_default_videos():
     Returns:
         list: The list of movies.
     """
-    results = app.question_answerer.get(index='video')
+    results = app.question_answerer.get(index=KB_INDEX_NAME)
     return results
 
 
