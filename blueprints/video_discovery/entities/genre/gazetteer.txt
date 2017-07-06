@@ -1,34 +1,34 @@
-19547	Action
-2097	Action & Adventure
-10230	Adventure
-16294	Animation
-57448	Comedy
-14023	Crime
-32166	Documentary
-80660	Drama
-1	Erotic
-11531	Family
-6845	Fantasy
-5633	Foreign
-4600	History
-15889	Horror
-315	Kids
-11856	Music
-1	Musical
-7318	Mystery
-264	News
-1209	Reality
-19736	Romance
-1670	Sci-Fi & Fantasy
-8047	Science Fiction
-316	Soap
-4	Sport
-4106	TV Movie
-258	Talk
-18732	Thriller
-4089	War
-169	War & Politics
-4729	Western
+19547   Action
+2097    Action & Adventure
+10230   Adventure
+16294   Animation
+57448   Comedy
+14023   Crime
+32166   Documentary
+80660   Drama
+1   Erotic
+11531   Family
+6845    Fantasy
+5633    Foreign
+4600    History
+15889   Horror
+315 Kids
+11856   Music
+1   Musical
+7318    Mystery
+264 News
+1209    Reality
+19736   Romance
+1670    Sci-Fi & Fantasy
+8047    Science Fiction
+316 Soap
+4   Sport
+4106    TV Movie
+258 Talk
+18732   Thriller
+4089    War
+169 War & Politics
+4729    Western
 19547   actions
 19547   action-packed
 2097    action adventure
