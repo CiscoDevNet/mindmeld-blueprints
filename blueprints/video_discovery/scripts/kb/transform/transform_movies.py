@@ -21,7 +21,7 @@ class TransformMovies(TransformDocuments):
         for line in fin:
             movie_obj = json.loads(line)
             transformed_movie_obj = {
-                'type': TYPE_MOVIE,
+                'doc_type': TYPE_MOVIE,
                 'title': movie_obj['title'],
                 'id':  '{}_{}'.format(TYPE_MOVIE, movie_obj['id']),
                 'imdb_id': movie_obj.get('imdb_id'),
