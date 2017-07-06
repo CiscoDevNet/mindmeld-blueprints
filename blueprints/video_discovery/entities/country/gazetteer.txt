@@ -58,6 +58,7 @@
 4	Bermuda
 9	Bhutan
 61	Bolivia, Plurinational State of
+61	Bolivia
 168	Bosnia and Herzegovina
 8	Botswana
 3508	Brazil
@@ -181,6 +182,7 @@
 1103	HU
 21	Haiti
 2	Holy See (Vatican City State)
+2	Vatican
 45	Honduras
 3556	Hong Kong
 1103	Hungary
@@ -197,6 +199,7 @@
 5472	India
 620	Indonesia
 450	Iran, Islamic Republic of
+450	Iran
 43	Iraq
 597	Ireland
 747	Israel
@@ -222,7 +225,9 @@
 43	Kenya
 4	Kiribati
 46	Korea, Democratic People's Republic of
+46	North Korea
 2815	Korea, Republic of
+2815	South Korea
 25	Kuwait
 27	Kyrgyzstan
 21	LA
@@ -269,6 +274,7 @@
 19	MZ
 7	Macao
 157	Macedonia, Republic of
+157	Macedonia
 13	Madagascar
 5	Malawi
 540	Malaysia
@@ -282,7 +288,9 @@
 1	Mayotte
 2527	Mexico
 1	Micronesia, Federated States of
+1	Micronesia
 20	Moldova, Republic of
+20	Moldova
 17	Monaco
 18	Mongolia
 55	Montenegro
@@ -326,6 +334,7 @@
 40	PY
 79	Pakistan
 74	Palestine, State of
+74	Palestine
 30	Panama
 7	Papua New Guinea
 40	Paraguay
@@ -391,6 +400,7 @@
 2387	Sweden
 1270	Switzerland
 40	Syrian Arab Republic
+40	Syria
 4	TC
 14	TD
 1	TF
@@ -408,8 +418,10 @@
 1153	TW
 14	TZ
 1153	Taiwan, Province of China
+1153	Taiwan
 22	Tajikistan
 14	Tanzania, United Republic of
+14	Tanzania
 1234	Thailand
 3	Timor-Leste
 2	Togo
@@ -444,8 +456,10 @@
 6	VU
 6	Vanuatu
 248	Venezuela, Bolivarian Republic of
+248	Venezuela
 106	Viet Nam
 2	Virgin Islands, British
+2	British Virgin Islands
 1	Virgin Islands, U.S.
 4	WS
 1	Western Sahara

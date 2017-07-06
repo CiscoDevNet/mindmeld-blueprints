@@ -1,1 +1,1421 @@
-{}
+[
+	{
+		"cname": "AD",
+		 "whitelist": [
+		 	"Andorra"
+		]
+	},
+	{
+		"cname": "AE",
+		 "whitelist": [
+		 	"United Arab Emirates"
+		]
+	},
+	{
+		"cname": "AF",
+		 "whitelist": [
+		 	"Afghanistan"
+		]
+	},
+	{
+		"cname": "AG",
+		 "whitelist": [
+		 	"Antigua and Barbuda"
+		]
+	},
+	{
+		"cname": "AI",
+		 "whitelist": [
+		 	"Anguilla"
+		]
+	},
+	{
+		"cname": "AL",
+		 "whitelist": [
+		 	"Albania"
+		]
+	},
+	{
+		"cname": "AM",
+		 "whitelist": [
+		 	"Armenia"
+		]
+	},
+	{
+		"cname": "AN",
+		 "whitelist": [
+		]
+	},
+	{
+		"cname": "AO",
+		 "whitelist": [
+		 	"Angola"
+		]
+	},
+	{
+		"cname": "AQ",
+		 "whitelist": [
+		 	"Antarctica"
+		]
+	},
+	{
+		"cname": "AR",
+		 "whitelist": [
+		 	"Argentina"
+		]
+	},
+	{
+		"cname": "AS",
+		 "whitelist": [
+		 	"American Samoa"
+		]
+	},
+	{
+		"cname": "AT",
+		 "whitelist": [
+		 	"Austria"
+		]
+	},
+	{
+		"cname": "AU",
+		 "whitelist": [
+		 	"Australia"
+		]
+	},
+	{
+		"cname": "AW",
+		 "whitelist": [
+		 	"Aruba"
+		]
+	},
+	{
+		"cname": "AZ",
+		 "whitelist": [
+		 	"Azerbaijan"
+		]
+	},
+	{
+		"cname": "BA",
+		 "whitelist": [
+		 	"Bosnia and Herzegovina"
+		]
+	},
+	{
+		"cname": "BB",
+		 "whitelist": [
+		 	"Barbados"
+		]
+	},
+	{
+		"cname": "BD",
+		 "whitelist": [
+		 	"Bangladesh"
+		]
+	},
+	{
+		"cname": "BE",
+		 "whitelist": [
+		 	"Belgium"
+		]
+	},
+	{
+		"cname": "BF",
+		 "whitelist": [
+		 	"Burkina Faso"
+		]
+	},
+	{
+		"cname": "BG",
+		 "whitelist": [
+		 	"Bulgaria"
+		]
+	},
+	{
+		"cname": "BH",
+		 "whitelist": [
+		 	"Bahrain"
+		]
+	},
+	{
+		"cname": "BI",
+		 "whitelist": [
+		 	"Burundi"
+		]
+	},
+	{
+		"cname": "BJ",
+		 "whitelist": [
+		 	"Benin"
+		]
+	},
+	{
+		"cname": "BM",
+		 "whitelist": [
+		 	"Bermuda"
+		]
+	},
+	{
+		"cname": "BN",
+		 "whitelist": [
+		 	"Brunei Darussalam"
+		]
+	},
+	{
+		"cname": "BO",
+		 "whitelist": [
+		 	"Bolivia, Plurinational State of",
+		 	"Bolivia"
+		]
+	},
+	{
+		"cname": "BR",
+		 "whitelist": [
+		 	"Brazil"
+		]
+	},
+	{
+		"cname": "BS",
+		 "whitelist": [
+		 	"Bahamas"
+		]
+	},
+	{
+		"cname": "BT",
+		 "whitelist": [
+		 	"Bhutan"
+		]
+	},
+	{
+		"cname": "BW",
+		 "whitelist": [
+		 	"Botswana"
+		]
+	},
+	{
+		"cname": "BY",
+		 "whitelist": [
+		 	"Belarus"
+		]
+	},
+	{
+		"cname": "BZ",
+		 "whitelist": [
+		 	"Belize"
+		]
+	},
+	{
+		"cname": "CA",
+		 "whitelist": [
+		 	"Canada"
+		]
+	},
+	{
+		"cname": "CD",
+		 "whitelist": [
+		 	"Congo, The Democratic Republic of the"
+		]
+	},
+	{
+		"cname": "CF",
+		 "whitelist": [
+		 	"Central African Republic"
+		]
+	},
+	{
+		"cname": "CG",
+		 "whitelist": [
+		 	"Congo"
+		]
+	},
+	{
+		"cname": "CH",
+		 "whitelist": [
+		 	"Switzerland"
+		]
+	},
+	{
+		"cname": "CI",
+		 "whitelist": [
+		 	"Côte d'Ivoire"
+		]
+	},
+	{
+		"cname": "CK",
+		 "whitelist": [
+		 	"Cook Islands"
+		]
+	},
+	{
+		"cname": "CL",
+		 "whitelist": [
+		 	"Chile"
+		]
+	},
+	{
+		"cname": "CM",
+		 "whitelist": [
+		 	"Cameroon"
+		]
+	},
+	{
+		"cname": "CN",
+		 "whitelist": [
+		 	"China"
+		]
+	},
+	{
+		"cname": "CO",
+		 "whitelist": [
+		 	"Colombia"
+		]
+	},
+	{
+		"cname": "CR",
+		 "whitelist": [
+		 	"Costa Rica"
+		]
+	},
+	{
+		"cname": "CS",
+		 "whitelist": [
+		]
+	},
+	{
+		"cname": "CU",
+		 "whitelist": [
+		 	"Cuba"
+		]
+	},
+	{
+		"cname": "CV",
+		 "whitelist": [
+		 	"Cabo Verde"
+		]
+	},
+	{
+		"cname": "CY",
+		 "whitelist": [
+		 	"Cyprus"
+		]
+	},
+	{
+		"cname": "CZ",
+		 "whitelist": [
+		 	"Czechia"
+		]
+	},
+	{
+		"cname": "DE",
+		 "whitelist": [
+		 	"Germany"
+		]
+	},
+	{
+		"cname": "DJ",
+		 "whitelist": [
+		 	"Djibouti"
+		]
+	},
+	{
+		"cname": "DK",
+		 "whitelist": [
+		 	"Denmark"
+		]
+	},
+	{
+		"cname": "DM",
+		 "whitelist": [
+		 	"Dominica"
+		]
+	},
+	{
+		"cname": "DO",
+		 "whitelist": [
+		 	"Dominican Republic"
+		]
+	},
+	{
+		"cname": "DZ",
+		 "whitelist": [
+		 	"Algeria"
+		]
+	},
+	{
+		"cname": "EC",
+		 "whitelist": [
+		 	"Ecuador"
+		]
+	},
+	{
+		"cname": "EE",
+		 "whitelist": [
+		 	"Estonia"
+		]
+	},
+	{
+		"cname": "EG",
+		 "whitelist": [
+		 	"Egypt"
+		]
+	},
+	{
+		"cname": "EH",
+		 "whitelist": [
+		 	"Western Sahara"
+		]
+	},
+	{
+		"cname": "ER",
+		 "whitelist": [
+		 	"Eritrea"
+		]
+	},
+	{
+		"cname": "ES",
+		 "whitelist": [
+		 	"Spain"
+		]
+	},
+	{
+		"cname": "ET",
+		 "whitelist": [
+		 	"Ethiopia"
+		]
+	},
+	{
+		"cname": "FI",
+		 "whitelist": [
+		 	"Finland"
+		]
+	},
+	{
+		"cname": "FJ",
+		 "whitelist": [
+		 	"Fiji"
+		]
+	},
+	{
+		"cname": "FK",
+		 "whitelist": [
+		 	"Falkland Islands (Malvinas)",
+		 	"Malvinas"
+		]
+	},
+	{
+		"cname": "FM",
+		 "whitelist": [
+		 	"Micronesia, Federated States of",
+		 	"Micronesia"
+		]
+	},
+	{
+		"cname": "FO",
+		 "whitelist": [
+		 	"Faroe Islands"
+		]
+	},
+	{
+		"cname": "FR",
+		 "whitelist": [
+		 	"France"
+		]
+	},
+	{
+		"cname": "GA",
+		 "whitelist": [
+		 	"Gabon"
+		]
+	},
+	{
+		"cname": "GB",
+		 "whitelist": [
+		 	"United Kingdom"
+		]
+	},
+	{
+		"cname": "GD",
+		 "whitelist": [
+		 	"Grenada"
+		]
+	},
+	{
+		"cname": "GE",
+		 "whitelist": [
+		 	"Georgia"
+		]
+	},
+	{
+		"cname": "GF",
+		 "whitelist": [
+		 	"French Guiana"
+		]
+	},
+	{
+		"cname": "GH",
+		 "whitelist": [
+		 	"Ghana"
+		]
+	},
+	{
+		"cname": "GI",
+		 "whitelist": [
+		 	"Gibraltar"
+		]
+	},
+	{
+		"cname": "GL",
+		 "whitelist": [
+		 	"Greenland"
+		]
+	},
+	{
+		"cname": "GM",
+		 "whitelist": [
+		 	"Gambia"
+		]
+	},
+	{
+		"cname": "GN",
+		 "whitelist": [
+		 	"Guinea"
+		]
+	},
+	{
+		"cname": "GP",
+		 "whitelist": [
+		 	"Guadeloupe"
+		]
+	},
+	{
+		"cname": "GQ",
+		 "whitelist": [
+		 	"Equatorial Guinea"
+		]
+	},
+	{
+		"cname": "GR",
+		 "whitelist": [
+		 	"Greece"
+		]
+	},
+	{
+		"cname": "GS",
+		 "whitelist": [
+		 	"South Georgia and the South Sandwich Islands"
+		]
+	},
+	{
+		"cname": "GT",
+		 "whitelist": [
+		 	"Guatemala"
+		]
+	},
+	{
+		"cname": "GU",
+		 "whitelist": [
+		 	"Guam"
+		]
+	},
+	{
+		"cname": "GW",
+		 "whitelist": [
+		 	"Guinea-Bissau"
+		]
+	},
+	{
+		"cname": "GY",
+		 "whitelist": [
+		 	"Guyana"
+		]
+	},
+	{
+		"cname": "HK",
+		 "whitelist": [
+		 	"Hong Kong
+"
+		]
+	},
+	{
+		"cname": "HN",
+		 "whitelist": [
+		 	"Honduras"
+		]
+	},
+	{
+		"cname": "HR",
+		 "whitelist": [
+		 	"Croatia"
+		]
+	},
+	{
+		"cname": "HT",
+		 "whitelist": [
+		 	"Haiti"
+		]
+	},
+	{
+		"cname": "HU",
+		 "whitelist": [
+		 	"Hungary"
+		]
+	},
+	{
+		"cname": "ID",
+		 "whitelist": [
+		 	"Indonesia"
+		]
+	},
+	{
+		"cname": "IE",
+		 "whitelist": [
+		 	"Ireland"
+		]
+	},
+	{
+		"cname": "IL",
+		 "whitelist": [
+		 	"Israel"
+		]
+	},
+	{
+		"cname": "IN",
+		 "whitelist": [
+		 	"India"
+		]
+	},
+	{
+		"cname": "IO",
+		 "whitelist": [
+		 	"British Indian Ocean Territory"
+		]
+	},
+	{
+		"cname": "IQ",
+		 "whitelist": [
+		 	"Iraq"
+		]
+	},
+	{
+		"cname": "IR",
+		 "whitelist": [
+		 	"Iran, Islamic Republic of",
+		 	"Iran"
+		]
+	},
+	{
+		"cname": "IS",
+		 "whitelist": [
+		 	"Iceland"
+		]
+	},
+	{
+		"cname": "IT",
+		 "whitelist": [
+		 	"Italy"
+		]
+	},
+	{
+		"cname": "JM",
+		 "whitelist": [
+		 	"Jamaica"
+		]
+	},
+	{
+		"cname": "JO",
+		 "whitelist": [
+		 	"Jordan"
+		]
+	},
+	{
+		"cname": "JP",
+		 "whitelist": [
+		 	"Japan"
+		]
+	},
+	{
+		"cname": "KE",
+		 "whitelist": [
+		 	"Kenya"
+		]
+	},
+	{
+		"cname": "KG",
+		 "whitelist": [
+		 	"Kyrgyzstan"
+		]
+	},
+	{
+		"cname": "KH",
+		 "whitelist": [
+		 	"Cambodia"
+		]
+	},
+	{
+		"cname": "KI",
+		 "whitelist": [
+		 	"Kiribati"
+		]
+	},
+	{
+		"cname": "KM",
+		 "whitelist": [
+		 	"Comoros"
+		]
+	},
+	{
+		"cname": "KN",
+		 "whitelist": [
+		 	"Saint Kitts and Nevis"
+		]
+	},
+	{
+		"cname": "KP",
+		 "whitelist": [
+		 	"Korea, Democratic People's Republic of",
+		 	"North Korea"
+		]
+	},
+	{
+		"cname": "KR",
+		 "whitelist": [
+		 	"Korea, Republic of",
+		 	"South Korea"
+		]
+	},
+	{
+		"cname": "KW",
+		 "whitelist": [
+		 	"Kuwait"
+		]
+	},
+	{
+		"cname": "KY",
+		 "whitelist": [
+		 	"Cayman Islands"
+		]
+	},
+	{
+		"cname": "KZ",
+		 "whitelist": [
+		 	"Kazakhstan"
+		]
+	},
+	{
+		"cname": "LA",
+		 "whitelist": [
+		 	"Lao People's Democratic Republic"
+		]
+	},
+	{
+		"cname": "LB",
+		 "whitelist": [
+		 	"Lebanon"
+		]
+	},
+	{
+		"cname": "LC",
+		 "whitelist": [
+		 	"Saint Lucia"
+		]
+	},
+	{
+		"cname": "LI",
+		 "whitelist": [
+		 	"Liechtenstein"
+		]
+	},
+	{
+		"cname": "LK",
+		 "whitelist": [
+		 	"Sri Lanka"
+		]
+	},
+	{
+		"cname": "LR",
+		 "whitelist": [
+		 	"Liberia"
+		]
+	},
+	{
+		"cname": "LS",
+		 "whitelist": [
+		 	"Lesotho"
+		]
+	},
+	{
+		"cname": "LT",
+		 "whitelist": [
+		 	"Lithuania"
+		]
+	},
+	{
+		"cname": "LU",
+		 "whitelist": [
+		 	"Luxembourg"
+		]
+	},
+	{
+		"cname": "LV",
+		 "whitelist": [
+		 	"Latvia"
+		]
+	},
+	{
+		"cname": "LY",
+		 "whitelist": [
+		 	"Libya"
+		]
+	},
+	{
+		"cname": "MA",
+		 "whitelist": [
+		 	"Morocco"
+		]
+	},
+	{
+		"cname": "MC",
+		 "whitelist": [
+		 	"Monaco"
+		]
+	},
+	{
+		"cname": "MD",
+		 "whitelist": [
+		 	"Moldova, Republic of",
+		 	"Moldova"
+		]
+	},
+	{
+		"cname": "ME",
+		 "whitelist": [
+		 	"Montenegro"
+		]
+	},
+	{
+		"cname": "MG",
+		 "whitelist": [
+		 	"Madagascar"
+		]
+	},
+	{
+		"cname": "MH",
+		 "whitelist": [
+		 	"Marshall Islands"
+		]
+	},
+	{
+		"cname": "MK",
+		 "whitelist": [
+		 	"Macedonia, Republic of",
+		 	"Macedonia"
+		]
+	},
+	{
+		"cname": "ML",
+		 "whitelist": [
+		 	"Mali"
+		]
+	},
+	{
+		"cname": "MM",
+		 "whitelist": [
+		 	"Myanmar"
+		]
+	},
+	{
+		"cname": "MN",
+		 "whitelist": [
+		 	"Mongolia"
+		]
+	},
+	{
+		"cname": "MO",
+		 "whitelist": [
+		 	"Macao"
+		]
+	},
+	{
+		"cname": "MP",
+		 "whitelist": [
+		 	"Northern Mariana Islands"
+		]
+	},
+	{
+		"cname": "MQ",
+		 "whitelist": [
+		 	"Martinique"
+		]
+	},
+	{
+		"cname": "MR",
+		 "whitelist": [
+		 	"Mauritania"
+		]
+	},
+	{
+		"cname": "MS",
+		 "whitelist": [
+		 	"Montserrat"
+		]
+	},
+	{
+		"cname": "MT",
+		 "whitelist": [
+		 	"Malta"
+		]
+	},
+	{
+		"cname": "MU",
+		 "whitelist": [
+		 	"Mauritius"
+		]
+	},
+	{
+		"cname": "MV",
+		 "whitelist": [
+		 	"Maldives"
+		]
+	},
+	{
+		"cname": "MW",
+		 "whitelist": [
+		 	"Malawi"
+		]
+	},
+	{
+		"cname": "MX",
+		 "whitelist": [
+		 	"Mexico"
+		]
+	},
+	{
+		"cname": "MY",
+		 "whitelist": [
+		 	"Malaysia"
+		]
+	},
+	{
+		"cname": "MZ",
+		 "whitelist": [
+		 	"Mozambique"
+		]
+	},
+	{
+		"cname": "NA",
+		 "whitelist": [
+		 	"Namibia"
+		]
+	},
+	{
+		"cname": "NC",
+		 "whitelist": [
+		 	"New Caledonia"
+		]
+	},
+	{
+		"cname": "NE",
+		 "whitelist": [
+		 	"Niger"
+		]
+	},
+	{
+		"cname": "NG",
+		 "whitelist": [
+		 	"Nigeria"
+		]
+	},
+	{
+		"cname": "NI",
+		 "whitelist": [
+		 	"Nicaragua"
+		]
+	},
+	{
+		"cname": "NL",
+		 "whitelist": [
+		 	"Netherlands"
+		]
+	},
+	{
+		"cname": "NO",
+		 "whitelist": [
+		 	"Norway"
+		]
+	},
+	{
+		"cname": "NP",
+		 "whitelist": [
+		 	"Nepal"
+		]
+	},
+	{
+		"cname": "NU",
+		 "whitelist": [
+		 	"Niue"
+		]
+	},
+	{
+		"cname": "NZ",
+		 "whitelist": [
+		 	"New Zealand"
+		]
+	},
+	{
+		"cname": "OM",
+		 "whitelist": [
+		 	"Oman"
+		]
+	},
+	{
+		"cname": "PA",
+		 "whitelist": [
+		 	"Panama"
+		]
+	},
+	{
+		"cname": "PE",
+		 "whitelist": [
+		 	"Peru"
+		]
+	},
+	{
+		"cname": "PF",
+		 "whitelist": [
+		 	"French Polynesia"
+		]
+	},
+	{
+		"cname": "PG",
+		 "whitelist": [
+		 	"Papua New Guinea"
+		]
+	},
+	{
+		"cname": "PH",
+		 "whitelist": [
+		 	"Philippines"
+		]
+	},
+	{
+		"cname": "PK",
+		 "whitelist": [
+		 	"Pakistan"
+		]
+	},
+	{
+		"cname": "PL",
+		 "whitelist": [
+		 	"Poland"
+		]
+	},
+	{
+		"cname": "PR",
+		 "whitelist": [
+		 	"Puerto Rico"
+		]
+	},
+	{
+		"cname": "PS",
+		 "whitelist": [
+		 	"Palestine, State of",
+		 	"Palestine"
+		]
+	},
+	{
+		"cname": "PT",
+		 "whitelist": [
+		 	"Portugal"
+		]
+	},
+	{
+		"cname": "PY",
+		 "whitelist": [
+		 	"Paraguay"
+		]
+	},
+	{
+		"cname": "QA",
+		 "whitelist": [
+		 	"Qatar"
+		]
+	},
+	{
+		"cname": "RE",
+		 "whitelist": [
+		 	"Réunion"
+		]
+	},
+	{
+		"cname": "RO",
+		 "whitelist": [
+		 	"Romania"
+		]
+	},
+	{
+		"cname": "RS",
+		 "whitelist": [
+		 	"Serbia"
+		]
+	},
+	{
+		"cname": "RU",
+		 "whitelist": [
+		 	"Russian Federation"
+		]
+	},
+	{
+		"cname": "RW",
+		 "whitelist": [
+		 	"Rwanda"
+		]
+	},
+	{
+		"cname": "SA",
+		 "whitelist": [
+		 	"Saudi Arabia"
+		]
+	},
+	{
+		"cname": "SB",
+		 "whitelist": [
+		 	"Solomon Islands"
+		]
+	},
+	{
+		"cname": "SD",
+		 "whitelist": [
+		 	"Sudan"
+		]
+	},
+	{
+		"cname": "SE",
+		 "whitelist": [
+		 	"Sweden"
+		]
+	},
+	{
+		"cname": "SG",
+		 "whitelist": [
+		 	"Singapore"
+		]
+	},
+	{
+		"cname": "SH",
+		 "whitelist": [
+		 	"Saint Helena, Ascension and Tristan da Cunha"
+		]
+	},
+	{
+		"cname": "SI",
+		 "whitelist": [
+		 	"Slovenia"
+		]
+	},
+	{
+		"cname": "SJ",
+		 "whitelist": [
+		 	"Svalbard and Jan Mayen"
+		]
+	},
+	{
+		"cname": "SK",
+		 "whitelist": [
+		 	"Slovakia"
+		]
+	},
+	{
+		"cname": "SL",
+		 "whitelist": [
+		 	"Sierra Leone"
+		]
+	},
+	{
+		"cname": "SM",
+		 "whitelist": [
+		 	"San Marino"
+		]
+	},
+	{
+		"cname": "SN",
+		 "whitelist": [
+		 	"Senegal"
+		]
+	},
+	{
+		"cname": "SO",
+		 "whitelist": [
+		 	"Somalia"
+		]
+	},
+	{
+		"cname": "SR",
+		 "whitelist": [
+		 	"Suriname"
+		]
+	},
+	{
+		"cname": "ST",
+		 "whitelist": [
+		 	"Sao Tome and Principe"
+		]
+	},
+	{
+		"cname": "SU",
+		 "whitelist": [
+		]
+	},
+	{
+		"cname": "SV",
+		 "whitelist": [
+		 	"El Salvador"
+		]
+	},
+	{
+		"cname": "SY",
+		 "whitelist": [
+		 	"Syrian Arab Republic",
+		 	"Syria"
+		]
+	},
+	{
+		"cname": "SZ",
+		 "whitelist": [
+		 	"Swaziland"
+		]
+	},
+	{
+		"cname": "TC",
+		 "whitelist": [
+		 	"Turks and Caicos Islands"
+		]
+	},
+	{
+		"cname": "TD",
+		 "whitelist": [
+		 	"Chad"
+		]
+	},
+	{
+		"cname": "TF",
+		 "whitelist": [
+		 	"French Southern Territories"
+		]
+	},
+	{
+		"cname": "TG",
+		 "whitelist": [
+		 	"Togo"
+		]
+	},
+	{
+		"cname": "TH",
+		 "whitelist": [
+		 	"Thailand"
+		]
+	},
+	{
+		"cname": "TJ",
+		 "whitelist": [
+		 	"Tajikistan"
+		]
+	},
+	{
+		"cname": "TK",
+		 "whitelist": [
+		 	"Tokelau"
+		]
+	},
+	{
+		"cname": "TL",
+		 "whitelist": [
+		 	"Timor-Leste"
+		]
+	},
+	{
+		"cname": "TM",
+		 "whitelist": [
+		 	"Turkmenistan"
+		]
+	},
+	{
+		"cname": "TN",
+		 "whitelist": [
+		 	"Tunisia"
+		]
+	},
+	{
+		"cname": "TO",
+		 "whitelist": [
+		 	"Tonga"
+		]
+	},
+	{
+		"cname": "TR",
+		 "whitelist": [
+		 	"Turkey"
+		]
+	},
+	{
+		"cname": "TT",
+		 "whitelist": [
+		 	"Trinidad and Tobago"
+		]
+	},
+	{
+		"cname": "TV",
+		 "whitelist": [
+		 	"Tuvalu"
+		]
+	},
+	{
+		"cname": "TW",
+		 "whitelist": [
+		 	"Taiwan, Province of China",
+		 	"Taiwan"
+		]
+	},
+	{
+		"cname": "TZ",
+		 "whitelist": [
+		 	"Tanzania, United Republic of",
+		 	"Tanzania"
+		]
+	},
+	{
+		"cname": "UA",
+		 "whitelist": [
+		 	"Ukraine"
+		]
+	},
+	{
+		"cname": "UG",
+		 "whitelist": [
+		 	"Uganda"
+		]
+	},
+	{
+		"cname": "UM",
+		 "whitelist": [
+		 	"United States Minor Outlying Islands"
+		]
+	},
+	{
+		"cname": "US",
+		 "whitelist": [
+		 	"United States"
+		]
+	},
+	{
+		"cname": "UY",
+		 "whitelist": [
+		 	"Uruguay"
+		]
+	},
+	{
+		"cname": "UZ",
+		 "whitelist": [
+		 	"Uzbekistan"
+		]
+	},
+	{
+		"cname": "VA",
+		 "whitelist": [
+		 	"Holy See (Vatican City State)",
+		 	"Vatican"
+		]
+	},
+	{
+		"cname": "VC",
+		 "whitelist": [
+		 	"Saint Vincent and the Grenadines"
+		]
+	},
+	{
+		"cname": "VE",
+		 "whitelist": [
+		 	"Venezuela, Bolivarian Republic of",
+		 	"Venezuela"
+		]
+	},
+	{
+		"cname": "VG",
+		 "whitelist": [
+		 	"Virgin Islands, British",
+		 	"British Virgin Islands"
+		]
+	},
+	{
+		"cname": "VI",
+		 "whitelist": [
+		 	"Virgin Islands, U.S."
+		]
+	},
+	{
+		"cname": "VN",
+		 "whitelist": [
+		 	"Viet Nam"
+		]
+	},
+	{
+		"cname": "VU",
+		 "whitelist": [
+		 	"Vanuatu"
+		]
+	},
+	{
+		"cname": "WS",
+		 "whitelist": [
+		 	"Samoa"
+		]
+	},
+	{
+		"cname": "XC",
+		 "whitelist": [
+		]
+	},
+	{
+		"cname": "XG",
+		 "whitelist": [
+		]
+	},
+	{
+		"cname": "XK",
+		 "whitelist": [
+		]
+	},
+	{
+		"cname": "YE",
+		 "whitelist": [
+		 	"Yemen"
+		]
+	},
+	{
+		"cname": "YT",
+		 "whitelist": [
+		 	"Mayotte"
+		]
+	},
+	{
+		"cname": "YU",
+		 "whitelist": [
+		]
+	},
+	{
+		"cname": "ZA",
+		 "whitelist": [
+		 	"South Africa"
+		]
+	},
+	{
+		"cname": "ZM",
+		 "whitelist": [
+		 	"Zambia"
+		]
+	},
+	{
+		"cname": "ZW",
+		 "whitelist": [
+		 	"Zimbabwe"
+		]
+	}
+]
