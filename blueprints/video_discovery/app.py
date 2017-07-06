@@ -126,8 +126,8 @@ def get_video_content(frame):
     index_name = get_scoped_index_name(APP_NAME, KB_INDEX_NAME)
     search = app.question_answerer.build_search(index_name, {'query_clauses_operator': 'and'})
 
-    search_entities = {'title', 'cast', 'director'}
-    filter_entities = {'genre', 'type', 'country'}
+    search_entities = {'title'}
+    filter_entities = {'cast', 'director', 'genre', 'type', 'country'}
 
     for entity in get_next_entity(frame, search_entities):
         search = search.query(**entity)
