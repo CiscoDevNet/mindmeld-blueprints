@@ -26,6 +26,10 @@ GENERAL_SUGGESTIONS = [{'text': 'Most popular', 'type': 'text'},
                        {'text': 'Dramas', 'type': 'text'},
                        {'text': 'Sci-Fi', 'type': 'text'}]
 
+# A hack to convert Mallard value to str
+# Convert from mallard format like '2002-01-01T00:00:00.000-07:00'
+MALLARD_YEAR_INDEX = 10
+
 
 @app.handle(intent='greet')
 def welcome(context, slots, responder):
@@ -96,11 +100,14 @@ def update_frame(entities, frame):
         cname = None
         if entity_values:
             cname = entity_values[0].get('cname', None)
-        existing_entities.append({
+        new_entity = {
             'type': entity_type,
             'text': entity.get('text', ''),
             'cname': cname
-        })
+        }
+        if entity_type in {'sys_time', 'sys_interval'}:
+            new_entity['value'] = entity_values[0]
+        existing_entities.append(new_entity)
 
         frame[entity_type] = existing_entities
     return frame
@@ -143,6 +150,21 @@ def get_video_content(frame):
         if not sort_entity:
             continue
         search = search.sort(field=sort_entity[0], sort_type=sort_entity[1], location=None)
+    # Handle sys_time
+    if 'sys_time' in frame:
+        entity_value = frame['sys_time'][0]['value']
+        release_year = get_release_year(entity_value['value'][:MALLARD_YEAR_INDEX])
+        search = search.filter(filter_type='range', field='release_year',
+                               gte=release_year, lte=release_year)
+
+    # Handle sys_interval
+    if 'sys_interval' in frame:
+        interval_start, interval_end = frame['sys_interval'][0]['value']['value']
+        interval_start = get_release_year(interval_start[:MALLARD_YEAR_INDEX])
+        interval_end = get_release_year(interval_end[:MALLARD_YEAR_INDEX])
+        search = search.filter(filter_type='range', field='release_year',
+                               gte=interval_start, lte=interval_end)
+
     results = search.execute()
     logging.info('Got {} results from KB.'.format(len(results)))
 
@@ -293,8 +315,8 @@ def get_default_videos_action():
     videos_client_action = {'videos': []}
 
     for video in default_videos:
-        release_date = datetime.datetime.strptime(video['release_date'], '%Y-%m-%d')
-        video_summary = {'title': video['title'], 'release_year': release_date.year}
+        release_year = get_release_year(video['release_date'])
+        video_summary = {'title': video['title'], 'release_year': release_year}
         videos_client_action['videos'].append(video_summary)
 
     return videos_client_action
@@ -322,6 +344,13 @@ def get_next_entity(frame, entities):
             if not clause_value:
                 clause_value = entity_value['text']
             yield {entity_name: clause_value}
+
+
+def get_release_year(release_date):
+    if not release_date:
+        return
+    release_date_obj = datetime.datetime.strptime(release_date, '%Y-%m-%d')
+    return release_date_obj.year
 
 
 if __name__ == '__main__':
