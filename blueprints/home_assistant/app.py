@@ -34,7 +34,6 @@ def check_weather(context, slots, responder):
       location is given.
     """
     # Check to make sure API key is present, if not tell them to follow setup instructions
-    context['frame'] = 0
     try:
         openweather_api_key = os.environ['OPEN_WEATHER_KEY']
     except KeyError:
