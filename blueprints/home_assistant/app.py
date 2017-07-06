@@ -82,34 +82,39 @@ def specify_location(context, slots, responder):
     selected_all = False
     selected_location = _get_location(context)
 
-    if context['frame']['desired_action'] == 'Close Door':
-        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
-                                              desired_state="closed")
-    elif context['frame']['desired_action'] == 'Open Door':
-        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
-                                              desired_state="opened")
-    elif context['frame']['desired_action'] == 'Lock Door':
-        reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
-                                               desired_state="locked")
-    elif context['frame']['desired_action'] == 'Unlock Door':
-        reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
-                                               desired_state="unlocked")
-    elif context['frame']['desired_action'] == 'Check Door':
-        reply = _handle_check_door_reply(selected_location, context)
-    elif context['frame']['desired_action'] == 'Turn On Lights':
-        reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="on")
-    elif context['frame']['desired_action'] == 'Turn Off Lights':
-        reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="off")
-    elif context['frame']['desired_action'] == 'Check Lights':
-        reply = _handle_check_lights_reply(selected_location, context)
-    elif context['frame']['desired_action'] == 'Turn On Appliance':
-        selected_appliance = context['frame']['appliance']
-        reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="on")
-    elif context['frame']['desired_action'] == 'Turn Off Appliance':
-        selected_appliance = context['frame']['appliance']
-        reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="off")
+    if selected_location:
+        if context['frame']['desired_action'] == 'Close Door':
+            reply = _handle_door_open_close_reply(selected_all, selected_location, context,
+                                                  desired_state="closed")
+        elif context['frame']['desired_action'] == 'Open Door':
+            reply = _handle_door_open_close_reply(selected_all, selected_location, context,
+                                                  desired_state="opened")
+        elif context['frame']['desired_action'] == 'Lock Door':
+            reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
+                                                   desired_state="locked")
+        elif context['frame']['desired_action'] == 'Unlock Door':
+            reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
+                                                   desired_state="unlocked")
+        elif context['frame']['desired_action'] == 'Check Door':
+            reply = _handle_check_door_reply(selected_location, context)
+        elif context['frame']['desired_action'] == 'Turn On Lights':
+            reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="on")
+        elif context['frame']['desired_action'] == 'Turn Off Lights':
+            reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="off")
+        elif context['frame']['desired_action'] == 'Check Lights':
+            reply = _handle_check_lights_reply(selected_location, context)
+        elif context['frame']['desired_action'] == 'Turn On Appliance':
+            selected_appliance = context['frame']['appliance']
+            reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="on")
+        elif context['frame']['desired_action'] == 'Turn Off Appliance':
+            selected_appliance = context['frame']['appliance']
+            reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="off")
 
-    responder.reply(reply)
+        responder.reply(reply)
+    else:
+        prompt = "I'm sorry, I wasn't able to recognize that location, could you try again?"
+        responder.prompt(prompt)
+
 
 
 @app.handle(intent='check_door')
@@ -200,7 +205,7 @@ def turn_appliance_on(context, slots, responder):
         reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="on")
         responder.reply(reply)
     else:
-        context['frame']['desired_action'] = 'Turn On'
+        context['frame']['desired_action'] = 'Turn On Appliance'
         context['frame']['appliance'] = selected_appliance
 
         prompt = "Of course, which {appliance}".format(appliance=selected_appliance)
@@ -217,7 +222,7 @@ def turn_appliance_off(context, slots, responder):
         reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="off")
         responder.reply(reply)
     else:
-        context['frame']['desired_action'] = 'Turn Off'
+        context['frame']['desired_action'] = 'Turn Off Appliance'
         context['frame']['appliance'] = selected_appliance
 
         prompt = "Of course, which {appliance}".format(appliance=selected_appliance)
@@ -593,7 +598,8 @@ def _handle_door_lock_unlock_reply(selected_all, selected_location, context, des
 
 def _handle_appliance_reply(selected_location, selected_appliance, desired_state):
 
-    reply = "Ok. The {appliance} has been turned {state}.".format(appliance=selected_appliance,
+    reply = "Ok. The {loc} {app} has been turned {state}.".format(loc=selected_location,
+                                                                  app=selected_appliance,
                                                                   state=desired_state)
     return reply
 
