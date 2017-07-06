@@ -83,17 +83,25 @@ def specify_location(context, slots, responder):
     selected_location = _get_location(context)
 
     if context['frame']['desired_action'] == 'Close Door':
-        reply = _handle_door_reply(selected_all, selected_location, desired_state="closed")
+        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
+                                              desired_state="closed")
     elif context['frame']['desired_action'] == 'Open Door':
-        reply = _handle_door_reply(selected_all, selected_location, desired_state="opened")
+        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
+                                              desired_state="opened")
     elif context['frame']['desired_action'] == 'Lock Door':
-        reply = _handle_door_reply(selected_all, selected_location, desired_state="locked")
+        reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
+                                               desired_state="locked")
     elif context['frame']['desired_action'] == 'Unlock Door':
-        reply = _handle_door_reply(selected_all, selected_location, desired_state="unlocked")
+        reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
+                                               desired_state="unlocked")
+    elif context['frame']['desired_action'] == 'Check Door':
+        reply = _handle_check_door_reply(selected_location, context)
     elif context['frame']['desired_action'] == 'Turn On Lights':
-        reply = _handle_lights_reply(selected_all, selected_location, desired_state="on")
+        reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="on")
     elif context['frame']['desired_action'] == 'Turn Off Lights':
-        reply = _handle_lights_reply(selected_all, selected_location, desired_state="off")
+        reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="off")
+    elif context['frame']['desired_action'] == 'Check Lights':
+        reply = _handle_check_lights_reply(selected_location, context)
     elif context['frame']['desired_action'] == 'Turn On Appliance':
         selected_appliance = context['frame']['appliance']
         reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="on")
@@ -104,6 +112,20 @@ def specify_location(context, slots, responder):
     responder.reply(reply)
 
 
+@app.handle(intent='check_door')
+def check_door(context, slots, responder):
+
+    selected_location = _get_location(context)
+
+    if selected_location:
+        reply = _handle_check_door_reply(selected_location, context)
+        responder.reply(reply)
+    else:
+        context['frame']['desired_action'] = 'Check Door'
+        prompt = "Of course, which door?"
+        responder.prompt(prompt)
+
+
 @app.handle(intent='close_door')
 def close_door(context, slots, responder):
 
@@ -111,7 +133,8 @@ def close_door(context, slots, responder):
     selected_location = _get_location(context)
 
     if selected_all or selected_location:
-        reply = _handle_door_reply(selected_all, selected_location, desired_state="closed")
+        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
+                                              desired_state="closed")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Close Door'
@@ -126,7 +149,8 @@ def open_door(context, slots, responder):
     selected_location = _get_location(context)
 
     if selected_all or selected_location:
-        reply = _handle_door_reply(selected_all, selected_location, desired_state="opened")
+        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
+                                              desired_state="closed")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Open Door'
@@ -141,7 +165,8 @@ def lock_door(context, slots, responder):
     selected_location = _get_location(context)
 
     if selected_all or selected_location:
-        reply = _handle_door_reply(selected_all, selected_location, desired_state="locked")
+        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
+                                              desired_state="closed")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Lock Door'
@@ -156,7 +181,8 @@ def unlock_door(context, slots, responder):
     selected_location = _get_location(context)
 
     if selected_all or selected_location:
-        reply = _handle_door_reply(selected_all, selected_location, desired_state="unlocked")
+        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
+                                              desired_state="closed")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Unlock Door'
@@ -198,6 +224,20 @@ def turn_appliance_off(context, slots, responder):
         responder.prompt(prompt)
 
 
+@app.handle(intent='check_lights')
+def check_lights(context, slots, responder):
+
+    selected_location = _get_location(context)
+
+    if selected_location:
+        reply = _handle_check_lights_reply(selected_location, context)
+        responder.reply(reply)
+    else:
+        context['frame']['desired_action'] = 'Check Lights'
+        prompt = "Of course, which lights?"
+        responder.prompt(prompt)
+
+
 @app.handle(intent='turn_lights_on')
 def turn_lights_on(context, slots, responder):
 
@@ -205,7 +245,7 @@ def turn_lights_on(context, slots, responder):
     selected_location = _get_location(context)
 
     if selected_all or selected_location:
-        reply = _handle_lights_reply(selected_all, selected_location, desired_state="on")
+        reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="on")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Turn On Lights'
@@ -220,7 +260,7 @@ def turn_lights_off(context, slots, responder):
     selected_location = _get_location(context)
 
     if selected_all or selected_location:
-        reply = _handle_lights_reply(selected_all, selected_location, desired_state="off")
+        reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="off")
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Turn Off Lights'
@@ -453,22 +493,98 @@ def _construct_weather_api_url(selected_location, selected_unit, openweather_api
     return url_string
 
 
-def _handle_lights_reply(selected_all, selected_location, desired_state):
+def _handle_check_lights_reply(selected_location, context):
+
+    if 'lights' not in context['frame']:
+        context['frame']['lights'] = {}
+
+    try:
+        state = context['frame']['lights'][selected_location]
+        reply = "The {location} lights are {state}.".format(location=selected_location, state=state)
+
+    except KeyError:
+        context['frame']['lights'][selected_location] = 'off'
+        reply = "The {location} lights are off.".format(location=selected_location)
+
+    return reply
+
+
+def _handle_lights_reply(selected_all, selected_location, context, desired_state):
+
+    if 'lights' not in context['frame']:
+        context['frame']['lights'] = {}
 
     if selected_all:
+        for light_location in context['frame']['lights'].keys():
+            context['frame']['lights'][light_location] = desired_state
         reply = "Ok. All lights have been turned {state}.".format(state=desired_state)
     elif selected_location:
+        context['frame']['lights'][selected_location] = desired_state
         reply = "Ok. The {location} lights have been turned {state}.".format(
             location=selected_location.lower(), state=desired_state)
 
     return reply
 
 
-def _handle_door_reply(selected_all, selected_location, desired_state):
+def _handle_check_door_reply(selected_location, context):
+
+    if 'doors' not in context['frame']:
+        context['frame']['doors'] = {}
+
+    if selected_location not in context['frame']['doors']:
+        context['frame']['doors'][selected_location] = {}
+
+    try:
+        lock_state = context['frame']['doors'][selected_location]['lock_state']
+    except KeyError:
+        context['frame']['doors'][selected_location]['lock_state'] = 'locked'
+        lock_state = 'locked'
+
+    try:
+        open_state = context['frame']['doors'][selected_location]['open_state']
+    except KeyError:
+        context['frame']['doors'][selected_location]['open_state'] = 'closed'
+        open_state = 'closed'
+
+    reply = "The {location} door is {l} and {o}".format(location=selected_location,
+                                                        l=lock_state, o=open_state)
+    return reply
+
+
+def _handle_door_open_close_reply(selected_all, selected_location, context, desired_state):
+
+    if 'doors' not in context['frame']:
+        context['frame']['doors'] = {}
 
     if selected_all:
+        for door_location in context['frame']['doors'].keys():
+            context['frame']['doors'][door_location]['open_state'] = desired_state
         reply = "Ok. All doors have been {state}.".format(state=desired_state)
     elif selected_location:
+        if selected_location not in context['frame']['doors']:
+            context['frame']['doors'][selected_location] = {}
+
+        context['frame']['doors'][selected_location]['open_state'] = desired_state
+        reply = "Ok. The {location} door has been {state}.".format(
+            location=selected_location.lower(), state=desired_state)
+
+    return reply
+
+
+def _handle_door_lock_unlock_reply(selected_all, selected_location, context, desired_state):
+
+    if 'doors' not in context['frame']:
+        context['frame']['doors'] = {}
+
+    if selected_all:
+        for door_location in context['frame']['doors'].keys():
+            context['frame']['doors'][door_location]['lock_state'] = desired_state
+        reply = "Ok. All doors have been {state}.".format(state=desired_state)
+    elif selected_location:
+        if selected_location not in context['frame']['doors']:
+            context['frame']['doors'][selected_location] = {}
+
+        context['frame']['doors'][selected_location]['lock_state'] = desired_state
         reply = "Ok. The {location} door has been {state}.".format(
             location=selected_location.lower(), state=desired_state)
 
