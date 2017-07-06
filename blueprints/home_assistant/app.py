@@ -111,6 +111,8 @@ def specify_location(context, slots, responder):
     elif context['frame']['desired_action'] == 'Turn Off Appliance':
         selected_appliance = context['frame']['appliance']
         reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="off")
+    else:
+        reply = 'Unknown previous action.'
 
     responder.reply(reply)
 
@@ -213,7 +215,7 @@ def turn_appliance_on(context, slots, responder):
         reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="on")
         responder.reply(reply)
     else:
-        context['frame']['desired_action'] = 'Turn On'
+        context['frame']['desired_action'] = 'Turn On Appliance'
         context['frame']['appliance'] = selected_appliance
 
         prompt = "Of course, which {appliance}".format(appliance=selected_appliance)
@@ -230,7 +232,7 @@ def turn_appliance_off(context, slots, responder):
         reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="off")
         responder.reply(reply)
     else:
-        context['frame']['desired_action'] = 'Turn Off'
+        context['frame']['desired_action'] = 'Turn Off Appliance'
         context['frame']['appliance'] = selected_appliance
 
         prompt = "Of course, which {appliance}".format(appliance=selected_appliance)
