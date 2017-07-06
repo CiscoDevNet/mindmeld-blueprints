@@ -98,23 +98,26 @@ def specify_location(context, slots, responder):
         elif context['frame']['desired_action'] == 'Check Door':
             reply = _handle_check_door_reply(selected_location, context)
         elif context['frame']['desired_action'] == 'Turn On Lights':
-            reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="on")
+            reply = _handle_lights_reply(selected_all, selected_location, context,
+                                         desired_state="on")
         elif context['frame']['desired_action'] == 'Turn Off Lights':
-            reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="off")
+            reply = _handle_lights_reply(selected_all, selected_location, context,
+                                         desired_state="off")
         elif context['frame']['desired_action'] == 'Check Lights':
             reply = _handle_check_lights_reply(selected_location, context)
         elif context['frame']['desired_action'] == 'Turn On Appliance':
             selected_appliance = context['frame']['appliance']
-            reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="on")
+            reply = _handle_appliance_reply(selected_location, selected_appliance,
+                                            desired_state="on")
         elif context['frame']['desired_action'] == 'Turn Off Appliance':
             selected_appliance = context['frame']['appliance']
-            reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="off")
+            reply = _handle_appliance_reply(selected_location, selected_appliance,
+                                            desired_state="off")
 
         responder.reply(reply)
     else:
         prompt = "I'm sorry, I wasn't able to recognize that location, could you try again?"
         responder.prompt(prompt)
-
 
 
 @app.handle(intent='check_door')
