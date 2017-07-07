@@ -415,7 +415,11 @@ def video_results_to_action(results):
 
     for video in results:
         release_year = get_release_year(video['release_date'])
-        video_summary = {'title': video['title'], 'release_year': release_year, 'type': video['doc_type']}
+        video_summary = {
+                            'title': video['title'],
+                            'release_year': release_year,
+                            'type': video['doc_type']
+                        }
         videos_client_action['videos'].append(video_summary)
 
     return videos_client_action
