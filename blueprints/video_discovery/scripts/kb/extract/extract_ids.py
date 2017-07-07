@@ -101,7 +101,7 @@ def collect_ids(ids_file, doc_type):
             ids = [doc.get('id') for doc in docs]
             all_ids.extend(ids)
     logging.info('Got {:,d} {} ids.'.format(len(all_ids), doc_type))
-    return all_ids
+    return list(set(all_ids))
 
 
 if __name__ == '__main__':
