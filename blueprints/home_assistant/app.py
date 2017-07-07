@@ -611,9 +611,8 @@ def _handle_door_lock_unlock_reply(selected_all, selected_location, context, des
 
 def _handle_appliance_reply(selected_location, selected_appliance, desired_state):
 
-    reply = "Ok. The {loc} {app} has been turned {state}.".format(loc=selected_location,
-                                                                  app=selected_appliance,
-                                                                  state=desired_state)
+    reply = "Ok. The {loc} {app} has been turned {state}.".format(
+        loc=selected_location, app=selected_appliance, state=desired_state)
     return reply
 
 
