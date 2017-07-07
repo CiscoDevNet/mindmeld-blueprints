@@ -7,3 +7,9 @@ test:
     - pip install -r test-requirements.txt
   override:
     - ./lintme
+
+deployment:
+  s3:
+    branch: /(develop)|(staging)|(master)/
+    commands:
+      - bash scripts/upload_blueprints.sh
