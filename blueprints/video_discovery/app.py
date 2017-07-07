@@ -433,7 +433,7 @@ def get_default_videos():
     Returns:
         list: The list of movies.
     """
-    results = app.question_answerer.get(index=KB_INDEX_NAME)
+    results = app.question_answerer.get(index=KB_INDEX_NAME, _sort='popularity', _sort_type='desc')
     return results
 
 
