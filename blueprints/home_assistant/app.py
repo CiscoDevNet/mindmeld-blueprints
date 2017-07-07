@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 from mmworkbench import Application
 from mmworkbench.ser import parse_numerics
+from mmworkbench.ser import get_candidates_for_text
 import requests
 import os
 
@@ -661,13 +662,11 @@ def _get_temperature(context):
     Returns:
         string: resolved temperature entity
     """
-    temperature_entity = next((e for e in context['entities'] if e['type'] == 'sys_temperature'),
-                              None)
+    temperature_entity = get_candidates_for_text(context['request']['text'],
+                                                 entity_types='sys_temperature')
 
     if temperature_entity:
-        temperature_text = temperature_entity['text']
-        # Get the first number
-        return int(next(w for w in temperature_text.split() if w.isdigit()))
+        return temperature_entity[0]['value'][0]
     else:
         return DEFAULT_THERMOSTAT_TEMPERATURE
 
@@ -683,13 +682,11 @@ def _get_temperature_change(context):
     Returns:
         string: resolved temperature entity
     """
-    temperature_entity = next((e for e in context['entities'] if e['type'] == 'sys_temperature'),
-                              None)
+    temperature_entity = get_candidates_for_text(context['request']['text'],
+                                                 entity_types='sys_temperature')
 
     if temperature_entity:
-        temperature_text = temperature_entity['text']
-        # Get the first number
-        return int(next(w for w in temperature_text.split() if w.isdigit()))
+        return temperature_entity[0]['value'][0]
     else:
         return DEFAULT_THERMOSTAT_CHANGE
 
