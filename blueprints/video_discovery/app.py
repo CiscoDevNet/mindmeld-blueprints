@@ -186,7 +186,7 @@ def fill_browse_slots(frame, slots):
             entity_text = entity['cname'] if entity['cname'] else entity['text']
 
             # Choose the proper casing
-            if entity_type == 'cast' or entity_type == 'director':
+            if entity_type == 'cast' or entity_type == 'director' or entity_type == 'title':
                 entity_text = entity_text.title()
             else:
                 entity_text = entity_text.lower()
@@ -231,8 +231,6 @@ def build_browse_response(context, slots, results):
         reply += random.choice(aknowledgments)
         reply += ' Here are'
 
-        print(slots)
-
         # Now add the different slots
         if 'sort' in slots:
             if slots['sort'] == 'popular':
@@ -251,7 +249,7 @@ def build_browse_response(context, slots, results):
             reply += ' results'
 
         if 'title' in slots:
-            reply += ' titled {title}'
+            reply += ' titled "{title}"'
 
         if 'cast' in slots:
             cast = [' with {cast}', ' starring {cast}']
@@ -417,7 +415,7 @@ def video_results_to_action(results):
 
     for video in results:
         release_year = get_release_year(video['release_date'])
-        video_summary = {'title': video['title'], 'release_year': release_year}
+        video_summary = {'title': video['title'], 'release_year': release_year, 'type': video['doc_type']}
         videos_client_action['videos'].append(video_summary)
 
     return videos_client_action
