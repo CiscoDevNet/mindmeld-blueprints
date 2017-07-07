@@ -268,17 +268,9 @@ def turn_down_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature_change = _get_temperature_change(context)
 
-    try:
-        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
-    except:
-        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
-        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
+    new_temp = _modify_thermostat(selected_location, selected_temperature_change, context, 'down')
 
-    thermostat_temperature_dict[selected_location] -= selected_temperature_change
-    new_temperature = thermostat_temperature_dict[selected_location]
-
-    reply = _handle_thermostat_change_reply(selected_location,
-                                            desired_temperature=new_temperature)
+    reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temp)
     responder.reply(reply)
 
 
@@ -288,17 +280,9 @@ def turn_up_thermostat(context, slots, responder):
     selected_location = _get_thermostat_location(context)
     selected_temperature_change = _get_temperature_change(context)
 
-    try:
-        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
-    except:
-        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
-        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
+    new_temp = _modify_thermostat(selected_location, selected_temperature_change, context, 'up')
 
-    thermostat_temperature_dict[selected_location] += selected_temperature_change
-    new_temperature = thermostat_temperature_dict[selected_location]
-
-    reply = _handle_thermostat_change_reply(selected_location,
-                                            desired_temperature=new_temperature)
+    reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temp)
     responder.reply(reply)
 
 
@@ -439,6 +423,22 @@ def default(context, slots, responder):
 
 
 # Helper Functions
+
+def _modify_thermostat(selected_location, selected_temperature_change, context, direction):
+
+    try:
+        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    except:
+        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
+        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
+
+    if direction == 'up':
+        thermostat_temperature_dict[selected_location] += selected_temperature_change
+    else:
+        thermostat_temperature_dict[selected_location] -= selected_temperature_change
+
+    return thermostat_temperature_dict[selected_location]
+
 
 def _timer_finished(context):
     context['frame']['timer'] = None  # Remove the timer
