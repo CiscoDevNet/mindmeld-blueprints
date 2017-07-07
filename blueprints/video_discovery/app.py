@@ -160,7 +160,7 @@ def get_video_content(frame):
     if 'sys_time' in frame:
         entity_value = frame['sys_time'][0]['value']
         release_year = get_release_year(entity_value['value'][:MALLARD_YEAR_INDEX])
-        search = search.filter(filter_type='range', field='release_year',
+        search = search.filter(field='release_year',
                                gte=release_year, lte=release_year)
 
     # Handle sys_interval
@@ -168,7 +168,7 @@ def get_video_content(frame):
         interval_start, interval_end = frame['sys_interval'][0]['value']['value']
         interval_start = get_release_year(interval_start[:MALLARD_YEAR_INDEX])
         interval_end = get_release_year(interval_end[:MALLARD_YEAR_INDEX])
-        search = search.filter(filter_type='range', field='release_year',
+        search = search.filter(field='release_year',
                                gte=interval_start, lte=interval_end)
 
     results = search.execute()
