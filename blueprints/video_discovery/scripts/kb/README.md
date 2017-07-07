@@ -8,11 +8,10 @@ Run `pip install -r requirements.txt` to install dependencies.
 
 Get `TMDB_API_KEY` from Juan or Ray.
 
-Get a pre-crawled dataset with 927,143 docs from s3
+Get a pre-crawled dataset with ~330k docs from s3
 ```
-aws s3 cp s3://mindmeld/workbench-data/video_data_0626_1k.tar.gz .
+aws s3 cp s3://mindmeld/workbench-data/video-data-0706.tar.gz .
 ```
-which contains 20k tv/movies and the rest are episodes.
 
 
 ## Run the Pipeline
