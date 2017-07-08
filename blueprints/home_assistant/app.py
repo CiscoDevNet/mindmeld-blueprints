@@ -263,25 +263,20 @@ def set_thermostat(context, slots, responder):
     responder.reply(reply)
 
 
-@app.handle(intent='turn_down_thermostat')
-def turn_down_thermostat(context, slots, responder):
-
-    selected_location = _get_thermostat_location(context)
-    selected_temperature_change = _get_temperature_change(context)
-
-    new_temp = _modify_thermostat(selected_location, selected_temperature_change, context, 'down')
-
-    reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temp)
-    responder.reply(reply)
-
-
 @app.handle(intent='turn_up_thermostat')
-def turn_up_thermostat(context, slots, responder):
+@app.handle(intent='turn_down_thermostat')
+def change_thermostat(context, slots, responder):
+
+    if context['intent'] == 'turn_up_thermostat':
+        desired_direction = 'up'
+    else:
+        desired_direction = 'down'
 
     selected_location = _get_thermostat_location(context)
     selected_temperature_change = _get_temperature_change(context)
 
-    new_temp = _modify_thermostat(selected_location, selected_temperature_change, context, 'up')
+    new_temp = _modify_thermostat(selected_location, selected_temperature_change, context,
+                                  desired_direction)
 
     reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temp)
     responder.reply(reply)
