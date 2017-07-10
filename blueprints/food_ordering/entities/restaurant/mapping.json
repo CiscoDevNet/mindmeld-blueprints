@@ -1,308 +1,142 @@
 [
     {
-        "whitelist": [], 
-        "cname": "Dinosaurs Vietnamese Sandwiches - Boardman Pl", 
-        "id": "B01CGK1RN0"
+        "whitelist": [
+            "basa",
+            "basa express",
+            "basa seafood"
+        ], 
+        "cname": "Basa Seafood Express", 
+        "id": "B01N97KQNJ"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Dinosaurs Vietnamese Sandwiches - Market St", 
-        "id": "B01CGKPL4G"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Pera", 
-        "id": "B01CLO291U"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Curry Up Now", 
-        "id": "B01CODV1UI"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Ganim's Deli", 
-        "id": "B01CRUWS1O"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Firetrail Pizza", 
-        "id": "B01CT54GYE"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Tai Chi Restaurant", 
-        "id": "B01CZ0GMIG"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Udupi Palace", 
-        "id": "B01D0ATLU6"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Primo Patio Cafe", 
-        "id": "B01D9BCKHW"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Thoughts Style Cuisine Showroom", 
-        "id": "B01DUUMTLY"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "NEWA", 
-        "id": "B01J4IRU10"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Firepie", 
-        "id": "B01K27HK26"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Happy Myanmar Cafe", 
-        "id": "B01LOTNT3U"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Monterey Pizza & Asian Zap", 
-        "id": "B01LZG9OJL"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Sam's Sandwiches & Coffee", 
-        "id": "B01M35XY3H"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Little Delhi", 
-        "id": "B01M4JAJ3U"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Grandma's Deli & Cafe", 
-        "id": "B01M6BTPCR"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Sam Wo Restaurant", 
-        "id": "B01MCTR77E"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Chopstix", 
-        "id": "B01MFFJ4F5"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Tao Yin", 
-        "id": "B01MPXNNKT"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Nobhill Pizza & Shawerma", 
-        "id": "B01MPXV7LJ"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Pizza Zone N Grill - Valencia St", 
-        "id": "B01MUDQW5B"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Vanda Siam Restaurant", 
-        "id": "B01N0KFZQX"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Milkbean", 
-        "id": "B01N1XOIS2"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Humphry Slocombe - Catering", 
-        "id": "B01N3U2TED"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Poke Bowl - Ocean Ave", 
-        "id": "B01N6RMK91"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "K-OZ Restaurant and Brewery", 
-        "id": "B06XB12W7F"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Dagwood & Scoops", 
-        "id": "B01B8BJ8Q6"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "M.Y. China", 
-        "id": "B01CIKLBMU"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Saffron 685", 
-        "id": "B01CK4Z986"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Buttermilk Southern Kitchen", 
-        "id": "B01CRGYWWQ"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Pressed Juicery - San Francisco", 
-        "id": "B01CRWGRM8"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Frjtz", 
-        "id": "B01CUMP492"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Beijing Restaurant", 
-        "id": "B01CUNYIKW"
-    }, 
-    {
-        "whitelist": [], 
+        "whitelist": [ 
+            "salad place" 
+        ], 
         "cname": "The Salad Place", 
         "id": "B01CUUBQC8"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Melody Cafe", 
-        "id": "B01D5HEEK6"
+        "whitelist": [
+            "extreme pizza folsom",
+            "extreme pizza on folsom street",
+            "extreme pizza folsom st",
+            "extreme on folsom",
+            "extreme"
+        ], 
+        "cname": "Extreme Pizza", 
+        "id": "B01MQGSGN3"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Brandy Ho's Hunan Food", 
-        "id": "B01D8VXJBE"
+        "whitelist": [
+            "fine mousse",
+            "fine mousse pizza"
+        ], 
+        "cname": "The Fine Mousse", 
+        "id": "B01NGTO5HT"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Little Szechuan", 
-        "id": "B01DCL6ZO8"
+        "whitelist": [
+            "chairman"
+        ], 
+        "cname": "The Chairman", 
+        "id": "B01NGWH5S9"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Palmyra", 
-        "id": "B01DEFLJIO"
+        "whitelist": [
+            "Sallys Restaurant",
+            "Sally's",
+            "Sallys"
+        ], 
+        "cname": "Sally's Restaurant", 
+        "id": "B01GXT4ILS"
     }, 
     {
-        "whitelist": [], 
-        "cname": "North India Restaurant", 
-        "id": "B01DFSZW6U"
+        "whitelist": [
+            "Monk's kettle burgers",
+            "Monk's burgers",
+            "Monk's",
+            "Monks kettle",
+            "Monks kettle burgers",
+            "Monks burgers",
+            "Monks",
+            "Monk burgers",
+            "Monk kettle",
+            "Monk"
+        ], 
+        "cname": "Monk's Kettle", 
+        "id": "B01CT9VDD2"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Indian Oven", 
-        "id": "B01DLBDI12"
+        "whitelist": [
+            "Schilling & Co Cafe",
+            "Schilling & Co",
+            "Schilling"
+        ], 
+        "cname": "Schilling Cafe", 
+        "id": "B01CQ3KNWS"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Common Sage", 
-        "id": "B01DUS33F2"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Yemeni's Restaurant", 
-        "id": "B01DUS8DVQ"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Buca Di Beppo - San Francisco", 
-        "id": "B01ENMNV9M"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Noodle Bar & Grill", 
-        "id": "B01EZ86LX2"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Lahore Karahi", 
-        "id": "B01GF2EMSM"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Nick's Kitchen", 
-        "id": "B01KP6SX70"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "A.G. Ferrari Foods  Mission St", 
-        "id": "B01KWC02V2"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Taqueria Maria", 
-        "id": "B01LWRQBJS"
-    }, 
-    {
-        "whitelist": [], 
+        "whitelist": [
+            "House of Thai"
+        ], 
         "cname": "House of Thai 2", 
         "id": "B01LWU2TQP"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Little Nepal", 
-        "id": "B01M7PLMUY"
+        "whitelist": [
+            "Firetrail Pizza 11th Street",
+            "Firetrail Pizza 11th St",
+            "Firetrail Pizza 11th",
+            "Firetrail Pizza on 11th Street",
+            "Firetrail Pizza on 11th St",
+            "Firetrail Pizza on 11th",
+            "Firetrail on 11th Street",
+            "Firetrail on 11th St",
+            "Firetrail on 11th",
+            "Firetrail"
+        ], 
+        "cname": "Firetrail Pizza", 
+        "id": "B01CT54GYE"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Fiore Caffe", 
-        "id": "B01MA2B9YA"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "SOMA Eats", 
-        "id": "B01MF5I09C"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "The Crepe House III", 
-        "id": "B01MS85NUO"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "DJ Sushi", 
-        "id": "B01MTOL1I8"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Chutney", 
-        "id": "B01NBAZTPC"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Oz Pizza", 
-        "id": "B06W56FF4X"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Urban Curry", 
-        "id": "B01CGU1PI2"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "V Cafe", 
-        "id": "B01CH0RZOE"
-    }, 
-    {
-        "whitelist": [], 
+        "whitelist": [
+            "Thep Phanom Restaurant",
+            "Thep Phanom Thai",
+            "Thep Phanom"
+        ], 
         "cname": "Thep Phanom Thai Restaurant", 
         "id": "B01CLQSA34"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Pena Pachamama", 
-        "id": "B01CO1JUPI"
+        "whitelist": [
+            "Zaytoon Turkish Restaurant",
+            "Zaytoon Mediterranean Wraps",
+            "Zaytoon Mediterranean"
+        ], 
+        "cname": "Zaytoon", 
+        "id": "B01CRF86II"
+    }, 
+    {
+        "whitelist": [
+            "Buca di Beppo in San Francisco",
+            "Buca di Beppo in SF",
+            "Buca di Beppo SF",
+            "Buca di Beppo Italian",
+            "Buca di Beppo",
+            "Buca Beppo"
+        ], 
+        "cname": "Buca Di Beppo - San Francisco", 
+        "id": "B01ENMNV9M"
+    }, 
+    {
+        "whitelist": [
+            "Spicy Bite Authentic Indian Cuisine",
+            "Spicy Bite Authenic Indian",
+            "Spicy Bite Indian Cuisine",
+            "Spicy Bite Indian"
+        ], 
+        "cname": "Spicy Bite", 
+        "id": "B01DN55DIC"
     }, 
     {
         "whitelist": [], 
@@ -310,463 +144,99 @@
         "id": "B01CPOFNVE"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Gilberth's Latin Fusion Restaurant", 
-        "id": "B01CPX7FY8"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Zaytoon", 
-        "id": "B01CRF86II"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "L'Ottavo Ristorante", 
-        "id": "B01CSW2UMI"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Firetrail Pizza - Mission Bay", 
-        "id": "B01CT5OC52"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Wild Pepper", 
-        "id": "B01CTCP448"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Maneelap Srimongkoun", 
-        "id": "B01D20CRGE"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Seniore's Pizza", 
-        "id": "B01D279KVW"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "AK Subs", 
-        "id": "B01D3REPM0"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Chez Fayala", 
-        "id": "B01DJY6TQM"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Sallys", 
-        "id": "B01GXT4ILS"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Cadillac Bar & Grill", 
-        "id": "B01IFYTB5W"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Burma Cafe", 
-        "id": "B01M0XZ0D7"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Jasper's Corner Tap & Kitchen", 
-        "id": "B01M3XGJM9"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "New Village Cafe", 
-        "id": "B01M9JSW7P"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Veracio's Pizza & Ice Cream", 
-        "id": "B01M9JTU80"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Buster's Cheesesteak", 
-        "id": "B01N8OQZ5S"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Mo'z Cafe Express", 
-        "id": "B01NAEE6SB"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Poki Time", 
-        "id": "B01NATFU49"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Taqueria Zorro", 
-        "id": "B01NH9ZSOX"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Extreme Pizza - Alemany", 
-        "id": "B06WRPJ21G"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Fritas Tacos", 
-        "id": "B06X1GP8FS"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Amici's East Coast Pizzeria - King St", 
-        "id": "B06XC146VP"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Escape from New York Pizza - 22nd St", 
-        "id": "B06XQ4TM6N"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Dinosaurs Vietnamese Sandwiches - Ocean Ave", 
-        "id": "B01CGKGQ40"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Nicks Crispy Tacos", 
-        "id": "B01CIXDT3Q"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Bellissimo Pizza", 
-        "id": "B01COJ5C3O"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "AJ's Bbq And Cafe", 
-        "id": "B01CRKX5RA"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Makli Restaurant", 
-        "id": "B01CUKSFLS"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Paparikas", 
-        "id": "B01D5CF7G6"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Sidewalk Juice", 
-        "id": "B01D5KVOPG"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "El Pollo Supremo", 
-        "id": "B01DAOS83S"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Pizza Express", 
-        "id": "B01DJOGAR0"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Spicy Bite", 
-        "id": "B01DN55DIC"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Mae Krua", 
-        "id": "B01DUUVHQW"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "5 Sweets", 
-        "id": "B01E60V63O"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Rosamunde Sausage Grill", 
-        "id": "B01EGD0EKM"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "The Flying Falafel", 
-        "id": "B01G93L5LE"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Palio d'Asti", 
-        "id": "B01HIYYO20"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Holy Grill", 
-        "id": "B01KU7IYR8"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Five Rivers Indian Cuisine", 
-        "id": "B01L2TZ1LA"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Gee Yin", 
-        "id": "B01L2WOBDG"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Hall Of Flame Burgers", 
-        "id": "B01M1MVRAH"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Oolong Noodles Restaurant", 
-        "id": "B01M29BCT3"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Farmerbrown", 
-        "id": "B01M2ZI3MX"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Pronto Pizza", 
-        "id": "B01M3VK069"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Cafe De Casa", 
-        "id": "B01MA1RC8J"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Crystal Jade", 
-        "id": "B01MA3DTBT"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Poke Bowl", 
-        "id": "B01MY0WLE9"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Extreme Pizza", 
-        "id": "B01MYEJCW7"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Fire of Brazil", 
-        "id": "B01MYWTON0"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Slider's Diner", 
-        "id": "B01N38SCCX"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Petite Deli & Picnic", 
-        "id": "B01N6JUFGO"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Pakwan", 
-        "id": "B01NH10HNW"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Jin Mi Korean Cuisine", 
-        "id": "B06XDF2HDQ"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Escape From New York Pizza - Polk St", 
-        "id": "B06XNP67SM"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Ben Thai Cafe", 
-        "id": "B01CH5ID6I"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Taqueria Mana", 
-        "id": "B01CH7UNDM"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Punjab Kabab House", 
-        "id": "B01CH8BBPK"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Cafe Taboo", 
-        "id": "B01CII55S8"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Big Chef Tom's Belly Burgers", 
-        "id": "B01CIKW4CQ"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Munchboxx", 
-        "id": "B01CIOXG9C"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Dosa on Valencia", 
-        "id": "B01CKI6LIO"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Monterey Deli", 
-        "id": "B01CO4K5JU"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Raavi", 
-        "id": "B01CPHXDUY"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Schilling Cafe", 
-        "id": "B01CQ3KNWS"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Peasant Pies", 
-        "id": "B01CRJL9J2"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Monk's Kettle", 
-        "id": "B01CT9VDD2"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Elixiria", 
-        "id": "B01D0RMJAS"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Don Ramon's", 
-        "id": "B01D2HMVOU"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Chabaa Thai Cuisine - Geary", 
-        "id": "B01DAIBWAA"
-    }, 
-    {
-        "whitelist": [], 
+        "whitelist": [
+            "Fresco Pizza",
+            "Fresco Shawarma",
+            "Fresco Mediterranean",
+            "Fresco"
+        ], 
         "cname": "Fresco Pizza Shawarma", 
         "id": "B01DEEGQBK"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Alhamra", 
-        "id": "B01LW6VYUR"
+        "whitelist": [
+            "Elixiria Juice Bar"
+        ], 
+        "cname": "Elixiria", 
+        "id": "B01D0RMJAS"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Tsing Tao #2 Restaurant", 
-        "id": "B01LZ2L2PQ"
+        "whitelist": [
+            "Big Chef Tom Belly Burgers",
+            "Big Chef Tom's Burgers",
+            "Big Chef Tom Burgers",
+            "Chef Tom's Belly Burgers",
+            "Chef Tom Belly Burgers",
+            "Chef Tom's Burgers",
+            "Chef Tom Burgers",
+            "Chef Tom's",
+            "Chef Tom",
+            "Tom's Belly Burgers",
+            "Tom Belly Burgers",
+            "Tom's Burgers",
+            "Tom Burgers",
+            "Big Chef Tom's",
+            "Big Chef Tom",
+            "Tom's"
+        ], 
+        "cname": "Big Chef Tom's Belly Burgers",
+        "id": "B01CIKW4CQ"
     }, 
     {
-        "whitelist": [], 
-        "cname": "SoMa Inn Cafe'", 
-        "id": "B01M27AWH4"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Thai Idea Vegetarian", 
-        "id": "B01M667I11"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Mehfil Indian Cuisine", 
-        "id": "B01M8IIS6H"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Million Thai Restaurant", 
-        "id": "B01MDSDO2N"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Arabian Nights Restaurant", 
-        "id": "B01MQDX03G"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Extreme Pizza", 
-        "id": "B01MQGSGN3"
-    }, 
-    {
-        "whitelist": [], 
+        "whitelist": [
+            "Truly Medit"
+        ], 
         "cname": "Truly Mediterranean", 
         "id": "B01MQVNFP4"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Fat Beli Deli", 
-        "id": "B01MT60OM7"
+        "whitelist": [
+            "M Y China"
+        ], 
+        "cname": "M.Y. China", 
+        "id": "B01CIKLBMU"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Sushi Shoh", 
-        "id": "B01MU1IM0N"
+        "whitelist": [
+            "Palmyra Mediterranean"
+        ], 
+        "cname": "Palmyra", 
+        "id": "B01DEFLJIO"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Cocobang", 
-        "id": "B01MXRT7S1"
+        "whitelist": [
+            "Grandma Deli & Cafe",
+            "Grandma's Deli",
+            "Grandma Deli",
+            "Grandma's Cafe",
+            "Grandma Cafe"
+        ], 
+        "cname": "Grandma's Deli & Cafe", 
+        "id": "B01M6BTPCR"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Tamarind Hall", 
-        "id": "B01N1YZEQ0"
+        "whitelist": [
+            "Mae Krua Thai"
+        ], 
+        "cname": "Mae Krua", 
+        "id": "B01DUUVHQW"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Sajj Mediterranean", 
-        "id": "B01N4KVF6W"
+        "whitelist": [
+            "Saffron 685 Mediterranean Cuisine",
+            "Saffron 685 Mediterranean",
+            "Saffron Mediterranean",
+            "Saffron"
+        ], 
+        "cname": "Saffron 685", 
+        "id": "B01CK4Z986"
     }, 
     {
-        "whitelist": [], 
-        "cname": "Katana-Ya", 
-        "id": "B01N6KQ0N9"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Basa Seafood Express", 
-        "id": "B01N97KQNJ"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "The Fine Mousse", 
-        "id": "B01NGTO5HT"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "The Chairman", 
-        "id": "B01NGWH5S9"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Boulevard Cafe", 
-        "id": "B06W9MRVM9"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Bangkok Garden Thai Cuisine", 
-        "id": "B06XC68NGL"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "An Chi", 
-        "id": "B06XKMJ171"
+        "whitelist": [
+            "V Burgers",
+            "V's Cafe"
+        ], 
+        "cname": "V Cafe", 
+        "id": "B01CH0RZOE"
     }
 ]
