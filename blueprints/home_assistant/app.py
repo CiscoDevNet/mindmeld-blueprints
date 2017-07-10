@@ -355,13 +355,24 @@ def remove_alarm(context, slots, responder):
     selected_time = _get_sys_time(context)
 
     try:
-        existing_alarms_dict = context['frame']['alarms']
+        if selected_time:
+            existing_alarms_dict = context['frame']['alarms']
 
-        if selected_time in existing_alarms_dict:
-            del existing_alarms_dict[selected_time]
-            reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
+            if selected_time in existing_alarms_dict:
+                del existing_alarms_dict[selected_time]
+                reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
+            else:
+                reply = "There is no alarm currently set for that time."
         else:
-            reply = "There is no alarm currently set for that time."
+            try:
+                ordered_alarms = sorted(context['frame']['alarms'].keys())
+            except KeyError:
+                ordered_alarms = []
+
+            prompt = "Please specify in your query which alarm you would like to remove. Your " \
+                     "current alarms: {alarms}".format(alarms=ordered_alarms)
+            responder.prompt(prompt)
+            return
 
     except KeyError:
         reply = "There are no alarms currently set."
