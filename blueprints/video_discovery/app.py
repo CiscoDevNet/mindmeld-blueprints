@@ -48,7 +48,6 @@ def welcome(context, slots, responder):
             [greeting + '!' for greeting in greetings]
 
     responder.reply(greetings)
-
     responder.prompt(GENERAL_PROMPTS)
 
     # Get default videos
@@ -58,28 +57,22 @@ def welcome(context, slots, responder):
 
 @app.handle(intent='browse')
 def show_content(context, slots, responder):
-    # Show the video content based on the entities found.
-
-    results = []
-
-    # 1) Update the frame with the new entities extracted.
-    # TODO: Update frame logic here.
+    """
+    When the user looks for a movie or TV, fetch the documents from the knowledgebase by
+    with all entities we have so far.
+    """
+    # Update the frame with the new entities extracted.
     context['frame'] = update_frame(context['entities'], context['frame'])
 
-    # 2) Call the KB filtering by the entities in the frame
-    # TODO: Get results from the knowledgebase using all entities in frame as filters.
+    # Fetch results from the knowledgebase using all entities in frame as filters.
     results = get_video_content(context['frame'])
 
-    # 3.1) Fill reply slots.
-    # TODO: Fill the slots with the frame.
+    # Fill the slots with the frame.
     slots = fill_browse_slots(context['frame'], slots)
 
-    # 3.2) Build response based on available slots and results.
-    # TODO: Have a set of response templates, and select one based on the slots.
-    # Finally reply to the user, including the results and any prompts.
+    # Build response based on available slots and results.
     reply, videos_client_action, prompt = build_browse_response(context, slots, results)
 
-    # Send the reply
     responder.reply(reply)
 
     # Build and return the client action
@@ -214,7 +207,7 @@ def build_browse_response(context, slots, results):
     prompt = ''
 
     # If no results match, respond accordingly.
-    if len(results) == 0:
+    if not results or len(results) == 0:
         reply = 'Sorry, no results match your search criteria. Please try again.'
 
         # Since user reached dead-end here, clear the frame.
