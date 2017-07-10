@@ -20,7 +20,7 @@ a {funny|genre} {movie|type} with {jim carrey|cast}
 find me a {comedy|genre}
 What is the {best|sort} {educational|genre} {show|type} for {children|genre}?
 show me all {movies|type} with pain in the name
-what was a five star {horror|genre} {movie|type} {in 1995|sys_time|range}
+what was a five star {horror|genre} {movie|type} in {1995|sys_time|range}
 play the {movie|type} {old school|title}
 play superhero {movies|type}
 show me a {julia roberts|cast} {show|type}
@@ -54,7 +54,7 @@ play {the big lebowski|title}
 {casablanca|title}
 show me {tv shows|type} relevant to {kids|genre}
 i want to watch a {movie|type} about witches
-what are the {best|sort} {sci-fi|genre} {movies|type} {in the last 10 years|sys_interval|range}
+what are the {best|sort} {sci-fi|genre} {movies|type} in the {last 10 years|sys_interval|range}
 show me some {crime dramas|genre}
 show me {popular|sort} {documentaries|genre}
 show me some teenage {dramas|genre}
@@ -79,7 +79,7 @@ what are some {films|type} directed by {billy wilder|director} that also star {j
 play {harry potter and the deathly hallows|title}
 can you find a {movie|type} directed by {guillermo del toro|director}
 What would be a good {movie|type} for my 13 year old daughter and I to watch together?
-show me {documentaries|genre} {from last year|sys_time|range}
+show me {documentaries|genre} from {last year|sys_time|range}
 what {historical|genre} type {tv shows|type} are on
 play {san andreas|title}
 show me {movies|type} with cycle in the name
@@ -131,9 +131,9 @@ are there any {movies|type} with {wesley snipes|cast}
 please load {alice in wonderland|title}
 do you have any {swedish|country} {movies|type}
 display list {comedy|genre} {movies|type}
-{best|sort} {film|type} made {in the last 2 years|sys_interval|range}
+{best|sort} {film|type} made in the {last 2 years|sys_interval|range}
 i am looking for {movies|type} based on detective stories
-show me titles {of 1980|sys_time|range} teen {comedies|genre}
+show me titles of {1980|sys_time|range} teen {comedies|genre}
 show {walking dead|title} season 5 {in chronological order|sort}
 show me the {most recently released|sort} {action|genre} {movies|type}
 show me {jurassic park|title}
@@ -203,12 +203,12 @@ what's the {movie|type} where a car dealer stages his wife s kidnapping to extra
 Can i locate {informational|genre} type {documentaries|genre}?
 show all {romantic|genre} {shows|type}
 i want to see {silver linings playbook|title} please
-What are some of the {newest|sort} {comedies|genre} that have come out {within the past year|sys_time|range}?
+What are some of the {newest|sort} {comedies|genre} that have come out within the {past year|sys_time|range}?
 show me roman {historical|genre} {shows|type}
 anything directed by {j j abrams|director} on
 show me {memento|title}
 play a {will ferrell|cast} {movie|type}
-show me {michael j fox|cast} {movies|type} {from the 80s|sys_interval|range}
+show me {michael j fox|cast} {movies|type} from the {80s|sys_interval|range}
 What's the selection of {Adam Sandler|cast} {movies|type} like?
 play {home alone 2|title}
 show me {movies|type} starring {sean connery|cast}
@@ -244,8 +244,8 @@ When is the next season of {Better Call Saul|title} coming out?
 What {cooking|genre} {shows|type} are on between 4 and 6pm
 show me {time bandits|title}
 show me a {best|sort} list of {comedy|genre} {film|type} monthly
-{children s|genre} {movies|type} {made before the year 2000|sys_time|range}
-{children s|genre} {movies|type} {made before the year 2000|sys_time|range}
+{children s|genre} {movies|type} made {before the year 2000|sys_time|range}
+{children s|genre} {movies|type} made {before the year 2000|sys_time|range}
 take me to the interesting {documentary|genre}
 show me all the {shows|type} that {Steven Spielberg|director} is involved with
 show me {movies|type} with {brad pitt|cast}
