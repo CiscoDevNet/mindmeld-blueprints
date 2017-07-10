@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """This module contains the Workbench video discovery blueprint application"""
 from __future__ import unicode_literals
+
 import datetime
 import logging
 import random
 
 from mmworkbench import Application
 from mmworkbench.components._elasticsearch_helpers import get_scoped_index_name
-
 
 app = Application(__name__)
 
@@ -207,7 +207,7 @@ def fill_browse_slots(frame, slots):
 
 def build_browse_response(context, slots, results):
     # Return the given template based on the available slots. Also build a client action
-    # with the results, and show any prompts if necesary.
+    # with the results, and show any prompts if necessary.
 
     reply = ''
     videos_client_action = {}
@@ -226,9 +226,9 @@ def build_browse_response(context, slots, results):
         # Build the language response based on the slots available.
         reply = ''
 
-        # Add default aknowledgment.
-        aknowledgments = ['Done.', 'Ok.', 'Perfect.']
-        reply += random.choice(aknowledgments)
+        # Add default acknowledgment.
+        acknowledgments = ['Done.', 'Ok.', 'Perfect.']
+        reply += random.choice(acknowledgments)
         reply += ' Here are'
 
         # Now add the different slots
