@@ -518,10 +518,16 @@ def _get_duration(context):
     Returns:
         int: the seconds
     """
-    duration_entity = next((e for e in context['entities'] if e['type'] == 'duration'), None)
-
+    duration_entity = get_candidates_for_text(context['request']['text'],
+                                              entity_types='sys_duration')[0]
     if duration_entity:
-        return duration_entity['text'].lower()
+        count = duration_entity['value'][0]
+        if count == 1:
+            unit = duration_entity['unit']
+        else:
+            unit = duration_entity['unit'] + 's'  # Plural if greater than 1
+
+        return "{count} {units}".format(count=count, units=unit)
     else:
         return DEFAULT_TIMER_DURATION
 
