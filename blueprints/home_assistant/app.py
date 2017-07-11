@@ -642,8 +642,8 @@ def _get_duration(context):
     Returns:
         int: the seconds
     """
-    duration_entity_candidates = get_candidates_for_text(context['request']['text'],
-                                              entity_types='sys_duration')
+    duration_entity_candidates = get_candidates_for_text(
+        context['request']['text'], entity_types='sys_duration')
 
     duration_entity = None \
         if len(duration_entity_candidates) == 0 else duration_entity_candidates[0]

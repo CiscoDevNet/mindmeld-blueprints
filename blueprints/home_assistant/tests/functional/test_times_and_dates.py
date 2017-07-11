@@ -84,8 +84,7 @@ class TestTimesAndDates(ConversationalTest):
         self.conv.say(set_query_1)
         self.conv.say(set_query_2)
         texts = self.conv.say(cancel_query)
-        assert expected_deleted_token in texts[0] \
-               and "removed" in texts[0]
+        assert expected_deleted_token in texts[0] and "removed" in texts[0]
         self.assert_intent(self.conv, 'remove_alarm')
 
         texts = self.conv.say(list_remaining_alarms)
