@@ -1,0 +1,8 @@
+{6pm|sys_time}
+{10 am|sys_time}
+{8 AM|sys_time}
+{3 PM|sys_time}
+at {6pm|sys_time}
+at {10 am|sys_time}
+at {8 AM|sys_time}
+at {3 PM|sys_time}
