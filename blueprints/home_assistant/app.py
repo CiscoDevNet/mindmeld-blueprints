@@ -390,7 +390,10 @@ def check_alarm(context, slots, responder):
 
     try:
         ordered_alarms = sorted(context['frame']['alarms'].keys())
-        reply = "Your current active alarms: {alarms}".format(alarms=", ".join(ordered_alarms))
+        if len(ordered_alarms) == 0:
+            reply = "You have no alarms currently set."
+        else:
+            reply = "Your current active alarms: {alarms}".format(alarms=", ".join(ordered_alarms))
     except KeyError:
         reply = "You have no alarms currently set."
 
@@ -410,7 +413,17 @@ def remove_alarm(context, slots, responder):
             del existing_alarms_dict[selected_time]
             reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
         else:
-            reply = "There is no alarm currently set for that time."
+            # delete all alarms if an alarm is not specified
+            formatted_times = []
+            for alarm in existing_alarms_dict.keys():
+                formatted_times.append("{time}".format(time=alarm))
+
+            if len(existing_alarms_dict.keys()) == 1:
+                reply = "Ok, I have removed your {} alarm.".format(", ".join(formatted_times))
+            else:
+                reply = "Ok, I have removed your {} alarms.".format(", ".join(formatted_times))
+
+            existing_alarms_dict.clear()
 
     except KeyError:
         reply = "There are no alarms currently set."

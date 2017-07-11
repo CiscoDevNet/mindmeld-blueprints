@@ -53,6 +53,34 @@ class TestTimesAndDates(ConversationalTest):
         assert expected_response in texts[0]
         self.assert_intent(self.conv, 'check_alarm')
 
+    test_remove_all_alarm_data = [
+        ('set alarm for 6:15am this morning',
+         'set alarm for 9:00pm',
+         'cancel all alarms',
+         '06:15:00',
+         '21:00:00'),
+        ('set alarm from 6:15am this morning',
+         'set alarm for 9:00pm',
+         'delete all alarms',
+         '06:15:00',
+         '21:00:00')
+    ]
+
+    @pytest.mark.parametrize("set_query_1, "
+                             "set_query_2, "
+                             "cancel_query, "
+                             "expected_deleted_token1, "
+                             "expected_deleted_token2, ",
+                             test_remove_all_alarm_data)
+    def test_cancel_all_alarms(self, set_query_1, set_query_2, cancel_query,
+                               expected_deleted_token1, expected_deleted_token2):
+        self.conv.say(set_query_1)
+        self.conv.say(set_query_2)
+        texts = self.conv.say(cancel_query)
+        assert expected_deleted_token1 in texts[0] and "removed" in texts[0]
+        assert expected_deleted_token2 in texts[0] and "removed" in texts[0]
+        self.assert_intent(self.conv, 'remove_alarm')
+
     test_remove_alarm_data = [
         ('set alarm for 6:15am this morning',
          'set alarm for 9:00pm',
