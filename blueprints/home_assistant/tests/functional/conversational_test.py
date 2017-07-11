@@ -21,5 +21,5 @@ class ConversationalTest(object):
 
     @staticmethod
     def assert_intent(conv, expected_intent):
-        last_history = conv.history[-1]
+        last_history = conv.history[0]
         assert last_history['intent'] == expected_intent
