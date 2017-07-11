@@ -416,7 +416,7 @@ def remove_alarm(context, slots, responder):
             # delete all alarms if an alarm is not specified
             formatted_times = []
             for alarm in existing_alarms_dict.keys():
-                formatted_times.append("{time}, ".format(time=alarm))
+                formatted_times.append("{time}".format(time=alarm))
 
             if len(existing_alarms_dict.keys()) == 1:
                 reply = "Ok, I have removed your {} alarm.".format(", ".join(formatted_times))
