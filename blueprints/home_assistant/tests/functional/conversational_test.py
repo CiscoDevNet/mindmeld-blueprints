@@ -1,3 +1,6 @@
+LATEST_INDEX_IN_CONVERSATION_CONTEXT_HISTORY = 0
+
+
 def load_conversation():
     import os
     app_path = os.path.dirname(os.path.realpath(__file__)).replace('tests/functional', '')
@@ -21,5 +24,5 @@ class ConversationalTest(object):
 
     @staticmethod
     def assert_intent(conv, expected_intent):
-        last_history = conv.history[0]
+        last_history = conv.history[LATEST_INDEX_IN_CONVERSATION_CONTEXT_HISTORY]
         assert last_history['intent'] == expected_intent
