@@ -1,24 +1,19 @@
 # -*- coding: utf-8 -*-
 """This module contains the Home Assistant Blueprint Application"""
 
-PARSER_CONFIG = {
-    'dish': {
-        'option': {'linking_words': {'with'}},
-        'sys_number': {'max_instances': 1, 'right': False}
-    },
-    'option': {
-        'sys_number': {'max_instances': 1, 'right': False}
-    }
-}
-
 INTENT_MODEL_CONFIG = {
     'model_type': 'text',
     'model_settings': {
         'classifier_type': 'logreg'
     },
-    'params': {
-        'C': 10,
-        "class_bias": 0.3
+    'param_selection': {
+        'type': 'k-fold',
+        'k': 5,
+        'grid': {
+            'fit_intercept': [True, False],
+            'C': [0.01, 1, 10, 100],
+            'class_bias': [0.7, 0.3, 0]
+        }
     },
     'features': {
         "bag-of-words": {

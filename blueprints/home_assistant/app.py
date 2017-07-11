@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 from mmworkbench import Application
 from mmworkbench.ser import parse_numerics
+from mmworkbench.ser import get_candidates_for_text
 import requests
 import os
 
@@ -142,6 +143,7 @@ def check_door(context, slots, responder):
         context['frame']['desired_action'] = 'Check Door'
         prompt = "Of course, which door?"
         responder.prompt(prompt)
+
 
 
 @app.handle(intent='close_door')
@@ -320,43 +322,22 @@ def set_thermostat(context, slots, responder):
     responder.reply(reply)
 
 
-@app.handle(intent='turn_down_thermostat')
-def turn_down_thermostat(context, slots, responder):
-
-    selected_location = _get_thermostat_location(context)
-    selected_temperature_change = _get_temperature_change(context)
-
-    try:
-        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
-    except:
-        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
-        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
-
-    thermostat_temperature_dict[selected_location] -= selected_temperature_change
-    new_temperature = thermostat_temperature_dict[selected_location]
-
-    reply = _handle_thermostat_change_reply(selected_location,
-                                            desired_temperature=new_temperature)
-    responder.reply(reply)
-
-
 @app.handle(intent='turn_up_thermostat')
-def turn_up_thermostat(context, slots, responder):
+@app.handle(intent='turn_down_thermostat')
+def change_thermostat(context, slots, responder):
+
+    if context['intent'] == 'turn_up_thermostat':
+        desired_direction = 'up'
+    else:
+        desired_direction = 'down'
 
     selected_location = _get_thermostat_location(context)
     selected_temperature_change = _get_temperature_change(context)
 
-    try:
-        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
-    except:
-        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
-        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
+    new_temp = _modify_thermostat(selected_location, selected_temperature_change, context,
+                                  desired_direction)
 
-    thermostat_temperature_dict[selected_location] += selected_temperature_change
-    new_temperature = thermostat_temperature_dict[selected_location]
-
-    reply = _handle_thermostat_change_reply(selected_location,
-                                            desired_temperature=new_temperature)
+    reply = _handle_thermostat_change_reply(selected_location, desired_temperature=new_temp)
     responder.reply(reply)
 
 
@@ -497,6 +478,22 @@ def default(context, slots, responder):
 
 
 # Helper Functions
+
+def _modify_thermostat(selected_location, selected_temperature_change, context, direction):
+
+    try:
+        thermostat_temperature_dict = context['frame']['thermostat_temperatures']
+    except:
+        thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
+        context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
+
+    if direction == 'up':
+        thermostat_temperature_dict[selected_location] += selected_temperature_change
+    else:
+        thermostat_temperature_dict[selected_location] -= selected_temperature_change
+
+    return thermostat_temperature_dict[selected_location]
+
 
 def _timer_finished(context):
     context['frame']['timer'] = None  # Remove the timer
@@ -795,13 +792,11 @@ def _get_temperature(context):
     Returns:
         string: resolved temperature entity
     """
-    temperature_entity = next((e for e in context['entities'] if e['type'] == 'sys_temperature'),
-                              None)
+    temperature_entity = get_candidates_for_text(context['request']['text'],
+                                                 entity_types='sys_temperature')
 
     if temperature_entity:
-        temperature_text = temperature_entity['text']
-        # Get the first number
-        return int(next(w for w in temperature_text.split() if w.isdigit()))
+        return temperature_entity[0]['value'][0]
     else:
         return DEFAULT_THERMOSTAT_TEMPERATURE
 
@@ -817,13 +812,11 @@ def _get_temperature_change(context):
     Returns:
         string: resolved temperature entity
     """
-    temperature_entity = next((e for e in context['entities'] if e['type'] == 'sys_temperature'),
-                              None)
+    temperature_entity = get_candidates_for_text(context['request']['text'],
+                                                 entity_types='sys_temperature')
 
     if temperature_entity:
-        temperature_text = temperature_entity['text']
-        # Get the first number
-        return int(next(w for w in temperature_text.split() if w.isdigit()))
+        return temperature_entity[0]['value'][0]
     else:
         return DEFAULT_THERMOSTAT_CHANGE
 
