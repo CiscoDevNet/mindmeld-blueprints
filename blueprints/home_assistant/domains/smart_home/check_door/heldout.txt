@@ -1,0 +1,23 @@
+what's the status of the {back|location} door
+verify and report if {bathroom|location} door is closed
+could you please check if the {front|location} door is closed
+did we close the door
+take a look at the {back|location} door for me
+is the {front|location} door unlocked
+confirm doors are locked
+did I remember to close the door
+hey is the door closed
+is the door unlocked
+can you tell me if the door is open
+is my door open
+see if the {front|location} door is locked
+check the door
+is the {back|location} door locked
+did I close the {back|location} door
+did I shut the {back|location} door
+{back|location} door is closed I hope
+is the {front|location} door secured
+check if the {back|location} door is open
+what's the status on the {front|location} door
+check the {front|location} door
+what is the status of {back|location} door
