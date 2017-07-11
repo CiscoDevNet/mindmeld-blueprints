@@ -414,16 +414,15 @@ def remove_alarm(context, slots, responder):
             reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
         else:
             # delete all alarms if an alarm is not specified
-            reply = "Ok, I have removed your "
-            alarm_counter = 1
+            formatted_times = []
             for alarm in existing_alarms_dict.keys():
-                if alarm_counter < len(existing_alarms_dict.keys()):
-                    reply += "{time}, ".format(time=alarm)
-                else:
-                    reply += "{time}".format(time=alarm)
-                alarm_counter += 1
+                formatted_times.append("{time}, ".format(time=alarm))
 
-            reply += " alarm." if len(existing_alarms_dict.keys()) == 1 else " alarms."
+            if len(existing_alarms_dict.keys()) == 1:
+                reply = "Ok, I have removed your {} alarm.".format(", ".join(formatted_times))
+            else:
+                reply = "Ok, I have removed your {} alarms.".format(", ".join(formatted_times))
+
             existing_alarms_dict.clear()
 
     except KeyError:
