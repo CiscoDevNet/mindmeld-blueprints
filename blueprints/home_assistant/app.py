@@ -410,7 +410,18 @@ def remove_alarm(context, slots, responder):
             del existing_alarms_dict[selected_time]
             reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
         else:
-            reply = "There is no alarm currently set for that time."
+            # delete all alarms if a specific alarm is not specified
+            reply = "Ok, I have removed your "
+            alarm_counter = 0
+            for alarm in existing_alarms_dict.keys():
+                del existing_alarms_dict[alarm]
+                if alarm_counter < len(existing_alarms_dict.keys()):
+                    reply += "{time}, ".format(time=selected_time)
+                else:
+                    reply += "{time}".format(time=selected_time)
+                alarm_counter += 1
+
+            reply += " alarms."
 
     except KeyError:
         reply = "There are no alarms currently set."
