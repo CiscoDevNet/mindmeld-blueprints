@@ -181,7 +181,8 @@ def get_video_content(frame):
     try:
         results = search.execute()
         logging.info('Got {} results from KB.'.format(len(results)))
-    except:
+    except Exception as e:
+        logging.info(e)
         results = []
 
     return results
