@@ -70,21 +70,41 @@ def show_content(context, slots, responder):
     # TODO: Get results from the knowledgebase using all entities in frame as filters.
     results = get_video_content(context['frame'])
 
-    # 3.1) Fill reply slots.
-    # TODO: Fill the slots with the frame.
-    slots = fill_browse_slots(context['frame'], slots)
+    if results is not None:
+        # 3.1) Fill reply slots.
+        # TODO: Fill the slots with the frame.
+        slots = fill_browse_slots(context['frame'], slots)
 
-    # 3.2) Build response based on available slots and results.
-    # TODO: Have a set of response templates, and select one based on the slots.
-    # Finally reply to the user, including the results and any prompts.
-    reply, videos_client_action, prompt = build_browse_response(context, slots, results)
+        # 3.2) Build response based on available slots and results.
+        # TODO: Have a set of response templates, and select one based on the slots.
+        # Finally reply to the user, including the results and any prompts.
+        reply, videos_client_action, prompt = build_browse_response(context, slots, results)
 
-    # Send the reply
-    responder.reply(reply)
+        # Send the reply
+        responder.reply(reply)
 
-    # Build and return the client action
-    videos_client_action = video_results_to_action(results)
-    responder.respond(videos_client_action)
+        # Build and return the client action
+        videos_client_action = video_results_to_action(results)
+        responder.respond(videos_client_action)
+    else:
+        unsupported(responder)
+
+
+def unsupported(responder):
+    # Respond with a message explaining the app does not support that # query.
+    unsupported = ['Sorry, I can\'t help you with that information.',
+                   'Sorry, I don\'t have that information.',
+                   'Sorry, I can\'t help you with that.',
+                   'Sorry, I can only help you browse movies and tv shows.',
+                   'Sorry, I don\'t have that information, would you like to try something else?']
+
+    responder.reply(unsupported)
+
+    responder.prompt(GENERAL_PROMPTS)
+
+    # Get default videos
+    responder.respond(get_default_videos_action())
+    responder.suggest(GENERAL_SUGGESTIONS)
 
 
 def update_frame(entities, frame):
@@ -145,8 +165,8 @@ def get_video_content(frame):
 
     # Sort entity
     sort_entities = {
-        'latest': ('release_date', 'desc'),
-        'oldest': ('release_date', 'asc'),
+        'latest': ('release_year', 'desc'),
+        'oldest': ('release_year', 'asc'),
         'popular': ('popularity', 'desc'),
         'worst': ('popularity', 'asc'),
     }
@@ -171,8 +191,11 @@ def get_video_content(frame):
         search = search.filter(field='release_year',
                                gte=interval_start, lte=interval_end)
 
-    results = search.execute()
-    logging.info('Got {} results from KB.'.format(len(results)))
+    try:
+        results = search.execute()
+        logging.info('Got {} results from KB.'.format(len(results)))
+    except:
+        results = None
 
     return results
 
@@ -321,20 +344,7 @@ def provide_help(context, slots, responder):
 
 @app.handle(intent='unsupported')
 def handle_unsupported(context, slots, responder):
-    # Respond with a message explaining the app does not support that # query.
-    unsupported = ['Sorry, I can\'t help you with that information.',
-                   'Sorry, I don\'t have that information.',
-                   'Sorry, I can\'t help you with that.',
-                   'Sorry, I can only help you browse movies and tv shows.',
-                   'Sorry, I don\'t have that information, would you like to try something else?']
-
-    responder.reply(unsupported)
-
-    responder.prompt(GENERAL_PROMPTS)
-
-    # Get default videos
-    responder.respond(get_default_videos_action())
-    responder.suggest(GENERAL_SUGGESTIONS)
+    unsupported(responder)
 
 
 @app.handle(intent='unrelated')
