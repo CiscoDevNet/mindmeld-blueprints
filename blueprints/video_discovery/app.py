@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """This module contains the Workbench video discovery blueprint application"""
 from __future__ import unicode_literals
+
 import datetime
 import logging
 import random
 
 from mmworkbench import Application
 from mmworkbench.components._elasticsearch_helpers import get_scoped_index_name
-
 
 app = Application(__name__)
 
@@ -48,7 +48,6 @@ def welcome(context, slots, responder):
             [greeting + '!' for greeting in greetings]
 
     responder.reply(greetings)
-
     responder.prompt(GENERAL_PROMPTS)
 
     # Get default videos
@@ -58,16 +57,14 @@ def welcome(context, slots, responder):
 
 @app.handle(intent='browse')
 def show_content(context, slots, responder):
-    # Show the video content based on the entities found.
-
-    results = []
-
-    # 1) Update the frame with the new entities extracted.
-    # TODO: Update frame logic here.
+    """
+    When the user looks for a movie or TV, fetch the documents from the knowledgebase by
+    with all entities we have so far.
+    """
+    # Update the frame with the new entities extracted.
     context['frame'] = update_frame(context['entities'], context['frame'])
 
-    # 2) Call the KB filtering by the entities in the frame
-    # TODO: Get results from the knowledgebase using all entities in frame as filters.
+    # Fetch results from the knowledgebase using all entities in frame as filters.
     results = get_video_content(context['frame'])
 
     # 3.1) Fill reply slots.
@@ -150,12 +147,22 @@ def get_video_content(frame):
         'popular': ('popularity', 'desc'),
         'worst': ('popularity', 'asc'),
     }
+    sorted_by_popularity = False
     for entity in get_next_entity(frame, {'sort'}):
         field_name = list(entity.values())[0]
         sort_entity = sort_entities.get(field_name)
         if not sort_entity:
+            logging.warning('Sort field not found: {}'.format(field_name))
             continue
+        if sort_entity[0] == 'popularity':
+            sorted_by_popularity = True
         search = search.sort(field=sort_entity[0], sort_type=sort_entity[1], location=None)
+
+    # If there is no sort entity for popularity field, we should add this default
+    # sort for showing popular movies/tv shows.
+    if not sorted_by_popularity:
+        search = search.sort(field='popularity', sort_type='desc', location=None)
+
     # Handle sys_time
     if 'sys_time' in frame:
         entity_value = frame['sys_time'][0]['value']
@@ -210,14 +217,14 @@ def fill_browse_slots(frame, slots):
 
 def build_browse_response(context, slots, results):
     # Return the given template based on the available slots. Also build a client action
-    # with the results, and show any prompts if necesary.
+    # with the results, and show any prompts if necessary.
 
     reply = ''
     videos_client_action = {}
     prompt = ''
 
     # If no results match, respond accordingly.
-    if len(results) == 0:
+    if not results or len(results) == 0:
         reply = 'Sorry, no results match your search criteria. Please try again.'
 
         # Since user reached dead-end here, clear the frame.
@@ -229,9 +236,9 @@ def build_browse_response(context, slots, results):
         # Build the language response based on the slots available.
         reply = ''
 
-        # Add default aknowledgment.
-        aknowledgments = ['Done.', 'Ok.', 'Perfect.']
-        reply += random.choice(aknowledgments)
+        # Add default acknowledgment.
+        acknowledgments = ['Done.', 'Ok.', 'Perfect.']
+        reply += random.choice(acknowledgments)
         reply += ' Here are'
 
         # Now add the different slots
