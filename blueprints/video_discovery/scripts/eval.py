@@ -31,8 +31,10 @@ for result in er_eval.incorrect_results():
         print(result.predicted)
         continue
     for i in range(len(result.expected)):
-        if result.expected[i].entity.type == 'sys_interval' \
-            or result.predicted[i].entity.type == 'sys_interval':
+        type = result.expected[i].entity.type
+        if type == 'sys_interval' or type == 'sys_interval':
+            print(result.expected[i].text)
+            print(result.predicted[i].text)
             print(result.expected[i].entity.type)
             print(result.predicted[i].entity.type)
             print(result.expected[i].text)
