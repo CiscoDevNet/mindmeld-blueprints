@@ -422,7 +422,10 @@ def check_alarm(context, slots, responder):
 
     try:
         ordered_alarms = sorted(context['frame']['alarms'].keys())
-        reply = "Your current active alarms: {alarms}".format(alarms=", ".join(ordered_alarms))
+        if len(ordered_alarms) == 0:
+            reply = "You have no alarms currently set."
+        else:
+            reply = "Your current active alarms: {alarms}".format(alarms=", ".join(ordered_alarms))
     except KeyError:
         reply = "You have no alarms currently set."
 
@@ -473,7 +476,6 @@ def set_alarm(context, slots, responder):
 
 @app.handle(intent='start_timer')
 def start_timer(context, slots, responder):
-
     selected_duration = _get_duration(context)
     try:
         current_timer = context['frame']['timer']
@@ -704,8 +706,12 @@ def _get_duration(context):
     Returns:
         int: the seconds
     """
-    duration_entity = get_candidates_for_text(context['request']['text'],
-                                              entity_types='sys_duration')[0]
+    duration_entity_candidates = get_candidates_for_text(
+        context['request']['text'], entity_types='sys_duration')
+
+    duration_entity = None \
+        if len(duration_entity_candidates) == 0 else duration_entity_candidates[0]
+
     if duration_entity:
         count = duration_entity['value'][0]
         if count == 1:
