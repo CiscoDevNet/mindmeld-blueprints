@@ -146,3 +146,11 @@ class TestTimesAndDates(ConversationalTest):
         texts = self.conv.say(clear_query)
         expected_response = 'The current timer has been cancelled'
         assert expected_response in texts[0]
+
+    test_specify_time = ['9am', 'at 10 AM', 'my 11PM alarm', 'the 6 PM', '7AM please']
+
+    @pytest.mark.parametrize("specify_time_query", test_specify_time)
+    def test_specify_time(self, specify_time_query):
+        self.conv.say('activate a new timer')
+        self.conv.say(specify_time_query)
+        self.assert_intent(self.conv, 'specify_time')
