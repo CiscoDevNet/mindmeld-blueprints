@@ -67,16 +67,12 @@ def show_content(context, slots, responder):
     # Fetch results from the knowledgebase using all entities in frame as filters.
     results = get_video_content(context['frame'])
 
-    # 3.1) Fill reply slots.
-    # TODO: Fill the slots with the frame.
+    # Fill the slots with the frame.
     slots = fill_browse_slots(context['frame'], slots)
 
-    # 3.2) Build response based on available slots and results.
-    # TODO: Have a set of response templates, and select one based on the slots.
-    # Finally reply to the user, including the results and any prompts.
+    # Build response based on available slots and results.
     reply, videos_client_action, prompt = build_browse_response(context, slots, results)
 
-    # Send the reply
     responder.reply(reply)
 
     # Build and return the client action
@@ -142,8 +138,8 @@ def get_video_content(frame):
 
     # Sort entity
     sort_entities = {
-        'latest': ('release_date', 'desc'),
-        'oldest': ('release_date', 'asc'),
+        'latest': ('release_year', 'desc'),
+        'oldest': ('release_year', 'asc'),
         'popular': ('popularity', 'desc'),
         'worst': ('popularity', 'asc'),
     }
@@ -444,7 +440,11 @@ def get_default_videos():
     Returns:
         list: The list of movies.
     """
-    results = app.question_answerer.get(index=KB_INDEX_NAME, _sort='popularity', _sort_type='desc')
+    try:
+        results = app.question_answerer.get(index=KB_INDEX_NAME, _sort='popularity', _sort_type='desc')
+    except Exception as e:
+        logging.info(e)
+        results = []
     return results
 
 
