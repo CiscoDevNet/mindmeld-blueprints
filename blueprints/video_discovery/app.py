@@ -143,12 +143,22 @@ def get_video_content(frame):
         'popular': ('popularity', 'desc'),
         'worst': ('popularity', 'asc'),
     }
+    sorted_by_popularity = False
     for entity in get_next_entity(frame, {'sort'}):
         field_name = list(entity.values())[0]
         sort_entity = sort_entities.get(field_name)
         if not sort_entity:
+            logging.warning('Sort field not found: {}'.format(field_name))
             continue
+        if sort_entity[0] == 'popularity':
+            sorted_by_popularity = True
         search = search.sort(field=sort_entity[0], sort_type=sort_entity[1], location=None)
+
+    # If there is no sort entity for popularity field, we should add this default
+    # sort for showing popular movies/tv shows.
+    if not sorted_by_popularity:
+        search = search.sort(field='popularity', sort_type='desc', location=None)
+
     # Handle sys_time
     if 'sys_time' in frame:
         entity_value = frame['sys_time'][0]['value']
