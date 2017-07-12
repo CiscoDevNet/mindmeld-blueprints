@@ -441,7 +441,8 @@ def get_default_videos():
         list: The list of movies.
     """
     try:
-        results = app.question_answerer.get(index=KB_INDEX_NAME, _sort='popularity', _sort_type='desc')
+        results = app.question_answerer.get(index=KB_INDEX_NAME,
+                                            _sort='popularity', _sort_type='desc')
     except Exception as e:
         logging.info(e)
         results = []

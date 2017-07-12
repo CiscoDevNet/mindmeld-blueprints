@@ -1,4 +1,3 @@
-import ipdb
 from mmworkbench.components import NaturalLanguageProcessor
 nlp = NaturalLanguageProcessor('../')
 nlp.load()
