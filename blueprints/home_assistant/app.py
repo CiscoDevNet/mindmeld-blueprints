@@ -126,6 +126,9 @@ def specify_location(context, slots, responder):
                 selected_appliance = context['frame']['appliance']
                 reply = _handle_appliance_reply(selected_location, selected_appliance,
                                                 desired_state="off")
+
+            del context['frame']['desired_action']
+
         except KeyError:
             reply = "Please specify an action to go along with that location."
 
@@ -144,28 +147,18 @@ def specify_time(context, slots, responder):
 
         if 'desired_action' in context['frame']:
             if context['frame']['desired_action'] == 'Set Alarm':
-
-                try:
-                    existing_alarms_dict = context['frame']['alarms']
-                    existing_alarms_dict[selected_time] = None
-                except KeyError:
-                    context['frame']['alarms'] = {selected_time: None}
-
-                reply = "Ok. I have set your alarm for {time}".format(time=selected_time)
+                reply = _handle_set_alarm_reply(selected_time, context)
 
             elif context['frame']['desired_action'] == 'Remove Alarm':
-
                 existing_alarms_dict = context['frame']['alarms']
                 ordered_alarms = sorted(context['frame']['alarms'].keys())
 
-                if selected_time in existing_alarms_dict:
-                    del existing_alarms_dict[selected_time]
-                    reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
-                else:
-                    reply = "There is no alarm currently set for that time. Your current alarms: " \
-                            "{alarms}".format(alarms=ordered_alarms)
+                reply = _handle_remove_alarm_reply(selected_time, context, existing_alarms_dict,
+                                                   ordered_alarms)
+
+            del context['frame']['desired_action']
         else:
-            reply = "Please specify an action to go along with that time."
+            reply = "Please try again and specify an action to go along with that time."
 
         responder.reply(reply)
 
@@ -443,28 +436,20 @@ def remove_alarm(context, slots, responder):
     selected_time = _get_sys_time(context)
 
     try:
-
         existing_alarms_dict = context['frame']['alarms']
         ordered_alarms = sorted(context['frame']['alarms'].keys())
 
-        if existing_alarms_dict:
-            if selected_time:
+        if selected_time:
 
-                if selected_time in existing_alarms_dict:
-                    del existing_alarms_dict[selected_time]
-                    reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
-                else:
-                    reply = "There is no alarm currently set for that time. Your current alarms: " \
-                            "{alarms}".format(alarms=ordered_alarms)
+            reply = _handle_remove_alarm_reply(selected_time, context, existing_alarms_dict,
+                                               ordered_alarms)
 
-            else:
-                context['frame']['desired_action'] = 'Remove Alarm'
-                prompt = "Of course. Which alarm? Your current alarms: {alarms}".format(
-                    alarms=ordered_alarms)
-                responder.prompt(prompt)
-                return
         else:
-            reply = "There are no alarms currently set."
+            context['frame']['desired_action'] = 'Remove Alarm'
+            prompt = "Of course. Which alarm? Your current alarms: {alarms}".format(
+                alarms=ordered_alarms)
+            responder.prompt(prompt)
+            return
 
     except KeyError:
         reply = "There are no alarms currently set."
@@ -478,13 +463,7 @@ def set_alarm(context, slots, responder):
     selected_time = _get_sys_time(context)
 
     if selected_time:
-        try:
-            existing_alarms_dict = context['frame']['alarms']
-            existing_alarms_dict[selected_time] = None
-        except KeyError:
-            context['frame']['alarms'] = {selected_time: None}
-
-        reply = "Ok, I have set your alarm for {time}.".format(time=selected_time)
+        reply = _handle_set_alarm_reply(selected_time, context)
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Set Alarm'
@@ -680,6 +659,33 @@ def _handle_thermostat_change_reply(selected_location, desired_temperature=None,
     elif desired_state:
         reply = "Ok. The thermostat in the {location} has been turned {state}.".format(
             location=selected_location, state=desired_state)
+
+    return reply
+
+
+def _handle_set_alarm_reply(selected_time, context):
+
+    try:
+        existing_alarms_dict = context['frame']['alarms']
+        existing_alarms_dict[selected_time] = None
+    except KeyError:
+        context['frame']['alarms'] = {selected_time: None}
+
+    reply = "Ok, I have set your alarm for {time}.".format(time=selected_time)
+    return reply
+
+
+def _handle_remove_alarm_reply(selected_time, context, existing_alarms_dict, ordered_alarms):
+
+    if existing_alarms_dict:
+        if selected_time in existing_alarms_dict:
+            del existing_alarms_dict[selected_time]
+            reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
+        else:
+            reply = "There is no alarm currently set for that time. Your current alarms: " \
+                    "{alarms}".format(alarms=ordered_alarms)
+    else:
+        reply = "There are no alarms currently set"
 
     return reply
 

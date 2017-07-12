@@ -1,5 +1,3 @@
-{6pm|sys_time|new_time} alarm
-{8am tomorrow|sys_time|new_time} please
 activate alarms
 activate a new alarm
 activate my alarm
@@ -195,7 +193,6 @@ alarm for {midnight|sys_time|new_time}
 activate my alarms
 turn on alarms
 please set my alarm to go off {1 hour from now|sys_time|new_time}
-{8:30am tomorrow|sys_time|new_time} please
 create a {9:30pm|sys_time|new_time} alarm
 please turn on my alarm for {friday night|sys_interval|new_time}
 activate {saturday|sys_time|new_time} playtime alarm
@@ -207,7 +204,3 @@ wake me up {tomorrow at 8:30|sys_time|new_time}
 please turn on my {tuesday evening|sys_interval|new_time} alarm
 please activate my {sunday night|sys_interval|new_time} alarm
 please set my {monday morning|sys_interval|new_time} alarm
-please {9am tomorrow|sys_time|new_time}
-{7:30am tomorrow|sys_time|new_time} please
-{10pm tomorrow|sys_time|new_time} please
-{10:30 tonight|sys_time|new_time} alarm
