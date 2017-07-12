@@ -31,6 +31,14 @@ GENERAL_SUGGESTIONS = [{'text': 'Most popular', 'type': 'text'},
 # Convert from mallard format like '2002-01-01T00:00:00.000-07:00'
 MALLARD_YEAR_INDEX = 10
 
+# Map entity name to field names in knowledge base
+ENTITY_TO_FIELD = {
+    'type': 'doc_type',
+    'genre': 'genres',
+    'director': 'directors',
+    'country': 'countries',
+}
+
 
 @app.handle(intent='greet')
 def welcome(context, slots, responder):
@@ -110,14 +118,6 @@ def update_frame(entities, frame):
 
         frame[entity_type] = existing_entities
     return frame
-
-
-ENTITY_TO_FIELD = {
-    'type': 'doc_type',
-    'genre': 'genres',
-    'director': 'directors',
-    'country': 'countries',
-}
 
 
 def get_video_content(frame):
