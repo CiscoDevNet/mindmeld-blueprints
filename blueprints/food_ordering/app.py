@@ -206,6 +206,7 @@ def build_order(context, slots, responder):
                 dish_candidates = [value for value in dish_entity['value']][0:3]
 
                 # Get the knowledge base entry for each of the dishes.
+                print(dish_candidates)
                 dish_entries = [_kb_fetch('menu_items', dc['id']) for dc in dish_candidates]
 
                 # Get the restaurant info for each dish from their respective KB entries.
@@ -232,7 +233,15 @@ def build_order(context, slots, responder):
         # If dish selections have been made (which also implicitly implies that a restaurant has
         # been selected), respond with a preview of the current basket and prompt for order
         # confirmation.
-        dish_names = [str(dish['quantity']) + ' ' + dish['name'] for dish in selected_dishes]
+        dish_quantities = {}
+        for dish in selected_dishes:
+            if dish['name'] in dish_quantities:
+                dish_quantities[dish['name']] += dish['quantity']
+            else:
+                dish_quantities[dish['name']] = dish['quantity']
+        dish_names = [(str(dish_quantities[dish]) + ' order of ' + dish) if dish_quantities[dish] == 1
+                      else (str(dish_quantities[dish]) + ' orders of ' + dish) for dish in dish_quantities.keys()]
+        # dish_names = [str(dish['quantity']) + ' ' + dish['name'] for dish in selected_dishes]
         dish_prices = [_price_dish(dish) for dish in selected_dishes]
         slots['dish_names'] = ', '.join(dish_names)
         slots['price'] = sum(dish_prices)
