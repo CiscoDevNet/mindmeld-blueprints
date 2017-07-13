@@ -126,7 +126,7 @@ def specify_location(context, slots, responder):
                 selected_appliance = context['frame']['appliance']
                 reply = _handle_appliance_reply(selected_location, selected_appliance,
                                                 desired_state="off")
-        except:
+        except KeyError:
             reply = "Please specify an action to go along with that location."
 
         responder.reply(reply)
@@ -151,100 +151,32 @@ def check_door(context, slots, responder):
 
 @app.handle(intent='close_door')
 def close_door(context, slots, responder):
-
-    selected_all = _get_command_for_all(context)
-    selected_location = _get_location(context)
-
-    if selected_all or selected_location:
-        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
-                                              desired_state="closed")
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = 'Close Door'
-        prompt = "Of course, which door?"
-        responder.prompt(prompt)
+    _handle_door(context, responder, desired_state='closed', desired_action='Close Door')
 
 
 @app.handle(intent='open_door')
 def open_door(context, slots, responder):
-
-    selected_all = _get_command_for_all(context)
-    selected_location = _get_location(context)
-
-    if selected_all or selected_location:
-        reply = _handle_door_open_close_reply(selected_all, selected_location, context,
-                                              desired_state="opened")
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = 'Open Door'
-        prompt = "Of course, which door?"
-        responder.prompt(prompt)
+    _handle_door(context, responder, desired_state='opened', desired_action='Open Door')
 
 
 @app.handle(intent='lock_door')
 def lock_door(context, slots, responder):
-
-    selected_all = _get_command_for_all(context)
-    selected_location = _get_location(context)
-
-    if selected_all or selected_location:
-        reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
-                                               desired_state="locked")
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = 'Lock Door'
-        prompt = "Of course, which door?"
-        responder.prompt(prompt)
+    _handle_door(context, responder, desired_state='locked', desired_action='Lock Door')
 
 
 @app.handle(intent='unlock_door')
 def unlock_door(context, slots, responder):
-
-    selected_all = _get_command_for_all(context)
-    selected_location = _get_location(context)
-
-    if selected_all or selected_location:
-        reply = _handle_door_lock_unlock_reply(selected_all, selected_location, context,
-                                               desired_state="unlocked")
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = 'Unlock Door'
-        prompt = "Of course, which door?"
-        responder.prompt(prompt)
+    _handle_door(context, responder, desired_state='unlocked', desired_action='Unlock Door')
 
 
 @app.handle(intent='turn_appliance_on')
 def turn_appliance_on(context, slots, responder):
-
-    selected_location = _get_location(context)
-    selected_appliance = _get_appliance(context)
-
-    if selected_location:
-        reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="on")
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = 'Turn On Appliance'
-        context['frame']['appliance'] = selected_appliance
-
-        prompt = "Of course, which {appliance}".format(appliance=selected_appliance)
-        responder.prompt(prompt)
+    _handle_appliance(context, responder, desired_state='on', desired_action='Turn On Appliance')
 
 
 @app.handle(intent='turn_appliance_off')
 def turn_appliance_off(context, slots, responder):
-
-    selected_location = _get_location(context)
-    selected_appliance = _get_appliance(context)
-
-    if selected_location:
-        reply = _handle_appliance_reply(selected_location, selected_appliance, desired_state="off")
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = 'Turn Off Appliance'
-        context['frame']['appliance'] = selected_appliance
-
-        prompt = "Of course, which {appliance}".format(appliance=selected_appliance)
-        responder.prompt(prompt)
+    _handle_appliance(context, responder, desired_state='off', desired_action='Turn Off Appliance')
 
 
 @app.handle(intent='check_lights')
@@ -263,32 +195,12 @@ def check_lights(context, slots, responder):
 
 @app.handle(intent='turn_lights_on')
 def turn_lights_on(context, slots, responder):
-
-    selected_all = _get_command_for_all(context)
-    selected_location = _get_location(context)
-
-    if selected_all or selected_location:
-        reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="on")
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = 'Turn On Lights'
-        prompt = "Of course, which lights?"
-        responder.prompt(prompt)
+    _handle_lights(context, responder, desired_state='on', desired_action='Turn On Lights')
 
 
 @app.handle(intent='turn_lights_off')
 def turn_lights_off(context, slots, responder):
-
-    selected_all = _get_command_for_all(context)
-    selected_location = _get_location(context)
-
-    if selected_all or selected_location:
-        reply = _handle_lights_reply(selected_all, selected_location, context, desired_state="off")
-        responder.reply(reply)
-    else:
-        context['frame']['desired_action'] = 'Turn Off Lights'
-        prompt = "Of course, which lights?"
-        responder.prompt(prompt)
+    _handle_lights(context, responder, desired_state='off', desired_action='Turn Off Lights')
 
 
 @app.handle(intent='check_thermostat')
@@ -345,19 +257,18 @@ def change_thermostat(context, slots, responder):
 
 
 @app.handle(intent='turn_off_thermostat')
+@app.handle(intent='turn_on_thermostat')
 def turn_off_thermostat(context, slots, responder):
 
-    selected_location = _get_thermostat_location(context)
-    reply = _handle_thermostat_change_reply(selected_location, desired_state='off')
-    responder.reply(reply)
-
-
-@app.handle(intent='turn_on_thermostat')
-def turn_on_thermostat(context, slots, responder):
+    if context['intent'] == 'turn_off_thermostat':
+        desired_state = 'off'
+    else:
+        desired_state = 'on'
 
     selected_location = _get_thermostat_location(context)
-    reply = _handle_thermostat_change_reply(selected_location, desired_state='on')
+    reply = _handle_thermostat_change_reply(selected_location, desired_state=desired_state)
     responder.reply(reply)
+
 
 # Times and Dates #
 
@@ -486,13 +397,60 @@ def stop_timer(context, slots, responder):
 
 
 @app.handle(intent='unknown')
-@app.handle()
 def default(context, slots, responder):
     replies = ["Sorry, not sure what you meant there."]
     responder.reply(replies)
 
 
 # Helper Functions
+
+
+def _handle_door(context, responder, desired_state, desired_action):
+
+    selected_all = _get_command_for_all(context)
+    selected_location = _get_location(context)
+
+    if selected_all or selected_location:
+        reply = _handle_door_lock_unlock_reply(
+            selected_all, selected_location, context, desired_state=desired_state)
+        responder.reply(reply)
+    else:
+        context['frame']['desired_action'] = desired_action
+        prompt = "Of course, which door?"
+        responder.prompt(prompt)
+
+
+def _handle_appliance(context, responder, desired_state, desired_action):
+
+    selected_location = _get_location(context)
+    selected_appliance = _get_appliance(context)
+
+    if selected_location:
+        reply = _handle_appliance_reply(
+            selected_location, selected_appliance, desired_state=desired_state)
+        responder.reply(reply)
+    else:
+        context['frame']['desired_action'] = desired_action
+        context['frame']['appliance'] = selected_appliance
+
+        prompt = "Of course, which {appliance}".format(appliance=selected_appliance)
+        responder.prompt(prompt)
+
+
+def _handle_lights(context, responder, desired_state, desired_action):
+
+    selected_all = _get_command_for_all(context)
+    selected_location = _get_location(context)
+
+    if selected_all or selected_location:
+        reply = _handle_lights_reply(
+            selected_all, selected_location, context, desired_state=desired_state)
+        responder.reply(reply)
+    else:
+        context['frame']['desired_action'] = desired_action
+        prompt = "Of course, which lights?"
+        responder.prompt(prompt)
+
 
 def _modify_thermostat(selected_location, selected_temperature_change, context, direction):
 
