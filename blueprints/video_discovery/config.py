@@ -55,7 +55,8 @@ DOMAIN_MODEL_CONFIG = {
         'classifier_type': 'logreg'
     },
     'params': {
-        'C': 10,
+        'C': 1000000,
+        "class_bias": 1
     },
     'features': {
         "bag-of-words": {
