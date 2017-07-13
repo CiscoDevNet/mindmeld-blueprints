@@ -136,7 +136,6 @@ class TestTimesAndDates(ConversationalTest):
         texts = self.conv.say(set_query)
         assert expected_response in texts[0]
         self.assert_intent(self.conv, 'start_timer')
-        self.conv.say("clear timers")
 
     test_clear_time_data = ['clear timer', 'stop my timers', 'pause the timer']
 
@@ -146,3 +145,7 @@ class TestTimesAndDates(ConversationalTest):
         texts = self.conv.say(clear_query)
         expected_response = 'The current timer has been cancelled'
         assert expected_response in texts[0]
+
+    def test_clear_timer_no_timer(self):
+        texts = self.conv.say('clear timers')
+        self.assert_text(texts, 'There is no active timer to cancel!')
