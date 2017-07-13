@@ -238,8 +238,10 @@ def build_order(context, slots, responder):
                 dish_quantities[dish['name']] += dish['quantity']
             else:
                 dish_quantities[dish['name']] = dish['quantity']
-        dish_names = [(str(dish_quantities[dish]) + ' order of ' + dish) if dish_quantities[dish] == 1
-                      else (str(dish_quantities[dish]) + ' orders of ' + dish) for dish in dish_quantities.keys()]
+        dish_names = [(str(dish_quantities[dish]) + ' order of ' + dish)
+                      if dish_quantities[dish] == 1
+                      else (str(dish_quantities[dish]) + ' orders of ' + dish)
+                      for dish in dish_quantities.keys()]
         dish_prices = [_price_dish(dish) for dish in selected_dishes]
         slots['dish_names'] = ', '.join(dish_names)
         slots['price'] = sum(dish_prices)
