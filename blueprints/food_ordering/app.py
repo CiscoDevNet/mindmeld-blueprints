@@ -49,7 +49,7 @@ def provide_help(context, slots, responder):
     # For simplicity, we have a fixed set of demonstrative queries here, but they could also be
     # randomly sampled from a pool of example queries each time.
     prompts = ["I can help you order food delivery from your local restaurants. For example, "
-               "you can say 'I would like a chicken soup from Taqueria Mana' or 'I feel like "
+               "you can say 'I would like a pad see ew from Modern Thai' or 'I feel like "
                "having a burrito.'"]
     responder.prompt(prompts)
 
@@ -206,7 +206,6 @@ def build_order(context, slots, responder):
                 dish_candidates = [value for value in dish_entity['value']][0:3]
 
                 # Get the knowledge base entry for each of the dishes.
-                print(dish_candidates)
                 dish_entries = [_kb_fetch('menu_items', dc['id']) for dc in dish_candidates]
 
                 # Get the restaurant info for each dish from their respective KB entries.
@@ -241,11 +240,10 @@ def build_order(context, slots, responder):
                 dish_quantities[dish['name']] = dish['quantity']
         dish_names = [(str(dish_quantities[dish]) + ' order of ' + dish) if dish_quantities[dish] == 1
                       else (str(dish_quantities[dish]) + ' orders of ' + dish) for dish in dish_quantities.keys()]
-        # dish_names = [str(dish['quantity']) + ' ' + dish['name'] for dish in selected_dishes]
         dish_prices = [_price_dish(dish) for dish in selected_dishes]
         slots['dish_names'] = ', '.join(dish_names)
         slots['price'] = sum(dish_prices)
-        responder.prompt('Sure, I got {dish_names} from {restaurant_name} for a total price of '
+        responder.prompt('Sure, I have {dish_names} from {restaurant_name} for a total price of '
                          '${price:.2f}. Would you like to place the order?')
     else:
         # If the user hasn't selected any dishes yet, prompt the user to make a selection based
