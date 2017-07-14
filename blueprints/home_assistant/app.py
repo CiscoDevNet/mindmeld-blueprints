@@ -142,6 +142,7 @@ def specify_location(context, slots, responder):
 def specify_time(context, slots, responder):
 
     selected_time = _get_sys_time(context)
+    selected_all = _get_command_for_all(context)
 
     if selected_time:
 
@@ -153,7 +154,8 @@ def specify_time(context, slots, responder):
                 existing_alarms_dict = context['frame']['alarms']
                 ordered_alarms = sorted(context['frame']['alarms'].keys())
 
-                reply = _handle_remove_alarm_reply(selected_time, context, existing_alarms_dict,
+                reply = _handle_remove_alarm_reply(selected_all, selected_time,
+                                                   existing_alarms_dict,
                                                    ordered_alarms)
 
             del context['frame']['desired_action']
@@ -436,15 +438,16 @@ def check_alarm(context, slots, responder):
 def remove_alarm(context, slots, responder):
 
     # Get time entity from query
+    selected_all = _get_command_for_all(context)
     selected_time = _get_sys_time(context)
 
     try:
         existing_alarms_dict = context['frame']['alarms']
         ordered_alarms = sorted(context['frame']['alarms'].keys())
 
-        if selected_time:
+        if selected_all or selected_time:
 
-            reply = _handle_remove_alarm_reply(selected_time, context, existing_alarms_dict,
+            reply = _handle_remove_alarm_reply(selected_all, selected_time, existing_alarms_dict,
                                                ordered_alarms)
 
         else:
@@ -677,10 +680,13 @@ def _handle_set_alarm_reply(selected_time, context):
     return reply
 
 
-def _handle_remove_alarm_reply(selected_time, context, existing_alarms_dict, ordered_alarms):
+def _handle_remove_alarm_reply(selected_all, selected_time, existing_alarms_dict, ordered_alarms):
 
     if existing_alarms_dict:
-        if selected_time in existing_alarms_dict:
+        if selected_all:
+            existing_alarms_dict.clear()
+            reply = "Ok, all alarms ({alarms}) have been removed".format(alarms=ordered_alarms)
+        elif selected_time in existing_alarms_dict:
             del existing_alarms_dict[selected_time]
             reply = "Ok, I have removed your {time} alarm.".format(time=selected_time)
         else:
