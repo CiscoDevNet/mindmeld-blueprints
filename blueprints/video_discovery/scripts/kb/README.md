@@ -61,7 +61,7 @@ If you want to import to local ES, make sure it is now running.
 Then start importing
 ```
 cd output_data-0714-log-pop/transformed
-mmworkbench load-kb -n $HOST video_discovery 20170706 transformed_videos.jsonl
+mmworkbench load-kb -n $HOST video_discovery 20170714 transformed_videos.jsonl
 ```
 
 
