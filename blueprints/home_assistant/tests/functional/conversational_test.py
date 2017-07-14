@@ -26,3 +26,10 @@ class ConversationalTest(object):
     def assert_intent(conv, expected_intent):
         last_history = conv.history[LATEST_INDEX_IN_CONVERSATION_CONTEXT_HISTORY]
         assert last_history['intent'] == expected_intent
+
+    def reset_conv(self):
+        self.conv.history = []
+        self.conv.frame = {}
+
+    def setup_method(self, method):
+        self.reset_conv()
