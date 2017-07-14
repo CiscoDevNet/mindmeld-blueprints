@@ -234,16 +234,18 @@ def build_order(context, slots, responder):
         # confirmation.
         dish_quantities = {}
         for dish in selected_dishes:
-            if dish['name'] in dish_quantities:
-                dish_quantities[dish['name']] += dish['quantity']
-            else:
-                dish_quantities[dish['name']] = dish['quantity']
+            dish_quantities[dish['name']] = dish_quantities.get(dish['name'], 0) + dish['quantity']
         dish_names = [(str(dish_quantities[dish]) + ' order of ' + dish)
                       if dish_quantities[dish] == 1
                       else (str(dish_quantities[dish]) + ' orders of ' + dish)
                       for dish in dish_quantities.keys()]
         dish_prices = [_price_dish(dish) for dish in selected_dishes]
-        slots['dish_names'] = ', '.join(dish_names)
+        if len(dish_names) > 1:
+            dish_names[-1] = 'and ' + dish_names[-1]
+        if len(dish_names) > 2:
+            slots['dish_names'] = ', '.join(dish_names)
+        else:
+            slots['dish_names'] = ' '.join(dish_names)
         slots['price'] = sum(dish_prices)
         responder.prompt('Sure, I have {dish_names} from {restaurant_name} for a total price of '
                          '${price:.2f}. Would you like to place the order?')
