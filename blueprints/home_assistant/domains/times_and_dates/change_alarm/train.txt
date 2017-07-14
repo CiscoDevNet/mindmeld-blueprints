@@ -52,3 +52,8 @@ push the alarm for {7am|sys_time|old_time} to {8am|sys_time|new_time}
 replace my {6 a m|sys_time|old_time} alarm with a {6:30 a m|sys_time|new_time} alarm
 update my alarm for my {tomorrow morning|sys_interval|old_time} to {830 am|sys_time|new_time}
 change my {11 am|sys_time|old_time} alarm to {thursday at 11am|sys_time|new_time}
+change my {midnight|sys_time|old_time} alarm to {thursday at 11am|sys_time|new_time}
+move alarm for {midnight|sys_time|old_time} to {7 am|sys_time|new_time}
+change my alarm to {midnight|sys_time|new_time}
+change alarm to {midnight|sys_time|new_time}
+reschedule my {10 am|sys_time|old_time} alarm to monday night at {midnight|sys_time|new_time}
