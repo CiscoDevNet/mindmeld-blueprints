@@ -167,3 +167,9 @@ turn off the alarms
 turn off the alarms {after 5pm|interval}
 unset {all|all} alarms for {tomorrow|sys_time}
 would you remove my {3 am|sys_time} alarm
+clear my {midnight|sys_time} alarm
+delete my {midnight|sys_time} alarm
+turn off my {midnight|sys_time} alarm
+cancel my {midnight|sys_time} alarm
+cancel the {midnight|sys_time} alarm
+reset {midnight|sys_time} alarm
