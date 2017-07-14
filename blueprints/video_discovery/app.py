@@ -31,6 +31,14 @@ GENERAL_SUGGESTIONS = [{'text': 'Most popular', 'type': 'text'},
 # Convert from mallard format like '2002-01-01T00:00:00.000-07:00'
 MALLARD_YEAR_INDEX = 10
 
+# Map entity name to field names in knowledge base
+ENTITY_TO_FIELD = {
+    'type': 'doc_type',
+    'genre': 'genres',
+    'director': 'directors',
+    'country': 'countries',
+}
+
 
 @app.handle(intent='greet')
 def welcome(context, slots, responder):
@@ -58,13 +66,13 @@ def welcome(context, slots, responder):
 @app.handle(intent='browse')
 def show_content(context, slots, responder):
     """
-    When the user looks for a movie or TV, fetch the documents from the knowledgebase by
+    When the user looks for a movie or TV, fetch the documents from the knowledge base by
     with all entities we have so far.
     """
     # Update the frame with the new entities extracted.
     context['frame'] = update_frame(context['entities'], context['frame'])
 
-    # Fetch results from the knowledgebase using all entities in frame as filters.
+    # Fetch results from the knowledge base using all entities in frame as filters.
     results = get_video_content(context['frame'])
 
     # Fill the slots with the frame.
@@ -112,18 +120,17 @@ def update_frame(entities, frame):
     return frame
 
 
-ENTITY_TO_FIELD = {
-    'type': 'doc_type',
-    'genre': 'genres',
-    'director': 'directors',
-    'country': 'countries',
-}
-
-
 def get_video_content(frame):
-    # TODO: Using all entities in the frame, get docs from ES. If we have multiple entities of the
-    # same type, decide if we want to 'or' or 'and' them together. This might depend on entity type.
+    """
+    Get video content given the info in current frame.
+    Using all entities in the frame, get docs from ES. If we have multiple entities of the
+    same type, decide if we want to 'or' or 'and' them together. This might depend on entity type.
 
+    Args:
+        frame (dict): current frame
+    Returns:
+        (list of dict): documents from QuestionAsnwer
+    """
     index_name = get_scoped_index_name(APP_NAME, KB_INDEX_NAME)
     search = app.question_answerer.build_search(index_name, {'query_clauses_operator': 'and'})
 
@@ -185,8 +192,15 @@ def get_video_content(frame):
 
 
 def fill_browse_slots(frame, slots):
-    # TODO: Using all entities in the current frame, fill the slots dict.
+    """
+    Fill slots from current frame and slots.
 
+    Args:
+        frame (dict): current frame
+        slots (dict): current slots
+    Returns:
+        dict: updated slots
+    """
     for entity_type, entity_set in frame.items():
         entities = []
         for entity in entity_set:
@@ -213,9 +227,17 @@ def fill_browse_slots(frame, slots):
 
 
 def build_browse_response(context, slots, results):
-    # Return the given template based on the available slots. Also build a client action
-    # with the results, and show any prompts if necessary.
+    """
+    Return the given template based on the available slots. Also build a client action
+    with the results, and show any prompts if necessary.
 
+    Args:
+        context (dict): current context
+        slots (dict): current slots
+        results (list of dict): documents from QuestionAnswerer
+    Returns:
+        #TODO: reply, videos_client_action, prompt
+    """
     reply = ''
     videos_client_action = {}
     prompt = ''
@@ -334,11 +356,8 @@ def handle_unsupported(context, slots, responder):
                    'Sorry, I can\'t help you with that.',
                    'Sorry, I can only help you browse movies and tv shows.',
                    'Sorry, I don\'t have that information, would you like to try something else?']
-
     responder.reply(unsupported)
-
     responder.prompt(GENERAL_PROMPTS)
-
     # Get default videos
     responder.respond(get_default_videos_action())
     responder.suggest(GENERAL_SUGGESTIONS)
@@ -358,9 +377,7 @@ def say_something_nice(context, slots, responder):
                    'Thanks, I try my best!',
                    'Thanks, you\'re quite amazing yourself.',
                    'Thanks, hope you\'re having a good day!']
-
     responder.reply(compliments)
-
     responder.prompt(GENERAL_PROMPTS)
     # Get default videos
     responder.respond(get_default_videos_action())
@@ -375,11 +392,8 @@ def handle_insult(context, slots, responder):
                       'Sorry I\'m trying!',
                       'Nobody\'s perfect!',
                       'Sorry, I\'ll try to do better next time.']
-
     responder.reply(insult_replies)
-
     responder.prompt(GENERAL_PROMPTS)
-
     # Get default videos
     responder.respond(get_default_videos_action())
     responder.suggest(GENERAL_SUGGESTIONS)
@@ -396,11 +410,8 @@ def default(context, slots, responder):
                  'Sorry, could you try a different request?',
                  'I\'m sorry, could you ask me something else related to movies or tv shows?',
                  'Sorry, I was programmed to only serve your movie and tv show requests.']
-
     responder.reply(unrelated)
-
     responder.prompt(GENERAL_PROMPTS)
-
     # Get default videos
     responder.respond(get_default_videos_action())
     responder.suggest(GENERAL_SUGGESTIONS)
@@ -411,13 +422,19 @@ def get_default_videos_action():
     Get a client action with the most recent and popular videos.
     """
     default_videos = get_default_videos()
-
     videos_client_action = video_results_to_action(default_videos)
-
     return videos_client_action
 
 
 def video_results_to_action(results):
+    """
+    Convert documents from knowledge base into client action.
+
+    Args:
+        results (list of dict): documents from knowledge base
+    Returns:
+        dict: client actions for showing these video documents
+    """
     videos_client_action = {'videos': []}
 
     for video in results:
@@ -436,9 +453,8 @@ def get_default_videos():
     """
     Retrieve the most popular and recent videos in the knowledge base.
 
-
     Returns:
-        list: The list of movies.
+        list: a list of default popular video documents.
     """
     try:
         results = app.question_answerer.get(index=KB_INDEX_NAME,
@@ -450,6 +466,15 @@ def get_default_videos():
 
 
 def get_next_entity(frame, entities):
+    """
+    Get the next entity in a frame in it's in the list of given entities.
+
+    Args:
+        frame (dict): current frame
+        entities (dict): entities we are interested
+    Yields:
+        dict: {entity name: entity value}
+    """
     for entity in entities:
         if entity not in frame:
             continue
@@ -462,6 +487,15 @@ def get_next_entity(frame, entities):
 
 
 def get_release_year(release_date):
+    """
+    Get the year from release date.
+
+    Args:
+        release_date (str): date in the form 'YYYY-mm-dd'
+
+    Returns:
+        int: year
+    """
     if not release_date:
         return
     release_date_obj = datetime.datetime.strptime(release_date, '%Y-%m-%d')
