@@ -128,7 +128,7 @@ def specify_location(context, slots, responder):
                                                 desired_state="off")
 
             del context['frame']['desired_action']
-  
+
         except KeyError:
             reply = "Please specify an action to go along with that location."
 

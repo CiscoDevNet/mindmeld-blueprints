@@ -207,7 +207,7 @@ class TestTimesAndDates(ConversationalTest):
     def test_clear_timer_no_timer(self):
         texts = self.conv.say('clear timers')
         self.assert_text(texts, 'There is no active timer to cancel!')
-        
+
     test_specify_time = ['9am', 'at 10 AM', 'my 11PM alarm', 'the 6 PM', '7AM please']
 
     @pytest.mark.parametrize("specify_time_query", test_specify_time)
