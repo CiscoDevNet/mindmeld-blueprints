@@ -211,3 +211,33 @@ please {9am tomorrow|sys_time|new_time}
 {7:30am tomorrow|sys_time|new_time} please
 {10pm tomorrow|sys_time|new_time} please
 {10:30 tonight|sys_time|new_time} alarm
+set {1:30am|sys_time|new_time} alarm for me
+set {9:20am|sys_time|new_time} alarm for me
+set {8:10am|sys_time|new_time} alarm for me
+set {4:30am|sys_time|new_time} alarm for me
+set {11:21am|sys_time|new_time} alarm for me
+set {1020am|sys_time|new_time} clock alarm today
+set a {8am|sys_time|new_time} alarm tomorrow
+set {9:20am|sys_time|new_time} alarm for us tomorrow
+set {9 am|sys_time|new_time} alarm
+set {1 pm|sys_time|new_time} clock alarm today
+set a {10:19 am|sys_time|new_time} alarm tomorrow
+set {9:14 am|sys_time|new_time} alarm for us tomorrow
+set {1:20 am|sys_time|new_time} alarm for me
+set {10 am|sys_time|new_time} clock alarm today
+set a {8:20 am|sys_time|new_time} alarm tomorrow
+set {9:11 am|sys_time|new_time} alarm for us tomorrow
+set {9:30 pm|sys_time|new_time} alarm for me
+set {10:12 am|sys_time|new_time} clock alarm today
+set a {9pm|sys_time|new_time} alarm tomorrow
+set {9:27 am|sys_time|new_time} alarm for us tomorrow
+set {9:20am|sys_time|new_time} alarm for us tomorrow
+set {8:10am|sys_time|new_time} alarm for us tomorrow
+set {4:30am|sys_time|new_time} alarm for us tomorrow
+set {midnight|sys_time|new_time} alarm for me
+set {midnight|sys_time|new_time} alarm for us tomorrow
+wake me up {midnight|sys_time|new_time}
+set an alarm for {midnight|sys_time|new_time}
+please set an alarm for {midnight|sys_time|new_time}
+please turn on my {midnight|sys_interval|new_time} alarm
+wake me up {at midnight|sys_time|new_time}
