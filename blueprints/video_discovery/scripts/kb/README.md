@@ -10,7 +10,7 @@ Get `TMDB_API_KEY` from Juan or Ray.
 
 Get a pre-crawled dataset with ~330k docs from s3
 ```
-aws s3 cp s3://mindmeld/workbench-data/video-data-0706.tar.gz .
+aws s3 cp s3://mindmeld/workbench-data/video-data-0714.tar.gz .
 ```
 
 
@@ -47,9 +47,9 @@ The import roughly takes 20 mins.
 Say we want to import the data at July 6:
 ```
 # Download from s3
-$ aws s3 cp s3://mindmeld/workbench-data/video-data-0706.tar.gz .
+$ aws s3 cp s3://mindmeld/workbench-data/video-data-0714.tar.gz .
 # Unzip it
-$ video-data-0706.tar.gz
+$ video-data-0714.tar.gz
 ```
 Prepare WB3 (temporarily fix)
 ```
@@ -60,9 +60,8 @@ If you want to import to local ES, make sure it is now running.
 
 Then start importing
 ```
-cd output_data-0706-release_year/transformed
-mmworkbench load-kb -n $HOST video_discovery 20170706 transformed_tvs.jsonl
-mmworkbench load-kb -n $HOST video_discovery 20170706 transformed_movies.jsonl
+cd output_data-0714-log-pop/transformed
+mmworkbench load-kb -n $HOST video_discovery 20170706 transformed_videos.jsonl
 ```
 
 
