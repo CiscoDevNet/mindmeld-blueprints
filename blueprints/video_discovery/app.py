@@ -15,9 +15,9 @@ app = Application(__name__)
 APP_NAME = 'video_discovery'
 KB_INDEX_NAME = '20170714'
 
-GENERAL_PROMPTS = ['I can help you find movies and tv shows. What do you feel like watching today?',
+GENERAL_PROMPTS = ['I can help you find movies and TV shows. What do you feel like watching today?',
                    'Tell me what you would like to watch today.',
-                   'Talk to me to browse movies and tv shows.']
+                   'Talk to me to browse movies and TV shows.']
 
 GENERAL_SUGGESTIONS = [{'text': 'Most popular', 'type': 'text'},
                        {'text': 'Most recent', 'type': 'text'},
@@ -66,7 +66,7 @@ def welcome(context, slots, responder):
 @app.handle(intent='browse')
 def show_content(context, slots, responder):
     """
-    When the user looks for a movie or TV, fetch the documents from the knowledge base by
+    When the user looks for a movie or TV show, fetch the documents from the knowledge base
     with all entities we have so far.
     """
     # Update the frame with the new entities extracted.
@@ -336,7 +336,7 @@ def provide_help(context, slots, responder):
     """
     When the user asks for help, provide some sample queries they can try.
     """
-    help_replies = ["I can help you find movies and tv shows based on your preferences."
+    help_replies = ["I can help you find movies and TV shows based on your preferences."
                     " Just say want you feel like watching and I can find great options for you."]
     responder.reply(help_replies)
 
@@ -354,19 +354,13 @@ def handle_unsupported(context, slots, responder):
     unsupported = ['Sorry, I can\'t help you with that information.',
                    'Sorry, I don\'t have that information.',
                    'Sorry, I can\'t help you with that.',
-                   'Sorry, I can only help you browse movies and tv shows.',
+                   'Sorry, I can only help you browse movies and TV shows.',
                    'Sorry, I don\'t have that information, would you like to try something else?']
     responder.reply(unsupported)
     responder.prompt(GENERAL_PROMPTS)
     # Get default videos
     responder.respond(get_default_videos_action())
     responder.suggest(GENERAL_SUGGESTIONS)
-
-
-@app.handle(intent='unrelated')
-def handle_unrelated(context, slots, responder):
-    # Respond with a message explaining the app does not support that # query.
-    responder.reply("unrelated placeholder.")
 
 
 @app.handle(intent='compliment')
@@ -408,8 +402,8 @@ def default(context, slots, responder):
     unrelated = ['Sorry, I didn\'t understand your request.',
                  'I\'m sorry, I\'m not sure what you mean.',
                  'Sorry, could you try a different request?',
-                 'I\'m sorry, could you ask me something else related to movies or tv shows?',
-                 'Sorry, I was programmed to only serve your movie and tv show requests.']
+                 'I\'m sorry, could you ask me something else related to movies or TV shows?',
+                 'Sorry, I was programmed to only serve your movie and TV show requests.']
     responder.reply(unrelated)
     responder.prompt(GENERAL_PROMPTS)
     # Get default videos
