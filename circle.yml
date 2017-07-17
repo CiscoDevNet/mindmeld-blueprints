@@ -28,3 +28,9 @@ test:
   override:
     - ./lintme
     - cd blueprints/video_discovery && python app.py build
+
+deployment:
+  s3:
+    branch: /(develop)|(staging)|(master)/
+    commands:
+      - MM_BRANCH=$CIRCLE_BRANCH bash scripts/upload_blueprints.sh

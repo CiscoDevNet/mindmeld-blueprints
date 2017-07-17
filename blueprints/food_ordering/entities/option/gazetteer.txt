@@ -96,6 +96,7 @@ Add Boba
 Add Brie
 Add Brown Rice Bowl
 Add Cabbage Slaw
+Add Cabbage Slaw 
 Add Caramel
 Add Caramel Syrup
 Add Chai Syrup
@@ -218,6 +219,7 @@ Add Ranch Dressing Dipping Sauce
 Add Roasted Bell Peppers
 Add Roasted Duck
 Add Rosemary Mayo
+Add Rosemary Mayo 
 Add Salami
 Add Salmon
 Add Sausage
@@ -261,6 +263,7 @@ Add a Fried Egg
 Add a Hard-Boiled Egg
 Add a Poached Egg
 Add a Salad
+Add a Salad (No Dressing)
 Add a Salad with Blue Cheese Dressing
 Add a Salad with Italian Dressing
 Add a Salad with Ranch Dressing
@@ -339,6 +342,7 @@ BBQ Sauce
 BBQ Sauce Dipping Sauce
 BBQ Shredded Pork
 BLT
+BLT - White sliced, bacon, lettuce, tomatoes & mayo
 Baba Ganoush
 Baba Ghannoush
 Baba Ghanoush
@@ -349,6 +353,8 @@ Baby Mixed Greens
 Baby Spinach
 Bacon
 Bacon & Cheddar
+Bacon - 2 units
+Bacon - 4 units
 Bacon Mayo
 Bacon and Cheddar
 Bag of BBQ Chips
@@ -395,6 +401,7 @@ Bean Salad
 Beans
 Beef
 Beef & Ricotta Polpette
+Beef - With cucumber and basil
 Beef A la Carte
 Beef Ball
 Beef Balls
@@ -566,6 +573,7 @@ Cherry Coke
 Cherry Peppers
 Chibatta Roll
 Chicken
+Chicken (BBQ, Thai, Grilled)
 Chicken A la Carte
 Chicken Apple
 Chicken Apple Sausage
@@ -585,6 +593,7 @@ Chicken Mozzarella
 Chicken Over Rice
 Chicken Pad Thai
 Chicken Patty
+Chicken Patty (100% Fresh Ground Chicken Thigh)
 Chicken Salad
 Chicken Salad, a Fountain Soda
 Chicken Sausage
@@ -643,6 +652,7 @@ Classic Plain
 Classic Roll
 Clementine
 Clubhouse
+Clubhouse - Sour sliced, turkey, ham, bacon, lettuce, tomatoes & mayo
 Coca Cola
 Coca Cola Zero
 Coca-Cola
@@ -827,6 +837,7 @@ Extra Cilantro Leaves
 Extra Cotija Cheese
 Extra Dip
 Extra Dolma
+Extra Dolma - 1
 Extra Dressing
 Extra Falafel
 Extra Fresh Jalapeño
@@ -939,6 +950,7 @@ Fried Chicken
 Fried Chicken with Green Onions
 Fried Chicken with Hot and Tangy Sauce
 Fried Chili Pepper Mayo
+Fried Chili Pepper Mayo - Housemade spicy mayo
 Fried Egg
 Fried Eggplant
 Fried Fish
@@ -979,6 +991,7 @@ Garlic Egg Noodle
 Garlic Fries
 Garlic Frjtz
 Garlic Mayo
+Garlic Mayo - Tangy garlic-infused mayo
 Garlic Naan
 Garlic Noodle
 Garlic Noodles
@@ -1052,6 +1065,7 @@ Green with Envy
 Griled Shrimp
 Grilled
 Grilled Cheese
+Grilled Cheese - White sliced, provolone, cheddar, Jack & tomatoes
 Grilled Chicken
 Grilled Chicken & Pancetta
 Grilled Chicken Breast
@@ -1207,6 +1221,7 @@ Italian
 Italian BLT
 Italian Dressing
 Italian Herbed Mayo
+Italian Herbed Mayo - Mayo with Italian herbs
 Italian Olives
 Italian Pasta
 Italian Prosciutto
@@ -1232,6 +1247,7 @@ Jasmine
 Jasmine Green Tea
 Jasmine Iced Tea
 Jasmine Rice
+Jasmine Rice - Per person
 Jelly
 Jelly Fish
 Jerk Chicken
@@ -1262,6 +1278,7 @@ Karaage
 Katsu Sauce
 Keema Naan
 Keka
+Keka - Grilled chicken quesadilla, cheese, avocado, sour cream, salsa, on a flour tortilla
 Kelp Noodle
 Kennebec French Fries
 Kern's Apricot
@@ -1329,6 +1346,7 @@ Lightly Battered Fried Chicken
 Lihing Mango
 Lime
 Lime-Cumin Mayo Dipping Sauce
+Lime-Cumin Mayo Dipping Sauce - Sweet and tangy mayo infused with lime and cumin
 Limonata
 Linguica
 Linguine
@@ -1382,6 +1400,7 @@ Mango
 Mango Black Tea
 Mango Chutney
 Mango Chutney Side
+Mango Chutney Side - Mint Sauce Side
 Mango Lassi
 Mango Madness
 Marble Chocolate
@@ -1443,6 +1462,7 @@ Miniced Garlic
 Mint
 Mint Chutney
 Mint Sauce Side
+Mint Sauce Side - Tamarind Sauce Side
 Minutemaid Lemonade
 Miso Mayo
 Miso Sauce
@@ -1455,6 +1475,7 @@ Mix berry
 Mixed Green Salad
 Mixed Greens
 Mixed Pickle Side
+Mixed Pickle Side - Spicy Bite Special Hot Sauce Side
 Mixed Pickles
 Mixed Tempura
 Mixed Vegetables
@@ -1505,6 +1526,7 @@ Natural Lime
 Natural Orange
 Natural Very Berry
 Nero
+Nero (We'll make it fires of Rome hot!)
 New York Cheddar
 New York Crumbcake
 New York Steak
@@ -1731,6 +1753,7 @@ Pork A la Carte
 Pork BBQ
 Pork Belly
 Pork Belly Patty
+Pork Belly Patty (100% Fresh Ground Pork Belly)
 Pork Katsu
 Pork Over Rice
 Pork Picanha
@@ -1779,9 +1802,12 @@ Railroad Grade
 Raisin
 Raisin Bagel
 Raita
+Raita - Natural yogurt with cucumber, carrots and green herbs
 Ramen
 Ramen + Dobburi
 Ranch
+Ranch - House-Made Buttermilk Ranch Dressing
+Ranch - Housemade buttermilk ranch dressing
 Ranch Dipping Sauce
 Ranch Dressing
 Ranch Sauce
@@ -1884,6 +1910,7 @@ Rosa
 Rosa Sauce
 Rosemary Focaccia
 Rosemary Mayo
+Rosemary Mayo - Fresh Rosemary-infused mayo
 Roti
 Rye
 Rye Bagel
@@ -1958,6 +1985,7 @@ Seasonal Vegetables with Chicken
 Seaweed
 Seaweed Salad
 Secret Sauce
+Secret Sauce - Similar to thousand island dressing
 Seeded French Roll
 Seeded Roll
 Seniore's Sauce
@@ -2007,6 +2035,7 @@ Side of Guacamole
 Side of Meat Ball
 Side of Monterrey Cheese
 Side of Pappdum
+Side of Pappdum - Two crispy lentil wafers
 Side of Refried Beans
 Side of Refried Beans and Rice
 Side of Rice
@@ -2113,6 +2142,7 @@ Spiciness Level 9
 Spicy
 Spicy Beef Short Rib BBQ
 Spicy Bite Special Hot Sauce Side
+Spicy Bite Special Hot Sauce Side - Mango Chutney Side
 Spicy Brown Mustard
 Spicy Buffalo
 Spicy Chicken
@@ -2147,6 +2177,7 @@ Sprite
 Spud & Flower
 Spud and Flower
 Squid
+Squid - With white fungus, ginger, basil and lemongrass
 Squirt
 Sriracha
 Steak
@@ -2232,6 +2263,7 @@ Swiss cheese
 Syrup
 Szechuan Sauce
 TBAC
+TBAC - Soft roll, turkey, bacon, avocado, Jack cheese, onioon, lettuce, tomatoes, mayo & mustard
 Tabouleh
 Tahini Salad
 Tahini Sauce
@@ -2243,6 +2275,7 @@ Tamarind
 Tamarind Agua Fresca
 Tamarind Chutney
 Tamarind Sauce Side
+Tamarind Sauce Side - Desserts
 Tamarindo
 Tandoori
 Tandori Chicken
@@ -2275,6 +2308,7 @@ The Chairmen Rice
 The Screamin' Tomato
 The Spice Route
 The Tuscan
+The Tuscan - Seasoned chicken breast, bacon, provolone, pesto, mayo, lettuce, tomatoes, bell peppers, on a ciabatta
 Thick Crust
 Thick Cut Bacon
 Thin Crust
@@ -2312,6 +2346,7 @@ Tuna & Artichoke
 Tuna & Olive
 Tuna 2 Slices
 Tuna Melt Diablo
+Tuna Melt Diablo - Tuna salad, cheese, avocado, chipotle mayo on a sour roll
 Tuna Salad
 Tuna Salad, a Fountain Soda
 Tuna Sandwich
@@ -2358,6 +2393,7 @@ Vegetables & Tofu
 Vegetables 8 oz
 Vegetables and Tofu
 Vegetarian
+Vegetarian - Multigrain roll, pesto, mustard, onion, lettuce, tomatoes, avocado, bell peppers, cucumbers, artichokes & pickles
 Vegetarian Pot Stickers
 Veggie
 Veggie & Tofu
@@ -2366,6 +2402,7 @@ Veggie Chicken
 Veggie Kebab
 Veggie Lamb
 Veggie Patty
+Veggie Patty (Roasted Eggplant Chickpea, Fried Onion and Shredded Carrot)
 Veggie Shrimp
 Veggie Tofu
 Veggie and Tofu
@@ -2445,6 +2482,7 @@ Winter veggies
 With Avocado
 With BBQ Pork
 With Bacon
+With Bacon - Served with home fries
 With Bananas
 With Beef
 With Brown Rice
@@ -2452,6 +2490,7 @@ With Bun
 With Cheedar Cheese
 With Chicken
 With Chicken Apple Sausage
+With Chicken Apple Sausage - Served with home fries
 With Chicken Fried Steak
 With Corned Beef Hash
 With Cream Cheese
@@ -2461,8 +2500,10 @@ With French Fries
 With Fries
 With Grilled Chicken
 With Ham
+With Ham - Served with home fries
 With Ham Steak
 With Hot Links
+With Hot Links - Served with home fries
 With Lox, Onions, and Capers
 With Marinara Sauce
 With Medium Steak
@@ -2472,6 +2513,7 @@ With New York Steak
 With Pork
 With Pork Chop
 With Pork Sausage
+With Pork Sausage - Served with home fries
 With Prawns
 With Provolone Cheese
 With Rare Steak
@@ -2522,3 +2564,15 @@ with Cream Cheese
 with Nutella & J
 with Nutella and J
 zico coconut water
+ Chicken 
+ Coke
+ Diet Coke
+ Extra Hot
+ Hot
+ Medium
+ Mild
+ Sprite
+ Sunkist
+ Vegetable 
+ With Brown Rice 
+ With Saffron Rice 
