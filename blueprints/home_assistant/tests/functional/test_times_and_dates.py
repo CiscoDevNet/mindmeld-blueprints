@@ -107,6 +107,18 @@ class TestTimesAndDates(ConversationalTest):
          'turn off my 6:15am alarm',
          '06:15:00',
          '21:00:00',
+         'list all alarms'),
+        ('set alarm from midnight',
+         'set alarm for 9:00pm',
+         'turn off my midnight alarm',
+         '00:00:00',
+         '21:00:00',
+         'list all alarms'),
+        ('set alarm from noon',
+         'set alarm for 9:00pm',
+         'turn off my noon alarm',
+         '12:00:00',
+         '21:00:00',
          'list all alarms')
     ]
 
