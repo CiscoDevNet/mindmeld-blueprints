@@ -7,13 +7,11 @@ import logging
 import random
 
 from mmworkbench import Application
-from mmworkbench.components._elasticsearch_helpers import get_scoped_index_name
 
 app = Application(__name__)
 
 
-APP_NAME = 'video_discovery'
-KB_INDEX_NAME = '20170714'
+KB_INDEX_NAME = 'videos'
 
 GENERAL_PROMPTS = ['I can help you find movies and TV shows. What do you feel like watching today?',
                    'Tell me what you would like to watch today.',
@@ -27,7 +25,6 @@ GENERAL_SUGGESTIONS = [{'text': 'Most popular', 'type': 'text'},
                        {'text': 'Dramas', 'type': 'text'},
                        {'text': 'Sci-Fi', 'type': 'text'}]
 
-# A hack to convert Mallard value to str
 # Convert from mallard format like '2002-01-01T00:00:00.000-07:00'
 MALLARD_YEAR_INDEX = 10
 
@@ -131,8 +128,7 @@ def get_video_content(frame):
     Returns:
         (list of dict): documents from QuestionAsnwer
     """
-    index_name = get_scoped_index_name(APP_NAME, KB_INDEX_NAME)
-    search = app.question_answerer.build_search(index_name, {'query_clauses_operator': 'and'})
+    search = app.question_answerer.build_search(KB_INDEX_NAME, {'query_clauses_operator': 'and'})
 
     search_entities = {'title'}
     filter_entities = {'cast', 'director', 'genre', 'type', 'country'}
@@ -145,8 +141,8 @@ def get_video_content(frame):
 
     # Sort entity
     sort_entities = {
-        'latest': ('release_year', 'desc'),
-        'oldest': ('release_year', 'asc'),
+        'latest': ('release_date', 'desc'),
+        'oldest': ('release_date', 'asc'),
         'popular': ('popularity', 'desc'),
         'worst': ('popularity', 'asc'),
     }
