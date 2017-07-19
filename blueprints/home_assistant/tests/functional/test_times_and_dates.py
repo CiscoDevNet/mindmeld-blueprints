@@ -20,6 +20,8 @@ class TestTimesAndDates(ConversationalTest):
         ('set alarm', 'at 6pm', '18:00:00'),
         ('add an alarm', '7am alarm', '07:00:00'),
         ('start an alarm', '10 PM please', '22:00:00'),
+        ('start an alarm', '12pm please', '12:00:00'),
+        ('add an alarm', '12 am', '00:00:00')
     ]
 
     @pytest.mark.parametrize("set_query_no_time, time, expected_response",
@@ -108,13 +110,13 @@ class TestTimesAndDates(ConversationalTest):
          '06:15:00',
          '21:00:00',
          'list all alarms'),
-        ('set alarm from midnight',
+        ('set alarm for midnight',
          'set alarm for 9:00pm',
          'turn off my midnight alarm',
          '00:00:00',
          '21:00:00',
          'list all alarms'),
-        ('set alarm from noon',
+        ('set alarm for noon',
          'set alarm for 9:00pm',
          'turn off my noon alarm',
          '12:00:00',
