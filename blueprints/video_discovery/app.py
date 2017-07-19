@@ -177,12 +177,12 @@ def get_video_content(frame):
             continue
         if sort_entity[0] == 'popularity':
             sorted_by_popularity = True
-        search = search.sort(field=sort_entity[0], sort_type=sort_entity[1], location=None)
+        search = search.sort(field=sort_entity[0], sort_type=sort_entity[1])
 
     # If there is no sort entity for popularity field, we should add this default
     # sort for showing popular movies/tv shows.
     if not sorted_by_popularity:
-        search = search.sort(field='popularity', sort_type='desc', location=None)
+        search = search.sort(field='popularity', sort_type='desc')
 
     # Handle sys_time, we only handle `release_year` in this blueprint.
     # For example, when user says 'action movies from 1998.'. We would
