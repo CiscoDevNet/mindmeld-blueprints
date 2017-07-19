@@ -78,7 +78,7 @@ def show_content(context, slots, responder):
     slots = fill_browse_slots(context['frame'], slots)
 
     # Build response based on available slots and results.
-    reply, videos_client_action, prompt = build_browse_response(context, slots, results)
+    reply, videos_client_action = build_browse_response(context, slots, results)
 
     responder.reply(reply)
 
@@ -134,8 +134,7 @@ def update_frame(entities, frame):
 def get_video_content(frame):
     """
     Get video content given the info in current frame.
-    Using all entities in the frame, get docs from ES. If we have multiple entities of the
-    same type, decide if we want to 'or' or 'and' them together. This might depend on entity type.
+    Using all entities in the frame, get docs from ES.
 
     Args:
         frame (dict): current frame
@@ -261,17 +260,17 @@ def build_browse_response(context, slots, results):
         slots (dict): current slots
         results (list of dict): documents from QuestionAnswerer
     Returns:
-        #TODO(for juan): reply, videos_client_action, prompt
+       reply (string): the reply to be shown to the user
+       videos_client_action (dict): the client action containing the video results
     """
     reply = ''
     videos_client_action = {}
-    prompt = ''
 
     # If no results match, respond accordingly.
     if not results or len(results) == 0:
         reply = 'Sorry, no results match your search criteria. Please try again.'
 
-        # Since user reached dead-end here, clear the frame.
+        # Since user reached a dead-end here, clear the frame.
         context['frame'] = {}
 
         return reply, videos_client_action, prompt
@@ -280,7 +279,7 @@ def build_browse_response(context, slots, results):
         # Build the language response based on the slots available.
         reply = ''
 
-        # Add default acknowledgment.
+        # Add a default acknowledgment.
         acknowledgments = ['Done.', 'Ok.', 'Perfect.']
         reply += random.choice(acknowledgments)
         reply += ' Here are'
@@ -326,7 +325,7 @@ def build_browse_response(context, slots, results):
         # Build and return the client action
         videos_client_action = video_results_to_action(results)
 
-        return reply, videos_client_action, prompt
+        return reply, videos_client_action
 
 
 @app.handle(intent='start_over')
@@ -359,7 +358,7 @@ def say_goodbye(context, slots, responder):
 @app.handle(intent='help')
 def provide_help(context, slots, responder):
     """
-    When the user asks for help, provide some sample queries they can try.
+    When the user asks for help, provide a message explaining what to do.
     """
     help_replies = ["I can help you find movies and TV shows based on your preferences."
                     " Just say want you feel like watching and I can find great options for you."]
@@ -375,7 +374,7 @@ def provide_help(context, slots, responder):
 
 @app.handle(intent='unsupported')
 def handle_unsupported(context, slots, responder):
-    # Respond with a message explaining the app does not support that # query.
+    # Respond with a message explaining the app does not support that type of query.
     unsupported = ['Sorry, I can\'t help you with that information.',
                    'Sorry, I don\'t have that information.',
                    'Sorry, I can\'t help you with that.',
@@ -405,7 +404,7 @@ def say_something_nice(context, slots, responder):
 
 @app.handle(intent='insult')
 def handle_insult(context, slots, responder):
-    # Evade the insult and come back to the app usage.
+    # Evade the insult and come back to app usage.
     insult_replies = ['Sorry, I do my  best!',
                       'Someone needs to watch a romantic movie.',
                       'Sorry I\'m trying!',
@@ -439,6 +438,9 @@ def default(context, slots, responder):
 def get_default_videos_action():
     """
     Get a client action with the most recent and popular videos.
+        
+    Returns:
+        dict: the client action containing the video results
     """
     default_videos = get_default_videos()
     videos_client_action = video_results_to_action(default_videos)
@@ -447,12 +449,12 @@ def get_default_videos_action():
 
 def video_results_to_action(results):
     """
-    Convert documents from knowledge base into client action.
+    Convert documents from knowledge base into a  client action.
 
     Args:
         results (list of dict): documents from knowledge base
     Returns:
-        dict: client actions for showing these video documents
+        dict: the client action containing the video results
     """
     videos_client_action = {'videos': []}
 
@@ -486,7 +488,7 @@ def get_default_videos():
 
 def get_next_entity(frame, entities):
     """
-    Yield the next entity in a frame if this entity in the list of given entities.
+    Yield the next entity in a frame if this entity is in the list of given entities.
 
     Args:
         frame (dict): current frame
