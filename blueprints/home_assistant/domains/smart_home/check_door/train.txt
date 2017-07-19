@@ -1,0 +1,90 @@
+is the {garage|location} door open
+is the door secure
+is the {bedroom|location} door open
+check if the {entrance|location} door is locked
+door security status
+check whether the {front|location} door is locked
+check if the {main|location} door locked
+double-check the door is locked
+please check the door
+is the {front|location} door open
+can you check if the door is locked
+did I close the {front|location} door
+is the {front|location} door shut
+check to see if {garage|location} door is secure or not
+is the door currently open or closed
+did the door get shut
+did I close the door
+can you check the door
+what is the door position
+did I leave the {front|location} door open
+is the {garage|location} door locked
+is the {garage|location} door closed
+is the door closed and locked
+is the {front|location} door closed
+did I leave the {back|location} door open
+is the {back|location} door ajar
+check the {back|location} door
+is the {back|location} door closed or open
+tell me if the {garage|location} door is closed
+can you do a door update
+is the {balcony|location} door open
+check to see if the {front|location} door is locked
+check to see if the {back|location} door is open
+did I remember to close the {front|location} door
+tell me whether the {front|location} door is open
+check to make sure the {garage|location} door entry is locked
+door open or closed
+{front|location} door is locked
+check if the {door|location} is open
+is the {back|location} door still open
+is the door open
+what's the state of the door
+did I lock the {front|location} door
+please check the doors
+is the {back|location} door open
+is the {front|location} house door locked
+please check if the {front|location} door is open
+is the door closed
+is the {front|location} door secure
+find out if the door is open
+is the door locked
+can you check the door lock state
+is the {front|location} door locked
+did I leave the door open
+is {back|location} door closed
+status of {back|location} door
+is the {back|location} door closed and locked
+the {back|location} door, what is its status
+is the door opened or closed
+what's the status of the door, is it closed
+how is the door
+is my {front|location} door locked
+what is the door status
+check the door status please
+check if my {front|location} door is locked
+what is the status of the {front|location} door
+is the {front|location} door ajar
+can you please tell me if the {front|location} door is open
+can you see if the door is closed
+check the door, please
+is the {garden|location} doors in a closed position
+door status
+i want to know if the {back|location} door is locked
+what is the state of the door
+is the door ajar
+tell me if {kitchen|location} door is open
+status of the {front|location} door
+is the {back|location} door closed
+see if {back|location} door is locked
+can you tell me if the door is locked
+what is the status of the door
+{front|location} door status
+check to see if the {front|location} door is closed
+could you please tell me if the door is closed
+is the {main|location} door locked
+did I remember to lock the door
+is the door safely locked
+are the doors locked
+did I lock the door
+are all doors locked

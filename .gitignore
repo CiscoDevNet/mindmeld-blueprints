@@ -90,3 +90,9 @@ ENV/
 
 # Workbench generated files
 .generated
+
+# OS file
+.DS_Store
+
+# Pycharm
+.idea/
