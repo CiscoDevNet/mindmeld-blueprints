@@ -37,9 +37,9 @@ please turn on the thermostat
 please turn on the thermostat in the {master bedroom|location}
 please turn the a c on in the {whole house|all}
 put the thermostat on
-set my thermostat to turn {on at 6 am|time}
+set my thermostat to turn {on at 6 am|sys_time}
 smart home turn on the thermostat
-start air conditioning {now|time}
+start air conditioning {now|sys_time}
 start cooling house
 thermostat on
 thermostat on
@@ -66,7 +66,7 @@ turn on the thermostat
 turn the a c on in the {back|location} room
 turn the a c on in the {master bedroom|location}
 turn the ac on
-turn the heat {on at 2pm|time} in the {living room|location}
+turn the heat {on at 2pm|sys_time} in the {living room|location}
 turn the heat on in the {basement|location}
 turn the heat on in the {living room|location}
 turn the heat on in the {master bedroom|location} please

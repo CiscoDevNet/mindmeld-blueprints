@@ -10,7 +10,7 @@ dependencies:
   override:
     - pip install -r dev-requirements.txt
   post:
-    - git clone https://$GIT_TOKEN@github.com/expectlabs/mindmeld-workbench3 && cd mindmeld-workbench3 && pip install -e .
+    - git clone https://$GIT_TOKEN@github.com/expectlabs/mindmeld-workbench3 && cd mindmeld-workbench3 && git checkout release/3.0.0 && pip install -e .
     - wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.2.tar.gz
     - tar -xvf elasticsearch-5.1.2.tar.gz
     - elasticsearch-5.1.2/bin/elasticsearch: {background: true}
@@ -27,6 +27,7 @@ test:
     - python -c "from mmworkbench.ser import parse_numerics; parse_numerics('100 degrees')"
   override:
     - ./lintme
+    - cd blueprints/home_assistant && python app.py build
     - cd blueprints/video_discovery && python app.py build
 
 deployment:

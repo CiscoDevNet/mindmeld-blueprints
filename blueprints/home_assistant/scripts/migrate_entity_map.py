@@ -41,8 +41,8 @@ def migrate_entity_map(app_path, old_entity_map_path):
             dump_json_file(mapping_path, [])
 
         gaz_txt_path = path.get_entity_gaz_path(app_path, entity_type)
-        entity_data_path = os.path.join(app_path,
-                                        'entity-data', '{}-entities.tsv').format(entity_type)
+        entity_data_path = os.path.join(app_path, 'entity-data', '{}-entities.tsv').format(
+            entity_type)
 
         try:
             entity_data = load_gazetteer_txt(entity_data_path)
@@ -51,7 +51,8 @@ def migrate_entity_map(app_path, old_entity_map_path):
 
         min_pop = min(entity_data.values()) if len(entity_data) else 1.0
 
-        map_fields = ['map', 'text-map', 'clause-map']  # fields existed in old-style entity map
+        # fields which existed in an old style entity map
+        map_fields = ['map', 'text-map', 'clause-map']
         for field in map_fields:
             try:
                 entity_mappings = e[field]

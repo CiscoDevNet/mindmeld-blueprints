@@ -91,6 +91,12 @@ ENV/
 # Workbench generated files
 .generated
 
+# OS file
+.DS_Store
+
+# Pycharm
+.idea/
+
 # Crawled Data
 blueprints/video_discovery/scripts/kb/output_data*
 blueprints/video_discovery/scripts/kb/log*

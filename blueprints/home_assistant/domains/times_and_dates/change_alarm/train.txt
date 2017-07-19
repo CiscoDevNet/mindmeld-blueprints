@@ -1,50 +1,59 @@
-change {10am|time|oldtime} alarm to {monday|time|newtime} only
-change {6:45am|time|oldtime} alarm to {7:00am|time|newtime}
-change {friday|time|oldtime} s alarm to {4:00 a m|time|newtime}
-change {tomorrow morning|time|oldtime} s alarm to {7:00|time|newtime}
-change {tuesday|time|oldtime} s alarm to go off {at 11 am|time|newtime}
-change {wed|time|newtime} s alarm to {six am|time|newtime}
+change {10am|sys_time|old_time} alarm to {monday|sys_time|new_time} only
+change {6:45am|sys_time|old_time} alarm to {7:00am|sys_time|new_time}
+change {friday|sys_time|old_time} s alarm to {4:00 a m|sys_time|new_time}
+change {tomorrow morning|sys_interval|old_time} s alarm to {7:00|sys_time|new_time}
+reschedule my {10 am|sys_time|old_time} alarm to {monday morning at 1|sys_time|new_time}
+change {tuesday|sys_time|old_time} s alarm to go off {at 11 am|sys_time|new_time}
+change {wed|sys_time|new_time} s alarm to {six am|sys_time|new_time}
 change alarm
-change alarm to {6:45am|time|newtime}
-change alarm to {7:15 am|time|newtime}
-change alarm to {7am|time|newtime} from {6am|time|oldtime}
-change alarm from {6 am|time|oldtime} to {7 am|time|newtime}
-change alarm from {7 am|time|oldtime} to {6 am|time|newtime}
+change alarm to {6:45am|sys_time|new_time}
+change alarm to {7:15 am|sys_time|new_time}
+change alarm to {7am|sys_time|new_time} from {6am|sys_time|old_time}
+change alarm from {6 am|sys_time|old_time} to {7 am|sys_time|new_time}
+change alarm from {7 am|sys_time|old_time} to {6 am|sys_time|new_time}
 change alarm time
-change alarms to {an hour from now|time|newtime}
-change me alarm for {tomorrow|time|oldtime} to {7 am|time|newtime}
-change my {10 am|time|oldtime} alarm to {10 pm|time|newtime}
-change my {10am|time|oldtime} alarm to {10:30am|time|newtime}
-change my {11am|time|oldtime} wakeup to {10am|time|newtime}
-change my {3 p m|time|oldtime} alarm to {3:30 p m|time|newtime}
-change my {5am|time|oldtime} alarm to {530am|time|newtime}
-change my {5pm|time|oldtime} alarm to {4pm|time|newtime}
-change my {6 pm|time|oldtime} alarm to {6 am|time|newtime}
-change my {6:30am|time|oldtime} alarm to {7:30am|time|newtime}
-change my {6:45|time|oldtime} alarm to {7 am|time|newtime}
-change my {7 a m|time|oldtime} alarm to a {6:45 a m|time|oldtime} alarm
-change my {7:00 a m|time|oldtime} alarm to {6:00 a m|time|newtime}
-change my alarm to {11 am|time|newtime}
-change my alarm to {9|time|newtime}
-change my alarm for {tomorrow|time|oldtime} to {7 am|time|newtime}
-change my alarm from {5:00 pm|time|oldtime} to {5:00 am|time|newtime}
-change my alarm from {7am|time|oldtime} to {6am|time|newtime}
-change my alarm from {7pm|time|oldtime} to {8pm|time|newtime}
-change my alarm from {9am|time|oldtime} to {10am|time|newtime}
-change my alarm time to {10 am on saturday|time|newtime}
-change the {5:50|time|oldtime} alarm to {4 pm|time|newtime}
-change the alarm on {wednesday|time|oldtime} to {7 am|time|newtime}
-change the alarm for {7am|time|oldtime} to {9am|time|newtime}
-change the alarm from {7|time|oldtime} to {7:30|time|newtime}
-change the alarm on {Wednesday|time|oldtime} to {7:30|time|newtime}
+change my alarm from {7 am|sys_time|old_time} alarm to {9am morning|sys_time|new_time}
+change alarms to {an hour from now|sys_time|new_time}
+change me alarm for {tomorrow|sys_time|old_time} to {7 am|sys_time|new_time}
+change my {10 am|sys_time|old_time} alarm to {10 pm|sys_time|new_time}
+change my {10am|sys_time|old_time} alarm to {10:30am|sys_time|new_time}
+change my {11am|sys_time|old_time} wakeup to {10am|sys_time|new_time}
+change my {3 p m|sys_time|old_time} alarm to {3:30 p m|sys_time|new_time}
+change my {5am|sys_time|old_time} alarm to {530am|sys_time|new_time}
+change my {5pm|sys_time|old_time} alarm to {4pm|sys_time|new_time}
+change my {6 pm|sys_time|old_time} alarm to {6 am|sys_time|new_time}
+change my {6:30am|sys_time|old_time} alarm to {7:30am|sys_time|new_time}
+change my {6:45|sys_time|old_time} alarm to {7 am|sys_time|new_time}
+change my {7 a m|sys_time|old_time} alarm to a {6:45 a m|sys_time|old_time} alarm
+change my {7:00 a m|sys_time|old_time} alarm to {6:00 a m|sys_time|new_time}
+change my alarm to {11 am|sys_time|new_time}
+change my alarm to {9|sys_time|new_time}
+move my {6 am|sys_time|old_time} alarm to {3pm in the afternoon|sys_time|new_time}
+change my alarm for {tomorrow|sys_time|old_time} to {7 am|sys_time|new_time}
+change my alarm from {5:00 pm|sys_time|old_time} to {5:00 am|sys_time|new_time}
+change my alarm from {7am|sys_time|old_time} to {6am|sys_time|new_time}
+change my alarm from {7pm|sys_time|old_time} to {8pm|sys_time|new_time}
+change my alarm from {9am|sys_time|old_time} to {10am|sys_time|new_time}
+change my alarm time to {10 am on saturday|sys_time|new_time}
+switch the {1 am|sys_time|old_time} alarm to {tomorrow at noon|sys_time|new_time}
+change the {5:50|sys_time|old_time} alarm to {4 pm|sys_time|new_time}
+change the alarm on {wednesday|sys_time|old_time} to {7 am|sys_time|new_time}
+change the alarm for {7am|sys_time|old_time} to {9am|sys_time|new_time}
+change the alarm from {7|sys_time|old_time} to {7:30|sys_time|new_time}
+change the alarm on {Wednesday|sys_time|old_time} to {7:30|sys_time|new_time}
 change the time on my alarm
-edit my {7 am|time|oldtime} alarm to {7:30 am|time|newtime}
-modify my {7am|time|oldtime} alarm to {7:30am|time|newtime}
-move alarm for {6 am|time|oldtime} to {7 am|time|newtime}
-move alarm for {tonight|time|oldtime} to {8 pm|time|newtime}
-move my {7 pm|time|oldtime} alarm to {6 pm|time|newtime}
-please change my alarm {tomorrow|time|oldtime} alarm to {8 am|time|newtime}
-push the alarm for {7am|time|oldtime} to {8am|time|newtime}
-replace my {6 a m|time|oldtime} alarm with a {6:30 a m|time|newtime} alarm
-switch my alarm from {12 pm|time|oldtime} to {1pm|time|newtime}
-update my alarm for my {tomorrow morning|time|oldtime} to {830am|time|newtime}
+edit my {7 am|sys_time|old_time} alarm to {7:30 am|sys_time|new_time}
+modify my {7am|sys_time|old_time} alarm to {7:30am|sys_time|new_time}
+move alarm for {6 am|sys_time|old_time} to {7 am|sys_time|new_time}
+move alarm for {tonight|sys_interval|old_time} to {8 pm|sys_time|new_time}
+move my {7 pm|sys_time|old_time} alarm to {6 pm|sys_time|new_time}
+please change my alarm {tomorrow|sys_time|old_time} alarm to {8 am|sys_time|new_time}
+push the alarm for {7am|sys_time|old_time} to {8am|sys_time|new_time}
+replace my {6 a m|sys_time|old_time} alarm with a {6:30 a m|sys_time|new_time} alarm
+update my alarm for my {tomorrow morning|sys_interval|old_time} to {830 am|sys_time|new_time}
+change my {11 am|sys_time|old_time} alarm to {thursday at 11am|sys_time|new_time}
+change my {midnight|sys_time|old_time} alarm to {thursday at 11am|sys_time|new_time}
+move alarm for {midnight|sys_time|old_time} to {7 am|sys_time|new_time}
+change my alarm to {midnight|sys_time|new_time}
+change alarm to {midnight|sys_time|new_time}
+reschedule my {10 am|sys_time|old_time} alarm to monday night at {midnight|sys_time|new_time}

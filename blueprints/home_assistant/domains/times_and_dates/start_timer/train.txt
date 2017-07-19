@@ -97,7 +97,7 @@ timer set for {45 minutes|duration}
 turn on the timer
 turn on the timer
 turn the timer on for {5 minutes|duration}
-alert me {in 20 minutes|time|newtime}
+alert me {in 20 minutes|sys_time|new_time}
 start my timer
 start the timer
 start {half hour|duration} nap time timer
