@@ -119,16 +119,63 @@ def update_frame(entities, frame):
             'cname': cname
         }
         # When the entity type is a system entity, we store its value which could be
-        # used like filtering with range if necessary.
+        # used for filtering with range if necessary.
         if entity_type in {'sys_time', 'sys_interval'}:
             new_entity['value'] = entity_values[0]
 
         # In this blueprint, we accumulate all entities.
         # That is, if we already have a 'title' and we receive another one, keep both in the frame.
-        existing_entities.append(new_entity)
+        existing_entities = update_existing_entities(new_entity, existing_entities)
 
         frame[entity_type] = existing_entities
     return frame
+
+
+def update_existing_entities(new_entity, existing_entities):
+    """
+    This method decides if we add the new entity to the frame or not. The rules are the following:
+
+    1) Only add it if it's not already there.
+    2) For 'type' and 'sort' entities, we keep only the newest one.
+
+    Returns:
+        list: the new list of entities
+    """
+    entity_type = new_entity.get('type', '')
+    entity_values = new_entity.get('value', [])
+    entity_text = new_entity.get('text')
+    
+    cname = None
+    if entity_values:
+        cname = entity_values[0].get('cname', None)
+
+    if len(existing_entities) == 0:
+        existing_entities.append(new_entity)
+    elif entity_type == 'type' or entity_type == 'sort':
+        existing_entities = [new_entity]
+    else:
+        entity_exists = False
+        for existing_entity in existing_entities:
+
+            # First get all info we need to compare the entities
+            existing_entity_values = existing_entity.get('value', [])
+            existing_cname = None
+            if existing_entity_values:
+                existing_cname = existing_entity_values[0].get('cname', None)
+
+            existing_entity_text = existing_entity.get('text')
+
+            # Now make the comparisons
+            if cname and existing_cname and (cname == existing_cname):
+                entity_exists = True
+
+            if entity_text.lower() == existing_entity_text.lower():
+                entity_exists = True
+
+        if not entity_exists:
+            existing_entities.append(new_entity)
+
+    return existing_entities
 
 
 def get_video_content(frame):
