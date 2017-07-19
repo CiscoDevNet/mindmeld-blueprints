@@ -236,5 +236,5 @@ set {midnight|sys_time|new_time} alarm for us tomorrow
 wake me up {midnight|sys_time|new_time}
 set an alarm for {midnight|sys_time|new_time}
 please set an alarm for {midnight|sys_time|new_time}
-please turn on my {midnight|sys_interval|new_time} alarm
+please turn on my {midnight|sys_time|new_time} alarm
 wake me up {at midnight|sys_time|new_time}
