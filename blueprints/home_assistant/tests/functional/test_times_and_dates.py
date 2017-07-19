@@ -7,6 +7,8 @@ class TestTimesAndDates(ConversationalTest):
         ('set alarm for 6:15am this morning', '06:15:00'),
         ('wake me up tomorrow night at 9:32pm', '21:32:00'),
         ('begin an alarm', 'At what time?'),
+        ('wake me up tomorrow night at 12am', '00:00:00'),
+        ('wake me up tomorrow at 12 pm', '12:00:00')
     ]
 
     @pytest.mark.parametrize("set_query, expected_response",
