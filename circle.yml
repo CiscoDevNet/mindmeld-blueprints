@@ -27,7 +27,7 @@ test:
     - python -c "from mmworkbench.ser import parse_numerics; parse_numerics('100 degrees')"
   override:
     - ./lintme
-    - cd blueprints/home_assistant && python app.py build
+    - cd blueprints/home_assistant && python app.py build && ./testme
 
 deployment:
   s3:
