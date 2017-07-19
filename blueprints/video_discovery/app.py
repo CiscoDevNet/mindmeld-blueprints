@@ -25,10 +25,11 @@ GENERAL_SUGGESTIONS = [{'text': 'Most popular', 'type': 'text'},
                        {'text': 'Dramas', 'type': 'text'},
                        {'text': 'Sci-Fi', 'type': 'text'}]
 
-# Convert from mallard format like '2002-01-01T00:00:00.000-07:00'
-MALLARD_YEAR_INDEX = 10
+# Convert timestamps from mallard format to date
+# Example: '2002-01-01T00:00:00.000-07:00' to '2002-01-01'
+MALLARD_DATE_SPLIT_INDEX = 10
 
-# Map entity name to field names in knowledge base
+# Map entity names to field names in knowledge base
 ENTITY_TO_FIELD = {
     'type': 'doc_type',
     'genre': 'genres',
@@ -42,6 +43,7 @@ def welcome(context, slots, responder):
     """
     When the user starts a conversation, say hi.
     """
+    # Provide some randomness by choosing greeting from a list randomly
     greetings = ['Hello', 'Hi', 'Hey']
     try:
         # Get user's name from session information in request context to personalize the greeting.
@@ -88,8 +90,6 @@ def show_content(context, slots, responder):
 def update_frame(entities, frame):
     """
     Update the entities in the frame with the new entities in the 'entities' dict.
-    For now, I think we should accumulate all entities.
-    That is, if we already have a 'title' and we receive another one, keep both in the frame.
 
     Args:
         entities (list of dict): current entities
@@ -99,18 +99,32 @@ def update_frame(entities, frame):
     """
     for entity in entities:
         entity_type = entity.get('type', '')
-        existing_entities = frame.get(entity_type, [])
         entity_values = entity.get('value', [])
+
+        # Extract entities which already exists in the frame
+        # from previous interactions.
+        existing_entities = frame.get(entity_type, [])
+
+        # Store the first canonical name if available,
+        # which could be used later as a filter if necessary.
         cname = None
         if entity_values:
             cname = entity_values[0].get('cname', None)
+
+        # We also store 'text' info which could be used when generating
+        # natural language responses.
         new_entity = {
             'type': entity_type,
             'text': entity.get('text', ''),
             'cname': cname
         }
+        # When the entity type is a system entity, we store its value which could be
+        # used like filtering with range if necessary.
         if entity_type in {'sys_time', 'sys_interval'}:
             new_entity['value'] = entity_values[0]
+
+        # In this blueprint, we accumulate all entities.
+        # That is, if we already have a 'title' and we receive another one, keep both in the frame.
         existing_entities.append(new_entity)
 
         frame[entity_type] = existing_entities
@@ -128,18 +142,26 @@ def get_video_content(frame):
     Returns:
         (list of dict): documents from QuestionAsnwer
     """
+    # Initialize Search object with index name, to achieve better
+    # accuracy, we use 'and' as 'query_clauses_operator' here.
+    # If the recall matters for a blueprint, we could also use 'or'.
     search = app.question_answerer.build_search(KB_INDEX_NAME, {'query_clauses_operator': 'and'})
 
+    # We divide our entities into two categories:
+    # 'search_entities' are for general text search.
+    # 'filter_entities' would try to find exact match.
     search_entities = {'title'}
     filter_entities = {'cast', 'director', 'genre', 'type', 'country'}
 
+    # Building corresponding clauses in Search object.
     for entity in get_next_entity(frame, search_entities):
         search = search.query(**entity)
 
     for entity in get_next_entity(frame, filter_entities):
         search = search.filter(**entity)
 
-    # Sort entity
+    # For entities about sorting, we map the entity names to field name in KB
+    # and also the direction of sorting.
     sort_entities = {
         'latest': ('release_date', 'desc'),
         'oldest': ('release_date', 'asc'),
@@ -162,25 +184,32 @@ def get_video_content(frame):
     if not sorted_by_popularity:
         search = search.sort(field='popularity', sort_type='desc', location=None)
 
-    # Handle sys_time
+    # Handle sys_time, we only handle `release_year` in this blueprint.
+    # For example, when user says 'action movies from 1998.'. We would
+    # filter out all movies which are not released in 1998.
     if 'sys_time' in frame:
         entity_value = frame['sys_time'][0]['value']
-        release_year = get_release_year(entity_value['value'][:MALLARD_YEAR_INDEX])
+        release_year = get_release_year(entity_value['value'][:MALLARD_DATE_SPLIT_INDEX])
         search = search.filter(field='release_year',
                                gte=release_year, lte=release_year)
 
-    # Handle sys_interval
+    # Handle sys_interval, similar to sys_time, user can say
+    # 'Action movies in 90s.' and we would filter movies by a range of time.
     if 'sys_interval' in frame:
         interval_start, interval_end = frame['sys_interval'][0]['value']['value']
-        interval_start = get_release_year(interval_start[:MALLARD_YEAR_INDEX])
-        interval_end = get_release_year(interval_end[:MALLARD_YEAR_INDEX])
+        interval_start = get_release_year(interval_start[:MALLARD_DATE_SPLIT_INDEX])
+        interval_end = get_release_year(interval_end[:MALLARD_DATE_SPLIT_INDEX])
         search = search.filter(field='release_year',
                                gte=interval_start, lte=interval_end)
-
+    # We've got all we need for the Search object and it's ready to fetch documents
+    # from KB. Developer should be careful here since the KB instances could be hosted
+    # remotely and it's possible to get some kind of issues like Network Connections.
     try:
         results = search.execute()
         logging.info('Got {} results from KB.'.format(len(results)))
     except Exception as e:
+        # When something bad happens, we should log the exception and decide what
+        # would be a reasonable response to user. Here we just return an empty list.
         logging.info(e)
         results = []
 
@@ -232,7 +261,7 @@ def build_browse_response(context, slots, results):
         slots (dict): current slots
         results (list of dict): documents from QuestionAnswerer
     Returns:
-        #TODO: reply, videos_client_action, prompt
+        #TODO(for juan): reply, videos_client_action, prompt
     """
     reply = ''
     videos_client_action = {}
@@ -457,23 +486,23 @@ def get_default_videos():
 
 def get_next_entity(frame, entities):
     """
-    Get the next entity in a frame in it's in the list of given entities.
+    Yield the next entity in a frame if this entity in the list of given entities.
 
     Args:
         frame (dict): current frame
         entities (dict): entities we are interested
     Yields:
-        dict: {entity name: entity value}
+        dict: {field name: clause value}
     """
-    for entity in entities:
-        if entity not in frame:
+    for entity_name in entities:
+        if entity_name not in frame:
             continue
-        entity_name = ENTITY_TO_FIELD.get(entity, entity)
-        for entity_value in frame[entity]:
+        field_name = ENTITY_TO_FIELD.get(entity_name, entity_name)
+        for entity_value in frame[entity_name]:
             clause_value = entity_value.get('cname')
             if not clause_value:
                 clause_value = entity_value['text']
-            yield {entity_name: clause_value}
+            yield {field_name: clause_value}
 
 
 def get_release_year(release_date):
