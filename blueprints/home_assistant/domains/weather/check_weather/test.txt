@@ -18,16 +18,20 @@ tell me what the temperature is in {berlin|city}
 tell me {madrid|city} temperature
 tell me what the temperature is in {brussels|city}
 what is the temperature in {philadelphia|city}
-what is the temperature in {rome|city} right now
+what is the temperature in {rome|city} {right now|sys_time}
 what is current temperature in {jefferson city|city}
 what is the current temperature in {prague|city}
 what s the temperature outside
-what s the temperature outside right now
+what s the temperature outside {right now|sys_time}
 what s the temperature in {cancun|city}
-what s the temperature in {toronto|city} right now
+what s the temperature in {toronto|city} {right now|sys_time}
 what s the current temperature in {berlin|city}
 what s current temperature in {shanghai|city}
 {beijing|city} temperature
 current temperature in {honolulu|city}
 {taipei|city} current temperature
-{san francisco|city} temperature now
+{chennai|city} current temperature
+{san francisco|city} temperature {now|sys_time}
+{london|city} weather
+temperature in {san fran|city}
+how's the weather in the {big apple|city}
