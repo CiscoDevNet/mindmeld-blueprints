@@ -144,7 +144,7 @@ def update_existing_entities(new_entity, existing_entities):
     entity_type = new_entity.get('type', '')
     entity_values = new_entity.get('value', [])
     entity_text = new_entity.get('text')
-    
+
     cname = None
     if entity_values:
         cname = entity_values[0].get('cname', None)
@@ -320,7 +320,7 @@ def build_browse_response(context, slots, results):
         # Since user reached a dead-end here, clear the frame.
         context['frame'] = {}
 
-        return reply, videos_client_action, prompt
+        return reply, videos_client_action
 
     else:
         # Build the language response based on the slots available.
@@ -485,7 +485,7 @@ def default(context, slots, responder):
 def get_default_videos_action():
     """
     Get a client action with the most recent and popular videos.
-        
+
     Returns:
         dict: the client action containing the video results
     """
