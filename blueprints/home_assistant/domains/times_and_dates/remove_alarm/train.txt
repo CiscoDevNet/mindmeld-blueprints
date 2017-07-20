@@ -8,7 +8,7 @@ alarms off
 set {all|all} alarms off
 can you delete {all|all} of my alarms
 cancel {6 pm|sys_time} alarm
-cancel {tomorrow night|interval} s alarms
+cancel {tomorrow night|sys_interval} s alarms
 cancel {thursday|sys_time} s alarm
 cancel {tomorrow|sys_time} s alarm
 cancel {all|all} alarms
