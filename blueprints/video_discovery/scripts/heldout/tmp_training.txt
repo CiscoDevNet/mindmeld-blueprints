@@ -1,0 +1,2932 @@
+train_mturk_00.txt	Are there any other {shows|type} like {Breaking Bad|title}?
+train_05.txt	i want to watch {the sound of music|title}
+train_02.txt	give me a {movie|type} with {seth rogen|cast} and {james franco|cast}
+train_00.txt	what {sci fi|genre} type {tv shows|type} are on
+train_mturk_00.txt	Could you find a silent {film|type} with {Charlie Chaplin|cast}?
+train_mturk_00.txt	What are {popular|sort} {movies|type} with {Jason Statham|cast}?
+train_03.txt	give me all the {movies|type} with {will smith|cast} in it
+train_02.txt	show me {movies|type} with {samuel l jackson|cast}
+train_02.txt	{movies|type} directed by {christopher nolan|director}
+train_03.txt	{movies|type} by {chiranjeevi|cast}
+train_mturk_00.txt	What else is {Tom Cruise|cast} from?
+train_03.txt	show me {quentin tarantino|director} {movies|type}
+train_01.txt	show me {movies|type} with {vin diesel|cast}
+train_05.txt	show me {movies|type} with house in the title
+train_mturk_00.txt	Who is the director of the {movie|type} {the mummy|title}?
+train_03.txt	list of {movies|type} with {christopher lee|cast}
+train_04.txt	play {the exorcist|title}
+train_04.txt	show {movies|type} that have {ryan gosling|cast} in them
+train_03.txt	show me all the {movies|type} you have with {james franco|cast}
+train_00.txt	are there any {shows|type} about {animals|genre}?
+train_00.txt	what {historical|genre} type {shows|type} are on
+train_02.txt	{sandra bullock|cast} {film|type}
+train_05.txt	show me all {comedies|genre} with {ed norton|cast}
+train_01.txt	{transformers|title} with {mark wahlberg|cast}
+train_03.txt	play {star trek|title}
+train_00.txt	show me {movies|type} about horses
+train_02.txt	{movies|type} by {amitabh bachchan|cast}
+train_04.txt	find some {movies|type} directed by {nagisa oshima|director}
+train_05.txt	let me see {the wedding planner|title}
+train_01.txt	show me {crime|genre} {shows|type}
+train_04.txt	show me {comedy|genre} {movies|type} with {adam sandler|cast}
+train_range_00.txt	show me {romantic comedies|genre} {from this year|sys_time|range}
+train_mturk_00.txt	Are there any {new|sort} {horror|genre} {movies|type}?
+train_05.txt	find the {bride of frankenstein|title}
+train_03.txt	show me {classic|sort} {scary|genre} {movies|type}
+train_04.txt	show me the {newest|sort} version of {annie|title}
+train_00.txt	show me {series|type} directed by {James Widdoes|director}
+train_04.txt	find and play the {goosebumps|title} {movie|type}
+train_04.txt	play {clockwork orange|title}
+train_range_00.txt	show me {crime drama|genre} {movies|type} {made after 2000|sys_time|range}
+train_01.txt	show me {movies|type} starring {armie hammer|cast}
+train_02.txt	show me {movies|type} starring both {sylvester stallone|cast} and {arnold schwarzenegger|cast}
+train_00.txt	{tv shows|type} staring {bryan cranston|cast}
+train_00.txt	take me to the {handball|genre} game
+train_00.txt	i want to find {romance|genre} {movies|type}
+train_01.txt	show me any {show|type} with {aziz ansari|cast}
+train_02.txt	what s the {woody allen|director} {movie|type} with {meryl streep|cast}
+train_mturk_00.txt	What is the {most|sort} {shocking accident|genre} videos ever ?
+train_02.txt	the one where {steve carell|cast} did the voiceover for the main character
+train_04.txt	please play {edward scissorhands|title}
+train_00.txt	filter {movies|type} to only include those with actor {brad pitt|cast}
+train_range_00.txt	please play {walking dead|title} season 5
+train_04.txt	{mall cop 2|title} {movie|type}
+train_02.txt	show me {movies|type} with {roger moore|cast}
+train_01.txt	show me {science fiction|genre} {shows|type}
+train_04.txt	show me {movies|type} with i love you in the name
+train_mturk_00.txt	Are there any {movies|type} with {Tom Cruise|cast} and {Johnny Depp|cast}?
+train_mturk_00.txt	Are there any {new|sort} {Family Guy|title} episodes out {this year|sys_time|range}?
+train_04.txt	start playing {iron man|title}
+train_mturk_00.txt	what are the special {programs|type} available now
+train_03.txt	what are some {harrison ford|cast} {movies|type}
+train_04.txt	show the {movie|type} {across the universe|title}
+train_01.txt	find a {movie|type} with {winona ryder|cast}
+train_00.txt	show me a {most successful|sort} list of {comedy|genre} {film|type} monthly
+train_00.txt	i want to watch a {music|genre} {documentaries|genre}
+train_05.txt	let me see {eternal sunshine|title}
+train_range_00.txt	please play {suit|title} season 5
+train_01.txt	find {standup|genre} {comedies|genre}
+train_05.txt	let s watch {the notebook|title}
+train_02.txt	{the good the bad and the ugly|title}
+train_mturk_00.txt	Are there good {movies|type} similar to {XXY|title} (I mean the one made in {Argentina|country})?
+train_01.txt	what {jim carrey|cast} {movies|type} are on
+train_range_00.txt	i want to see {lie to me|title} season 5 again
+train_05.txt	play the original {to kill a mockingbird|title}
+train_03.txt	show me the {best|sort} {anime|genre}
+train_mturk_00.txt	What comic book, {adventure|genre} {movies|type} are showing?
+train_01.txt	can you turn to a {cooking|genre} {show|type}
+train_02.txt	what are some {movies|type} with {cameron diaz|cast}
+train_04.txt	start {super troopers|title}
+train_mturk_00.txt	Who played Dr. Sloan on {Grey's Anatomy|title}?
+train_04.txt	i want to watch {the little mermaid|title}
+train_mturk_00.txt	{Best|sort} {comedies|genre} of {2017|sys_time|range}.
+train_01.txt	what {action|genre} {movies|type} are currently on
+train_04.txt	search for {the ghost and mrs muir|title}
+train_02.txt	the {christopher nolan|director} {movie|type} about chicago
+train_00.txt	go to {the big game|title}
+train_01.txt	what {scifi|genre} {shows|type} are available to watch
+train_01.txt	are there any {movies or tv shows|type} with {bradley cooper|cast} currently playing
+train_00.txt	take me to {wheel of fortune|title}
+train_03.txt	play a random criterion collection {movie|type}
+train_04.txt	play {monty python and the holy grail|title}
+train_mturk_00.txt	What is the {newest|sort} {movie|type} out right now?
+train_range_00.txt	i want to watch {romance|genre} {movies|type} {from the 80s|sys_interval|range}
+train_range_00.txt	i want to watch {romance|genre} {movies|type} {from the 80s|sys_interval|range}
+train_range_00.txt	i want to watch {romance|genre} {movies|type} {from the 80s|sys_interval|range}
+train_range_00.txt	show me {movies|type} {from the 1950s|sys_interval|range}
+train_03.txt	i m in the mood for something creepy
+train_00.txt	what {horror|genre} {movies|type} are on
+train_03.txt	show me a list of psychological {dramas|genre}
+train_04.txt	can you play {the transporter|title}
+train_03.txt	what {movies|type} came out within the last week
+train_03.txt	{terminator|title}
+train_01.txt	show me {movies|type} with {robert de niro|cast}
+train_01.txt	show me {movies|type} with {robert de niro|cast}
+train_00.txt	show me some {movies|type} directed by {peter jackson|director}
+train_03.txt	do you have any {movies|type} with {kevin bacon|cast}
+train_04.txt	start the {corpse bride|title}
+train_03.txt	what {comedy|genre} {movies|type} starred {james franco|cast}
+train_03.txt	what s the {highest rated|sort} {documentary|genre} about artificial intelligence
+train_02.txt	show me some {julia roberts|cast} {movies|type}
+train_00.txt	suggest me some {horror|genre} {movies|type}
+train_04.txt	i want to watch {corpse bride|title}
+train_mturk_00.txt	show {popular|sort} {90|genre}'s {TV shows|type}
+train_mturk_00.txt	which was the {most popular|sort} sitcom in {the past 5 years|sys_interval|range}?
+train_02.txt	{movies|type} directed by {martin scorsese|director}
+train_02.txt	disney {movies|type} directed by {martin scorsese|director}
+train_04.txt	{labyrinth|title}
+train_02.txt	show me {movies|type} starring {johnny depp|cast}
+train_02.txt	{movies|type} directed by {sylvester stallone|director}
+train_04.txt	i want to watch {sci fi|genre} {action|genre} {movies|type}
+train_03.txt	show me {movies|type} with {m c gainey|cast}
+train_mturk_00.txt	What were the {top|sort} {teen|genre} {movies|type} in the {80's|sys_interval|range}?
+train_05.txt	browse through the catalogue in the {horror|genre} section
+train_02.txt	{arnold schwarzenegger|cast} {movie|type} about being pregnant
+train_01.txt	show my {favorites|title}
+train_01.txt	are there any {tarantino|director} {movies|type} on
+train_mturk_00.txt	Find some supernatural {horror|genre} {movies|type}.
+train_02.txt	{dirty dancing|title} {movie|type}
+train_02.txt	search for {movie|type} {prince of persia|title}
+train_03.txt	show me a {movie|type} about the boston red sox
+train_00.txt	show me roman {action|genre} {movies|type}
+train_03.txt	{fast and furious 7|title}
+train_mturk_00.txt	When will the next season of {Supernatural|title} come?
+train_mturk_00.txt	Do you have any {MTV|genre} {shows|type} on here?
+train_04.txt	play me {harry potter and the goblet of fire|title}
+train_04.txt	play {national treasure|title}
+train_00.txt	search for {tonight show|title}
+train_00.txt	show me {big|title}
+train_00.txt	please find {jepardy|title}
+train_03.txt	play {a nightmare on elm street|title}
+train_04.txt	go to the scene where neo fights agent smith in {the matrix|title}
+train_04.txt	please show me {movies|type} with manhattan in the title
+train_mturk_00.txt	season 7 release date for {game of thrones|title}?
+train_01.txt	{wild|title} with {reese witherspoon|cast}
+train_00.txt	{real time with bill maher|title}
+train_00.txt	{new|sort} {comedy|genre} series
+train_01.txt	what {comedy|genre} {shows|type} are playing
+train_range_00.txt	what {movies|type} was {harrison ford|cast} {in 1999|sys_time|range}
+train_00.txt	show me {showings|type} that just started
+train_mturk_00.txt	Can I watch a {movie|type} with {George Clooney|cast}?
+train_03.txt	display the {highest rated|sort} {movies|type}
+train_02.txt	i m looking for a {movie|type} about navy ships
+train_00.txt	filter {shows|type} to only include those with actor {nicolas cage|cast}
+train_04.txt	show me {flight of the navigator|title}
+train_02.txt	{jurassic park|title}
+train_04.txt	i want to watch {scary|genre} {movies|type}
+train_04.txt	can you launch {men in black|title} for me
+train_00.txt	go to the {tonight show|title}
+train_range_00.txt	{johnny depp|cast} {movies|type} {in the last 5 years|sys_interval|range}
+train_04.txt	can you find the {movie|type} called {amadeus|title}
+train_04.txt	play {the breakfast club|title}
+train_mturk_00.txt	List the name of {movies|type} of {Keanu Reeves|cast}?
+train_01.txt	i would like to view the {shows|type} with {angelina jolie|cast}
+train_02.txt	what are some {movies|type} with {ethan hawke|cast}
+train_range_00.txt	{movies|type} {from the 70s|sys_interval|range}
+train_02.txt	i want to see a {sci fi|genre} {movie|type}
+train_01.txt	do you have {the lego movie|title}
+train_02.txt	i want to watch a {documentary|genre} about the dominican republic
+train_05.txt	i want to watch {dumb and dumber|title}
+train_03.txt	i want to watch {the goonies|title}
+train_01.txt	i want to see the {most recent|sort} {sci fi|genre} {movie|type}
+train_00.txt	{apocalypse now|title}
+train_range_00.txt	what is a good {movie|type} {from the 80 s|sys_interval|range}
+train_00.txt	is there any {comedy|genre} {movies|type} on
+train_03.txt	load the {film|type} {once upon a time in mexico|title}
+train_mturk_00.txt	When will the {newest|sort} {Star Trek|title} {movie|type} come out?
+train_00.txt	show {old|sort} {tonight show|title} episodes
+train_02.txt	what is the {movie|type} where aliens invade the earth in la
+train_range_00.txt	show me {movies|type} {from the 90s|sys_interval|range}
+train_range_00.txt	show me {movies|type} {from the 90s|sys_interval|range}
+train_03.txt	i want to see a kung fu {movie|type} starring {jackie chan|cast}
+train_02.txt	what was that {movie|type} with president whitmore
+train_03.txt	what {movie|type} did {clint eastwood|cast} make after unforgiven
+train_00.txt	find all listing for {the sopranos|title}
+train_04.txt	can you bring up {the lion king|title}
+train_01.txt	what was the {first|sort} {movie|type} that starred {michael j fox|cast}
+train_04.txt	play {the expendables|title} {movie|type}
+train_01.txt	what is the complete list of {movies|type} that {charlie hunnam|cast} has starred in
+train_02.txt	what are the {highest rated|sort} {martial arts|genre} {movies|type} of all time
+train_04.txt	put on {drive|title}
+train_02.txt	what is the {movie|type} about nikita
+train_mturk_00.txt	Can I see a {romance|genre} {movie|type} from {2016|sys_time|range} with a rate of above 8
+train_05.txt	want to watch {game of thrones|title} {series|type}
+train_mturk_00.txt	Find {Australian|country} {movies|type} that have won Logie awards.
+train_02.txt	show me some superhero {movies|type}
+train_02.txt	cult {movies|type}
+train_03.txt	show me the list of pixar {movies|type}
+train_05.txt	play {star wars episode iv|title}
+train_03.txt	play a {fantasy|genre} {movie|type} with a female lead
+train_02.txt	show me {movies|type} with {jay leno|cast}
+train_04.txt	show {movies|type} similar to {the breakfast club|title}
+train_04.txt	i want to watch {armageddon|title}
+train_mturk_00.txt	I want to watch {Game of Thrones|title}.
+train_range_00.txt	show {south park|title} season 5 {in chronological order|sort}
+train_00.txt	what's the {movie|type} about tennis players starring {kirsten dunst|cast}
+train_00.txt	anything {funny|genre} showing
+train_mturk_00.txt	What are the ratings of {Despicable Me 3|title}?
+train_mturk_00.txt	What's an interesting {documentary|genre} to watch?
+train_04.txt	play {lion king|title}
+train_02.txt	i want to watch an {animation|genre} {movie|type} about lions
+train_04.txt	play {the matrix|title}
+train_mturk_00.txt	Who won {Best|sort} Actor Oscar in {1998|sys_time|range}?
+train_mturk_00.txt	Can you find me a {black and white|genre} {movie|type} from {1950|sys_time|range}?
+train_01.txt	any {movie|type} that {joseph gordon levitt|cast} stars in
+train_00.txt	does {true blood|title} come on soon
+train_01.txt	show me {movies|type} that just started
+train_03.txt	what is the name of that {quentin tarantino|director} {movie|type} where {jamie foxx|cast} plays a freed slave
+train_00.txt	{noah|title}
+train_01.txt	what is the {oldest|sort} {charlize theron|cast} {movie|type} that is available
+train_00.txt	Show me an {action|genre} {movie|type}
+train_02.txt	the {latest|sort} {kevin costner|cast} {movies|type}
+train_03.txt	play me a {comedy|genre} or {romantic comedy|genre} {movie|type}
+train_range_00.txt	{great|sort} {action|genre} {movies|type} {from the 60s|sys_interval|range}
+train_03.txt	what {movies|type} starred {julia roberts|cast}
+train_01.txt	{show|type} popular {cartoons|genre}
+train_00.txt	surf for {sports|genre}
+train_00.txt	surf for {sports|genre}
+train_02.txt	let s watch {forrest gump|title}
+train_02.txt	show me {movies|type} about israel
+train_00.txt	i want to see {movies|type} featuring {Jonathan Pryce|cast}
+train_01.txt	tv please locate {the walking dead|title}
+train_04.txt	play {alfred hitchcock|director} s {last|sort} {film|type}
+train_03.txt	are any of these {movies|type} rated r
+train_00.txt	Show me a {cooking|genre} {show|type}
+train_05.txt	start the {movie|type} {finding nemo|title}
+train_04.txt	start playing {judge dredd|title}
+train_02.txt	i want to see {muppets most wanted|title}
+train_03.txt	i want a {movie|type} with a strong female lead
+train_01.txt	show me a list of the {latest|sort} {documentaries|genre}
+train_04.txt	launch {fear and loathing in las vegas|title}
+train_00.txt	any {movies|type} starting soon
+train_01.txt	what {children|genre} {shows|type} are playing
+train_03.txt	show me all the {movies|type} starring {ben affleck|cast}
+train_03.txt	what are the {top|sort} 5 {romantic comedies|genre}
+train_01.txt	{fargo|title}
+train_03.txt	please show {fast and furious|title}
+train_05.txt	play the {movie|type} {primer|title}
+train_01.txt	show me {movies|type} directed by the {coen brothers|director}
+train_mturk_00.txt	What is the {most popular|sort} {TV|type} right now?
+train_00.txt	i want to check out {action|genre} {movies|type}
+train_03.txt	show me all {joss whedon|director} {movies|type}
+train_03.txt	i want to see all the pixar {movies|type}
+train_02.txt	what's the {movie|type} with young {dustin hoffman|cast} where he gets seduced by mrs robinson
+train_mturk_00.txt	What are some {family sitcoms|genre} from 1980's.
+train_03.txt	i want to see all {movies|type} that cast {ben stiller|cast}
+train_05.txt	play {the quiet man|title}
+train_00.txt	filter {tv shows|type} to only include those with actor {liam neeson|cast}
+train_mturk_00.txt	Can I see {crime dramas|genre} from the {90s|sys_interval|range}?
+train_02.txt	what are some {George Clooney|cast} {movies|type} where he robs millions of dollars in Las Vegas
+train_01.txt	i want to see {movies|type} with {ryan gosling|cast} in them
+train_02.txt	what was that {movie|type} with the boy wizard
+train_00.txt	are there any {movies|type} on staring {john candy|cast}
+train_05.txt	what s the {movie|type} that has snakes in the title
+train_04.txt	i would like to watch {spider man|title}
+train_03.txt	find me a {movie|type} i would like
+train_03.txt	show me {recent|sort} {comedies|genre}
+train_00.txt	i want to watch {cars|title}
+train_00.txt	what is that {alfred hitchcock|director} {movie|type} that has a scene on mount rushmore
+train_01.txt	are there any {movies|type} with {adam sandler|cast} and {chris farley|cast}
+train_03.txt	play the {movie|type} where {kate hudson|cast} and {matthew mcconaughey|cast} play deep sea treasure hunters
+train_03.txt	show me {movies|type} with {jon hamm|cast}
+train_mturk_00.txt	Which is the {current|sort} {highly rated|sort} {TV show|type}?
+train_04.txt	let s watch {pitch perfect 2|title}
+train_01.txt	please show me {movies|type} with {johnny depp|cast}
+train_01.txt	change it to something {funny|genre}
+train_00.txt	show me a list of {series|type} contain {brad pitt|cast}
+train_range_00.txt	show me {comedies|genre} {from the 1970 s|sys_interval|range}
+train_03.txt	{comedy|genre} {movies|type}
+train_01.txt	show me episodes of {glee|title} with with {cory monteith|cast}
+train_03.txt	i m looking for {movies|type} directed by {christopher nolan|director}
+train_range_00.txt	please play {game of thrones|title} season 5
+train_03.txt	show me {wes anderson|director} {movies|type}
+train_mturk_00.txt	Show me the {highest rated|sort} {sci-fi|genre} {movie|type} from the {80s|sys_interval|range}
+train_02.txt	what {movies|type} have {justin timberlake|cast} in them
+train_01.txt	can i see a {brad pitt|cast} {movie|type}
+train_03.txt	please open {gone with the wind|title} {movie|type}
+train_mturk_00.txt	What {shows|type} are {educational|genre} for {toddlers|genre}?
+train_01.txt	show me {movies|type} with {hugh jackman|cast}
+train_01.txt	are there any {movies|type} currently on that star {brad pitt|cast}
+train_04.txt	show me {ghostbusters|title}
+train_03.txt	find me all {drama|genre} {movies|type} that involve sports related plots
+train_00.txt	lets watch the {today|title} {show|type}
+train_04.txt	find {police academy|title} {films|type}
+train_00.txt	what was {kevin costner|cast} s {most successful|sort} {movie|type}
+train_01.txt	show me some {james cameron|director} {movies|type}
+train_02.txt	{oblivion|title} with {tom cruise|cast}
+train_03.txt	show me {dark spot|title}
+train_02.txt	which {movie|type} has {angelina jolie|cast}
+train_00.txt	show me {movies|type} relevant to {kids|genre}
+train_01.txt	can you suggest some good {bollywood|country} {movies|type}
+train_01.txt	play me {recent|sort} {comedy|genre} {movies|type}
+train_00.txt	i m looking for the {movie|type} called {shawshank redemption|title}
+train_03.txt	show me all {movies|type} based on stephen king books
+train_04.txt	play {life of pi|title}
+train_00.txt	show me {movies|type} with {julia roberts|cast}
+train_mturk_00.txt	Can I see {movies|type} about {wars|genre}?
+train_03.txt	what s a good kung fu {movie|type}
+train_05.txt	{it's always sunny in philadelphia|title}
+train_02.txt	{tom cruise|cast} {films|type}
+train_05.txt	show me {movies|type} with devil in the name
+train_01.txt	what {drama|genre} {movies|type} are about to start
+train_range_00.txt	show me {romantic comedy|genre} {movies|type} {from the 90s|sys_interval|range}
+train_00.txt	what s the {movie|type} with {robin williams|cast} where he s a talk show host who runs for president
+train_03.txt	show me the {worst rated|sort} {movie|type} starring {clint eastwood|cast}
+train_01.txt	show me {shows|type} with {sophia bush|cast}
+train_mturk_00.txt	A good late night {thriller|genre}
+train_02.txt	mandela {movie|type}
+train_03.txt	{movies|type} with beautiful actresses
+train_03.txt	show me {movies|type} with {nicolas cage|cast}
+train_01.txt	show me a {show|type} with {will smith|cast}
+train_01.txt	show me {movies|type} with {tom hanks|cast}
+train_01.txt	show me {movies|type} with {tom hanks|cast}
+train_00.txt	how many {top|sort} 10 all time {movie|type} are available to watch
+train_03.txt	what {movies|type} has {keanu reeves|cast} played in
+train_mturk_00.txt	What is the {longest|sort} {running|genre} {tv show|type}
+train_02.txt	what s the {movie|type} with the volleyball and {tom hanks|cast}
+train_04.txt	i would like to watch {halloween|title} by {rob zombie|director}
+train_mturk_00.txt	What are great {movies|type} for when you are {sad|genre}?
+train_02.txt	what is that {movie|type} where {tom hanks|cast} is stranded on a deserted island
+train_mturk_00.txt	What is on {masterpiece theater|genre} {pbs|genre} {this month|sys_time|range}
+train_03.txt	{ted|title}
+train_00.txt	{tv shows|type} staring {nicolas|cast}
+train_02.txt	{movies|type} produced by disney
+train_05.txt	play the {movie|type} {ricki and the flash|title}
+train_01.txt	i d like to watch {documentaries|genre}
+train_mturk_00.txt	How many {movies|type} are there with {Mark Wahlberg|cast}?
+train_02.txt	a {dustin hoffman|cast} {movie|type}
+train_03.txt	i want to see any {movie|type} with {mark wahlberg|cast}
+train_04.txt	i want to watch {a clockwork orange|title}
+train_04.txt	please find {les miserables|title} for me
+train_01.txt	i want to watch a {sci fi|genre} {tv show|type}
+train_01.txt	show me all {andy sandberg|cast} {show|type} episodes
+train_04.txt	find {movies|type} including {back to the future|title}
+train_04.txt	play {the martian|title}
+train_mturk_00.txt	Can you show me all the {Tom Cruise|cast} {movies|type}?
+train_01.txt	tv can you show me some {comedy|genre}
+train_03.txt	show me the {best rated|sort} {movies|type} by director {rob zombie|director}
+train_mturk_00.txt	Is there a {new|sort} {popular|sort} {show|type}?
+train_00.txt	show the {football|genre} game
+train_02.txt	{george clooney|cast} {movies|type}
+train_01.txt	show me any {movies|type} directed by {michael bay|director}
+train_04.txt	play the {shortest|sort} {movie|type} that {steven spielberg|director} directed
+train_mturk_00.txt	I'm looking for a really {scary|genre} {horror|genre} {movie|type} - maybe one that {tops|sort} scariest {movies|type} lists out there?
+train_00.txt	{movies|type} based on tom clancy novels
+train_03.txt	{watership down|title}
+train_mturk_00.txt	When does the {new|sort} {Will and Grace|title} start?
+train_00.txt	show me {movies|type} that just started
+train_03.txt	i would like to see all {movies|type} with {tom hiddleston|cast}
+train_01.txt	what's the {movie|type} with {michael douglas|cast} where he plans to get his wife murdered
+train_mturk_00.txt	What is the {most watched|sort} {TV show|type} of {the year|sys_time|range}?
+train_00.txt	show me some {movies|type} directed by {clint eastwood|director}
+train_03.txt	show me a {thriller|genre} that stars {jeff daniels|cast}
+train_mturk_00.txt	Which genre has the {highest rated|sort} {movies|type}?
+train_00.txt	show me all the {shows|type} that {Christopher Nolan|director} is involved with
+train_02.txt	show me {movies|type} with {kevin bacon|cast}
+train_05.txt	i want to see {castaway|title}
+train_00.txt	what is the full list of television {shows|type} created by {martin scorsese|director}
+train_04.txt	show me {the green mile|title}
+train_03.txt	i want an {old|sort} {scary|genre} {movie|type} for halloween
+train_03.txt	what is the {most reviewed|sort} {movie|type}
+train_03.txt	{american|country} {movies|type} from {will smith|cast}
+train_01.txt	{science fiction|genre} {movies|type} with {tom cruise|cast}
+train_04.txt	bring up {jurassic world|title}
+train_00.txt	show me a list of {series|type} contain {Jonathan Pryce|cast}
+train_02.txt	what is the {latest|sort} {richard gere|cast} {movie|type}
+train_04.txt	show me all disney {movies|type}
+train_03.txt	what is the {movie|type} that shows {van damme|cast} totally naked in a mirror
+train_04.txt	show me {movies|type} my wife will love
+train_03.txt	show me bloody {horror|genre} {movies|type}
+train_03.txt	show me all {movies|type} with {jon voight|cast}
+train_01.txt	show {grey s anatomy|title}
+train_02.txt	show me {movies|type} directed by {jackie chan|director}
+train_01.txt	display {movies|type} with {sandra bullock|cast}
+train_04.txt	what are some {movie|type} with {johnny knoxville|cast}
+train_04.txt	show me series {movies|type}
+train_03.txt	find me {movies|type} with {brad pitt|cast}
+train_01.txt	list {horror|genre} please
+train_00.txt	what s the {latest|sort} {sandra bullock|cast} {movie|type}
+train_00.txt	show me {pretty woman|title}
+train_01.txt	find a {tom cruise|cast} {flick|type}
+train_03.txt	what {films|type} was {eddie murphy|cast} in
+train_05.txt	show me {chasing amy|title}
+train_mturk_00.txt	What's the {drama|genre} with the {highest viewer rating|sort}?
+train_04.txt	i want to watch {the white diamond|title}
+train_mturk_00.txt	Any good {documentaries|genre}
+train_03.txt	i want to see {comedy|genre} {movies|type} starring {tom hanks|cast}
+train_01.txt	what is the {movie|type} where {julia roberts|cast} plays a prostitute
+train_02.txt	{the matrix|title}
+train_00.txt	search for {the voice|title}
+train_03.txt	display {movies|type} that take place in paris
+train_03.txt	i want to see the {movie|type} with {sean patrick thomas|cast} and {julia stiles|cast}
+train_04.txt	play the {movie|type} {the hangover|title}
+train_mturk_00.txt	What shows are people in my age group watching?
+train_04.txt	can i see {the longest yard|title}
+train_02.txt	what is the {tom hardy|cast} {movie|type} where he s a super villain
+train_02.txt	i want to see a {comedy|genre} with {will smith|cast}
+train_03.txt	can you play {star wars|title}
+train_02.txt	show me that {movie|type} with the big white robot named baymax
+train_04.txt	i feel like watching {daddy day care|title}
+train_01.txt	find me anything with aliens and {action|genre}
+train_range_00.txt	show me {horror|genre} {movies|type} {from the 80 s|sys_interval|range}
+train_00.txt	display list {popular|sort} {movies|type}
+train_mturk_00.txt	What's the {best|sort} modern {silent movie|title}?
+train_02.txt	i want to see {the interpreter|title}
+train_03.txt	show me the {first|sort} {movie|type} made by {christopher nolan|director}
+train_04.txt	i wish to watch {the godfather|title}
+train_02.txt	show me {ghostbusters|title}
+train_03.txt	show me {movies|type} set on alien planets
+train_04.txt	find {scudda hoo scudda hay|title}
+train_04.txt	i want to watch the {avengers|title}
+train_01.txt	list all {movies|type} by director {woody allen|director}
+train_03.txt	i want to see the {best|sort} {movie|type} that {michael j fox|cast} did
+train_03.txt	play the {lowest rated|sort} rotten tomatoes {film|type}
+train_03.txt	i want to see one of {jack nicholson|cast} s {first|sort} {movies|type}
+train_02.txt	{thrillers|genre}
+train_05.txt	show me the {movie|type} {sniper|title}
+train_02.txt	{lincoln lawyer|title}
+train_00.txt	find all listing for {how to train your dragon 2|title}
+train_02.txt	show me some {korean|country} {movies|type}
+train_00.txt	i want to watch {bozo|title}
+train_mturk_00.txt	What's a good {science fiction|genre} {movie|type} from {the last year|sys_interval|range}?
+train_00.txt	filter {tv shows|type} to only include those with actor {Jonathan Pryce|cast}
+train_mturk_00.txt	What are some {movies|type} with {Faye Dunaway|cast}?
+train_01.txt	classic {noir|genre} {movies|type}
+train_04.txt	start playing {the little mermaid|title}
+train_03.txt	what is the {highest rated|sort} {matt damon|cast} {movie|type}
+train_00.txt	next {gone in the wind|title}
+train_02.txt	i want to watch {aliens|title}
+train_04.txt	start the {american dad|title}
+train_00.txt	i want to watch {breaking bad|title}
+train_02.txt	what is the {movie|type} where a bunch of tourists are taken hostage on alcatraz by terrorists
+train_02.txt	show me the {highest rated|sort} {horror|genre} {movie|type}
+train_02.txt	{spider man|title}
+train_02.txt	{artificial intelligence|title}
+train_mturk_00.txt	Can you find some short {movies|type}?
+train_00.txt	what was {helen hunt|cast} s {most recent|sort} {movie|type}
+train_04.txt	{jurassic park|title}
+train_mturk_00.txt	I would like a list of {Vince Vaughn|cast} {movies|type}.
+train_mturk_00.txt	Which {movies|type} are {best|sort} for the weekend?
+train_01.txt	i want to watch a {comedy|genre}
+train_00.txt	what is the {movie|type} where {kevin costner|cast} played baseball
+train_mturk_00.txt	What is the {best|sort} {Bond|title} {movie|type}?
+train_04.txt	are there any {movies|type} about pennsylvania
+train_mturk_00.txt	Show me {movies|type} like {The Princess Bride|title}.
+train_02.txt	what s the name of the {movie|type} with {mel gibson|cast} and the scottish revolution
+train_03.txt	show me {movies|type} {nathan fillion|cast} has appeared in
+train_01.txt	show me {romantic comedies|genre} playing now
+train_03.txt	what is the {movie|type} with kids losing their dad s baseball
+train_00.txt	find {movies|type}
+train_03.txt	show me sports {movies|type}
+train_02.txt	search for {independence day|title}
+train_02.txt	search for {independence day|title}
+train_04.txt	search for {inside out|title}
+train_02.txt	{joseph gordon levitt|cast} s {new|sort} {movie|type}
+train_02.txt	{jim carrey|cast} {movie|type} where he is living in a reality show
+train_mturk_00.txt	Has {Sandra Bullock|cast} been in some good {movies|type} since {Gravity|title}?
+train_03.txt	i want to watch {tangled|title}
+train_00.txt	display list general {tv shows|type}
+train_mturk_00.txt	Can you show me {small wonders|title} {TV shows|type} from the {90s|sys_interval|range}?
+train_mturk_00.txt	{new|sort} {kids|genre} {tv show|type}
+train_00.txt	show me {shows|type} relevant to {kids|genre}
+train_00.txt	is {brooklyn nine nine|title} on
+train_00.txt	{jobs|title} with {ashton kutcher|cast}
+train_mturk_00.txt	Suggest {films|type} directed by {Steven Spielberg|director}.
+train_04.txt	let s watch {pulp fiction|title}
+train_03.txt	show me all {bruce willis|cast} {movies|type}
+train_04.txt	i m looking for the {movie|type} {the wolf of wall street|title}
+train_range_00.txt	i want to see {south park|title} season 5 again
+train_05.txt	put on {magic mike|title}
+train_range_00.txt	are there any {2015|sys_time|range} {documentaries|genre} available
+train_04.txt	i want to watch {magnolia|title}
+train_05.txt	watch {friday the 13th|title}
+train_mturk_00.txt	which {TV show|type} is {trending|sort} now?
+train_04.txt	please show {waiting for guffman|title}
+train_03.txt	what can i watch that has {samuel jackson|cast}
+train_02.txt	what was the {most popular|sort} kung fu {movie|type}
+train_04.txt	i want to watch {the color purple|title}
+train_02.txt	show me the {latest|sort} disney {movies|type}
+train_03.txt	show me {movies|type} categorized as {comedy|genre}
+train_03.txt	i d like to see some {popular|sort} concert {movies|type} please
+train_04.txt	watch {casablanca|title}
+train_05.txt	i would like to see the remake of {psycho|title}
+train_04.txt	watch {pee-wee's big adventure|title}
+train_02.txt	what s the space {movie|type} with {sandra bullock|cast}
+train_00.txt	show me {movie|type} that just started
+train_03.txt	what {films|type} were directed by {m night shyamalan|director}
+train_01.txt	show me {movies|type} made by {quentin tarantino|director}
+train_00.txt	i want to watch a {horror|genre} {movie|type}
+train_01.txt	show me {movies|type} with {denzel washington|cast}
+train_00.txt	find me {bluebloods|title} re runs
+train_mturk_00.txt	What is everyone else watching the {most|sort} {right now|sys_time|range}?
+train_01.txt	find me a {drama|genre} directed by {joss whedon|director}
+train_mturk_00.txt	{Last|sort} {film|type} starring {Johnny Depp|cast}
+train_mturk_00.txt	What are high ranking {horror|genre} {movies|type} from {2016|sys_time|range}?
+train_00.txt	i feel like watching a {sci fi|genre} {film|type}
+train_05.txt	show me all the {doctor who|title} {movies|type}
+train_00.txt	filter {tv shows|type} to only include those with actor {nicolas|cast}
+train_00.txt	find me {survivor|title}
+train_02.txt	what s that {movie|type} about hitler and a violin
+train_mturk_00.txt	{Popular|sort} {movies|type} right now.
+train_00.txt	what {comedy|genre} type {tv shows|type} are on
+train_02.txt	what is a {keanu reeves|cast} {movie|type} where he becomes a robot
+train_02.txt	{films|type} about space
+train_05.txt	play {the shawshank redemption|title}
+train_mturk_00.txt	What are the {most successful|sort} {movies|type} at the box office {this summer|sys_time|range}?
+train_01.txt	look for {john wayne|cast} {movies|type}
+train_00.txt	show me a {most successful|sort} list of {action|genre} {film|type} monthly
+train_01.txt	show me {m night shyamalan|director} s {latest|sort} work
+train_mturk_00.txt	Which {movie|type} should I watch in the evening?
+train_01.txt	{brad pitt|cast} {movies|type}
+train_04.txt	play {delta force|title}
+train_00.txt	Show all Christmas specials
+train_00.txt	what are some {movies|type} with {owen wilson|cast}
+train_02.txt	show me all the {woody allen|cast} {movies|type}
+train_04.txt	get me {for your eyes only|title} starring {roger moore|cast}
+train_01.txt	show me a {movie|type} about julia roberts
+train_04.txt	show all titles with {adam sandler|cast} in them
+train_02.txt	a {scary|genre} {movie|type} with {jennifer lopez|cast}
+train_range_00.txt	may i see the {movie|type} {airplane|title} {from 1980|sys_time|range}
+train_03.txt	show {recent|sort} {james cameron|director} {movies|type}
+train_02.txt	show me some {jennifer lopez|cast} {movies|type}
+train_04.txt	please play {san andreas|title}
+train_02.txt	what s that {clint eastwood|director} {movie|type} where he lives next to a hmong family
+train_02.txt	what is the {best rated|sort} {macaulay culkin|cast} {movie|type}
+train_03.txt	i want to watch {transformers|title}
+train_01.txt	search for {broad city|title}
+train_02.txt	show me {romantic|genre} teen {comedies|genre}
+train_01.txt	are there any {movies or shows|type} with {matt bomer|cast} playing
+train_04.txt	{the notebook|title} now
+train_04.txt	go to {fast and the furious|title}
+train_00.txt	find a {western|genre} {movie|type}
+train_mturk_00.txt	Show me some {movies|type} about World War I.
+train_03.txt	{martin scorsese|director} s {best reviewed|sort} {movies|type}
+train_05.txt	play the {movie|type} {highlander|title} please
+train_02.txt	{hot potato|title}
+train_04.txt	i would like to watch {when harry met sally|title}
+train_03.txt	is there a {movie|type} with gory {animation|genre} in english
+train_00.txt	find all listing for {handball|genre} game
+train_01.txt	show me {movies|type} starring {nathan fillion|cast} and directed by {joss whedon|director}
+train_03.txt	i want to see {quentin tarantino|director} s {first|sort} {movie|type}
+train_mturk_00.txt	I want to look up all the {talk shows|genre} which had {Carrie Fisher|cast} as a guest back in the {90's|sys_interval|range}. I want to watch them all.
+train_01.txt	show me all {sports|genre}
+train_00.txt	show me {basketball|genre} games
+train_03.txt	play {saw|title}
+train_00.txt	is {izombie|title} on
+train_00.txt	switch to {better call saul|title}
+train_04.txt	could you give me a {movie|type} line up
+train_mturk_00.txt	{Spongebob|title} or {Fairy Odd Parents|title}?
+train_mturk_00.txt	List {war|genre} {movies|type} with {Owen Wilson|cast}.
+train_mturk_00.txt	What are the {newest|sort} {Animes|genre} that are out?
+train_01.txt	what show has {ice cube|cast} in it
+train_03.txt	what {movies|type} was {elvis presley|cast} in
+train_01.txt	the {tonight show|title} listing
+train_04.txt	play {to live and die in l a|title}
+train_00.txt	show me roman {action|genre} {shows|type}
+train_01.txt	show me {movies|type} with oscar winning actors in it
+train_02.txt	the {movie|type} {shawshank redemption|title}
+train_00.txt	play {Chappie|title}
+train_mturk_00.txt	Can I see a {John Wayne|cast} {Movie|type} from {1954|sys_time|range}?
+train_00.txt	are there any {sci-fi|genre} {shows|type}?
+train_04.txt	play {movies|type} of {horror|genre}
+train_01.txt	find me {movies|type} by {michael bay|director}
+train_04.txt	i want to watch {paul newman|cast} s {first|sort} {movie|type}
+train_02.txt	{movies|type} where {hugh jackman|cast} plays a superhero
+train_00.txt	i want to watch a {cartoon|genre}
+train_mturk_00.txt	What year was the {first|sort} {Monday Night Football|title} game?
+train_03.txt	show me {movies|type} directed by {clint eastwood|director}
+train_02.txt	{wes anderson|director} {movies|type}
+train_04.txt	show me {movies|type} with {avengers|title} in the name
+train_04.txt	stream {the dark knight|title}
+train_03.txt	show me the {movie|type} in which {tom hanks|cast} is named forrest
+train_03.txt	show me a {movie|type} that takes place in france
+train_03.txt	i d like to see what {coen brothers|director} {movies|type} are available
+train_02.txt	show me some {movies|type} directed by {karan johar|director}
+train_04.txt	do you have {movies|type} with waterfall in the title
+train_03.txt	what is the {movie|type} with {sandra bullock|cast} on a speeding bus
+train_01.txt	show me {comedy|genre} {shows|type}
+train_03.txt	show me {animated|genre} {movies|type} with the most singing
+train_mturk_00.txt	Are there any {movies|type} about the Central Intelligence Agency?
+train_03.txt	play a {sci fi|genre} {film|type}
+train_00.txt	what is the full list of television {shows|type} created by {christopher nolan|director}
+train_04.txt	start {the wizard of oz|title}
+train_05.txt	i would like to watch the {film|type} {garden state|title}
+train_02.txt	show me some {science fiction|genre} {movies|type}
+train_01.txt	find {drama|genre} series
+train_04.txt	get me any {horror|genre} {film|type} with zombies in the title
+train_02.txt	show me some {movies|type} with {kristin kreuk|cast}
+train_04.txt	please find all {johnny depp|cast} {movies|type}
+train_00.txt	show me {comedies|genre}
+train_mturk_00.txt	What's a good {tearjerker|genre} {movie|type}?
+train_00.txt	pull up a list of {shows|type} by name
+train_mturk_00.txt	Can I see the {latest|sort} {Superbowl|title}?
+train_00.txt	has {jerry springer|cast} started yet
+train_03.txt	{al pacino|cast} {classic|sort} {movie|type}
+train_03.txt	which {movie|type} has {christian bale|cast}
+train_03.txt	play the {movie|type} {miracle mile|title}
+train_04.txt	can you play {the usual suspects|title}
+train_04.txt	show me {movies|type} for halloween
+train_mturk_00.txt	What's the {most popular|sort} {film|type} for {Halloween|genre}?
+train_05.txt	i d like to watch the {best rated|sort} {bill murray|cast} {movie|type}
+train_mturk_00.txt	Are there any {new|sort} {kids|genre} {shows|type} added?
+train_01.txt	search for {movies|type} by {quentin tarantino|director}
+train_04.txt	start {the simpsons movie|title}
+train_02.txt	{bradley cooper|cast} s {best rated|sort} {movie|type}
+train_03.txt	show me {christopher nolan|director} {films|type}
+train_00.txt	let s see {not another teen movie|title}
+train_03.txt	show me {movies|type} with {ben stiller|cast}
+train_04.txt	do you have {grave of the fireflies|title}
+train_00.txt	whats the {movie|type} with {sandra bullock|cast} at a beauty pageant
+train_mturk_00.txt	Where can I find {obscure|sort} {tv series|type} from the {1960s|sys_interval|range}?
+train_02.txt	i want to watch some {movies|type} about george washington
+train_02.txt	{movies|type} with {rihanna|cast}
+train_00.txt	filter {shows|type} to only include those with actor {brad pitt|cast}
+train_02.txt	show me some prom {movie|type}
+train_00.txt	show me {action|genre} genre
+train_02.txt	i love {march of the penguins|title}
+train_04.txt	who is the {music|genre} composer in the amazing spiderman
+train_mturk_00.txt	What's a good rainy day {movie|type}?
+train_04.txt	i d like to watch {legend|title}
+train_03.txt	i want to watch {godfather|title}
+train_00.txt	show me the {movie|type} where {jack black|cast} is a rocker
+train_03.txt	i want to watch a {movie|type} with lots of sex but well written and good
+train_03.txt	list the {top|sort} 15 christmas themed {movies|type}
+train_02.txt	i want to find {crazy stupid love|title}
+train_00.txt	i feel like watching a {handball|genre} game
+train_range_00.txt	please play {the office|title} season 5
+train_01.txt	{tv shows|type} staring {will smith|cast}
+train_04.txt	i would like to watch {casablanca|title}
+train_00.txt	look for {Jonathan Rhys Meyers|cast} {movies|type}
+train_02.txt	{arnold schwarzenegger|cast} {latest|sort} {movie|type}
+train_04.txt	show me {johnny depp|cast} {movies|type}
+train_01.txt	the {highest rated|sort} {movies|type} of all time
+train_mturk_00.txt	Can I see some {movies|type} related to Agatha Christie Novels
+train_00.txt	show me {tv shows|type} relevant to {action|genre}
+train_01.txt	are there any {movies|type} starring {tom cruise|cast} on
+train_01.txt	are there any {baseball|genre} games on
+train_01.txt	display {movies|type} starring {leonardo dicaprio|cast}
+train_03.txt	show me the {latest|sort} remake of {godzilla|title}
+train_range_00.txt	i want to see {the office|title} season 5 again
+train_03.txt	i want to watch {indiana jones|title}
+train_range_00.txt	i want to see {movies|type} that are {top rated|sort} {from the last 2 years|sys_interval|range}
+train_02.txt	double o 7 {movies|type} with {sean connery|cast}
+train_00.txt	{comedy|genre} {movie|type}
+train_04.txt	play {hocus pocus|title}
+train_04.txt	play {hocus pocus|title}
+train_03.txt	what is that {movie|type} with {goldie hawn|cast} where {chevy chase|cast} is her ex husband
+train_02.txt	{movie|type} starring {alicia silverstone|cast}
+train_04.txt	what is the rating of the {film|type} {the hobbit|title}
+train_mturk_00.txt	Can I see some {dramatic|genre} {war|genre} themed {films|type}?
+train_03.txt	what {action|genre} {movies|type} have {chris hemsworth|cast}
+train_03.txt	show me the {best rated|sort} {vietnam|country} {films|type}
+train_03.txt	i want to see the {best rated|sort} on the rotten tomatoes
+train_02.txt	i want to watch a {movie|type} with {harrison ford|cast} in it that is {funny|genre}
+train_03.txt	play the {top rated|sort} {m night shyamalan|director} {movie|type}
+train_mturk_00.txt	Can you find a {kids|genre} {show|type} without violence?
+train_01.txt	what is the full list of television {shows|type} created by {kurt sutter|director}
+train_04.txt	watch {the shawshank redemption|title}
+train_range_00.txt	what s coming {out next week|sys_time|range}
+train_02.txt	a {horror|genre} {movie|type} with {jennifer love hewitt|cast}
+train_01.txt	show me a {comedy|genre} {show|type}
+train_03.txt	{heaven|title}
+train_03.txt	show me {movie|type} directed by {james cameron|director}
+train_01.txt	what {comedy|genre} {movies|type} are on
+train_04.txt	let s watch {maze runner|title}
+train_02.txt	show me the {latest|sort} {movies|type}
+train_02.txt	you have any {tom hanks|cast} {movies|type}
+train_04.txt	{baby s day out|title}
+train_02.txt	show me {movies|type} with {ryan gosling|cast}
+train_03.txt	show me {movies|type} with {william shatner|cast}
+train_01.txt	locate all {horror|genre} {movies|type}
+train_01.txt	show me {shows|type} with {tina fey|cast}
+train_01.txt	do you have any {movies|type} with {nicolas cage|cast}
+train_range_00.txt	please play {the big bang theory|title} season 5
+train_02.txt	show me some {romantic comedies|genre}
+train_02.txt	{the imitation game|title}
+train_02.txt	i want to see {movies|type} about volcanoes
+train_00.txt	view {the walking dead|title}
+train_01.txt	what {movies|type} have car chases
+train_02.txt	{spider-man|title}
+train_00.txt	show me {tonight show|title}
+train_01.txt	show me {movies|type} about {boxing|genre}
+train_02.txt	{jake gyllenhaal|cast} {movie|type} about rabbits
+train_03.txt	i want to see a {movie|type} with {brad pitt|cast} in it
+train_01.txt	{movies|type} with {hugh grant|cast} in them
+train_02.txt	what is that {tom cruise|cast} {movie|type} where he does his own stunts
+train_mturk_00.txt	I feel like watching a {Western|genre}.
+train_05.txt	browse all {films|type} starring {brad pitt|cast}
+train_04.txt	show me {movies|type} with tits in them
+train_mturk_00.txt	Can you show me {popular|sort} {kids|genre} {movies|type} from the {1980s|sys_interval|range}?
+train_01.txt	show me {horror|genre} {movies|type}
+train_01.txt	show me {horror|genre} {movies|type}
+train_01.txt	show me {horror|genre} {movies|type}
+train_00.txt	put on some {simpsons|title}
+train_00.txt	an old lucy show
+train_01.txt	let me see {comedy|genre} {shows|type}
+train_03.txt	show me all seasons of {supernatural|title}
+train_04.txt	give me {moonrise kingdom|title}
+train_04.txt	i want to watch the {film|type} {x men first class|title}
+train_03.txt	show me all {coen brothers|director} {movies|type}
+train_01.txt	show {basketball|genre} games
+train_01.txt	show me all {movies|type} with {brad pitt|cast}
+train_01.txt	what {comedy|genre} {movies|type} are currently airing
+train_04.txt	start playing {eternal sunshine of the spotless mind|title}
+train_mturk_00.txt	What {Movie|type} starred {Jim Carey|cast} and {Jeff Daniels|cast}?
+train_04.txt	i want to watch {fast and furious 7|title}
+train_mturk_00.txt	I want teen {dramas|genre} from the {1990's|sys_interval|range}.
+train_02.txt	do you have any {tom hanks|cast} {movie|type}
+train_01.txt	open up last week tonight
+train_01.txt	{wes anderson|director} {movies|type}
+train_05.txt	start up {the sixth sense|title}
+train_04.txt	play {bug s life|title}
+train_mturk_00.txt	Play a {show|type} with {action|genre} and {adventure|genre}
+train_02.txt	show me the {new|sort} {movies|type}
+train_03.txt	play that {movie|type} based on a philip k dick book
+train_03.txt	i want to watch {american horror story|title}
+train_01.txt	i want to watch the {nba|genre} playoffs
+train_04.txt	load {out cold|title}
+train_04.txt	is the {south park|title} {movie|type} available
+train_04.txt	let s watch {the purge|title}
+train_05.txt	play {being john malkovich|title}
+train_01.txt	show all {shows|type} with {matthew fox|cast}
+train_03.txt	is {sleepy hollow|title} available to watch
+train_00.txt	what {action|genre} type {shows|type} are on
+train_mturk_00.txt	What is the {best|sort} {movie|type} playing {right now|sys_time|range}?
+train_01.txt	what s the next {movie|type} directed by {j j abrams|director}
+train_mturk_00.txt	I want to watch any {Alfred Hitchcock|director}'s {movie|type}
+train_range_00.txt	i want to see {walking dead|title} season 5 again
+train_03.txt	show me some {matt damon|cast} {movies|type}
+train_00.txt	telugu {movies|type}
+train_02.txt	{highest rated|sort} {movies|type} of all time
+train_05.txt	show me {12 monkeys|title}
+train_01.txt	show me {movies|type} with {mark hamill|cast}
+train_01.txt	show me something {funny|genre} with {kevin hart|cast}
+train_02.txt	let s watch {avatar|title}
+train_00.txt	Show me christmas {movies|type}
+train_mturk_00.txt	When does the {new|sort} season of {Stranger Things|title} start?
+train_03.txt	show me {movies|type} with {jessica alba|cast}
+train_02.txt	what was that {movie|type} with {ryan gosling|cast} and {christina hendricks|cast}
+train_00.txt	what is the full list of television {shows|type} created by {alfred hitchcock|director}
+train_03.txt	show me a {movie|type} with {william shatner|cast}
+train_04.txt	find me {harry potter and the prisoner of azkaban|title}
+train_02.txt	i am looking for {chinese|country} {movies|type}
+train_03.txt	show me {movies|type} with {jim carrey|cast} in them
+train_mturk_00.txt	Could you play the {latest|sort} {Scarlett Johanson|cast} {movie|type}?
+train_04.txt	show me the {back to the future|title} {movie|type} choices
+train_00.txt	show me something {funny|genre}
+train_02.txt	do you have any kung fu {movies|type} with {jackie chan|cast}
+train_mturk_00.txt	Can I see the list of {best|sort} {comedy|genre} {movies|type} of {all time|sys_interval|range}?
+train_03.txt	show me the 100 {top rated|sort} {films|type} of all time
+train_03.txt	play me a {romantic|genre} {film|type} that s been in theaters
+train_00.txt	show me roman {historical|genre} {tv show|type}
+train_03.txt	{jackie chan|cast} {films|type}
+train_00.txt	search for {cartoon|genre} {movies|type}
+train_00.txt	let s watch {braveheart|title}
+train_00.txt	show me a list of {series|type} contain {nicolas|cast}
+train_00.txt	show me the {movies|type} with {ken watanabe|cast}
+train_03.txt	{johnny depp|cast} {classic|sort}
+train_04.txt	start {the wire|title} show
+train_05.txt	play {to be or not to be|title}
+train_02.txt	what s the {movie|type} with {luke wilson|cast} and {maya rudolph|cast}
+train_00.txt	show me {movie|type} relevant to {kids|genre}
+train_03.txt	show me {popular|sort} {horror|genre} {movies|type}
+train_01.txt	find {seinfeld|title} for me
+train_mturk_00.txt	What is the {best|sort} {romantic comedy|genre} with {Kate Hudson|cast}?
+train_03.txt	show me {horror|genre} {movies|type}
+train_03.txt	show me {horror|genre} {movies|type}
+train_03.txt	{john goodman|cast} {movie|type}
+train_02.txt	{ali g|title}
+train_00.txt	{tv shows|type} staring {will smith|cast}
+train_00.txt	show me {kids|genre} genre
+train_03.txt	show me {whoopi goldberg|cast} s {latest|sort} {movie|type}
+train_01.txt	{what's new|sort}
+train_02.txt	something about magic
+train_04.txt	show me the {movies|type} in {horror|genre}
+train_01.txt	are there any {horror|genre} {movies|type} available
+train_01.txt	whats the {movie|type} where {julie andrews|cast} sings
+train_03.txt	i want to see {william shatner|cast} s {best rated|sort} {movies|type}
+train_05.txt	pull up fairy {movies|type} {for kids|genre}
+train_00.txt	filter {shows|type} to only include those with actor {Jonathan Pryce|cast}
+train_range_00.txt	please play {grey s anatomy|title} season 5
+train_04.txt	find me {toy story|title}
+train_mturk_00.txt	Show me {box office hits|sort} {from the 90s|sys_interval|range}.
+train_mturk_00.txt	watch {day after tomorrow|title}
+train_02.txt	i want to see {mission impossible|title}
+train_02.txt	{new|sort} {joseph gordon levitt|cast} {movie|type}
+train_03.txt	please show me spy {movies|type}
+train_04.txt	choose the {titanic|title} {movie|type}
+train_05.txt	do you have {the lion king|title} to watch
+train_00.txt	what is the full list of television {shows|type} created by {steven spielberg|director}
+train_01.txt	switch to {jimmy fallon|title}
+train_05.txt	play {mission impossible 4|title}
+train_mturk_00.txt	What {reality|genre} shows have {new|sort} episodes coming out right now?
+train_03.txt	show me {movies|type} with {matt damon|cast} directed by {martin scorsese|director}
+train_mturk_00.txt	Show me a {popular|sort} {documentary|genre} that I haven't seen.
+train_01.txt	show me {comedy|genre} {movies|type}
+train_01.txt	show me {comedy|genre} {movies|type}
+train_mturk_00.txt	What are some {90s|sys_interval|range} {movies|type} with {Nicole Kidman|cast} in them?
+train_00.txt	what {action|genre} {shows|type} are on
+train_range_00.txt	please play {game of throne|title} season 5
+train_03.txt	show me {horror|genre} {movies|type} released between the years of 1970 and 1990
+train_02.txt	{super 8|title}
+train_01.txt	search for {comedy|genre}
+train_04.txt	play {the hunger games catching fire|title}
+train_02.txt	what s the {kevin bacon|cast} {movie|type} where he s crazy
+train_mturk_00.txt	Show me {comedy|genre} {movies|type} from {2014|sys_time|range}.
+train_01.txt	show me anything directed by {mel gibson|director}
+train_03.txt	show me {movies|type} that have to do with ghosts
+train_mturk_00.txt	Can you give me a list of {top|sort} 10 {rom coms|genre} of {this year|sys_time|range}?
+train_range_00.txt	{top|sort} {movies|type} {of 2015|sys_time|range}
+train_mturk_00.txt	Find a listing of {shows|type} with nudity
+train_03.txt	i want to watch the {first|sort} {back to the future|title}
+train_00.txt	find me a good {action|genre} {movie|type}
+train_mturk_00.txt	Show me {movies|type} with {Robin Williams|cast}.
+train_01.txt	sort by {movies|type} please
+train_04.txt	list all {movies|type} with {bill murray|cast}
+train_03.txt	tell me all the {romance|genre} {movies|type} related to ireland
+train_03.txt	find {top|sort} {bill murray|cast} {movies|type}
+train_01.txt	find me all {crime|genre} {shows|type}
+train_01.txt	play a {drama|genre} {movie|type} showing now
+train_01.txt	what {crime|genre} {tv shows|type} come on
+train_00.txt	show me {true crime|title} {programs|type}
+train_04.txt	play the {movie|type} {need for speed|title}
+train_mturk_00.txt	Show me a series like {Fargo|title}
+train_00.txt	play {soccer|genre} match
+train_mturk_00.txt	Can see the {newest|sort} {war|genre} {movies|type}?
+train_04.txt	show me the {avengers age of ultron|title}
+train_mturk_00.txt	Any {movies|type} with {John Wayne|cast}?
+train_00.txt	show me {horror|genre} genre
+train_00.txt	show me {horror|genre} genre
+train_00.txt	show me {exercise|genre} genre
+train_03.txt	could you please show me {movies|type} that star {will ferrell|cast}
+train_mturk_00.txt	What is the show timing of The Originals TV series and on which channel?
+train_mturk_00.txt	Play {Johnny Depp|cast}'s {newest|sort} {movie|type} please.
+train_04.txt	get me {die hard 3|title}
+train_mturk_00.txt	Go {houses|title}
+train_01.txt	what {horror|genre} {movies|type} are currently on
+train_01.txt	display all {films|type} with {james franco|cast}
+train_mturk_00.txt	What {movie|type} won the Oscar, for {best|sort} {film|type}, in {1956|sys_time|range}?
+train_02.txt	{batman|title}
+train_04.txt	i want to see {the shawshank redemption|title}
+train_mturk_00.txt	What {animated|genre} {movie|type} won at the last Oscar's?
+train_00.txt	what {action|genre} {movie|type} are available to watch
+train_00.txt	take me to the {sci fi|genre} {film|type}
+train_01.txt	show me {movies|type} with {tom cruise|cast}
+train_02.txt	{jerry maguire|title} {movie|type}
+train_01.txt	show me {movies|type} with the {best|sort} rating
+train_03.txt	do you have any {movies|type} with {zac efron|cast} in them
+train_03.txt	show me disney {movies|type} about dogs
+train_02.txt	what s the {movie|type} where the guy says i ll be back
+train_04.txt	play the {movie|type} {titanic|title}
+train_02.txt	what is that {wes anderson|director} {movie|type} where {bill murray|cast} is an oceanographer
+train_mturk_00.txt	What is the {most popular|sort} {tv show|type} today?
+train_02.txt	could you show me the {movie|type} {the birds|title}
+train_00.txt	i d like to see a {horror|genre} {movie|type}
+train_01.txt	show me {romantic comedy|genre} {movies|type}
+train_mturk_00.txt	What was a {popular|sort} {tv show|type} from {1994|sys_time|range}?
+train_03.txt	what is the name of the {movie|type} where {johnny depp|cast} is evil barber
+train_01.txt	show me current {action|genre} {movies|type}
+train_03.txt	show me {movies|type} about magic
+train_01.txt	i want to watch {modern family|title}
+train_02.txt	{man of steel|title}
+train_04.txt	show {movies|type} like {top gun|title}
+train_range_00.txt	whats the {80s|sys_interval|range} {movie|type} with {tom cruise|cast} playing air guitar in his underwear
+train_00.txt	take me to the {music|genre} {film|type}
+train_01.txt	show me {tv shows|type} with {chris pratt|cast}
+train_03.txt	show me {the hobbit|title}
+train_03.txt	is there a list of all pixar {animated|genre} {movies|type} in your database
+train_mturk_00.txt	How many {movies|type} is {Leonardo DiCaprio|cast} in?
+train_mturk_00.txt	Can i see some {movies|type} with {Adam Sandler|cast}?
+train_mturk_00.txt	What are the {best-rated|sort} {movies|type} by female directors made in {the last 10 years|sys_interval|range}?
+train_04.txt	show me {movies|type} with {johnny depp|cast} starring in them
+train_04.txt	i want to watch {the transporter|title}
+train_04.txt	can you recommend me a {movie|type} about wrestling
+train_mturk_00.txt	What {movies|type} were directed by {Steven Spielberg|director}?
+train_04.txt	resume {the rules of attraction|title} from where i left off
+train_04.txt	show me all {movies|type} with nudity
+train_03.txt	play me the {movie|type} in which {denzel washington|cast} is a psychiatrist
+train_02.txt	show me disney {cartoon|genre} {movies|type}
+train_04.txt	please show me {kung pow enter the fist|title}
+train_03.txt	play a {movie|type} that {spielberg|director} directed
+train_mturk_00.txt	I want to watch {Alfred Hitchcock|director} {films|type}, can you suggest the {best|sort} one?
+train_02.txt	{sailor moon|title}
+train_02.txt	what {movies|type} did {jim jarmusch|director} direct
+train_mturk_00.txt	What {movie|type} won the Oscar for {best|sort} director in {1977|sys_time|range}?
+train_00.txt	does {24|title} come on soon
+train_04.txt	play {american psycho|title} from the beginning
+train_02.txt	all {movies|type} starring {dwayne johnson|cast}
+train_03.txt	can i see {amy schumer|cast} s {new|sort} {movie|type}
+train_03.txt	show me {highest rated|sort} {horror|genre} {movies|type}
+train_04.txt	i want to watch {x men first class|title}
+train_00.txt	find me {tonight show|title} episodes
+train_mturk_00.txt	What were the {most popular|sort} {action|genre} {movies|type} from {2015|sys_time|range}?
+train_01.txt	show me a list of {series|type} contain {bryan cranston|cast}
+train_mturk_00.txt	What are the {top|sort} 10 thrillers of {2016|sys_time|range}?
+train_00.txt	show me some {movies|type} with {cindy crawford|cast}
+train_02.txt	what s the {movie|type} with {tom cruise|cast} and {cuba gooding jr|cast}
+train_01.txt	can you find me {friends|title}
+train_03.txt	show me {back to the future|title}
+train_03.txt	show me {back to the future|title}
+train_03.txt	i want to watch {movies|type} with {dusk till dawn|title} in the title
+train_02.txt	what are some {movies|type} that {will smith|cast} stars with his son {jaden smith|cast}
+train_01.txt	find {new|sort} {tv shows|type}
+train_04.txt	show me {movies|type} with casper in the title
+train_mturk_00.txt	What do you suggest I watch with my {children|genre}?
+train_mturk_00.txt	What {television show|type} has {Kaley Cuoco|cast} worked on?
+train_01.txt	{the incredible burt wonderstone|title}
+train_01.txt	show me all the upcoming {documentaries|genre}
+train_00.txt	display listing for {nfl|genre} games
+train_04.txt	watch the {avengers|title}
+train_03.txt	is there a remake of {scarface|title}
+train_04.txt	play {die hard|title}
+train_03.txt	what are all the {wes anderson|director} {movies|type}
+train_01.txt	80s {comedies|genre} {bill murray|cast}
+train_00.txt	{iron man|title}
+train_05.txt	show the {movie|type} {the matrix|title}
+train_mturk_00.txt	What are some {sitcoms|genre} from the {1980s|sys_interval|range}?
+train_04.txt	i m interested in watching the {movie|type} {fight club|title}
+train_03.txt	show me {movies|type} involving artificial intelligence
+train_02.txt	which is the {most recent|sort} {movie|type} with {tom cruise|cast}
+train_mturk_00.txt	What {movies|type} were first shown at a {film|type} festival?
+train_01.txt	what {movies|type} with {brad pitt|cast} are showing
+train_mturk_00.txt	Can I see some {tv shows|type} about working women?
+train_04.txt	find me {movies|type} with {alec baldwin|cast} in them
+train_00.txt	show me {tv show|type} relevant to {action|genre}
+train_03.txt	find me a {movie|type} about the founding of microsoft
+train_mturk_00.txt	The {movie|type} {wonder women|title} is watchable or boring?
+train_02.txt	{movies|type} that are good {for kids|genre}
+train_01.txt	show me {comedy|genre} {tv shows|type}
+train_02.txt	{predator|title}
+train_01.txt	give me something {funny|genre} to watch
+train_05.txt	let me watch {jaws|title}
+train_02.txt	show me the {sci fi|genre} {movie|type} with {matthew mcconaughey|cast} where he travels to space
+train_00.txt	show me {the wire|title}
+train_04.txt	show me {gattaca|title}
+train_02.txt	the {movies|type} with {tommy lee jones|cast}
+train_range_00.txt	show me {horror|genre} {movies|type} {from the 1970s|sys_interval|range}
+train_02.txt	do you have any colorized {movies|type}
+train_range_00.txt	{movies|type} {released before 1995|sys_time|range}
+train_00.txt	{movies|type} staring {brad pitt|cast}
+train_02.txt	what is the {movie|type} where {tom cruise|cast} flies a plane
+train_00.txt	let s watch {casablanca|title}
+train_03.txt	show me every {john wayne|cast} {western|genre}
+train_04.txt	i want to watch {hancock|title}
+train_02.txt	i want to see {movies|type} directed by {steven spielberg|director}
+train_00.txt	do you have {how to train your dragon 2|title}
+train_mturk_00.txt	What is the {highest rated|sort} {batman|genre} {movie|type}?
+train_02.txt	show me a {romantic comedy|genre} with {tom cruise|cast}
+train_05.txt	i d like to see the {movie|type} {the proposal|title}
+train_03.txt	what are the {latest|sort} {movies|type}
+train_mturk_00.txt	Give me {comedies|genre} from the {80's|sys_interval|range}
+train_mturk_00.txt	Will you please show me {horror|genre} {movie|type} options?
+train_00.txt	{the lord of the rings|title}
+train_03.txt	show me {goosebumps|title}
+train_mturk_00.txt	Show me suggestions to watch right now.
+train_02.txt	what s that {movie|type} where {tom hanks|cast} talks to a volleyball
+train_range_00.txt	{2006|sys_time|range} {cinderella|title}
+train_04.txt	show me {movies|type} with {bradley cooper|cast}
+train_00.txt	do you have any {comedies|genre} on?
+train_mturk_00.txt	Search for list of {movies|type} of {will smith|cast}.
+train_03.txt	show me {top|sort} {horror|genre} {films|type}
+train_04.txt	find me {movies|type} like {interstellar|title}
+train_00.txt	i want to see {movies|type} featuring {liam neeson|cast}
+train_02.txt	{meesha shafi|cast} {movies|type}
+train_03.txt	will you show me {cartoons|genre} like {rick and morty|title}
+train_04.txt	please play {fast and furious 7|title} for me
+train_03.txt	what {movies|type} have {leonardo dicaprio|cast} and {christopher nolan|director} teaming up together
+train_01.txt	{seeking a friend for the end of the world|title}
+train_01.txt	are there any {shows|type} on with {larry david|cast}
+train_04.txt	i would like to watch the {evil dead 2|title}
+train_02.txt	show me {movies|type} directed by {clint eastwood|director}
+train_00.txt	show me {scifi|genre} {movies|type} to watch
+train_01.txt	i need a {film|type} with actor {johnny depp|cast}
+train_00.txt	show me {boyhood|title}
+train_mturk_00.txt	what {kids|genre} {films|type} star talking animals?
+train_range_00.txt	show me a list of all the {movies|type} about the holocaust {from the 2000s|sys_interval|range}
+train_00.txt	are there any {scary|genre} {movies|type} on
+train_04.txt	what {action|genre} {movies|type} are currently available
+train_04.txt	find {nightmare before christmas|title}
+train_02.txt	show me {movies|type} directed by {tom hanks|director}
+train_02.txt	what is {jim carrey|cast} s {highest grossing|sort} {movie|type}
+train_range_00.txt	i want to see {the big bang theory|title} season 5 again
+train_01.txt	show me {movies|type} by {tarantino|director}
+train_03.txt	show me the ten {best|sort} {movies|type} according to imdb
+train_02.txt	show me {movies|type} from {sandra bullock|cast}
+train_mturk_00.txt	Please find me {the Hunger games|title}.
+train_00.txt	{movies|type} staring {liam neeson|cast}
+train_mturk_00.txt	Show me the {top rated|sort} {action|genre} {films|type}.
+train_range_00.txt	i want to watch {romance|genre} {movies|type} {of the 80s|sys_interval|range}
+train_04.txt	start showing {the darjeeling limited|title}
+train_05.txt	show me {new|sort} {movies|type} with {clint eastwood|cast}
+train_03.txt	show me {movies|type} with {pierce brosnan|cast}
+train_03.txt	show me all {horror|genre} {movies|type}
+train_mturk_00.txt	Any {classic|sort} {Christmas|genre} {movies|type}?
+train_04.txt	{classic|sort} {movies|type} {montgomery clift|cast}
+train_00.txt	look for {Jonathan Loughran|cast} {movies|type}
+train_00.txt	show me {shows|type} relevant to {action|genre}
+train_00.txt	show me good nerd {movies|type}
+train_04.txt	show me {the dark knight rises|title}
+train_00.txt	show me some {romantic comedies|genre}
+train_00.txt	{best|sort} {action|genre}
+train_00.txt	which {movies|type} are {funny|genre} and have really {high ratings|sort}
+train_02.txt	{ice cube|cast} {movies|type}
+train_02.txt	i want to see {the texas chainsaw massacre|title}
+train_03.txt	show me {adam sandler|cast} s {highest rated|sort} {film|type}
+train_02.txt	take me to {the usual suspects|title}
+train_02.txt	show me all the {movies|type} with {robert pattinson|cast}
+train_00.txt	show me a listing for {the daily show|title}
+train_04.txt	i want to watch {back to the future|title}
+train_02.txt	i want to watch {the lego movie|title}
+train_03.txt	play a {family friendly|genre} christmas {movie|type}
+train_mturk_00.txt	What's the {best|sort} {action|genre} {TV show|type} on tonight?
+train_04.txt	find {saving private ryan|title}
+train_02.txt	a {movie|type} with {kevin costner|cast}
+train_04.txt	start {apocalypse now|title}
+train_01.txt	{angelina jolie|cast} s {new|sort} {movie|type}
+train_02.txt	show me {movies|type} with {jackie chan|cast}
+train_00.txt	what {sci fi|genre} {shows|type} are available to watch
+train_04.txt	{lady sings the blues|title}
+train_01.txt	show me {in the heat of the night|title} episodes containing {carroll o connor|cast}
+train_05.txt	play {star wars a new hope|title}
+train_mturk_00.txt	What is {Tom Cruise|cast}'s {most popular|sort} {movie|type}?
+train_03.txt	{robert downey jr|cast} {movie|type}
+train_mturk_00.txt	Who directed {Raging Bull|title}?
+train_01.txt	find {action|genre} {movies|type}
+train_02.txt	{sci-fi|genre} {movies|type} with robots
+train_03.txt	i want to see {stanley kubrick|director} {first|sort} {movie|type}
+train_range_00.txt	show me the {top rated|sort} {comedies|genre} {from the past 10 years|sys_interval|range}
+train_04.txt	can you play the {avengers|title}
+train_00.txt	{best|sort} {cowboy|genre} {movies|type}
+train_04.txt	show me {movies|type} with {bill murray|cast}
+train_mturk_00.txt	What {films|type} have strong female role models for teens?
+train_01.txt	show me all {movies|type} with {bette davis|cast}
+train_02.txt	what s that {movie|type} with {robin williams|cast}
+train_03.txt	show me {steven seagal|cast} {movies|type}
+train_01.txt	i want to find {the office|title}
+train_mturk_00.txt	What are some {movies|type} starring {Hugh Jackman|cast}?
+train_02.txt	show me some {cartoons|genre}
+train_mturk_00.txt	Is there any {program|type} related to {travel|genre} and {History|genre} this week?
+train_03.txt	show me the {best rated|sort} {action|genre} {films|type}
+train_mturk_00.txt	Are there any {movies|type} where the good guys don't win?
+train_02.txt	show me {the last samurai|title}
+train_00.txt	show me an {action|genre} {movie|type}
+train_05.txt	browse the entire {comedy|genre} section
+train_03.txt	show me the {movies|type} that star {michael j fox|cast}
+train_02.txt	information about {ice cube|cast} {movie|type} {friday|title}
+train_mturk_00.txt	Show me all the {horror|genre} {movies|type} available.
+train_01.txt	find {america s got talent|title}
+train_01.txt	do you have any {anime|genre} {shows|type}
+train_01.txt	show me {movies|type} directed by {tarantino|director} starring {charlize theron|cast}
+train_mturk_00.txt	{best|sort} supportive actress award for {2017|sys_time|range}?
+train_01.txt	show me {movies or tv shows|type} featuring {madonna|cast}
+train_01.txt	are there any {movies|type} with {jennifer aniston|cast}
+train_mturk_00.txt	What superhero {movies|type} came out {this year|sys_time|range}?
+train_04.txt	suggest a {movie|type} for me
+train_02.txt	{hitch|title}
+train_01.txt	list {shows|type}
+train_03.txt	show me a cop {thriller|genre}
+train_02.txt	{movies|type} with {mel gibson|cast}
+train_range_00.txt	i m looking for cheesy {80s|sys_interval|range} {movie|type} starring teenagers
+train_02.txt	epic kung fu {movies|type}
+train_04.txt	play {bones|title}
+train_00.txt	put the {news|genre} on
+train_00.txt	what are all of the {movies|type} with {julia roberts|cast} and {richard gere|cast}
+train_00.txt	{new|sort} {crime drama|genre}
+train_00.txt	show me {movies|type} starring {chris evans|cast}
+train_00.txt	find all listing for {grey s anatomy|title}
+train_range_00.txt	are there any {2015|sys_time|range} {action|genre}
+train_range_00.txt	are there any {2015|sys_time|range} {action|genre}
+train_mturk_00.txt	What {new|sort} {science fiction|genre} {TV|type} series have been added lately?
+train_01.txt	show me the {top rated|sort} {comedy|genre} {movies|type}
+train_mturk_00.txt	Could I get a list of {most talked about|sort} {musicals|genre} ({movies|type}, not {Broadway|genre}) from {the last decade|sys_interval|range}?
+train_00.txt	i want to see {movies|type} directed by {hayao miyazaki|director}
+train_00.txt	watch {game of thrones|title}
+train_03.txt	are there {sean connery|cast} {movies|type} where he s not using a scottish accent
+train_05.txt	show me all {movies|type} with some {horror|genre}
+train_00.txt	what is the {longest|sort} {film|type} ever made
+train_04.txt	start playing {reservoir dogs|title}
+train_01.txt	can you show me {elementary|title}
+train_03.txt	show me the {avengers|title}
+train_01.txt	show me things with {william shatner|cast}
+train_00.txt	find all listing for {teen mom 2|title}
+train_01.txt	which {movies|type} star {val kilmer|cast}
+train_03.txt	list {jack nicholson|cast} {comedies|genre}
+train_04.txt	go to {the circle|title}
+train_04.txt	i want to watch {superman|title}
+train_04.txt	i want to watch {superman|title}
+train_01.txt	are there any {crime dramas|genre} on
+train_01.txt	i want to watch {dumb and dumber|title}
+train_04.txt	what {jackie chan|cast} {movies|type} do you have
+train_03.txt	{clueless|title}
+train_02.txt	{back to the future|title}
+train_02.txt	{citizen kane|title}
+train_04.txt	play {unbroken|title}
+train_00.txt	{documentary|genre} piece about birds of telegraph hill in san francisco
+train_04.txt	can i see {the princess bride|title}
+train_00.txt	want to watch {soccer|genre} game
+train_03.txt	all the {movies|type} with {matt damon|cast}
+train_01.txt	what {sports|genre} are on live now
+train_04.txt	start showing {the transporter|title}
+train_01.txt	filter {shows|type} to only include those with actor {liam neeson|cast}
+train_00.txt	show me the {movie|type} {groundhog day|title}
+train_00.txt	{latest|sort} {kangana ranaut|cast} {movie|type}
+train_04.txt	play {gravity|title}
+train_05.txt	show the {movie|type} {batman|title}
+train_01.txt	show me {shows|type} with {hugh laurie|cast}
+train_04.txt	lets watch {the breakfast club|title}
+train_02.txt	what's the {movie|type} with {sandra bullock|cast} where she has to drive a bus with a bomb on it
+train_mturk_00.txt	suggest me some {comedy|genre} {movies|type} of {2016|sys_time|range}?
+train_02.txt	{latest|sort} {shivaji ganesan|cast} {movies|type}
+train_01.txt	give me a {sitcom|genre}
+train_03.txt	show me {dramas|genre} based on true stories
+train_00.txt	show me a list of {series|type} contain {nicolas cage|cast}
+train_04.txt	i want to watch {halloween|title}
+train_mturk_00.txt	What {comedy|genre} {movies|type} are the {funniest|genre}?
+train_mturk_00.txt	Show me {movies|type} with {Superheroes|genre}?
+train_03.txt	show me {tom hanks|cast} {movies|type}
+train_02.txt	show me {films|type} about time travel
+train_01.txt	are there {shows|type} with {aziz ansari|cast}
+train_02.txt	{army|genre} {movies|type}
+train_04.txt	play {john wick|title}
+train_04.txt	show me {movies|type} about {politics|genre}
+train_00.txt	turn to {monday night raw|title}
+train_mturk_00.txt	What's the {best|sort} {TV show|type} right now?
+train_03.txt	{furious 7|title}
+train_04.txt	i want to watch {national lampoon s christmas|title}
+train_03.txt	what {movie|type} has {leonardo dicaprio|cast} looking for diamonds
+train_00.txt	{movies|type} staring {will smith|cast}
+train_mturk_00.txt	What's a {popular|sort} {TV show|type} from the {70s|sys_interval|range}?
+train_mturk_00.txt	Could you check on a {futuristic|genre} {movie|type} done about 4036?
+train_04.txt	play {caddyshack|title}
+train_03.txt	what are some good {robin williams|cast} {movies|type}
+train_mturk_00.txt	Can you list some {movies|type} of {Anne Hathaway|cast}?
+train_00.txt	show me Christmas {movies|type}
+train_mturk_00.txt	{TV shows|type} like {True Detective|title}?
+train_02.txt	show me {animated|genre} {movies|type} by pixar
+train_04.txt	let s watch a {back to the future|title} {movie|type}
+train_03.txt	play that {movie|type} with the do i amuse you line
+train_02.txt	any {movie|type} that {joseph gordon levitt|cast} stars in
+train_02.txt	{movie|type} where {amitabh bachchan|cast} plays the role of police inspector
+train_mturk_00.txt	HOW MANY {COMEDY|genre} ACTORS IN THIS {MOVIE|type}?
+train_02.txt	i want to watch {the fault in our stars|title}
+train_mturk_00.txt	Is there going to be a reboot of {Rosanne|title}?
+train_01.txt	show me what {baseball|genre} games on
+train_range_00.txt	are there any {2015|sys_time|range} {sci fi|genre}
+train_02.txt	what are some {popular|sort} {russell crowe|cast} {movies|type}
+train_01.txt	bring up {action|genre} {movies|type}
+train_00.txt	i want to see a spaghetti {western|genre}
+train_range_00.txt	{movies|type} that came out in {the last 6 months|sys_interval|range}
+train_02.txt	hindi {movie|type} about a nasa scientist
+train_00.txt	what {baseball|genre} games are currently on
+train_05.txt	play {hello dolly|title}
+train_03.txt	play a {movie|type} with {shia labeouf|cast}
+train_01.txt	find {reality|genre} {shows|type}
+train_03.txt	show me the {highest rated|sort} {comedies|genre}
+train_mturk_00.txt	What are the {latest|sort} {animation|genre} releases in {2017|sys_time|range}?
+train_05.txt	play {blade runner|title}
+train_01.txt	are there any {family|genre} {movies|type} coming on
+train_04.txt	restart {silence of the lambs|title} from the beginning
+train_01.txt	show me {the pianist|title}
+train_01.txt	i want to watch {the goblet of fire|title}
+train_01.txt	show all {science fiction|genre} {shows|type}
+train_00.txt	find all listing for {sci fi|genre} {film|type}
+train_05.txt	{battle los angeles|title}
+train_02.txt	{movies|type} with {steve carell|cast}
+train_02.txt	what is the {russian|country} {movie|type} about stalingrad
+train_mturk_00.txt	What {new|sort} {movies|type} would you suggest to watch?
+train_01.txt	are there any {movies|type} with {megan good|cast} in it
+train_01.txt	show me {popular|sort} {romantic comedies|genre}
+train_mturk_00.txt	Do you have anything similar to {Game of Thrones|title}?
+train_mturk_00.txt	What's the {best|sort} {sci-fi|genre} {movie|type}?
+train_range_00.txt	{best|sort} {movie|type} {this year|sys_time|range}
+train_03.txt	play a {movie|type} starring {jackie chan|cast}
+train_02.txt	show me {movies|type} directed by {martin scorsese|director}
+train_mturk_00.txt	What is {Jared Leto|cast}’s {upcoming|sort} {movie|type}?
+train_00.txt	show me {movies|type} with {dabney coleman|cast}
+train_04.txt	play me a {movie|type} directed by {j j abrams|director}
+train_00.txt	search for {doctor who|title}
+train_mturk_00.txt	Can you suggest {popular|sort} {comedies|genre} {from 2010-2015|sys_interval|range}?
+train_mturk_00.txt	What are some {new|sort} {movie|type} releases from {2017|sys_time|range}?
+train_01.txt	i want to see {movies|type} with {leonardo dicaprio|cast}
+train_01.txt	could you show me some {romance|genre} genre {shows|type}
+train_01.txt	show me {movies|type} with {jim carrey|cast}
+train_02.txt	what are some {robert downey jr|cast} {movies|type}
+train_00.txt	whats the {movie|type} with {tom hanks|cast} and {meg ryan|cast} where they decide to meet on top of the empire state building
+train_00.txt	find {svu|title}
+train_04.txt	play {blade|title}
+train_02.txt	do you have the {movie|type} called {cinema paradiso|title}
+train_mturk_00.txt	Show me some {movies|type} produced by the {Wayans Bros|director}.
+train_02.txt	show me {jennifer lopez|cast} {movies|type}
+train_00.txt	show me {movies|type} with {chow yun fat|cast}
+train_02.txt	{action adventure|genre} {movies|type} with {tom cruise|cast}
+train_00.txt	play {the walking dead|title}
+train_00.txt	{movies|type} that take place in san francisco
+train_range_00.txt	play {best|sort} {comedy|genre} {from last year|sys_time|range}
+train_03.txt	play for me {saving private ryan|title}
+train_04.txt	can you please play {django unchained|title}
+train_04.txt	play {fight club|title}
+train_01.txt	show me {comedy|genre} {movies|type} starring {arnold schwarzenegger|cast}
+train_00.txt	filter {shows|type} to only include those with actor {Jonathan Hyde|cast}
+train_03.txt	show me {movies|type} that have to do with vampires
+train_02.txt	do you have any {movies|type} directed by {wes anderson|director}
+train_00.txt	show me the {avengers|title}
+train_02.txt	i want to watch {the place beyond the pines|title}
+train_04.txt	show me all {movies|type} with {twilight|title}
+train_02.txt	show me kung fu {movies|type} with {bruce lee|cast}
+train_01.txt	{movies|type} about alabama
+train_03.txt	show me time travel {movies|type} where they go back to the 1920 s
+train_01.txt	show me some {funny|genre} {movies or tv shows|type}
+train_01.txt	i would like to see the {movie|type} {love actually|title}
+train_00.txt	are there any {talk shows|genre}?
+train_02.txt	what are some {movies|type} from {brad pitt|cast}
+train_00.txt	show me all the {shows|type} that {kurt sutter|director} is involved with
+train_mturk_00.txt	What {movie|type} can I watch that will make me {laugh|genre}?
+train_01.txt	do you have any good {romance|genre} {movies|type}
+train_range_00.txt	play the second episode of {walking dead|title} season 1
+train_02.txt	show me the {movies|type} with {angelina jolie|cast}
+train_02.txt	show me the {movies|type} with {angelina jolie|cast}
+train_02.txt	{amitabh bachchan|cast} {films|type}
+train_05.txt	is the {avengers|title} sequel here
+train_01.txt	please play a {movie|type} directed by {wes anderson|director}
+train_03.txt	i want a {recent|sort} {drama|genre} with time travel
+train_05.txt	show me {movies|type} with russia in the name
+train_00.txt	i am looking for {walking dead|title}
+train_02.txt	what is the {movie|type} where los angeles is invaded by aliens
+train_04.txt	find {mad max|title}
+train_04.txt	anything with {gwyneth paltrow|cast}
+train_00.txt	show me {movies|type} relevant to {action|genre}
+train_03.txt	show me {documentaries|genre} that are depressing or dark in nature
+train_04.txt	{movies|type} with attack in the title
+train_00.txt	what's the {film|type} with {diane lane|cast} where she travels to italy and buys an old country house there?
+train_00.txt	show me all the {shows|type} that {Francis Ford Coppola|director} is involved with
+train_01.txt	are there any {joss whedon|director} {shows|type} on
+train_04.txt	i want to watch {pulp fiction|title}
+train_04.txt	can you show me a {romantic|genre} {movie|type}
+train_02.txt	are there any {movies|type} about sherlock holmes
+train_mturk_00.txt	I want to watch that {movie|type} with {Jim Carey|cast} as a pet detective
+train_02.txt	{jobs|title}
+train_02.txt	what s the {movie|type} with keyser soze
+train_00.txt	is {the voice|title} on soon
+train_00.txt	show me {up|title} with {edward asner|cast}
+train_03.txt	list of all {war|genre} {movies|type} based on world war 2
+train_04.txt	i want to watch {lion king|title}
+train_00.txt	{vampire diaries|title} showing
+train_range_00.txt	i want to see {grey s anatomy|title} season 5 again
+train_00.txt	i feel like watching a {music|genre} {film|type}
+train_01.txt	{the good the bad and the ugly|title}
+train_01.txt	show {most popular|sort} {shows|type}
+train_03.txt	show me {movies|type} about vampires
+train_00.txt	what is the full list of television {shows|type} created by {francis ford Coppola|director}
+train_03.txt	show me all the {films|type} with {robin williams|cast}
+train_00.txt	what are some good {movies|type} for {children|genre}
+train_mturk_00.txt	What's the most original {movie|type} of {2016|sys_time|range}?
+train_04.txt	i want to watch {saw 1|title}
+train_03.txt	play {tarantino|director} s {first|sort} {movie|type}
+train_03.txt	i want to see the {movie|type} based on a stephen king novel with {kathy bates|cast} in it
+train_01.txt	what's that {movie|type} with {jackie chan|cast} where he plays a drunk guy that buys dogs
+train_04.txt	start playing {fight club|title}
+train_00.txt	information about {ice cube|cast} {movie|type} {friday|title}
+train_04.txt	start {terminator 2|title}
+train_04.txt	i like the {movie|type} {set it off|title}
+train_01.txt	how many {romantic|genre} {movies|type} can i choose from
+train_mturk_00.txt	can i see some {ghost|genre} caught on camera videos?
+train_00.txt	{movies|type} staring {bryan cranston|cast}
+train_00.txt	show me a {most successful|sort} list of {sci fi|genre} {film|type} monthly
+train_03.txt	i want to watch an {action|genre} {movie|type}
+train_mturk_00.txt	Any special {program|type} in this week?
+train_03.txt	show me the {latest|sort} christmas {movie|type}
+train_04.txt	play {top gun|title}
+train_mturk_00.txt	Can i watch {the price is right|title}?
+train_03.txt	show me {documentaries|genre} about {war|genre}
+train_02.txt	{bruno|title}
+train_03.txt	what {movie|type} has {val kilmer|cast} and {al pacino|cast}
+train_01.txt	find all listing for {the sopranos|title}
+train_00.txt	find {law & order|title}
+train_04.txt	put {frida|title} in my queue
+train_01.txt	are there any {shows|type} with {jessica capshaw|cast}
+train_02.txt	what is the {movie|type} where {willem dafoe|cast} plays a vampire
+train_02.txt	do you have any {movies|type} directed by {richard shepard|director}
+train_04.txt	start the {little black book|title}
+train_04.txt	queue up {clueless|title}
+train_02.txt	what are all the {george clooney|cast} {movies|type}
+train_01.txt	show me the {sci fi|genre} {movies|type}
+train_05.txt	watch {scream|title}
+train_range_00.txt	{highest rated|sort} {anime|genre} {of 2014|sys_time|range}
+train_04.txt	put on {point break|title} {old|sort} one
+train_range_00.txt	i want to see {movies|type} released {this year|sys_time|range}
+train_range_00.txt	{romance|genre} {movies|type} {of 1990|sys_time|range}
+train_00.txt	show me {castle in the sky|title}
+train_01.txt	search for {horror|genre} {movies|type}
+train_00.txt	find me {fantasy|genre} {shows|type}
+train_02.txt	what was that {movie|type} with {wesley snipes|cast} on the choo choo train
+train_00.txt	the {today|title} {show|type}
+train_00.txt	the {today|title} {show|type}
+train_01.txt	what {horror|genre} {movie|type} is playing currently
+train_00.txt	{gladiator|title}
+train_00.txt	show me {movies|type} with {robert downey jr|cast}
+train_02.txt	{joseph gordon levitt|cast} {recent|sort} {movie|type}
+train_01.txt	show me a {drama|genre} {show|type}
+train_05.txt	show me {wolf creek|title}
+train_01.txt	look for a {show|type} with {michael j fox|cast}
+train_01.txt	{the phantom of the opera|title}
+train_01.txt	show me {comedies|genre} with {eddie murphy|cast}
+train_04.txt	i want to watch {star trek|title}
+train_00.txt	find all listing for {big|title}
+train_03.txt	play a {science fiction|genre} {movie|type} that is set in the distant future
+train_01.txt	{titanic|title}
+train_00.txt	is {friends|title} on soon
+train_03.txt	who s the starring role in {defiance|title}
+train_05.txt	i want to watch {how the west was won|title}
+train_range_00.txt	show me {romance|genre} {movies|type} {from the 1980s|sys_interval|range}
+train_02.txt	do you have {the shining|title} with {jack nicholson|cast}
+train_01.txt	pull up {fear and loathing in las vegas|title}
+train_02.txt	what's the {movie|type} where {matthew mcconaughey|cast} is a lawyer
+train_mturk_00.txt	Can I see some {movies|type} with {George Clooney|cast}?
+train_04.txt	start playing {finding neverland|title}
+train_00.txt	i want to see {movies|type} featuring {bryan cranston|cast}
+train_01.txt	show me {tv shows|type} starring {jennifer aniston|cast}
+train_mturk_00.txt	I want to watch {documentaries|genre} about labor organizing.
+train_mturk_00.txt	is there any {movie|type} {premiere|title} on {TV|type} this afternoon
+train_04.txt	find {the big lebowski|title}
+train_mturk_00.txt	Who is the {best|sort} actor {movies|type}?
+train_00.txt	give me {comedy|genre}
+train_03.txt	play {shaun of the dead|title}
+train_02.txt	i want to see {movies|type} directed by {martin scorsese|director}
+train_00.txt	show me {movie|type} relevant to {action|genre}
+train_04.txt	show me {jackie chan|cast} {movies|type}
+train_02.txt	show me some {animation|genre} {movies|type}
+train_03.txt	what is {leonardo dicaprio|cast} s most {critically acclaimed|sort} {film|type}
+train_04.txt	show me {the penguins of madagascar|title}
+train_mturk_00.txt	Can you give some {movie|type} or {tv show|type} suggestions with {Donnie Wahlberg|cast}?
+train_01.txt	show me interesting {movies|type}
+train_00.txt	did i miss {dancing with the stars|title}
+train_00.txt	{saturday night live|title} please
+train_mturk_00.txt	ARE THERE ANY GOOD {COMEDIES|genre} OUT {THIS YEAR|sys_time|range}
+train_mturk_00.txt	What are some {popular|sort} {tv mini series|type}?
+train_05.txt	bring up {forrest gump|title}
+train_03.txt	do you have outer space {movies|type} but with no aliens
+train_01.txt	search for {space ghost coast to coast|title}
+train_03.txt	what are some {highly rated|sort} {sci fi|genre} {movies|type}
+train_02.txt	what s that {movie|type} with {matt damon|cast} and {robin williams|cast} in boston
+train_mturk_00.txt	What was the {last|sort} {Monkees|title} {TV episode|type}?
+train_02.txt	show me some {johnny depp|cast} {movies|type}
+train_03.txt	show me {comedies|genre} starring {steve carell|cast}
+train_04.txt	put on {goldeneye|title} please
+train_03.txt	show me feel good {movies|type}
+train_03.txt	show me the original {dawn of the dead|title}
+train_03.txt	what {movies|type} are {popular|sort} right now
+train_01.txt	{best|sort} {drama|genre} {films|type} direction by {steven spielberg|director}
+train_04.txt	i want to watch {scarface|title}
+train_02.txt	what s that {movie|type} where {gene wilder|cast} and some random dude play twins
+train_01.txt	show me {shows|type} with {elizabeth mccarthy|cast}
+train_02.txt	what was the {movie|type} where {bill murray|cast} was a spy
+train_04.txt	{jack reacher|title} {movies|type}
+train_05.txt	i want to watch {harry potter|title}
+train_02.txt	show me {movies|type} starring {jackie chan|cast}
+train_range_00.txt	show me {documentaries|genre} {from 2015|sys_time|range}
+train_01.txt	i would like to see all {films|type} directed by {stanley kubrick|director}
+train_02.txt	{movies|type} with kangaroos
+train_00.txt	find {south park|title}
+train_mturk_00.txt	show {movies|type} with {Jennifer Aniston|cast}.
+train_02.txt	show me some {movies|type} with {jim carrey|cast}
+train_mturk_00.txt	What is the name of upcoming {Christopher Nolan|director}'s {movie|type}?
+train_03.txt	how many awards did {no country for old men|title} win
+train_01.txt	what {comedy|genre} {shows|type} are on
+train_04.txt	locate {any given sunday|title}
+train_04.txt	{movies|type} starring {michael j fox|cast}
+train_05.txt	pull up the {best|sort} {movies|type} starring {george clooney|cast}
+train_range_00.txt	show me the {christina applegate|cast} {movie|type} {from the 90s|sys_interval|range}
+train_mturk_00.txt	Can you find a {romantic|genre} {movie|type} without nudity?
+train_04.txt	start playing {the goonies|title}
+train_04.txt	i would like to watch {ferris bueller|title}
+train_mturk_00.txt	Where can I stream {yesterday|sys_time|range}'s episode of {Conan|title}?
+train_01.txt	i d like to see a {music|genre} {documentary|genre}
+train_04.txt	play {dawn of the dead|title}
+train_01.txt	i want to see something with {mark wahlberg|cast} in it
+train_03.txt	play a {new|sort} {sci fi|genre} {movie|type}
+train_03.txt	show me {movies|type} directed by {james cameron|director}
+train_03.txt	show me any {science fiction|genre} {movie|type}
+train_mturk_00.txt	Do you have any {new|sort} recommandations for me?
+train_02.txt	what is the {christopher nolan|director} {movie|type} about dreaming
+train_00.txt	find {the simpsons|title}
+train_mturk_00.txt	Any {cooking|genre} {shows|type} streaming at the moment?
+train_01.txt	let s see {elementary|title}
+train_00.txt	i want to watch a {movie|type} about brazilian favelas
+train_04.txt	find {movies|type} by the same director as {the grand budapest hotel|title}
+train_mturk_00.txt	What's the {latest|sort} {Fast and Furious|title} {movie|type}?
+train_range_00.txt	show me {movies|type} {from the 1900s|sys_interval|range}
+train_03.txt	play {monsters inc|title}
+train_03.txt	find me cult international {classics|sort}
+train_01.txt	please pick a {show|type} directed by {gerren keith|director}
+train_02.txt	what about something with {michael j fox|cast}
+train_03.txt	show me the {latest|sort} releases
+train_range_00.txt	what {movies|type} were {released in 2014|sys_time|range}
+train_03.txt	i want to watch the {movie|type} with {michael j fox|cast} when he time travels
+train_03.txt	show me {movies|type} with {tom hanks|cast}
+train_03.txt	trailers
+train_02.txt	i asked for a {syfy|genre} {movie|type}
+train_01.txt	show me my {comedy|genre} options
+train_02.txt	space {movies|type} with {clint eastwood|cast}
+train_05.txt	play {the wizard of oz|title}
+train_00.txt	i want to find a {movie|type} about fish
+train_01.txt	show me {movies|type} with {megan fox|cast}
+train_03.txt	{action|genre} {movies|type}
+train_mturk_00.txt	{2017|sys_time|range} {comedy|genre} {movies|type}
+train_01.txt	show me {tv shows|type} relevant to {kids|genre}
+train_mturk_00.txt	find me some {comedies|genre} to watch tonight
+train_range_00.txt	show me time travel {movies|type} {from the 80s|sys_interval|range}
+train_01.txt	can i watch some {movies|type} directed by {john woo|director}
+train_02.txt	show me all {amitabh bachchan|cast} {movies|type}
+train_04.txt	find {labyrinth|title}
+train_mturk_00.txt	Which {movies|type} are rated {top|sort} 10 of {all time|sys_interval|range}?
+train_02.txt	{caddyshack|title}
+train_03.txt	i want to see all {romantic comedies|genre}
+train_04.txt	find me {the matrix reloaded|title} {movie|type}
+train_04.txt	play me the third {back to the future|title}
+train_mturk_00.txt	What are the imdb ratings of {Twin Peaks|title} season 3?
+train_range_00.txt	please play {lie to me|title} season 5
+train_mturk_00.txt	Can you find me the {last|sort} episode of {Grey's Anatomy|title}?
+train_mturk_00.txt	Can you show me {popular|sort} {comedy|genre} {Anime|genre}?
+train_03.txt	i want to watch {enter the dragon|title}
+train_01.txt	tv can you open the {weather|genre} channel
+train_00.txt	what {health|genre} {movies|type} are available to watch
+train_01.txt	can you find me {movies|type} directed by {spike lee|director}
+train_mturk_00.txt	Can you search for a {western|genre} {movie|type} with {John Wayne|cast}?
+train_03.txt	show me a dark {movie|type}
+train_00.txt	show {drama|genre} {movie|type} listings
+train_03.txt	play {reds|title}
+train_01.txt	show me the {shows|type} with {gordon ramsay|cast}
+train_00.txt	is {south park|title} on soon
+train_04.txt	i want to watch {transylvania 2|title}
+train_00.txt	i want to see {movies|type} featuring {brad pitt|cast}
+train_03.txt	watch {the evil dead|title}
+train_00.txt	filter {tv shows|type} to only include those with actor {brad pitt|cast}
+train_02.txt	show me some {movies|type} adapted by {clint eastwood|director}
+train_02.txt	can you give me the {movie|type} with rocky balboa
+train_01.txt	do you have {the big lebowski|title}
+train_00.txt	show me {sports|genre} that just started
+train_02.txt	any {movies|type} with {salman khan|cast}
+train_00.txt	{jerry maguire|title} {movie|type}
+train_03.txt	can you show me all the {movies|type} with dinosaurs
+train_03.txt	what is the {comedy|genre} with {tom hanks|cast} and the volcano
+train_mturk_00.txt	There's an {educational|genre} {tv show|type} available for watch {tonight|title}?
+train_mturk_00.txt	May I have {Jason Strathan|cast} {movies|type}?
+train_00.txt	what was {inside out|title}
+train_00.txt	can i watch some {horror|genre} {movies|type}
+train_05.txt	i would like to watch {star wars a new hope|title}
+train_01.txt	change it to {game of thrones|title}
+train_mturk_00.txt	Can I see some {thriller|genre} {movie|type} {from 1980s|sys_interval|range}
+train_04.txt	please play the {movie|type} {the shawshank redemption|title}
+train_03.txt	show me all the {movies|type} with {nicole kidman|cast}
+train_mturk_00.txt	Which {drama|genre} {TV shows|type} were nominated for an Emmy in {2016|sys_time|range}?
+train_mturk_00.txt	What {Star Wars|title} {movies|type} haven't I already seen?
+train_02.txt	{fast furious 7|title}
+train_04.txt	can you find {pretty woman|title}
+train_03.txt	let me watch {titanic|title}
+train_00.txt	{american psycho|title}
+train_03.txt	i want to watch {groundhog day|title}
+train_02.txt	how about {fault in our stars|title}
+train_04.txt	please play {maleficent|title}
+train_00.txt	look for {Helena Bonham Carter|cast} {movies|type}
+train_05.txt	play {the night of the hunter|title}
+train_02.txt	{blockbusters|sort}
+train_mturk_00.txt	Can you please find me a good {movie|type} for tonight?
+train_03.txt	show me {movies|type} about hiking the appalachian trail
+train_01.txt	what {new|sort} {drama|genre} {movies|type} are coming out soon
+train_mturk_00.txt	What's a good super hero {movie|type}?
+train_02.txt	a {movie|type} with a character called captain jack sparrow
+train_04.txt	list {cheech and chong|cast} {movies|type}
+train_04.txt	i want to watch the original {evil dead|title}
+train_04.txt	play {django unchained|title}
+train_04.txt	play {django unchained|title}
+train_04.txt	play {django unchained|title}
+train_03.txt	watch {my neighbor totoro|title}
+train_mturk_00.txt	please show me a current {Comedy|genre}
+train_01.txt	what do we have in {action|genre} {movies|type}
+train_01.txt	let s see {movies|type} by {j j abrams|director}
+train_02.txt	show me some {horror|genre} {movies|type}
+train_mturk_00.txt	Can you show me some raunchy {comedies|genre} from the {1980s|sys_interval|range}?
+train_04.txt	show me {movies|type} by director {guillermo del toro|director}
+train_02.txt	how about {matthew mcconaughey|cast} in a silly {romantic comedy|genre}
+train_02.txt	{movies|type} with {jane russell|cast}
+train_00.txt	let s watch {how to train your dragon 2|title} again
+train_mturk_00.txt	Is {Jason Bateman|cast} still acting?
+train_00.txt	how many {top|sort} 10 all time {tv shows|type} are available to watch
+train_04.txt	trending {action|genre} {films|type}
+train_03.txt	play a {movie|type} that {alfred hitchcock|director} directed
+train_03.txt	what is the {last|sort} {movie|type} by {russell crowe|cast}
+train_02.txt	show me {scary movie|title}
+train_mturk_00.txt	Director {David Lynch|director} {films|type}
+train_03.txt	show me {movies|type} that take place in iowa
+train_mturk_00.txt	What is the imdb rating for {the dark knight|title}?
+train_02.txt	do you have any {sean penn|cast} {movies|type}
+train_mturk_00.txt	Where can I see {experimental|genre} {movies|type}?
+train_02.txt	{recent|sort} {movies|type} with {scarlett johansson|cast}
+train_mturk_00.txt	recommend a good {show|type}
+train_02.txt	what was the {last|sort} {movie|type} {tom cruise|cast} starred in
+train_02.txt	{bradley cooper|cast} s {first|sort} {movie|type}
+train_mturk_00.txt	{Blockbuster|sort} {movies|type} this quarter
+train_03.txt	show me all {movies|type} directed by {george a romero|director}
+train_mturk_00.txt	Can you show me some Marvel {movies|type}?
+train_mturk_00.txt	Suggest some {spaghetti westerns|genre}.
+train_04.txt	run {interstellar|title}
+train_01.txt	show me the {comedies|genre}
+train_mturk_00.txt	What are {movies|type} with {Johnny Depp|cast}?
+train_03.txt	show me the {best|sort} top ten {sci fi|genre} {movies|type}
+train_02.txt	{movies|type} with {clint eastwood|cast}
+train_01.txt	find {animated|genre} {movies|type}
+train_00.txt	what the {movie|type} with the undercover cop in the boston police force
+train_02.txt	{george clooney|cast} {movie|type}
+train_04.txt	play {breakfast at tiffany s|title}
+train_mturk_00.txt	What are {popular|sort} {comedies|genre} right now?
+train_04.txt	let s watch {a christmas story|title}
+train_01.txt	are there any {family friendly|genre} {movies|type}
+train_01.txt	find me something {for the kids|genre}
+train_02.txt	what was that low budget {movie|type} about time travel
+train_mturk_00.txt	What {shows|type} did {Carol Burnett|cast} do?
+train_04.txt	put on {the lion king|title}
+train_01.txt	show me {movies|type} with {james franco|cast}
+train_02.txt	show me {movies|type} starring {andrew lincoln|cast}
+train_00.txt	show me {movies|type} with {samuel l jackson|cast}
+train_range_00.txt	play a {daniel day lewis|cast} {movie|type} {from the 90 s|sys_interval|range}
+train_04.txt	i want to watch {the great escape|title}
+train_range_00.txt	{90s|sys_interval|range} teen {movie|type}
+train_04.txt	start {fight club|title}
+train_04.txt	i m looking for {movies|type} with the word diamonds in the title
+train_04.txt	find {attack on titan|title}
+train_03.txt	i want a {recent|sort} indie {movie|type} in english with young hit actors and actresses
+train_03.txt	show me {newest releases|sort}
+train_03.txt	show me the {top|sort} so bad it s good {movies|type}
+train_01.txt	what were the {last|sort} {movies|type} that {liam neeson|cast} was in
+train_00.txt	show me {health|genre} genre
+train_00.txt	do you have {up|title}
+train_range_00.txt	are there any {2015|sys_time|range} {health|genre}
+train_01.txt	can you show me {cartoons|genre} {movies|type}
+train_01.txt	find {nfl|genre} {football|genre} games
+train_03.txt	i want to watch a {movie|type} from {james cameron|director}
+train_04.txt	turn on {star wars 3 revenge of the sith|title}
+train_mturk_00.txt	What about the {Baywatch|title} collection?
+train_01.txt	what are some {movies|type} directed by {christopher nolan|director}
+train_02.txt	show me {recent|sort} {films|type} made by {stanley kubrick|director}
+train_03.txt	do you have {the martian|title}
+train_04.txt	play {the green mile|title} for me
+train_01.txt	show me some upcoming {movies|type} directed by {robert zemeckis|director}
+train_02.txt	i m looking for a {movie|type} about sea monsters that destroy the earth
+train_03.txt	i want to see a {movie|type} with strong female characters
+train_04.txt	please find me {blackhat|title}
+train_04.txt	can i watch the {movie|type} {titanic|title}
+train_00.txt	is {the big bang theory|title} on soon
+train_01.txt	show me {cooking|genre} {shows|type}
+train_mturk_00.txt	Is there a {classic|genre} {movie|type} {thriller|genre} on tv tonight
+train_00.txt	show me {crime|genre} genre
+train_02.txt	show me {historical dramas|genre}
+train_range_00.txt	show me {ryan gosling|cast} {movies|type} {from the 90s|sys_interval|range}
+train_03.txt	play {pulp fiction|title}
+train_04.txt	show me {harry potter and the goblet of fire|title}
+train_04.txt	{the matrix|title} play
+train_02.txt	show me the {bloodshed|title} {movie|type}
+train_00.txt	show me {tv show|type} that just started
+train_range_00.txt	play a {tarantino|director} {movie|type} {from the late 1990 s|sys_interval|range}
+train_03.txt	what was that {movie|type} where {jake gyllenhaal|cast} was a reporter
+train_01.txt	can i watch a {show|type} with {jamie foxx|cast}
+train_03.txt	show me {movies|type} with {jason statham|cast}
+train_03.txt	show me {movies|type} with {jason statham|cast}
+train_mturk_00.txt	Could you please suggest me some {top IMDB rated|sort} {horror|genre} {movies|type}?
+train_05.txt	i want to watch {shanghai noon|title}
+train_01.txt	show me {funny|genre} {shows|type}
+train_03.txt	show me {movies|type} filmed in hawaii
+train_00.txt	{action|genre} {movies|type}
+train_03.txt	show me {martial arts|genre} {movies|type} starring {jean claude van damme|cast}
+train_04.txt	i want to see the {new|sort} release {comedy|genre} {movies|type}
+train_04.txt	please play me {fight club|title}
+train_00.txt	i want to see {wheel of fortune|title}
+train_range_00.txt	show me {movies|type} directed by {quentin tarantino|director} {before 2000|sys_time|range}
+train_mturk_00.txt	Can you show me the {highest rated|sort} {Adam Sandler|cast} {movie|type}?
+train_00.txt	take me to the {sitcom|genre} {film|type}
+train_02.txt	what is the {movie|type} about a schizophrenic mathematician
+train_03.txt	show me {new releases|sort}
+train_00.txt	find all listing for {comedy|genre} {film|type}
+train_04.txt	play the {titanic|title}
+train_01.txt	what {kid|genre} {shows|type} are available
+train_02.txt	the ones by pixar
+train_range_00.txt	what {80s|sys_interval|range} {movies|type} had {matthew broderick|cast}
+train_01.txt	i want to watch {silence of the lambs|title}
+train_03.txt	show me some {crime dramas|genre}
+train_range_00.txt	play the {top grossing|sort} {movie|type} {of 2012|sys_time|range}
+train_02.txt	do you have any {funny|genre} {movies|type}
+train_00.txt	whats the {movie|type} where {tom cruise|cast} is a german officer trying to assassinate hitler
+train_04.txt	start {the perfect storm|title} now
+train_02.txt	{the dark knight rises|title}
+train_02.txt	show me {movies|type} with {will smith|cast}
+train_03.txt	{bahubali|title}
+train_02.txt	{horror|genre} {movies|type}
+train_mturk_00.txt	Can you suggest a good {movie|type} about clowns?
+train_03.txt	play {batman begins|title}
+train_00.txt	show me {tv show|type} relevant to {kids|genre}
+train_03.txt	show me all {judd apatow|director} {movies|type}
+train_01.txt	find a {comedy|genre} starring {robin williams|cast}
+train_03.txt	show me {films|type} starring {jim carrey|cast}
+train_range_00.txt	what are some {comedies|genre} {from 2015|sys_time|range}
+train_02.txt	show me the {latest|sort} hindi {movies|type}
+train_03.txt	play {mulan|title}
+train_00.txt	filter {movies|type} to only include those with actor {drew barrymore|cast}
+train_01.txt	what are all the {action adventure|genre} {shows|type} available to me
+train_mturk_00.txt	I want to see an {action|genre} {movie|type}, what is {popular|sort} {now|sys_time|range}?
+train_range_00.txt	show me disney {movies|type} {from the 90s|sys_interval|range}
+train_02.txt	what are some {tim burton|director} {movies|type} with {johnny depp|cast}
+train_03.txt	show me {romantic comedies|genre} starring {meg ryan|cast}
+train_02.txt	show me {animated|genre} {movies|type}
+train_01.txt	show me a {best|sort} list of {action|genre} {film|type} monthly
+train_03.txt	what are {movies|type} starring {tom cruise|cast}
+train_02.txt	please direct me to {game day|title}
+train_04.txt	what is {mark strong|cast} s {best|sort} {movie|type}
+train_03.txt	what s that {coen brothers|director} {movie|type} that ends with a huge tornado
+train_01.txt	display {films|type} by {uwe boll|director} please
+train_02.txt	{beaches|title} with {bette midler|cast}
+train_mturk_00.txt	Is there a {new|sort} {TV drama|type} for me to watch?
+train_mturk_00.txt	What {movies|type} were nominated for {Best|sort} Picture in {2016|sys_time|range}?
+train_04.txt	start {ex machina|title}
+train_00.txt	help me find a {movie|type} {drama|genre}
+train_02.txt	the {movie|type} with a spaceship called star trek enterprise
+train_01.txt	show me {movies|type} starring {jessica alba|cast}
+train_01.txt	are any {movies|type} playing with {eddie murphy|cast} in them
+train_03.txt	{funny|genre} {movies|type} with {kevin bacon|cast}
+train_01.txt	{memento|title} with {guy pearce|cast}
+train_04.txt	play {dirty dancing|title}
+train_mturk_00.txt	Find me a {romantic comedy|genre}.
+train_mturk_00.txt	Can you show me the list of some good {old|sort} {comedies|genre} ?
+train_01.txt	find me {crime dramas|genre}
+train_04.txt	start playing {blade|title}
+train_01.txt	which are the {best|sort} {movies|type} with {kate beckinsale|cast}
+train_04.txt	watch {the ring|title}
+train_04.txt	watch {the ring|title}
+train_00.txt	{tv shows|type} staring {liam neeson|cast}
+train_01.txt	i want to see a {funny|genre} {show|type}
+train_04.txt	i want to watch {chisum|title}
+train_04.txt	i want to see {mission impossible|title}
+train_02.txt	{action|genre} {movie|type} with beautiful russian girls
+train_mturk_00.txt	What are the {best reviewed|sort} comedies of {the last two years|sys_interval|range}?
+train_04.txt	turn on {sharknado|title}
+train_02.txt	that {movie|type} with {robin williams|cast}
+train_range_00.txt	{children s|genre} {movie|type} {made before 1980|sys_time|range}
+train_03.txt	what are the {top rated|sort} {films|type} in a post apocalyptic setting
+train_00.txt	i want to watch {romance|genre} {dramas|genre}
+train_03.txt	which {movie|type} has the highest imdb rating
+train_01.txt	show me {shows|type} starring {tom hanks|cast}
+train_02.txt	{funny|genre} {movies|type}
+train_02.txt	show me some {kurosawa|director} {movies|type}
+train_00.txt	show me roman {historical|genre} {movies|type}
+train_00.txt	what is the {weather|genre}
+train_03.txt	play me a zombie {movie|type}
+train_01.txt	any {tarantino|director} {flicks|type}
+train_05.txt	browse through all {drew barrymore|cast} {movies|type}
+train_04.txt	play {the hunger games|title}
+train_02.txt	show me some {sci fi|genre} {movies|type}
+train_02.txt	{top rated|sort} {romantic comedies|genre}
+train_03.txt	show me {movies|type} with {johnny depp|cast}
+train_04.txt	what {movies|type} has {keanu reeves|cast} done since {the matrix reloaded|title}
+train_03.txt	play a {film|type} starring {warren beatty|cast}
+train_04.txt	play {dracula|title} with {bela lugosi|cast}
+train_04.txt	play {we are marshall|title}
+train_04.txt	find me {action|genre} {movies|type}
+train_03.txt	show me {new|sort} {horror|genre} {movies|type}
+train_mturk_00.txt	Can I see some {cult|genre} {classic|genre} {films|type}?
+train_01.txt	please play a {movie|type} directed by {quentin tarantino|director}
+train_00.txt	show me {movies|type} with {tom hanks|cast}
+train_03.txt	show me {movies|type} by {steven spielberg|director}
+train_04.txt	play the {movie|type} {walk to remember|title}
+train_00.txt	show listings for {roseanne|title}
+train_02.txt	show me {movies|type} starring {tom hanks|cast}
+train_05.txt	let me watch {ghost|title}
+train_00.txt	show me a {western|genre} {movie|type}
+train_04.txt	pull up the original {annie|title} {movie|type}
+train_02.txt	{under the sea|title}
+train_03.txt	{milk|title}
+train_00.txt	are there any {series|type} directed by {Mark Cendrowski|director}?
+train_mturk_00.txt	Can i watch {last year|sys_time|range} 's oscar winning {animation|genre} {movie|type}?
+train_01.txt	what {movies|type} are on that {mel brooks|director} directed
+train_01.txt	look for {movies|type} directed by {quentin tarantino|director}
+train_00.txt	find a {family|genre} {movie|type}
+train_00.txt	{selma|title}
+train_04.txt	can you show me a {wes craven|director} {movie|type}
+train_03.txt	show me {movies|type} directed by {martin scorsese|director} that also have {leonardo dicaprio|cast}
+train_mturk_00.txt	Show me {movies|type} directed by {Edgar Wright|director}.
+train_04.txt	i would like to watch {top gun|title}
+train_mturk_00.txt	What's the {best|sort} {horror|genre} {movie|type} of {2013|sys_time|range}?
+train_mturk_00.txt	Can I see the {Pirates of the Caribbean|title} {movie|type} {franchice|country}?
+train_03.txt	show me the {movie|type} {the fast and the furious|title}
+train_04.txt	show the {film|type} {the shawshank redemption|title}
+train_01.txt	show me anything with {bill burr|cast}
+train_04.txt	only find {movies|type} with the word {labyrinth|title}
+train_03.txt	what was that {movie|type} with {bill murray|cast} in japan
+train_02.txt	{movies|type} set in the future
+train_01.txt	find {freaks and geeks|title} channel
+train_01.txt	are there any {animes|genre} on
+train_00.txt	i d like to see what {comedy|genre} {series|type} are on
+train_02.txt	what was {andrew garfield|cast} s {highest rated|sort} {movie|type}
+train_01.txt	show me {sci fi|genre} genre
+train_03.txt	what is the {movie|type} with {Angelina Jolie|cast} where her character's name is Lara Croft
+train_00.txt	what are some {films|type} directed by {billy wilder|director}
+train_03.txt	show me some recent {highly rated|sort} {comedies|genre}
+train_03.txt	{mission impossible|title}
+train_01.txt	show me all {movies|type} by {j j abrams|director}
+train_04.txt	i want a comic book {movie|type}
+train_01.txt	find {comedy|genre} {movies|type}
+train_01.txt	find {comedy|genre} {movies|type}
+train_00.txt	{ice cube|cast} {movies|type}
+train_00.txt	show me {debate|genre} genre
+train_03.txt	show me {old|sort} {movies|type}
+train_01.txt	are there any {documentaries|genre} on
+train_04.txt	i would like to see a {kevin smith|cast} {movie|type}
+train_02.txt	{clint eastwood|cast} {films|type}
+train_04.txt	is the {movie|type} {the fault in our stars|title} out yet to watch
+train_04.txt	show me {movies|type} in the 7 up series
+train_00.txt	find a {baseball|genre} game
+train_03.txt	put on a random {comedy|genre} {movie|type}
+train_00.txt	filter {shows|type} to only include those with actor {drew barrymore|cast}
+train_01.txt	{gillian anderson|cast} {tv shows|type}
+train_mturk_00.txt	What type of {Korean|country} {Dramas|genre} that you like the {most|sort}?
+train_01.txt	show me {movies|type} from {quentin tarantino|director}
+train_03.txt	show me {movies|type} with dinosaurs
+train_04.txt	show me {the wedding singer|title}
+train_04.txt	begin {jackie brown|title}
+train_00.txt	look for {Samuel L Jackson|cast} {movies|type}
+train_04.txt	show me {hitchhiker s guide to the galaxy|title}
+train_mturk_00.txt	Which {tv show|type} is similar to Netflix's {Stranger Things|title}?
+train_05.txt	{jersey shore|title}
+train_00.txt	filter {tv shows|type} to only include those with actor {nicolas cage|cast}
+train_mturk_00.txt	What should we watch tonight for {movie|type} night?
+train_01.txt	show me {matt damon|cast} {movies|type}
+train_mturk_00.txt	What {movies|type} star {Mel Gibson|cast}?
+train_04.txt	find me {the dark|title}
+train_02.txt	the one with {matt damon|cast}
+train_02.txt	{iron man|title}
+train_range_00.txt	{westerns|genre} {from the 80s|sys_interval|range}
+train_01.txt	what {movies|type} are {chris pratt|cast} in
+train_03.txt	i want to see {old|sort} {ken russell|director} {movies|type}
+train_02.txt	show me some {history|genre} {documentaries|genre}
+train_mturk_00.txt	Can I see some {movies|type} that feature {Tom Cruise|cast}?
+train_04.txt	load up {my neighbor totoro|title}
+train_00.txt	filter {shows|type} to only include those with actor {liam neeson|cast}
+train_00.txt	I feel like watching a {reality|genre} {show|type}
+train_range_00.txt	bring up {kids|genre} {movies|type} made {in the last year|sys_interval|range}
+train_04.txt	play {the notebook|title}
+train_04.txt	play {the notebook|title}
+train_04.txt	play {the notebook|title}
+train_02.txt	do you have any with {leonardo dicaprio|cast}
+train_mturk_00.txt	What are the {best|sort} {animation|genre} {movies|type} in {2016|sys_time|range}?
+train_02.txt	do you have {the parent trap|title}
+train_04.txt	play {goodfellas|title}
+train_02.txt	{movie|type} starring {pierce brosnan|cast}
+train_03.txt	play {mrs doubtfire|title}
+train_02.txt	what is that {movie|type} with {george clooney|cast} and {brad pitt|cast} where they rob a vegas casino
+train_04.txt	play {wuthering heights|title} original version
+train_03.txt	what is {james dean|cast} s most famous {movie|type}
+train_03.txt	show me {movies|type} by {sylvester stallone|cast}
+train_00.txt	show me all the {shows|type} that {Akira Kurosawa|director} is involved with
+train_02.txt	what are the {popular|sort} {movies|type} in {korea|country}
+train_range_00.txt	i want to see {horror|genre} {movies|type} {from the year 1999|sys_time|range}
+train_05.txt	show me the {movie|type} {hook|title}
+train_05.txt	i want to see {the london firm|title}
+train_04.txt	find the {movie|type} {sweet home alabama|title}
+train_01.txt	show me {movies|type} with {cillian murphy|cast}
+train_01.txt	show me things with {matthew mcconaughey|cast}
+train_01.txt	what {movies|type} are showing with {matthew mcconaughey|cast}
+train_03.txt	i d like to watch {tropic thunder|title}
+train_04.txt	show me {movies|type} starring {priscilla presley|cast}
+train_05.txt	play {e t|title}
+train_02.txt	do you have any {jared leto|cast} {movies|type}
+train_range_00.txt	i want to see {horror|genre} {movies|type} {of 2015|sys_time|range}
+train_range_00.txt	show me {chinese|country} {movies|type} {made in 2015|sys_time|range}
+train_mturk_00.txt	Show me {movies|type} with {Kate McKinnon|cast}
+train_03.txt	what are some good gangster {movies|type}
+train_mturk_00.txt	Can you look up the {most critically acclaimed|sort} {movie|type} so far for {2017|sys_time|range}?
+train_mturk_00.txt	Can I see {top rated|sort} {sitcoms|genre}?
+train_05.txt	i want to watch an {avengers|title} {movie|type}
+train_mturk_00.txt	Can I see all the Best Picture winners {from 2000 to now|sys_interval|range}?
+train_03.txt	what s that {movie|type} where {david bowie|cast} sings and dances
+train_03.txt	list all {sandra bullock|cast} {movies|type}
+train_04.txt	take me to {star wars episode i|title}
+train_01.txt	give me {movies|type} with {john cena|cast} in them
+train_04.txt	i would like to watch {ghostbusters|title}
+train_00.txt	{james cameron|director} {movies|type}
+train_03.txt	what are the {best|sort} {new|sort} {documentaries|genre}
+train_04.txt	i want to watch {commando|title}
+train_range_00.txt	are there any {2015|sys_time|range} {documentaries|genre}
+train_range_00.txt	are there any {2015|sys_time|range} {documentaries|genre}
+train_mturk_00.txt	What are the {trending|sort} {TV|type} {dramas|genre} {right now|sys_time|range}?
+train_01.txt	show me {movies|type} directed by {quentin tarantino|director}
+train_01.txt	show me {movies|type} directed by {quentin tarantino|director}
+train_02.txt	show me {films|type} with {ethan hawke|cast}
+train_01.txt	show me {the office|title}
+train_03.txt	what are some good {movies|type} for {children|genre}
+train_00.txt	look for {Jonathan Pryce|cast} {movies|type}
+train_01.txt	show me anything with {tina fey|cast}
+train_00.txt	show me {sport|genre} that just started
+train_00.txt	show me all the {shows|type} that {Quentin Tarantino|director} is involved with
+train_04.txt	i want to watch {taken 2|title}
+train_01.txt	show me {movies|type} directed by {ridley scott|director}
+train_05.txt	can you bring up stoner {comedy|genre} {movies|type}
+train_02.txt	what's a good {documentary|genre} about food
+train_01.txt	show me {game shows|genre}
+train_mturk_00.txt	Show me some {new|sort} {kid|genre}'s {movies|type}.
+train_mturk_00.txt	When the {movie|type} {Avatar 2|title} is release?
+train_00.txt	i would like to {banshee|title}
+train_05.txt	i want to watch {the notebook|title}
+train_00.txt	show me {movies|type} with {jennifer aniston|cast}
+train_00.txt	i want to see {movies|type} featuring {Jonathan Hyde|cast}
+train_03.txt	i want to watch an {adam sandler|cast} {comedy|genre}
+train_03.txt	show me {action|genre} {movies|type} with {eddie murphy|cast}
+train_mturk_00.txt	{Popular|sort} {kids|genre} rhymes please
+train_range_00.txt	are there any {2015|sys_time|range} {cowboy|genre}
+train_mturk_00.txt	What's the {least viewed|sort} {movie|type} I can watch?
+train_02.txt	show me {we own the night|title}
+train_02.txt	i want to see a {drama|genre} with {george clooney|cast}
+train_04.txt	play the {movie|type} {shrek|title}
+train_04.txt	what {movies|type} have california in the title
+train_00.txt	find {horror|genre} {movies|type}
+train_01.txt	what are the top {comedy|genre} {movies|type}
+train_00.txt	let me watch {rush hour|title}
+train_00.txt	i feel like watching a {sitcom|genre} {film|type}
+train_00.txt	what is the full list of television {shows|type} created by {stanley kubrick|director}
+train_range_00.txt	play a {keanu reeves|cast} {movie|type} {from the 90s|sys_interval|range}
+train_range_00.txt	show me {classic|sort} {80s|sys_interval|range} {movies|type} about highschool
+train_04.txt	play {back to the future 2|title}
+train_03.txt	imax {jurassic park|title} 3d
+train_01.txt	{x men wolverine|title}
+train_04.txt	give me a list of {movies|type} with orange in the title
+train_03.txt	i would like to observe {the polar express|title} please
+train_03.txt	im in the mood for some {expelled from paradise|title}
+train_05.txt	show me {top gun|title}
+train_04.txt	watch {good will hunting|title}
+train_04.txt	i want to watch a {john wayne|cast} {movie|type}
+train_02.txt	show me {harry potter and the chamber of secrets|title}
+train_01.txt	look up {broad city|title}
+train_05.txt	i want to watch the {south park|title} {movie|type}
+train_03.txt	show me {movies|type} directed by {steven spielberg|director}
+train_mturk_00.txt	What's the {most popular|sort} {action|genre} {tv show|type} in {this moment|sys_time|range}?
+train_03.txt	what is the {movie|type} with {adam sandler|cast} going back to elementary school
+train_02.txt	i want to see {kingdom of heaven|title}
+train_00.txt	what {comedy|genre} type {shows|type} are on
+train_mturk_00.txt	What {tv shows|type} are {popular|sort} {this year|sys_time|range}?
+train_01.txt	show me {movies|type} by {j j abrams|director} please
+train_04.txt	open {the walking dead|title}
+train_02.txt	show me {cartoon|genre} {movies|type}
+train_02.txt	i want to see a black and white {movie|type}
+train_02.txt	i wanna watch the {movie|type} where {tom hanks|cast} was stranded on a desert island
+train_mturk_00.txt	what are the {movies|type} releasing in {2017|sys_time|range}?
+train_02.txt	show me all the {movies|type} with {tina fey|cast}
+train_01.txt	show me a {movie|type} about artificial intelligence
+train_mturk_00.txt	What are some {popular|sort} {reality|genre} {TV shows|type}?
+train_mturk_00.txt	I want to see {action|genre} packed {movies|type}
+train_03.txt	show me {tarantino|director} {movies|type}
+train_04.txt	start {mission impossible 3|title}
+train_01.txt	is there a {movie|type} with {leonardo dicaprio|cast} on
+train_00.txt	{midnight in paris|title}
+train_01.txt	what are some offbeat {science fiction|genre} {films|type}
+train_00.txt	{fast and furious|title}
+train_mturk_00.txt	What is a {show|type} similar to {Gilmore Girls|title}?
+train_mturk_00.txt	What is one of the {best|sort} {classic|genre} {films|type} that I can watch right now?
+train_02.txt	what are some {movies|type} with {jeff goldblum|cast} and {bill pullman|cast}
+train_02.txt	{inside out|title}
+train_01.txt	please search for the {tonight show|title}
+train_02.txt	could you show me {the usual suspects|title}
+train_mturk_00.txt	What are the {most popular|sort} {movies|type} being watched {right now|sys_time|range}?
+train_03.txt	show me a {classic|sort} time travel {movie|type}
+train_00.txt	i need a {funny|genre} {sitcom|genre}
+train_03.txt	what {movie|type} did {michael j fox|cast} and {christopher lloyd|cast} star in together
+train_03.txt	show me {top rated|sort} {movies|type}
+train_00.txt	look for {john wayne|cast} {movies|type}
+train_mturk_00.txt	Where can I find {old|sort} episodes of {Babylon 5|title}?
+train_range_00.txt	show me a random selection {of 90s|sys_interval|range} {romantic comedies|genre}
+train_03.txt	what are some other {robert downey jr|cast} {movies|type}
+train_01.txt	the one that s called {red cliff|title}
+train_04.txt	start showing {mad max fury road|title}
+train_03.txt	i want to see the original and the remake of {the mummy|title} {movies|type}
+train_02.txt	what s that {movie|type} with {jackie chan|cast} where he plays a cop with {chris tucker|cast}
+train_mturk_00.txt	What was the {best rated|sort} {program|type} last week?
+train_04.txt	{darjeeling limited|title}
+train_01.txt	show me some {horror|genre} {movies|type}
+train_mturk_00.txt	What {movie|type} were {Daniel Day LEWIS|cast}
+train_00.txt	What {movies|type} are starting soon?
+train_00.txt	play {shameless|title}
+train_00.txt	show me all the {shows|type} that {Martin Scorsese|director} is involved with
+train_05.txt	view {beavis and butt-head do america|title}
+train_range_00.txt	show {the office|title} season 5 {in chronological order|sort}
+train_mturk_00.txt	Any {movie|type} suggestions inspired by {true events|genre}?
+train_03.txt	show me {sci fi|genre} {movies|type}
+train_03.txt	{movies|type} with music by elton john
+train_range_00.txt	show me {action|genre} {flicks|type} made {in the 2010s|sys_interval|range}
+train_00.txt	how many {top|sort} 10 all time {movies|type} are available to watch
+train_01.txt	{kristen wiig|cast} {movies|type}
+train_03.txt	i would like to watch a {movie|type} with {kate hudson|cast}
+train_range_00.txt	show me {movies|type} that came out {in 1990 to 1995|sys_interval|range}
+train_00.txt	show me all the {shows|type} that {Stanley Kubrick|director} is involved with
+train_00.txt	find all listing for {action|genre} {film|type}
+train_00.txt	what would be a good {movie|type} for the first date
+train_03.txt	what are {stanley kubrick|cast} s {best rated|sort} {movies|type}
+train_03.txt	what {movies|type} have {melissa mccarthy|cast} and {ben falcone|cast}
+train_05.txt	bring up any {movies|type} on dinosaurs
+train_00.txt	filter {movies|type} to only include those with actor {Jonathan Pryce|cast}
+train_02.txt	show me {movies|type} with {robert downey jr|cast} and helicopters
+train_02.txt	{shrek 2|title}
+train_04.txt	i want to watch {interstellar|title}
+train_02.txt	{james cameron|director} {movies|type}
+train_03.txt	{ray|title}
+train_mturk_00.txt	What is the {latest|sort} {Brad Pitt|cast} {movie|type}?
+train_00.txt	what is the full list of television {shows|type} created by {kurt sutter|director}
+train_02.txt	what s the {highest rated|sort} {movie|type} ever made
+train_mturk_00.txt	What {sitcom|genre} should I watch next?
+train_02.txt	{movies|type} that star {leonardo dicaprio|cast}
+train_04.txt	show me {eddie murphy|cast} {movies|type}
+train_00.txt	Show me future episodes of {Pretty Little Liars|title}
+train_01.txt	show me all {ncis|title} {shows|type}
+train_02.txt	{oldest|sort} {movie|type} from {india|country}
+train_mturk_00.txt	What {80s|sys_interval|range} {dramas|genre} won Oscars?
+train_01.txt	search for {comedy|genre} {movie|type}
+train_01.txt	are there any {tarantino|director} {movies|type} available that are free
+train_01.txt	find the next {vikings|title} show
+train_05.txt	show me {the walking dead|title} {series|type}
+train_05.txt	show {movies|type} that have kill in the title
+train_02.txt	show me {movies|type} directed by the {coen brothers|director}
+train_02.txt	show me {movies|type} directed by the {coen brothers|director}
+train_mturk_00.txt	What were the {popular|sort} {90's|sys_interval|range} {kid|genre} {shows|type}?
+train_mturk_00.txt	What {movies|type} {from the 1990's|sys_interval|range} involved cops?
+train_04.txt	could i see {the cell|title}
+train_mturk_00.txt	Which is {Adam Sandler|cast}'s {latest|sort} {movie|type}?
+train_00.txt	how do i get to {the voice|title}
+train_03.txt	show me {pulp fiction|title}
+train_00.txt	show me {art|genre} genre
+train_02.txt	what s the {arnold schwarzenegger|cast} {movie|type} with {danny devito|cast}
+train_03.txt	show me all the {sci fi|genre} {fantasy|genre} selections
+train_00.txt	what zombie {movie|type} was {bill murray|cast} in
+train_mturk_00.txt	What is the {highest rated|sort} {horror|genre} {film|type} on Metacritic?
+train_04.txt	take me to the {movie|type} {rent|title}
+train_range_00.txt	i want to watch {action|genre} {movies|type} {from the 90 s|sys_interval|range}
+train_02.txt	show me {movies|type} with the us president
+train_01.txt	are there any {action|genre} {movies|type}
+train_01.txt	are there any {fantasy|genre} {movies|type} available
+train_01.txt	show me {shows|type} with {tim allen|cast}
+train_05.txt	play a {movie|type} starring {will ferrell|cast}
+train_mturk_00.txt	Whats on {Nickelodeon|title} {right now|sys_time|range}?
+train_00.txt	is {lassie|title} on
+train_00.txt	is {lassie|title} on
+train_00.txt	i want to watch {gilmore girls|title}
+train_mturk_00.txt	Show me some {stand up comedies|genre}.
+train_00.txt	can you show me an {action|genre} {movie|type}
+train_01.txt	show me the list of all {ryan reynolds|cast} {movies|type}
+train_mturk_00.txt	Show me some {latest|sort} hit {movies|type} of {year 2000|sys_time|range}
+train_04.txt	i would like to watch the {film|type} titled {best in show|title}
+train_00.txt	show me a good {movie|type} {about love|genre}
+train_04.txt	play {the godfather|title}
+train_01.txt	show me the {movie|type} {just friends|title}
+train_02.txt	what is the name of that {movie|type} where {tom hanks|cast} is the ship captain and he gets attacked by somali pirates
+train_01.txt	can you show me {fantasy|genre} {movies|type}
+train_03.txt	show me {movies|type} directed by {joss whedon|director}
+train_04.txt	i want to see {the godfather part 2|title}
+train_01.txt	put on any {tv show|type} with {bob saget|cast}
+train_03.txt	show me a {classic|sort} {movie|type} starring {cary grant|cast}
+train_03.txt	show me a list of 4 to 5 star rated {action|genre} {movies|type}
+train_04.txt	i would like to see a {romantic comedy|genre} called {how to lose a man in 10 days|title}
+train_mturk_00.txt	List {shows|type} with zombies in them
+train_03.txt	i want to see the christian {movie|type} with an entire football team converted to become believers
+train_01.txt	are there any {mystery|genre} {thriller|genre} {movies|type} playing
+train_00.txt	does the {football|genre} game start now
+train_00.txt	which {movie|type} has a talking beaver
+train_01.txt	what s on for {romance|genre}
+train_04.txt	i want to watch a {war|genre} {movie|type}
+train_04.txt	replay {aladdin|title}
+train_mturk_00.txt	I want to see {family|genre} {comedies|genre}?
+train_02.txt	show me {swingers|title}
+train_range_00.txt	show me every {movie|type} released {this year|sys_time|range}
+train_00.txt	show me a {most successful|sort} list of {music|genre} {film|type} monthly
+train_05.txt	please pull up all christmas {movies|type}
+train_03.txt	show me a {horror|genre} {movie|type}
+train_mturk_00.txt	What's {Quentin Tarantino|director}'s {most recent|sort} {film|type}?
+train_04.txt	show me {movies|type} that has {jason statham|cast}
+train_02.txt	show me {matt damon|cast} {movies|type}
+train_04.txt	show me {movies|type} based on super heroes
+train_04.txt	play the {avengers age of ultron|title}
+train_02.txt	show me the {movie|type} {up|title}
+train_04.txt	i want to watch {james and the giant peach|title}
+train_02.txt	what s that {movie|type} with {brad pitt|cast}
+train_00.txt	next food {show|type}
+train_05.txt	browse {action|genre} {movies|type}
+train_mturk_00.txt	Show me {TV shows|type} from the {2000s|sys_interval|range}
+train_03.txt	i want to see all {movies|type} starring {arnold schwarzenegger|cast}
+train_01.txt	what's a good {crime|genre} {movie|type}
+train_01.txt	what {movies|type} in the {comedy|genre} genre are there
+train_01.txt	show all {movies|type} with {nicolas cage|cast} in them
+train_00.txt	watch a {funny|genre} {movie|type}
+train_00.txt	Is the Miami Dolphins game on?
+train_02.txt	i want something for my mom
+train_00.txt	can you show me {cartoon|genre} {shows|type}
+train_01.txt	what {apocalypse|genre} type {shows|type} are on
+train_03.txt	{movies|type} about christmas
+train_03.txt	what was the {first|sort} {movie|type} {tom hanks|cast} was ever in
+train_02.txt	{action|genre} {movies|type}
+train_04.txt	is {back to the future|title} available
+train_04.txt	show me {keanu reeves|cast} {movies|type}
+train_02.txt	what is that {movie|type} with {robin williams|cast} where he poses as an english nanny
+train_00.txt	show me the {movie|type} {the mask|title}
+train_00.txt	show me a {best|sort} list of {music|genre} {film|type} monthly
+train_01.txt	what kinds of {western|genre} {movies|type} are showing
+train_mturk_00.txt	Any {movies|type} featuring {Daniel Craig|cast}?
+train_03.txt	start {toy story 2|title}
+train_02.txt	i want to see the {movie|type} {memento|title}
+train_01.txt	what {tv show|type} have {emilia clarke|cast}
+train_00.txt	filter {tv shows|type} to only include those with actor {Jonathan Hyde|cast}
+train_03.txt	show me {movies|type} with {jack black|cast}
+train_range_00.txt	{movies|type} {from the 80s|sys_interval|range}
+train_04.txt	show me the {latest|sort} disney {movie|type}
+train_00.txt	{critically acclaimed|sort} {movies|type}
+train_mturk_00.txt	What's a good {Christmas|genre} {movie|type} to watch?
+train_02.txt	show me {action|genre} {movies|type} with {will smith|cast}
+train_01.txt	show me {action|genre} {movies|type} with {meg tilly|cast}
+train_03.txt	play {christopher walken|cast} s {most recent|sort} release
+train_03.txt	show me all {movies|type} with {will smith|cast}
+train_05.txt	i want to watch {movies|type} that contain the word car in the title
+train_03.txt	i want to watch a {movie|type} that was oscar nominated for sound mixing
+train_00.txt	show me roman {action|genre} {tv show|type}
+train_03.txt	{movies|type} with robots
+train_04.txt	i want to watch {cinderella|title}
+train_01.txt	let me see what {horror|genre} {movies|type} are available
+train_03.txt	show me {movies|type} with {back to the future|title} in the name
+train_04.txt	put on {a walk to remember|title}
+train_00.txt	{twilight|title}
+train_range_00.txt	find me all the {movies|type} {from the 2000 s|sys_interval|range} with {amy poehler|cast}
+train_02.txt	{first|sort} {harrison ford|cast} {movie|type}
+train_04.txt	play {lost in translation|title}
+train_02.txt	{morgan freeman|cast} {films|type}
+train_04.txt	find all {movies|type} named {a christmas carol|title}
+train_00.txt	{mission impossible 5|title}
+train_03.txt	show me a list of {action|genre} {movies|type} with female lead actresses
+train_04.txt	play {movies|type} with {dana carvey|cast} in it
+train_04.txt	i m looking for {pirates of the caribbean on stranger tides|title}
+train_00.txt	do you have {big|title}
+train_00.txt	filter {movies|type} to only include those with actor {nicolas cage|cast}
+train_03.txt	show me {vin diesel|cast} {movies|type}
+train_04.txt	play only mmf {movies|type}
+train_mturk_00.txt	{Drama|genre} now
+train_00.txt	show me {soap|genre} genre
+train_05.txt	play {monsters inc|title}
+train_01.txt	show me {movies|type} that {kate mara|cast} is in
+train_range_00.txt	show {game of throne|title} season 5 {in chronological order|sort}
+train_01.txt	show me all {reality tv|genre} {shows|type}
+train_04.txt	show me {movies|type} in the {comedy|genre} genre
+train_00.txt	what {action|genre} {shows|type} are available to watch
+train_00.txt	what {action|genre} {shows|type} are available to watch
+train_04.txt	i want to watch some kung fu {movies|type}
+train_03.txt	i d like to watch {this is the end|title}
+train_03.txt	play {spaceballs|title}
+train_01.txt	are there any ongoing {movies|type} at the moment
+train_03.txt	i d like to see {movies|type} about sports
+train_02.txt	i want to see one directed by {john waters|director}
+train_range_00.txt	what {movies|type} are {playing right now|sys_time|range}
+train_range_00.txt	what {movies|type} are {playing right now|sys_time|range}
+train_00.txt	show me the {movie|type} {dial m for murder|title}
+train_02.txt	{adult|genre} {movie|type}
+train_03.txt	{wasabi|title}
+train_02.txt	show me information about {captain america the winter soldier|title}
+train_00.txt	show independent {movies|type}
+train_00.txt	I m looking for the {movie|type} with {Tom Hanks|cast} and his volleyball
+train_01.txt	how many {top|sort} 10 all time {movies|type} are available to watch
+train_04.txt	play the {first|sort} {avengers|title} {movie|type}
+train_04.txt	play {the nightmare before christmas|title}
+train_00.txt	show me {show|type} that just started
+train_02.txt	what is {bill murray|cast} s {highest rated|sort} {movie|type}
+train_mturk_00.txt	Can you show me {movies|type} that have {Adam Sandler|cast}?
+train_mturk_00.txt	Can I see {shows|type} starring {Jeffrey Dean Morgan|cast}?
+train_03.txt	show me a {tom hanks|cast} {movie|type}
+train_00.txt	what {comedy|genre} {movies|type} are available to watch
+train_01.txt	go to {documentaries|genre}
+train_03.txt	what was the name of {louis ck|cast} {latest|sort} {movie|type}
+train_00.txt	what {scifi|genre} {shows|type} are available to watch
+train_02.txt	how about {independence day|title}
+train_03.txt	show me {movies|type} with {morgan freeman|cast}
+train_04.txt	put {rocky iv|title} on
+train_mturk_00.txt	Are there any {new|sort} {zombie|genre} {movies|type} that you would suggest?
+train_03.txt	find all the {movies|type} {johnny depp|cast} has acted in
+train_04.txt	play {doctor dolittle|title}
+train_03.txt	i want to watch {documentaries|genre} about the american justice system
+train_range_00.txt	show {the big bang theory|title} season 5 {in chronological order|sort}
+train_mturk_00.txt	What was the {most popular|sort} {science fiction|genre} {film|type} {last month|sys_time|range}?
+train_mturk_00.txt	Can i see a {black comedy|genre} serials?
+train_02.txt	show me {movies|type} from {keanu reeves|cast}
+train_04.txt	show {movies|type} play {die hard|title}
+train_02.txt	what are the {top rated|sort} {movies|type} with orange on their cover
+train_01.txt	i want to see {alfred hitchcock|director} {movies|type}
+train_02.txt	what s {kevin bacon|cast} s {highest rated|sort} {movie|type}
+train_03.txt	show me a {movie|type} similar to {almost famous|title}
+train_00.txt	{movies|type} directed by {woody allen|director}
+train_range_00.txt	play {ghost adventures|title} season two episode three
+train_03.txt	whats the {latest|sort} {sci fi|genre} {movie|type} available
+train_04.txt	i would like to watch {mean girls|title}
+train_03.txt	{melissa smith|cast} {movies|type}
+train_mturk_00.txt	What is a {feel good|genre} {movie|type}?
+train_02.txt	let s watch {swingers|title}
+train_00.txt	show me a list of {series|type} contain {drew barrymore|cast}
+train_mturk_00.txt	Please show me {classic|sort} {comedies|genre} from the {1950s|sys_interval|range} through the {2000s|sys_interval|range}
+train_03.txt	i want to watch {star trek|title}
+train_04.txt	i would like to watch {sci fi|genre} {movies|type} with {william shatner|cast} in them
+train_01.txt	display list of {movies|type} with {johnny depp|cast}
+train_03.txt	give me a {horror|genre} {film|type} with patrick bateman
+train_04.txt	play {the sixth sense|title}
+train_mturk_00.txt	What {movies|type} do you have starring {Denzel Washington|cast}?
+train_03.txt	what is your {top rated|sort} {movie|type}
+train_02.txt	what s the {movie|type} with {will smith|cast} where he is a date doctor
+train_04.txt	show me all the available {movies|type} by disney
+train_00.txt	show me a {most successful|sort} list of {sitcom|genre} {film|type} monthly
+train_mturk_00.txt	Can you browse {favorite|sort} {comedy|genre} {series|type} in tv channels?
+train_03.txt	what are some {romantic comedies|genre}
+train_00.txt	show me roman {historical|genre} {tv shows|type}
+train_03.txt	i want to watch {chungking express|title}
+train_04.txt	play {mad max|title}
+train_02.txt	do you have the {sean penn|cast} {movie|type} where he is a surfer in high school
+train_range_00.txt	show me {robert redford|cast} {movies|type} {from the 1970s|sys_interval|range}
+train_00.txt	find a {funny|genre} {movie|type}
+train_mturk_00.txt	What's the {most popular|sort} {TV series|type} {now|sys_time|range}?
+train_mturk_00.txt	Which {animated|genre} {movies|type} are available now?
+train_mturk_00.txt	Are there any {movies|type} showing tonight about {Christmas|genre}?
+train_04.txt	let me see {legally blonde|title}
+train_02.txt	{star trek|title}
+train_00.txt	{movies|type} staring {nicolas|cast}
+train_05.txt	browse heist {movies|type} starring {jason statham|cast}
+train_05.txt	i d like to see {the hobbit|title}
+train_01.txt	{movies|type} directed by {alfred hitchcock|director}
+train_range_00.txt	show me {best|sort} cult {movies|type} {from the past 5 years|sys_interval|range}
+train_04.txt	do you have {the bourne identity|title}
+train_mturk_00.txt	What {adult|genre} {cartoons|genre} are currently {trending|sort}?
+train_01.txt	i would like to watch the {latest|sort} {action|genre} {movies|type}
+train_mturk_00.txt	Please help me to find {most recent|sort} {Angelina Jolie|cast} {movie|type}.
+train_04.txt	play {gone with the wind|title}
+train_01.txt	show me {nicolas cage|cast} {movies|type}
+train_05.txt	play {fight club|title}
+train_03.txt	what {movies|type} are directed by {christopher nolan|director}
+train_02.txt	what s the {movie|type} about the end of the world by earthquake
+train_01.txt	what {movies|type} directed by {woody allen|director} are playing
+train_00.txt	show me the {most popular|sort} {movies|type}
+train_04.txt	show me {back to the future|title}
+train_mturk_00.txt	Any good {action|genre} {movie|type} suggestions from {the last year|sys_time|range}?
+train_02.txt	disney {cartoons|genre}
+train_00.txt	what is the {movie|type} about facebook
+train_02.txt	how about a {musical comedy|genre}
+train_01.txt	show me {movies|type} with {john wayne|cast}
+train_03.txt	i would like to know the {movie|type} that stars {keanu reeves|cast} where an intruder kills his dog
+train_mturk_00.txt	Has season 2 of "{Good Morning Call|title}" been added yet?
+train_04.txt	{classic|sort} {movies|type} {john wayne|cast}
+train_02.txt	what s the {highest grossing|sort} {korean|country} {movie|type} of all time
+train_01.txt	{teenage mutant ninja turtles|title}
+train_01.txt	what are the {movies|type} {milla jovovich|cast} starred in
+train_00.txt	Show me {basketball|genre} games
+train_01.txt	can you find {college basketball|title}
+train_01.txt	i want to watch a {sci fi|genre} {show|type}
+train_04.txt	i want to see {jurassic park|title}
+train_00.txt	is {conan|title} on soon
+train_00.txt	{guardians of the galaxy|title}
+train_00.txt	i want to watch the {tv show|type} {cheers|title}
+train_04.txt	i wish to watch {the blue lagoon|title}
+train_02.txt	{movies|type} about the titanic
+train_02.txt	show me ones with {tommy lee jones|cast}
+train_05.txt	what year did the running man come out
+train_05.txt	show me the {first|sort} {animated|genre} {movie|type}
+train_mturk_00.txt	Yo quiero ver una pelicula de {horror|genre}
+train_03.txt	i d like to watch a {spielberg|director} {movie|type}
+train_03.txt	play a {sandra bullock|cast} {movie|type}
+train_02.txt	what is that {animated|genre} disney {movie|type} about the clown fish
+train_00.txt	show me a list of {series|type} contain {liam neeson|cast}
+train_04.txt	show me the {last|sort} {film|type} that {robin williams|cast} starred in
+train_03.txt	show me all {will smith|cast} {movies|type}
+train_01.txt	can you show me any {action|genre} {movies|type} directed by {guillermo del toro|director}
+train_04.txt	let s watch {love actually|title}
+train_03.txt	choose a {marlon brando|cast} {movie|type}
+train_mturk_00.txt	Is there any {adult animation|genre} {series|type} in {TV|type} to watch regularly?
+train_range_00.txt	{movies|type} with {clint eastwood|cast} {from the 1970s|sys_interval|range}
+train_00.txt	i want to watch {mad max|title}
+train_00.txt	what is the full list of television {shows|type} created by {akira kurosawa|director}
+train_mturk_00.txt	Can you suggest {movies|type} like {Batman|title}?
+train_mturk_00.txt	What are some {movies|type} with Steven Segal as the main character?
+train_01.txt	show me any {musical|genre} {movies|type}
+train_mturk_00.txt	Which are the {highly rated|sort} {movies|type} {this year|sys_time|range}?
+train_range_00.txt	{horror|genre} {films|type} {from the 1980s|sys_interval|range}
+train_00.txt	show me a list of {series|type} contain {bryan cranston|cast}
+train_01.txt	do you have any {old classic|sort} {movies|type}
+train_02.txt	what are the {best rated|sort} {films|type} available
+train_05.txt	play {nightmare on elm street 3 dream warriors|title}
+train_mturk_00.txt	Would any {historical|genre} {documentaries|genre} about world war II be on tonight?
+train_02.txt	what's the {movie|type} about a jewish pianist who hides from nazis
+train_04.txt	search for {movies|type} about world war 2
+train_00.txt	show me a list of {series|type} contain {Jonathan Hyde|cast}
+train_mturk_00.txt	Can you bring up any {new releases|sort}?
+train_03.txt	show me a list of {sandra bullock|cast} {movies|type}
+train_mturk_00.txt	What {movie|type} is ACME Channel playing tonight?
+train_03.txt	show me dark {drama|genre} {movies|type}
+train_03.txt	show me every {movie|type} based on a true story
+train_02.txt	i want to watch {romance|genre} {movies|type}
+train_mturk_00.txt	list {movies|type} with a strong female lead
+train_00.txt	display list {comedy|genre} {tv shows|type}
+train_05.txt	show me sequels to {toy story|title}
+train_04.txt	play {the amazing spider man 2|title}
+train_04.txt	play {top gun|title} the directors cut
+train_03.txt	{american sniper|title}
+train_02.txt	show me {movies|type} from {tom hanks|cast}
+train_02.txt	show me {movies|type} from {tom hanks|cast}
+train_00.txt	show me {talk|genre} genre
+train_04.txt	start {alice in wonderland|title}
+train_04.txt	let s see {resident evil|title} now
+train_mturk_00.txt	What is the {most popular|sort} {horror|genre} {movie|type} {this year|sys_time|range}?
+train_01.txt	i want to see {movies|type} by {tarantino|director}
+train_02.txt	search for {django unchained|title}
+train_02.txt	and do you have {the grand budapest hotel|title}
+train_02.txt	{fast times at ridgemont high|title}
+train_range_00.txt	{horror|genre} {movies|type} {from the 80 s|sys_interval|range} please
+train_02.txt	how about the one with {heath ledger|cast} as joker
+train_mturk_00.txt	Any good {British|country} {comedy|genre}?
+train_03.txt	show me all the {movies|type} {joss whedon|cast} has had a cameo in
+train_02.txt	directed by {steven spielberg|director}
+train_01.txt	show me {movies|type} directed by {james cameron|director}
+train_01.txt	{movies|type} directed by {michael bay|director}
+train_04.txt	show me {back to the future|title} {movies|type}
+train_mturk_00.txt	What are the {recently|sort} uploaded {Movies|type}?
+train_range_00.txt	bring up {adventure|genre} {movies|type} {from the 80s|sys_interval|range}
+train_00.txt	show me {sci fi|genre} genre
+train_00.txt	find {wwe raw|title}
+train_03.txt	play {back to the future|title}
+train_02.txt	{movies|type} with a plane
+train_00.txt	could i see {storage wars|title}
+train_01.txt	show me an {educational|genre} {kids|genre} {show|type}
+train_03.txt	do you have any {movies|type} with {sylvester stallone|cast}
+train_01.txt	show me the {movie|type} {chef|title}
+train_02.txt	show me {children s|genre} {movies|type}
+train_05.txt	go to {the big lebowski|title}
+train_04.txt	i want {the conjuring|title}
+train_mturk_00.txt	What {movie|type} won the {best|sort} picture Oscar in {2015|sys_time|range}?
+train_01.txt	go to a {sports|genre} channel
+train_05.txt	pull up the {movie|type} {the man from earth|title}
+train_01.txt	show me {movies|type} directed by {martin scorsese|director}
+train_02.txt	i m looking for a {western|genre} that had {robert redford|cast} and {paul newman|cast}
+train_04.txt	i want to watch {star trek into darkness|title}
+train_00.txt	look for {Jonathan Hyde|cast} {movies|type}
+train_04.txt	find {movies|type} related to the doors
+train_mturk_00.txt	List any {Dr. Who|title} episodes filmed {after 2014|sys_interval|range}.
+train_04.txt	show me {movies|type} with the name lord in them
+train_03.txt	show me {movies|type} with both {brad pitt|cast} and {george clooney|cast}
+train_04.txt	search for {poltergeist|title}
+train_02.txt	what is the {robin williams|cast} {movie|type} where he is a clown
+train_03.txt	{best|sort} {movies|type} of the month
+train_mturk_00.txt	Can I see some {movies|type} with {John Cusack|cast}?
+train_02.txt	what {movie|type} did {gary cooper|cast} star in
+train_mturk_00.txt	When will the {last|sort} episode of {Seinfeld|title} be aired again?
+train_00.txt	show me {game show|genre} genre
+train_02.txt	{nicolas cage|cast} {movie|type} about a museum
+train_00.txt	show me {shows|type} that just started
+train_00.txt	i want to see {movies|type} featuring {drew barrymore|cast}
+train_range_00.txt	what {movies|type} came {out this week|sys_time|range}
+train_01.txt	find a {movie|type} with {tom hanks|cast}
+train_01.txt	what's that {movie|type} with alan turing about world war ii
+train_02.txt	show me {movies|type} with {meg ryan|cast}
+train_02.txt	show me some {new releases|sort}
+train_02.txt	which {movie|type} has {christian bale|cast} as a magician
+train_02.txt	show me the {mel brooks|director} {movie|type} which is a spoof of the star wars films
+train_04.txt	i want to watch {pretty woman|title}
+train_03.txt	show me {movies|type} that are historic and within the roman republic time frame
+train_03.txt	show me {movies|type} with {robert de niro|cast}
+train_02.txt	do you have an {movies|type} from {argentina|country}
+train_mturk_00.txt	What is a {popular|sort} reality {tv show|type}?
+train_01.txt	any {movies|type} with {nicolas cage|cast} in them
+train_01.txt	show me a {movie|type} with {leonardo dicaprio|cast}
+train_03.txt	play {jamie lee curtis|cast} {first|sort} {movie|type}
+train_range_00.txt	what is a {comedy|genre} {from 2014|sys_time|range}
+train_01.txt	show me {comedy romance|genre} {movies|type} with dogs in it
+train_04.txt	{mahogany|title}
+train_00.txt	filter {shows|type} to only include those with actor {nicolas|cast}
+train_01.txt	{movies|type} with {humphrey bogart|cast}
+train_00.txt	do you have the {hayao miyazaki|director} {film|type} {howl's moving castle|title}
+train_03.txt	what is the {movie|type} where {arnold schwarzenegger|cast} is a robot
+train_mturk_00.txt	I am in {romantic|genre} mood today, any {movies|type} to match it?
+train_04.txt	search {rain man|title}
+train_00.txt	i want to watch police procedurals
+train_00.txt	what {action|genre} type {tv shows|type} are on
+train_mturk_00.txt	Show me {hentai|genre} {movies|type}
+train_03.txt	i want to watch {back to the future|title}
+train_00.txt	look for {Scarlett Johansson|cast} {movies|type}
+train_02.txt	{searching for bobby fischer|title}
+train_00.txt	show me roman {historical|genre} {shows|type}
+train_01.txt	let s see some {films|type} starring {jennifer lawrence|cast}
+train_03.txt	show me {movies|type} with blood in the name
+train_04.txt	play {scarface|title}
+train_04.txt	show me {the bourne ultimatum|title}
+train_01.txt	{last man standing|title}
+train_00.txt	filter {movies|type} to only include those with actor {liam neeson|cast}
+train_03.txt	please provide me with all of {quentin tarantino|director} s {films|type}
+train_00.txt	{jude law|cast} played a young writer
+train_01.txt	what {movies|type} with {al pacino|cast} are on
+train_03.txt	{movies|type} that were directed by {j j abrams|director} and {james cameron|director}
+train_00.txt	{tv shows|type} staring {brad pitt|cast}
+train_01.txt	show me some {shows|type} that have {bob barker|cast} in them
+train_02.txt	{chinese|country} {movies|type}
+train_02.txt	{chinese|country} {movies|type}
+train_range_00.txt	i need a {romantic|genre} {movie|type} {from the 90 s|sys_interval|range} with {kevin costner|cast}
+train_02.txt	what are {movies|type} directed by {steven spielberg|director}
+train_01.txt	any {movies|type} with {johnny depp|cast} on
+train_01.txt	i heard {guardians of the galaxy|title} is a good {movie|type}
+train_03.txt	play {almost famous|title}
+train_03.txt	what is the name of that {movie|type} about a plane with snakes on it
+train_mturk_00.txt	What {movie|type} was {most watched|sort} in {1993|sys_time|range}?
+train_01.txt	show me all {films|type} directed by {mel brooks|director}
+train_01.txt	show {movies|type} that are 2 and a half hours long
+train_02.txt	{movies|type} with {tom hanks|cast}
+train_02.txt	show me {films|type} directed by {clint eastwood|director}
+train_03.txt	{star trek|title}
+train_00.txt	Find {football|genre}
+train_mturk_00.txt	What is the {most popular|sort} {TV|type} airing {today|sys_time|range}?
+train_mturk_00.txt	Can you suggest {last week|sys_time|range} {hit|sort} and ranking channels and {favorite|sort} {series|type}?
+train_02.txt	{just married|title} with {brittany murphy|cast}
+train_04.txt	begin {almost famous|title}
+train_mturk_00.txt	What are the {best|sort} {comedies|genre} with lesbian characters?
+train_05.txt	show me the {first|sort} {tom cruise|cast} {movie|type}
+train_02.txt	show me {pulp fiction|title} starring {john travolta|cast}
+train_01.txt	put on {sportscenter|title}
+train_range_00.txt	play an {alfred hitchcock|director} {film|type} {from the 60s|sys_interval|range}
+train_03.txt	show me {samuel l jackson|cast} s {highest rated|sort} {movie|type}
+train_01.txt	show me {swingers|title}
+train_02.txt	{dramas|genre}
+train_02.txt	show me {movies|type} starring {joe pesci|cast}
+train_mturk_00.txt	What's a good {show|type} to watch based on my history?
+train_01.txt	what are {movies|type} good {for kids|genre}
+train_02.txt	{titanic|title} with {kate winslet|cast}
+train_00.txt	show me {tv shows|type} that just started
+train_04.txt	let s play {poltergeist|title}
+train_02.txt	any {korean|country} {movies|type}
+train_range_00.txt	show me the {worst rated|sort} {movie|type} {for the past year|sys_interval|range}
+train_04.txt	show me pixar {movies|type}
+train_mturk_00.txt	What {TV shows|type} other than {Buffy the Vampire Slayer|title} have random {musical|genre} episodes in them?
+train_03.txt	lets watch {the martian|title}
+train_04.txt	show me {how to train your dragon|title}
+train_mturk_00.txt	Can you tell me what the {best|sort} F.B.I. {movie|type} is?
+train_00.txt	search for {the walking dead|title}
+train_03.txt	show me all {movies|type} by studio ghibli
+train_mturk_00.txt	What {TV shows|type} are {popular|sort} {this year|sys_time|range}?
+train_range_00.txt	{movies|type} {made in 1999|sys_time|range}
+train_mturk_00.txt	What {baseball|genre} {movies|type} are available?
+train_01.txt	are there any {series|type} marathons currently {running|genre}
+train_01.txt	i want to watch {frozen|title}
+train_05.txt	show me the {newer|sort} {italian job|title} {movie|type}
+train_03.txt	what are some {great|sort} {comedy|genre} {films|type} to watch currently
+train_00.txt	show me {comedy|genre} genre
+train_04.txt	i want to watch {the wolf of wall street|title}
+train_00.txt	{dracula|title}
+train_01.txt	show me the {shows|type} with {ashton kutcher|cast}
+train_05.txt	find {saving private ryan|title}
+train_mturk_00.txt	What is a great {Brad Pitt|cast} {movie|type}?
+train_02.txt	show me {rushmore|title}
+train_03.txt	what are the {comedies|genre} in the afi {top|sort} 100 {movie|type} list
+train_04.txt	begin the {film|type} the {maze runner 2|title}
+train_02.txt	{harrison ford|cast} {films|type}
+train_00.txt	show me all the {shows|type} that {j j abrams|director} is involved with
+train_00.txt	show me some {comedy|genre} {movies|type}
+train_02.txt	show me some super hero {movies|type}
+train_01.txt	i want to see {comedies|genre} that are available with {farley|cast} in them
+train_mturk_00.txt	Can I see more {movies|type} with {Johnny Depp|cast}?
+train_02.txt	can you show me {top gun|title} starring {tom cruise|cast}
+train_04.txt	show {movies|type} with {charlize theron|cast}
+train_mturk_00.txt	Please show me the {newest|sort} {action|genre} {movies|type}.
+train_00.txt	find me a {horror|genre} {movie|type}
+train_00.txt	do the {grammys|title} start soon
+train_01.txt	show me {drama|genre} {shows|type}
+train_04.txt	put on {ghost world|title}
+train_04.txt	watch {the godfather|title}
+train_mturk_00.txt	What are the {funniest|genre} {movies|type} out {right now|sys_time|range}?
+train_04.txt	play {heat|title} now
+train_02.txt	what's the {movie|type} where a woman get a medical procedure to erase memories about a past relationship
+train_00.txt	any {horror|genre} {shows|type} on soon
+train_03.txt	what s the name of the {movie|type} with the kid and an orca
+train_04.txt	i want to see {scarface|title}
+train_range_00.txt	play a {william shatner|cast} {movie|type} {from the 80s|sys_interval|range}
+train_03.txt	what are some {movies|type} for {children|genre} 10 and under
+train_mturk_00.txt	{Top|sort} ten {films|type} of the {2000s|sys_interval|range}.
+train_01.txt	show me some {baseball|genre} games
+train_00.txt	i feel like watching a {action|genre} {film|type}
+train_03.txt	what are some {movies|type} that are similar to {the visit|title}
+train_mturk_00.txt	Can I see {action|genre} {movies|type}?
+train_04.txt	show me {movies|type} with club in the name
+train_01.txt	find {documentaries|genre} on rob halford
+train_02.txt	show {movies|type} from {owen wilson|cast}
+train_03.txt	i want to see a {movie|type} with {matthew mcconaughey|cast} in it
+train_range_00.txt	show me {popular|sort} teen {movies|type} {from the 90s|sys_interval|range}
+train_04.txt	i want to watch {scanners|title}
+train_mturk_00.txt	what is the {best|sort} {show|type} from the {90's|sys_interval|range}?
+train_mturk_00.txt	Recommend me some good {romantic|genre} {movies|type}.
+train_01.txt	are there any {science fiction|genre} {movies|type} on
+train_02.txt	show {recent|sort} {james cameron|director} {movies|type}
+train_03.txt	show me {movies|type} with {george clooney|cast}
+train_01.txt	show me {michelle rodriguez|cast} {movies|type}
+train_02.txt	what s the {movie|type} with {brad pitt|cast} where a man ages in reverse
+train_05.txt	find me {finding nemo|title}
+train_03.txt	what's a {top rated|sort} with a person from Scotland
+train_01.txt	i would like to watch {bozo|title}
+train_04.txt	show me {action|genre} {movies|type}
+train_01.txt	show {shows|type}
+train_range_00.txt	show me {movies|type} {from the 90 s|sys_interval|range}
+train_01.txt	are there any {comedy|genre} {movies|type} on
+train_00.txt	show me a {best|sort} list of {sci fi|genre} {film|type} monthly
+train_03.txt	i want to watch {star wars|title}
+train_03.txt	what s the {most recent|sort} {movie|type} {bill murray|cast} has starred in
+train_02.txt	{movies|type} about world war 2
+train_02.txt	what s the {movie|type} where {tom cruise|cast} is a fighter pilot
+train_00.txt	i want to watch {bates motel|title}
+train_03.txt	i want the {movie|type} with {reese witherspoon|cast} recently released
+train_04.txt	play {the godfather|title} with subtitles
+train_range_00.txt	{popular|sort} {movies|type} {in the last year|sys_interval|range}
+train_00.txt	switch to {ncis|title}
+train_00.txt	show me {western|genre} genre
+train_02.txt	{hot tub time machine 2|title}
+train_05.txt	show me {movies|type} with {bruce willis|cast}
+train_mturk_00.txt	Which are the {best rated|sort} {comedies|genre} in {2017|sys_time|range}?
+train_mturk_00.txt	can i watch live {tv shows|type}
+train_04.txt	i want to see {the martian|title}
+train_range_00.txt	browse all {tv shows|type} that were {made before 2000|sys_time|range}
+train_04.txt	please show me {ocean s 13|title}
+train_02.txt	a {movie|type} with two dogs and one cat
+train_02.txt	what {movie|type} does {daniel radcliffe|cast} star in
+train_03.txt	i want to watch {the lion king|title}
+train_02.txt	which {movie|type} has han solo in it
+train_01.txt	do you have the {documentary|genre} about scientology
+train_04.txt	i want to see all {a star is born|title} {movies|type}
+train_02.txt	{cartoon|genre} with green monster
+train_mturk_00.txt	When does {Colony|title} Season 2 air on the {TV|type}?
+train_02.txt	show me some {movies|type} of {sylvester stallone|cast}
+train_03.txt	put on {lost|title}
+train_03.txt	what {films|type} has {edward norton|cast} been in
+train_01.txt	to show me all {family guy|title} {shows|type}
+train_03.txt	show me {movies|type} with {laurence fishburne|cast}
+train_mturk_00.txt	What {movies|type} have Leo in them
+train_00.txt	show me {the wild life|title} {shows|type}
+train_01.txt	{dule hill|cast} on {the west wing|title}
+train_00.txt	display all {comedies|genre}
+train_00.txt	are there any {movies|type} on
+train_01.txt	is there anything on that has {philip seymour hoffman|cast} in it
+train_mturk_00.txt	what {show|type} should i watch?
+train_00.txt	i want to watch {sports|genre}
+train_03.txt	{matt damon|cast} {movies|type}
+train_02.txt	i want to watch {the polar express|title}
+train_04.txt	play {star wars|title}
+train_04.txt	i want to watch {men in black 3|title}
+train_mturk_00.txt	{Sci-fi|genre} {film|type} from {2014|sys_time|range} starring {Tom Cruise|cast}?
+train_04.txt	search and play {oblivion|title}
+train_02.txt	show me a {movie|type} starring {jim carrey|cast} and {kate winslet|cast}
+train_03.txt	what is the {movie|type} about a girl getting revenge on a pedophile
+train_04.txt	turn on {the wizard of oz|title}
+train_range_00.txt	i would like to see {80 s|sys_interval|range} {sci fi|genre} {movies|type}
+train_00.txt	what {sci fi|genre} {movies|type} are available to watch
+train_02.txt	i m in the mood for a {romantic comedy|genre}
+train_00.txt	show me a {best|sort} list of {action|genre} {film|type} monthly
+train_01.txt	show me {top|sort} {movies|type} directed by {guy ritchie|director}
+train_03.txt	show me all {movies|type} starring {leonardo dicaprio|cast}
+train_01.txt	show me what {comedies|genre} are available
+train_04.txt	begin search for {the matrix|title}
+train_01.txt	major league baseball
+train_00.txt	i want to see {movies|type} featuring {nicolas|cast}
+train_mturk_00.txt	I'm in the mood for a Nicholas Cage {movie|type}, which ones have you got?
+train_mturk_00.txt	Can I see {movies|type} that are {cult|genre} {movies|type}?
+train_01.txt	i want to see {it happened one night|title}
+train_00.txt	find {comedies|genre}
+train_04.txt	{dawn of the dead|title} please
+train_04.txt	show me the {movie|type} with the english title {one armed swordsman|title}
+train_04.txt	do you have {finding nemo|title}
+train_02.txt	do you have {lawrence of arabia|title}
+train_05.txt	play the {newer|sort} {jane eyre|title} {movie|type}
+train_02.txt	the {movie|type} about santa s cookies
+train_mturk_00.txt	Can you suggest {comedy|genre} {movies|type} with {Hugh Grant|cast}?
+train_04.txt	search for {back to the future|title}
+train_01.txt	{comedy|genre} {show|type} {it s always sunny in philadelphia|title}
+train_01.txt	show me {the maze runner|title}
+train_03.txt	show me all {movies|type} with {tom cruise|cast} in them
+train_range_00.txt	show {lie to me|title} season 5 {in chronological order|sort}
+train_01.txt	show my {history|genre}
+train_05.txt	i want to watch {the big lebowski|title}
+train_03.txt	give me a {highly rated|sort} independent {drama|genre}
+train_03.txt	show me the {movie|type} about boston red sox
+train_04.txt	{movies|type} about marijuana cultivation
+train_04.txt	show me {movies|type} with {mel gibson|cast} as the actor
+train_range_00.txt	what is the {most popular|sort} {movie|type} {out right now|sys_time|range}
+train_mturk_00.txt	What are some of {Christoph Watlz|cast} 's {best|sort} {movies|type}?
+train_mturk_00.txt	Can I see {movies|type} starring Oscar winning actors?
+train_02.txt	{movies|type} directed by {nolan|director}
+train_00.txt	how many {top|sort} 10 all time {tv show|type} are available to watch
+train_01.txt	{last tango in paris|title}
+train_04.txt	watch {sleepy hollow|title}
+train_00.txt	put on {cartoons|genre}
+train_03.txt	{contact|title}
+train_range_00.txt	play a {john cusack|cast} {movie|type} {from the 80s|sys_interval|range}
+train_04.txt	can you play {inception|title} for me
+train_03.txt	show me every {movie|type} {jack lemmon|cast} and {walter matthau|cast} have starred in together
+train_mturk_00.txt	Can you give me for tonight good {horror|genre} {movie|type}?
+train_04.txt	i want to watch {legally blonde|title}
+train_02.txt	what is the {movie|type} where aliens invade the earth
+train_04.txt	play {love actually|title}
+train_04.txt	play {love actually|title}
+train_04.txt	list all {movies|type} with the word school in the name
+train_03.txt	play {quentin tarantino|director} {movies|type}
+train_04.txt	let me watch {back to the future|title}
+train_05.txt	start {fargo|title}
+train_04.txt	play {matrix reloaded|title}
+train_03.txt	give me all chinese {historical|genre} {war|genre} {movies|type}
+train_02.txt	{sci fi|genre} {movies|type} with {arnold schwarzenegger|cast}
+train_00.txt	show {basketball|genre} game listings
+train_01.txt	show me all the {shows|type} that {j j abrams|director} is involved with
+train_mturk_00.txt	Can i play Season 2 of {Breaking Bad|title}
+train_00.txt	show me {breaking bad|title}
+train_00.txt	look for {Joseph Gordon Levitt|cast} {movies|type}
+train_05.txt	i want to watch {star wars|title}
+train_05.txt	i want to watch {star wars|title}
+train_05.txt	i want to watch {star wars|title}
+train_04.txt	show me {jurassic park|title}
+train_02.txt	what was the {first|sort} {tom cruise|cast} {movie|type}
+train_01.txt	what is {meg ryan|cast} s {latest|sort} {movie|type}
+train_mturk_00.txt	What are some {crime dramas|genre} from the {40's|sys_interval|range}?
+train_00.txt	find the {movie|type} {ghostbusters|title}
+train_02.txt	you have any {movies|type} with {tom cruise|cast} and {jack nicholson|cast}
+train_01.txt	what shows are {new|sort} and {bizarre|genre}
+train_04.txt	can i watch {halloween 2|title}
+train_01.txt	find me a {movie|type} directed by {steven spielberg|director}
+train_02.txt	so show me {movies|type} directed by {martin scorsese|director}
+train_01.txt	heist {movies|type} with {good reviews|sort}
+train_00.txt	can you show me {the big lebowski|title} starring {john goodman|cast}
+train_mturk_00.txt	can you find me some {classic|sort} {films|type} with {popular|sort} cultural references?
+train_02.txt	show me some {cameron diaz|cast} {movies|type}
+train_03.txt	let s see the {movie|type} {harlem nights|title}
+train_02.txt	a {bill murray|cast} {film|type}
+train_01.txt	filter out {adult|genre} {movies|type}
+train_04.txt	{movies|type} with hot leading ladies
+train_04.txt	{the matrix reloaded|title}
+train_02.txt	{the cuckoo s nest|title} {movie|type}
+train_03.txt	what is the {highest rated|sort} dinosaur {movie|type}
+train_04.txt	i want to watch {crouching tiger hidden dragon|title} in the original mandarin with english subtitles
+train_00.txt	Show me {romantic|genre} {holiday|genre} {movies|type}
+train_01.txt	show me a {movie|type} with {will smith|cast}
+train_02.txt	{groundhog day|title}
+train_mturk_00.txt	Who won the most awards of {2017|sys_time|range} so far?
+train_01.txt	show me the {movie|type} {avatar|title}
+train_04.txt	i want to watch {sex in the city|title}
+train_01.txt	navigate to some {horror|genre} {flicks|type}
+train_01.txt	display a list of {will smith|cast} {sci fi|genre} {films|type}
+train_00.txt	what is the full list of television {shows|type} created by {quentin tarantino|director}
+train_03.txt	{friday|title}
+train_04.txt	what {movies|type} are available with holiday in the title
+train_03.txt	play an {old|sort} {western|genre} {movie|type} that was {highly rated|sort} by critics
+train_01.txt	show me {shows|type} that include {jerry springer|cast}
+train_01.txt	show me any {movies|type} by {quentin tarantino|director}
+train_03.txt	play the {newest|sort} {j j abrams|director} {movie|type}
+train_02.txt	{gwyneth paltrow|cast} {movie|type}
+train_00.txt	what s the {movie|type} where {nicole kidman|cast} is a un interpreter
+train_range_00.txt	show me the {top|sort} {films|type} {of this year|sys_time|range}
+train_02.txt	i want a good {action|genre} {movie|type}
+train_mturk_00.txt	Any {recent|sort} {films|type} worth watching?
+train_04.txt	search {frankenstein|title} starring {lon chaney jr|cast}
+train_00.txt	show all episodes of {suits|title}
+train_01.txt	pick a random {movie|type}
+train_00.txt	show me the {movie|type} {2001 a space odyssey|title}
+train_04.txt	i want to see {the godfather|title}
+train_00.txt	look for {Mark Wahlberg|cast} {movies|type}
+train_range_00.txt	are there any {2015|sys_time|range} {scifi|genre}
+train_04.txt	please play {pride and prejudice|title}
+train_range_00.txt	i want to see {suit|title} season 5 again
+train_01.txt	are there any {family|genre} time {movies|type} playing
+train_00.txt	show me {historical|genre} genre
+train_00.txt	what is that {movie|type} with {bill murray|cast} in tokyo
+train_00.txt	show me {the hobbit|title}
+train_01.txt	is there a {tarantino|director} {movie|type} on
+train_00.txt	show me {latest|sort} {grey s anatomy|title}
+train_00.txt	show me {better call saul|title}
+train_02.txt	i want to see {the life aquatic|title}
+train_range_00.txt	what is the {highest rated|sort} {comedy|genre} {out right now|sys_time|range}
+train_00.txt	switch to {game of thrones|title}
+train_02.txt	show me a {movie|type} from {france|country}
+train_05.txt	i would like to watch {clueless|title}
+train_03.txt	what are the {highest rated|sort} disney {movies|type} available
+train_mturk_00.txt	What is a {scary|genre} {movie|type} that has good ratings?
+train_01.txt	find {movies|type} with {jennifer lawrence|cast}
+train_03.txt	show me a baseball {movie|type} with kids
+train_mturk_00.txt	What is a {tv show|type} with {Matthew Perry|cast}?
+train_05.txt	give me a list of {tim burton|director} {films|type}
+train_mturk_00.txt	CAN I SEE SOME {HORROR|genre} {MOVIES|type}
+train_mturk_00.txt	What's a good {family|genre} {movie|type} to watch?
+train_02.txt	what are some {arnold schwarzenegger|cast} {films|type}
+train_02.txt	{latest|sort} {movie|type} of {shah rukh khan|cast}
+train_00.txt	what {tonight show|title} seasons are available
+train_range_00.txt	are there any {2015|sys_time|range} {comedy|genre}
+train_range_00.txt	are there any {2015|sys_time|range} {comedy|genre}
+train_01.txt	find the {movie|type} about mail order brides
+train_mturk_00.txt	Can you show me a list of {legal|genre} {tv shows|type}?
+train_03.txt	what are the {newest|sort} {movies|type} that were added
+train_mturk_00.txt	What are some {romance|genre} {movies|type} from {this year|sys_time|range}?
+train_01.txt	show me a {movie|type} with a sad ending
+train_mturk_00.txt	I'm searching for a {comedy|genre} staring {Jonah Hill|cast}
+train_04.txt	show me {movies|type} starring {bob hope|cast}
+train_01.txt	i want to see that {movie|type} with {arnold schwarzenegger|cast} where he's on mars
+train_01.txt	find me a {show|type} with {michael j fox|cast}
+train_01.txt	{the machine|title}
+train_05.txt	play {the crying game|title}
+train_04.txt	play the {movie|type} {major league|title}
+train_03.txt	show me {movies|type} directed by {milos forman|director}
+train_05.txt	can you please bring up the {movie|type} where {sandra bullock|cast} is stuck in space
+train_02.txt	the {movie|type} where {tom cruise|cast} was flying jets
+train_02.txt	the {worst|sort} {keanu reeves|cast} {movies|type}
+train_mturk_00.txt	Are there any {new|sort} {documentaries|genre} out?
+train_01.txt	list {shows|type} with {billy murray|cast} in them
+train_01.txt	show me a {steven spielberg|director} {movie|type}
+train_04.txt	watch {the wolf of wall street|title}
+train_03.txt	i want to watch the {first|sort} {movie|type} {jim carrey|cast} starred in
+train_mturk_00.txt	Are there any {movies|type} longer than 100 minutes?
+train_00.txt	put on an {action|genre} {movie|type}
+train_01.txt	i need a {family|genre} {show|type}
+train_04.txt	open {me and earl and the dying girl|title}
+train_00.txt	i want to see {french|country} {movies|type} starring {audrey tautou|cast}
+train_05.txt	{sleepless in seattle|title}
+train_01.txt	show me all {documentaries|genre}
+train_01.txt	show me all {documentaries|genre}
+train_04.txt	i want to see the {predator|title}
+train_00.txt	filter {movies|type} to only include those with actor {nicolas|cast}
+train_mturk_00.txt	What are some {sitcoms|genre} about friends hanging out?
+train_04.txt	i want to watch {paddington|title} bear
+train_mturk_00.txt	I'd like to watch a {movie|type} that came out in {1982|sys_time|range}.
+train_04.txt	find and play {argo|title}
+train_04.txt	i want to watch {when harry met sally|title}
+train_mturk_00.txt	When is the next episode of {Keeping Up With The Kardashians|title}?
+train_04.txt	i d like to watch {the notebook|title}
+train_02.txt	how about {my cousin vinny|title}
+train_02.txt	what are good dinosaur {movies|type}
+train_03.txt	show me {movies|type} with the {best|sort}
+train_04.txt	play {the hangover|title}
+train_01.txt	show all {johnny depp|cast} {movies|type}
+train_00.txt	do you have {teen mom 2|title}
+train_01.txt	show me {documentary|genre} {movies|type}
+train_02.txt	{first|sort} {movie|type} ever
+train_mturk_00.txt	What show starred {james Garner|cast} as a private investigator?
+train_01.txt	show me a {movie|type} with {jennifer lawrence|cast}
+train_01.txt	find {grey s anatomy|title}
+train_02.txt	what was that {hitchcock|director} {movie|type} where they drive around san francisco
+train_00.txt	Show me {french|country} {films|type}
+train_03.txt	{movie|type} about a man who s on the television show 24 hours a day and doesn t know
+train_range_00.txt	show me {top rated|sort} {comedies|genre} {from the 90s|sys_interval|range}
+train_01.txt	{movies|type} by {george lucas|director}
+train_mturk_00.txt	What are the {highest rated|sort} {movies|type} of {2016|sys_time|range}?
+train_02.txt	{sean penn|cast} {movies|type}
+train_range_00.txt	show me the {top|sort} {movies|type} {from the 80s|sys_interval|range}
+train_01.txt	show me {shows|type} with female leads
+train_01.txt	find local {sports|genre}
+train_02.txt	{movies|type} with {anderson cooper|cast}
+train_mturk_00.txt	What {movies|type} has {Oscar Isaac|cast} been in?
+train_04.txt	search for title {last of the mohicans|title}
+train_mturk_00.txt	Do you have any {well-reviewed|sort} {horror|genre} {movies|type}?
+train_mturk_00.txt	What are some {movies|type} that are based on a true story?
+train_00.txt	what was {john cusack|cast} s {most successful|sort} {movie|type}
+train_00.txt	Show me {Kelly and Michael|title}
+train_00.txt	I feel like watching a {handball|genre} game
+train_02.txt	{latest|sort} {movie|type} of {tom cruise|cast}
+train_04.txt	play the {movie|type} {star wars the empire strikes back|title}
+train_03.txt	show me {sandra bullock|cast} {movies|type}
+train_03.txt	show me {sandra bullock|cast} {movies|type}
+train_02.txt	show me {movies|type} with {arnold schwarzenegger|cast}
+train_mturk_00.txt	find oscar winner {movies|type} in {2015|sys_time|range}?
+train_03.txt	show me {movies|type} with {taylor kitsch|cast}
+train_mturk_00.txt	please suggest a {movie|type} for a rainy Friday night
+train_05.txt	play {full metal jacket|title}
+train_03.txt	show me all {movies|type} directed by {tim burton|director}
+train_05.txt	browse through {movies|type} {for kids|genre}
+train_mturk_00.txt	{Music|genre} please
+train_mturk_00.txt	Which {movies|type} are in the {Harry Potter|title} series?
+train_03.txt	{movies|type} with {richard dawkins|cast}
+train_01.txt	play a {rom com|genre}
+train_03.txt	play {audrey hepburn|cast} s {most popular|sort} {film|type}
+train_mturk_00.txt	What are some good {movies|type} from the {80s|sys_interval|range}?
+train_00.txt	I want to watch the {series|type} with {Kaley Cuoco|cast}
+train_mturk_00.txt	Could I watch a {well-rated|sort} {sci-fi|genre} {movie|type}?
+train_04.txt	view {major league|title}
+train_03.txt	show me some high tech {movies|type}
+train_03.txt	show me {horror|genre} {films|type} with a cult following
+train_01.txt	are there any {cartoons|genre}
+train_02.txt	{joseph gordon levitt|cast} {movies|type}
+train_01.txt	show me a {comedy|genre} with {jim carrey|cast}
+train_04.txt	are there any sequels to {mean girls|title}
+train_mturk_00.txt	What's a good {family|genre} {comedy|genre}?
+train_00.txt	show me {action|genre} {movies|type}
+train_03.txt	show me parodies
+train_04.txt	i m looking for the {latest|sort} {mockingjay|title} {movie|type}
+train_00.txt	{documentaries|genre} please
+train_range_00.txt	{australian|country} {movies|type} {of the 1960s|sys_interval|range}
+train_01.txt	i want to see a {movie|type} directed by {steven spielberg|director}
+train_mturk_00.txt	Which {movies|type} were nominated for Best Picture in {2016|sys_time|range}?
+train_00.txt	is there any {anime|genre} on?
+train_04.txt	play {avatar|title} in 3 d high definition
+train_02.txt	{latest|sort} {kevin hart|cast} {movie|type}
+train_04.txt	i want to see the {animated|genre} {hobbit|title}
+train_04.txt	show me christmas {movies|type}
+train_01.txt	i want to see {movies|type} featuring {drew barrymore|cast}
+train_00.txt	{the tonight show|title}
+train_04.txt	we want to watch {the importance of being earnest|title} with {colin firth|cast}
+train_01.txt	any {movies|type} on with {kevin hart|cast} as the main character
+train_mturk_00.txt	Is anything unusually {popular|sort} tonight?
+train_04.txt	search {mad max|title}
+train_03.txt	what are the {best|sort} {movies|type} with {matthew mcconaughey|cast}
+train_04.txt	show me {movies|type} similar to {pan s labyrinth|title}
+train_mturk_00.txt	Can I see {movies|type} with {Brad Pitt|cast}?
+train_01.txt	show me {eternal sunshine of the spotless mind|title}
+train_03.txt	what is the name of that {tarantino|director} {movie|type} with a female ninja
+train_01.txt	will you please find {sesame street|title}
+train_04.txt	i want to see the {movie|type} {love and basketball|title}
+train_02.txt	{nicolas cage|cast} {movie|type}
+train_00.txt	the {avengers|title}
+train_03.txt	what are the {newest|sort} {movies|type} out
+train_02.txt	what are the {latest|sort} {movies|type}
+train_05.txt	i want to see {the departed|title}
+train_02.txt	what s the {highest rated|sort} {movie|type} with {kevin costner|cast}
+train_04.txt	do you have {crimson rivers|title}
+train_00.txt	find all listing for {music|genre} {film|type}
+train_01.txt	show me all {shows|type} with {bruce willis|cast}
+train_mturk_00.txt	What are the {most popular|sort} {Disney Jr.|genre} {shows|type}?
+train_00.txt	anything directed by {Andy Ackerman|director}
+train_00.txt	is {game of thrones|title} on
+train_01.txt	show me any {movies|type} directed by {quentin tarantino|director}
+train_04.txt	let me see {jurassic world|title}
+train_02.txt	what are some {movies|type} directed by {george clooney|director}
+train_05.txt	bring up any {crime|genre} related {tv shows|type}
+train_mturk_00.txt	show me the {most recent|sort} DVD releases for {this month|sys_time|range}
+train_01.txt	is {elementary|title} on
+train_04.txt	show me {the shawshank redemption|title}
+train_mturk_00.txt	Any {horror|genre}/{thriller|genre} {movies|type} on right now?
+train_mturk_00.txt	Any {romantic historical|genre} {movies|type} from this century?
+train_01.txt	i want to see {tv shows|type} with {wayne brady|cast}
+train_mturk_00.txt	{Top-rated|sort} {movies|type} of {2016|sys_time|range}.
+train_01.txt	find {broad city|title}
+train_01.txt	are there any good {romance|genre} {movies|type} out
+train_05.txt	play {the little mermaid|title}
+train_range_00.txt	i want to see the {top|sort} {movies|type} {from the year 2005|sys_time|range}
+train_mturk_00.txt	What {classic|sort} {movies|type} can you suggest?
+train_01.txt	show me {mystery|genre} {movies|type}
+train_03.txt	play a random {movie|type}
+train_01.txt	show me the {shows|type} with {tim heidecker|cast}
+train_00.txt	what {sci fi|genre} type {shows|type} are on
+train_01.txt	is there any {mob|genre} {movies|type} on
+train_03.txt	{insidious 3|title}
+train_02.txt	show me {steven spielberg|director} {movies|type}
+train_05.txt	play the great {exotic marigold hotel|title}
+train_03.txt	what {movies|type} are by the {coen brothers|director}
+train_mturk_00.txt	What was the {most popular|sort} {drama|genre} {movie|type} in {2007|sys_time|range}?
+train_03.txt	do we have the {movie|type} {to sir with love|title}
+train_03.txt	i wanna see {movies|type} about aliens
+train_02.txt	{invasion of the body snatchers|title} starring {donald sutherland|cast}
+train_02.txt	show me some {movies|type} starring {bruce lee|cast}
+train_04.txt	i ve been wanting to see {jurassic park|title}
+train_mturk_00.txt	{Most viewed|sort} {horror|genre} {movies|type}
+train_01.txt	what {movies|type} has {scarlett johansson|cast} been in
+train_mturk_00.txt	What's the {most watched|sort} {documentary|genre}?
+train_03.txt	i want to see {james cameron|director} s {best rated|sort} {film|type}
+train_mturk_00.txt	Are there any {new|sort} {series|type} starting soon?
+train_01.txt	would you please filter out all {films|type} with {matthew mcconaughey|cast}
+train_04.txt	i want to watch {american beauty|title}
+train_mturk_00.txt	Which is the {movie|type} of the month?
+train_02.txt	show me all the {coen brothers|director} {movies|type}
+train_04.txt	please play {the lion king|title}
+train_00.txt	what {apocalypse|genre} type {tv shows|type} are on
+train_04.txt	play {darjeeling limited|title}
+train_03.txt	show me a {movie|type} about 9 11
+train_range_00.txt	i want to see all {tom hanks|cast} {films|type} made {between 1989 and 1999|sys_interval|range}
+train_00.txt	find all listing for {sitcom|genre} {film|type}
+train_02.txt	what was that {movie|type} about time travel that was shot in texas
+train_00.txt	What {football|genre} games are on?
+train_03.txt	show me a {classic|sort}
+train_00.txt	show me {lost in translation|title}
+train_00.txt	{clint eastwood|cast} {movies|type}
+train_01.txt	show me {movies|type} directed by {steven spielberg|director}
+train_mturk_00.txt	What are the {Best|sort} Zombie {movies|type}?
+train_03.txt	show me some lgbt {movies|type}
+train_02.txt	what s that {movie|type} with {marlon brando|cast} and {lauren bacall|cast}
+train_range_00.txt	{movies|type} {made in 1999|sys_time|range} with robots
+train_02.txt	what are some {movies|type} with {alicia silverstone|cast}
+train_04.txt	i would like to watch {the wedding singer|title}
+train_01.txt	list all {comedies|genre} with {bill murray|cast} or {john belushi|cast}
+train_04.txt	i d like to watch the {back to the future|title} trilogy
+train_04.txt	start {toy story 3|title}
+train_03.txt	show me a {movie|type} my girlfriend will love
+train_mturk_00.txt	Show me {movies|type} to watch with my girlfriend
+train_04.txt	will you play {die hard|title}
+train_00.txt	{van damme|cast} {movie|type} where he punches a snake
+train_03.txt	show me some {movies|type} with {julia roberts|cast}
+train_02.txt	{george lucas|director} {film|type} starring {ron howard|cast}
+train_mturk_00.txt	Can you show me a list of {movies|type} starring {Jennifer Lawrence|cast}?
+train_02.txt	{science fiction|genre} {movies|type}
+train_mturk_00.txt	show {this years|sys_time|range} {comedies|genre}
+train_05.txt	what is the {shortest|sort} {movie|type} directed by {christopher nolan|director}
+train_01.txt	show me a {show|type} with {action|genre}
+train_02.txt	what s the {movie|type} with elaine from seinfeld and tony soprano
+train_02.txt	what was {clint eastwood|cast} s {first|sort} {movie|type}
+train_01.txt	show me any {movies|type} by {george lucas|director}
+train_00.txt	filter {movies|type} to only include those with actor {Jonathan Hyde|cast}
+train_01.txt	give me {movies|type} with {nathan fillion|cast}
+train_04.txt	show me the {movie|type} {the expendables|title}
+train_mturk_00.txt	What's the {highest rated|sort} {film|type} of {1985|sys_time|range}?
+train_04.txt	i want to see {titanic|title}
+train_04.txt	start {pitch perfect|title} from the beginning
+train_02.txt	let s watch {inside out|title}
+train_03.txt	play the {top rated|sort} {francis ford coppola|director} {film|type}
+train_04.txt	load the {movie|type} {superbad|title}
+train_01.txt	turn to {elementary|title}
+train_00.txt	what are the {films|type} directed by {wes anderson|director} and starring {bill murray|cast}
+train_03.txt	show me {movies|type} with female directors
+train_04.txt	show me {movies|type} {wes anderson|director} directed
+train_00.txt	{shows|type} with {Jim Parsons|cast}
+train_range_00.txt	i want to see a {clint eastwood|cast} {movie|type} {from the eighties|sys_interval|range}
+train_00.txt	show me {auto|genre} genre
+train_04.txt	play {silence of the lambs|title} for me
+train_00.txt	take me to the {action|genre} {film|type}
+train_04.txt	i want to watch {big fish|title}
+train_03.txt	play a {movie|type} filmed in alaska
+train_01.txt	what {comedy|genre} {cartoons|genre} are on
+train_01.txt	can you find me something {funny|genre} to watch
+train_02.txt	{uma thurman|cast} {movies|type}
+train_02.txt	what are {will smith|cast} {movies|type}
+train_02.txt	do you have {the last of the mohicans|title}
+train_04.txt	please show us {north by northwest|title}
+train_02.txt	what is {wes anderson|director} s {best reviewed|sort} {movie|type}
+train_00.txt	what are {movies|type} that costar {tom cruise|cast} and {nicole kidman|cast}
+train_01.txt	show me {shows|type} with {will smith|cast}
+train_02.txt	give me some {anime|genre}
+train_00.txt	i want to watch {al pacino|cast} {movies|type}
+train_00.txt	filter {tv shows|type} to only include those with actor {drew barrymore|cast}
+train_mturk_00.txt	Where can I watch {The Handmaid’s Tale|title}?
+train_04.txt	what {movies|type} have the {best|sort} reviews
+train_00.txt	tv turn to {workaholics|title}
+train_01.txt	show me {movies|type} with {burt reynolds|cast}
+train_02.txt	how about some {action|genre} {flicks|type}
+train_02.txt	show me things with {william shatner|cast}
+train_mturk_00.txt	What are the {best|sort} {European|country} {movies|type} with main characters being in their 30-s?
+train_05.txt	bring up {the sopranos|title}
+train_01.txt	i want to see something with {alicia silverstone|cast}
+train_01.txt	what shows have {christina applegate|cast}
+train_04.txt	restart {happy feet|title} from the beginning
+train_mturk_00.txt	{Movies|type} starring {Robert de Niro|cast}
+train_01.txt	show me {horror|genre} {documentaries|genre}
+train_02.txt	the {movie|type} where a small girl s behavior is controlled by five emotions
+train_range_00.txt	play the {best|sort} {animated|genre} {film|type} {of 2010|sys_time|range}
+train_02.txt	{indian|country} {movie|type} with {preity zinta|cast}
+train_01.txt	what {movie|type} with {adam sandler|cast}
+train_02.txt	what are some {harrison ford|cast} {movies|type} directed by {steven spielberg|director}
+train_mturk_00.txt	I would like to see some {movies|type} with Brendan Frasier.
+train_02.txt	what s a {highly rated|sort} {movie|type} with {arnold schwarzenegger|cast}
+train_01.txt	anything with {natalie portman|cast} on
+train_03.txt	can you show me {the twilight zone|title} {movie|type}
+train_mturk_00.txt	I DONT KNOW WHAT TO WATCH TONIGHT, ANY SUGGESTIONS
+train_02.txt	the {new|sort} {movie|type} with {reese witherspoon|cast}
+train_mturk_00.txt	Show me some {cartoons|genre} from the {80s|sys_interval|range}.
+train_03.txt	what {movie|type} has {molly ringwald|cast} and {emilio estevez|cast} in it as high school students in detention
+train_00.txt	i want to watch a {western|genre} {movie|type}
+train_05.txt	play {forrest gump|title}
+train_05.txt	play {forrest gump|title}
+train_01.txt	what are the {top|sort} {movies|type} by {quentin tarantino|director}
+train_02.txt	find {talk radio|title}
+train_05.txt	bring up the {movie|type} {12 angry men|title}
+train_mturk_00.txt	Can you please suggest some {movies|type} about baseball?
+train_03.txt	can you please play {the shawshank redemption|title}
+train_01.txt	what {sci fi|genre} {movies|type} are showing
+train_00.txt	what will be the next {show|type}
+train_mturk_00.txt	What are some {British|country} mysteries I might watch?
+train_03.txt	show me {movie|type} suggestions based on my viewing history
+train_03.txt	play me a {quentin tarantino|director} {movie|type}
+train_04.txt	i want to watch {star wars return of the jedi|title}
+train_05.txt	i want to watch {click|title}
+train_02.txt	what s that {clint eastwood|director} {movie|type} where he trains a female boxer
+train_01.txt	show me some {movies|type} directed by {charlie chaplin|director}
+train_range_00.txt	list all {horror|genre} {movies|type} {released in 2015|sys_time|range}
+train_01.txt	show me {movies|type} directed by {judd apatow|director}
+train_02.txt	{sci-fi|genre} {movies|type}
+train_04.txt	i would like to watch {lost in translation|title}
+train_02.txt	let s watch {kids|genre} {movies|type}
+train_00.txt	show me roman {action|genre} {movie|type}
+train_01.txt	i want to watch {bates motel|title}
+train_01.txt	if the children want to watch tv are there {family friendly|genre} {shows|type} on
+train_04.txt	let me see {the naked gun|title}
+train_mturk_00.txt	Which {TV shows|type} are {trending|sort} {right now|sys_time|range}?
+train_02.txt	give me {tom cruise|cast} {movies|type}
+train_02.txt	{jaws|title}
+train_mturk_00.txt	show all {movies|type} starring {will smith|cast}
+train_03.txt	show me {mark wahlberg|cast} {films|type}
+train_04.txt	i want to watch {mallrats|title}
+train_02.txt	show me {movies|type} with {j lo|cast}
+train_02.txt	which {movies|type} star {johnny depp|cast}
+train_02.txt	what is the {robin williams|cast} {movie|type} where he s a robot
+train_mturk_00.txt	What is the {best rated|sort} {film|type} from {this year|sys_time|range}?
+train_mturk_00.txt	Can you recommend any {shows|type} similar to {Orphan Black|title}?
+train_range_00.txt	show me all {movies|type} {from 1985|sys_time|range}
+train_04.txt	i want to watch a {scary|genre} {movie|type}
+train_range_00.txt	show {suit|title} season 5 {in chronological order|sort}
+train_01.txt	show me upcoming {tarantino|director} {films|type}
+train_04.txt	can i see {the dark crystal|title}
+train_mturk_00.txt	Who starred in the original {movie|type} {The Omen|title}?
+train_00.txt	can you find me a {film|type} by {eddie murphy|cast}
+train_03.txt	what year was {the matrix|title} made
+train_mturk_00.txt	{Movies|type} this month with 8 or higher on IMDB
+train_mturk_00.txt	Show me {last|sort} episode of {Lost|title} season 6
+train_04.txt	i would like to watch {jurassic park|title}
+train_04.txt	let me see {movies|type} with love in the title
+train_03.txt	play {gone with the wind|title}
+train_01.txt	switch to {the walking dead|title}
+train_02.txt	{wanted|title}
+train_02.txt	i want to see a {musical|genre}
+train_mturk_00.txt	Can you recommend a {recent|sort} {drama|genre}?
+train_02.txt	show me {movies|type} with {tom cruise|cast}
+train_02.txt	what are {woody allen|cast} s {most popular|sort} {movies|type}
+train_05.txt	browse through the whole catalog
+train_03.txt	show me some {movies|type} directed by {woody allen|director}
+train_mturk_00.txt	What {movie|type} won {best|sort} picture at the Oscars in {2015|sys_time|range}?
+train_04.txt	{classic|sort} {movies|type} {alfred hitchcock|cast}
+train_04.txt	start the {movie|type} {maleficent|title}
+train_03.txt	what s the {movie|type} with {anna kendrick|cast} and she sings in a girl group for school
+train_range_00.txt	play a {90s|sys_interval|range} {sci fi|genre} {tv show|type}
+train_04.txt	show me {keanu|cast} {movies|type}
+train_00.txt	Show me what {movies|type} are on
+train_03.txt	{guardians of galaxy|title}
+train_00.txt	take me to the {comedy|genre} {film|type}
+train_01.txt	i want to see a {film|type} which includes {toshiro mifune|cast}
+train_00.txt	{the daily show|title} please

@@ -1,0 +1,71 @@
+[
+	{
+        "cname": "latest",
+        "whitelist": [
+            "newest",
+            "recent",
+			"last",
+			"new",
+			"newer",
+			"newest",
+			"most recent",
+			"most recently released",
+			"brand new",
+			"new releases",
+			"newest release",
+			"newest releases",
+			"what's new"
+        ]
+    },
+    {
+    	"cname": "oldest",
+    	"whitelist": [
+    		"old",
+			"first",
+			"older",
+			"old classic",
+			"classic",
+			"classics",
+			"in chronological order",
+			"earliest"
+    	]
+    },
+    {
+    	"cname": "popular",
+    	"whitelist": [
+			"hot",
+			"blockbuster",
+			"blockbusters",
+			"most popular",
+			"most reviewed",
+			"most watched",
+			"hottest",
+			"highest grossing",
+			"top",
+			"top grossing",
+			"highest rated",
+			"highly rated",
+			"high ratings",
+			"top rated",
+			"best",
+			"great",
+			"best rated",
+			"top-rated",
+			"best-rated",
+			"best reviewed",
+			"good reviews",
+			"good review",
+			"most successful",
+			"successful",
+			"critically acclaimed"
+    	]
+    },
+    {
+    	"cname": "worst",
+    	"whitelist": [
+    		"worst rated",
+			"lowest rated",
+			"least favorite"
+    	]
+    }
+]
