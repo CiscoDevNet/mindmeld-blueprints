@@ -510,7 +510,8 @@ def video_results_to_action(results):
         video_summary = {
                             'title': video['title'],
                             'release_year': release_year,
-                            'type': video['doc_type']
+                            'type': video['doc_type'],
+                            'popularity': video['popularity']
                         }
         videos_client_action['videos'].append(video_summary)
 
