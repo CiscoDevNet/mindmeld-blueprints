@@ -123,7 +123,7 @@ def build_order(context, slots, responder):
     restaurant_entity = next((e for e in context['entities'] if e['type'] == 'restaurant'), None)
 
     if restaurant_entity:
-        if 'value' in restaurant_entity:
+        if len(restaurant_entity['value']) > 0:
             # If the recognized restaurant entity has multiple resolved values (i.e. it can
             # potentially be linked to more than one restaurant entry in the knowledge base),
             # pick the first KB entry. In a real application, this choice can be made in a more
