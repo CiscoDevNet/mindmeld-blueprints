@@ -1,34 +1,36 @@
-[
-    {
-        "whitelist": [], 
-        "cname": "Chinese"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Mediterranean"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Burgers"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "American"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Thai"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Indian"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Japanese"
-    }, 
-    {
-        "whitelist": [], 
-        "cname": "Pizza"
-    }
-]
+{
+    "entities": [
+        {
+            "whitelist": [],
+            "cname": "Chinese"
+        },
+        {
+            "whitelist": [],
+            "cname": "Mediterranean"
+        },
+        {
+            "whitelist": [],
+            "cname": "Burgers"
+        },
+        {
+            "whitelist": [],
+            "cname": "American"
+        },
+        {
+            "whitelist": [],
+            "cname": "Thai"
+        },
+        {
+            "whitelist": [],
+            "cname": "Indian"
+        },
+        {
+            "whitelist": [],
+            "cname": "Japanese"
+        },
+        {
+            "whitelist": [],
+            "cname": "Pizza"
+        }
+    ]
+}
