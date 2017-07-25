@@ -324,7 +324,7 @@ def _resolve_dish(dish_entity, selected_restaurant):
     # Finally, augment the dish entry with any additional information from its child entities.
     if dish and 'children' in dish_entity:
         # Add quantity information. Set to 1 if the entity value can't be resolved.
-        dish['quantity'] = next((child['value']['value'] for child in dish_entity['children']
+        dish['quantity'] = next((child['value'][0]['value'] for child in dish_entity['children']
                                 if child['type'] == 'sys_number'), 1)
         # Add information about all successfully resolved options.
         options = [_resolve_option(child, dish, selected_restaurant)
