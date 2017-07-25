@@ -29,13 +29,13 @@ DEFAULT_TIMER_DURATION = '60 seconds'  # Seconds
 
 
 @app.handle(intent='greet')
-def greet_intnet(context, slots, responder):
+def greet(context, slots, responder):
     responder.reply('Hi, I am your home assistant. I can help you to check weather, set temperature'
                     ' and control the lights and other appliances.')
 
 
 @app.handle(intent='exit')
-def exit_intent(context, slots, responder):
+def exit(context, slots, responder):
     responder.reply('Bye!')
 
 
@@ -424,7 +424,7 @@ def stop_timer(context, slots, responder):
 
 
 @app.handle(intent='unknown')
-def default(context, slots, responder):
+def unknown(context, slots, responder):
     replies = ["Sorry, not sure what you meant there."]
     responder.reply(replies)
 
