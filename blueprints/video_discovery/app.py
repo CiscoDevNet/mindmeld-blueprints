@@ -142,12 +142,8 @@ def update_existing_entities(new_entity, existing_entities):
         list: the new list of entities
     """
     entity_type = new_entity.get('type', '')
-    entity_values = new_entity.get('value', [])
     entity_text = new_entity.get('text')
-
-    cname = None
-    if entity_values:
-        cname = entity_values[0].get('cname', None)
+    cname = new_entity.get('cname', None)
 
     if len(existing_entities) == 0:
         existing_entities.append(new_entity)
