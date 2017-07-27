@@ -29,18 +29,18 @@ DEFAULT_TIMER_DURATION = '60 seconds'  # Seconds
 
 
 @app.handle(intent='greet')
-def greet(context, slots, responder):
+def greet(context, responder):
     responder.reply('Hi, I am your home assistant. I can help you to check weather, set temperature'
                     ' and control the lights and other appliances.')
 
 
 @app.handle(intent='exit')
-def exit(context, slots, responder):
+def exit(context, responder):
     responder.reply('Bye!')
 
 
 @app.handle(intent='check_weather')
-def check_weather(context, slots, responder):
+def check_weather(context, responder):
     """
     When the user asks for weather, return the weather in that location or use San Francisco if no
       location is given.
@@ -74,14 +74,14 @@ def check_weather(context, slots, responder):
         reply = "Sorry, the API key is invalid."
         responder.reply(reply)
     else:
-        slots['city'] = weather_info['name']
-        slots['temp_min'] = weather_info['main']['temp_min']
-        slots['temp_max'] = weather_info['main']['temp_max']
-        slots['condition'] = weather_info['weather'][0]['main'].lower()
+        responder.slots['city'] = weather_info['name']
+        responder.slots['temp_min'] = weather_info['main']['temp_min']
+        responder.slots['temp_max'] = weather_info['main']['temp_max']
+        responder.slots['condition'] = weather_info['weather'][0]['main'].lower()
         if selected_unit == "fahrenheit":
-            slots['unit'] = 'F'
+            responder.slots['unit'] = 'F'
         else:
-            slots['unit'] = 'C'
+            responder.slots['unit'] = 'C'
         responder.reply("The weather forecast in {city} is {condition} with a min of {temp_min} "
                         "{unit} and a max of {temp_max} {unit}.")
 
@@ -89,7 +89,7 @@ def check_weather(context, slots, responder):
 # Smart Home #
 
 @app.handle(intent='specify_location')
-def specify_location(context, slots, responder):
+def specify_location(context, responder):
 
     selected_all = False
     selected_location = _get_location(context)
@@ -139,7 +139,7 @@ def specify_location(context, slots, responder):
 
 
 @app.handle(intent='specify_time')
-def specify_time(context, slots, responder):
+def specify_time(context, responder):
 
     selected_time = _get_sys_time(context)
     selected_all = _get_command_for_all(context)
@@ -170,7 +170,7 @@ def specify_time(context, slots, responder):
 
 
 @app.handle(intent='check_door')
-def check_door(context, slots, responder):
+def check_door(context, responder):
 
     selected_location = _get_location(context)
 
@@ -184,37 +184,37 @@ def check_door(context, slots, responder):
 
 
 @app.handle(intent='close_door')
-def close_door(context, slots, responder):
+def close_door(context, responder):
     _handle_door(context, responder, desired_state='closed', desired_action='Close Door')
 
 
 @app.handle(intent='open_door')
-def open_door(context, slots, responder):
+def open_door(context, responder):
     _handle_door(context, responder, desired_state='opened', desired_action='Open Door')
 
 
 @app.handle(intent='lock_door')
-def lock_door(context, slots, responder):
+def lock_door(context, responder):
     _handle_door(context, responder, desired_state='locked', desired_action='Lock Door')
 
 
 @app.handle(intent='unlock_door')
-def unlock_door(context, slots, responder):
+def unlock_door(context, responder):
     _handle_door(context, responder, desired_state='unlocked', desired_action='Unlock Door')
 
 
 @app.handle(intent='turn_appliance_on')
-def turn_appliance_on(context, slots, responder):
+def turn_appliance_on(context, responder):
     _handle_appliance(context, responder, desired_state='on', desired_action='Turn On Appliance')
 
 
 @app.handle(intent='turn_appliance_off')
-def turn_appliance_off(context, slots, responder):
+def turn_appliance_off(context, responder):
     _handle_appliance(context, responder, desired_state='off', desired_action='Turn Off Appliance')
 
 
 @app.handle(intent='check_lights')
-def check_lights(context, slots, responder):
+def check_lights(context, responder):
 
     selected_location = _get_location(context)
 
@@ -228,17 +228,17 @@ def check_lights(context, slots, responder):
 
 
 @app.handle(intent='turn_lights_on')
-def turn_lights_on(context, slots, responder):
+def turn_lights_on(context, responder):
     _handle_lights(context, responder, desired_state='on', desired_action='Turn On Lights')
 
 
 @app.handle(intent='turn_lights_off')
-def turn_lights_off(context, slots, responder):
+def turn_lights_off(context, responder):
     _handle_lights(context, responder, desired_state='off', desired_action='Turn Off Lights')
 
 
 @app.handle(intent='check_thermostat')
-def check_thermostat(context, slots, responder):
+def check_thermostat(context, responder):
 
     selected_location = _get_thermostat_location(context)
 
@@ -254,7 +254,7 @@ def check_thermostat(context, slots, responder):
 
 
 @app.handle(intent='set_thermostat')
-def set_thermostat(context, slots, responder):
+def set_thermostat(context, responder):
 
     selected_location = _get_thermostat_location(context)
     selected_temperature = _get_temperature(context)
@@ -273,7 +273,7 @@ def set_thermostat(context, slots, responder):
 
 @app.handle(intent='turn_up_thermostat')
 @app.handle(intent='turn_down_thermostat')
-def change_thermostat(context, slots, responder):
+def change_thermostat(context, responder):
 
     if context['intent'] == 'turn_up_thermostat':
         desired_direction = 'up'
@@ -292,7 +292,7 @@ def change_thermostat(context, slots, responder):
 
 @app.handle(intent='turn_off_thermostat')
 @app.handle(intent='turn_on_thermostat')
-def turn_off_thermostat(context, slots, responder):
+def turn_off_thermostat(context, responder):
 
     if context['intent'] == 'turn_off_thermostat':
         desired_state = 'off'
@@ -308,7 +308,7 @@ def turn_off_thermostat(context, slots, responder):
 
 
 @app.handle(intent='change_alarm')
-def change_alarm(context, slots, responder):
+def change_alarm(context, responder):
 
     selected_old_time = _get_old_time(context)
     selected_new_time = _get_new_time(context)
@@ -331,7 +331,7 @@ def change_alarm(context, slots, responder):
 
 
 @app.handle(intent='check_alarm')
-def check_alarm(context, slots, responder):
+def check_alarm(context, responder):
 
     try:
         ordered_alarms = sorted(context['frame']['alarms'].keys())
@@ -346,7 +346,7 @@ def check_alarm(context, slots, responder):
 
 
 @app.handle(intent='remove_alarm')
-def remove_alarm(context, slots, responder):
+def remove_alarm(context, responder):
 
     # Get time entity from query
     selected_all = _get_command_for_all(context)
@@ -375,7 +375,7 @@ def remove_alarm(context, slots, responder):
 
 
 @app.handle(intent='set_alarm')
-def set_alarm(context, slots, responder):
+def set_alarm(context, responder):
 
     selected_time = _get_sys_time(context)
 
@@ -389,7 +389,7 @@ def set_alarm(context, slots, responder):
 
 
 @app.handle(intent='start_timer')
-def start_timer(context, slots, responder):
+def start_timer(context, responder):
     selected_duration = _get_duration(context)
     try:
         current_timer = context['frame']['timer']
@@ -406,7 +406,7 @@ def start_timer(context, slots, responder):
 
 
 @app.handle(intent='stop_timer')
-def stop_timer(context, slots, responder):
+def stop_timer(context, responder):
 
     try:
         current_timer = context['frame']['timer']
@@ -424,7 +424,7 @@ def stop_timer(context, slots, responder):
 
 
 @app.handle(intent='unknown')
-def unknown(context, slots, responder):
+def unknown(context, responder):
     replies = ["Sorry, not sure what you meant there."]
     responder.reply(replies)
 
