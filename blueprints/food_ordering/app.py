@@ -7,13 +7,13 @@ app = Application(__name__)
 
 
 @app.handle(intent='greet')
-def welcome(context, slots, responder):
+def welcome(context, responder):
     """
     When the user starts a conversation, say hi and give some restaurant suggestions to explore.
     """
     try:
         # Get user's name from session information in request context to personalize the greeting.
-        slots['name'] = context['request']['session']['name']
+        responder.slots['name'] = context['request']['session']['name']
         prefix = 'Hello, {name}. '
     except KeyError:
         prefix = 'Hello. '
@@ -29,7 +29,7 @@ def welcome(context, slots, responder):
 
 
 @app.handle(intent='exit')
-def say_goodbye(context, slots, responder):
+def say_goodbye(context, responder):
     """
     When the user ends a conversation, clear the dialogue frame and say goodbye.
     """
@@ -41,7 +41,7 @@ def say_goodbye(context, slots, responder):
 
 
 @app.handle(intent='help')
-def provide_help(context, slots, responder):
+def provide_help(context, responder):
     """
     When the user asks for help, provide some sample queries they can try.
     """
@@ -55,7 +55,7 @@ def provide_help(context, slots, responder):
 
 
 @app.handle(intent='start_over')
-def start_over(context, slots, responder):
+def start_over(context, responder):
     """
     When the user wants to start over, clear the dialogue frame and prompt for the next request.
     """
@@ -66,7 +66,7 @@ def start_over(context, slots, responder):
 
 
 @app.handle(intent='place_order')
-def place_order(context, slots, responder):
+def place_order(context, responder):
     """
     When the user wants to place the order, call an external API to process the transaction and
     acknowledge the order completion status to the user.
@@ -78,7 +78,7 @@ def place_order(context, slots, responder):
 
     if selected_restaurant:
         # If a restaurant has been selected, set its name in the natural language response.
-        slots['restaurant_name'] = selected_restaurant['name']
+        responder.slots['restaurant_name'] = selected_restaurant['name']
 
         if len(context['frame'].get('dishes', [])) > 0:
             # If the user has already made his dish selections from the menu, proceed to place the
@@ -102,7 +102,7 @@ def place_order(context, slots, responder):
 
 
 @app.handle(intent='build_order')
-def build_order(context, slots, responder):
+def build_order(context, responder):
     """
     When the user expresses an intent to start or continue ordering food, provide the
     appropriate guidance at each step for sequentially building up the order. This involves
@@ -143,14 +143,14 @@ def build_order(context, slots, responder):
             # If the restaurant entity couldn't be successfully linked to any entry in the
             # knowledge base (i.e. there are no candidate resolved values to choose from),
             # prompt the user to select a different restaurant.
-            slots['restaurant_name'] = restaurant_entity['text']
+            responder.slots['restaurant_name'] = restaurant_entity['text']
             responder.reply("Sorry, I could not find a restaurant called {restaurant_name}. Is "
                             "there another restaurant you would like to order from?")
             return
 
     # Store the selected restaurant's name for later use in natural language responses.
     if selected_restaurant:
-        slots['restaurant_name'] = selected_restaurant['name']
+        responder.slots['restaurant_name'] = selected_restaurant['name']
 
     # Now that the restaurant details are available, we next look for information about the
     # dishes ordered by the user.
@@ -169,7 +169,7 @@ def build_order(context, slots, responder):
 
             for dish_entity in dish_entities:
                 # Store the user-specified dish name for use in natural language responses.
-                slots['dish_name'] = dish_entity['text']
+                responder.slots['dish_name'] = dish_entity['text']
 
                 # Resolve the dish entity to a knowledge base entry using restaurant information.
                 selected_dish = _resolve_dish(dish_entity, selected_restaurant)
@@ -213,8 +213,8 @@ def build_order(context, slots, responder):
                 restaurant_names = [_kb_fetch('restaurants', rid)['name'] for rid in restaurant_ids]
 
                 # Compose the response with the restaurant suggestions and reply to the user.
-                slots['suggestions'] = ', '.join(restaurant_names)
-                slots['dish_name'] = dish_entity['text']
+                responder.slots['suggestions'] = ', '.join(restaurant_names)
+                responder.slots['dish_name'] = dish_entity['text']
                 responder.reply('I found {dish_name} at {suggestions}. Where would you like '
                                 'to order from?')
             else:
@@ -243,10 +243,10 @@ def build_order(context, slots, responder):
         if len(dish_names) > 1:
             dish_names[-1] = 'and ' + dish_names[-1]
         if len(dish_names) > 2:
-            slots['dish_names'] = ', '.join(dish_names)
+            responder.slots['dish_names'] = ', '.join(dish_names)
         else:
-            slots['dish_names'] = ' '.join(dish_names)
-        slots['price'] = sum(dish_prices)
+            responder.slots['dish_names'] = ' '.join(dish_names)
+        responder.slots['price'] = sum(dish_prices)
         responder.prompt('Sure, I have {dish_names} from {restaurant_name} for a total price of '
                          '${price:.2f}. Would you like to place the order?')
     else:
@@ -262,7 +262,7 @@ def build_order(context, slots, responder):
 
 @app.handle(intent='unsupported')
 @app.handle()
-def default(context, slots, responder):
+def default(context, responder):
     """
     When the user asks an unrelated question, convey the lack of understanding for the requested
     information and prompt to return to food ordering.
