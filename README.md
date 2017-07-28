@@ -6,10 +6,13 @@ a similar use case.
 
 ## Available Blueprints
 
-### Food Ordering (WIP)
+### Food Ordering
 
 The Food Ordering blueprint is a conversational app for ordering food from a food delivery service such as Amazon Restaurants, Caviar or JustEat. This blueprint will demonstrate building an application for interacting with a number of restaurants with different menus.
 
-### Home Assistant (WIP)
+### Home Assistant
 
-The Home Assistant blueprint is a conversational app for a smart home use case. This app should allow users to control appliances, lights, doors and thermostats. The app can also give meaningful replies to the users inquiring about weather and temperature.
+The Home Assistant blueprint is a conversational app that helps users to control appliances, lights, doors, thermostat and check the weather. This blueprint will demonstrate building an application with multiple intents, domains, entities and roles.
+
+### Video Discovery
+THe Video Discovery blueprint is a conversational app that helps users to search for and ask questions about movies and tv shows. This blueprint will demonstrate the extensive usage of the Knowledge Base component.
