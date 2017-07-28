@@ -7,6 +7,7 @@ import logging
 import random
 
 from mmworkbench import Application
+from mmworkbench.components.dialogue import SHOW_COLLECTION
 
 app = Application(__name__)
 
@@ -499,7 +500,7 @@ def video_results_to_action(results):
     Returns:
         dict: the client action containing the video results
     """
-    videos_client_action = {'videos': []}
+    videos_results = []
 
     for video in results:
         release_year = get_release_year(video['release_date'])
@@ -509,9 +510,12 @@ def video_results_to_action(results):
                             'type': video['doc_type'],
                             'popularity': video['popularity']
                         }
-        videos_client_action['videos'].append(video_summary)
+        videos_results.append(video_summary)
 
-    return videos_client_action
+    return {
+        'name': SHOW_COLLECTION,
+        'message': videos_results
+    }
 
 
 def get_default_videos():
