@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """This module contains a template Workbench app configuration"""
 
-# The name of the application if it should be different from the app's enclosing directory name
-# APP_NAME = 'app-name'
+# The namespace of the application. Used to prevent collisions in supporting services across
+# applications. If not set here, the app's enclosing directory name is used.
+# APP_NAMESPACE = 'app-name'
 
 # Dictionaries for the various NLP classifier configurations
 """

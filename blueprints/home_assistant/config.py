@@ -47,4 +47,4 @@ DOMAIN_MODEL_CONFIG = {
     }
 }
 
-APP_NAME = 'home_assistant'
+APP_NAMESPACE = 'home_assistant'

@@ -70,4 +70,4 @@ DOMAIN_MODEL_CONFIG = {
     }
 }
 
-APP_NAME = 'video_discovery'
+APP_NAMESPACE = 'video_discovery'
