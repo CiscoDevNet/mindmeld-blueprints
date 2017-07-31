@@ -117,3 +117,7 @@ play {forrest gump|title}
 bring up the {movie|type} {12 angry men|title}
 i want to watch {click|title}
 browse through the whole catalog
+{hunger games|title}
+{shawshank|title}
+{lord of the rings return of the king|title}
+{star wars force awakens|title}
