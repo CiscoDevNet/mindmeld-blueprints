@@ -69,5 +69,3 @@ DOMAIN_MODEL_CONFIG = {
         "freq": {"bins": 5}
     }
 }
-
-APP_NAME = 'video_discovery'
