@@ -10,8 +10,3 @@ PARSER_CONFIG = {
         'sys_number': {'max_instances': 1, 'right': False}
     }
 }
-
-CLASSIFIER_CONFIGS = {
-}
-
-APP_NAMESPACE = 'food_ordering'
