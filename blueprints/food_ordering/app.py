@@ -267,8 +267,8 @@ def default(context, responder):
     When the user asks an unrelated question, convey the lack of understanding for the requested
     information and prompt to return to food ordering.
     """
-    prompts = ['Sorry, not sure what you meant there. I can help you order food from your local '
-               'restaurants.']
+    prompts = ["Sorry, not sure what you meant there. I can help you order food from your local "
+               "restaurants. Try something like 'I'll have a veggie pizza from firetrail'"]
     responder.prompt(prompts)
 
 
