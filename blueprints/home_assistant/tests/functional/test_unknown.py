@@ -1,7 +1,7 @@
-from conversational_test import ConversationalTest
+from mmworkbench.test import ConversationTest
 
 
-class TestUnknown(ConversationalTest):
+class TestUnknown(ConversationTest):
     def test_unknown(self):
-        texts = self.conv.say("what was the soviet union?")
+        texts = self.say("what was the soviet union?")
         self.assert_text(texts, "Sorry, not sure what you meant there.")

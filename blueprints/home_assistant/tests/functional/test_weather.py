@@ -1,8 +1,8 @@
 import pytest
-from conversational_test import ConversationalTest
+from mmworkbench.test import ConversationTest
 
 
-class TestWeather(ConversationalTest):
+class TestWeather(ConversationTest):
     test_data = [
         ('what is the weather today', 'San Francisco', 'Fahrenheit'),
         ('what is the weather today in Celsius', 'San Francisco', 'Celsius'),
@@ -12,7 +12,7 @@ class TestWeather(ConversationalTest):
 
     @pytest.mark.parametrize("query, city, unit", test_data)
     def test_weather(self, query, city, unit):
-        texts = self.conv.say(query)
+        texts = self.say(query)
         assert city in texts[0]
         if unit == 'Fahrenheit':
             assert ' F ' in texts[0]

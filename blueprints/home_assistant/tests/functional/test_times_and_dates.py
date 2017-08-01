@@ -1,8 +1,8 @@
 import pytest
-from conversational_test import ConversationalTest
+from mmworkbench.test import ConversationTest
 
 
-class TestTimesAndDates(ConversationalTest):
+class TestTimesAndDates(ConversationTest):
     test_set_alarm_data = [
         ('set alarm for 6:15am this morning', '06:15:00'),
         ('wake me up tomorrow night at 9:32pm', '21:32:00'),
@@ -14,7 +14,7 @@ class TestTimesAndDates(ConversationalTest):
     @pytest.mark.parametrize("set_query, expected_response",
                              test_set_alarm_data)
     def test_set_alarm(self, set_query, expected_response):
-        texts = self.conv.say(set_query)
+        texts = self.say(set_query)
         assert expected_response in texts[0]
         self.assert_intent(self.conv, 'set_alarm')
 
@@ -29,8 +29,8 @@ class TestTimesAndDates(ConversationalTest):
     @pytest.mark.parametrize("set_query_no_time, time, expected_response",
                              test_set_alarm_and_specify_time_data)
     def test_set_alarm_and_specify_time(self, set_query_no_time, time, expected_response):
-        self.conv.say(set_query_no_time)
-        texts = self.conv.say(time)
+        self.say(set_query_no_time)
+        texts = self.say(time)
         assert expected_response in texts[0]
         self.assert_intent(self.conv, 'specify_time')
 
@@ -46,8 +46,8 @@ class TestTimesAndDates(ConversationalTest):
     @pytest.mark.parametrize("set_query, change_query, expected_response",
                              test_change_alarm_data)
     def test_change_alarm(self, set_query, change_query, expected_response):
-        self.conv.say(set_query)
-        texts = self.conv.say(change_query)
+        self.say(set_query)
+        texts = self.say(change_query)
         assert expected_response in texts[0]
         self.assert_intent(self.conv, 'change_alarm')
 
@@ -66,8 +66,8 @@ class TestTimesAndDates(ConversationalTest):
     @pytest.mark.parametrize("set_query, check_query, expected_response",
                              test_check_alarm_data)
     def test_check_alarm(self, set_query, check_query, expected_response):
-        self.conv.say(set_query)
-        texts = self.conv.say(check_query)
+        self.say(set_query)
+        texts = self.say(check_query)
         assert expected_response in texts[0]
         self.assert_intent(self.conv, 'check_alarm')
 
@@ -92,9 +92,9 @@ class TestTimesAndDates(ConversationalTest):
                              test_remove_all_alarm_data)
     def test_cancel_all_alarms(self, set_query_1, set_query_2, cancel_query,
                                expected_deleted_token1, expected_deleted_token2):
-        self.conv.say(set_query_1)
-        self.conv.say(set_query_2)
-        texts = self.conv.say(cancel_query)
+        self.say(set_query_1)
+        self.say(set_query_2)
+        texts = self.say(cancel_query)
         assert expected_deleted_token1 in texts[0] and "removed" in texts[0]
         assert expected_deleted_token2 in texts[0] and "removed" in texts[0]
         self.assert_intent(self.conv, 'remove_alarm')
@@ -139,13 +139,13 @@ class TestTimesAndDates(ConversationalTest):
                                    expected_deleted_token,
                                    expected_retained_token,
                                    list_remaining_alarms):
-        self.conv.say(set_query_1)
-        self.conv.say(set_query_2)
-        texts = self.conv.say(cancel_query)
+        self.say(set_query_1)
+        self.say(set_query_2)
+        texts = self.say(cancel_query)
         assert expected_deleted_token in texts[0] and "removed" in texts[0]
         self.assert_intent(self.conv, 'remove_alarm')
 
-        texts = self.conv.say(list_remaining_alarms)
+        texts = self.say(list_remaining_alarms)
         assert expected_retained_token in texts[0] and "removed" \
                                                        not in texts[0]
         self.assert_intent(self.conv, 'check_alarm')
@@ -182,14 +182,14 @@ class TestTimesAndDates(ConversationalTest):
                                        expected_deleted_token,
                                        expected_retained_token,
                                        list_remaining_alarms):
-        self.conv.say(set_query_1)
-        self.conv.say(set_query_2)
-        self.conv.say(cancel_query)
-        texts = self.conv.say(time)
+        self.say(set_query_1)
+        self.say(set_query_2)
+        self.say(cancel_query)
+        texts = self.say(time)
         assert expected_deleted_token in texts[0] and "removed" in texts[0]
         self.assert_intent(self.conv, 'specify_time')
 
-        texts = self.conv.say(list_remaining_alarms)
+        texts = self.say(list_remaining_alarms)
         assert expected_retained_token in texts[0] and "removed" \
                                                        not in texts[0]
         self.assert_intent(self.conv, 'check_alarm')
@@ -207,7 +207,7 @@ class TestTimesAndDates(ConversationalTest):
     @pytest.mark.parametrize("set_query, expected_response",
                              test_start_timer_data)
     def test_start_timer(self, set_query, expected_response):
-        texts = self.conv.say(set_query)
+        texts = self.say(set_query)
         assert expected_response in texts[0]
         self.assert_intent(self.conv, 'start_timer')
 
@@ -215,18 +215,18 @@ class TestTimesAndDates(ConversationalTest):
 
     @pytest.mark.parametrize("clear_query", test_clear_time_data)
     def test_clear_timer(self, clear_query):
-        self.conv.say('activate a new timer')
-        texts = self.conv.say(clear_query)
+        self.say('activate a new timer')
+        texts = self.say(clear_query)
         expected_response = 'The current timer has been cancelled'
         assert expected_response in texts[0]
 
     def test_clear_timer_no_timer(self):
-        texts = self.conv.say('clear timers')
+        texts = self.say('clear timers')
         self.assert_text(texts, 'There is no active timer to cancel!')
 
     test_specify_time = ['9am', 'at 10 AM', 'my 11PM alarm', 'the 6 PM', '7AM please']
 
     @pytest.mark.parametrize("specify_time_query", test_specify_time)
     def test_specify_time(self, specify_time_query):
-        self.conv.say(specify_time_query)
+        self.say(specify_time_query)
         self.assert_intent(self.conv, 'specify_time')
