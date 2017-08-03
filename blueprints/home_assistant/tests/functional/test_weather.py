@@ -1,5 +1,10 @@
 import pytest
+import os
 from mmworkbench.test import ConversationTest
+
+
+WEATHER_KEY = 'OPEN_WEATHER_KEY'
+WEATHER_INTENT = 'check_weather'
 
 
 class TestWeather(ConversationTest):
@@ -18,4 +23,19 @@ class TestWeather(ConversationTest):
             assert ' F ' in texts[0]
         else:
             assert ' C ' in texts[0]
-        self.assert_intent(self.conv, 'check_weather')
+        self.assert_intent(self.conv, expected_intent=WEATHER_INTENT)
+
+    def test_weather_not_setup(self):
+        key = os.environ.pop(WEATHER_KEY)
+        texts = self.say("what's the weather today?")
+        self.assert_intent(self.conv, expected_intent=WEATHER_INTENT)
+        self.assert_text(texts, expected_text='Open weather API is not setup, please follow instructions to setup the API.')  # noqa: E501
+        os.environ[WEATHER_KEY] = key
+
+    def test_weather_invalid(self):
+        key = os.environ.pop(WEATHER_KEY)
+        os.environ[WEATHER_KEY] = 'some key'
+        texts = self.say("what's the weather today?")
+        self.assert_intent(self.conv, expected_intent=WEATHER_INTENT)
+        self.assert_text(texts, expected_text='Sorry, the API key is invalid.')
+        os.environ[WEATHER_KEY] = key
