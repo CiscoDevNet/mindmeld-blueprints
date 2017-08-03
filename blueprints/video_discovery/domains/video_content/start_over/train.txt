@@ -1,316 +1,316 @@
-Clear
-Display something else
-Give me something else
-I want something else
-I want to look for something else
-Let's start again
-Let's try something else
-Show me something different
-Show something different
-Something else
-Start over
+clear
+please cancel that.
+let's start this thing over
+i'd like to cancel
+back to the beginning
+that is incorrect.
+nah forget it
+how about no
+actually scratch that
+no, that is incorrect.
+reset it
+starting over
 Try again
-actually let's not
-actually let's not
-actually nah
-actually nah
-actually no
-actually no
-actually not that
-actually not that
-actually scratch that
-actually scratch that
-actually scratch that
-ah start over
-back to start
-back to start
-back to start
-back to the beginning
-back to the beginning
-back to the beginning
-begin again
-begin again
-begin again
-begin again
-can we start over
-can you start over
-cancel
-cancel
-cancel
-cancel and start over
-cancel and start over
-cancel and start over
 clear
-clear
-clear
-clear
-clear
-clear
-clear all
-clear all
-clear all
-display something different
-do you have something different
-forget about it
-forget it
-go back to the beginning
-go back to the beginning
-go back to the beginning
-hard pass
-hard pass
-how about no
-how about no
-i meant something different
-i meant something different
-i meant something different
-i think i would like to start over.
-i think i would like to start over.
-i think i would like to start over.
-i think you misheard me.
-i think you misheard me.
-i think you misheard me.
-i want something different
-i want to cancel that.
-i want to cancel that.
-i want to cancel that.
-i'd like to cancel
-i'd like to cancel
-i'd like to cancel
-i'll pass
-i'll pass
-i'll pass
-i'll pass
-i'm good
-i'm good
-i'm good thank you
-i'm good thank you
-i'm good thanks
-i'm good thanks
-let's redo
-let's redo
-let's redo
-let's reset
-let's reset
-let's reset
+nvm that
+restart
+you misheard me
 let's start over
-let's start this thing over
-let's start this thing over
-let's start this thing over
-let's try again
-nah
-nah
-nah actually
-nah actually
-nah forget it
-nah forget it
-nah forget it
-nah ignore
-nah ignore
-nah ignore
-nah that's fine
-nah that's fine
-nah, I'm good
-nah, I'm good
-nah, that'll be fine
-nah, that'll be fine
-never mind
-never mind
+let's reset
+that's wrong.
+that's not correct.
+begin again
+back to the beginning
+start over
+no, cancel that, please.
+no, that is wrong.
+i'll pass
 never mind
 nevermind
-nevermind
-nevermind
-new search
+that is completely wrong.
+sorry nope
+not even close.
+scratch that
+that's not right at all.
+forget it
+Start over
+reset
+i'm good thanks
+no actually
+that is completely wrong.
+not right
+restart
+let's redo
+please cancel that.
+that's not right at all.
+let's start this thing over
+thanks but no
+Let's try something else
 nix
-no
-no
-no
-no
-no actually
-no actually
-no but thanks
-no but thanks
-no i do not
-no i do not
-no i don't
-no i don't
-no i don't want that
-no i don't want that
-no not correct.
-no not correct.
-no not correct.
-no please
-no please
-no thank you
-no thank you
-no thanks
-no thanks
-no, I'm good
-no, I'm good
-no, cancel that, please.
-no, cancel that, please.
-no, cancel that, please.
-no, incorrect!
-no, incorrect!
-no, incorrect!
-no, that is incorrect.
-no, that is incorrect.
-no, that is incorrect.
+nah forget it
+actually let's not
+thank you but no
 no, that is wrong.
-no, that is wrong.
-no, that is wrong.
-no, wrong!
-no, wrong!
-no, wrong!
-nope
-nope
-nope reset
-nope reset
-nope reset
-nope that's not correct.
-nope that's not correct.
-nope that's not correct.
-nope, I'm good
-nope, I'm good
-not at all. reset
-not at all. reset
-not at all. reset
-not correct.
-not correct.
-not correct.
-not even close.
-not even close.
-not even close.
-not right
-not right
-not right
-not today
-not today
-nvm
-nvm
-nvm
-nvm that
-nvm that
-nvm that
-oh dear let's start over
-oh dear let's start over
-oh dear let's start over
-omg reset
-omg reset
-omg reset
-please cancel
-please cancel
-please cancel
-please cancel that.
-please cancel that.
-please cancel that.
-please no
-please no
-please start over.
-please start over.
-please start over.
-redo
-redo
-redo
-redo it
-redo it
-redo it
-reset
-reset
-reset
-reset
-reset
-reset
-reset and start again
-reset and start again
-reset and start again
-reset it
-reset it
-reset it
-reset the system
-reset the system
-reset the system
-restart
-restart
-restart
-restart
-restart
-restart
-scratch that
-scratch that
-scratch that
-scratch that actually
-scratch that actually
-scratch that actually
-scratch that. reset
-scratch that. reset
-scratch that. reset
-sorry no
-sorry no
-sorry nope
-sorry nope
 start a new search
+can we start over
+actually nah
+no
+back to start
+i want to cancel that.
+not today
+stop
+scratch that actually
+oh dear let's start over
+do you have something different
+clear all
+clear all
+not right
+go back to the beginning
+actually not that
+that's not what i said.
+nvm
+clear
+i want to cancel that.
 start again.
-start again.
-start again.
-start new
-start new
-start new
+nah ignore
+redo it
+no, cancel that, please.
+that's not what i said.
+nah
+scratch that actually
+cancel and start over
+no i don't want that
+scratch that. reset
+no not correct.
+not correct.
+nope
+back to start
+redo
+nvm that
+hard pass
+new search
+scratch that. reset
+no i do not
 start over
-start over
-start over
-start over
-start over
-start over
+nevermind
+omg reset
+no thanks
+let's reset
+no
+i think you misheard me.
+i think i would like to start over.
+reset
+I want something else
+no not correct.
+not correct.
+sorry nope
+you misheard what i said.
+reset
+can you start over
+let's redo
+please cancel
+i'd like to cancel
+no, wrong!
+back to start
+i think you misheard me.
+reset the system
+Let's start again
+nah that's fine
+that's not what i said.
 starting over
-starting over
-starting over
+you misheard what i said.
+that's not correct.
+nope that's not correct.
+no thank you
+I want to look for something else
+start over
+nope, I'm good
+wait, that's not right
+Something else
 startover
+i meant something different
+not correct.
+ah start over
+no, I'm good
+try a redo
+that is incorrect.
+start over
+no, cancel that, please.
+back to the beginning
+you misheard me
+no, I'm good
+nah ignore
+no thank you
+i meant something different
+nah actually
+reset it
+no, that is wrong.
+try a redo
+restart
+no i don't want that
+actually let's not
+Give me something else
+scratch that. reset
 startover
-stop
-stop
-stop
+redo it
+reset and start again
+i think you misheard me.
+nope reset
+i'll pass
+please start over.
+not today
+forget about it
+Display something else
+clear
+nope, I'm good
+not at all. reset
+sorry no
+nope
+Show something different
+no
+nah forget it
+hard pass
+not at all. reset
+that's not right.
+i'd like to cancel
+that's wrong.
+nah, that'll be fine
+nah
+that's not right.
+sorry no
+no, wrong!
+please cancel that.
+i'll pass
+no, incorrect!
+redo
+omg reset
+reset the system
+no please
+start over
 thank you but no
-thank you but no
-thanks but no
-thanks but no
+no but thanks
+nvm
+start new
+i want to cancel that.
+restart
+nope reset
+no i don't
+not even close.
+that is wrong
+start over
+that's not correct.
+please cancel
+stop
+actually not that
+nah that's fine
+start again.
+no not correct.
+nah, that'll be fine
+begin again
+not at all. reset
+go back to the beginning
+let's try again
+no, that is incorrect.
+i'll pass
+begin again
+i meant something different
+reset it
+nvm
+cancel
+that's not right at all.
+never mind
+let's start this thing over
+i'm good thank you
+actually scratch that
+stop
+never mind
+cancel
+wait, that's not right
 thanks but nope
-thanks but nope
-that is completely wrong.
-that is completely wrong.
-that is completely wrong.
-that is incorrect.
-that is incorrect.
-that is incorrect.
-that is wrong
-that is wrong
-that is wrong
-that's not correct.
-that's not correct.
-that's not correct.
-that's not right at all.
-that's not right at all.
-that's not right at all.
-that's not right.
-that's not right.
-that's not right.
-that's not what i said.
-that's not what i said.
-that's not what i said.
+nah, I'm good
+no, that is incorrect.
+no
+i think i would like to start over.
+scratch that
+scratch that
+oh dear let's start over
+no, wrong!
+nah actually
+you misheard what i said.
 that's okay i'll pass
-that's okay i'll pass
-that's wrong.
-that's wrong.
-that's wrong.
-try a redo
-try a redo
-try a redo
+wait, that's not right
+no i don't
+scratch that actually
+that is wrong
+that's not right.
+clear
+starting over
+i'm good
+i'm good thank you
+thanks but no
+cancel and start over
+reset and start again
+actually nah
+i want something different
+cancel and start over
+redo it
+no but thanks
+nvm that
+oh dear let's start over
+how about no
+omg reset
 try again
-wait, that's not right
-wait, that's not right
-wait, that's not right
+no i do not
+display something different
+please start over.
+reset the system
+reset and start again
+that is wrong
+nope reset
+i'm good
+Show me something different
+try a redo
+actually no
+no actually
+nah, I'm good
+begin again
+that's okay i'll pass
+let's redo
 you misheard me
-you misheard me
-you misheard me
-you misheard what i said.
-you misheard what i said.
-you misheard what i said.
+i'm good thanks
+restart
+nah ignore
+actually no
+not right
+cancel
+please no
+nevermind
+that's wrong.
+actually scratch that
+start new
+nope that's not correct.
+Clear
+no, incorrect!
+please start over.
+redo
+that is incorrect.
+start new
+reset
+no, incorrect!
+clear
+please cancel
+thanks but nope
+clear all
+nope that's not correct.
+go back to the beginning
+let's reset
+restart
+that is completely wrong.
+reset
+no thanks
+please no
+not even close.
+reset
+start again.
+no please
+i think i would like to start over.

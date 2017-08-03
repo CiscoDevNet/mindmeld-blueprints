@@ -1,133 +1,133 @@
-show me {romantic comedies|genre} from {this year|sys_time|range}
-show me {crime drama|genre} {movies|type} made {after 2000|sys_time|range}
-please play {walking dead|title} season 5
-please play {suit|title} season 5
-i want to see {lie to me|title} season 5 again
-i want to watch {romance|genre} {movies|type} from the {80s|sys_interval|range}
-i want to watch {romance|genre} {movies|type} from the {80s|sys_interval|range}
-i want to watch {romance|genre} {movies|type} from the {80s|sys_interval|range}
-show me {movies|type} from the {1950s|sys_interval|range}
-what {movies|type} was {harrison ford|cast} in {1999|sys_time|range}
-{johnny depp|cast} {movies|type} in the {last 5 years|sys_interval|range}
-{movies|type} from the {70s|sys_interval|range}
-what is a good {movie|type} from the {80 s|sys_interval|range}
-show me {movies|type} from the {90s|sys_interval|range}
-show me {movies|type} from the {90s|sys_interval|range}
-show {south park|title} season 5 {in chronological order|sort}
-{great|sort} {action|genre} {movies|type} from the {60s|sys_interval|range}
-show me {comedies|genre} from the {1970 s|sys_interval|range}
-please play {game of thrones|title} season 5
-show me {romantic comedy|genre} {movies|type} from the {90s|sys_interval|range}
-show me {horror|genre} {movies|type} from the {80 s|sys_interval|range}
-i want to see {south park|title} season 5 again
-are there any {2015|sys_time|range} {documentaries|genre} available
-may i see the {movie|type} {airplane|title} from {1980|sys_time|range}
-please play {the office|title} season 5
-i want to see {the office|title} season 5 again
-i want to see {movies|type} that are {top rated|sort} from the {last 2 years|sys_interval|range}
-what s coming out {next week|sys_time|range}
-please play {the big bang theory|title} season 5
-i want to see {walking dead|title} season 5 again
-please play {grey s anatomy|title} season 5
-please play {game of throne|title} season 5
-{top|sort} {movies|type} of {2015|sys_time|range}
-whats the {80s|sys_interval|range} {movie|type} with {tom cruise|cast} playing air guitar in his underwear
-show me {horror|genre} {movies|type} from the {1970s|sys_interval|range}
-{movies|type} released {before 1995|sys_time|range}
-{2006|sys_time|range} {cinderella|title}
-show me a list of all the {movies|type} about the holocaust from the {2000s|sys_interval|range}
-i want to see {the big bang theory|title} season 5 again
-i want to watch {romance|genre} {movies|type} of the {80s|sys_interval|range}
-show me the {top rated|sort} {comedies|genre} from the {past 10 years|sys_interval|range}
-i m looking for cheesy {80s|sys_interval|range} {movie|type} starring teenagers
-are there any {2015|sys_time|range} {action|genre}
-are there any {2015|sys_time|range} {action|genre}
-are there any {2015|sys_time|range} {sci fi|genre}
-{movies|type} that came out in the {last 6 months|sys_interval|range}
-{best|sort} {movie|type} {this year|sys_time|range}
-play {best|sort} {comedy|genre} from {last year|sys_time|range}
-play the second episode of {walking dead|title} season 1
-i want to see {grey s anatomy|title} season 5 again
-{highest rated|sort} {anime|genre} of {2014|sys_time|range}
-i want to see {movies|type} released {this year|sys_time|range}
-{romance|genre} {movies|type} of {1990|sys_time|range}
-show me {romance|genre} {movies|type} from the {1980s|sys_interval|range}
-show me {documentaries|genre} from {2015|sys_time|range}
-show me the {christina applegate|cast} {movie|type} from the {90s|sys_interval|range}
-show me {movies|type} from the {1900s|sys_interval|range}
-what {movies|type} were released in {2014|sys_time|range}
-show me time travel {movies|type} from the {80s|sys_interval|range}
-please play {lie to me|title} season 5
+i want to see {suit|title} season 5 again
 play a {daniel day lewis|cast} {movie|type} from the {90 s|sys_interval|range}
-{90s|sys_interval|range} teen {movie|type}
-are there any {2015|sys_time|range} {health|genre}
-show me {ryan gosling|cast} {movies|type} from the {90s|sys_interval|range}
-play a {tarantino|director} {movie|type} from the {late 1990 s|sys_interval|range}
-show me {movies|type} directed by {quentin tarantino|director} {before 2000|sys_time|range}
-what {80s|sys_interval|range} {movies|type} had {matthew broderick|cast}
-play the {top grossing|sort} {movie|type} of {2012|sys_time|range}
-what are some {comedies|genre} from {2015|sys_time|range}
-show me disney {movies|type} from the {90s|sys_interval|range}
-{children s|genre} {movie|type} made {before 1980|sys_time|range}
-{westerns|genre} from the {80s|sys_interval|range}
-bring up {kids|genre} {movies|type} made in the {last year|sys_interval|range}
-i want to see {horror|genre} {movies|type} from the year {1999|sys_time|range}
-i want to see {horror|genre} {movies|type} of {2015|sys_time|range}
-show me {chinese|country} {movies|type} made in {2015|sys_time|range}
-are there any {2015|sys_time|range} {documentaries|genre}
-are there any {2015|sys_time|range} {documentaries|genre}
-are there any {2015|sys_time|range} {cowboy|genre}
-play a {keanu reeves|cast} {movie|type} from the {90s|sys_interval|range}
-show me {classic|sort} {80s|sys_interval|range} {movies|type} about highschool
-show me a random selection of {90s|sys_interval|range} {romantic comedies|genre}
-show {the office|title} season 5 {in chronological order|sort}
-show me {action|genre} {flicks|type} made in the {2010s|sys_interval|range}
-show me {movies|type} that came out in {1990 to 1995|sys_interval|range}
-i want to watch {action|genre} {movies|type} from the {90 s|sys_interval|range}
-show me every {movie|type} released {this year|sys_time|range}
-{movies|type} from the {80s|sys_interval|range}
 find me all the {movies|type} from the {2000 s|sys_interval|range} with {amy poehler|cast}
-show {game of throne|title} season 5 {in chronological order|sort}
-what {movies|type} are playing {right now|sys_time|range}
-what {movies|type} are playing {right now|sys_time|range}
+show me the {top|sort} {films|type} of {this year|sys_time|range}
+show me {horror|genre} {movies|type} from the {1970s|sys_interval|range}
+show me {movies|type} from the {1900s|sys_interval|range}
+show me {top rated|sort} {comedies|genre} from the {90s|sys_interval|range}
+play {best|sort} {comedy|genre} from {last year|sys_time|range}
+are there any {2015|sys_time|range} {scifi|genre}
+play a {keanu reeves|cast} {movie|type} from the {90s|sys_interval|range}
+show me {robert redford|cast} {movies|type} from the {1970s|sys_interval|range}
+i want to see {south park|title} season 5 again
+show me {chinese|country} {movies|type} made in {2015|sys_time|range}
+are there any {2015|sys_time|range} {cowboy|genre}
+i want to watch {romance|genre} {movies|type} from the {80s|sys_interval|range}
+what {movies|type} was {harrison ford|cast} in {1999|sys_time|range}
+show {lie to me|title} season 5 {in chronological order|sort}
+i want to see {horror|genre} {movies|type} from the year {1999|sys_time|range}
+play a {90s|sys_interval|range} {sci fi|genre} {tv show|type}
+are there any {2015|sys_time|range} {action|genre}
+play the {top grossing|sort} {movie|type} of {2012|sys_time|range}
+what {movies|type} were released in {2014|sys_time|range}
+browse all {tv shows|type} that were made {before 2000|sys_time|range}
+play the second episode of {walking dead|title} season 1
+i would like to see {80 s|sys_interval|range} {sci fi|genre} {movies|type}
+{westerns|genre} from the {80s|sys_interval|range}
+bring up {adventure|genre} {movies|type} from the {80s|sys_interval|range}
+i m looking for cheesy {80s|sys_interval|range} {movie|type} starring teenagers
+show me {best|sort} cult {movies|type} from the {past 5 years|sys_interval|range}
+show me {comedies|genre} from the {1970 s|sys_interval|range}
+play a {william shatner|cast} {movie|type} from the {80s|sys_interval|range}
+please play {the office|title} season 5
 show {the big bang theory|title} season 5 {in chronological order|sort}
 play {ghost adventures|title} season two episode three
-show me {robert redford|cast} {movies|type} from the {1970s|sys_interval|range}
-show me {best|sort} cult {movies|type} from the {past 5 years|sys_interval|range}
+{best|sort} {movie|type} {this year|sys_time|range}
+show me {documentaries|genre} from {2015|sys_time|range}
+show me {movies|type} from the {90s|sys_interval|range}
+what are some {comedies|genre} from {2015|sys_time|range}
 {movies|type} with {clint eastwood|cast} from the {1970s|sys_interval|range}
-{horror|genre} {films|type} from the {1980s|sys_interval|range}
-{horror|genre} {movies|type} from the {80 s|sys_interval|range} please
-bring up {adventure|genre} {movies|type} from the {80s|sys_interval|range}
-what {movies|type} came out {this week|sys_time|range}
-what is a {comedy|genre} from {2014|sys_time|range}
-i need a {romantic|genre} {movie|type} from the {90 s|sys_interval|range} with {kevin costner|cast}
-play an {alfred hitchcock|director} {film|type} from the {60s|sys_interval|range}
-show me the {worst rated|sort} {movie|type} for the {past year|sys_interval|range}
-{movies|type} made in {1999|sys_time|range}
-play a {william shatner|cast} {movie|type} from the {80s|sys_interval|range}
-show me {popular|sort} teen {movies|type} from the {90s|sys_interval|range}
-show me {movies|type} from the {90 s|sys_interval|range}
-{popular|sort} {movies|type} in the {last year|sys_interval|range}
-browse all {tv shows|type} that were made {before 2000|sys_time|range}
-i would like to see {80 s|sys_interval|range} {sci fi|genre} {movies|type}
-show {lie to me|title} season 5 {in chronological order|sort}
-what is the {most popular|sort} {movie|type} out {right now|sys_time|range}
+{children s|genre} {movie|type} made {before 1980|sys_time|range}
+please play {grey s anatomy|title} season 5
+show me {movies|type} that came out in {1990 to 1995|sys_interval|range}
+what is a good {movie|type} from the {80 s|sys_interval|range}
+{great|sort} {action|genre} {movies|type} from the {60s|sys_interval|range}
 play a {john cusack|cast} {movie|type} from the {80s|sys_interval|range}
-show me the {top|sort} {films|type} of {this year|sys_time|range}
-are there any {2015|sys_time|range} {scifi|genre}
-i want to see {suit|title} season 5 again
-what is the {highest rated|sort} {comedy|genre} out {right now|sys_time|range}
-are there any {2015|sys_time|range} {comedy|genre}
-are there any {2015|sys_time|range} {comedy|genre}
-show me {top rated|sort} {comedies|genre} from the {90s|sys_interval|range}
-show me the {top|sort} {movies|type} from the {80s|sys_interval|range}
-{australian|country} {movies|type} of the {1960s|sys_interval|range}
-i want to see the {top|sort} {movies|type} from the year {2005|sys_time|range}
-i want to see all {tom hanks|cast} {films|type} made {between 1989 and 1999|sys_interval|range}
+show me {movies|type} from the {90 s|sys_interval|range}
 {movies|type} made in {1999|sys_time|range} with robots
+i want to see {the big bang theory|title} season 5 again
+may i see the {movie|type} {airplane|title} from {1980|sys_time|range}
+are there any {2015|sys_time|range} {documentaries|genre}
+please play {the big bang theory|title} season 5
+what {80s|sys_interval|range} {movies|type} had {matthew broderick|cast}
+show me the {top|sort} {movies|type} from the {80s|sys_interval|range}
+show {game of throne|title} season 5 {in chronological order|sort}
+please play {game of throne|title} season 5
 i want to see a {clint eastwood|cast} {movie|type} from the {eighties|sys_interval|range}
-play the {best|sort} {animated|genre} {film|type} of {2010|sys_time|range}
-list all {horror|genre} {movies|type} released in {2015|sys_time|range}
+what s coming out {next week|sys_time|range}
+show me the {top rated|sort} {comedies|genre} from the {past 10 years|sys_interval|range}
+i want to see all {tom hanks|cast} {films|type} made {between 1989 and 1999|sys_interval|range}
+{movies|type} from the {70s|sys_interval|range}
+i want to see {lie to me|title} season 5 again
+are there any {2015|sys_time|range} {comedy|genre}
+please play {suit|title} season 5
 show me all {movies|type} from {1985|sys_time|range}
+{highest rated|sort} {anime|genre} of {2014|sys_time|range}
+what is the {highest rated|sort} {comedy|genre} out {right now|sys_time|range}
+i want to see the {top|sort} {movies|type} from the year {2005|sys_time|range}
+show me a random selection of {90s|sys_interval|range} {romantic comedies|genre}
+are there any {2015|sys_time|range} {comedy|genre}
+show me {romance|genre} {movies|type} from the {1980s|sys_interval|range}
+show me {movies|type} directed by {quentin tarantino|director} {before 2000|sys_time|range}
+i want to see {walking dead|title} season 5 again
+please play {game of thrones|title} season 5
+i want to see {movies|type} released {this year|sys_time|range}
+{2006|sys_time|range} {cinderella|title}
 show {suit|title} season 5 {in chronological order|sort}
-play a {90s|sys_interval|range} {sci fi|genre} {tv show|type}
+show me the {christina applegate|cast} {movie|type} from the {90s|sys_interval|range}
+i want to see {horror|genre} {movies|type} of {2015|sys_time|range}
+{top|sort} {movies|type} of {2015|sys_time|range}
+{popular|sort} {movies|type} in the {last year|sys_interval|range}
+show {south park|title} season 5 {in chronological order|sort}
+bring up {kids|genre} {movies|type} made in the {last year|sys_interval|range}
+show me time travel {movies|type} from the {80s|sys_interval|range}
+are there any {2015|sys_time|range} {health|genre}
+are there any {2015|sys_time|range} {documentaries|genre} available
+show me {ryan gosling|cast} {movies|type} from the {90s|sys_interval|range}
+what is a {comedy|genre} from {2014|sys_time|range}
+please play {walking dead|title} season 5
+please play {lie to me|title} season 5
+show me {popular|sort} teen {movies|type} from the {90s|sys_interval|range}
+show me {classic|sort} {80s|sys_interval|range} {movies|type} about highschool
+what is the {most popular|sort} {movie|type} out {right now|sys_time|range}
+show me {crime drama|genre} {movies|type} made {after 2000|sys_time|range}
+{movies|type} made in {1999|sys_time|range}
+are there any {2015|sys_time|range} {documentaries|genre}
+are there any {2015|sys_time|range} {action|genre}
+what {movies|type} are playing {right now|sys_time|range}
+show me {romantic comedy|genre} {movies|type} from the {90s|sys_interval|range}
+show me {horror|genre} {movies|type} from the {80 s|sys_interval|range}
+i want to watch {romance|genre} {movies|type} of the {80s|sys_interval|range}
+{australian|country} {movies|type} of the {1960s|sys_interval|range}
+play a {tarantino|director} {movie|type} from the {late 1990 s|sys_interval|range}
+what {movies|type} are playing {right now|sys_time|range}
+show me the {worst rated|sort} {movie|type} for the {past year|sys_interval|range}
+{horror|genre} {movies|type} from the {80 s|sys_interval|range} please
+show me a list of all the {movies|type} about the holocaust from the {2000s|sys_interval|range}
+i want to watch {romance|genre} {movies|type} from the {80s|sys_interval|range}
+show me every {movie|type} released {this year|sys_time|range}
+what {movies|type} came out {this week|sys_time|range}
+i want to see {grey s anatomy|title} season 5 again
+show me {movies|type} from the {90s|sys_interval|range}
+i need a {romantic|genre} {movie|type} from the {90 s|sys_interval|range} with {kevin costner|cast}
+whats the {80s|sys_interval|range} {movie|type} with {tom cruise|cast} playing air guitar in his underwear
+play an {alfred hitchcock|director} {film|type} from the {60s|sys_interval|range}
+{romance|genre} {movies|type} of {1990|sys_time|range}
+show {the office|title} season 5 {in chronological order|sort}
+show me {action|genre} {flicks|type} made in the {2010s|sys_interval|range}
+are there any {2015|sys_time|range} {sci fi|genre}
+play the {best|sort} {animated|genre} {film|type} of {2010|sys_time|range}
+{90s|sys_interval|range} teen {movie|type}
+{johnny depp|cast} {movies|type} in the {last 5 years|sys_interval|range}
+{horror|genre} {films|type} from the {1980s|sys_interval|range}
+{movies|type} released {before 1995|sys_time|range}
+i want to watch {romance|genre} {movies|type} from the {80s|sys_interval|range}
+{movies|type} that came out in the {last 6 months|sys_interval|range}
+list all {horror|genre} {movies|type} released in {2015|sys_time|range}
+i want to see {movies|type} that are {top rated|sort} from the {last 2 years|sys_interval|range}
+i want to watch {action|genre} {movies|type} from the {90 s|sys_interval|range}
+{movies|type} from the {80s|sys_interval|range}
+i want to see {the office|title} season 5 again
+show me {romantic comedies|genre} from {this year|sys_time|range}
+show me disney {movies|type} from the {90s|sys_interval|range}
+show me {movies|type} from the {1950s|sys_interval|range}
