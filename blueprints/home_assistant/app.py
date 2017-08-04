@@ -144,6 +144,8 @@ def specify_time(context, responder):
     selected_time = _get_sys_time(context)
     selected_all = _get_command_for_all(context)
 
+    reply = "Please try again and specify an action to go along with that time."
+
     if selected_time:
 
         if 'desired_action' in context['frame']:
@@ -159,8 +161,6 @@ def specify_time(context, responder):
                                                    ordered_alarms)
 
             del context['frame']['desired_action']
-        else:
-            reply = "Please try again and specify an action to go along with that time."
 
         responder.reply(reply)
 
