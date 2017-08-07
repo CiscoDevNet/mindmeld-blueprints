@@ -10,8 +10,8 @@ import os
 app = Application(__name__)
 
 # Weather constants
-CITY_NOT_FOUND_CODE = '404'
-INVALID_API_KEY_CODE = '401'
+CITY_NOT_FOUND_CODE = 404
+INVALID_API_KEY_CODE = 401
 DEFAULT_TEMPERATURE_UNIT = 'fahrenheit'
 DEFAULT_LOCATION = 'San Francisco'
 OPENWEATHER_BASE_STRING = 'http://api.openweathermap.org/data/2.5/weather'
@@ -67,10 +67,10 @@ def check_weather(context, responder):
         responder.reply(reply)
         return
 
-    if weather_info['cod'] == CITY_NOT_FOUND_CODE:
+    if int(weather_info['cod']) == CITY_NOT_FOUND_CODE:
         reply = "Sorry, I wasn't able to recognize that city."
         responder.reply(reply)
-    elif weather_info['cod'] == INVALID_API_KEY_CODE:
+    elif int(weather_info['cod']) == INVALID_API_KEY_CODE:
         reply = "Sorry, the API key is invalid."
         responder.reply(reply)
     else:
@@ -144,6 +144,8 @@ def specify_time(context, responder):
     selected_time = _get_sys_time(context)
     selected_all = _get_command_for_all(context)
 
+    reply = "Please try again and specify an action to go along with that time."
+
     if selected_time:
 
         if 'desired_action' in context['frame']:
@@ -159,8 +161,6 @@ def specify_time(context, responder):
                                                    ordered_alarms)
 
             del context['frame']['desired_action']
-        else:
-            reply = "Please try again and specify an action to go along with that time."
 
         responder.reply(reply)
 

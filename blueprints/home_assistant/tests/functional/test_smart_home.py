@@ -235,3 +235,15 @@ class TestSmartHome(ConversationTest):
         assert appliance in texts[0].lower()
         assert location in texts[0].lower()
         self.assert_intent(self.conv, 'turn_appliance_off')
+
+    # specify_location_intent
+    specify_location_data = [
+        ("preheat the oven", "in the kitchen", "Ok. The kitchen oven has been turned on."),
+        ("preheat the oven", "the only one", "I'm sorry, I wasn't able to recognize that location, could you try again?")  # noqa: E501
+    ]
+
+    @pytest.mark.parametrize("query1, query2, expected", specify_location_data)
+    def test_specify_location(self, query1, query2, expected):
+        self.say(query1)
+        texts = self.say(query2)
+        self.assert_text(texts, expected_text=expected)
