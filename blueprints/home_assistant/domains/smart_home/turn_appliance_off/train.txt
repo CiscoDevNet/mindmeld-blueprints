@@ -1,58 +1,58 @@
-{tv|appliance} off
-turn the {tv|appliance} off
-{oven|appliance} off
-turn {kids room|location} {television|appliance} off
-shut off {wifi|appliance}
-{computer|appliance} go to sleep
-put the {computer|appliance} to sleep
-suspend the {computer|appliance}
-please suspend the {computer|appliance}
-stop {dishwasher|appliance}
 no more {stereo|appliance}
-can you turn off the {tv|appliance} in the {basement|location}
-can you turn off the {stove|appliance}
-i m leaving can you turn off the {tv|appliance} for me
-make sure the {coffee maker|appliance} is turned off
-please turn off the {stereo|appliance}
-please turn off the {stove|appliance}
-power off the {tv|appliance}
-shut off the {tv|appliance}
-shut off the {dvd player|appliance} in the {bedroom|location}
-shut off the {oven|appliance}
 shut off the {stove|appliance}
-shut {oven|appliance} off
-switch off the {radio|appliance}
-turn off {oven|appliance}
-turn off the {computer|appliance} in the {living room|location}
-turn off the {stereo|appliance} in the {living room|location}
-turn off the {television|appliance} in the {den|location}
+turn off the {ceiling fan|appliance}
+shut off {wifi|appliance}
+shut down the {television|appliance}
+turn off the {television|appliance}
+please stop the {dryer|appliance}
+turn the {master bedroom|location} {tv|appliance} off
 turn off the {tv|appliance} please
-turn off the {fan|appliance} in the {bedroom|location}
-turn off the {oven|appliance}
+deactivate the {oven|appliance}
+stop {dishwasher|appliance}
+stop the {radio|appliance} in the {kitchen|location}
 turn off the {oven|appliance} that my husband left on
 turn off the {stove|appliance}
-turn the {stereo|appliance} off
-turn the {tv|appliance} off
-turn the {master bedroom|location} {tv|appliance} off
-turn the {oven|appliance} off
-will you turn off the {television|appliance} in the {living room|location}
-deactivate the {oven|appliance}
-can you stop the {dryer|appliance}
-could you turn off the {computer|appliance}
-please turn off the {oven|appliance}
-shut down the {computer|appliance}
-shut down the {television|appliance}
-stop the {dryer|appliance}
-stop the {microwave|appliance}
-stop the {radio|appliance} in the {kitchen|location}
+turn off the {stereo|appliance} in the {living room|location}
 turn off {office|location} {computer|appliance}
-turn off {radio|appliance}
-turn off the {ceiling fan|appliance}
-turn off the {dryer|appliance}
-turn off the {fan|appliance}
-turn off the {television|appliance}
-turn off the {television|appliance} please
+{computer|appliance} go to sleep
+stop the {dryer|appliance}
+put the {computer|appliance} to sleep
+can you turn off the {tv|appliance} in the {basement|location}
+can you stop the {dryer|appliance}
+shut down the {computer|appliance}
+shut off the {tv|appliance}
+can you turn off the {stove|appliance}
+shut off the {oven|appliance}
 mute {stereo|appliance}
-please stop the {dryer|appliance}
+turn off {oven|appliance}
+suspend the {computer|appliance}
+{oven|appliance} off
+turn off the {dryer|appliance}
+turn the {tv|appliance} off
+turn off the {television|appliance} in the {den|location}
+turn the {oven|appliance} off
+turn off the {fan|appliance}
+shut {oven|appliance} off
+make sure the {coffee maker|appliance} is turned off
+shut off the {dvd player|appliance} in the {bedroom|location}
+turn off {radio|appliance}
+please turn off the {stereo|appliance}
+please turn off the {oven|appliance}
+{tv|appliance} off
+turn the {stereo|appliance} off
+please suspend the {computer|appliance}
+turn {kids room|location} {television|appliance} off
+turn off the {oven|appliance}
+turn off the {fan|appliance} in the {bedroom|location}
 stop the {fan|appliance}
+i m leaving can you turn off the {tv|appliance} for me
+could you turn off the {computer|appliance}
+stop the {microwave|appliance}
+turn off the {computer|appliance} in the {living room|location}
+turn off the {television|appliance} please
+will you turn off the {television|appliance} in the {living room|location}
 stop {coffee machine|appliance}
+power off the {tv|appliance}
+switch off the {radio|appliance}
+please turn off the {stove|appliance}
+turn the {tv|appliance} off

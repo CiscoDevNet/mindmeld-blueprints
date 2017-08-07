@@ -1,49 +1,49 @@
-turn off the thermostat
+turn the heat off {at 7|sys_time}
+turn off the thermostat in the {bedroom|location}
+turn off the AC
+shut down the temp
+ac off 
+turn off the thermostat {at 4 pm|sys_time} in the {bedroom|location}
+shut off the air conditioning
+turn the air conditioning off
+thermostat off
 turn off the heat
-turn off the air conditioning
+heat off please
+heat off {at 3 pm|sys_time}
+deactivate the temp
+ac off {at noon|sys_time}
+please turn off the air con
+aircon off
+heat off in the {kitchen|location} {at 2 am|sys_time}
+please turn off the a c
+heat off
+air conditioning off please
+heat off {at 6 o clock|sys_time}
 turn off the ac
+turn the air conditioning off {at 8 am|sys_time}
+switch off the air conditioning
+thermostat off please
+shut the heat off
+turn off the heat {at 5 pm|sys_time}
+kill the air conditioning
+stop the air conditioning
+aircon off please
 turn off the a c
-turn off the aircon
+put the heat off in the {bedroom|location} {at 9|sys_time}
+turn the heating off
+please turn off the aircon
+air conditioning off please
+turn off the thermostat
+shut the temperature off
 turn off the air con
+turn the heat off
+please turn off the ac
+turn off the aircon
+shut the AC off
+ac off please
+AC off
+turn off the heat in the {bathroom|location}
+turn off the air conditioning
 please turn off the heat
 please turn off the air conditioning
-please turn off the a c
-please turn off the ac
-please turn off the air con
-please turn off the aircon
-turn off the heat {at 5 pm|sys_time}
-heat off {at 6 o clock|sys_time}
-turn the air conditioning off {at 8 am|sys_time}
-ac off {at noon|sys_time}
-heat off {at 3 pm|sys_time}
-turn off the thermostat in the {bedroom|location}
-turn off the heat in the {bathroom|location}
-heat off in the {kitchen|location} {at 2 am|sys_time}
 {at 11 o clock|sys_time} turn off the ac in the {kitchen|location}
-turn off the thermostat {at 4 pm|sys_time} in the {bedroom|location}
-turn the heat off {at 7|sys_time}
-put the heat off in the {bedroom|location} {at 9|sys_time}
-thermostat off
-thermostat off please
-heat off
-ac off 
-aircon off
-heat off please
-ac off please
-air conditioning off please
-aircon off please
-turn the air conditioning off
-air conditioning off please
-AC off
-kill the air conditioning
-turn the heat off
-shut the heat off
-turn off the AC
-shut the AC off
-shut down the temp
-deactivate the temp
-shut off the air conditioning
-shut the temperature off
-switch off the air conditioning
-turn the heating off
-stop the air conditioning

@@ -1,96 +1,96 @@
-turn down the thermostat
-turn down the heat
-make it cooler
-make it cooler in here
-make it colder
-make it colder in here
-make it cooler in the {living room|location}
-turn down the thermostat
-turn down the heat
 turn down the temperature
-turn down the temp
-lower the heat
-lower the thermostat
-turn down the temp in the {kitchen|location}
-turn down the thermostat in the {kitchen|location}
-make it cooler in the {kitchen|location}
-make it colder in the {kitchen|location}
-turn down the temperature by {2 degrees|sys_temperature}
-turn down the temp by {2 degrees|sys_temperature}
-make it a little bit colder
-make it a little bit cooler
-temperature down {2 degrees|sys_temperature}
-temperature down by {2 degrees|sys_temperature}
-temp down {2 degrees|sys_temperature}
-temp down {2 degrees|sys_temperature}
+cool down {bathroom|location} by {2|sys_temperature}
 thermostat down {2 degrees|sys_temperature}
-thermostat lower {2 degrees|sys_temperature}
+lower {living room|location} thermostat
 thermostat down by {2 degrees|sys_temperature}
+reduce heater {everywhere|all} by a small amount
+cool down the {kitchen|location} by a little
+make it a little bit colder
+cool down {kitchen|location} by just a tiny bit
+temp down {2 degrees|sys_temperature} in the {kitchen|location}
+temp down {2 degrees|sys_temperature} in the {kitchen|location}
+decrease thermostat in the {bathroom|location}
+turn down the temp by {2 degrees|sys_temperature}
+heat lower {1|sys_temperature}
+heat lower by just a little
 thermostat lower by {2 degrees|sys_temperature}
 make it a little bit cooler in the {kitchen|location}
-make it a little bit colder in the {kitchen|location}
+cool down {bathroom|location} by {3|sys_temperature}
+turn down the thermostat in the {kitchen|location}
+decrease the {bathroom|location} temp by a little bit
+make it cooler in the {living room|location}
+lower the thermostat
+turn down the thermostat
+make it cooler in the {kitchen|location}
+decrease the heat by {3|sys_temperature}
+turn down the heat
+decrease {bathroom|location} thermostat {1 degree|sys_temperature}
+decrease the {bedroom|location} thermostat by a bit
+cool down {bedroom|location} by a little bit
+temp down
+make it {1 degree|sys_temperature} colder in {kitchen|location}
+lower {living room|location} heat a little bit
+cool down the {bedroom|location} {1|sys_temperature}
+turn down the temp
 temperature down {2 degrees|sys_temperature} in the {kitchen|location}
-temperature down by {2 degrees|sys_temperature} in the {kitchen|location}
-temp down {2 degrees|sys_temperature} in the {kitchen|location}
-temp down {2 degrees|sys_temperature} in the {kitchen|location}
-thermostat down {2 degrees|sys_temperature} in the {kitchen|location}
+lower the {bathroom|location} temp by {5 degrees|sys_temperature}
+heat down
+decrease the {living room|location} heating by a little bit
+thermostat lower {2 degrees|sys_temperature}
+make it {6|sys_temperature} colder in the {bedroom|location}
+heater down in the house by a small amount
+reduce the {bathroom|location} temperature by {6 degrees|sys_temperature}
+turn down the temp in the {kitchen|location}
+temp lower here by a small amount
+reduce the heat in the house
+make it cooler in here
 thermostat down by {2 degrees|sys_temperature} in the {kitchen|location}
 make it {2 degrees|sys_temperature} cooler in the {kitchen|location}
-cool down {bedroom|location} by a bit
-heat lower {1|sys_temperature}
-make it {6 degrees|sys_temperature} colder in {bathroom|location}
-reduce heater {everywhere|all} by a small amount
-decrease {bathroom|location} thermostat by just a little
-cool down {bathroom|location} by {3|sys_temperature}
-cool down {bathroom|location} just a little bit
-cool down the {bathroom|location} by {4|sys_temperature}
-heating down in {all|all} the rooms {3|sys_temperature}
-make it {6|sys_temperature} colder in the {bedroom|location}
-lower {living room|location} thermostat
-heat down
-lower the {bedroom|location} temp by {3 degrees|sys_temperature}
-decrease thermostat in the {bathroom|location}
-reduce the {kitchen|location} thermostat
-make it a small amount colder
+turn down the temperature by {2 degrees|sys_temperature}
 cool down the {bedroom|location} {5|sys_temperature}
-heater down in the house by a small amount
-decrease the {living room|location} heating by a little bit
-cool down the {kitchen|location} {2|sys_temperature}
-make it {1 degree|sys_temperature} colder in {kitchen|location}
-reduce heater by a little
-make it {2|sys_temperature} colder
-lower {living room|location} heat a little bit
-decrease the {bedroom|location} thermostat by a bit
-lower heat {everywhere|all}
-make it {6 degrees|sys_temperature} cooler
-cool down {bathroom|location} by {2|sys_temperature}
-make it {6|sys_temperature} cooler in {kitchen|location}
-cool down the {kitchen|location} by a little
-temperature lower in here a tiny bit
-heat lower by just a little
-turn down the {bathroom|location} heating by just a bit
-temp lower here by a small amount
-temperature down
-turn down the {bedroom|location} heating {4 degrees|sys_temperature}
-turn down {bathroom|location} thermostat
-cool down {kitchen|location} by just a tiny bit
-cool down the {kitchen|location} by just a small amount
-cool down {bedroom|location} by a little bit
-turn down the {bedroom|location} heating by a little
-decrease {bathroom|location} thermostat {1 degree|sys_temperature}
-cool down {bathroom|location} just a little
-decrease the {living room|location} temp by just a small amount
-heater lower {everywhere|all}
-reduce the {bathroom|location} temperature by {6 degrees|sys_temperature}
-cool down the {bedroom|location} {1|sys_temperature}
-temp lower
-make it just a tiny bit cooler
-lower the {bathroom|location} temp by {5 degrees|sys_temperature}
-decrease the heating
-cool down the {living room|location} a little
-lower the {bedroom|location} temperature {5|sys_temperature}
-decrease the heat by {3|sys_temperature}
-temp down
-decrease the {bathroom|location} temp by a little bit
-reduce the heat in the house
+make it colder in here
+turn down the thermostat
 reduce the {kitchen|location} heater
+make it {6|sys_temperature} cooler in {kitchen|location}
+make it just a tiny bit cooler
+cool down the {kitchen|location} {2|sys_temperature}
+cool down the {bathroom|location} by {4|sys_temperature}
+cool down the {living room|location} a little
+turn down the {bathroom|location} heating by just a bit
+cool down {bathroom|location} just a little
+decrease the heating
+make it cooler
+lower the {bedroom|location} temperature {5|sys_temperature}
+make it colder in the {kitchen|location}
+cool down {bathroom|location} just a little bit
+cool down {bedroom|location} by a bit
+lower heat {everywhere|all}
+decrease the {living room|location} temp by just a small amount
+make it {6 degrees|sys_temperature} colder in {bathroom|location}
+turn down the {bedroom|location} heating {4 degrees|sys_temperature}
+temperature down by {2 degrees|sys_temperature}
+temp lower
+heating down in {all|all} the rooms {3|sys_temperature}
+make it {6 degrees|sys_temperature} cooler
+temperature down
+decrease {bathroom|location} thermostat by just a little
+cool down the {kitchen|location} by just a small amount
+turn down the {bedroom|location} heating by a little
+make it {2|sys_temperature} colder
+turn down the heat
+make it a little bit colder in the {kitchen|location}
+make it a small amount colder
+heater lower {everywhere|all}
+lower the {bedroom|location} temp by {3 degrees|sys_temperature}
+temperature down {2 degrees|sys_temperature}
+reduce heater by a little
+make it colder
+temperature lower in here a tiny bit
+thermostat down {2 degrees|sys_temperature} in the {kitchen|location}
+reduce the {kitchen|location} thermostat
+turn down {bathroom|location} thermostat
+lower the heat
+temp down {2 degrees|sys_temperature}
+make it a little bit cooler
+temperature down by {2 degrees|sys_temperature} in the {kitchen|location}
+temp down {2 degrees|sys_temperature}

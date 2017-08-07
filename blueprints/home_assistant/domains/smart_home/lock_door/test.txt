@@ -1,12 +1,12 @@
 lock the door
-lock
-lock {all|all} the doors
-lock the {front|location} door
-lock the door in the {kitchen|location}
-{garage|location} door lock
 lock {office|location} door
-lock {garage|location}
-{back|location} door lock
-lock {foyer|location}
+lock the {front|location} door
 {office|location} lock
+{garage|location} door lock
+lock {foyer|location}
+lock {garage|location}
+lock
+lock the door in the {kitchen|location}
+lock {all|all} the doors
 lock {everywhere|all}
+{back|location} door lock

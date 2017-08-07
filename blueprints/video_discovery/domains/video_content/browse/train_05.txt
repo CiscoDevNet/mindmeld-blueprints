@@ -1,123 +1,123 @@
-i want to watch {the sound of music|title}
-show me {movies|type} with house in the title
-show me all {comedies|genre} with {ed norton|cast}
-let me see {the wedding planner|title}
-find the {bride of frankenstein|title}
-let me see {eternal sunshine|title}
 let s watch {the notebook|title}
-play the original {to kill a mockingbird|title}
-browse through the catalogue in the {horror|genre} section
-i want to watch {dumb and dumber|title}
-want to watch {game of thrones|title} {series|type}
-play {star wars episode iv|title}
-start the {movie|type} {finding nemo|title}
-play the {movie|type} {primer|title}
-play {the quiet man|title}
-what s the {movie|type} that has snakes in the title
-{it's always sunny in philadelphia|title}
-show me {movies|type} with devil in the name
-play the {movie|type} {ricki and the flash|title}
-i want to see {castaway|title}
-show me {chasing amy|title}
-show me the {movie|type} {sniper|title}
-put on {magic mike|title}
-watch {friday the 13th|title}
-i would like to see the remake of {psycho|title}
-show me all the {doctor who|title} {movies|type}
-play {the shawshank redemption|title}
-play the {movie|type} {highlander|title} please
-i would like to watch the {film|type} {garden state|title}
-i d like to watch the {best rated|sort} {bill murray|cast} {movie|type}
-browse all {films|type} starring {brad pitt|cast}
-start up {the sixth sense|title}
-play {being john malkovich|title}
-show me {12 monkeys|title}
-play {to be or not to be|title}
-pull up fairy {movies|type} {for kids|genre}
+can you bring up stoner {comedy|genre} {movies|type}
+bring up the {movie|type} {12 angry men|title}
+{star wars force awakens|title}
+i want to watch {star wars|title}
+what year did the running man come out
+i want to see {the departed|title}
+i want to watch {shanghai noon|title}
 do you have {the lion king|title} to watch
-play {mission impossible 4|title}
+show {movies|type} that have kill in the title
+play {the crying game|title}
 show the {movie|type} {the matrix|title}
-let me watch {jaws|title}
-i d like to see the {movie|type} {the proposal|title}
-show me {new|sort} {movies|type} with {clint eastwood|cast}
-play {star wars a new hope|title}
-browse the entire {comedy|genre} section
-show me all {movies|type} with some {horror|genre}
-show the {movie|type} {batman|title}
-play {hello dolly|title}
-play {blade runner|title}
-{battle los angeles|title}
-is the {avengers|title} sequel here
+play {forrest gump|title}
+i would like to watch the {film|type} {garden state|title}
+{shawshank|title}
+let me see {the wedding planner|title}
+please pull up all christmas {movies|type}
+want to watch {game of thrones|title} {series|type}
+show me {chasing amy|title}
+show me all the {doctor who|title} {movies|type}
+play {star wars episode iv|title}
+play {fight club|title}
+play the {newer|sort} {jane eyre|title} {movie|type}
+play {forrest gump|title}
+bring up {forrest gump|title}
+show me the {first|sort} {tom cruise|cast} {movie|type}
+i would like to watch {clueless|title}
+show me {12 monkeys|title}
+browse all {films|type} starring {brad pitt|cast}
+i want to watch an {avengers|title} {movie|type}
+browse through the catalogue in the {horror|genre} section
+play the {movie|type} {highlander|title} please
+view {beavis and butt-head do america|title}
+play {monsters inc|title}
 show me {movies|type} with russia in the name
-watch {scream|title}
+browse through all {drew barrymore|cast} {movies|type}
+find {saving private ryan|title}
+i want to watch {the notebook|title}
+play {full metal jacket|title}
+i d like to see the {movie|type} {the proposal|title}
+put on {magic mike|title}
+i would like to watch {star wars a new hope|title}
+i d like to watch the {best rated|sort} {bill murray|cast} {movie|type}
+{sleepless in seattle|title}
+{it's always sunny in philadelphia|title}
+browse through {movies|type} {for kids|genre}
+play {the wizard of oz|title}
+find the {bride of frankenstein|title}
+show me all {comedies|genre} with {ed norton|cast}
+show me the {newer|sort} {italian job|title} {movie|type}
+browse the entire {comedy|genre} section
+what s the {movie|type} that has snakes in the title
+i would like to see the remake of {psycho|title}
+{lord of the rings return of the king|title}
+is the {avengers|title} sequel here
+{battle los angeles|title}
+play {nightmare on elm street 3 dream warriors|title}
+bring up any {crime|genre} related {tv shows|type}
+find me {finding nemo|title}
+play a {movie|type} starring {will ferrell|cast}
+pull up the {best|sort} {movies|type} starring {george clooney|cast}
+show me {new|sort} {movies|type} with {clint eastwood|cast}
+browse through the whole catalog
+play {the little mermaid|title}
+show me the {movie|type} {sniper|title}
+play {to be or not to be|title}
+play {hello dolly|title}
+i d like to see {the hobbit|title}
+i want to watch {the sound of music|title}
 show me {wolf creek|title}
 i want to watch {how the west was won|title}
-bring up {forrest gump|title}
-i want to watch {harry potter|title}
-pull up the {best|sort} {movies|type} starring {george clooney|cast}
-play {the wizard of oz|title}
-i would like to watch {star wars a new hope|title}
-play {the night of the hunter|title}
-i want to watch {shanghai noon|title}
-browse through all {drew barrymore|cast} {movies|type}
-let me watch {ghost|title}
-{jersey shore|title}
-show me the {movie|type} {hook|title}
-i want to see {the london firm|title}
-play {e t|title}
-i want to watch an {avengers|title} {movie|type}
-can you bring up stoner {comedy|genre} {movies|type}
-i want to watch {the notebook|title}
-show me {top gun|title}
-i want to watch the {south park|title} {movie|type}
-view {beavis and butt-head do america|title}
-bring up any {movies|type} on dinosaurs
-show me {the walking dead|title} {series|type}
-show {movies|type} that have kill in the title
-play a {movie|type} starring {will ferrell|cast}
-please pull up all christmas {movies|type}
-browse {action|genre} {movies|type}
-i want to watch {movies|type} that contain the word car in the title
-play {monsters inc|title}
-browse heist {movies|type} starring {jason statham|cast}
-i d like to see {the hobbit|title}
-play {fight club|title}
-what year did the running man come out
-show me the {first|sort} {animated|genre} {movie|type}
-play {nightmare on elm street 3 dream warriors|title}
-show me sequels to {toy story|title}
 go to {the big lebowski|title}
-pull up the {movie|type} {the man from earth|title}
-show me the {first|sort} {tom cruise|cast} {movie|type}
-show me the {newer|sort} {italian job|title} {movie|type}
-find {saving private ryan|title}
-find me {finding nemo|title}
-show me {movies|type} with {bruce willis|cast}
-play the {newer|sort} {jane eyre|title} {movie|type}
-i want to watch {the big lebowski|title}
-start {fargo|title}
 i want to watch {star wars|title}
-i want to watch {star wars|title}
-i want to watch {star wars|title}
-i would like to watch {clueless|title}
+pull up fairy {movies|type} {for kids|genre}
+i want to watch {movies|type} that contain the word car in the title
 give me a list of {tim burton|director} {films|type}
-play {the crying game|title}
-can you please bring up the {movie|type} where {sandra bullock|cast} is stuck in space
-{sleepless in seattle|title}
-play {full metal jacket|title}
-browse through {movies|type} {for kids|genre}
-i want to see {the departed|title}
-bring up any {crime|genre} related {tv shows|type}
-play {the little mermaid|title}
+i want to see {castaway|title}
+i want to watch {star wars|title}
 play the great {exotic marigold hotel|title}
 what is the {shortest|sort} {movie|type} directed by {christopher nolan|director}
+let me watch {ghost|title}
+start up {the sixth sense|title}
+watch {scream|title}
+play {star wars a new hope|title}
+play the original {to kill a mockingbird|title}
 bring up {the sopranos|title}
-play {forrest gump|title}
-play {forrest gump|title}
-bring up the {movie|type} {12 angry men|title}
-i want to watch {click|title}
-browse through the whole catalog
+show me {movies|type} with house in the title
+play {blade runner|title}
+show me all {movies|type} with some {horror|genre}
+{jersey shore|title}
+show me {top gun|title}
+show me {the walking dead|title} {series|type}
+show me sequels to {toy story|title}
+bring up any {movies|type} on dinosaurs
+play {being john malkovich|title}
+play {the quiet man|title}
+i want to watch the {south park|title} {movie|type}
+play the {movie|type} {primer|title}
+show me {movies|type} with devil in the name
+browse heist {movies|type} starring {jason statham|cast}
+i want to see {the london firm|title}
+let me watch {jaws|title}
+i want to watch {harry potter|title}
+browse {action|genre} {movies|type}
+let me see {eternal sunshine|title}
 {hunger games|title}
-{shawshank|title}
-{lord of the rings return of the king|title}
-{star wars force awakens|title}
+play {mission impossible 4|title}
+show me the {first|sort} {animated|genre} {movie|type}
+i want to watch {click|title}
+start the {movie|type} {finding nemo|title}
+start {fargo|title}
+watch {friday the 13th|title}
+play {the shawshank redemption|title}
+i want to watch {dumb and dumber|title}
+show the {movie|type} {batman|title}
+can you please bring up the {movie|type} where {sandra bullock|cast} is stuck in space
+show me {movies|type} with {bruce willis|cast}
+i want to watch {the big lebowski|title}
+pull up the {movie|type} {the man from earth|title}
+play {e t|title}
+play {the night of the hunter|title}
+show me the {movie|type} {hook|title}
+play the {movie|type} {ricki and the flash|title}
