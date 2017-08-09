@@ -201,7 +201,9 @@ class TestTimesAndDates(ConversationTest):
         ('set a timer for 5 minutes', '5 minutes'),
         ('start a timer for 5 mins', '5 minutes'),
         ('start a timer for 40 seconds', '40 seconds'),
-        ('start a timer for 40 secs', '40 seconds')
+        ('start a timer for 40 secs', '40 seconds'),
+        ('start a timer for 2 s', '2 seconds'),
+        ('start a timer for 42s', '42 seconds')
     ]
 
     @pytest.mark.parametrize("set_query, expected_response",
