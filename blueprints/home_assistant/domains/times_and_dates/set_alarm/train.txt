@@ -221,7 +221,6 @@ wake me up by {7 am|sys_time|new_time}
 set a new alarm
 set alarm for {7:05 pm wednesday|sys_time|new_time}
 set alarm for {7am|sys_time|new_time}
-i want a {daily|sys_interval|new_time} alarm {at 8 am|sys_time|new_time}
 please set my alarm to go off {1 hour from now|sys_time|new_time}
 start a {3:00am|sys_time|new_time} alarm
 set {9:30 pm|sys_time|new_time} alarm for me
