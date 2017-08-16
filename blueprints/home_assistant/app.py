@@ -53,17 +53,22 @@ def check_weather(context, responder):
         responder.reply(reply)
         return
 
-    # Get the location the user wants
-    selected_city = _get_city(context)
-    # Figure out which temperature unit the user wants information in
-    selected_unit = _get_unit(context)
-
-    # Get weather information via the API
-    url_string = _construct_weather_api_url(selected_city, selected_unit, openweather_api_key)
     try:
+        # Get the location the user wants
+        selected_city = _get_city(context)
+        # Figure out which temperature unit the user wants information in
+        selected_unit = _get_unit(context)
+
+        # Get weather information via the API
+        url_string = _construct_weather_api_url(selected_city, selected_unit, openweather_api_key)
+
         weather_info = requests.get(url_string).json()
     except ConnectionError:
         reply = "Sorry, I was unable to connect to the weather API, please check your connection."
+        responder.reply(reply)
+        return
+    except UnitNotFound:
+        reply = "Sorry, I am not sure which unit you are asking for."
         responder.reply(reply)
         return
 
@@ -861,6 +866,10 @@ def _get_temperature_change(context):
         return DEFAULT_THERMOSTAT_CHANGE
 
 
+class UnitNotFound(Exception):
+    pass
+
+
 def _get_unit(context):
     """
     Get's the user desired temperature unit from the query, defaulting to Fahrenheit if none
@@ -878,10 +887,13 @@ def _get_unit(context):
     if unit_entity:
         unit_text = unit_entity['text'].lower()
 
-        if unit_text[0] == 'c':
+        if unit_text in ['c', 'celsius']:
             return 'celsius'
-        else:
+        elif unit_text in ['f', 'fahrenheit']:
             return 'fahrenheit'
+        else:
+            raise UnitNotFound
+
     else:
         # Default to Fahrenheit
         return DEFAULT_TEMPERATURE_UNIT

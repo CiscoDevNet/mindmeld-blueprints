@@ -2,3 +2,4 @@
 1.0	celsius
 1.0	fahrenheit
 1.0	c
+1.0	celcius
