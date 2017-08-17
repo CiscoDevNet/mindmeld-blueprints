@@ -199,6 +199,7 @@ class TestTimesAndDates(ConversationTest):
         ('activate a new timer', '60 seconds'),
         ('let the timer begin', '60 seconds'),
         ('set a timer for 5 minutes', '5 minutes'),
+        ('start an alarm for 15 minute', '15 minutes'),
         ('start a timer for 5 mins', '5 minutes'),
         ('start a timer for 40 seconds', '40 seconds'),
         ('start a timer for 40 secs', '40 seconds'),
@@ -213,7 +214,7 @@ class TestTimesAndDates(ConversationTest):
         assert expected_response in texts[0]
         self.assert_intent(self.conv, 'start_timer')
 
-    test_clear_time_data = ['clear timer', 'stop my timers', 'pause the timer']
+    test_clear_time_data = ['clear timer', 'stop my timers', 'pause the timer', 'Kill the timer']
 
     @pytest.mark.parametrize("clear_query", test_clear_time_data)
     def test_clear_timer(self, clear_query):

@@ -10,6 +10,7 @@ WEATHER_INTENT = 'check_weather'
 class TestWeather(ConversationTest):
     test_data = [
         ('what is the weather today', 'San Francisco', 'Fahrenheit'),
+        ('whats the weather around here', 'San Francisco', 'Fahrenheit'),
         ('what is the weather today in Celsius', 'San Francisco', 'Celsius'),
         ('what is the weather today in seattle', 'Seattle', 'Fahrenheit'),
         ('what is the weather today in seattle in celsius', 'Seattle', 'Celsius')

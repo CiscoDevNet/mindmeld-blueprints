@@ -1,3 +1,5 @@
+set timer for {15 minute|duration}
+set an alarm for {15 minute|duration}
 in {10 minutes|duration} remind me to check on the baby
 tell me when {6 hours 20 minutes|duration} is up
 activate a timer

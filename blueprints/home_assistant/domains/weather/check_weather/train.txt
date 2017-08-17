@@ -1,3 +1,4 @@
+whats the weather around here
 what is the weather for {mexico city|city} {on friday|sys_time} in {fahrenheit|unit}
 what is the weather for {next week|sys_time} in {berlin|city}
 what is the weather like {tomorrow|sys_time}

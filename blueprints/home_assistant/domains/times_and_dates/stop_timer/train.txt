@@ -36,3 +36,4 @@ remove the timer
 restart the timer
 end timer
 reset the timer
+Kill the timer
