@@ -8,9 +8,8 @@ machine:
     _JAVA_OPTIONS: "-Xms512m -Xmx1024m"
 dependencies:
   override:
-    - pip install -r dev-requirements.txt
+    - pip install -r requirements.txt --extra-index-url http://$PYPI_USERNAME:$PYPI_PASSWORD@mindmeld.com/pypi --trusted-host mindmeld.com
   post:
-    - git clone https://$GIT_TOKEN@github.com/expectlabs/mindmeld-workbench3 && cd mindmeld-workbench3 && git checkout release/3.0.0 && pip install -e .
     - wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.2.tar.gz
     - tar -xvf elasticsearch-5.1.2.tar.gz
     - elasticsearch-5.1.2/bin/elasticsearch: {background: true}
