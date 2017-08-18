@@ -15,6 +15,8 @@ dependencies:
     - elasticsearch-5.1.2/bin/elasticsearch: {background: true}
     # Make sure that Elasticsearch is up before running tests:
     - sleep 10 && wget --waitretry=5 --retry-connrefused -v http://127.0.0.1:9200/
+    # Setup food ordering kb
+    - mmworkbench blueprint food_ordering
 test:
   pre:
     - pip install -r test-requirements.txt
@@ -28,6 +30,7 @@ test:
     - ./lintme
     - cd blueprints/home_assistant && python app.py build && ./testme
     - cd blueprints/video_discovery && python app.py build
+    - cd blueprints/food_ordering && python app.py build
 
 deployment:
   s3:
