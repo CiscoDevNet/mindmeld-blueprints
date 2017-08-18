@@ -49,7 +49,8 @@ def check_weather(context, responder):
     try:
         openweather_api_key = os.environ['OPEN_WEATHER_KEY']
     except KeyError:
-        reply = "Open weather API is not setup, please follow instructions to setup the API."
+        reply = "Open weather API is not setup, please regsiter an API key at https://" \
+                "openweathermap.org/api and set env variable OPEN_WEATHER_KEY to be that key."
         responder.reply(reply)
         return
 
@@ -116,8 +117,9 @@ def specify_location(context, responder):
             elif context['frame']['desired_action'] == 'Check Door':
                 reply = _handle_check_door_reply(selected_location, context)
             elif context['frame']['desired_action'] == 'Turn On Lights':
+                color = _get_color(context) or context['frame'].get('desired_color')
                 reply = _handle_lights_reply(selected_all, selected_location, context,
-                                             desired_state="on")
+                                             desired_state="on", color=color)
             elif context['frame']['desired_action'] == 'Turn Off Lights':
                 reply = _handle_lights_reply(selected_all, selected_location, context,
                                              desired_state="off")
@@ -473,13 +475,15 @@ def _handle_lights(context, responder, desired_state, desired_action):
 
     selected_all = _get_command_for_all(context)
     selected_location = _get_location(context)
+    color = _get_color(context)
 
     if selected_all or selected_location:
         reply = _handle_lights_reply(
-            selected_all, selected_location, context, desired_state=desired_state)
+            selected_all, selected_location, context, desired_state=desired_state, color=color)
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = desired_action
+        context['frame']['desired_color'] = color
         prompt = "Of course, which lights?"
         responder.prompt(prompt)
 
@@ -529,7 +533,7 @@ def _handle_check_lights_reply(selected_location, context):
     return reply
 
 
-def _handle_lights_reply(selected_all, selected_location, context, desired_state):
+def _handle_lights_reply(selected_all, selected_location, context, desired_state, color=None):
 
     if 'lights' not in context['frame']:
         context['frame']['lights'] = {}
@@ -538,6 +542,10 @@ def _handle_lights_reply(selected_all, selected_location, context, desired_state
         for light_location in context['frame']['lights'].keys():
             context['frame']['lights'][light_location] = desired_state
         reply = "Ok. All lights have been turned {state}.".format(state=desired_state)
+    elif selected_location and color:
+        context['frame']['lights'][selected_location] = desired_state
+        reply = "Ok. The {location} lights have been turned {state} with {color}.".format(
+            location=selected_location.lower(), state=desired_state, color=color)
     elif selected_location:
         context['frame']['lights'][selected_location] = desired_state
         reply = "Ok. The {location} lights have been turned {state}.".format(
@@ -917,6 +925,21 @@ def _get_city(context):
     else:
         # Default to San Francisco
         return DEFAULT_LOCATION
+
+
+def _get_color(context):
+    """
+    Get color from context
+
+    Args:
+        context (dict): contains info about the conversation up to this point (e.g. domain, intent,
+          entities, etc)
+
+    Returns:
+        string: resolved location entity
+    """
+    color_entity = next((e for e in context['entities'] if e['type'] == 'color'), None)
+    return color_entity['text'] if color_entity else None
 
 
 if __name__ == '__main__':
