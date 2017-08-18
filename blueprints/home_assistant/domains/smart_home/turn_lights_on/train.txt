@@ -1,3 +1,5 @@
+turn the lights to {soft white|color}
+turn the lights to {blue|color}
 turn lights on now
 i need the lights to be on in the {whole house|all}
 turn on {hallway|location} light
