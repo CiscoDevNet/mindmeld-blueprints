@@ -30,7 +30,7 @@ class TestWeather(ConversationTest):
         key = os.environ.pop(WEATHER_KEY)
         texts = self.say("what's the weather today?")
         self.assert_intent(self.conv, expected_intent=WEATHER_INTENT)
-        self.assert_text(texts, expected_text='Open weather API is not setup, please follow instructions to setup the API.')  # noqa: E501
+        self.assert_text(texts, expected_text='Open weather API is not setup, please regsiter an API key at https://openweathermap.org/api and set env variable OPEN_WEATHER_KEY to be that key.')  # noqa: E501
         os.environ[WEATHER_KEY] = key
 
     def test_weather_invalid(self):
