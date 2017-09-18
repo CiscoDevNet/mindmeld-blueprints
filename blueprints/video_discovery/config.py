@@ -5,8 +5,9 @@ PARSER_CONFIG = {
 }
 
 ENTITY_MODEL_CONFIG = {
-    'model_type': 'memm',
+    'model_type': 'tagger',
     'model_settings': {
+        'classifier_type': 'memm',
         'tag_scheme': 'IOB',
         'feature_scaler': 'max-abs'
     },

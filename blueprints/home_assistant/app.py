@@ -1,11 +1,19 @@
 # -*- coding: utf-8 -*-
 """This module contains the Workbench home assistant blueprint application"""
 from __future__ import unicode_literals
+
 from mmworkbench import Application
 from mmworkbench.ser import parse_numerics
 from mmworkbench.ser import get_candidates_for_text
+from mmworkbench.path import load_app_package
 import requests
 import os
+
+if __name__ == "__main__" and __package__ is None:
+    load_app_package(os.path.dirname(os.path.realpath(__file__)))
+    __package__ = 'home_assistant'
+
+from .ha_exception import UnitNotFound  # noqa: E402
 
 app = Application(__name__)
 
@@ -872,10 +880,6 @@ def _get_temperature_change(context):
         return temperature_entity[0]['value'][0]
     else:
         return DEFAULT_THERMOSTAT_CHANGE
-
-
-class UnitNotFound(Exception):
-    pass
 
 
 def _get_unit(context):

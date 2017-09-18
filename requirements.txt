@@ -1,1 +1,1 @@
-mmworkbench<=3.0.2
+mmworkbench>3.0.3
