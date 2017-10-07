@@ -2,18 +2,20 @@
 """This module contains the Workbench home assistant blueprint application"""
 from __future__ import unicode_literals
 
-from mmworkbench import Application
-from mmworkbench.ser import parse_numerics
-from mmworkbench.ser import get_candidates_for_text
-from mmworkbench.path import load_app_package
-import requests
 import os
 
-if __name__ == "__main__" and __package__ is None:
-    load_app_package(os.path.dirname(os.path.realpath(__file__)))
-    __package__ = 'home_assistant'
+import requests
 
-from .ha_exception import UnitNotFound  # noqa: E402
+import time
+from mmworkbench import Application
+from mmworkbench.ser import get_candidates_for_text
+from mmworkbench.ser import parse_numerics
+
+#if __name__ == "__main__" and __package__ is None:
+#    load_app_package(os.path.dirname(os.path.realpath(__file__)))
+#    __package__ = 'home_assistant'
+
+#from .ha_exception import UnitNotFound  # noqa: E402
 
 app = Application(__name__)
 
@@ -104,7 +106,6 @@ def check_weather(context, responder):
 
 @app.handle(intent='specify_location')
 def specify_location(context, responder):
-
     selected_all = False
     selected_location = _get_location(context)
 
@@ -135,11 +136,11 @@ def specify_location(context, responder):
                 reply = _handle_check_lights_reply(selected_location, context)
             elif context['frame']['desired_action'] == 'Turn On Appliance':
                 selected_appliance = context['frame']['appliance']
-                reply = _handle_appliance_reply(selected_location, selected_appliance,
+                reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
                                                 desired_state="on")
             elif context['frame']['desired_action'] == 'Turn Off Appliance':
                 selected_appliance = context['frame']['appliance']
-                reply = _handle_appliance_reply(selected_location, selected_appliance,
+                reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
                                                 desired_state="off")
 
             del context['frame']['desired_action']
@@ -155,7 +156,6 @@ def specify_location(context, responder):
 
 @app.handle(intent='specify_time')
 def specify_time(context, responder):
-
     selected_time = _get_sys_time(context)
     selected_all = _get_command_for_all(context)
 
@@ -186,7 +186,6 @@ def specify_time(context, responder):
 
 @app.handle(intent='check_door')
 def check_door(context, responder):
-
     selected_location = _get_location(context)
 
     if selected_location:
@@ -218,19 +217,22 @@ def unlock_door(context, responder):
     _handle_door(context, responder, desired_state='unlocked', desired_action='Unlock Door')
 
 
-@app.handle(intent='turn_appliance_on')
+@app.handle(intent='turn_appliance_on', name='turn_on_appliance')
 def turn_appliance_on(context, responder):
+    print "in turn appliance on intent"
+    context['target_dialogue_state'] = "turn_on_appliance"
     _handle_appliance(context, responder, desired_state='on', desired_action='Turn On Appliance')
 
 
-@app.handle(intent='turn_appliance_off')
+@app.handle(intent='turn_appliance_off', name='turn_off_appliance')
 def turn_appliance_off(context, responder):
+    print "in turn appliance off intent"
+    context['target_dialogue_state'] = "turn_off_appliance"
     _handle_appliance(context, responder, desired_state='off', desired_action='Turn Off Appliance')
 
 
 @app.handle(intent='check_lights')
 def check_lights(context, responder):
-
     selected_location = _get_location(context)
 
     if selected_location:
@@ -254,7 +256,6 @@ def turn_lights_off(context, responder):
 
 @app.handle(intent='check_thermostat')
 def check_thermostat(context, responder):
-
     selected_location = _get_thermostat_location(context)
 
     try:
@@ -270,7 +271,6 @@ def check_thermostat(context, responder):
 
 @app.handle(intent='set_thermostat')
 def set_thermostat(context, responder):
-
     selected_location = _get_thermostat_location(context)
     selected_temperature = _get_temperature(context)
 
@@ -289,7 +289,6 @@ def set_thermostat(context, responder):
 @app.handle(intent='turn_up_thermostat')
 @app.handle(intent='turn_down_thermostat')
 def change_thermostat(context, responder):
-
     if context['intent'] == 'turn_up_thermostat':
         desired_direction = 'up'
     else:
@@ -308,7 +307,6 @@ def change_thermostat(context, responder):
 @app.handle(intent='turn_off_thermostat')
 @app.handle(intent='turn_on_thermostat')
 def turn_off_thermostat(context, responder):
-
     if context['intent'] == 'turn_off_thermostat':
         desired_state = 'off'
     else:
@@ -324,7 +322,6 @@ def turn_off_thermostat(context, responder):
 
 @app.handle(intent='change_alarm')
 def change_alarm(context, responder):
-
     selected_old_time = _get_old_time(context)
     selected_new_time = _get_new_time(context)
 
@@ -347,7 +344,6 @@ def change_alarm(context, responder):
 
 @app.handle(intent='check_alarm')
 def check_alarm(context, responder):
-
     try:
         ordered_alarms = sorted(context['frame']['alarms'].keys())
         if len(ordered_alarms) == 0:
@@ -362,7 +358,6 @@ def check_alarm(context, responder):
 
 @app.handle(intent='remove_alarm')
 def remove_alarm(context, responder):
-
     # Get time entity from query
     selected_all = _get_command_for_all(context)
     selected_time = _get_sys_time(context)
@@ -391,7 +386,6 @@ def remove_alarm(context, responder):
 
 @app.handle(intent='set_alarm')
 def set_alarm(context, responder):
-
     selected_time = _get_sys_time(context)
 
     if selected_time:
@@ -406,15 +400,13 @@ def set_alarm(context, responder):
 @app.handle(intent='start_timer')
 def start_timer(context, responder):
     selected_duration = _get_duration(context)
-    try:
-        current_timer = context['frame']['timer']
-    except KeyError:
-        current_timer = None
+    is_timer_running = _check_timer_status(context)
 
-    if current_timer:
+    if is_timer_running:
         reply = 'There is already a timer running!'
     else:
-        context['frame']['timer'] = True
+        context['frame']['timer'] = {'start_time': time.time(),
+                                     'duration': selected_duration}
         reply = "Ok. A timer for {amt} has been set.".format(amt=selected_duration)
 
     responder.reply(reply)
@@ -422,14 +414,9 @@ def start_timer(context, responder):
 
 @app.handle(intent='stop_timer')
 def stop_timer(context, responder):
+    is_timer_running = _check_timer_status(context)
 
-    try:
-        current_timer = context['frame']['timer']
-    except KeyError:
-        current_timer = None
-        context['frame']['timer'] = None
-
-    if current_timer:
+    if is_timer_running:
         context['frame']['timer'] = None
         reply = 'Ok. The current timer has been cancelled.'
     else:
@@ -447,8 +434,38 @@ def unknown(context, responder):
 # Helper Functions
 
 
-def _handle_door(context, responder, desired_state, desired_action):
+def _get_duration_in_seconds(selected_duration):
+    num_time, num_unit = selected_duration.split(' ')
 
+    if num_unit == 'hours':
+        num_time = int(num_time) * 3600
+    elif num_unit == 'minutes':
+        num_time = int(num_time) * 60
+
+    return int(num_time)
+
+
+def _check_timer_status(context):
+    try:
+        current_timer = context['frame']['timer']
+    except KeyError:
+        current_timer = None
+
+    if current_timer:
+        selected_duration = current_timer['duration']
+        current_timer_start_time = current_timer['start_time']
+
+        timer_amt_in_sec = _get_duration_in_seconds(selected_duration)
+        elapsed_time = time.time() - current_timer_start_time
+
+        is_timer_running = elapsed_time < timer_amt_in_sec
+    else:
+        is_timer_running = False
+
+    return is_timer_running
+
+
+def _handle_door(context, responder, desired_state, desired_action):
     selected_all = _get_command_for_all(context)
     selected_location = _get_location(context)
 
@@ -463,24 +480,23 @@ def _handle_door(context, responder, desired_state, desired_action):
 
 
 def _handle_appliance(context, responder, desired_state, desired_action):
-
+    selected_all = _get_command_for_all(context)
     selected_location = _get_location(context)
     selected_appliance = _get_appliance(context)
 
-    if selected_location:
+    if selected_all or selected_location:
         reply = _handle_appliance_reply(
-            selected_location, selected_appliance, desired_state=desired_state)
+            selected_all, selected_location, selected_appliance, desired_state=desired_state)
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = desired_action
         context['frame']['appliance'] = selected_appliance
 
-        prompt = "Of course, which {appliance}".format(appliance=selected_appliance)
+        prompt = "Of course, which {appliance}?".format(appliance=selected_appliance)
         responder.prompt(prompt)
 
 
 def _handle_lights(context, responder, desired_state, desired_action):
-
     selected_all = _get_command_for_all(context)
     selected_location = _get_location(context)
     color = _get_color(context)
@@ -497,7 +513,6 @@ def _handle_lights(context, responder, desired_state, desired_action):
 
 
 def _modify_thermostat(selected_location, selected_temperature_change, context, direction):
-
     try:
         thermostat_temperature_dict = context['frame']['thermostat_temperatures']
     except:
@@ -526,7 +541,6 @@ def _construct_weather_api_url(selected_location, selected_unit, openweather_api
 
 
 def _handle_check_lights_reply(selected_location, context):
-
     if 'lights' not in context['frame']:
         context['frame']['lights'] = {}
 
@@ -542,7 +556,6 @@ def _handle_check_lights_reply(selected_location, context):
 
 
 def _handle_lights_reply(selected_all, selected_location, context, desired_state, color=None):
-
     if 'lights' not in context['frame']:
         context['frame']['lights'] = {}
 
@@ -563,7 +576,6 @@ def _handle_lights_reply(selected_all, selected_location, context, desired_state
 
 
 def _handle_check_door_reply(selected_location, context):
-
     if 'doors' not in context['frame']:
         context['frame']['doors'] = {}
 
@@ -588,7 +600,6 @@ def _handle_check_door_reply(selected_location, context):
 
 
 def _handle_door_open_close_reply(selected_all, selected_location, context, desired_state):
-
     if 'doors' not in context['frame']:
         context['frame']['doors'] = {}
 
@@ -608,7 +619,6 @@ def _handle_door_open_close_reply(selected_all, selected_location, context, desi
 
 
 def _handle_door_lock_unlock_reply(selected_all, selected_location, context, desired_state):
-
     if 'doors' not in context['frame']:
         context['frame']['doors'] = {}
 
@@ -627,16 +637,18 @@ def _handle_door_lock_unlock_reply(selected_all, selected_location, context, des
     return reply
 
 
-def _handle_appliance_reply(selected_location, selected_appliance, desired_state):
-
-    reply = "Ok. The {loc} {app} has been turned {state}.".format(
-        loc=selected_location, app=selected_appliance, state=desired_state)
+def _handle_appliance_reply(selected_all, selected_location, selected_appliance, desired_state):
+    if selected_all:
+        reply = "Ok. All {app} have been turned {state}.".format(
+            app=selected_appliance, state=desired_state)
+    else:
+        reply = "Ok. The {loc} {app} has been turned {state}.".format(
+            loc=selected_location, app=selected_appliance, state=desired_state)
     return reply
 
 
 def _handle_thermostat_change_reply(selected_location, desired_temperature=None,
                                     desired_state=None):
-
     if desired_temperature:
         reply = "The thermostat temperature in the {location} is now {temp} degrees F.".format(
             location=selected_location, temp=desired_temperature)
@@ -648,7 +660,6 @@ def _handle_thermostat_change_reply(selected_location, desired_temperature=None,
 
 
 def _handle_set_alarm_reply(selected_time, context):
-
     try:
         existing_alarms_dict = context['frame']['alarms']
         existing_alarms_dict[selected_time] = None
@@ -660,7 +671,6 @@ def _handle_set_alarm_reply(selected_time, context):
 
 
 def _handle_remove_alarm_reply(selected_all, selected_time, existing_alarms_dict, ordered_alarms):
-
     if existing_alarms_dict:
         if selected_all:
             existing_alarms_dict.clear()

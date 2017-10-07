@@ -11,7 +11,7 @@ INTENT_MODEL_CONFIG = {
         'k': 5,
         'grid': {
             'fit_intercept': [True, False],
-            'C': [0.01, 1, 10, 100],
+            'C': [0.1, 1, 10, 100],
             'class_bias': [0.7, 0.3, 0]
         }
     },
@@ -19,10 +19,11 @@ INTENT_MODEL_CONFIG = {
         "bag-of-words": {
             "lengths": [1, 2]
         },
-        "edge-ngrams": {"lengths": [1, 2]},
+        "edge-ngrams": {"lengths": [1, 2, 3]},
         "in-gaz": {},
         "exact": {"scaling": 10},
         "gaz-freq": {},
+        #"freq": {}
         "freq": {"bins": 5}
     }
 }

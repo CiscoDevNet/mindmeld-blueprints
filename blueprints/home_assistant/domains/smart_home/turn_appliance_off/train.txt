@@ -56,3 +56,30 @@ power off the {tv|appliance}
 switch off the {radio|appliance}
 please turn off the {stove|appliance}
 turn the {tv|appliance} off
+there s too much noise turn off {all|all} {televisions|appliance}
+there s too much noise turn off {all|all} {radios|appliance}
+it s too loud here turn off {stereo|appliance}
+we re done turn off the {television|appliance} in the {living room|appliance}
+kill {all|all} {speakers|appliance}
+stop the music turn off {stereo|appliance}
+kill the {vacuum cleaner|appliance} in the {living room|location}
+turn off {all|all} {sprinklers|appliance}
+{all|all} {washers|appliance} off
+it s raining turn off the {sprinklers|appliance}
+i m back turn off {all|all} {security alarms|appliance}
+turn off {all|all} {televisions|appliance} in the house
+shut down {all|all} {computers|appliance}
+please turn off {tvs|appliance} in the {house|all}
+please turn off {all|all} {radios|appliance}
+shut off {all|all} {speakers|appliance} in the house
+turn off the {vacuum cleaner|appliance} in the {bedroom|location}
+i need quiet switch off the {tvs|appliance}
+please switch off the {sprinklers|appliance} in the {backyard|location}
+kill the {sprinklers|appliance} in the {front yard|location}
+can you please shut the {tv|appliance} off
+make sure {all|all} {tvs|appliance} are turned off
+the cake must be done turn off the {oven|appliance}
+{all|all} {radios|appliance} off
+{all|all} {tvs|appliance} need to be turned off now
+stop {all|all} {stereos|appliance} in the house
+
