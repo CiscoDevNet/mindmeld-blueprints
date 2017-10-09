@@ -138,7 +138,7 @@ def specify_location(context, responder):
             elif context['frame']['desired_action'] == 'Turn On Appliance':
                 selected_appliance = context['frame']['appliance']
                 reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
-                                                desired_state="on",target_dialogue_state=None)
+                                                desired_state="on", target_dialogue_state=None)
             elif context['frame']['desired_action'] == 'Turn Off Appliance':
                 selected_appliance = context['frame']['appliance']
                 reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
