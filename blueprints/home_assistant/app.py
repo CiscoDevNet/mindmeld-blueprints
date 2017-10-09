@@ -217,6 +217,7 @@ def unlock_door(context, responder):
     _handle_door(context, responder, desired_state='unlocked', desired_action='Unlock Door')
 
 
+@app.handle(intent='turn_appliance_on', has_entity='appliance', name='turn_on_appliance')
 @app.handle(intent='turn_appliance_on', name='turn_on_appliance')
 def turn_appliance_on(context, responder):
     print "in turn appliance on intent"
@@ -224,6 +225,7 @@ def turn_appliance_on(context, responder):
     _handle_appliance(context, responder, desired_state='on', desired_action='Turn On Appliance')
 
 
+@app.handle(intent='turn_appliance_off', has_entity='appliance', name='turn_off_appliance')
 @app.handle(intent='turn_appliance_off', name='turn_off_appliance')
 def turn_appliance_off(context, responder):
     print "in turn appliance off intent"
@@ -487,6 +489,7 @@ def _handle_appliance(context, responder, desired_state, desired_action):
     if selected_all or selected_location:
         reply = _handle_appliance_reply(
             selected_all, selected_location, selected_appliance, desired_state=desired_state)
+        context['target_dialogue_state'] = None
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = desired_action
