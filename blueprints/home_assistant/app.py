@@ -10,12 +10,13 @@ import time
 from mmworkbench import Application
 from mmworkbench.ser import get_candidates_for_text
 from mmworkbench.ser import parse_numerics
+from mmworkbench.path import load_app_package
 
-#if __name__ == "__main__" and __package__ is None:
-#    load_app_package(os.path.dirname(os.path.realpath(__file__)))
-#    __package__ = 'home_assistant'
+if __name__ == "__main__" and __package__ is None:
+    load_app_package(os.path.dirname(os.path.realpath(__file__)))
+    __package__ = 'home_assistant'
 
-#from .ha_exception import UnitNotFound  # noqa: E402
+from .ha_exception import UnitNotFound  # noqa: E402
 
 app = Application(__name__)
 
@@ -137,11 +138,11 @@ def specify_location(context, responder):
             elif context['frame']['desired_action'] == 'Turn On Appliance':
                 selected_appliance = context['frame']['appliance']
                 reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
-                                                desired_state="on")
+                                                desired_state="on",target_dialogue_state=None)
             elif context['frame']['desired_action'] == 'Turn Off Appliance':
                 selected_appliance = context['frame']['appliance']
                 reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
-                                                desired_state="off")
+                                                desired_state="off", target_dialogue_state=None)
 
             del context['frame']['desired_action']
 
@@ -217,20 +218,16 @@ def unlock_door(context, responder):
     _handle_door(context, responder, desired_state='unlocked', desired_action='Unlock Door')
 
 
-@app.handle(intent='turn_appliance_on', has_entity='appliance', name='turn_on_appliance')
 @app.handle(intent='turn_appliance_on', name='turn_on_appliance')
 def turn_appliance_on(context, responder):
-    print "in turn appliance on intent"
-    context['target_dialogue_state'] = "turn_on_appliance"
-    _handle_appliance(context, responder, desired_state='on', desired_action='Turn On Appliance')
+    _handle_appliance(context, responder, desired_state='on', desired_action='Turn On Appliance',
+                      target_dialogue_state='turn_on_appliance')
 
 
-@app.handle(intent='turn_appliance_off', has_entity='appliance', name='turn_off_appliance')
 @app.handle(intent='turn_appliance_off', name='turn_off_appliance')
 def turn_appliance_off(context, responder):
-    print "in turn appliance off intent"
-    context['target_dialogue_state'] = "turn_off_appliance"
-    _handle_appliance(context, responder, desired_state='off', desired_action='Turn Off Appliance')
+    _handle_appliance(context, responder, desired_state='off', desired_action='Turn Off Appliance',
+                      target_dialogue_state='turn_off_appliance')
 
 
 @app.handle(intent='check_lights')
@@ -481,7 +478,7 @@ def _handle_door(context, responder, desired_state, desired_action):
         responder.prompt(prompt)
 
 
-def _handle_appliance(context, responder, desired_state, desired_action):
+def _handle_appliance(context, responder, desired_state, desired_action, target_dialogue_state):
     selected_all = _get_command_for_all(context)
     selected_location = _get_location(context)
     selected_appliance = _get_appliance(context)
@@ -494,6 +491,7 @@ def _handle_appliance(context, responder, desired_state, desired_action):
     else:
         context['frame']['desired_action'] = desired_action
         context['frame']['appliance'] = selected_appliance
+        context['target_dialogue_state'] = target_dialogue_state
 
         prompt = "Of course, which {appliance}?".format(appliance=selected_appliance)
         responder.prompt(prompt)

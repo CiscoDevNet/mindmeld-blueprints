@@ -19,11 +19,10 @@ INTENT_MODEL_CONFIG = {
         "bag-of-words": {
             "lengths": [1, 2]
         },
-        "edge-ngrams": {"lengths": [1, 2, 3]},
+        "edge-ngrams": {"lengths": [1, 2]},
         "in-gaz": {},
         "exact": {"scaling": 10},
         "gaz-freq": {},
-        #"freq": {}
         "freq": {"bins": 5}
     }
 }
