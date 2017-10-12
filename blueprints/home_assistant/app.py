@@ -3,9 +3,7 @@
 from __future__ import unicode_literals
 
 import os
-
 import requests
-
 import time
 from mmworkbench import Application
 from mmworkbench.ser import get_candidates_for_text
@@ -399,9 +397,8 @@ def set_alarm(context, responder):
 @app.handle(intent='start_timer')
 def start_timer(context, responder):
     selected_duration = _get_duration(context)
-    is_timer_running = _check_timer_status(context)
 
-    if is_timer_running:
+    if _check_timer_status(context):
         reply = 'There is already a timer running!'
     else:
         context['frame']['timer'] = {'start_time': time.time(),
@@ -413,9 +410,7 @@ def start_timer(context, responder):
 
 @app.handle(intent='stop_timer')
 def stop_timer(context, responder):
-    is_timer_running = _check_timer_status(context)
-
-    if is_timer_running:
+    if _check_timer_status(context):
         context['frame']['timer'] = None
         reply = 'Ok. The current timer has been cancelled.'
     else:
@@ -434,6 +429,16 @@ def unknown(context, responder):
 
 
 def _get_duration_in_seconds(selected_duration):
+    """
+    Converts hours/minutes to seconds
+
+    Args:
+        selected_duration (string): String with number followed by unit
+        (e.g. 3 hours, 2 minutes)
+
+    Returns:
+        int: duration in seconds
+    """
     num_time, num_unit = selected_duration.split(' ')
 
     if num_unit == 'hours':
@@ -457,11 +462,9 @@ def _check_timer_status(context):
         timer_amt_in_sec = _get_duration_in_seconds(selected_duration)
         elapsed_time = time.time() - current_timer_start_time
 
-        is_timer_running = elapsed_time < timer_amt_in_sec
+        return elapsed_time < timer_amt_in_sec
     else:
-        is_timer_running = False
-
-    return is_timer_running
+        return False
 
 
 def _handle_door(context, responder, desired_state, desired_action):
@@ -484,8 +487,8 @@ def _handle_appliance(context, responder, desired_state, desired_action, target_
     selected_appliance = _get_appliance(context)
 
     if selected_all or selected_location:
-        reply = _handle_appliance_reply(
-            selected_all, selected_location, selected_appliance, desired_state=desired_state)
+        reply = _handle_appliance_reply(selected_all, selected_location, selected_appliance,
+                                        desired_state=desired_state)
         context['target_dialogue_state'] = None
         responder.reply(reply)
     else:
