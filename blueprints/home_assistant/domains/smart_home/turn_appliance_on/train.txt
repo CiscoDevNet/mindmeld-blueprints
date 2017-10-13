@@ -100,3 +100,41 @@ please start the {dishwasher|appliance}
 turn the {printer|appliance} on
 start the {computer|appliance} please
 start the {fireplace|appliance}
+turn on {all|all} {tvs|appliance}
+start {all|all} the {stereos|appliance}
+switch on {all|all} the {washers|appliance}
+turn on {all|all} the {televisions|appliance}
+turn on the {dryer|appliance} in the {laundry room|location}
+heat the food in the {microwave|appliance}
+start {all|all} the {computers|appliance}
+turn on {speakers|appliance} in the {house|all}
+pump up {all|all} {stereos|appliance}
+{television|appliance} on
+switch on {microwave|appliance} in the {kitchen|location}
+turn on the {vacuum cleaner|appliance} in the {bedroom|location}
+switch on the {water heater|appliance} in the {bathroom|location}
+activate {radio|appliance} in the {kitchen|location}
+boot {all|all} {computers|appliance} in the {study|location}
+start baking the cake in the {oven|appliance}
+turn on {all|all} {washers|appliance} in the {laundry room|appliance}
+dry the clothes in the {dryer|appliance}
+i m going out turn on the {security alarm|appliance} for the {whole house|all}
+start the {security system|appliance} in the {house|all}
+turn on the {blender|appliance} in the {kitchen|location}
+start the {blender|appliance}
+switch on the {blow dryer|appliance} in the {bathroom|location}
+i want to relax turn on the {television|appliance}
+i want to dance turn on the {stereo|appliance}
+switch off {all|all} {stoves|appliance}
+can you turn on the {water filter|appliance} in the {kitchen|location}
+start the {lawn mower|appliance} int he {backyard|location}
+start {all|all} the {sprinklers|appliance} in the {front yard|location}
+turn on {all|all} {sprinklers|appliance} in the {backyard|location}
+{lawn mower|appliance} go
+can you switch on {all|all} the {sprinklers|appliance} please
+turn on the {refrigerator|appliance} please
+{all|all} {televisions|appliance} need to be turned on now
+{all|all} {radios|appliance} on
+it s too quiet turn on the {radio|appliance}
+my favorite show is on turn on the {tv|appliance}
+i want to listen to the news switch on the {tv|appliance}
