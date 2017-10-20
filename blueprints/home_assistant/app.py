@@ -149,8 +149,8 @@ def specify_location(context, responder):
 
         responder.reply(reply)
     else:
-        prompt = "I'm sorry, I wasn't able to recognize that location, could you try again?"
-        responder.prompt(prompt)
+        reply = "I'm sorry, I wasn't able to recognize that location, could you try again?"
+        responder.reply(reply)
 
 
 @app.handle(intent='specify_time')
@@ -179,8 +179,8 @@ def specify_time(context, responder):
         responder.reply(reply)
 
     else:
-        prompt = "I'm sorry, I wasn't able to recognize that time. Could you try again?"
-        responder.prompt(prompt)
+        reply = "I'm sorry, I wasn't able to recognize that time. Could you try again?"
+        responder.reply(reply)
 
 
 @app.handle(intent='check_door')
@@ -192,8 +192,8 @@ def check_door(context, responder):
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Check Door'
-        prompt = "Of course, which door?"
-        responder.prompt(prompt)
+        reply = "Of course, which door?"
+        responder.reply(reply)
 
 
 @app.handle(intent='close_door')
@@ -237,8 +237,8 @@ def check_lights(context, responder):
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Check Lights'
-        prompt = "Of course, which lights?"
-        responder.prompt(prompt)
+        reply = "Of course, which lights?"
+        responder.reply(reply)
 
 
 @app.handle(intent='turn_lights_on')
@@ -370,9 +370,9 @@ def remove_alarm(context, responder):
 
         else:
             context['frame']['desired_action'] = 'Remove Alarm'
-            prompt = "Of course. Which alarm? Your current alarms: {alarms}".format(
+            reply = "Of course. Which alarm? Your current alarms: {alarms}".format(
                 alarms=ordered_alarms)
-            responder.prompt(prompt)
+            responder.reply(reply)
             return
 
     except KeyError:
@@ -390,8 +390,8 @@ def set_alarm(context, responder):
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = 'Set Alarm'
-        prompt = "Of course. At what time?"
-        responder.prompt(prompt)
+        reply = "Of course. At what time?"
+        responder.reply(reply)
 
 
 @app.handle(intent='start_timer')
@@ -477,8 +477,8 @@ def _handle_door(context, responder, desired_state, desired_action):
         responder.reply(reply)
     else:
         context['frame']['desired_action'] = desired_action
-        prompt = "Of course, which door?"
-        responder.prompt(prompt)
+        reply = "Of course, which door?"
+        responder.reply(reply)
 
 
 def _handle_appliance(context, responder, desired_state, desired_action, target_dialogue_state):
@@ -496,8 +496,8 @@ def _handle_appliance(context, responder, desired_state, desired_action, target_
         context['frame']['appliance'] = selected_appliance
         context['target_dialogue_state'] = target_dialogue_state
 
-        prompt = "Of course, which {appliance}?".format(appliance=selected_appliance)
-        responder.prompt(prompt)
+        reply = "Of course, which {appliance}?".format(appliance=selected_appliance)
+        responder.reply(reply)
 
 
 def _handle_lights(context, responder, desired_state, desired_action):
@@ -512,8 +512,8 @@ def _handle_lights(context, responder, desired_state, desired_action):
     else:
         context['frame']['desired_action'] = desired_action
         context['frame']['desired_color'] = color
-        prompt = "Of course, which lights?"
-        responder.prompt(prompt)
+        reply = "Of course, which lights?"
+        responder.reply(reply)
 
 
 def _modify_thermostat(selected_location, selected_temperature_change, context, direction):

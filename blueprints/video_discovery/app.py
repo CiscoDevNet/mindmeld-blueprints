@@ -7,14 +7,13 @@ import logging
 import random
 
 from mmworkbench import Application
-from mmworkbench.components.dialogue import SHOW_COLLECTION
 
 app = Application(__name__)
 
 
 KB_INDEX_NAME = 'videos'
 
-GENERAL_PROMPTS = ['I can help you find movies and TV shows. What do you feel like watching today?',
+GENERAL_REPLIES = ['I can help you find movies and TV shows. What do you feel like watching today?',
                    'Tell me what you would like to watch today.',
                    'Talk to me to browse movies and TV shows.']
 
@@ -56,10 +55,10 @@ def welcome(context, responder):
             [greeting + '!' for greeting in greetings]
 
     responder.reply(greetings)
-    responder.prompt(GENERAL_PROMPTS)
+    responder.reply(GENERAL_REPLIES)
 
     # Get default videos
-    responder.respond(get_default_videos_action())
+    responder.list(get_default_video_payload())
     responder.suggest(GENERAL_SUGGESTIONS)
 
 
@@ -79,13 +78,12 @@ def show_content(context, responder):
     responder.slots.update(browse_slots_for_frame(context['frame']))
 
     # Build response based on available slots and results.
-    reply, videos_client_action = build_browse_response(context, responder.slots, results)
+    reply, video_payload = build_browse_response(context, responder.slots, results)
 
     responder.reply(reply)
 
-    # Build and return the client action
-    videos_client_action = video_results_to_action(results)
-    responder.respond(videos_client_action)
+    # Build and return the directive
+    responder.list(video_payload)
 
 
 def update_frame(entities, frame):
@@ -296,8 +294,7 @@ def browse_slots_for_frame(frame):
 
 def build_browse_response(context, slots, results):
     """
-    Return the given template based on the available slots. Also build a client action
-    with the results, and show any prompts if necessary.
+    Return the given template based on the available slots & a payload containing video data
 
     Args:
         context (dict): current context
@@ -305,10 +302,10 @@ def build_browse_response(context, slots, results):
         results (list of dict): documents from QuestionAnswerer
     Returns:
        reply (string): the reply to be shown to the user
-       videos_client_action (dict): the client action containing the video results
+       video_payload (dict): the payload containing the video results
     """
     reply = ''
-    videos_client_action = {}
+    video_payload = []
 
     # If no results match, respond accordingly.
     if not results or len(results) == 0:
@@ -317,7 +314,7 @@ def build_browse_response(context, slots, results):
         # Since user reached a dead-end here, clear the frame.
         context['frame'] = {}
 
-        return reply, videos_client_action
+        return reply, video_payload
 
     else:
         # Build the language response based on the slots available.
@@ -366,10 +363,10 @@ def build_browse_response(context, slots, results):
 
         reply += ':'
 
-        # Build and return the client action
-        videos_client_action = video_results_to_action(results)
+        # Build and return the video payload
+        video_payload = build_video_payload(results)
 
-        return reply, videos_client_action
+        return reply, video_payload
 
 
 @app.handle(intent='start_over')
@@ -378,13 +375,13 @@ def start_over(context, responder):
     When the user wants to start over, clear the dialogue frame and prompt for the next request.
     """
     context['frame'] = {}
-    prompts = ['Sure, what do you want to watch?',
+    replies = ['Sure, what do you want to watch?',
                'Let\'s start over, what would you like to watch?',
                'Okay, starting over, tell me what you want to watch.']
-    responder.prompt(prompts)
+    responder.reply(replies)
 
     # Get default videos
-    responder.respond(get_default_videos_action())
+    responder.list(get_default_video_payload())
     responder.suggest(GENERAL_SUGGESTIONS)
 
 
@@ -408,11 +405,11 @@ def provide_help(context, responder):
                     " Just say want you feel like watching and I can find great options for you."]
     responder.reply(help_replies)
 
-    help_prompts = "Here's some content for you."
-    responder.prompt(help_prompts)
+    help_replies = "Here's some content for you."
+    responder.reply(help_replies)
 
     # Get default videos
-    responder.respond(get_default_videos_action())
+    responder.list(get_default_video_payload())
     responder.suggest(GENERAL_SUGGESTIONS)
 
 
@@ -425,9 +422,9 @@ def handle_unsupported(context, responder):
                    'Sorry, I can only help you browse movies and TV shows.',
                    'Sorry, I don\'t have that information, would you like to try something else?']
     responder.reply(unsupported)
-    responder.prompt(GENERAL_PROMPTS)
+    responder.reply(GENERAL_REPLIES)
     # Get default videos
-    responder.respond(get_default_videos_action())
+    responder.list(get_default_video_payload())
     responder.suggest(GENERAL_SUGGESTIONS)
 
 
@@ -440,9 +437,9 @@ def say_something_nice(context, responder):
                    'Thanks, you\'re quite amazing yourself.',
                    'Thanks, hope you\'re having a good day!']
     responder.reply(compliments)
-    responder.prompt(GENERAL_PROMPTS)
+    responder.reply(GENERAL_REPLIES)
     # Get default videos
-    responder.respond(get_default_videos_action())
+    responder.list(get_default_video_payload())
     responder.suggest(GENERAL_SUGGESTIONS)
 
 
@@ -455,9 +452,9 @@ def handle_insult(context, responder):
                       'Nobody\'s perfect!',
                       'Sorry, I\'ll try to do better next time.']
     responder.reply(insult_replies)
-    responder.prompt(GENERAL_PROMPTS)
+    responder.reply(GENERAL_REPLIES)
     # Get default videos
-    responder.respond(get_default_videos_action())
+    responder.list(get_default_video_payload())
     responder.suggest(GENERAL_SUGGESTIONS)
 
 
@@ -473,49 +470,36 @@ def default(context, responder):
                  'I\'m sorry, could you ask me something else related to movies or TV shows?',
                  'Sorry, I was programmed to only serve your movie and TV show requests.']
     responder.reply(unrelated)
-    responder.prompt(GENERAL_PROMPTS)
+    responder.reply(GENERAL_REPLIES)
     # Get default videos
-    responder.respond(get_default_videos_action())
+    responder.list(get_default_video_payload())
     responder.suggest(GENERAL_SUGGESTIONS)
 
 
-def get_default_videos_action():
+def get_default_video_payload():
     """
-    Get a client action with the most recent and popular videos.
+    Get a directive with the most recent and popular videos.
 
     Returns:
-        dict: the client action containing the video results
+        dict: the payload containing the video results
     """
     default_videos = get_default_videos()
-    videos_client_action = video_results_to_action(default_videos)
-    return videos_client_action
+    return build_video_payload(default_videos)
 
 
-def video_results_to_action(results):
-    """
-    Convert documents from knowledge base into a  client action.
+def build_video_payload(videos):
+    video_payload = []
 
-    Args:
-        results (list of dict): documents from knowledge base
-    Returns:
-        dict: the client action containing the video results
-    """
-    videos_results = []
-
-    for video in results:
+    for video in videos:
         release_year = get_release_year(video['release_date'])
         video_summary = {
-                            'title': video['title'],
-                            'release_year': release_year,
-                            'type': video['doc_type'],
-                            'popularity': video['popularity']
-                        }
-        videos_results.append(video_summary)
-
-    return {
-        'name': SHOW_COLLECTION,
-        'message': videos_results
-    }
+            'title': video['title'],
+            'release_year': release_year,
+            'type': video['doc_type'],
+            'popularity': video['popularity']
+        }
+        video_payload.append(video_summary)
+    return video_payload
 
 
 def get_default_videos():

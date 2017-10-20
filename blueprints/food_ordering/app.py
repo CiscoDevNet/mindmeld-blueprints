@@ -24,8 +24,8 @@ def welcome(context, responder):
     suggestions = ', '.join([r['name'] for r in restaurants[0:3]])
 
     # Build up the final natural language response and reply to the user.
-    responder.prompt(prefix + 'Some nearby popular restaurants you can order delivery from are '
-                     + suggestions)
+    responder.reply(prefix + 'Some nearby popular restaurants you can order delivery from are '
+                    + suggestions)
 
 
 @app.handle(intent='exit')
@@ -48,21 +48,21 @@ def provide_help(context, responder):
     # Respond with examples demonstrating how the user can order food from different restaurants.
     # For simplicity, we have a fixed set of demonstrative queries here, but they could also be
     # randomly sampled from a pool of example queries each time.
-    prompts = ["I can help you order food delivery from your local restaurants. For example, "
+    replies = ["I can help you order food delivery from your local restaurants. For example, "
                "you can say 'I would like a pad see ew from Modern Thai' or 'I feel like "
                "having a burrito.'"]
-    responder.prompt(prompts)
+    responder.reply(replies)
 
 
 @app.handle(intent='start_over')
 def start_over(context, responder):
     """
-    When the user wants to start over, clear the dialogue frame and prompt for the next request.
+    When the user wants to start over, clear the dialogue frame and reply for the next request.
     """
     # Clear the dialogue frame and respond with a variation of the welcome message.
     context['frame'] = {}
-    prompts = ["Ok, let's start over! What restaurant would you like to order from?"]
-    responder.prompt(prompts)
+    replies = ["Ok, let's start over! What restaurant would you like to order from?"]
+    responder.reply(replies)
 
 
 @app.handle(intent='place_order')
@@ -85,20 +85,20 @@ def place_order(context, responder):
             # order. In a real application, this would be done by calling an external API to
             # process the transaction. Here, we just reply with a canned response confirming that
             # the order has been placed.
-            prompts = ['Great, your order from {restaurant_name} will be delivered in 30-45 '
+            replies = ['Great, your order from {restaurant_name} will be delivered in 30-45 '
                        'minutes.']
 
             # Clear the dialogue frame to start afresh for the next user request.
             context['frame'] = {}
         else:
             # If no dishes have been requested, prompt the user to order something from the menu.
-            prompts = ["I don't have any dishes in the basket yet. What would you like to order "
+            replies = ["I don't have any dishes in the basket yet. What would you like to order "
                        "from {restaurant_name}?"]
     else:
         # If no restaurant has been selected, prompt the user to make a selection.
-        prompts = ["I'm sorry, you need to select a restaurant before placing an order."]
+        replies = ["I'm sorry, you need to select a restaurant before placing an order."]
 
-    responder.prompt(prompts)
+    responder.reply(replies)
 
 
 @app.handle(intent='build_order')
@@ -247,17 +247,17 @@ def build_order(context, responder):
         else:
             responder.slots['dish_names'] = ' '.join(dish_names)
         responder.slots['price'] = sum(dish_prices)
-        responder.prompt('Sure, I have {dish_names} from {restaurant_name} for a total price of '
-                         '${price:.2f}. Would you like to place the order?')
+        responder.reply('Sure, I have {dish_names} from {restaurant_name} for a total price of '
+                        '${price:.2f}. Would you like to place the order?')
     else:
         # If the user hasn't selected any dishes yet, prompt the user to make a selection based
         # on the information that is available so far.
         if selected_restaurant:
             # If the user has chosen a restaurant, prompt to order dishes from that restaurant.
-            responder.prompt('Great, what would you like to order from {restaurant_name}?')
+            responder.reply('Great, what would you like to order from {restaurant_name}?')
         else:
             # If the user has not chosen a restaurant, prompt to do so.
-            responder.prompt('What restaurant would you like to order from?')
+            responder.reply('What restaurant would you like to order from?')
 
 
 @app.handle(intent='unsupported')
@@ -267,9 +267,9 @@ def default(context, responder):
     When the user asks an unrelated question, convey the lack of understanding for the requested
     information and prompt to return to food ordering.
     """
-    prompts = ["Sorry, not sure what you meant there. I can help you order food from your local "
+    replies = ["Sorry, not sure what you meant there. I can help you order food from your local "
                "restaurants. Try something like 'I'll have a veggie pizza from firetrail'"]
-    responder.prompt(prompts)
+    responder.reply(replies)
 
 
 # Helper methods for the build_order dialogue state
