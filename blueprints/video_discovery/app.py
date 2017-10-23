@@ -302,7 +302,7 @@ def build_browse_response(context, slots, results):
         results (list of dict): documents from QuestionAnswerer
     Returns:
        reply (string): the reply to be shown to the user
-       video_payload (dict): the payload containing the video results
+       video_payload (list): the payload containing the video results
     """
     reply = ''
     video_payload = []
