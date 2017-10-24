@@ -379,6 +379,7 @@ def start_over(context, responder):
                'Let\'s start over, what would you like to watch?',
                'Okay, starting over, tell me what you want to watch.']
     responder.reply(replies)
+    responder.listen()
 
     # Get default videos
     responder.list(get_default_video_payload())

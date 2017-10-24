@@ -63,6 +63,7 @@ def start_over(context, responder):
     context['frame'] = {}
     replies = ["Ok, let's start over! What restaurant would you like to order from?"]
     responder.reply(replies)
+    responder.listen()
 
 
 @app.handle(intent='place_order')
@@ -146,6 +147,7 @@ def build_order(context, responder):
             responder.slots['restaurant_name'] = restaurant_entity['text']
             responder.reply("Sorry, I could not find a restaurant called {restaurant_name}. Is "
                             "there another restaurant you would like to order from?")
+            responder.listen()
             return
 
     # Store the selected restaurant's name for later use in natural language responses.
@@ -187,6 +189,7 @@ def build_order(context, responder):
                     responder.reply("Sorry, I couldn't find anything called {dish_name} at "
                                     "{restaurant_name}. Would you like to order something "
                                     "else?")
+                    responder.listen()
                     return
 
             # Update the basket information in the dialogue frame after all the dish entities
@@ -217,11 +220,13 @@ def build_order(context, responder):
                 responder.slots['dish_name'] = dish_entity['text']
                 responder.reply('I found {dish_name} at {suggestions}. Where would you like '
                                 'to order from?')
+                responder.listen()
             else:
                 # If none of the user-requested dishes could be resolved to entries in the
                 # knowledge base, notify the user and prompt to choose a restaurant by name.
                 responder.reply("Sorry, I didn't find what you were looking for at a nearby "
                                 "restaurant. What restaurant would you like to order from?")
+                responder.listen()
 
             return
 
@@ -249,15 +254,18 @@ def build_order(context, responder):
         responder.slots['price'] = sum(dish_prices)
         responder.reply('Sure, I have {dish_names} from {restaurant_name} for a total price of '
                         '${price:.2f}. Would you like to place the order?')
+        responder.listen()
     else:
         # If the user hasn't selected any dishes yet, prompt the user to make a selection based
         # on the information that is available so far.
         if selected_restaurant:
             # If the user has chosen a restaurant, prompt to order dishes from that restaurant.
             responder.reply('Great, what would you like to order from {restaurant_name}?')
+            responder.listen()
         else:
             # If the user has not chosen a restaurant, prompt to do so.
             responder.reply('What restaurant would you like to order from?')
+            responder.listen()
 
 
 @app.handle(intent='unsupported')

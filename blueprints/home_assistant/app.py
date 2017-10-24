@@ -273,7 +273,7 @@ def set_thermostat(context, responder):
 
     try:
         thermostat_temperature_dict = context['frame']['thermostat_temperatures']
-    except:
+    except KeyError:
         thermostat_temperature_dict = {}
         context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
@@ -479,6 +479,7 @@ def _handle_door(context, responder, desired_state, desired_action):
         context['frame']['desired_action'] = desired_action
         reply = "Of course, which door?"
         responder.reply(reply)
+        responder.listen()
 
 
 def _handle_appliance(context, responder, desired_state, desired_action, target_dialogue_state):
@@ -498,6 +499,7 @@ def _handle_appliance(context, responder, desired_state, desired_action, target_
 
         reply = "Of course, which {appliance}?".format(appliance=selected_appliance)
         responder.reply(reply)
+        responder.listen()
 
 
 def _handle_lights(context, responder, desired_state, desired_action):
@@ -514,12 +516,13 @@ def _handle_lights(context, responder, desired_state, desired_action):
         context['frame']['desired_color'] = color
         reply = "Of course, which lights?"
         responder.reply(reply)
+        responder.listen()
 
 
 def _modify_thermostat(selected_location, selected_temperature_change, context, direction):
     try:
         thermostat_temperature_dict = context['frame']['thermostat_temperatures']
-    except:
+    except KeyError:
         thermostat_temperature_dict = {selected_location: DEFAULT_THERMOSTAT_TEMPERATURE}
         context['frame']['thermostat_temperatures'] = thermostat_temperature_dict
 
@@ -598,8 +601,8 @@ def _handle_check_door_reply(selected_location, context):
         context['frame']['doors'][selected_location]['open_state'] = 'closed'
         open_state = 'closed'
 
-    reply = "The {location} door is {l} and {o}.".format(location=selected_location,
-                                                         l=lock_state, o=open_state)
+    reply = "The {location} door is {lock_state} and {open_state}.".format(
+        location=selected_location, lock_state=lock_state, open_state=open_state)
     return reply
 
 
