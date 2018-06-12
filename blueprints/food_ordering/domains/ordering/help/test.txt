@@ -11,7 +11,6 @@ Can I talk to someone?
 can you assist me or get me someone who can
 can you assist me?
 Can you connect me to customer support?
-can you contact them?
 Can you fix this problem for me?
 Can you get a human customer support to help me out?
 can you get customer support now?
@@ -23,23 +22,18 @@ can you help me with this?
 Can you please help me out?
 Can you put me with a real person?
 Can you reach them for me?
-Come here help me.
 Contact help desk
 Contact human customer support for me please.
 Contact support
 Could you give me a hand?
 Could you help me right now?
-Could you please call my friend John please
 customer service now
 Customer service please
 customer support
 Do you have any idea how to help me
 Excuse me, can you help me?
-Explain please.
 Extra help please
 find me some competent help please
-fix this error
-Fix this.
 get customer support
 get me a customer service rep please
 Get me a human
@@ -58,7 +52,7 @@ Houston, we have a problem
 How can Contact customer support?
 How can I get help now?
 How do I find customer support?
-How do I get hlepo
+How do I get help
 How do I solve this problem?
 how to contact higher officials?
 How to contact with customer service?
@@ -96,8 +90,6 @@ I need to talk to customer support
 I need your help
 I really could use some human assistance
 I want help
-i want to meet any others
-i will support
 I would like to talk to customer service
 I'd like a human to assist me.
 I'd like to get in touch with customer service
@@ -108,8 +100,6 @@ Information please
 Is it possible to put me with a human?
 It's not working, call help desk
 Let me talk to someone about this
-manager
-may i help you
 May I speak to customer service?
 Need help with a question.
 Please assist me.
@@ -129,14 +119,11 @@ Speak to a representative.
 Speak to an actual human.
 Speak to customer service.
 Talk to a live person.
-this is an emergency I need a human
 Transfer me to customer service please
 transfer me to customer support
 ugh i am so confused right now, please help me figure this out
 uhh i definitely am in dire need of help
-What do I do to fix this problem?
 What do I have to do to get some help
-What is causing this problem?
 What is the customer service phone number?
 What is the phone number for customer service?
 where do I find customer support?

@@ -16,7 +16,6 @@ End interaction
 End of conversation
 end this conversation now
 End.
-GET back you later
 Going away now
 Good bye now
 Good job, bye now!
@@ -32,11 +31,8 @@ i am done for now
 I am done now
 I am done talking
 I am done with the conversation. Thanks!
-I don't anything else
-I don't need anything else
 I don't need anything else.
 I got the required information
-I have a call, chat you later
 I have to go
 I talk to you later
 I'll ask you something else some other time.
@@ -51,7 +47,6 @@ im out
 It was nice speaking with you.
 it's been nice to talk with you
 Its time to conclude
-Kapla!
 Later
 Let's end it
 Let's finish
@@ -92,7 +87,6 @@ Thank you
 Thank you for your help! Bye!
 Thank you, goodbye!
 Thanks for the assistance!
-Thanks for your help
 Thanks for your help.
 Thanks, bye!
 Thanks, I'm done!
@@ -116,8 +110,5 @@ This is the end
 time over. Got to go
 Time to wrap up
 Time up . Bye
-Toots!
 until later
 until tomorrow
-We have completed
-Wind up

@@ -3,7 +3,7 @@ all is well
 Aloha
 Aloha to you!
 Are you there?
-Assistant I need yo.
+Assistant I need you.
 Ayyy, what's going on?
 Buenos Dias!
 Buenos noches!
@@ -61,7 +61,6 @@ Hi are we ready to start?
 Hi dear. How are things?
 Hi let's chat
 Hi listen to me
-Hi tech
 Hi there!
 Hi, How are you?
 hi, how's things?
@@ -72,7 +71,6 @@ Hi. What's up?
 hiya, what's new
 Hiya!
 Hola
-Hola my techie
 Hola, amigo!
 Hola!
 How are things?
@@ -82,8 +80,6 @@ How are you!
 How are you?
 How do you do?
 How is it going?!
-how was the weekend?
-How was your weekend?
 How you doing?
 How's everything ?
 How's everything going?
@@ -92,11 +88,8 @@ How's life treating you?
 Howdy do?
 Howdy there!
 Howdy!
-I hear you!
 I hope you're well!
-I see you!
 I'm here!
-im there
 Let's begin
 Let's begin.
 Let's have a chat.
@@ -122,14 +115,13 @@ wassup
 Well hello there!
 What is happening?!
 What's going on?
-WHAT'S UP
+What's up
 What's up buddy?
 what's up fellow
 What's up!
 what's up?
 Whats happening
 Whats up
-wonderful day
 Yo
 Yo, how's it going!
 Yo, what's shaking?
