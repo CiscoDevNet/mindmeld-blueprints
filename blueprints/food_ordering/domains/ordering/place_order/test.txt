@@ -1,149 +1,94 @@
-affirmative, let's continue
-all correct please place the order
-All done.
-all good from what i see
-all is correct
-approved
-authorized to pay
-Buy dinner
-Buy everything
-buy it now
-Buy now.
-Can you place the order?
-carry out order now
-Check out for the order please.
-Checkout please.
-complete my order
-Complete my order.
-Confirm.
-consented
-continue
-Continue.
-Do it!
-everything is good to go now
-everything looks good
-Everything looks good.
-everything looks to be in order
-Exactly what i wanted
-Exactly, please do
-Exactly, proceed with the order
-excellent
-Finish my order
-Finish the order
-Get it.
-Go ahead and order that
-Go ahead to pay please.
-Go for it.
-Go on
-Green light
-I agree
-I agree with the order
-I approve
-I authorise you to order that
-I confirm
-I give permission to buy it
-I want it.
-I'd be delighted if you could place my order
-I'm ready to purchase.
-i'm ready to submit the order please
-I'm ready to place the order.
-it all checks out
-It all checks out.
-it looks fine to me
-Let me buy it.
-Let's do it.
-let's move ahead with this
-Let's proceed to checkout.
-Let's proceed.
-Looks great
-Make the purchase
-Ok, place the order
-Okay it's perfect
-Okay, now proceed
-Okay, order that for me
-Order now.
-pay for everything
-Pay for order.
-Pay for the order now.
-Perfect that's it
-Perfect, now do it
-Perfect, order please.
-Perfect!
-Place order please
-Place the order
-place the order now
-Place the order now.
-place the order that all looks great
-Please buy
-Please check out
-Please confirm order.
-Please do
-Please order now.
-Please pay for the order.
-Please place my order
-Please place my order.
-please proceed
-Please proceed to place the order.
-Please proceed with the order
-please put in the order
-proceed with payment
-Proceed with the order
-Proceed.
-purchase it
-Purchase the cart
-ready to place my order
-ready to submit and pay
-Ready.
-Right, order it
-sounds good that's what i want
-sounds yummy please submit
-submit order for my meal
-submit the order please
-Sure purchase it
-sure thing
-that is acceptable
-that is all correct place the order
-that is right
-That's correct
-That's good
-That's it and I'll buy it.
-That's it.
-That's perfect, thank you
-That's right
-That's right.
-That's what i want, please proceed
-That's what i want, proceed
-The order is ready, go ahead to check out.
-we are good to go
-we're all set
-ya, let's rock and roll
-yeah continue please
-yeah let's go ahead with it now
-Yeah that sounds good
-Yeah that sounds perfect
-Yeah, that'll do it
-yeah this is exactly what i wanted
-yep, everything is as it should be
-Yep, looks great.
-yep, you got it
-Yes I permit you to buy it
-Yes ma'am that looks correct
-Yes please do.
-Yes please.
-yes the order is correct
-Yes, buy
-Yes, finish
-Yes, order that
-Yes, place the order
-Yes, thats it
-You can now place my order.
-you can pay now
-You can place the order now
-You got it right, proceed
-You got it!
-You got it.
-Yup all good
-Yup Correct
-Yup, that's all good
-yup, we're all good
-Yup. It's right.
+yes, that is perfect
+i do
+yeh got it
+sure
+sounds good to me
+yes, that's exactly what i want
+you got it, proceed.
+that's a yes.
+yes sir!
+yeh right
+yup it is
+place my order
+yes, that's right
+yes. that is what i want
+that's affirmative.
+order cart
+let's do it
+ready to check out
+yeh got it
+you bet!
+ready to order
+yeh got it
+yes sir!
+that is good.
+yes, all correct.
+submit my order
+let's do it
+pay and check out
+order drinks
+yes, that is correct
+pay
+that's perfect
+finish order
+that'll do it.
+complete order
+yup, that's correct.
+order meal
+send order
+thank you, yes
+you got it, proceed.
+order basket
+yes, that is perfect
+complete order
+yeh please
+yeah that is right
+ya, that's fine.
+pay for drinks
+exactly, that's what i'd like.
+ready to place order
+place order
+that will do
+great that's exactly what i wanted, thanks.
+yes, thank you, that's right
+that's exactly right
+correct
+yes, that's exactly right.
+that's affirmative.
+i do
+that'll do
+yes, all correct.
+yeah proceed
+exactly, that's what i'd like.
+that's it
+yes
+yup you got it
+ready to pay
+checkout
+place the order
+yup you got it
+that's exactly what i want.
+buy order
+you bet!
+yup, that's correct.
+send the order
+go for it
+yes it is.
+pay
+yup correct
+ya, that's fine.
+okay
+yep
+yes please
+thank you, you've got it, exactly.
+send order
+send order
+yup correct
+perfect!
+yes, that sounds great
+checkout and pay
+order and pay
+ready to checkout
+that'll do
+yup it is
+pay
