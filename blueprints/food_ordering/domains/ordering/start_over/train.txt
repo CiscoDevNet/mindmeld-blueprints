@@ -1,490 +1,470 @@
-that's not right.
-i meant a different meal
-clear my basket
 actually let's not
-empty cart
-let's start this thing over
-delete orders
-restart
-actually not that
-no, that is wrong.
-please cancel the order.
-no, cancel that, please.
-redo
-clear order
-thanks but no
-that's not right at all.
-nope that's not correct.
-i'm good thank you
-nah, that'll be fine
-that's not what i ordered.
-start over
-incorrect, lets try that order again.
-that's wrong.
-nah
-restart this order
-no thank you
-reset it
-no, that order is wrong.
-clear all
-scratch that actually
-i don't
-nope, I'm good
-begin again
-not at all. reset
-empty the basket
-hard pass
-i meant a different drink
-actually scratch that
-no
-no i don't
-empty my cart
-no, incorrect!
-undo order
-not even close.
-nix
-clear my order
-nah forget it
-scratch that
-wait, that's not right
-no but thanks
-no but thanks
-new cart
-cancel this order
-nope that's not correct.
-Something else
-nah forget it
-please cancel the order.
-nah forget it
-delete order
-let's try again
-cancel this order
-i think i would like to start over.
-nope that's not correct.
-let's redo
-i'm sorry, please cancel that order.
-cancel order
-new basket
-no, that is incorrect.
-let's start this thing over
-nvm that
-i meant a different sandwich
-begin again
-try a redo
-undo order
-not correct.
-reset the order
-nope
-start again.
-scratch that actually
-oh dear let's start over
-the order is incorrect.
-i'm good thanks
-thank you but no
-i did not order that.
-nah, I'm good
-cancel my order
-incorrect, lets try that order again.
-never mind
-no actually
-no not correct.
-empty the basket
-begin again
-empty the cart
-i think i would like to start over.
-not correct.
-decline
-display something different
-restart
-wrong, let's try that order again
-no, you heard the wrong order.
-clear the cart
-clear
-no, wrong!
-that is wrong
-revert order
-that's okay i'll pass
-clear the basket
-go back to order
-that's not my order.
-i think you misheard me.
-redo it
-i want to cancel that.
-scratch that
-i'm good
-no, you heard the wrong order.
-go back to order again
-nah actually
-clear the order
-clear basket
-that's not correct.
-delete order
-i'd like to cancel
-hard pass
-you misheard me
-restart order
-start again.
-that's not right.
-clear my cart
-no, that is wrong.
-startover
-that's wrong.
-no, cancel that, please.
-i think i would like to start over.
-i did not order that.
-no, I'm good
-this is not right, restart the order.
-cancel entire order
-i'd like to cancel
-nope reset
-that is completely wrong.
-reset
-restart the order
-Display something else
-you misheard what i said.
-sorry nope
-no i do not
-not today
-clear my basket
-stop order
-start over
-no please
-stop order
-i meant something different
-nah that's fine
-please no
-reset and start again
-not at all. reset
 actually nah
-I want something else
-cancel my order
-reset the system
-restart order
-let's reset
-that's wrong.
-oh dear let's start over
-empty cart
-clear order
-the order is incorrect.
-wrong, let's try that order again
-redo the order
-revert order
-new search
-no, cancel that, please.
-cancel entire order
-start over
-i would not like that
-no, you heard the wrong order.
-delete my order
-please start over.
-new order
-Try again
-clear basket
-redo
-clear the cart
-stop order
-cancel order
-go back to order again
-nah ignore
-clear all
-clear
-no
-delete order
-let's redo
-i meant a different drink
-try again
-scratch that. reset
-clear the order
-empty my basket
-please start over.
-incorrect, lets try that order again.
-scratch that. reset
-empty the cart
-not correct.
-reset it
-redo it
-cancel and start over
-reset
-empty the cart
-that's not what i said.
-nope reset
-i meant something different
-delete orders
-no i don't want that
-that's not what i said.
-restart
-please no
-not even close.
-nevermind
+actually nah
+actually no
+actually no
+actually not that
+actually scratch that
+actually scratch that
+actually scratch that
 ah start over
-reset
-oh dear let's start over
-reset the order
-i meant something different
-redo the order
-that is incorrect.
-actually nah
-begin again
-no, wrong!
-thank you but no
-clear the basket
-delete the order
-cancel order
-i'll pass
-Show me something different
-no thank you
-clear my cart
-i want something different
-clear cart
-clear the cart
-nope
-decline
-let's start over
-reset and start again
-no, that is incorrect.
-that is incorrect.
-new cart
-please cancel the order.
-this is not right, restart the order.
-actually not that
-restart
-this is not right, restart the order.
-i want to cancel that.
-starting over
-omg reset
-back to start
-i'm good
-i'll pass
-how about no
-restart this order
-omg reset
-no, incorrect!
-that is wrong
-the order is wrong.
-cancel and start over
-i do not
-empty basket
-please cancel that order.
-revert order
-restart order
-not at all. reset
-restart this order
-start new order
-scratch that
-clear all
-redo it
-new order
-nvm that
-cancel
-redo the order
-forget it
-forget about it
-that's not right.
-i'm sorry, please cancel that order.
-start new
-nope, I'm good
-the order is incorrect.
-empty my basket
-reset
-nah
-let's reset
-you misheard me
-not right
-start again.
-go back to order
-Give me something else
-i'll pass
-delete the order
-not right
-empty my cart
-I want to look for something else
-back to the beginning
-please cancel that order.
-please cancel that.
-i'm sorry, please cancel that order.
-clear my basket
-empty the basket
-start over
-nah, I'm good
-go back to the beginning
-actually scratch that
-lets try that order again.
 back to order
-that's not right at all.
-never mind
-nevermind
-the order is wrong.
-no, incorrect!
-start the order over
-please start over.
-reset the system
-nvm
-no, I'm good
-please cancel
-i'm good thank you
-scratch that. reset
-sorry nope
-empty my basket
-clear order
-i would not like that
-empty basket
-stop
-Let's start again
-actually scratch that
-sorry no
-wait, that's not right
-no
-no, that order is wrong.
-i did not order that.
-no not correct.
-wait, that's not right
-nah, that'll be fine
-can we start over
+back to order
 back to start
-that's not correct.
-that is wrong
-stop
-that's not my order.
-reset
-nah ignore
-go back to the beginning
-start over
+back to start
+back to the beginning
+back to the beginning
+back to the beginning
+begin again
+begin again
+begin again
+Can I start my order over?
+Can we start over
+Can we try again
+Can you start my order over again?
+cancel
+cancel
+cancel all the order
+Cancel and restart
+cancel and start over
+cancel and start over
+cancel and start over
+cancel entire order
+cancel entire order
+cancel everything
+cancel my order
+cancel my order
+Cancel my order please
+Cancel my order.
+cancel order
+cancel order
+Cancel Order
+Cancel that
+Cancel that last order.
+cancel that order and start again
+cancel the last item
+cancel the order
+cancel the order
+cancel the order
+cancel this order
+cancel this order
+cancel to that
+canceled and take new order
+Change order
+Change that order please.
+change the order
 clear
-thanks but no
-try a redo
+clear
+clear
+clear
+clear
+clear all
+clear all
+clear basket
+clear basket
+clear cart
+clear cart
+clear cart
+clear my basket
+clear my basket
+clear my basket
 clear my cart
-please cancel that.
+clear my cart
+clear my cart
+clear my order
+clear order
+clear order
+clear the basket
+clear the basket
+clear the cart
+clear the cart
+clear the cart
+clear the order
+clear the order
+delete everything I said
+delete my order
+delete my order
+delete order
+delete order
+delete order
+Delete order
 delete orders
-you misheard what i said.
+delete orders
+delete the last item
+delete the order
+delete the order
+delete the order
+delete the order
+Deleted my entire order.
+display something different
+Display something else
+Dissolve order
+do you have something different
+empty basket
+empty basket
+empty basket
 empty cart
-no
-try a redo
-start the order over
-you misheard what i said.
-redo
-that is incorrect.
-new basket
+empty cart
+empty cart
+empty my basket
+empty my basket
+empty my basket
+empty my cart
+Empty my cart.
+empty the basket
+empty the basket
+empty the basket
+empty the cart
+empty the cart
+empty the cart
+empty the cart
+empty the order
+erase everything I said and start my order again
+forget about it
+forget it
+Give me something else
+go back to order
+go back to order
+go back to order
+go back to order again
+go back to order again
+go back to the beginning
+go back to the beginning
+hard pass
+how about no
+how about no
+i can't want anymore
+I changed my mind
+I changed my mind about that order.
+i did not order that.
+i didn't say that
+i don't
+i don't
+i don't want any
+I don't want it anymore
+I don't want that; start the order over
+I made a mistake.
+i meant a different drink
+i meant a different meal
+i meant a different sandwich
+i meant something different
+I need to change my order.
+I need to change that.
+I need to restart my order.
+i think i would like to start over.
+i think you misheard me.
+i think you misheard me.
+i want something different
+I want something else
 i want to cancel that.
+I want to change my order. Go back to the start.
+I want to look for something else
+i want to start again from the beginning
+I want to start over
+i would not like that
+i'd like to cancel
+i'd like to cancel
+I'd like to change my order to something different.
+i'll pass
+i'll pass
+i'll pass
+i'll pass
+i'm good
+i'm good
+i'm good thank you
+i'm good thank you
+i'm sorry, please cancel that order.
+i'm sorry, please cancel that order.
+incorrect
+Incorrect order
+incorrect, lets try that order again.
+it's wrong
+let's go back to the beginning
+Let's re-start this order.
 let's redo
 let's reset
-stop
-please cancel
-go back to order again
-never mind
-restart the order
-go back to order
-that's not right at all.
-thanks but nope
+let's reset
+let's reset
+Let's start again
+Let's start again.
+let's start over
+Let's start over
 let's start this thing over
-scratch that actually
-clear my order
-starting over
-cancel entire order
-lets try that order again.
-please cancel that.
-reset and start again
-nah that's fine
-back to order
-clear
-that's not correct.
-clear cart
-please cancel that order.
-nah actually
-that's not what i ordered.
-clear the order
-cancel
-Start over
-no please
-please cancel
-reset the order
-can you start over
-not right
-new basket
-i think you misheard me.
-not even close.
-start the order over
-that's not my order.
-that's not what i ordered.
-new order
-nvm
-cancel the order
-actually no
-how about no
-you misheard me
-reset the system
-nah ignore
-no thanks
-no not correct.
-that's not what i said.
+let's try again
+Let's try again
 Let's try something else
-nvm
-delete my order
-cancel the order
-no, that is incorrect.
-go back to the beginning
-startover
-Show something different
-that is completely wrong.
-cancel
-that's okay i'll pass
-i think you misheard me.
-no, wrong!
-cancel this order
-wrong, let's try that order again
-i meant a different drink
-reset it
-restart
-start new order
-empty basket
-that is completely wrong.
-start new
-clear
-omg reset
-not today
-cancel my order
-cancel and start over
-i do not
-empty my cart
-clear cart
-no, that is wrong.
-clear the basket
-back to the beginning
 lets try that order again.
-undo order
-start over
-back to start
-restart the order
+lets try that order again.
+lets try that order again.
+My order isn't right.
+my order's wrong, delete and restart order
+nah
+nah
+nah actually
+nah actually
+nah forget it
+nah forget it
+nah ignore
+nah ignore
+nah ignore
+nah that's fine
+nah that's fine
+nah, I'm good
+nah, that'll be fine
+never mind
+never mind
+never mind
+Never mind; restart
 nevermind
+nevermind, cancel my order
+Nevermind.
+new basket
+new basket
+new basket
 new cart
-nvm that
-clear
-cancel the order
-do you have something different
-i'd like to cancel
-actually no
-back to the beginning
-start a new search
-i'm good thanks
-start new order
-no i don't
-delete my order
-no, that order is wrong.
-clear basket
-nope reset
-starting over
-reset
-i'll pass
-no i don't want that
-Clear
-i don't
-start new
-thanks but nope
-restart
-no i do not
-sorry no
-the order is wrong.
-no thanks
-clear my order
+new cart
+new order
+new search
+no
+no
+no
 no actually
-delete the order
-actually let's not
+no actually
+no but thanks
+no but thanks
+no i do not
+no i don't
+no i don't
+no i don't want that
+no i don't want that
+No it is not right
+no not correct.
+no not correct.
+no please
+no please
+no thank you
+no thank you
+no thanks
+no thanks
+no, cancel that, please.
+no, cancel that, please.
+no, I'm good
+no, incorrect!
+no, that is incorrect.
+no, that is incorrect.
+no, that is wrong.
+no, that is wrong.
+no, that is wrong.
+no, that order is wrong.
+no, that order is wrong.
+no, that order is wrong.
+no, wrong!
+no, wrong!
+no, you heard the wrong order.
+no, you heard the wrong order.
+no, you heard the wrong order.
+nope
+nope
+nope reset
+nope reset
+nope reset
+nope that's not correct.
+nope, I'm good
+nope, I'm good
+not at all. reset
+not correct
+not correct.
+not correct.
+not correct.
+not even close.
+not even close.
+not even close.
+not right
+not right
+not today
+not today
+nvm
+nvm
+nvm that
+nvm that
+oh dear let's start over
+omg reset
+omg reset
+omg reset
+order cancel
+please cancel
+please cancel
+please cancel that order.
+please cancel that order.
+please cancel that order.
+please cancel that.
+please cancel that.
+please cancel the order.
+please cancel the order.
+please no
+please reject that
+please resend
+please scratch that
+Please start over
+please start over.
+please start over.
+please start over.
+re-order
+redo
+redo
+redo
+redo it
+redo it
+redo it
+Redo order
+redo the order
+redo the order
+reject that
+Remove order
+reset
+reset
+reset
+reset
+reset and start again
+reset and start again
+reset and start again
+reset it
+reset it
+reset it
+reset the order
+reset the system
+reset the system
+reset the system
+restart
+restart
+restart
+restart
+Restart my order.
+restart order
+restart order
+Restart order
+restart the cart
+restart the order
+restart the order
+restart the order
+restart this order
+restart this order
+restart this order
+revert order
+revert order
+scratch that
+scratch that
+scratch that
+scratch that
+scratch that actually
+scratch that actually
+scratch that. reset
+scratch that. reset
+scratch that. reset
+Show me something different
+Show something different
+Something else
+Sorry, start again
+start a new search
+start again
+start again.
+start again.
+start again.
+start new
+start new
+start new
+start new order
+start new order
+Start order over
+Start over
+start over
+start over
+start over
+start over
+start over
+start over
+start over
+start the order again
+start the order over
+starting over
+starting over
+startover
+startover
+stop
+stop
+stop order
+stop order
+Strike this order
+thank you but no
+thank you but no
+thanks but no
+thanks but nope
+thanks but nope
+thanks, but i'm okay
+that is completely wrong.
+that is completely wrong.
+that is completely wrong.
+that is incorrect.
+that is incorrect.
+that is incorrect.
+that is wrong
+That is wrong
+That isn't what I wanted
+that's incorrect
+that's incorrect, start over please
+That's not correct, let's redo.
+that's not correct.
+that's not correct.
+that's not correct.
+that's not my order.
+that's not my order.
+that's not my order.
+That's not right
+that's not right.
+that's not right.
+that's not right.
+that's not what i ordered.
+that's not what i ordered.
+that's not what i ordered.
+that's not what i said.
+that's not what i said.
+that's not what i said.
+that's okay i'll pass
+that's okay i'll pass
+that's wrong.
+that's wrong.
+the order is incorrect.
+the order is incorrect.
+the order is wrong.
+the order is wrong.
+the order is wrong.
+this is incorrect
+this is not right, restart the order.
+this is not right, restart the order.
+this is not right, restart the order.
+this is wrong
+This is wrong; start over
+try a redo
+try a redo
+Try again
+try again
+try again
+undo order
+undo order
+wait it's wrong
+wait that's incomplete
+wait that's incorrect
+wait that's not finished
+Wait, order's wrong, go back.
+wait, that's not right
+wait, that's not right
+Wrong, let's try again.
+wrong, let's try that order again
+wrong, let's try that order again
+wrong, let's try that order again
+you misheard me
+you misheard me
+you misheard me
+you misheard what i said.
+you misheard what i said.
+you misheard what i said.
