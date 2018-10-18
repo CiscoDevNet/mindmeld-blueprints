@@ -232,23 +232,23 @@ add some {house pickles|option} too
 i would like to order from {Noodle Bar and Grill|restaurant}
 {brown rice|option} and {tuna|option} bowl with {jalapenos|option}
 I would like to have {burger|dish} and {fries|dish}.
-I'll take a {14|sys_number|item_size} ounce water
-I'll take a {17|sys_number|item_size} ounce steak
-I'll take a {10|sys_number|item_size} ounce steak
-I'll take a {19|sys_number|item_size} ounce beer
-I want a {5|sys_number|item_size} ounce chicken
-place an order for a {4|sys_number|item_size} ounce chicken
-I want a {20|sys_number|item_size} ounce coffee
-I'll take a {4|sys_number|item_size} ounce soda
-I want a {11|sys_number|item_size} ounce steak
-I want a {4|sys_number|item_size} ounce salmon
-I'll take a {11|sys_number|item_size} ounce beer
-I want a {16|sys_number|item_size} ounce steak
-I want a {9|sys_number|item_size} ounce water
-I want a {1|sys_number|item_size} ounce soda
-I want a {13|sys_number|item_size} ounce water
-I want a {16|sys_number|item_size} ounce salmon
-place an order for a {11|sys_number|item_size} ounce soda
-place an order for a {19|sys_number|item_size} ounce beer
-place an order for a {5|sys_number|item_size} ounce steak
-place an order for a {3|sys_number|item_size} ounce salmon
+I'll take a {18|sys_number|item_size} ounce soda
+I'll take a {20|sys_number|item_size} ounce steak
+I'll take a {16|sys_number|item_size} ounce steak
+I'll take a {21|sys_number|item_size} ounce beer
+I want a {14|sys_number|item_size} ounce salmon
+place an order for a {13|sys_number|item_size} ounce salmon
+I want a {21|sys_number|item_size} ounce beer
+I'll take a {13|sys_number|item_size} ounce soda
+I want a {17|sys_number|item_size} ounce steak
+I want a {13|sys_number|item_size} ounce salmon
+I'll take a {17|sys_number|item_size} ounce beer
+I want a {19|sys_number|item_size} ounce steak
+I want a {16|sys_number|item_size} ounce soda
+I want a {12|sys_number|item_size} ounce soda
+I want a {18|sys_number|item_size} ounce soda
+I want a {19|sys_number|item_size} ounce salmon
+place an order for a {17|sys_number|item_size} ounce soda
+place an order for a {21|sys_number|item_size} ounce beer
+place an order for a {14|sys_number|item_size} ounce steak
+place an order for a {13|sys_number|item_size} ounce salmon
