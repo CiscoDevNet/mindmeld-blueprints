@@ -1,8 +1,7 @@
 import pytest
-from mmworkbench.test import ConversationTest
 
 
-class TestSmartHome(ConversationTest):
+class TestSmartHome:
 
     # close_door intent
     close_door_data = [
@@ -14,10 +13,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", close_door_data)
-    def test_close_door(self, query, location):
-        texts = self.say(query)
+    def test_close_door(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'close_door')
+        convo.assert_intent('close_door')
 
     # open_door intent
     open_door_data = [
@@ -29,10 +28,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", open_door_data)
-    def test_open_door(self, query, location):
-        texts = self.say(query)
+    def test_open_door(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'open_door')
+        convo.assert_intent('open_door')
 
     # lock_door intent
     lock_door_data = [
@@ -44,10 +43,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", lock_door_data)
-    def test_lock_door(self, query, location):
-        texts = self.say(query)
+    def test_lock_door(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'lock_door')
+        convo.assert_intent('lock_door')
 
     # unlock_door intent
     unlock_door_data = [
@@ -59,10 +58,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", unlock_door_data)
-    def test_unlock_door(self, query, location):
-        texts = self.say(query)
+    def test_unlock_door(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'unlock_door')
+        convo.assert_intent('unlock_door')
 
     # check_door intent
     check_door_data = [
@@ -73,10 +72,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", check_door_data)
-    def test_check_door_thermostat(self, query, location):
-        texts = self.say(query)
+    def test_check_door_thermostat(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'check_door')
+        convo.assert_intent('check_door')
 
     # check_thermostat intent
     check_thermostat_data = [
@@ -87,10 +86,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", check_thermostat_data)
-    def test_check_thermostat(self, query, location):
-        texts = self.say(query)
+    def test_check_thermostat(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'check_thermostat')
+        convo.assert_intent('check_thermostat')
 
     # set_thermostat intent
     set_thermostat_data = [
@@ -101,11 +100,11 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location, temperature", set_thermostat_data)
-    def test_set_thermostat(self, query, location, temperature):
-        texts = self.say(query)
+    def test_set_thermostat(self, convo, query, location, temperature):
+        texts = convo.say(query)
         assert location in texts[0].lower()
         assert temperature in texts[0].lower()
-        self.assert_intent(self.conv, 'set_thermostat')
+        convo.assert_intent('set_thermostat')
 
     # turn_down_thermostat intent
     turn_down_thermostat_data = [
@@ -116,10 +115,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", turn_down_thermostat_data)
-    def test_turn_down_thermostat(self, query, location):
-        texts = self.say(query)
+    def test_turn_down_thermostat(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'turn_down_thermostat')
+        convo.assert_intent('turn_down_thermostat')
 
     # turn_up_thermostat intent
     turn_up_thermostat_data = [
@@ -130,10 +129,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", turn_up_thermostat_data)
-    def test_turn_up_thermostat(self, query, location):
-        texts = self.say(query)
+    def test_turn_up_thermostat(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'turn_up_thermostat')
+        convo.assert_intent('turn_up_thermostat')
 
     # turn_on_thermostat intent
     turn_on_thermostat_data = [
@@ -144,10 +143,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", turn_on_thermostat_data)
-    def test_turn_on_thermostat(self, query, location):
-        texts = self.say(query)
+    def test_turn_on_thermostat(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'turn_on_thermostat')
+        convo.assert_intent('turn_on_thermostat')
 
     # turn_off_thermostat intent
     turn_off_thermostat_data = [
@@ -158,10 +157,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", turn_off_thermostat_data)
-    def test_turn_off_thermostat(self, query, location):
-        texts = self.say(query)
+    def test_turn_off_thermostat(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'turn_off_thermostat')
+        convo.assert_intent('turn_off_thermostat')
 
     # check_lights intent
     check_lights_data = [
@@ -172,10 +171,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", check_lights_data)
-    def test_check_lights(self, query, location):
-        texts = self.say(query)
+    def test_check_lights(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'check_lights')
+        convo.assert_intent('check_lights')
 
     #
     # turn_lights_on intent
@@ -187,10 +186,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", turn_lights_on_data)
-    def test_turn_on_lights(self, query, location):
-        texts = self.say(query)
+    def test_turn_on_lights(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'turn_lights_on')
+        convo.assert_intent('turn_lights_on')
 
     # turn_lights_off intent
     turn_lights_off_data = [
@@ -201,10 +200,10 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, location", turn_lights_off_data)
-    def test_turn_off_lights(self, query, location):
-        texts = self.say(query)
+    def test_turn_off_lights(self, convo, query, location):
+        texts = convo.say(query)
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'turn_lights_off')
+        convo.assert_intent('turn_lights_off')
 
     # turn_appliance_on intent
     turn_appliance_on_data = [
@@ -215,11 +214,11 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, appliance, location", turn_appliance_on_data)
-    def test_turn_appliance_on(self, query, appliance, location):
-        texts = self.say(query)
+    def test_turn_appliance_on(self, convo, query, appliance, location):
+        texts = convo.say(query)
         assert appliance in texts[0].lower()
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'turn_appliance_on')
+        convo.assert_intent('turn_appliance_on')
 
     # turn_appliance_off intent
     turn_appliance_off_data = [
@@ -230,11 +229,11 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query, appliance, location", turn_appliance_off_data)
-    def test_turn_appliance_off(self, query, appliance, location):
-        texts = self.say(query)
+    def test_turn_appliance_off(self, convo, query, appliance, location):
+        texts = convo.say(query)
         assert appliance in texts[0].lower()
         assert location in texts[0].lower()
-        self.assert_intent(self.conv, 'turn_appliance_off')
+        convo.assert_intent('turn_appliance_off')
 
     # specify_location_intent
     specify_location_data = [
@@ -243,7 +242,7 @@ class TestSmartHome(ConversationTest):
     ]
 
     @pytest.mark.parametrize("query1, query2, expected", specify_location_data)
-    def test_specify_location(self, query1, query2, expected):
-        self.say(query1)
-        texts = self.say(query2)
-        self.assert_text(texts, expected_text=expected)
+    def test_specify_location(self, convo, query1, query2, expected):
+        convo.say(query1)
+        texts = convo.say(query2)
+        assert texts[0] == expected
