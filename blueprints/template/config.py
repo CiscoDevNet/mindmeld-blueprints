@@ -6,12 +6,11 @@
 # APP_NAMESPACE = 'app-name'
 
 # Dictionaries for the various NLP classifier configurations
-"""
 
 # An example decision tree model for intent classification
-INTENT_MODEL_CONFIG = {
+INTENT_CLASSIFIER_CONFIG = {
     'model_type': 'text',
-    'model_settings: {
+    'model_settings': {
         'classifier_type': 'dtree'
     },
     'param_selection': {
@@ -22,14 +21,15 @@ INTENT_MODEL_CONFIG = {
         },
     },
     "features": {
-        "exact": {}
+        "exact": {},
     }
 }
 
+"""
 # Fill in the other model configurations if necessary
-# DOMAIN_MODEL_CONFIG = {}
-# ENTITY_MODEL_CONFIG = {}
-# ROLE_MODEL_CONFIG = {}
+# DOMAIN_CLASSIFIER_CONFIG = {}
+# ENTITY_RECOGNIZER_CONFIG = {}
+# ROLE_CLASSIFIER_CONFIG = {}
 """
 
 # A example configuration for the parser

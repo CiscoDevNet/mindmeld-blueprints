@@ -1,5 +1,6 @@
 """This module contains the Workbench food ordering blueprint application"""
 from mmworkbench import Application
+import food_ordering.custom_features
 
 app = Application(__name__)
 

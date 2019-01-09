@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """This module contains the Home Assistant Blueprint Application"""
 
-INTENT_MODEL_CONFIG = {
+INTENT_CLASSIFIER_CONFIG = {
     'model_type': 'text',
     'model_settings': {
         'classifier_type': 'logreg'
@@ -27,7 +27,7 @@ INTENT_MODEL_CONFIG = {
     }
 }
 
-DOMAIN_MODEL_CONFIG = {
+DOMAIN_CLASSIFIER_CONFIG = {
     'model_type': 'text',
     'model_settings': {
         'classifier_type': 'logreg'

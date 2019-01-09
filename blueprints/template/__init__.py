@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """This module contains a template Workbench application"""
 from mmworkbench import Application
+import template.custom_features
 
 app = Application(__name__)
 

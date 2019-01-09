@@ -4,7 +4,7 @@
 PARSER_CONFIG = {
 }
 
-ENTITY_MODEL_CONFIG = {
+ENTITY_RECOGNIZER_CONFIG = {
     'model_type': 'tagger',
     'model_settings': {
         'classifier_type': 'memm',
@@ -29,7 +29,7 @@ ENTITY_MODEL_CONFIG = {
     }
 }
 
-INTENT_MODEL_CONFIG = {
+INTENT_CLASSIFIER_CONFIG = {
     'model_type': 'text',
     'model_settings': {
         'classifier_type': 'logreg'
@@ -46,11 +46,11 @@ INTENT_MODEL_CONFIG = {
         "in-gaz": {},
         "exact": {"scaling": 10},
         "gaz-freq": {},
-        "freq": {"bins": 5}
+        "freq": {"bins": 5},
     }
 }
 
-DOMAIN_MODEL_CONFIG = {
+DOMAIN_CLASSIFIER_CONFIG = {
     'model_type': 'text',
     'model_settings': {
         'classifier_type': 'logreg'
@@ -67,6 +67,6 @@ DOMAIN_MODEL_CONFIG = {
         "in-gaz": {},
         "exact": {"scaling": 10},
         "gaz-freq": {},
-        "freq": {"bins": 5}
+        "freq": {"bins": 5},
     }
 }
