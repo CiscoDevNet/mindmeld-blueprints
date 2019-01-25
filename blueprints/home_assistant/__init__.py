@@ -7,6 +7,5 @@ import home_assistant.smart_home
 import home_assistant.times_and_dates
 import home_assistant.unknown
 import home_assistant.weather  # noqa: ignore=F401
-import home_assistant.custom_features
 
 __all__ = ['app']

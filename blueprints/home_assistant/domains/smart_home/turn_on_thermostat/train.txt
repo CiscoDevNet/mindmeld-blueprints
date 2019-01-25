@@ -56,7 +56,7 @@ AC on please
 please flip on the heater
 it s cold turn the heat on
 turn on the air
-turn the heat {on at 2pm|sys_time} in the {living room|location}
+turn the heat on at {2pm|sys_time} in the {living room|location}
 temperature on
 turn on the heat
 turn on the ac
@@ -64,7 +64,7 @@ temp on
 turn on the air conditioner
 make the termostat go on
 turn on the air conditioning
-set my thermostat to turn {on at 6 am|sys_time}
+set my thermostat to turn on at {6 am|sys_time}
 turn on the thermostat now
 please turn on the heater
 turn on air conditioner

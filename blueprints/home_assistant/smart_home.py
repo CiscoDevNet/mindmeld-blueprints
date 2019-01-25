@@ -454,7 +454,7 @@ def _get_temperature(context):
                                                  entity_types='sys_temperature')
 
     if temperature_entity:
-        return temperature_entity[0]['value'][0]
+        return temperature_entity[0]['value']['value']
     else:
         return DEFAULT_THERMOSTAT_TEMPERATURE
 
@@ -474,7 +474,7 @@ def _get_temperature_change(context):
                                                  entity_types='sys_temperature')
 
     if temperature_entity:
-        return temperature_entity[0]['value'][0]
+        return temperature_entity[0]['value']['value']
     else:
         return DEFAULT_THERMOSTAT_CHANGE
 

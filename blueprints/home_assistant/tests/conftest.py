@@ -5,6 +5,10 @@ from mmworkbench.exceptions import ClassifierLoadError
 from mmworkbench.test import TestConversation
 from mmworkbench.path import get_app
 import pytest
+import warnings
+
+warnings.filterwarnings("ignore", category=DeprecationWarning,
+                        module="sklearn.preprocessing.label")
 
 
 APP_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))

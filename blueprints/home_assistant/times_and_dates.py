@@ -245,11 +245,11 @@ def _get_duration(context):
         if len(duration_entity_candidates) == 0 else duration_entity_candidates[0]
 
     if duration_entity:
-        count = duration_entity['value'][0]
+        count = duration_entity['value']['value']
         if count == 1:
-            unit = duration_entity['unit']
+            unit = duration_entity['value']['unit']
         else:
-            unit = duration_entity['unit'] + 's'  # Plural if greater than 1
+            unit = duration_entity['value']['unit'] + 's'  # Plural if greater than 1
 
         return "{count} {units}".format(count=count, units=unit)
     else:
@@ -270,8 +270,10 @@ def _get_sys_time(context):
     sys_time_entity = next((e for e in context['entities'] if e['type'] == 'sys_time'), None)
 
     if sys_time_entity:
-        resolved_time = parse_numerics(sys_time_entity['text'].lower(), dimensions=['time'])
-        return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
+        duckling_result = parse_numerics(sys_time_entity['text'].lower(), dimensions=['time'])
+        for candidate in duckling_result[0]:
+            if candidate['body'] == sys_time_entity['text'].lower():
+                return candidate['value']['value'][TIME_START_INDEX:TIME_END_INDEX]
     else:
         return None
 
@@ -287,11 +289,14 @@ def _get_old_time(context):
     Returns:
         string: resolved 24-hour time in XX:XX:XX format
     """
-    old_time_entity = next((e for e in context['entities'] if e['role'] == 'old_time'), None)
+    old_time_entity = next(
+        (e for e in context['entities'] if e['role']['type'] == 'old_time'), None)
 
     if old_time_entity:
-        resolved_time = parse_numerics(old_time_entity['text'].lower(), dimensions=['time'])
-        return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
+        duckling_result = parse_numerics(old_time_entity['text'].lower(), dimensions=['time'])
+        for candidate in duckling_result[0]:
+            if candidate['body'] == old_time_entity['text'].lower():
+                return candidate['value']['value'][TIME_START_INDEX:TIME_END_INDEX]
     else:
         return None
 
@@ -307,12 +312,14 @@ def _get_new_time(context):
     Returns:
         string: resolved 24-hour time in XX:XX:XX format
     """
-    new_time_entity = next((e for e in context['entities'] if e['role'] == 'new_time'), None)
+    new_time_entity = next(
+        (e for e in context['entities'] if e['role']['type'] == 'new_time'), None)
 
     if new_time_entity:
         resolved_time = parse_numerics(new_time_entity['text'].lower(), dimensions=['time'])
-
-        return resolved_time['data'][0]['value'][0][TIME_START_INDEX:TIME_END_INDEX]
+        for candidate in resolved_time[0]:
+            if candidate['body'] == new_time_entity['text'].lower():
+                return candidate['value']['value'][TIME_START_INDEX:TIME_END_INDEX]
     else:
         return None
 

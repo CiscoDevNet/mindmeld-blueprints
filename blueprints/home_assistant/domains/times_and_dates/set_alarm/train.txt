@@ -10,7 +10,7 @@ set new alarm
 set alarm for {7:05 pm tonight|sys_time|new_time}
 wake me up {tomorrow at 8:30|sys_time|new_time}
 begin alarm for {tomorrow 9 am|sys_time|new_time}
-set an alarm {at 5:40am|sys_time|new_time} and {5:40pm|sys_time|new_time}
+set an alarm at {5:40am|sys_time|new_time} and {5:40pm|sys_time|new_time}
 set an alarm for {6pm|sys_time|new_time} and {9pm|sys_time|new_time}
 set alarms for {7:00 am|sys_time|new_time} and {7:30 am|sys_time|new_time}
 activate {sunday|sys_time|new_time} laundry alarm
@@ -19,20 +19,20 @@ set an alarm for {2 p m|sys_time|new_time}
 set an alarm for {8 tomorrow morning|sys_time|new_time}
 set the alarm for {4 o clock|sys_time|new_time}
 can you make an alarm for {630 am|sys_time|new_time}
-do an alarm {at 7|sys_time|new_time}
+do an alarm at {7|sys_time|new_time}
 set my alarm on {saturday for 8am|sys_time|new_time}
 have a wake up alarm set for {7:30 am|sys_time|new_time}
 set {9:27 am|sys_time|new_time} alarm for us tomorrow
 set and alarm for {8 am|sys_time|new_time} and {830 am|sys_time|new_time}
 please set an alarm for {midnight|sys_time|new_time}
 set an alarm for {7 pm|sys_time|new_time}
-i need to get up {at 8am on saturday|sys_time|new_time}
+i need to get up at {8am on saturday|sys_time|new_time}
 set an alarm for {6:00 am|sys_time|new_time}
 turn on my alarm
 set {1:30am|sys_time|new_time} alarm for me
-add an alarm {at 8am|sys_time|new_time}
+add an alarm at {8am|sys_time|new_time}
 set {9:11 am|sys_time|new_time} alarm for us tomorrow
-remind me to let the dog out {at 11 am|sys_time|new_time} and {at 4 pm|sys_time|new_time}
+remind me to let the dog out at {11 am|sys_time|new_time} and at {4 pm|sys_time|new_time}
 make a new alarm
 create an alarm for {next week wednesday at 7 am|sys_time|new_time}
 start an alarm for {midnight|sys_time|new_time}
@@ -43,7 +43,7 @@ set {9 am|sys_time|new_time} alarm
 set my alarm for {8 am|sys_time|new_time}
 create a {10 am|sys_time|new_time} alarm
 start alarm for {thursday 7 am|sys_time|new_time}
-wake me up {at 6:30|sys_time|new_time}
+wake me up at {6:30|sys_time|new_time}
 set the time for {5 pm|sys_time|new_time}
 get me up before {8 in the morning|sys_time|new_time}
 please set my alarm to {7am|sys_time|new_time} and {7:30am|sys_time|new_time}
@@ -63,13 +63,13 @@ please set the alarm for {6|sys_time|new_time}
 please turn on alarm {6am in morning|sys_time|new_time}
 make sure i wake up by {6am|sys_time|new_time}
 create a {9:30pm|sys_time|new_time} alarm
-i need to get up {at 7:15am|sys_time|new_time}
+i need to get up at {7:15am|sys_time|new_time}
 set an alarm for {3 p m|sys_time|new_time}
 make an alarm for {8 am|sys_time|new_time}
 set {9:20am|sys_time|new_time} alarm for us tomorrow
 set my alarm for {7am tomorrow|sys_time|new_time}
 set my alarms
-wake me up {in 1 hour|sys_time|new_time}
+wake me up in {1 hour|sys_time|new_time}
 set alarm for {8:00am|sys_time|new_time}
 set an alarm for {6:31 am tuesday|sys_time|new_time}
 turn on a new alarm
@@ -77,9 +77,14 @@ set an alarm for {10 o clock in the morning|sys_time|new_time}
 set alarms for {6 am|sys_time|new_time} and {7 am|sys_time|new_time}
 set a {9pm|sys_time|new_time} alarm tomorrow
 set {4:30am|sys_time|new_time} alarm for us tomorrow
-wake me up {at 6 am|sys_time|new_time}
-wake me up {at 7 tomorrow|sys_time|new_time}
-remind me to turn off the oven {at 2:35|sys_time|new_time}
+wake me up at {6 am|sys_time|new_time}
+wake me up at {5|sys_time|new_time}
+turn alarm for me {tomorrow morning at 6|sys_time|new_time}
+set the alarm for {tuesday at 10|sys_time|new_time}
+begin alarm for {monday at 1|sys_time|new_time}
+wake me up at {7 tomorrow|sys_time|new_time}
+set alarm {tomorrow at 5|sys_time|new_time}
+remind me to turn off the oven at {2:35|sys_time|new_time}
 add an alarm for {7 in the evening|sys_time|new_time}
 create {7:30am|sys_time|new_time} alarm
 set an alarm
@@ -100,7 +105,7 @@ set an alarm for {7:00 p m on november 20th|sys_time|new_time}
 add an alarm for me
 can you set an alarm for {6am tomorrow|sys_time|new_time}
 wake me early {tomorrow|sys_time|new_time}
-set a reminder {at 6 pm|sys_time|new_time}
+set a reminder at {6 pm|sys_time|new_time}
 set an alarm for {515|sys_time|new_time}
 set an alarm for {8:00 am|sys_time|new_time}
 set {4:30am|sys_time|new_time} alarm for me

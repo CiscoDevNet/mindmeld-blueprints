@@ -4,7 +4,7 @@ off thermostat
 can you turn off the thermostat
 stop running the heater
 shut down the thermostat
-turn over off {in 3 minutes|sys_time}
+turn over off in {3 minutes|sys_time}
 turn the temp off
 turn off air conditioning
 turn the thermostat off
@@ -20,7 +20,7 @@ shut down the heat in the {kitchen|location}
 turn off the heater in the {living room|location}
 can you shut off the air conditioning
 heating off
-turn off thermostat {in 30 minutes|sys_time}
+turn off thermostat in {30 minutes|sys_time}
 turn off thermostat {now|sys_time}
 turn off the heat in the {downstairs|location} {bedroom|location}
 can you turn off the thermostat
@@ -41,7 +41,7 @@ heater off
 heat off
 it is too cold turn off all the air conditioning
 turn off the {kitchen|location} sink
-please turn off the thermostat {at 8 pm|sys_time}
+please turn off the thermostat at {8 pm|sys_time}
 thermostat power off
 turn off the heat
 please turn off the heat
@@ -57,9 +57,9 @@ turn off the heat
 turn off the air
 switch off the heater
 turrn off all timers
-please turn off the thermostat {at 10 pm|sys_time}
+please turn off the thermostat at {10 pm|sys_time}
 AC off please
-please turn off the thermostat {at noon|sys_time}
+please turn off the thermostat at {noon|sys_time}
 shut off the heater
 turn off the heat
 turn off ac in the {living room|location}
@@ -86,8 +86,8 @@ turn off the air
 please shut off the thermostat
 therm off
 turn off the air conditioner
-thermostat off {in 10 minutes|sys_time}
-set my thermostat to turn off {at 2 am|sys_time}
+thermostat off in {10 minutes|sys_time}
+set my thermostat to turn off at {2 am|sys_time}
 thermostat off
 turn off the air conditioning
 turn off the heater
@@ -130,4 +130,4 @@ turn off the air conditioning
 heat off
 we re off for a while can you turn off the thermostat
 turn the air off please
-please turn the heat off {at 6 am|sys_time}
+please turn the heat off at {6 am|sys_time}

@@ -12,7 +12,7 @@ weather in {london|city} in {c|unit}
 what's the forecast for {tomorrow morning|sys_interval} i want the city {milan|city}
 is it going to be hot {tomorrow|sys_time}
 how's the weather {this week|sys_time}
-check the weather {on tuesday|sys_time}
+check the weather on {tuesday|sys_time}
 what's the temperature outside
 what's the weather like {this morning|sys_interval}
 i want to get the weather in {fahrenheit|unit}
@@ -21,7 +21,7 @@ show me the weather for {next week|sys_time} i want it for {toronto|city}
 check the temperature outside in {San Leandro|city}
 what is the weather for {mexico city|city} {on monday|sys_time} in {fahrenheit|unit}
 it is wet {today|sys_time}
-check the weather {on friday|sys_time}
+check the weather on {friday|sys_time}
 will it rain in {singapore|city}
 show me the forecast {paris|city}
 current temperature in {hawaii|city} {later tonight|sys_interval}

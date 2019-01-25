@@ -34,9 +34,14 @@ INTENT_CLASSIFIER_CONFIG = {
     'model_settings': {
         'classifier_type': 'logreg'
     },
-    'params': {
-        'C': 10,
-        "class_bias": 0.3
+    'param_selection': {
+        'type': 'k-fold',
+        'k': 5,
+        'grid': {
+            'fit_intercept': [True, False],
+            'C': [0.01, 1, 10, 100],
+            'class_bias': [0.7, 0.3, 0]
+        }
     },
     'features': {
         "bag-of-words": {

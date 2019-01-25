@@ -5,7 +5,6 @@ import logging
 import random
 
 from mmworkbench import Application
-import video_discovery.custom_features
 
 app = Application(__name__)
 

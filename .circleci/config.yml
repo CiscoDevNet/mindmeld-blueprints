@@ -1,0 +1,181 @@
+version: 2
+
+# Workflows
+
+workflows:
+  version: 2
+  test-and-deploy:
+    jobs:
+      - test-py3.6
+      - test-py3.5
+      - deploy-blueprint:
+          requires:
+            - test-py3.6
+            - test-py3.5
+          filters:
+            branches:
+              only:
+                - develop
+                - staging
+                - master
+
+# Definitions (keep config D.R.Y.)
+
+definitions:
+
+  images:
+
+    duckling-image: &duckling-image
+      image: mindmeldworkbench/duckling:master
+      auth:
+        username: $DOCKERHUB_USERNAME
+        password: $DOCKERHUB_PASSWORD
+      command: stack exec duckling-example-exe
+
+    es-image: &es-image
+        image: docker.elastic.co/elasticsearch/elasticsearch:5.6.10
+        environment:
+          - discovery.type=single-node
+          - http.host=0.0.0.0
+          - transport.host=127.0.0.1
+          - xpack.security.enabled=false
+          - ES_JAVA_OPTS=-Xms768m -Xmx768m
+        command: /bin/bash -c "bin/elasticsearch-plugin install analysis-phonetic && bin/es-docker"
+
+  steps:
+
+    # Steps
+
+    py-deps: &py-deps
+      run:
+          name: Activate virtualenv and install requirements
+          command: |
+
+            # create and activate venv
+            python -m venv ~/venv
+            echo ". ~/venv/bin/activate" >> $BASH_ENV
+            source $BASH_ENV
+
+            # upgrade pip to latest
+            pip install -U pip
+
+            # install mmworkbench and test requirements
+            pip install dist/mmworkbench-4.0.0a20-py2.py3-none-any.whl
+            pip install -r test-requirements.txt
+
+    # Step Sequences
+
+    test-steps: &test-steps
+
+      - checkout
+
+      - run:
+          name: Install OpenJDK JRE
+          command: |
+            sudo apt-get update
+            sudo apt-get install openjdk-8-jre
+
+      - restore_cache:
+          key: v1-py-cache-{{ .Environment.PYTHON_VERSION }}-{{ checksum "test-requirements.txt" }}-{{ checksum "requirements.txt" }}
+
+      - run:
+          name: Install dockerize
+          command: wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSION/dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz && sudo tar -C /usr/local/bin -xzvf dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz && rm dockerize-linux-amd64-$DOCKERIZE_VERSION.tar.gz
+          environment:
+            DOCKERIZE_VERSION: v0.3.0
+
+      -  *py-deps
+
+      - save_cache:
+          name: Save python deps cache
+          key: v1-py-cache-{{ .Environment.PYTHON_VERSION }}-{{ checksum "test-requirements.txt" }}-{{ checksum "requirements.txt" }}
+          paths:
+            - ~/venv
+
+      - run:
+          name: Setup kb index
+          command: curl -X PUT "localhost:9200/food_ordering$menu_items"
+
+      - run:
+          name: Run linters and static analysis
+          command: ./lintme
+
+      - run:
+          name: Wait for elasticsearch & numerical parser
+          when: always
+          command: |
+            dockerize -wait tcp://localhost:9200 -timeout 1m
+            dockerize -wait tcp://localhost:8000 -timeout 1m
+
+      - run:
+          name: Build home assistant
+          # run this even when linting fails
+          when: on_success
+          command: cd blueprints && python -m home_assistant build
+
+
+      - run:
+          name: Test home assistant
+          # run this even when linting fails
+          when: on_success
+          command: cd blueprints/home_assistant &&  ./testme
+
+      - run:
+          name: Build video discovery
+          # run this even when linting fails
+          when: on_success
+          command: cd blueprints && python -m video_discovery build
+
+
+# Jobs
+
+jobs:
+  test-py3.6:
+    docker:
+      - image: circleci/python:3.6.6
+        environment:
+          PYTHON_VERSION: "3.6.6"
+          _JAVA_OPTIONS: "-Xms512m -Xmx1024m"
+      - *es-image
+      - *duckling-image
+    steps: *test-steps
+
+  test-py3.5:
+    docker:
+      - image: circleci/python:3.5.5
+        environment:
+          PYTHON_VERSION: "3.5.5"
+          _JAVA_OPTIONS: "-Xms512m -Xmx1024m"
+      - *es-image
+      - *duckling-image
+    steps: *test-steps
+
+  deploy-blueprint:
+    docker:
+      - image: circleci/python:3.6.6
+        environment:
+          PYTHON_VERSION: "3.6.6"
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: v1-bp-cache-{{ .Environment.PYTHON_VERSION }}-{{ checksum "test-requirements.txt" }}-{{ checksum "requirements.txt" }}
+
+      - *py-deps
+
+      - run:
+          name: Install AWS cli
+          command: |
+            echo ". ~/venv/bin/activate" >> $BASH_ENV
+            source $BASH_ENV
+            pip install awscli
+
+      - save_cache:
+          name: Save python deps cache
+          key: v1-bp-cache-{{ .Environment.PYTHON_VERSION }}-{{ checksum "test-requirements.txt" }}-{{ checksum "requirements.txt" }}
+          paths:
+            - ~/venv
+
+      - deploy:
+          command: |
+            MM_BRANCH=$CIRCLE_BRANCH bash scripts/upload_blueprints.sh

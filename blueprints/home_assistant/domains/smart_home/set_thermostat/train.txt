@@ -10,7 +10,7 @@ can you lower the temperature to {59 degrees|sys_temperature} while i am on vaca
 set the temperature to {80|sys_temperature}
 set the temperature to {64|sys_temperature} on air conditioning
 set the temperature in the {kitchen|location} to {70 degrees|sys_temperature}
-turn the ac to {80|sys_temperature} {at 8 o clock|sys_time}
+turn the ac to {80|sys_temperature} at {8 o clock|sys_time}
 change thermostat in the {kitchen|location} to {69 degrees|sys_temperature}
 temperature to {79 degrees|sys_temperature}
 set the furnace at {72|sys_temperature}
@@ -45,10 +45,10 @@ make the {entire house|all} {75 degrees|sys_temperature}
 adjust temp to {67|sys_temperature} in the {living room|location}
 turn it to {72|sys_temperature}
 lower the thermostat to {60|sys_temperature}
-{at midnight|sys_time} turn the heat down to {65 degrees|sys_temperature}
+at {midnight|sys_time} turn the heat down to {65 degrees|sys_temperature}
 set thermostat setting to {76 degrees|sys_temperature}
 {bedroom|location} {74 degrees|sys_temperature}
-set thermostat to {60 degrees|sys_temperature} {at 9 am|sys_time}
+set thermostat to {60 degrees|sys_temperature} at {9 am|sys_time}
 please lower the temperature in the {living room|location} to {70 degrees|sys_temperature}
 adjust the temperature
 i would like to raise the heat to {75|sys_temperature}
@@ -91,8 +91,8 @@ set temperature
 change the stat to {70|sys_temperature} please
 {bathroom|location} {77 degrees|sys_temperature}
 cool the room down to {74 degrees|sys_temperature}
-turn the thermostat to {72|sys_temperature} {at 5 pm|sys_time}
-cool the master {bedroom|location} to {65|sys_temperature} starting {at 9 pm|sys_time}
+turn the thermostat to {72|sys_temperature} at {5 pm|sys_time}
+cool the master {bedroom|location} to {65|sys_temperature} starting at {9 pm|sys_time}
 change the thermostat in the {living room|location} to {73 degrees|sys_temperature}
 please change the thermostat setting to {72 degrees|sys_temperature} in the {basement|location}
 please set the temperature to {70|sys_temperature}
@@ -105,7 +105,7 @@ turn the heat to {70|sys_temperature} in here
 turn the a c to {78|sys_temperature}
 maintain a temperature of {79|sys_temperature} in the house
 lower air temperature to {72 degrees|sys_temperature}
-make the temperature {70 degrees|sys_temperature} {at 6 am|sys_time}
+make the temperature {70 degrees|sys_temperature} at {6 am|sys_time}
 change temperature to {72 degrees|sys_temperature}
 turn the temp down to {70|sys_temperature}
 make it {77 degrees|sys_temperature}
@@ -123,14 +123,14 @@ set to {70 degrees|sys_temperature}
 thermostat please set heat on to {80|sys_temperature}
 make the {living room|location} {73 degrees|sys_temperature}
 set temperature to {68 degrees fahrenheit|sys_temperature}
-set temperature to {68|sys_temperature} {after 9 pm|sys_time}
+set temperature to {68|sys_temperature} after {9 pm|sys_time}
 make the house {60 degrees|sys_temperature}
 set the temperature to {70 degrees|sys_temperature} in the {bathroom|location}
 set thermostat at {75 degrees|sys_temperature}
 adjust the temp to {73|sys_temperature} in the {bedroom|location}
 have the temperature at {75 degrees|sys_temperature} in the {basement|location}
 set the thermostat to {72|sys_temperature}
-{at 11pm|sys_time} please set the {master bedroom|location} temperature to {72 degrees|sys_temperature}
+at {11pm|sys_time} please set the {master bedroom|location} temperature to {72 degrees|sys_temperature}
 it s cold raise the temperature to {80|sys_temperature}
 set the {living room|location} temperature to {72 degrees|sys_temperature}
 change the {living room|location} temperature to {70|sys_temperature}
@@ -143,16 +143,16 @@ set the temp to {72|sys_temperature}
 set {kitchen|location} temperature to {60 degrees|sys_temperature}
 heat on to {75|sys_temperature}
 set the {kitchen|location} temperature to {70|sys_temperature}
-{after 9pm|sys_time} change the thermostat to {70 degrees|sys_temperature}
+after {9pm|sys_time} change the thermostat to {70 degrees|sys_temperature}
 adjust the thermostat in the house to {74 degrees|sys_temperature}
-set heat to {72 degrees|sys_temperature} {at 11 pm|sys_time}
+set heat to {72 degrees|sys_temperature} at {11 pm|sys_time}
 set the {bedroom|location} temperature to {73 degrees|sys_temperature}
 adjust temp to {70|sys_temperature} in the {living room|location}
 set the thermostat to {72 degrees fahrenheit|sys_temperature}
 {bedroom|location} {66 degrees|sys_temperature}
 adjust temp to {79|sys_temperature} in the {living room|location}
 set the {living room|location} thermostat to {68 degrees|sys_temperature}
-heat down to {68 degrees|sys_temperature} {at 10pm|sys_time}
+heat down to {68 degrees|sys_temperature} at {10pm|sys_time}
 {76 degrees|sys_temperature} in the {bedroom|location} please
 make it {72 degrees|sys_temperature} in {bathroom|location}
 make it {79 degrees|sys_temperature} in the {bedroom|location}
@@ -162,7 +162,7 @@ it s freezing bring the heat up to 70
 set the air conditioning to {65|sys_temperature}
 change the temperature to {65 degrees|sys_temperature}
 please change the thermostat setting to {68|sys_temperature} in the {family room|location}
-turn it down to {55|sys_temperature} {at 10 pm|sys_time}
+turn it down to {55|sys_temperature} at {10 pm|sys_time}
 change the temperature in the {office|location} to {74|sys_temperature}
 make the {bedroom|location} {74 degrees|sys_temperature}
 change the temperature to {68|sys_temperature}
@@ -176,7 +176,7 @@ set heat to {72 degrees|sys_temperature}
 thermostat setting at {72 degrees|sys_temperature} in the {bathroom|location}
 turn up the heat to {65|sys_temperature}
 temp to {76|sys_temperature}
-{at 5 am|sys_time} turn the heat up to {70 degrees|sys_temperature}
+at {5 am|sys_time} turn the heat up to {70 degrees|sys_temperature}
 set {bathroom|location} temperature to {75 degrees|sys_temperature}
 {bathroom|location} temperature to {78|sys_temperature}
 turn the thermostat up to {70|sys_temperature}
@@ -212,7 +212,7 @@ change the house temperature to {80 degrees|sys_temperature}
 change the heat to {71 degrees|sys_temperature}
 change temperature settings
 heat the house up to {75 degrees|sys_temperature}
-{at 8am|sys_time} set the temperature in the {bathroom|location} and {kitchen|location} to {74 degrees|sys_temperature}
+at {8am|sys_time} set the temperature in the {bathroom|location} and {kitchen|location} to {74 degrees|sys_temperature}
 set the heat to {64 degrees|sys_temperature}
 bring up the temperature to at least {75 degrees|sys_temperature}
 let the {whole house|all} be {76 degrees|sys_temperature}
@@ -238,7 +238,7 @@ set the thermostat to {80 degrees|sys_temperature} in the {kitchen|location}
 turn the temperature up to {68|sys_temperature}
 set the thermostat to {72 degrees|sys_temperature}
 turn on the ac and set it to {73|sys_temperature}
-set the thermostat to {70 degrees|sys_temperature} {at 5:00|sys_time}
+set the thermostat to {70 degrees|sys_temperature} at {5:00|sys_time}
 raise the temperature above {66 degrees|sys_temperature}
 turn down the temp to {70|sys_temperature}
 {bathroom|location} temperature to {72 degrees|sys_temperature}
@@ -253,7 +253,7 @@ adjust temp in the {living room|location} to {71|sys_temperature}
 {living room|location} {76 degrees|sys_temperature}
 adjust thermostat settings
 make it {70 degrees|sys_temperature} in this room
-raise the temperature to {75 degrees|sys_temperature} {at 10 o clock a m|sys_time}
+raise the temperature to {75 degrees|sys_temperature} at {10 o clock a m|sys_time}
 set the {bathroom|location} temp to {73|sys_temperature}
 please turn the thermostat in the {bathroom|location} to {74 degrees|sys_temperature}
 make it {70|sys_temperature} in the {bedroom|location} please
@@ -283,7 +283,7 @@ set thermostat setting to {76|sys_temperature} in the {kitchen|location}
 {bathroom|location} temperature to {70|sys_temperature}
 set the temperature to {70 degrees|sys_temperature} in the {bathroom|location}
 change the thermostat setting to {80|sys_temperature} in the {bedroom|location}
-{at 6pm|sys_time} set heat to {72 degrees|sys_temperature} in the house
+at {6pm|sys_time} set heat to {72 degrees|sys_temperature} in the house
 raise the temperature to {80|sys_temperature}
 turn up the temp to {70|sys_temperature}
 set the {bedroom|location} to {80 degrees|sys_temperature}
@@ -302,14 +302,14 @@ turn {kitchen|location} temperature down to {65 degrees|sys_temperature}
 change to {70 degrees|sys_temperature}
 adjust thermostat setting to {65 degrees|sys_temperature}
 i m freezing crank the heater up to {72 degrees|sys_temperature}
-lower the temperature in the house to {65 degrees|sys_temperature} {in two hours|sys_time}
+lower the temperature in the house to {65 degrees|sys_temperature} in {two hours|sys_time}
 please lower the temperature in the {kitchen|location} to {75 degrees|sys_temperature}
 i m sweating turn the ac on to {65 degrees|sys_temperature}
 it is too cold please turn up the heat to {65|sys_temperature}
 set thermostat to {67|sys_temperature}
 turn up the heat in the {master bath|location} to {75|sys_temperature}
 set the thermostat setting to {73|sys_temperature}
-set the temperature to {72 degrees|sys_temperature} {at 4:00pm|sys_time}
+set the temperature to {72 degrees|sys_temperature} at {4:00pm|sys_time}
 set house temperature to {72 degrees|sys_temperature}
 adjust the temp in the {living room|location} to {78 degrees|sys_temperature}
 change thermostat setting to {78|sys_temperature}
