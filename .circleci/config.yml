@@ -93,8 +93,8 @@ definitions:
             - ~/venv
 
       - run:
-          name: Setup kb index
-          command: curl -X PUT "localhost:9200/food_ordering$menu_items"
+          name: Setup kb index for food ordering
+          command: python -c "from mmworkbench._util import Blueprint; Blueprint.setup_kb(name='food_ordering', app_path='./food_ordering')"
 
       - run:
           name: Run linters and static analysis
@@ -106,6 +106,12 @@ definitions:
           command: |
             dockerize -wait tcp://localhost:9200 -timeout 1m
             dockerize -wait tcp://localhost:8000 -timeout 1m
+
+      - run:
+          name: Build food ordering
+          # run this even when linting fails
+          when: on_success
+          command: cd blueprints && python -m food_ordering build
 
       - run:
           name: Build home assistant
