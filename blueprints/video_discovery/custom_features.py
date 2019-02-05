@@ -10,7 +10,6 @@ def extract_average_token_length(**args):
         (function) A feature extraction function that takes a query and
             returns the average normalized token length
     """
-    # pylint: disable=locally-disabled,unused-argument
     def _extractor(query, resources):
         tokens = query.normalized_tokens
         average_token_length = sum([len(t) for t in tokens]) / len(tokens)
@@ -27,7 +26,7 @@ def extract_entity_span_start(**args):
     Returns:
         (function) A feature extraction function that returns the start span of the entity
     """
-    def extractor(example, resources):
+    def _extractor(example, resources):
         query, entities, entity_index = example
         features = {}
 
@@ -37,4 +36,4 @@ def extract_entity_span_start(**args):
         features['entity_span_start'] = current_entity_token_start
         return features
 
-    return extractor
+    return _extractor
