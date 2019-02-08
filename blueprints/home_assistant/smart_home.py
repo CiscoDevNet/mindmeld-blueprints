@@ -4,7 +4,7 @@ the home assistant blueprint application
 """
 from mmworkbench.ser import get_candidates_for_text
 
-from .app import app
+from .root import app
 
 
 DEFAULT_THERMOSTAT_TEMPERATURE = 72

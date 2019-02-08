@@ -2,7 +2,7 @@
 """This module contains the dialogue states for the 'unknown' domain in
 the home assistant blueprint application
 """
-from .app import app
+from .root import app
 
 
 @app.handle(intent='unknown')

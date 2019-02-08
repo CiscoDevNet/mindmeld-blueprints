@@ -2,7 +2,7 @@
 """This module contains the dialogue states for the 'greeting' domain
 in the Workbench home assistant blueprint application
 """
-from .app import app
+from .root import app
 
 
 @app.handle(intent='greet')
