@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """This module contains the Workbench home assistant blueprint application"""
-from home_assistant.app import app
+from home_assistant.root import app
 
 import home_assistant.greeting
 import home_assistant.smart_home

@@ -6,7 +6,7 @@ import time
 
 from mmworkbench.ser import get_candidates_for_text, parse_numerics
 
-from .app import app
+from .root import app
 
 
 TIME_START_INDEX = 11

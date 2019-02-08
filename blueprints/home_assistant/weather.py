@@ -6,7 +6,7 @@ import os
 
 import requests
 
-from .app import app
+from .root import app
 from .exceptions import UnitNotFound
 
 # Weather constants
