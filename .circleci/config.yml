@@ -119,7 +119,6 @@ definitions:
           when: on_success
           command: cd blueprints && python -m home_assistant build
 
-
       - run:
           name: Test home assistant
           # run this even when linting fails
@@ -132,6 +131,11 @@ definitions:
           when: on_success
           command: cd blueprints && python -m video_discovery build
 
+      - run:
+          name: Test video discovery
+          # run this even when linting fails
+          when: on_success
+          command: cd blueprints/video_discovery &&  ./testme
 
 # Jobs
 

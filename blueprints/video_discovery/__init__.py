@@ -37,15 +37,15 @@ ENTITY_TO_FIELD = {
 
 
 @app.handle(intent='greet')
-def welcome(context, responder):
+def welcome(request, responder):
     """
     When the user starts a conversation, say hi.
     """
     # Provide some randomness by choosing greeting from a list randomly
     greetings = ['Hello', 'Hi', 'Hey']
     try:
-        # Get user's name from session information in request context to personalize the greeting.
-        responder.slots['name'] = context['request']['session']['name']
+        # Get user's name from session information in request to personalize the greeting.
+        responder.slots['name'] = request.context['name']
         greetings = [greeting + ', {name}.' for greeting in greetings] + \
             [greeting + ', {name}!' for greeting in greetings]
     except KeyError:
@@ -61,22 +61,22 @@ def welcome(context, responder):
 
 
 @app.handle(intent='browse')
-def show_content(context, responder):
+def show_content(request, responder):
     """
     When the user looks for a movie or TV show, fetch the documents from the knowledge base
     with all entities we have so far.
     """
     # Update the frame with the new entities extracted.
-    context['frame'] = update_frame(context['entities'], context['frame'])
+    update_frame(request.entities, responder.frame)
 
     # Fetch results from the knowledge base using all entities in frame as filters.
-    results = get_video_content(context['frame'])
+    results = get_video_content(responder.frame)
 
     # Fill the slots with the frame.
-    responder.slots.update(browse_slots_for_frame(context['frame']))
+    responder.slots.update(browse_slots_for_frame(request.frame))
 
     # Build response based on available slots and results.
-    reply, video_payload = build_browse_response(context, responder.slots, results)
+    reply, video_payload = build_browse_response(responder, results)
 
     responder.reply(reply)
 
@@ -125,7 +125,6 @@ def update_frame(entities, frame):
         existing_entities = update_existing_entities(new_entity, existing_entities)
 
         frame[entity_type] = existing_entities
-    return frame
 
 
 def update_existing_entities(new_entity, existing_entities):
@@ -290,19 +289,18 @@ def browse_slots_for_frame(frame):
     return new_slots
 
 
-def build_browse_response(context, slots, results):
+def build_browse_response(responder, results):
     """
     Return the given template based on the available slots & a payload containing video data
 
     Args:
-        context (dict): current context
-        slots (dict): current slots
+        responder (Responder): current responder
         results (list of dict): documents from QuestionAnswerer
     Returns:
        reply (string): the reply to be shown to the user
        video_payload (list): the payload containing the video results
     """
-    reply = ''
+    slots = responder.slots
     video_payload = []
 
     # If no results match, respond accordingly.
@@ -310,7 +308,7 @@ def build_browse_response(context, slots, results):
         reply = 'Sorry, no results match your search criteria. Please try again.'
 
         # Since user reached a dead-end here, clear the frame.
-        context['frame'] = {}
+        responder.frame = {}
 
         return reply, video_payload
 
@@ -368,11 +366,11 @@ def build_browse_response(context, slots, results):
 
 
 @app.handle(intent='start_over')
-def start_over(context, responder):
+def start_over(request, responder):
     """
     When the user wants to start over, clear the dialogue frame and prompt for the next request.
     """
-    context['frame'] = {}
+    responder.frame = {}
     replies = ['Sure, what do you want to watch?',
                'Let\'s start over, what would you like to watch?',
                'Okay, starting over, tell me what you want to watch.']
@@ -385,18 +383,18 @@ def start_over(context, responder):
 
 
 @app.handle(intent='exit')
-def say_goodbye(context, responder):
+def say_goodbye(request, responder):
     """
     When the user ends a conversation, clear the dialogue frame and say goodbye.
     """
-    context['frame'] = {}
+    responder.frame = {}
     goodbyes = ['Bye!', 'Goodbye!', 'Have a nice day.', 'See you later.']
 
     responder.reply(goodbyes)
 
 
 @app.handle(intent='help')
-def provide_help(context, responder):
+def provide_help(request, responder):
     """
     When the user asks for help, provide a message explaining what to do.
     """
@@ -413,7 +411,7 @@ def provide_help(context, responder):
 
 
 @app.handle(intent='unsupported')
-def handle_unsupported(context, responder):
+def handle_unsupported(request, responder):
     # Respond with a message explaining the app does not support that type of query.
     unsupported = ['Sorry, I can\'t help you with that information.',
                    'Sorry, I don\'t have that information.',
@@ -428,7 +426,7 @@ def handle_unsupported(context, responder):
 
 
 @app.handle(intent='compliment')
-def say_something_nice(context, responder):
+def say_something_nice(request, responder):
     # Respond with a compliment or something nice.
     compliments = ['Thank you, you rock!',
                    'You\'re too kind.',
@@ -443,7 +441,7 @@ def say_something_nice(context, responder):
 
 
 @app.handle(intent='insult')
-def handle_insult(context, responder):
+def handle_insult(request, responder):
     # Evade the insult and come back to app usage.
     insult_replies = ['Sorry, I do my  best!',
                       'Someone needs to watch a romantic movie.',
@@ -458,7 +456,7 @@ def handle_insult(context, responder):
 
 
 @app.handle()
-def default(context, responder):
+def default(request, responder):
     """
     When the user asks an unrelated question, convey the lack of understanding for the requested
     information and prompt to return to video discovery.

@@ -18,7 +18,7 @@ OPENWEATHER_BASE_STRING = 'http://api.openweathermap.org/data/2.5/weather'
 
 
 @app.handle(intent='check_weather')
-def check_weather(context, responder):
+def check_weather(request, responder):
     """
     When the user asks for weather, return the weather in that location or use San Francisco if no
       location is given.
@@ -34,9 +34,9 @@ def check_weather(context, responder):
 
     try:
         # Get the location the user wants
-        selected_city = _get_city(context)
+        selected_city = _get_city(request)
         # Figure out which temperature unit the user wants information in
-        selected_unit = _get_unit(context)
+        selected_unit = _get_unit(request)
 
         # Get weather information via the API
         url_string = _construct_weather_api_url(selected_city, selected_unit, openweather_api_key)
@@ -83,18 +83,18 @@ def _construct_weather_api_url(selected_location, selected_unit, openweather_api
 
 # Entity Resolvers
 
-def _get_city(context):
+def _get_city(request):
     """
     Get's the user location from the query, defaulting to San Francisco if none provided
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent,
+        request (Request): contains info about the conversation up to this point (e.g. domain, intent,
           entities, etc)
 
     Returns:
         string: resolved location entity
     """
-    city_entity = next((e for e in context['entities'] if e['type'] == 'city'), None)
+    city_entity = next((e for e in request.entities if e['type'] == 'city'), None)
 
     if city_entity:
         return city_entity['text']
@@ -103,19 +103,19 @@ def _get_city(context):
         return DEFAULT_LOCATION
 
 
-def _get_unit(context):
+def _get_unit(request):
     """
     Get's the user desired temperature unit from the query, defaulting to Fahrenheit if none
       is provided
 
     Args:
-        context (dict): contains info about the conversation up to this point (e.g. domain, intent,
+        request (Request): contains info about the conversation up to this point (e.g. domain, intent,
           entities, etc)
 
     Returns:
         string: resolved temperature unit entity
     """
-    unit_entity = next((e for e in context['entities'] if e['type'] == 'unit'), None)
+    unit_entity = next((e for e in request.entities if e['type'] == 'unit'), None)
 
     if unit_entity:
         unit_text = unit_entity['text'].lower()

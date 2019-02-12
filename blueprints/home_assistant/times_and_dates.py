@@ -19,27 +19,27 @@ DEFAULT_TIMER_DURATION = '60 seconds'  # Seconds
 
 
 @app.handle(intent='specify_time')
-def specify_time(context, responder):
-    selected_time = _get_sys_time(context)
-    selected_all = _get_command_for_all(context)
+def specify_time(request, responder):
+    selected_time = _get_sys_time(request)
+    selected_all = _get_command_for_all(request)
 
     reply = "Please try again and specify an action to go along with that time."
 
     if selected_time:
 
-        if 'desired_action' in context['frame']:
-            if context['frame']['desired_action'] == 'Set Alarm':
-                reply = _handle_set_alarm_reply(selected_time, context)
+        if 'desired_action' in request.frame:
+            if request.frame['desired_action'] == 'Set Alarm':
+                reply = _handle_set_alarm_reply(selected_time, responder)
 
-            elif context['frame']['desired_action'] == 'Remove Alarm':
-                existing_alarms_dict = context['frame']['alarms']
-                ordered_alarms = sorted(context['frame']['alarms'].keys())
+            elif request.frame['desired_action'] == 'Remove Alarm':
+                existing_alarms_dict = request.frame['alarms']
+                ordered_alarms = sorted(request.frame['alarms'].keys())
 
                 reply = _handle_remove_alarm_reply(selected_all, selected_time,
                                                    existing_alarms_dict,
                                                    ordered_alarms)
 
-            del context['frame']['desired_action']
+            del responder.frame['desired_action']
 
         responder.reply(reply)
 
@@ -49,12 +49,12 @@ def specify_time(context, responder):
 
 
 @app.handle(intent='change_alarm')
-def change_alarm(context, responder):
-    selected_old_time = _get_old_time(context)
-    selected_new_time = _get_new_time(context)
+def change_alarm(request, responder):
+    selected_old_time = _get_old_time(request)
+    selected_new_time = _get_new_time(request)
 
     try:
-        existing_alarms_dict = context['frame']['alarms']
+        existing_alarms_dict = request.frame['alarms']
         if selected_old_time in existing_alarms_dict:
             del existing_alarms_dict[selected_old_time]
             existing_alarms_dict[selected_new_time] = None
@@ -71,9 +71,9 @@ def change_alarm(context, responder):
 
 
 @app.handle(intent='check_alarm')
-def check_alarm(context, responder):
+def check_alarm(request, responder):
     try:
-        ordered_alarms = sorted(context['frame']['alarms'].keys())
+        ordered_alarms = sorted(request.frame['alarms'].keys())
         if len(ordered_alarms) == 0:
             reply = "You have no alarms currently set."
         else:
@@ -85,14 +85,14 @@ def check_alarm(context, responder):
 
 
 @app.handle(intent='remove_alarm')
-def remove_alarm(context, responder):
+def remove_alarm(request, responder):
     # Get time entity from query
-    selected_all = _get_command_for_all(context)
-    selected_time = _get_sys_time(context)
+    selected_all = _get_command_for_all(request)
+    selected_time = _get_sys_time(request)
 
     try:
-        existing_alarms_dict = context['frame']['alarms']
-        ordered_alarms = sorted(context['frame']['alarms'].keys())
+        existing_alarms_dict = request.frame['alarms']
+        ordered_alarms = sorted(request.frame['alarms'].keys())
 
         if selected_all or selected_time:
 
@@ -100,7 +100,7 @@ def remove_alarm(context, responder):
                                                ordered_alarms)
 
         else:
-            context['frame']['desired_action'] = 'Remove Alarm'
+            responder.frame['desired_action'] = 'Remove Alarm'
             reply = "Of course. Which alarm? Your current alarms: {alarms}".format(
                 alarms=ordered_alarms)
             responder.reply(reply)
@@ -113,36 +113,36 @@ def remove_alarm(context, responder):
 
 
 @app.handle(intent='set_alarm')
-def set_alarm(context, responder):
-    selected_time = _get_sys_time(context)
+def set_alarm(request, responder):
+    selected_time = _get_sys_time(request)
 
     if selected_time:
-        reply = _handle_set_alarm_reply(selected_time, context)
+        reply = _handle_set_alarm_reply(selected_time, responder)
         responder.reply(reply)
     else:
-        context['frame']['desired_action'] = 'Set Alarm'
+        responder.frame['desired_action'] = 'Set Alarm'
         reply = "Of course. At what time?"
         responder.reply(reply)
 
 
 @app.handle(intent='start_timer')
-def start_timer(context, responder):
-    selected_duration = _get_duration(context)
+def start_timer(request, responder):
+    selected_duration = _get_duration(request)
 
-    if _check_timer_status(context):
+    if _check_timer_status(request):
         reply = 'There is already a timer running!'
     else:
-        context['frame']['timer'] = {'start_time': time.time(),
-                                     'duration': selected_duration}
+        responder.frame['timer'] = {'start_time': time.time(),
+                                    'duration': selected_duration}
         reply = "Ok. A timer for {amt} has been set.".format(amt=selected_duration)
 
     responder.reply(reply)
 
 
 @app.handle(intent='stop_timer')
-def stop_timer(context, responder):
-    if _check_timer_status(context):
-        context['frame']['timer'] = None
+def stop_timer(request, responder):
+    if _check_timer_status(request):
+        responder.frame['timer'] = None
         reply = 'Ok. The current timer has been cancelled.'
     else:
         reply = 'There is no active timer to cancel!'
@@ -153,12 +153,12 @@ def stop_timer(context, responder):
 # Helper Functions
 
 
-def _handle_set_alarm_reply(selected_time, context):
+def _handle_set_alarm_reply(selected_time, responder):
     try:
-        existing_alarms_dict = context['frame']['alarms']
+        existing_alarms_dict = responder.frame['alarms']
         existing_alarms_dict[selected_time] = None
     except KeyError:
-        context['frame']['alarms'] = {selected_time: None}
+        responder.frame['alarms'] = {selected_time: None}
 
     reply = "Ok, I have set your alarm for {time}.".format(time=selected_time)
     return reply
@@ -202,9 +202,9 @@ def _get_duration_in_seconds(selected_duration):
     return int(num_time)
 
 
-def _check_timer_status(context):
+def _check_timer_status(request):
     try:
-        current_timer = context['frame']['timer']
+        current_timer = request.frame['timer']
     except KeyError:
         current_timer = None
 
@@ -220,26 +220,22 @@ def _check_timer_status(context):
         return False
 
 
-def _timer_finished(context):
-    context['frame']['timer'] = None  # Remove the timer
-
-
 # Entity Resolvers
 
 
-def _get_duration(context):
+def _get_duration(request):
     """
     Get's the duration the user wants to set a timer for
 
     Args:
-        context (dict): contains info about the conversation up to this point
+        request (Request): contains info about the conversation up to this point
         (e.g. domain, intent, entities, etc)
 
     Returns:
         int: the seconds
     """
     duration_entity_candidates = get_candidates_for_text(
-        context['request']['text'], entity_types='sys_duration')
+        request.text, entity_types='sys_duration')
 
     duration_entity = None \
         if len(duration_entity_candidates) == 0 else duration_entity_candidates[0]
@@ -256,18 +252,18 @@ def _get_duration(context):
         return DEFAULT_TIMER_DURATION
 
 
-def _get_sys_time(context):
+def _get_sys_time(request):
     """
     Get's the user desired time
 
     Args:
-        context (dict): contains info about the conversation up to this point
+        request (Request): contains info about the conversation up to this point
         (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved 24-hour time in XX:XX:XX format
     """
-    sys_time_entity = next((e for e in context['entities'] if e['type'] == 'sys_time'), None)
+    sys_time_entity = next((e for e in request.entities if e['type'] == 'sys_time'), None)
 
     if sys_time_entity:
         duckling_result = parse_numerics(sys_time_entity['text'].lower(), dimensions=['time'])
@@ -278,19 +274,19 @@ def _get_sys_time(context):
         return None
 
 
-def _get_old_time(context):
+def _get_old_time(request):
     """
     Get's the alarm time the user wants to change
 
     Args:
-        context (dict): contains info about the conversation up to this point
+        request (Request): contains info about the conversation up to this point
         (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved 24-hour time in XX:XX:XX format
     """
     old_time_entity = next(
-        (e for e in context['entities'] if e['role']['type'] == 'old_time'), None)
+        (e for e in request.entities if e['role']['type'] == 'old_time'), None)
 
     if old_time_entity:
         duckling_result = parse_numerics(old_time_entity['text'].lower(), dimensions=['time'])
@@ -301,19 +297,19 @@ def _get_old_time(context):
         return None
 
 
-def _get_new_time(context):
+def _get_new_time(request):
     """
     Get's the alarm time the user wants to change to
 
     Args:
-        context (dict): contains info about the conversation up to this point
+        request (Request): contains info about the conversation up to this point
         (e.g. domain, intent, entities, etc)
 
     Returns:
         string: resolved 24-hour time in XX:XX:XX format
     """
     new_time_entity = next(
-        (e for e in context['entities'] if e['role']['type'] == 'new_time'), None)
+        (e for e in request.entities if e['role']['type'] == 'new_time'), None)
 
     if new_time_entity:
         resolved_time = parse_numerics(new_time_entity['text'].lower(), dimensions=['time'])
@@ -324,15 +320,15 @@ def _get_new_time(context):
         return None
 
 
-def _get_command_for_all(context):
+def _get_command_for_all(request):
     """
     Looks at user query to see if user wants to modify all the alarms
 
     Args:
-        context (dict): contains info about the conversation up to this point
+        request (Request): contains info about the conversation up to this point
         (e.g. domain, intent, entities, etc)
 
     Returns:
         bool: whether or not the user made a command for all
     """
-    return next((e for e in context['entities'] if e['type'] == 'all'), None)
+    return next((e for e in request.entities if e['type'] == 'all'), None)

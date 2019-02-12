@@ -6,11 +6,11 @@ from .root import app
 
 
 @app.handle(intent='greet')
-def greet(context, responder):
+def greet(request, responder):
     responder.reply('Hi, I am your home assistant. I can help you to check weather, set temperature'
                     ' and control the lights and other appliances.')
 
 
 @app.handle(intent='exit')
-def exit(context, responder):
+def exit(request, responder):
     responder.reply('Bye!')

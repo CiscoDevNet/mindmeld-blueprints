@@ -8,7 +8,7 @@ __all__ = ['app']
 
 @app.handle(default=True)
 @app.handle(intent='unsupported')
-def default(context, responder):
+def default(request, responder):
     """
     When the user asks an unrelated question, convey the lack of understanding for the requested
     information and prompt to return to food ordering.
@@ -19,13 +19,13 @@ def default(context, responder):
 
 
 @app.handle(intent='greet')
-def welcome(context, responder):
+def welcome(request, responder):
     """
     When the user starts a conversation, say hi and give some restaurant suggestions to explore.
     """
     try:
-        # Get user's name from session information in request context to personalize the greeting.
-        responder.slots['name'] = context['request']['session']['name']
+        # Get user's name from session information in a request to personalize the greeting.
+        responder.slots['name'] = request.context['name']
         prefix = 'Hello, {name}. '
     except KeyError:
         prefix = 'Hello. '
@@ -41,19 +41,19 @@ def welcome(context, responder):
 
 
 @app.handle(intent='exit')
-def say_goodbye(context, responder):
+def say_goodbye(request, responder):
     """
     When the user ends a conversation, clear the dialogue frame and say goodbye.
     """
     # Clear the dialogue frame to start afresh for the next user request.
-    context['frame'] = {}
+    responder.frame = {}
 
     # Respond with a random selection from one of the canned "goodbye" responses.
     responder.reply(['Bye!', 'Goodbye!', 'Have a nice day.', 'See you later.'])
 
 
 @app.handle(intent='help')
-def provide_help(context, responder):
+def provide_help(request, responder):
     """
     When the user asks for help, provide some sample queries they can try.
     """
@@ -67,19 +67,19 @@ def provide_help(context, responder):
 
 
 @app.handle(intent='start_over')
-def start_over(context, responder):
+def start_over(request, responder):
     """
     When the user wants to start over, clear the dialogue frame and reply for the next request.
     """
     # Clear the dialogue frame and respond with a variation of the welcome message.
-    context['frame'] = {}
+    responder.frame = {}
     replies = ["Ok, let's start over! What restaurant would you like to order from?"]
     responder.reply(replies)
     responder.listen()
 
 
 @app.handle(intent='place_order')
-def place_order(context, responder):
+def place_order(request, responder):
     """
     When the user wants to place the order, call an external API to process the transaction and
     acknowledge the order completion status to the user.
@@ -87,13 +87,13 @@ def place_order(context, responder):
     For this demo app, we just display a fixed response to indicate that an order has been placed.
     """
     # Get the user's restaurant selection from the dialogue frame.
-    selected_restaurant = context['frame'].get('restaurant')
+    selected_restaurant = request.frame.get('restaurant')
 
     if selected_restaurant:
         # If a restaurant has been selected, set its name in the natural language response.
         responder.slots['restaurant_name'] = selected_restaurant['name']
 
-        if len(context['frame'].get('dishes', [])) > 0:
+        if len(request.frame.get('dishes', [])) > 0:
             # If the user has already made his dish selections from the menu, proceed to place the
             # order. In a real application, this would be done by calling an external API to
             # process the transaction. Here, we just reply with a canned response confirming that
@@ -102,7 +102,7 @@ def place_order(context, responder):
                        'minutes.']
 
             # Clear the dialogue frame to start afresh for the next user request.
-            context['frame'] = {}
+            responder.frame = {}
         else:
             # If no dishes have been requested, prompt the user to order something from the menu.
             replies = ["I don't have any dishes in the basket yet. What would you like to order "
@@ -115,7 +115,7 @@ def place_order(context, responder):
 
 
 @app.handle(intent='build_order')
-def build_order(context, responder):
+def build_order(request, responder):
     """
     When the user expresses an intent to start or continue ordering food, provide the
     appropriate guidance at each step for sequentially building up the order. This involves
@@ -127,13 +127,13 @@ def build_order(context, responder):
     """
     # Get information about the user's requested restaurant from the dialogue frame, in case a
     # selection has been already made in a previous turn.
-    selected_restaurant = context['frame'].get('restaurant')
+    selected_restaurant = request.frame.get('restaurant')
 
     # Next, check for any new restaurant requests the user has made in this turn. If the user
     # mentions more than one restaurant (i.e. more than one restaurant entity is recognized in
     # the query), choose the first one by default. Alternatively, one could present the user with
     # multiple restaurant results and prompt to select one.
-    restaurant_entity = next((e for e in context['entities'] if e['type'] == 'restaurant'), None)
+    restaurant_entity = next((e for e in request.entities if e['type'] == 'restaurant'), None)
 
     if restaurant_entity:
         if len(restaurant_entity['value']) > 0:
@@ -150,8 +150,8 @@ def build_order(context, responder):
             # restaurant entity detected in this turn is different from the existing user
             # selection in the dialogue frame (to ensure that this is not a continuation of the
             # order at the same location).
-            context['frame']['restaurant'] = selected_restaurant
-            context['frame']['dishes'] = []
+            responder.frame['restaurant'] = selected_restaurant
+            responder.frame['dishes'] = []
         else:
             # If the restaurant entity couldn't be successfully linked to any entry in the
             # knowledge base (i.e. there are no candidate resolved values to choose from),
@@ -170,16 +170,16 @@ def build_order(context, responder):
     # dishes ordered by the user.
 
     # First, get details on dish selections already made in previous turns from the dialogue frame.
-    selected_dishes = context['frame'].get('dishes', [])
+    selected_dishes = responder.frame.get('dishes', [])
 
     # Next, get all the recognized dish entities in the current user query.
-    dish_entities = [e for e in context['entities'] if e['type'] == 'dish']
+    dish_entities = [e for e in request.entities if e['type'] == 'dish']
 
     if len(dish_entities) > 0:
         if selected_restaurant:
             # If the user has requested one or more dishes and also selected a specific
             # restaurant, add the requested dishes to the "check-out" basket. The basket contents
-            # are stored in the dialogue frame (context['frame']['dishes']).
+            # are stored in the responder frame.
 
             for dish_entity in dish_entities:
                 # Store the user-specified dish name for use in natural language responses.
@@ -206,7 +206,7 @@ def build_order(context, responder):
 
             # Update the basket information in the dialogue frame after all the dish entities
             # have been processed and mapped to their respective KB entries.
-            context['frame']['dishes'] = selected_dishes
+            responder.frame['dishes'] = selected_dishes
         else:
             # If the user has requested one or more dishes, but not selected a restaurant yet,
             # prompt him to pick a restaurant from a list of suggestions. This suggestion list can

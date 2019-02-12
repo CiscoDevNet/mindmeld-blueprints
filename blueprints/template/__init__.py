@@ -8,6 +8,6 @@ __all__ = ['app']
 
 
 @app.handle(default=True)
-def default(context, responder):
+def default(request, responder):
     """This is a default handler."""
     responder.reply('Hello there!')
