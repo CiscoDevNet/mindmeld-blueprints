@@ -27,7 +27,7 @@ example.
 
 1. Create a tarball after deleting any temporary files within the directory.
 ```bash
-tar -cfz app.tar.gz -C home_assistant .
+tar -czf app.tar.gz -C home_assistant .
 ```
 
 2. Remove the existing tarballs in each of the three locations.
