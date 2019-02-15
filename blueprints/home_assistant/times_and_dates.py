@@ -286,7 +286,7 @@ def _get_old_time(request):
         string: resolved 24-hour time in XX:XX:XX format
     """
     old_time_entity = next(
-        (e for e in request.entities if e['role']['type'] == 'old_time'), None)
+        (e for e in request.entities if e['role'] == 'old_time'), None)
 
     if old_time_entity:
         duckling_result = parse_numerics(old_time_entity['text'].lower(), dimensions=['time'])
@@ -309,7 +309,7 @@ def _get_new_time(request):
         string: resolved 24-hour time in XX:XX:XX format
     """
     new_time_entity = next(
-        (e for e in request.entities if e['role']['type'] == 'new_time'), None)
+        (e for e in request.entities if e['role'] == 'new_time'), None)
 
     if new_time_entity:
         resolved_time = parse_numerics(new_time_entity['text'].lower(), dimensions=['time'])
