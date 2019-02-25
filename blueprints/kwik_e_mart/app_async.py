@@ -45,7 +45,7 @@ async def send_nearest_store(request, responder):
     target_store = stores[0]
     responder.slots['store_name'] = target_store['store_name']
 
-    request.frame['target_store'] = target_store
+    responder.frame['target_store'] = target_store
     responder.reply('Your nearest Kwik-E-Mart is located at {store_name}.')
 
 
@@ -58,7 +58,7 @@ async def default(request, responder):
 
 
 @app.dialogue_flow(domain='store_info', intent='get_store_hours')
-async def get_store_hours_entry(request, responder):
+async def send_store_hours(request, responder):
     active_store = None
     store_entity = next((e for e in request.entities if e['type'] == 'store_name'), None)
     if store_entity:
@@ -91,10 +91,10 @@ async def get_store_hours_entry(request, responder):
         responder.listen()
     else:
         responder.reply('Sorry I cannot help you. Please try again.')
-        request.exit_flow()
+        responder.exit_flow()
 
 
-@get_store_hours_entry.handle(default=True)
+@send_store_hours.handle(default=True)
 async def default_handler(request, responder):
     responder.frame['count'] += 1
     if responder.frame['count'] <= 3:
@@ -102,13 +102,14 @@ async def default_handler(request, responder):
         responder.listen()
     else:
         responder.reply('Sorry I cannot help you. Please try again.')
+        responder.exit_flow()
 
 
-@get_store_hours_entry.handle(intent='exit', exit_flow=True)
+@send_store_hours.handle(intent='exit', exit_flow=True)
 async def exit_handler(request, responder):
     responder.reply(['Bye', 'Goodbye', 'Have a nice day.'])
 
 
-@get_store_hours_entry.handle(intent='get_store_hours')
-async def get_store_hours_handler(request, responder):
-    return await get_store_hours_entry(request, responder)
+@send_store_hours.handle(intent='get_store_hours')
+async def send_store_hours_in_flow_handler(request, responder):
+    return await send_store_hours(request, responder)
