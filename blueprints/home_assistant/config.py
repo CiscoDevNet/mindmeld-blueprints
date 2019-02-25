@@ -32,8 +32,13 @@ DOMAIN_CLASSIFIER_CONFIG = {
     'model_settings': {
         'classifier_type': 'logreg'
     },
-    'params': {
-        'C': 10,
+    'param_selection': {
+        'type': 'k-fold',
+        'k': 10,
+        'grid': {
+            'fit_intercept': [True, False],
+            'C': [10, 100, 1000, 10000, 100000]
+        },
     },
     'features': {
         "bag-of-words": {
