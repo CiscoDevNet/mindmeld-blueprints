@@ -116,7 +116,7 @@ definitions:
           when: always
           command: |
             dockerize -wait tcp://localhost:9200 -timeout 1m
-            dockerize -wait tcp://localhost:8000 -timeout 1m
+            dockerize -wait tcp://localhost:7151 -timeout 1m
 
       - run:
           name: Build food ordering
