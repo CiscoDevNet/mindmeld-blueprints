@@ -88,8 +88,8 @@ def _get_city(request):
     Get's the user location from the query, defaulting to San Francisco if none provided
 
     Args:
-        request (Request): contains info about the conversation up to this point (e.g. domain, intent,
-          entities, etc)
+        request (Request): contains info about the conversation up to this point (e.g. domain,
+          intent, entities, etc)
 
     Returns:
         string: resolved location entity
@@ -109,8 +109,8 @@ def _get_unit(request):
       is provided
 
     Args:
-        request (Request): contains info about the conversation up to this point (e.g. domain, intent,
-          entities, etc)
+        request (Request): contains info about the conversation up to this point (e.g. domain,
+          intent, entities, etc)
 
     Returns:
         string: resolved temperature unit entity

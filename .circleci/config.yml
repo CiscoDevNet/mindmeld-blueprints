@@ -27,9 +27,6 @@ definitions:
 
     duckling-image: &duckling-image
       image: mindmeldworkbench/duckling:master
-      auth:
-        username: $DOCKERHUB_USERNAME
-        password: $DOCKERHUB_PASSWORD
       command: stack exec duckling-example-exe
 
     es-image: &es-image
@@ -58,9 +55,19 @@ definitions:
 
             # upgrade pip to latest
             pip install -U pip
+            pip install awscli
+
+            mkdir ~/packages -p
+            WB_WHEEL="mmworkbench-4.0.0rc3-py2.py3-none-any.whl"
+            if [ -f "~/packages/$WB_WHEEL" ]; then
+              echo "Using cached workbench wheel"
+            else
+              echo "Downloading workbench wheel"
+              aws s3 cp s3://mindmeld-pypi/develop/$WB_WHEEL ~/packages
+            fi
 
             # install mmworkbench and test requirements
-            pip install dist/mmworkbench-4.0.0a20-py2.py3-none-any.whl
+            pip install ~/packages/$WB_WHEEL
             pip install -r test-requirements.txt
 
     # Step Sequences
@@ -95,6 +102,10 @@ definitions:
       - run:
           name: Setup kb index for food ordering
           command: python -c "from mmworkbench._util import Blueprint; Blueprint.setup_kb(name='food_ordering', app_path='./food_ordering')"
+
+      - run:
+          name: Setup kb index for video discovery
+          command: python -c "from mmworkbench._util import Blueprint; Blueprint.setup_kb(name='video_discovery', app_path='./video_discovery')"
 
       - run:
           name: Run linters and static analysis

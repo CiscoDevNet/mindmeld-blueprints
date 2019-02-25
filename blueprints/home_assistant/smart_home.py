@@ -253,7 +253,8 @@ def _handle_lights(request, responder, desired_state, desired_action):
         responder.listen()
 
 
-def _modify_thermostat(selected_location, selected_temperature_change, request, responder, direction):
+def _modify_thermostat(selected_location, selected_temperature_change, request, responder,
+                       direction):
     try:
         thermostat_temperature_dict = request.frame['thermostat_temperatures']
     except KeyError:
@@ -397,8 +398,8 @@ def _get_color(request):
     Get color from request
 
     Args:
-        request (Request): contains info about the conversation up to this point (e.g. domain, intent,
-          entities, etc)
+        request (Request): contains info about the conversation up to this point (e.g. domain,
+          intent, entities, etc)
 
     Returns:
         string: resolved location entity
