@@ -58,7 +58,7 @@ definitions:
             pip install awscli
 
             mkdir ~/packages -p
-            WB_WHEEL="mmworkbench-4.0.0rc3-py2.py3-none-any.whl"
+            WB_WHEEL="mmworkbench-4.0.0-py2.py3-none-any.whl"
             if [ -f "~/packages/$WB_WHEEL" ]; then
               echo "Using cached workbench wheel"
             else
@@ -116,7 +116,7 @@ definitions:
           when: always
           command: |
             dockerize -wait tcp://localhost:9200 -timeout 1m
-            dockerize -wait tcp://localhost:8000 -timeout 1m
+            dockerize -wait tcp://localhost:7151 -timeout 1m
 
       - run:
           name: Build food ordering
