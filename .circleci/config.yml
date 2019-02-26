@@ -58,7 +58,7 @@ definitions:
             pip install awscli
 
             mkdir ~/packages -p
-            WB_WHEEL="mmworkbench-4.0.0rc3-py2.py3-none-any.whl"
+            WB_WHEEL="mmworkbench-4.0.0-py2.py3-none-any.whl"
             if [ -f "~/packages/$WB_WHEEL" ]; then
               echo "Using cached workbench wheel"
             else
