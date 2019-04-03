@@ -246,3 +246,14 @@ class TestSmartHome:
         convo.say(query1)
         texts = convo.say(query2)
         assert texts[0] == expected
+
+    # close_door intent
+    close_door_data = [
+        ('close the door', 'kitchen')
+    ]
+
+    @pytest.mark.parametrize("query, location", close_door_data)
+    def test_close_door_followup(self, convo, query, location):
+        convo.say(query)
+        texts = convo.say(location)
+        assert texts[0] == 'Ok. The kitchen door has been closed.'
