@@ -1,1 +1,4 @@
-mmworkbench==4.0.0
+mmworkbench==4.0.2
+ciscosparkapi==0.10.1
+flask
+requests
