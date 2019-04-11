@@ -10,6 +10,24 @@ a similar use case.
 
 The Food Ordering blueprint is a conversational app for ordering food from a food delivery service such as Amazon Restaurants, Caviar or JustEat. This blueprint will demonstrate building an application for interacting with a number of restaurants with different menus.
 
+In order to convert the food ordering application into a Webex Teams bot, first make sure you have `ngrok` (https://ngrok.com/) installed and do the following:
+
+```
+# Expose your local server's port 8080 to the internet
+./ngrok http 8080
+
+# Create web hook here: https://developer.webex.com/docs/api/v1/webhooks/create-a-webhook. 
+# Use ngork's publically accessible URL for the targetUrl param when creating the web hook and
+# set resource=messages, event=created
+export WEBHOOK_ID=<insert webhook id>
+
+# Create bot access token here: https://developer.webex.com/my-apps/new
+export BOT_ACCESS_TOKEN=<insert bot access token>
+
+# Start the bot service
+python webex_bot_server.py 
+```
+
 ### Home Assistant
 
 The Home Assistant blueprint is a conversational app that helps users to control appliances, lights, doors, thermostat and check the weather. This blueprint will demonstrate building an application with multiple intents, domains, entities and roles.
