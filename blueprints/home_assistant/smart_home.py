@@ -22,16 +22,16 @@ def specify_location(request, responder):
     if selected_location:
         try:
             if request.frame['desired_action'] == 'Close Door':
-                reply = _handle_door_open_close_reply(selected_all, selected_location, request,
+                reply = _handle_door_open_close_reply(selected_all, selected_location, responder,
                                                       desired_state="closed")
             elif request.frame['desired_action'] == 'Open Door':
-                reply = _handle_door_open_close_reply(selected_all, selected_location, request,
+                reply = _handle_door_open_close_reply(selected_all, selected_location, responder,
                                                       desired_state="opened")
             elif request.frame['desired_action'] == 'Lock Door':
-                reply = _handle_door_lock_unlock_reply(selected_all, selected_location, request,
+                reply = _handle_door_lock_unlock_reply(selected_all, selected_location, responder,
                                                        desired_state="locked")
             elif request.frame['desired_action'] == 'Unlock Door':
-                reply = _handle_door_lock_unlock_reply(selected_all, selected_location, request,
+                reply = _handle_door_lock_unlock_reply(selected_all, selected_location, responder,
                                                        desired_state="unlocked")
             elif request.frame['desired_action'] == 'Check Door':
                 reply = _handle_check_door_reply(selected_location, responder)
