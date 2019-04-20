@@ -1,9 +1,9 @@
 import os
 
-from mmworkbench import NaturalLanguageProcessor
-from mmworkbench.exceptions import ClassifierLoadError
-from mmworkbench.test import TestConversation
-from mmworkbench.path import get_app
+from mindmeld import NaturalLanguageProcessor
+from mindmeld.exceptions import ClassifierLoadError
+from mindmeld.test import TestConversation
+from mindmeld.path import get_app
 import pytest
 
 

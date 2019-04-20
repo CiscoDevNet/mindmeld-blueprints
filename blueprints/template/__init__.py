@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """This module contains a template Workbench application"""
-from mmworkbench import Application
+from mindmeld import Application
 
 app = Application(__name__)
 

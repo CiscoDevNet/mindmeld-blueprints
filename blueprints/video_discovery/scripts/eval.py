@@ -1,4 +1,4 @@
-from mmworkbench.components import NaturalLanguageProcessor
+from mindmeld.components import NaturalLanguageProcessor
 nlp = NaturalLanguageProcessor('../')
 nlp.load()
 

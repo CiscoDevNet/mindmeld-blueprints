@@ -38,7 +38,7 @@ Switch to branch `feature/stream-load-kb` in WB3
 
 Then, run
 ```
-$ mmworkbench load-kb -n $HOST $APP_NAME $INDEX_NAME $FILENAME
+$ mindmeld load-kb -n $HOST $APP_NAME $INDEX_NAME $FILENAME
 ```
 We use `dev-search3-001.dev` as `HOST` or you can use local running ES. 
 The import roughly takes 20 mins.
@@ -61,7 +61,7 @@ If you want to import to local ES, make sure it is now running.
 Then start importing
 ```
 cd output_data-0714-log-pop/transformed
-mmworkbench load-kb -n $HOST video_discovery 20170714 transformed_videos.jsonl
+mindmeld load-kb -n $HOST video_discovery 20170714 transformed_videos.jsonl
 ```
 
 

@@ -4,7 +4,7 @@ the home assistant blueprint application
 """
 import time
 
-from mmworkbench.ser import get_candidates_for_text, parse_numerics
+from mindmeld.ser import get_candidates_for_text, parse_numerics
 
 from .root import app
 

@@ -4,7 +4,7 @@ import datetime
 import logging
 import random
 
-from mmworkbench import Application
+from mindmeld import Application
 
 app = Application(__name__)
 
