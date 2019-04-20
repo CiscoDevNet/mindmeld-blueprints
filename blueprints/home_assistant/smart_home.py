@@ -2,7 +2,7 @@
 """This module contains the dialogue states for the 'smart_home' domain in
 the home assistant blueprint application
 """
-from mmworkbench.ser import get_candidates_for_text
+from mindmeld.ser import get_candidates_for_text
 
 from .root import app
 

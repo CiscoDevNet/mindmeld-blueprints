@@ -2,7 +2,7 @@
 """This module contains an empty application container.
 It is defined here to avoid circular imports
 """
-from mmworkbench import Application
+from mindmeld import Application
 
 app = Application(__name__)
 

@@ -63,11 +63,11 @@ aws s3 cp app.tar.gz s3://mindmeld-blueprints-master/home_assistant/app.tar.gz
 ```
 
 4. Check that your upload was successful. To specify which bucket to download from, change the 
-```mindmeld_url``` value in the ```~/.mmworkbench.config``` file. Using the value 
+```mindmeld_url``` value in the ```~/.mindmeld.config``` file. Using the value 
 https://devcenter.mindmeld.com will result in pulling from the **mindmeld-blueprints-master** bucket, 
 https://staging-devcenter.mindmeld.com from **mindmeld-blueprints-staging**, and 
 https://develop-devcenter.mindmeld.com from **mindmeld-blueprints-develop**.
 
 ```bash
-mmworkbench blueprint home_assistant
+mindmeld blueprint home_assistant
 ```

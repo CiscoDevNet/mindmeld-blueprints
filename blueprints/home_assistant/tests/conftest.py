@@ -1,9 +1,9 @@
 import os
 
-from mmworkbench import NaturalLanguageProcessor
-from mmworkbench.exceptions import ClassifierLoadError
-from mmworkbench.test import TestConversation
-from mmworkbench.path import get_app
+from mindmeld import NaturalLanguageProcessor
+from mindmeld.exceptions import ClassifierLoadError
+from mindmeld.test import TestConversation
+from mindmeld.path import get_app
 import pytest
 import warnings
 
@@ -18,7 +18,7 @@ APP_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 def nlp():
     the_nlp = NaturalLanguageProcessor(APP_PATH)
     try:
-        the_nlp.load()
+        the_nlp.build()
     except ClassifierLoadError as exc:
         raise ClassifierLoadError(
             "Could not load app. Have you built the models? "

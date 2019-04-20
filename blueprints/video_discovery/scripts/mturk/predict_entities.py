@@ -7,7 +7,7 @@ Outputs: pre_annotate.txt with annotated query on each line (based on trained mo
 """
 
 import argparse
-from mmworkbench.components import NaturalLanguageProcessor
+from mindmeld.components import NaturalLanguageProcessor
 
 parser = argparse.ArgumentParser()
 parser.add_argument(dest="input_file", type=str, help="Please provide input file path")

@@ -57,17 +57,8 @@ definitions:
             pip install -U pip
             pip install awscli
 
-            mkdir ~/packages -p
-            WB_WHEEL="mmworkbench-4.0.0-py2.py3-none-any.whl"
-            if [ -f "~/packages/$WB_WHEEL" ]; then
-              echo "Using cached workbench wheel"
-            else
-              echo "Downloading workbench wheel"
-              aws s3 cp s3://mindmeld-pypi/develop/$WB_WHEEL ~/packages
-            fi
-
-            # install mmworkbench and test requirements
-            pip install ~/packages/$WB_WHEEL
+            # install mindmeld and test requirements
+            pip install mindmeld==4.0.2
             pip install -r test-requirements.txt
 
     # Step Sequences
@@ -101,11 +92,11 @@ definitions:
 
       - run:
           name: Setup kb index for food ordering
-          command: python -c "from mmworkbench._util import Blueprint; Blueprint.setup_kb(name='food_ordering', app_path='./food_ordering')"
+          command: python -c "from mindmeld._util import Blueprint; Blueprint.setup_kb(name='food_ordering', app_path='./food_ordering')"
 
       - run:
           name: Setup kb index for video discovery
-          command: python -c "from mmworkbench._util import Blueprint; Blueprint.setup_kb(name='video_discovery', app_path='./video_discovery')"
+          command: python -c "from mindmeld._util import Blueprint; Blueprint.setup_kb(name='video_discovery', app_path='./video_discovery')"
 
       - run:
           name: Run linters and static analysis

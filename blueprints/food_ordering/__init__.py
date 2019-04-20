@@ -1,5 +1,5 @@
 """This module contains the Workbench food ordering blueprint application"""
-from mmworkbench import Application
+from mindmeld import Application
 
 app = Application(__name__)
 

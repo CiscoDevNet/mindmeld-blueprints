@@ -12,7 +12,7 @@ import logging
 import json
 import os
 
-from mmworkbench import configure_logs, path
+from mindmeld import configure_logs, path
 
 
 def main():
