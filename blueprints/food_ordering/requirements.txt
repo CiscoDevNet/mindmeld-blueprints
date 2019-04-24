@@ -1,4 +1,4 @@
-mindmeld==4.1.0rc3
+mindmeld==4.1.0
 ciscosparkapi==0.10.1
 flask
 requests
