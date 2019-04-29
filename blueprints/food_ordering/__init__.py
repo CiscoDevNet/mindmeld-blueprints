@@ -175,7 +175,13 @@ def build_order(request, responder):
     # Next, get all the recognized dish entities in the current user query.
     dish_entities = [e for e in request.entities if e['type'] == 'dish']
 
+    # If we cannot find any dish entities in the current query, check the frame to see
+    # if the there were any dish entities stored previously
+    dish_entities = dish_entities if dish_entities else responder.frame.pop('dish_entities', [])
+
     if len(dish_entities) > 0:
+        responder.frame['dish_entities'] = dish_entities
+
         if selected_restaurant:
             # If the user has requested one or more dishes and also selected a specific
             # restaurant, add the requested dishes to the "check-out" basket. The basket contents
