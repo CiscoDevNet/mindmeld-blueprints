@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""This module contains a template Workbench app configuration"""
+"""This module contains a template MindMeld app configuration"""
 
 # The namespace of the application. Used to prevent collisions in supporting services across
 # applications. If not set here, the app's enclosing directory name is used.

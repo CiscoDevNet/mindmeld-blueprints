@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""This module contains the Workbench home assistant blueprint application"""
+"""This module contains the MindMeld home assistant blueprint application"""
 from home_assistant.root import app
 
 import home_assistant.greeting

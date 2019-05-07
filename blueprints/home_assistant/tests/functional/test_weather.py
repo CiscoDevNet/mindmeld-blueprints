@@ -52,7 +52,7 @@ class TestWeather:
         if key:
             os.environ[WEATHER_KEY] = key
 
-    @pytest.mark.skip(reason="not critical, unblocking pipeline, will fix in the next wb release")
+    @pytest.mark.skip(reason="not critical, unblocking pipeline, will fix in the next mm release")
     def test_weather_not_setup(self, convo):
         key = os.environ.pop(WEATHER_KEY, None)  # in case the key is in environment pop it
 
@@ -68,7 +68,7 @@ class TestWeather:
         if key:
             os.environ[WEATHER_KEY] = key
 
-    @pytest.mark.skip(reason="not critical, unblocking pipeline, will fix in the next wb release")
+    @pytest.mark.skip(reason="not critical, unblocking pipeline, will fix in the next mm release")
     def test_weather_invalid(self, convo):
         key = os.environ.pop(WEATHER_KEY, None)
         os.environ[WEATHER_KEY] = 'a-bad-api-key'

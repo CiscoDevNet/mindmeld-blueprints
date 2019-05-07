@@ -30,10 +30,10 @@ To get the top 20k tv/movies, it roughly takes 8 hrs in total.
 Currently we only have `extract` and `transform` steps in Luigi, `load` is not implemented yet.
 
 ## Import to ElasticSearch
-Install WB3
+Install mindmeld 
 - See [here](https://github.com/expectlabs/mindmeld-workbench3).
 
-Switch to branch `feature/stream-load-kb` in WB3
+Switch to branch `feature/stream-load-kb` in mindmeld 
 - It's temporarily solution since the PR hasn't been merged yet.
 
 Then, run
@@ -51,7 +51,7 @@ $ aws s3 cp s3://mindmeld/workbench-data/video-data-0714.tar.gz .
 # Unzip it
 $ video-data-0714.tar.gz
 ```
-Prepare WB3 (temporarily fix)
+Prepare mindmeld  (temporarily fix)
 ```
 cd $YOUR_WB3_DIR
 git checkout feature/stream-load-kb

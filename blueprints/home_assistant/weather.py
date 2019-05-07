@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""This module contains the weather dialogue states for the Workbench
+"""This module contains the weather dialogue states for the MindMeld
 home assistant blueprint application
 """
 import os

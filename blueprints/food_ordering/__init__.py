@@ -1,4 +1,4 @@
-"""This module contains the Workbench food ordering blueprint application"""
+"""This module contains the MindMeld food ordering blueprint application"""
 from mindmeld import Application
 
 app = Application(__name__)

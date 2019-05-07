@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 """This script will perform a basic migration of entity data from an old style
-app to a new workbench 3 compatible app.
+app to a new mindmeld 3 compatible app.
 
 This script will take each key from an old entity map and add it to
 gazetteer.txt with a population of 1.0

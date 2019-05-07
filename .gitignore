@@ -89,7 +89,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# Workbench generated files
+# MindMeld generated files
 .generated
 
 # OS file

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""This module contains the Workbench video discovery blueprint application"""
+"""This module contains the MindMeld video discovery blueprint application"""
 import datetime
 import logging
 import random
