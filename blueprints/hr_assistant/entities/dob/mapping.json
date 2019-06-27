@@ -1,0 +1,20 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "birthday",
+                "birthdate",
+                "birth date",
+                "date of birth",
+                "day of birth",
+                "born on",
+                "born on the",
+                "born in",
+                "born after",
+                "born before",
+                "DOB"
+            ],
+            "cname": "dob"
+        }
+    ]
+}

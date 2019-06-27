@@ -1,0 +1,4 @@
+What is the {total|function} of employees with {bdays|dob} {prior to|date_compare} {1990|sys_time}
+{1945|sys_time} {born|dob} employees {percent|function}
+{how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
+{sum|function} {joined|employment_action} for {less than|comparator} {4.3 yrs|sys_duration} ago

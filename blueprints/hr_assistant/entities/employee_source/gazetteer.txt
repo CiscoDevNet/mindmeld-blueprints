@@ -1,0 +1,62 @@
+1.0 information session
+1.0 company intranet - partner
+1.0 social networks - facebook twitter etc
+1.0 newspager/magazine
+1.0 internet search
+1.0 billboard
+1.0 pay per click
+1.0 on-line web application
+1.0 glassdoor
+1.0 professional society
+1.0 monster.com
+1.0 diversity job fair
+1.0 careerbuilder
+1.0 mbta ads
+1.0 word of mouth
+1.0 other
+1.0 vendor referral
+1.0 on-campus recruiting
+1.0 website banner ads
+1.0 employee referral
+1.0 info session
+1.0 social media
+1.0 social media apps
+1.0 facebook
+1.0 instagram
+1.0 twitter
+1.0 snapchat
+1.0 social network
+1.0 newspaper
+1.0 magazine
+1.0 google
+1.0 bing
+1.0 yahoo
+1.0 search engine - google bing yahoo'
+1.0 search engine
+1.0 poster
+1.0 ppc
+1.0 google ads
+1.0 google ppc
+1.0 ppc google
+1.0 application potal
+1.0 job portal
+1.0 glass door
+1.0 professional group
+1.0 monster
+1.0 advertisement
+1.0 ads
+1.0 verbal mention
+1.0 referred by vendor
+1.0 vendor referred
+1.0 on-campus job fair
+1.0 career fair
+1.0 referred by employee
+1.0 how did you learn about this position
+1.0 how did you find out about this job
+1.0 how did you find out about this position
+1.0 how did you learn about this job. how did you hear about this
+1.0 heard about us
+1.0 hear about us
+1.0 how you heard about us
+1.0 how did you hear of us
+1.0 hear of us

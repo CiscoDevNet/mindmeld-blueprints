@@ -1,0 +1,72 @@
+1.0 MA
+1.0 TX
+1.0 CT
+1.0 VA
+1.0 VT
+1.0 CA
+1.0 WA
+1.0 NH
+1.0 NY
+1.0 OH
+1.0 IN
+1.0 ID
+1.0 TN
+1.0 NV
+1.0 CO
+1.0 UT
+1.0 AL
+1.0 GA
+1.0 FL
+1.0 NC
+1.0 KY
+1.0 ND
+1.0 MT
+1.0 OR
+1.0 AZ
+1.0 ME
+1.0 RI
+1.0 PA
+1.0 Massachussets
+1.0 Texas
+1.0 Connecticut
+1.0 Virginia
+1.0 Vermony
+1.0 California
+1.0 Washington
+1.0 New Hampshire
+1.0 New York
+1.0 Ohio
+1.0 Indiana
+1.0 Idaho
+1.0 Tennessee
+1.0 Nevada
+1.0 Colarado
+1.0 Utah
+1.0 Alabama
+1.0 Georgia
+1.0 Florida
+1.0 North Carolina
+1.0 Kentucky
+1.0 North Dakota
+1.0 Montana
+1.0 Oregon
+1.0 Arizona
+1.0 Maine
+1.0 Rhode Island
+1.0 Pennsylvania
+1.0 state
+1.0 state of birth
+1.0 state of residence
+1.0 office location
+1.0 location
+1.0 out of state
+1.0 live
+1.0 lives
+1.0 live in
+1.0 based in
+1.0 lives in
+1.0 where
+1.0 works in
+1.0 works at
+1.0 where is
+1.0 cali

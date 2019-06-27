@@ -1,0 +1,29 @@
+1.0 terminated for cause
+1.0 leave of absence
+1.0 active
+1.0 voluntarily terminated
+1.0 future start
+1.0 fired
+1.0 let go
+1.0 evicted
+1.0 kicked out
+1.0 removed
+1.0 dismissed
+1.0 on absence leave
+1.0 currently employed
+1.0 currently working
+1.0 currently works
+1.0 still works at
+1.0 still working at
+1.0 still work at
+1.0 actively employed
+1.0 quit
+1.0 quitted
+1.0 resigned
+1.0 sent in a resignation
+1.0 will start at a future time
+1.0 will start later
+1.0 will start some time in the future
+1.0 renounce
+1.0 employment status
+1.0 current job status

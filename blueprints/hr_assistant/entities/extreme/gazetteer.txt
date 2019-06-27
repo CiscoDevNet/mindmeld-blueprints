@@ -1,0 +1,17 @@
+1.0 highest
+1.0 lowest
+1.0 top
+1.0 maximum
+1.0 most
+1.0 greatest
+1.0 max
+1.0 oldest
+1.0 eldest
+1.0 latest
+1.0 least
+1.0 minimum
+1.0 bottom
+1.0 lowest
+1.0 min
+1.0 youngest
+1.0 earliest

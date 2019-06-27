@@ -1,0 +1,29 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "top",
+                "maximum",
+                "most",
+                "greatest",
+                "max",
+                "oldest",
+                "eldest",
+                "latest"
+            ],
+            "cname": "highest"
+        },
+        {
+            "whitelist": [
+                "least",
+                "minimum",
+                "bottom",
+                "lowest",
+                "min",
+                "youngest",
+                "earliest"
+            ],
+            "cname": "lowest"
+        }
+    ]
+}

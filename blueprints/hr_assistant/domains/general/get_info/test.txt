@@ -1,0 +1,19 @@
+Is {Lynn|name} {active|employment_status}?
+Is {Julia|name} from out of state?
+give me {Jonathan hogland|name}'s race please
+Is {it/is|department} the department that {Phil Close|name} currently works in
+is the job title of {julia soto|name} a {network engineer|position}
+whats the position of {ivan|name}
+get me the {age|age} of {Taylor|name}
+what is the {performance|performance_score} of {mia|name}
+why did we {fire|employment_action} {Josephine|name}
+is {Nan|name} a {network engineer|position}
+{Brandon LeBlanc|name}'s {age|age} as well as his gender
+Which department is {Jenna|name} a part of?
+job title for {ivan|name}
+does {jessica bunbury|name} live in {california|state}
+what is {eric|name} position
+give me {alfred|name}'s race please
+Is {karen mancuso|name} a citizen of America?
+did {Brad Pitt|name} hear about us through {newspager/magazine|employee_source}?
+please tell me {Michael|name}'s {age|age} as well as his gender?

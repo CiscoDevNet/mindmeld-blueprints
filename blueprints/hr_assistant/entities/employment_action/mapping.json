@@ -1,0 +1,55 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "employed",
+                "recruited",
+                "start date",
+                "date of starting employment",
+                "hiring date",
+                "date of hire",
+                "join",
+                "joined",
+                "date of hiring",
+                "began her employment",
+                "began his employment",
+                "started working",
+                "join date",
+                "worked here",
+                "started",
+                "been with us",
+                "began working for",
+                "started her experience",
+                "started his experience",
+                "been working here",
+                "been with the company",
+                "been here",
+                "long has worked here",
+                "years of experience",
+                "of experience",
+                "employees that have been here",
+                "working here for"
+            ],
+            "cname": "hired"
+        },
+        {
+            "whitelist": [
+                "terminated",
+                "let go",
+                "end date",
+                "date of leaving job",
+                "date of ending employment",
+                "date of termination",
+                "firing date",
+                "end employment",
+                "end his employment",
+                "end her employment",
+                "out of the company",
+                "kicked out",
+                "booted from the company",
+                "booted from the corporation"
+            ],
+            "cname": "fired"
+        }
+    ]
+}

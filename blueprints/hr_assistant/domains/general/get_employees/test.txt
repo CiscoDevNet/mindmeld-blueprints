@@ -1,0 +1,18 @@
+tell me who is the {youngest|extreme} employee
+Which employees are {terminated|employment_action}?
+Which employees are {over|comparator} {34|sys_number} {years old|age}?
+{ID|state} employees listed
+employees {are too early to review|performance_score}
+provide me a list of {accountant i|position}
+who is the {CEO|position} of the company?
+Which employees {exceed expectations|performance_score}?
+list of employees  that are working here 
+{AZ|state} employees listed out
+people {older than|comparator} {54|sys_number} {of age|age}
+list of {administrative assistant|position} staff
+Which employees were {hired|employment_action} {last|date_compare} {May|sys_time}?
+who is doing {software engineering manager|position} at this company?
+{cio|position}
+employees who are {below|comparator} {56|sys_number} {years old|age}?
+{it manager - db|position} employees
+employees that work as an {IT Manager|position}

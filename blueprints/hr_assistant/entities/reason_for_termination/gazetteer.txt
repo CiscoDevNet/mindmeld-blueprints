@@ -1,0 +1,56 @@
+1.0 return to school
+1.0 another position
+1.0 unhappy
+1.0 military
+1.0 gross misconduct
+1.0 hours
+1.0 medical issues
+1.0 relocation out of area
+1.0 more money
+1.0 career change
+1.0 n/a - has not started yet
+1.0 retiring
+1.0 n/a - still employed
+1.0 attendance
+1.0 no-call no-show
+1.0 maternity leave - did not return
+1.0 performance
+1.0 went back to school
+1.0 had to go to school again
+1.0 needed to go back to school
+1.0 went back to college
+1.0 took on another job
+1.0 landed a new position
+1.0 changed positions
+1.0 got a new position
+1.0 found a new position
+1.0 wasn't happy
+1.0 didn't like his job
+1.0 didn't like her job
+1.0 hated the job
+1.0 disliked the job
+1.0 didn't enjoy the job
+1.0 didn't like his work
+1.0 didn't like her work
+1.0 joined the military
+1.0 went to the military
+1.0 left for the military
+1.0 enlisted in the military
+1.0 was drafted into the military
+1.0 got sick
+1.0 fell sick
+1.0 medical problems
+1.0 sick
+1.0 was relocated
+1.0 had to relocated
+1.0 was assigned to a new location
+1.0 was assigned to a different location
+1.0 changed careers
+1.0 retired
+1.0 went into retirement
+1.0 poor attendance
+1.0 bad attendance
+1.0 did not come back from maternity leave
+1.0 had a kid and dissapeared
+1.0 poor performance
+1.0 performed below expectations

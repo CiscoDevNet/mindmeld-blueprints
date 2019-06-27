@@ -1,0 +1,10 @@
+{mean|function} {$|money} of {it manager - db|position} in the {VT|state}?
+what is the {total|function} {amount of money|money} that employees that are {citizens|citizendesc} have {earned|money}?
+Amount that company {pay|money} its employees {last month|sys_time} on {average|function}?
+{avg|function} {income|money} for {on-line web application|employee_source}
+give me the {average|function} take home {salary|money} for {Production Technicians|position}
+what is the {average|function} {income|money} that employees that are {non-citizen|citizendesc} {make|money}?
+Calculate for me the {ratios|function} of {earnings|money} at our company?
+{how many|function} {female|sex} employees {earn|money} {more than|comparator} {30|sys_number} {an hour|sys_duration}
+{total|function} employees are paid {above|comparator} {salary|money} of {60,000|sys_number} {a month|sys_duration}?
+of the {president & ceo|position}s, give me the {min|extreme} {earner|money}

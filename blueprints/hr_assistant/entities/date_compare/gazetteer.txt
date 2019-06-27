@@ -1,0 +1,13 @@
+1.0 prev
+1.0 post
+1.0 before
+1.0 pre
+1.0 prior to
+1.0 after
+1.0 last
+1.0 post
+1.0 this year
+1.0 this month
+1.0 this week
+1.0 atleast
+1.0 since

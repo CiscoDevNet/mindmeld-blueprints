@@ -1,0 +1,49 @@
+1.0 2000s
+1.0 2010s
+1.0 1920s
+1.0 1930s
+1.0 1940s
+1.0 1950s
+1.0 1960s
+1.0 1970s
+1.0 1980s
+1.0 1990s
+1.0 00's
+1.0 2000's
+1.0 two thousands
+1.0 10's
+1.0 two thousand tens
+1.0 tens
+1.0 2010's
+1.0 20's
+1.0 nineteen twenties
+1.0 twenties
+1.0 1920's
+1.0 30's
+1.0 nineteen thirties
+1.0 thirties
+1.0 1930's
+1.0 40's
+1.0 nineteen forties
+1.0 forties
+1.0 1940's
+1.0 50's
+1.0 nineteen fifties
+1.0 fifties
+1.0 1950's
+1.0 60's
+1.0 nineteen sixties
+1.0 sixties
+1.0 1960's
+1.0 70's
+1.0 nineteen seventies
+1.0 seventies
+1.0 1970's
+1.0 80's
+1.0 nineteen eighties
+1.0 eighties
+1.0 1980's
+1.0 90's
+1.0 nineteen nineties
+1.0 nineties
+1.0 1990's

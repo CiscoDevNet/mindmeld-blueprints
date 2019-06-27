@@ -1,0 +1,10 @@
+{fired|employment_action} {this month|date_compare} employees
+People from {software engineering|department} dept that have been {working here for|employment_action} us within the {pre|date_compare} {five months|sys_duration}
+{married|maritaldesc} employees with a {date of hire|employment_action} {last|date_compare} {2 years|sys_duration}
+Which employees were {born in|dob} the {80's|time_interval}?
+{two or more races|racedesc} {born|dob} in the {nineteen thirties|time_interval}
+find me {hispanic|racedesc} {born|dob} {between 1980 and today|sys_interval}
+which employees from the {software engineering department|department} {join|employment_action} us in {2014|sys_time}
+get me all of the folks who were {born|dob} in the {eighties|time_interval}
+{non citizens|citizendesc} {terminated|employment_action} in {2015|sys_time}
+Which are the employees such that in {2005|sys_time} {joined|employment_action} the organization

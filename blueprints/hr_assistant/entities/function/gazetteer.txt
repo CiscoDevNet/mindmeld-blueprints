@@ -1,0 +1,34 @@
+1.0 percent
+1.0 sum
+1.0 average
+1.0 count
+1.0 fraction
+1.0 portion
+1.0 proportion
+1.0 percentage
+1.0 %
+1.0 ratio
+1.0 ratios
+1.0 pct
+1.0 distribution
+1.0 total
+1.0 cumulative
+1.0 added up
+1.0 summed up
+1.0 totalled
+1.0 summed
+1.0 combined
+1.0 aggregate
+1.0 mean
+1.0 typical
+1.0 typically
+1.0 median
+1.0 avg
+1.0 range
+1.0 how many
+1.0 number
+1.0 number of
+1.0 num of
+1.0 headcount
+1.0 count of
+1.0 turn over rate

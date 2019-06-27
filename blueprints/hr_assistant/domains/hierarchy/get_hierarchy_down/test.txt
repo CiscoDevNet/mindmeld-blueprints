@@ -1,0 +1,13 @@
+employees who have a {report to|manager} that goes by the name {Latia|name}
+{scott|name} is a {boss|manager}, right?
+get me a list of all of the employees who {report to|manager} {Sneha|name} if there are any
+Gimmmie a list of employees that are currently {work for|manager} {Peter Monroe|name}
+Tell me which employees have {Patrick Moran|name} as their {manager|manager}
+which are the employees that are {under|comparator} the {supervisor|manager} {Linda|name}?
+can you tell me whether {michael riordan|name} is a {boss|manager} or not?
+which employees have a {management|manager} person that goes by the name {Benjamin Burkett|name}
+I'd like the employees who {report to|manager} Madame {Elisa Bramante|name}
+who is under {ivan rogers|name}
+is there anyone {reporting|manager} to Ms. {Amy dunn|name}, if so who are those people?
+does {Ermine Pelletier|name} {lead|manager} {phil close|name}
+for which employees is {adell|name} the {boss|manager}

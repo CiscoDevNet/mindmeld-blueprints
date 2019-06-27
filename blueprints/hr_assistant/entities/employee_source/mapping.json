@@ -1,0 +1,132 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "info session"
+            ],
+            "cname": "information session"
+        },
+        {
+            "whitelist": [],
+            "cname": "company intranet - partner"
+        },
+        {
+            "whitelist": [
+                "social media",
+                "social media apps",
+                "facebook",
+                "instagram",
+                "twitter",
+                "snapchat",
+                "social network"
+            ],
+            "cname": "social networks - facebook twitter etc"
+        },
+        {
+            "whitelist": [
+                "newspaper",
+                "magazine"
+            ],
+            "cname": "newspager/magazine"
+        },
+        {
+            "whitelist": [
+                "google",
+                "bing",
+                "yahoo",
+                "search engine - google bing yahoo'",
+                "search engine"
+            ],
+            "cname": "internet search"
+        },
+        {
+            "whitelist": [
+                "poster"
+            ],
+            "cname": "billboard"
+        },
+        {
+            "whitelist": [
+                "ppc",
+                "google ads",
+                "google ppc",
+                "ppc google"
+            ],
+            "cname": "pay per click"
+        },
+        {
+            "whitelist": [
+                "application potal",
+                "job portal"
+            ],
+            "cname": "on-line web application"
+        },
+        {
+            "whitelist": [
+                "glass door"
+            ],
+            "cname": "glassdoor"
+        },
+        {
+            "whitelist": [
+                "professional group"
+            ],
+            "cname": "professional society"
+        },
+        {
+            "whitelist": [
+                "monster"
+            ],
+            "cname": "monster.com"
+        },
+        {
+            "whitelist": [],
+            "cname": "diversity job fair"
+        },
+        {
+            "whitelist": [],
+            "cname": "careerbuilder"
+        },
+        {
+            "whitelist": [
+                "advertisement",
+                "ads"
+            ],
+            "cname": "mbta ads"
+        },
+        {
+            "whitelist": [
+                "verbal mention"
+            ],
+            "cname": "word of mouth"
+        },
+        {
+            "whitelist": [],
+            "cname": "other"
+        },
+        {
+            "whitelist": [
+                "referred by vendor",
+                "vendor referred"
+            ],
+            "cname": "vendor referral"
+        },
+        {
+            "whitelist": [
+                "on-campus job fair",
+                "career fair"
+            ],
+            "cname": "on-campus recruiting"
+        },
+        {
+            "whitelist": [],
+            "cname": "website banner ads"
+        },
+        {
+            "whitelist": [
+                "referred by employee"
+            ],
+            "cname": "employee referral"
+        }
+    ]
+}

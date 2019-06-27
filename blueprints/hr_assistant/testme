@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+flake8 app.py tests/
+
+cd tests/functional
+pytest .

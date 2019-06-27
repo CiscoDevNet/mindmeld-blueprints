@@ -1,0 +1,25 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "salary",
+                "income",
+                "pay",
+                "earn",
+                "earnings",
+                "make",
+                "dollars",
+                "$",
+                "paycheck",
+                "earns",
+                "earning",
+                "earners",
+                "earner",
+                "incomes",
+                "paycheck",
+                "compensation"
+            ],
+            "cname": "pay rate"
+        }
+    ]
+}
