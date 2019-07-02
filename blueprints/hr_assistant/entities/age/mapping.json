@@ -1,14 +1,160 @@
 {
     "entities": [
         {
-            "whitelist": [
-                "old",
-                "years old",
-                "age of",
-                "ages of",
-                "age"
-            ],
-            "cname": "age"
+            "whitelist": [],
+            "cname": "32"
+        },
+        {
+            "whitelist": [],
+            "cname": "33"
+        },
+        {
+            "whitelist": [],
+            "cname": "31"
+        },
+        {
+            "whitelist": [],
+            "cname": "29"
+        },
+        {
+            "whitelist": [],
+            "cname": "30"
+        },
+        {
+            "whitelist": [],
+            "cname": "38"
+        },
+        {
+            "whitelist": [],
+            "cname": "63"
+        },
+        {
+            "whitelist": [],
+            "cname": "46"
+        },
+        {
+            "whitelist": [],
+            "cname": "36"
+        },
+        {
+            "whitelist": [],
+            "cname": "47"
+        },
+        {
+            "whitelist": [],
+            "cname": "37"
+        },
+        {
+            "whitelist": [],
+            "cname": "44"
+        },
+        {
+            "whitelist": [],
+            "cname": "54"
+        },
+        {
+            "whitelist": [],
+            "cname": "49"
+        },
+        {
+            "whitelist": [],
+            "cname": "28"
+        },
+        {
+            "whitelist": [],
+            "cname": "48"
+        },
+        {
+            "whitelist": [],
+            "cname": "42"
+        },
+        {
+            "whitelist": [],
+            "cname": "53"
+        },
+        {
+            "whitelist": [],
+            "cname": "66"
+        },
+        {
+            "whitelist": [],
+            "cname": "34"
+        },
+        {
+            "whitelist": [],
+            "cname": "52"
+        },
+        {
+            "whitelist": [],
+            "cname": "39"
+        },
+        {
+            "whitelist": [],
+            "cname": "45"
+        },
+        {
+            "whitelist": [],
+            "cname": "41"
+        },
+        {
+            "whitelist": [],
+            "cname": "40"
+        },
+        {
+            "whitelist": [],
+            "cname": "62"
+        },
+        {
+            "whitelist": [],
+            "cname": "43"
+        },
+        {
+            "whitelist": [],
+            "cname": "59"
+        },
+        {
+            "whitelist": [],
+            "cname": "27"
+        },
+        {
+            "whitelist": [],
+            "cname": "67"
+        },
+        {
+            "whitelist": [],
+            "cname": "50"
+        },
+        {
+            "whitelist": [],
+            "cname": "35"
+        },
+        {
+            "whitelist": [],
+            "cname": "26"
+        },
+        {
+            "whitelist": [],
+            "cname": "25"
+        },
+        {
+            "whitelist": [],
+            "cname": "65"
+        },
+        {
+            "whitelist": [],
+            "cname": "51"
+        },
+        {
+            "whitelist": [],
+            "cname": "58"
+        },
+        {
+            "whitelist": [],
+            "cname": "56"
+        },
+        {
+            "whitelist": [],
+            "cname": "64"
         }
     ]
 }

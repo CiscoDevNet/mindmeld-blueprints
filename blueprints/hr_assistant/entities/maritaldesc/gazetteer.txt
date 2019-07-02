@@ -1,25 +1,25 @@
-1.0 married
-1.0 divorced
-1.0 single
-1.0 separated
-1.0 widowed
-1.0 wed
-1.0 legally married
-1.0 espoused
-1.0 joined in holy matrimony
-1.0 hitched
-1.0 unmarried
-1.0 bachelor
-1.0 bachelorette
-1.0 husbandless
-1.0 without a partner
-1.0 unwedded
-1.0 wifeless
-1.0 no longer married
-1.0 without a husband
-1.0 without a wife
-1.0 maritaldesc
-1.0 marital status
-1.0 spouse
-1.0 husband
-1.0 wife
+married
+divorced
+single
+separated
+widowed
+wed
+legally married
+espoused
+joined in holy matrimony
+hitched
+unmarried
+bachelor
+bachelorette
+husbandless
+without a partner
+unwedded
+wifeless
+no longer married
+without a husband
+without a wife
+maritaldesc
+marital status
+spouse
+husband
+wife

@@ -1,10 +1,13 @@
-{mean|function} {$|money} of {it manager - db|position} in the {VT|state}?
-what is the {total|function} {amount of money|money} that employees that are {citizens|citizendesc} have {earned|money}?
-Amount that company {pay|money} its employees {last month|sys_time} on {average|function}?
+fetch me the {min|extreme} {compensation|money} for a {network engineer|position} at this organization
+how much do {non-citizen|citizendesc} {earn|money} on {average|function} {hourly|time_recur}
+{average|function} {hourly|time_recur} {earnings|money} for {us citizen|citizendesc}
+how much do {non-citizens|citizendesc} {earn|money} on {average|function} {hourly|time_recur}
 {avg|function} {income|money} for {on-line web application|employee_source}
-give me the {average|function} take home {salary|money} for {Production Technicians|position}
+how much do {immigrants|citizendesc} {earn|money} on {average|function} {hourly|time_recur}
+What is the {percent|function} is {earned|money} by {sales manager|position}s in the company?
+how much do {non us citizen|citizendesc} {earn|money} on {average|function} {hourly|time_recur}
+i want the {fraction|function} of employees in the {Sales department|department} that are {making|money} exactly {$70,000|sys_amount-of-money}
+{average|function} {income|money} of employees {recruited|employment_action} {last month|sys_time}
+what are {production technicians|position} {making|money} on {average|function}?
 what is the {average|function} {income|money} that employees that are {non-citizen|citizendesc} {make|money}?
-Calculate for me the {ratios|function} of {earnings|money} at our company?
-{how many|function} {female|sex} employees {earn|money} {more than|comparator} {30|sys_number} {an hour|sys_duration}
-{total|function} employees are paid {above|comparator} {salary|money} of {60,000|sys_number} {a month|sys_duration}?
-of the {president & ceo|position}s, give me the {min|extreme} {earner|money}
+what is the {typical|function} {salary|money} of {immigrant|citizendesc} people

@@ -1,32 +1,32 @@
-1.0 black or african american
-1.0 asian
-1.0 two or more races
-1.0 white
-1.0 hispanic
-1.0 american indian or alaska native
-1.0 black
-1.0 african american
-1.0 african-american
-1.0 from asia
-1.0 multiracial
-1.0 multi-racial
-1.0 mixed
-1.0 mixed race
-1.0 biracial
-1.0 interracial
-1.0 caucasian
-1.0 latino
-1.0 native
-1.0 natives
-1.0 indians
-1.0 indian
-1.0 american indian
-1.0 alaska native
-1.0 ethnicity
-1.0 race
-1.0 racial background
-1.0 ethnic group
-1.0 ethnic type
-1.0 racial indentity
-1.0 community
-1.0 minorities
+black or african american
+asian
+two or more races
+white
+hispanic
+american indian or alaska native
+black
+african american
+african-american
+from asia
+multiracial
+multi-racial
+mixed
+mixed race
+biracial
+interracial
+caucasian
+latino
+native
+natives
+indians
+indian
+american indian
+alaska native
+ethnicity
+race
+racial background
+ethnic group
+ethnic type
+racial indentity
+community
+minorities

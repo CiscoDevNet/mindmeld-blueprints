@@ -1,9 +1,13 @@
-{female|sex} {earnings|money}
-the {lowest|extreme} {10|sys_number} {earners|money} in {Sales|department}
-Of all employees who are the {employees that have been here|employment_action} from {3|sys_number} to {6 years|sys_duration}
-Who {earns|money} the {least|extreme} in the {executive office|department} dept
-how much are {pay per click - google|employee_source} {earner|money}?
-Tell me who all are {making|money} {more than|comparator} {50k|sys_number}
-Which {white|racedesc} employee {income|money} the {greatest|extreme}
-{below|comparator} {average|function} {earning|money} workers
-{female|sex} {income|money}
+Tell me the employee that {works for|manager} {Jennifer Zamora|name} that {earns|money} the {least|extreme} amount?
+For employees {hired|employment_action} {between|comparator} {3|sys_number} to {8 years|sys_duration} ago, which employee is {paid|money} the {least|extreme}?
+Get me the {least|extreme} {four|sys_number} {earners|money} in the {admin offices|department} department.
+{non-citizens|citizendesc} workers {salaries|money}
+find me the {not citizens|citizendesc} people {making|money} the {minimum|extreme}
+what are {network engineers|position} {making|money} at this company
+{earnings|money} of {non citizen|citizendesc} employees
+Who makes the {least|extreme} {salary|money}?
+who has the {greatest|extreme} {earnings|money} among the {director of sales|position}
+tell me the {max|extreme} {salary|money} among {men|sex}
+all the {salaries|money} of {women|sex} in the company
+Which employee that {works under|manager} {Simon Roup|name} {makes|money} the {most|extreme}?
+{non citizen|citizendesc}s {income|money}s

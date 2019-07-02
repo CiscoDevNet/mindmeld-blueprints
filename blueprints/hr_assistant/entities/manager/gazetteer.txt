@@ -1,27 +1,27 @@
-1.0 manager
-1.0 manager name
-1.0 manager
-1.0 incharge
-1.0 supervisor
-1.0 mentor
-1.0 leadership
-1.0 boss
-1.0 management
-1.0 head
-1.0 lead
-1.0 chairman
-1.0 working for
-1.0 works for
-1.0 work for
-1.0 manage
-1.0 managed by
-1.0 managing
-1.0 manages
-1.0 reports to
-1.0 report to
-1.0 reporting to
-1.0 reporting
-1.0 working under
-1.0 is under
-1.0 leads
-1.0 in charge of
+manager
+manager name
+manager
+incharge
+supervisor
+mentor
+leadership
+boss
+management
+head
+lead
+chairman
+working for
+works for
+work for
+manage
+managed by
+managing
+manages
+reports to
+report to
+reporting to
+reporting
+working under
+is under
+leads
+in charge of

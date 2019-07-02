@@ -1,12 +1,12 @@
-1.0 dob
-1.0 birthday
-1.0 birthdate
-1.0 birth date
-1.0 date of birth
-1.0 day of birth
-1.0 born on
-1.0 born on the
-1.0 born in
-1.0 born after
-1.0 born before
-1.0 DOB
+dob
+birthday
+birthdate
+birth date
+date of birth
+day of birth
+born on
+born on the
+born in
+born after
+born before
+DOB

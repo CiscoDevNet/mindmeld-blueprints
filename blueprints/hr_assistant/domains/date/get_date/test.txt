@@ -1,11 +1,11 @@
-I want the date when {julia soto|name} {starting working|employment_action} here
-Please Get me {Kelley Spirea|name}'s {Bday|dob}
-{julia|name} {birthday|dob}
-{ended her employment|employment_action}, {Earnest Hankard|name} when
-{date of birth|dob} of {Joelle Burke|name}
-When was {Joe South|name} {date of starting employment|employment_action}?
-What year was {Lily DiNocco|name} {let go|employment_action} of?
-Fetch me {Francesco Barone|name}'s {Bday|dob}
-Tell me {Ivan Rogers|name}'s {dob|dob}
-When was {Caitrin Strong|name} {date of hire|employment_action}?
-{Christie Harrington|name} {start date|employment_action}, what was the date?
+When was it that {Barry Wilber|name} {started working|employment_action} here?
+{Ivan Soto|name} {DOB|dob}
+When was {Ricardo Ruiz|name} {terminated|employment_action}?
+{Bianca Roehrich|name} {DOB|dob}
+{start date|employment_action}, {Ivan Rogers|name}
+What year was {Paula|name}s {start date|employment_action}?
+How long has Mr.{Knapp|name} worked here?
+When {Maryellen Jackson|name} was {born|dob}, what was the month
+Give me {Charles Bozzi|name}'s {termination|employment_action} date
+How long was {ivan rogers|name} working for?
+Was it {May|sys_time} or {June|sys_time} when we had to let {julia soto|name} go?

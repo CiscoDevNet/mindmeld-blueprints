@@ -1,48 +1,48 @@
-1.0 yearly
-1.0 monthly
-1.0 weekly
-1.0 daily
-1.0 hourly
-1.0 by the year
-1.0 every year
-1.0 each year
-1.0 annually
-1.0 on a yearly basis
-1.0 per year
-1.0 annual
-1.0 in a year
-1.0 in the year
-1.0 by the month
-1.0 every month
-1.0 each month
-1.0 month to month
-1.0 month-to-month
-1.0 on a monthly basis
-1.0 per month
-1.0 in a month
-1.0 in the month
-1.0 by the week
-1.0 every week
-1.0 each week
-1.0 week by week
-1.0 on a weekly basis
-1.0 per week
-1.0 in a week
-1.0 in the week
-1.0 daily
-1.0 every day
-1.0 day by day
-1.0 each day
-1.0 on a daily basis
-1.0 per day
-1.0 in a day
-1.0 in the day
-1.0 every hour
-1.0 each hour
-1.0 on an hourly basis
-1.0 on the hour
-1.0 per hour
-1.0 in an hour
-1.0 in  a hour
-1.0 hour
-1.0 in the hour
+yearly
+monthly
+weekly
+daily
+hourly
+by the year
+every year
+each year
+annually
+on a yearly basis
+per year
+annual
+in a year
+in the year
+by the month
+every month
+each month
+month to month
+month-to-month
+on a monthly basis
+per month
+in a month
+in the month
+by the week
+every week
+each week
+week by week
+on a weekly basis
+per week
+in a week
+in the week
+daily
+every day
+day by day
+each day
+on a daily basis
+per day
+in a day
+in the day
+every hour
+each hour
+on an hourly basis
+on the hour
+per hour
+in an hour
+in  a hour
+hour
+in the hour

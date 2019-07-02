@@ -1,20 +1,20 @@
-1.0 pay rate
-1.0 salary
-1.0 income
-1.0 pay
-1.0 earn
-1.0 earnings
-1.0 make
-1.0 dollars
-1.0 $
-1.0 paycheck
-1.0 earns
-1.0 earning
-1.0 earners
-1.0 earner
-1.0 incomes
-1.0 paycheck
-1.0 compensation
-1.0 earns
-1.0 makes
-1.0 amount
+pay rate
+salary
+income
+pay
+earn
+earnings
+make
+dollars
+$
+paycheck
+earns
+earning
+earners
+earner
+incomes
+paycheck
+compensation
+earns
+makes
+amount

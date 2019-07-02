@@ -17,18 +17,15 @@
                 "non citizen",
                 "not a citizen",
                 "non us citizen",
-                "not citizens"
+                "not citizens",
+                "from abroad",
+                "immigrant",
+                "immigrants",
+                "eligble non citizen",
+                "non-citizen",
+                "non-citizens"
             ],
-            "cname": "eligible noncitizen"
-        },
-        {
-            "whitelist": [
-                "non citizen",
-                "not a citizen",
-                "non us citizen",
-                "not citizens"
-            ],
-            "cname": "non-citizen"
+            "cname": "non citizen"
         }
     ]
 }

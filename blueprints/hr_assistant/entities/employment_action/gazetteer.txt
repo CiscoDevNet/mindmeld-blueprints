@@ -1,43 +1,43 @@
-1.0 hired
-1.0 fired
-1.0 employed
-1.0 recruited
-1.0 start date
-1.0 date of starting employment
-1.0 hiring date
-1.0 date of hire
-1.0 join
-1.0 joined
-1.0 date of hiring
-1.0 began her employment
-1.0 began his employment
-1.0 started working
-1.0 join date
-1.0 worked here
-1.0 started
-1.0 been with us
-1.0 began working for
-1.0 started her experience
-1.0 started his experience
-1.0 been working here
-1.0 been with the company
-1.0 been here
-1.0 long has worked here
-1.0 years of experience
-1.0 of experience
-1.0 employees that have been here
-1.0 working here for
-1.0 terminated
-1.0 let go
-1.0 end date
-1.0 date of leaving job
-1.0 date of ending employment
-1.0 date of termination
-1.0 firing date
-1.0 end employment
-1.0 end his employment
-1.0 end her employment
-1.0 out of the company
-1.0 kicked out
-1.0 booted from the company
-1.0 booted from the corporation
+hired
+fired
+employed
+recruited
+start date
+date of starting employment
+hiring date
+date of hire
+join
+joined
+date of hiring
+began her employment
+began his employment
+started working
+join date
+worked here
+started
+been with us
+began working for
+started her experience
+started his experience
+been working here
+been with the company
+been here
+long has worked here
+years of experience
+of experience
+employees that have been here
+working here for
+terminated
+let go
+end date
+date of leaving job
+date of ending employment
+date of termination
+firing date
+end employment
+end his employment
+end her employment
+out of the company
+kicked out
+booted from the company
+booted from the corporation

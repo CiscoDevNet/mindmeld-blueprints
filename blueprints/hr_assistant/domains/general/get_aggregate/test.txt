@@ -1,12 +1,16 @@
-What {percentage|function} of employees {meet|performance_score} or {exceed expectations|performance_score}?
-Calculate the {number of|function} managers in the {software engineering|department} department?
-{How many|function} {women|sex} are in the {Engineering Department|department}?
-{combined|function} {number of|function} employees from different states?
-What is the {percentage|function} of new grads in {engineering|department}
-What is the {ratio|function} of races in our company?
-{How many|function} employees are there in {sales|department}
-Calculate the {total|function} {count|function} of employees who are registered as {male|sex}?
-{percent|function} break down of employees that joined via {on-campus recruiting|employee_source}, {careerbuilder|employee_source} and {word of mouth|employee_source}?
-What {total number|function} of employees are {meeting 90 day expectations|performance_score}?
+What {percentage|function} of the employees are minorities?
+Employees with more than {5 yrs|sys_duration} of experience in their field
+{How many|function} employees are {male|sex}?
+What {percentage|function} of employees are {female|sex}?
+{total|function} of employees are {single|maritaldesc}?
 What {percent|function} of employees are {american citizens|citizendesc}?
-Inform me of the {cumulative|function} of employees who are {separated|maritaldesc}?
+{How many|function} employees are minorities?
+What {percent|function} of employees are managers?
+{aggregate|function} {num of|function} employees that are {below|comparator} the {age of|age} {58|age}?
+what {percent|function} of employees {joined us|employment_action} as a result of a {newspager/magazine|employee_source}?
+What {ratio|function} of employees are {us citizen|citizendesc}?
+{summed|function} up {number of|function} {fired|employment_action} employees due to {sexual harassment|reason_for_termination}?
+What {percent|function} of employees {exceed expecations|performance_score}?
+What is the {percentage|function} of employees that {exceeds expectations|performance_score} on his or her {performance score|performance_score}?
+{from abroad|citizendesc} {total|function} {count of|function}
+{distribution|function} in department with prior experience

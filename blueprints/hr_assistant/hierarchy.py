@@ -3,7 +3,7 @@
 the MindMeld HR assistant blueprint application
 """
 from .root import app
-from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb
+from hr_assistant.general import _resolve_categorical_entities, _resolve_function_entity, _resolve_extremes, _agg_function, _get_names, _get_person_info, _fetch_from_kb, _not_an_employee
 
 
 
@@ -19,9 +19,11 @@ def get_hierarchy_up(request, responder):
 		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
 
 		# if no name, shift to exception flow
-		name_ent[0]
+		assert name_ent[0]
 
 		for name in name_ent:
+			if name=='':
+				responder.reply(_not_an_employee())
 			responder = _fetch_from_kb(responder, name, 'manager')
 			reply = ["{manager} is {name}'s manager"]
 			responder.reply(reply)
@@ -41,9 +43,11 @@ def get_hierarchy_down(request, responder):
 		name_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'name']
 
 		# if no name, shift to exception flow
-		name_ent[0]
+		assert name_ent[0]
 
 		for name in name_ent:
+			if name=='':
+				responder.reply(_not_an_employee())
 			responder = _fetch_from_kb(responder, name, 'subordinates')
 			if len(responder.slots['subordinates'])==0:
 				responder.reply("{name} has no subordinates")

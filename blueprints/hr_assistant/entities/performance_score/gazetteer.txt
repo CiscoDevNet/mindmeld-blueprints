@@ -1,37 +1,37 @@
-1.0 exceptional
-1.0 fully meets
-1.0 n/a- too early to review
-1.0 pip
-1.0 needs improvement
-1.0 exceeds
-1.0 90-day meets
-1.0 extraordinary
-1.0 up to the mark
-1.0 meet expectations
-1.0 meet
-1.0 meets
-1.0 performing badly
-1.0 performing below expectations
-1.0 not meeting standards
-1.0 not meeting expectations
-1.0 poor performance
-1.0 performing poorly
-1.0 poorly performing
-1.0 does not meet
-1.0 do not meet
-1.0 beyond expectations
-1.0 more than expected
-1.0 better than expected
-1.0 higher than excpected
-1.0 exceed expectations
-1.0 performance rating
-1.0 performance score
-1.0 performance evaluation
-1.0 performance eval
-1.0 evalation
-1.0 eval
-1.0 performance evaluation history
-1.0 performance eval history
-1.0 performance
-1.0 performance history
-1.0 how well
+exceptional
+fully meets
+n/a- too early to review
+pip
+needs improvement
+exceeds
+90-day meets
+extraordinary
+up to the mark
+meet expectations
+meet
+meets
+performing badly
+performing below expectations
+not meeting standards
+not meeting expectations
+poor performance
+performing poorly
+poorly performing
+does not meet
+do not meet
+beyond expectations
+more than expected
+better than expected
+higher than excpected
+exceed expectations
+performance rating
+performance score
+performance evaluation
+performance eval
+evalation
+eval
+performance evaluation history
+performance eval history
+performance
+performance history
+how well

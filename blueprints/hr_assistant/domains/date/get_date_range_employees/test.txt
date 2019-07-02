@@ -1,10 +1,14 @@
-{fired|employment_action} {this month|date_compare} employees
-People from {software engineering|department} dept that have been {working here for|employment_action} us within the {pre|date_compare} {five months|sys_duration}
-{married|maritaldesc} employees with a {date of hire|employment_action} {last|date_compare} {2 years|sys_duration}
+who was the {earliest|extreme} employee to be {fired|employment_action}
+list of employees that were {born|dob} the {seventies|time_interval}
+Which employees were not yet {born|dob} when {9/11|sys_time} happened?
+{male|sex} workers {born|dob} in the {90's|time_interval}
+{non us citizen|citizendesc} employees were {fired|employment_action} in the {last|date_compare} {five years|sys_duration}?
+I want {male|sex} {born|dob} in the {1930s|time_interval}
+which {citizen|citizendesc} workers {joined|employment_action} in {2012|sys_time}
+which {from abroad|citizendesc} workers have a {birthday|dob} in {1960|time_interval}
+Find me the names of {not citizens|citizendesc} {hired|employment_action} in {2013|sys_time}
+Find me the names of {non us citizen|citizendesc} {hired|employment_action} in {2013|sys_time}
+{women|sex} {born|dob} in the {60's|time_interval}
 Which employees were {born in|dob} the {80's|time_interval}?
-{two or more races|racedesc} {born|dob} in the {nineteen thirties|time_interval}
-find me {hispanic|racedesc} {born|dob} {between 1980 and today|sys_interval}
-which employees from the {software engineering department|department} {join|employment_action} us in {2014|sys_time}
-get me all of the folks who were {born|dob} in the {eighties|time_interval}
-{non citizens|citizendesc} {terminated|employment_action} in {2015|sys_time}
-Which are the employees such that in {2005|sys_time} {joined|employment_action} the organization
+get me a list of {eligble non citizen|citizendesc} workersthat have their {birthdays|dob} in the {1970's|time_interval}
+{us citizen|citizendesc} employees were {fired|employment_action} in the {last|date_compare} {five years|sys_duration}?

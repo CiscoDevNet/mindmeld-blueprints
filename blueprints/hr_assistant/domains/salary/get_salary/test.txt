@@ -1,14 +1,14 @@
-{Jumil Turpin|name} {month to month|time_recur} {dollars|money}
-What are {Julia Soto|name}'s {earnings|money} {year to year|time_recur}?
-What is the {paycheck|money} of {Maria Gonzalez|name}?
-{Mike Guilianno|name} {salary|money} {every year|time_recur}
-How much does {Anna Von Massenbach|name} get in {earnings|money}?
-What does {julia soto|name} {make|money} {on the hour|time_recur}
-How much {money|money} does {nan singh|name} bring in {every year|time_recur}?
-What is the {$|money} of {Mia|name}?
-What is {Samuel MacLenivan|name} {income|money}
-How much is {Sandy Mckenna|name} {earning|money} on the {payroll|money}
-What does the {payroll|money} say about {Mia|name}'s {earning|money}
-What is the {every year|time_recur} {dollars|money} for {Beatrice Chace|name} at Cisco?
-Is {Leigh|name} being {paid|money} {40k|sys_number}?
-{Nicole|name} {makes|money} amount {each week|time_recur}
+Is it true that {Taisha Goble|name} has a {six figure|sys_number} {incomes|money}?
+{salary|money} {lindsay|name}
+{earning|money} amount {Michelle|name}
+How much does Cisco give {nan|name} in {$|money} {monthly|time_recur}?
+How much is {Lenora Tejeda|name} {earning|money} on her {paycheck|money}
+What does {Rose Ivey|name} get for {income|money}?
+{each week|time_recur} {earnings|money}, {Megan Faller|name}
+{jeanette|name} {earns|money} {every year|time_recur}
+{dianna blount|name} {earns|money} how much {by the week|time_recur}
+According to the {payroll|money}, how much does {Carla Demita|name} get in {earnings|money}?
+How much is {Helen Billis|name} {earner|money}?
+How much {earnings|money} does {anna von massenbach|name} {paycheck|money} from the organization {every week|time_recur}?
+What is {John Kretschmer|name}'s {paycheck|money}?
+Tell me who earned the {minimum|extreme} that {began his employment|employment_action} {this year|sys_time}?

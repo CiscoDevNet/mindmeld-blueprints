@@ -1,19 +1,45 @@
-Is {Lynn|name} {active|employment_status}?
-Is {Julia|name} from out of state?
-give me {Jonathan hogland|name}'s race please
-Is {it/is|department} the department that {Phil Close|name} currently works in
-is the job title of {julia soto|name} a {network engineer|position}
-whats the position of {ivan|name}
-get me the {age|age} of {Taylor|name}
-what is the {performance|performance_score} of {mia|name}
-why did we {fire|employment_action} {Josephine|name}
-is {Nan|name} a {network engineer|position}
-{Brandon LeBlanc|name}'s {age|age} as well as his gender
-Which department is {Jenna|name} a part of?
-job title for {ivan|name}
-does {jessica bunbury|name} live in {california|state}
-what is {eric|name} position
-give me {alfred|name}'s race please
-Is {karen mancuso|name} a citizen of America?
-did {Brad Pitt|name} hear about us through {newspager/magazine|employee_source}?
-please tell me {Michael|name}'s {age|age} as well as his gender?
+What is {lisa galia|name}'s {job|position}?
+{Jason Salter|name}'s {occupation|position}
+{Mei|name} {sex|sex}
+{state|state} of {phil close|name}
+what's {Thelma|name}s {dept|department}
+Is ms.{Carter|name} a {married|maritaldesc} {woman|sex}?
+What's {joseph buccheri|name}s {position|position}
+What is {lily dinocco|name}'s {position|position}?
+what's {carla|name}'s' {gender|sex}
+Which {department|department} does {Janine|name} work for?
+what does {Jene'ya|name} do
+{ermine pelletier|name} {occupation|position}
+{janet king|name} {gender|sex}
+whats {Ricardo Ruiz|name} {job|position}?
+{kathleen|name}'s {race|racedesc}
+what is {anita|name}'s age?
+Is {Nan|name} {married|maritaldesc}?
+{gender|sex} of {lori|name}
+{job|position} of {Jac|name}
+{Jean|name}'s {position|position}
+is Jeremiah a {immigrants|citizendesc}?
+whats {Daniff HerIvandez|name}'s {race|racedesc} ?
+is {Julia|name} based in {MA|state}
+what {department|department} does {nan singh|name} currently work in
+where is {Mia Brown|name} from
+{nina panjwani|name} {sex|sex}
+whats {Michael|name} {job|position}?
+{role|position} of {charles bozzi|name}
+is shakira perry a {eligible non-citizens|citizendesc}?
+{sex|sex} that {lori roby|name} is
+what {state|state} is {david stanley|name} from?
+what is {kelley|name}'s {department|department}?
+whats {Patrick|name}'s {department|department}?
+what's {Tyrone Steans|name}s {department|department}
+is benjamin burkett a {from abroad|citizendesc}?
+{dept|department} of {Anita Shepard|name}
+Why did {Nan|name} get {fired|employment_action}?
+What's {Susan Ferguson|name}s {occupation|position}
+{enrico langton|name} {employment status|employment_status}
+{status of employment|employment_status} that {Bruno|name} is in
+whats {joe south|name} {job title|position}?
+Why and when did {Rex England|name} get {join|employment_action}?
+did {Maruk|name} hear about us through {monster.com|employee_source}?
+what is {ivan|name}'s {age|age}
+Does {Allison Lydon|name} {meet 90-day expectations|performance_score}?

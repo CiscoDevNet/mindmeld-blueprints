@@ -1,56 +1,56 @@
-1.0 return to school
-1.0 another position
-1.0 unhappy
-1.0 military
-1.0 gross misconduct
-1.0 hours
-1.0 medical issues
-1.0 relocation out of area
-1.0 more money
-1.0 career change
-1.0 n/a - has not started yet
-1.0 retiring
-1.0 n/a - still employed
-1.0 attendance
-1.0 no-call no-show
-1.0 maternity leave - did not return
-1.0 performance
-1.0 went back to school
-1.0 had to go to school again
-1.0 needed to go back to school
-1.0 went back to college
-1.0 took on another job
-1.0 landed a new position
-1.0 changed positions
-1.0 got a new position
-1.0 found a new position
-1.0 wasn't happy
-1.0 didn't like his job
-1.0 didn't like her job
-1.0 hated the job
-1.0 disliked the job
-1.0 didn't enjoy the job
-1.0 didn't like his work
-1.0 didn't like her work
-1.0 joined the military
-1.0 went to the military
-1.0 left for the military
-1.0 enlisted in the military
-1.0 was drafted into the military
-1.0 got sick
-1.0 fell sick
-1.0 medical problems
-1.0 sick
-1.0 was relocated
-1.0 had to relocated
-1.0 was assigned to a new location
-1.0 was assigned to a different location
-1.0 changed careers
-1.0 retired
-1.0 went into retirement
-1.0 poor attendance
-1.0 bad attendance
-1.0 did not come back from maternity leave
-1.0 had a kid and dissapeared
-1.0 poor performance
-1.0 performed below expectations
+return to school
+another position
+unhappy
+military
+gross misconduct
+hours
+medical issues
+relocation out of area
+more money
+career change
+n/a - has not started yet
+retiring
+n/a - still employed
+attendance
+no-call no-show
+maternity leave - did not return
+performance
+went back to school
+had to go to school again
+needed to go back to school
+went back to college
+took on another job
+landed a new position
+changed positions
+got a new position
+found a new position
+wasn't happy
+didn't like his job
+didn't like her job
+hated the job
+disliked the job
+didn't enjoy the job
+didn't like his work
+didn't like her work
+joined the military
+went to the military
+left for the military
+enlisted in the military
+was drafted into the military
+got sick
+fell sick
+medical problems
+sick
+was relocated
+had to relocated
+was assigned to a new location
+was assigned to a different location
+changed careers
+retired
+went into retirement
+poor attendance
+bad attendance
+did not come back from maternity leave
+had a kid and dissapeared
+poor performance
+performed below expectations
