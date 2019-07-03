@@ -1,4 +1,4 @@
-luigi==2.8.0
+luigi>=2.8.0
 beautifulsoup4==4.4.1
 requests==2.13.0
 pycountry==17.5.14
