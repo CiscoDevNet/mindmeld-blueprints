@@ -3,9 +3,9 @@ When was it that {Barry Wilber|name} {started working|employment_action} here?
 When was {Ricardo Ruiz|name} {terminated|employment_action}?
 {Bianca Roehrich|name} {DOB|dob}
 {start date|employment_action}, {Ivan Rogers|name}
-What year was {Paula|name}s {start date|employment_action}?
+What year was {Paula|name}'s {start date|employment_action}?
 How long has Mr.{Knapp|name} worked here?
 When {Maryellen Jackson|name} was {born|dob}, what was the month
-Give me {Charles Bozzi|name}'s {termination|employment_action} date
+Give me {Charles Bozzi|name}'s {termination date|employment_action}
 How long was {ivan rogers|name} working for?
 Was it {May|sys_time} or {June|sys_time} when we had to let {julia soto|name} go?
