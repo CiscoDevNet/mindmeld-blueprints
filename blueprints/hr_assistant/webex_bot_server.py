@@ -7,9 +7,9 @@ from flask import Flask, request
 import requests
 from ciscosparkapi import CiscoSparkAPI
 
-from mmworkbench.components import NaturalLanguageProcessor
-from mmworkbench.components.dialogue import Conversation
-from mmworkbench import configure_logs
+from mindmeld.components import NaturalLanguageProcessor
+from mindmeld.components.dialogue import Conversation
+from mindmeld import configure_logs
 
 app = Flask(__name__)
 logger = logging.getLogger(__name__)
