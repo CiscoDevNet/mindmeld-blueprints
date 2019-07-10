@@ -24,7 +24,7 @@ how many {joined|employment_action} {prior to|date_compare} {1998|sys_time}
 {last|date_compare} {three months|sys_duration}, {total|function} {CA|state} {hired|employment_action}
 {hired|employment_action} in {California|state} in the {last|date_compare} {42 weeks|sys_duration}, get me the {total|function}
 {count|function} employees {born|dob} {before|date_compare} {1993|sys_time}?
-what is the {total|function} {number of|function} employees that {started working|employment_action} here {before|date_compare} {2012|sys_interval}
+what is the {total|function} {number of|function} employees that {started working|employment_action} here {before|date_compare} {2012|sys_time}
 {sum|function} of {non-citizens|citizendesc} people {hired|employment_action} {after|date_compare} {2005|sys_time}
 What {pct|function} of our staff have a {bday|dob} in {1902|sys_time}
 employees that were {born|dob} within {five years|sys_duration} of {1990|sys_time}
