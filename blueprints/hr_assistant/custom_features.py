@@ -28,12 +28,11 @@ def extract_entity_span_start(**args):
     """
     def _extractor(example, resources):
         query, entities, entity_index = example
-        features = {}
 
         current_entity = entities[entity_index]
-        current_entity_token_start = current_entity.token_span.start
 
-        features['entity_span_start'] = current_entity_token_start
+        features = {'entity_span_start': current_entity.token_span.start}
+
         return features
 
     return _extractor

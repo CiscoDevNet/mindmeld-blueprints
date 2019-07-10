@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """This module contains the HR assistant Blueprint Application"""
 
-PARSER_CONFIG = {}
-
 INTENT_CLASSIFIER_CONFIG = {
     'model_type': 'text',
     'model_settings': {
