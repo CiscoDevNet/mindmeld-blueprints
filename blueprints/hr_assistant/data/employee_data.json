@@ -24,7 +24,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "LaRotonda, William  ",
+        "emp_name": "LaRotonda, William",
         "id": 1106026572,
         "state": "MA",
         "dob": "1984-04-26",
@@ -48,7 +48,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Steans, Tyrone  ",
+        "emp_name": "Steans, Tyrone",
         "id": 1302053333,
         "state": "MA",
         "dob": "1986-09-01",
@@ -96,7 +96,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Singh, Nan ",
+        "emp_name": "Singh, Nan",
         "id": 1307059817,
         "state": "MA",
         "dob": "1988-05-19",
@@ -175,7 +175,7 @@
         "age": 33,
         "sex": "Male",
         "maritaldesc": "Married",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "Black or African American",
         "doh": "2011-02-21",
         "dot": "2015-08-15",
@@ -261,7 +261,27 @@
         "performance_score": "Fully Meets",
         "first_name": "Janet",
         "last_name": "King",
-        "subordinates": "Brandon R LeBlanc, Sean Quinn, Jennifer Zamora, Elisa Bramante, Michael Albert, Charles Bozzi, Webster L Butler, Amy Dunn, Elijiah Gray, Jonathan Hogland, Walter Immediato, Ketsia Liebig, Brannon Miller, Ebonee Peterson, Kelley Spirea, David Stanley, Kissy Sullivan, Courtney E Wallace, Debra Houlihan"
+        "subordinates": [
+            "Brandon R LeBlanc",
+            "Sean Quinn",
+            "Jennifer Zamora",
+            "Elisa Bramante",
+            "Michael Albert",
+            "Charles Bozzi",
+            "Webster L Butler",
+            "Amy Dunn",
+            "Elijiah Gray",
+            "Jonathan Hogland",
+            "Walter Immediato",
+            "Ketsia Liebig",
+            "Brannon Miller",
+            "Ebonee Peterson",
+            "Kelley Spirea",
+            "David Stanley",
+            "Kissy Sullivan",
+            "Courtney E Wallace",
+            "Debra Houlihan"
+        ]
     },
     {
         "emp_name": "Zamora, Jennifer",
@@ -285,7 +305,14 @@
         "performance_score": "Exceptional",
         "first_name": "Jennifer",
         "last_name": "Zamora",
-        "subordinates": "Jason Foss, Simon Roup, Ricardo Ruiz, Peter Monroe, Eric Dougall, Alex Sweetwater"
+        "subordinates": [
+            "Jason Foss",
+            "Simon Roup",
+            "Ricardo Ruiz",
+            "Peter Monroe",
+            "Eric Dougall",
+            "Alex Sweetwater"
+        ]
     },
     {
         "emp_name": "Becker, Renee",
@@ -384,7 +411,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Johnson, Noelle ",
+        "emp_name": "Johnson, Noelle",
         "id": 1003018246,
         "state": "MA",
         "dob": "1986-11-07",
@@ -480,7 +507,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Roby, Lori ",
+        "emp_name": "Roby, Lori",
         "id": 1407068885,
         "state": "MA",
         "dob": "1981-10-11",
@@ -645,7 +672,25 @@
         "performance_score": "Fully Meets",
         "first_name": "Simon",
         "last_name": "Roup",
-        "subordinates": "Renee Becker, Taisha Goble, Daniff Hernandez, Jayne Horton, Noelle Johnson, Thomas Murray, Randall Pearson, Thelma Petrowsky, Lori Roby, Ivan Rogers, Jason Salter, Kramer Simard, Julia Zhou, Karthikeyan Ait Sidi, Claudia N Carr, Donald Favis, Bianca Roehrich"
+        "subordinates": [
+            "Renee Becker",
+            "Taisha Goble",
+            "Daniff Hernandez",
+            "Jayne Horton",
+            "Noelle Johnson",
+            "Thomas Murray",
+            "Randall Pearson",
+            "Thelma Petrowsky",
+            "Lori Roby",
+            "Ivan Rogers",
+            "Jason Salter",
+            "Kramer Simard",
+            "Julia Zhou",
+            "Karthikeyan Ait Sidi",
+            "Claudia N Carr",
+            "Donald Favis",
+            "Bianca Roehrich"
+        ]
     },
     {
         "emp_name": "Ruiz, Ricardo",
@@ -679,7 +724,7 @@
         "age": 31,
         "sex": "Male",
         "maritaldesc": "Married",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "Hispanic",
         "doh": "2012-02-15",
         "dot": "1800-01-01",
@@ -693,7 +738,22 @@
         "performance_score": "Needs Improvement",
         "first_name": "Peter",
         "last_name": "Monroe",
-        "subordinates": "Alejandro Bacong, Anthony Cisco, Linda Dolan, Maria Gonzalez, Carlos Merlos, Tanya Morway, Anita Shepard, Neville Tredinnick, Jumil Turpin, Ann Daniele, Jyoti Lajiri, Jeremiah Semizoglou, Joe South, Sarah Warfield"
+        "subordinates": [
+            "Alejandro Bacong",
+            "Anthony Cisco",
+            "Linda Dolan",
+            "Maria Gonzalez",
+            "Carlos Merlos",
+            "Tanya Morway",
+            "Anita Shepard",
+            "Neville Tredinnick",
+            "Jumil Turpin",
+            "Ann Daniele",
+            "Jyoti Lajiri",
+            "Jeremiah Semizoglou",
+            "Joe South",
+            "Sarah Warfield"
+        ]
     },
     {
         "emp_name": "Dougall, Eric",
@@ -717,7 +777,12 @@
         "performance_score": "Exceeds",
         "first_name": "Eric",
         "last_name": "Dougall",
-        "subordinates": "Rick Clayton, Lisa Galia, Leonara Lindsay, Julia Soto"
+        "subordinates": [
+            "Rick Clayton",
+            "Lisa Galia",
+            "Leonara Lindsay",
+            "Julia Soto"
+        ]
     },
     {
         "emp_name": "Clayton, Rick",
@@ -768,7 +833,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Lindsay, Leonara ",
+        "emp_name": "Lindsay, Leonara",
         "id": 602000312,
         "state": "CT",
         "dob": "1988-10-05",
@@ -792,7 +857,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Soto, Julia ",
+        "emp_name": "Soto, Julia",
         "id": 1203032263,
         "state": "MA",
         "dob": "1973-03-12",
@@ -816,7 +881,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Bacong, Alejandro ",
+        "emp_name": "Bacong, Alejandro",
         "id": 1212052023,
         "state": "MA",
         "dob": "1988-01-07",
@@ -960,7 +1025,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Shepard, Anita ",
+        "emp_name": "Shepard, Anita",
         "id": 906014183,
         "state": "MA",
         "dob": "1981-04-14",
@@ -984,7 +1049,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Tredinnick, Neville ",
+        "emp_name": "Tredinnick, Neville",
         "id": 1104025466,
         "state": "MA",
         "dob": "1988-05-05",
@@ -1015,7 +1080,7 @@
         "age": 48,
         "sex": "Male",
         "maritaldesc": "Married",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "White",
         "doh": "2015-03-30",
         "dot": "1800-01-01",
@@ -1032,7 +1097,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Ait Sidi, Karthikeyan   ",
+        "emp_name": "Ait Sidi, Karthikeyan",
         "id": 1307060199,
         "state": "MA",
         "dob": "1975-05-05",
@@ -1080,7 +1145,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Favis, Donald  ",
+        "emp_name": "Favis, Donald",
         "id": 1412071562,
         "state": "CT",
         "dob": "1964-07-30",
@@ -1128,7 +1193,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Daniele, Ann  ",
+        "emp_name": "Daniele, Ann",
         "id": 1411071312,
         "state": "CT",
         "dob": "1952-01-18",
@@ -1176,7 +1241,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Semizoglou, Jeremiah  ",
+        "emp_name": "Semizoglou, Jeremiah",
         "id": 904013591,
         "state": "MA",
         "dob": "1983-02-09",
@@ -1272,7 +1337,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Albert, Michael  ",
+        "emp_name": "Albert, Michael",
         "id": 1501072311,
         "state": "MA",
         "dob": "1968-10-10",
@@ -1293,7 +1358,30 @@
         "performance_score": "Fully Meets",
         "first_name": "Michael",
         "last_name": "Albert",
-        "subordinates": "Wilson K Adinolfi, Nader Barton, Beatrice Chace, Jean Crimmings, Miguel Estremera, Mildred Gentry, Joanne Handschiegl, George Johnson, Kramer Keatts, Marilyn Linares, Jennifer Medeiros, Clinton Owad, Quinn Rarrick, Nore Sadki, Timothy Sullivan, Anna Von Massenbach, Dianna Blount, Angela Erilus, Adrienne J Homberger, Susan Lundy, Maliki Moumanil, Constance Sloan"
+        "subordinates": [
+            "Wilson K Adinolfi",
+            "Nader Barton",
+            "Beatrice Chace",
+            "Jean Crimmings",
+            "Miguel Estremera",
+            "Mildred Gentry",
+            "Joanne Handschiegl",
+            "George Johnson",
+            "Kramer Keatts",
+            "Marilyn Linares",
+            "Jennifer Medeiros",
+            "Clinton Owad",
+            "Quinn Rarrick",
+            "Nore Sadki",
+            "Timothy Sullivan",
+            "Anna Von Massenbach",
+            "Dianna Blount",
+            "Angela Erilus",
+            "Adrienne J Homberger",
+            "Susan Lundy",
+            "Maliki Moumanil",
+            "Constance Sloan"
+        ]
     },
     {
         "emp_name": "Bozzi, Charles",
@@ -1344,7 +1432,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Dunn, Amy  ",
+        "emp_name": "Dunn, Amy",
         "id": 1409070147,
         "state": "MA",
         "dob": "1973-11-28",
@@ -1365,10 +1453,32 @@
         "performance_score": "Fully Meets",
         "first_name": "Amy",
         "last_name": "Dunn",
-        "subordinates": "Linda Anderson, Sean Bernstein, Enola Chivukula, Carl Desimone, Nilson Fernandes, Evelyn Girifalco, Kara Harrison, Alexandra Kirill, Samuel MacLennan, Horia Ndzi, Shakira Perry, Alain Robinson, Seffi Shields, Sophia Theamstern, Barry Wilber, Joelle Burke, Michael J Fitzpatrick, Ming Huynh, Karen Mancuso, Ermine Pelletier, Cybil Trzeciak"
+        "subordinates": [
+            "Linda Anderson",
+            "Sean Bernstein",
+            "Enola Chivukula",
+            "Carl Desimone",
+            "Nilson Fernandes",
+            "Evelyn Girifalco",
+            "Kara Harrison",
+            "Alexandra Kirill",
+            "Samuel MacLennan",
+            "Horia Ndzi",
+            "Shakira Perry",
+            "Alain Robinson",
+            "Seffi Shields",
+            "Sophia Theamstern",
+            "Barry Wilber",
+            "Joelle Burke",
+            "Michael J Fitzpatrick",
+            "Ming Huynh",
+            "Karen Mancuso",
+            "Ermine Pelletier",
+            "Cybil Trzeciak"
+        ]
     },
     {
-        "emp_name": "Gray, Elijiah  ",
+        "emp_name": "Gray, Elijiah",
         "id": 1307060077,
         "state": "MA",
         "dob": "1981-07-11",
@@ -1389,10 +1499,33 @@
         "performance_score": "Fully Meets",
         "first_name": "Elijiah",
         "last_name": "Gray",
-        "subordinates": "Trina Alagbe, Courtney Beatrice, Lin Chan, Jene'ya Darson, April Evensen, Melisa Gerke, Ludwick Harrell, Judy Jung, Allison Lydon, Dawn Motlagh, Nina Panjwani, Thomas Rhoads, Kamrin Sander, Barbara Sutwell, Theresa Wallace, Betsy Bondwell, Megan Faller, Julissa Hunts, Lisa Lunquist, Kristie Nowlan, Joe Smith, Lenora Tejeda"
+        "subordinates": [
+            "Trina Alagbe",
+            "Courtney Beatrice",
+            "Lin Chan",
+            "Jene'ya Darson",
+            "April Evensen",
+            "Melisa Gerke",
+            "Ludwick Harrell",
+            "Judy Jung",
+            "Allison Lydon",
+            "Dawn Motlagh",
+            "Nina Panjwani",
+            "Thomas Rhoads",
+            "Kamrin Sander",
+            "Barbara Sutwell",
+            "Theresa Wallace",
+            "Betsy Bondwell",
+            "Megan Faller",
+            "Julissa Hunts",
+            "Lisa Lunquist",
+            "Kristie Nowlan",
+            "Joe Smith",
+            "Lenora Tejeda"
+        ]
     },
     {
-        "emp_name": "Hogland, Jonathan ",
+        "emp_name": "Hogland, Jonathan",
         "id": 1001944783,
         "state": "MA",
         "dob": "1972-07-01",
@@ -1461,7 +1594,29 @@
         "performance_score": "Exceeds",
         "first_name": "Ketsia",
         "last_name": "Liebig",
-        "subordinates": "Sam Athwal, Lowan M Biden, Caroline Cierpiszewski, Geoff Dickinson, Violeta Ferreira, Shenice Gold, Anthony Heitzman, Bradley J Knapp, Lauren Mahoney, Richard Newman, Kayla Peterson, Cherly Robinson, Sade Smith, Theresa Tinto, Jacquelyn Williams, Benjamin Burkett, Tanya Foreman, Tayana Jeannite, Brigit McCarthy, Lauren Peters, Roger Walker"
+        "subordinates": [
+            "Sam Athwal",
+            "Lowan M Biden",
+            "Caroline Cierpiszewski",
+            "Geoff Dickinson",
+            "Violeta Ferreira",
+            "Shenice Gold",
+            "Anthony Heitzman",
+            "Bradley J Knapp",
+            "Lauren Mahoney",
+            "Richard Newman",
+            "Kayla Peterson",
+            "Cherly Robinson",
+            "Sade Smith",
+            "Theresa Tinto",
+            "Jacquelyn Williams",
+            "Benjamin Burkett",
+            "Tanya Foreman",
+            "Tayana Jeannite",
+            "Brigit McCarthy",
+            "Lauren Peters",
+            "Roger Walker"
+        ]
     },
     {
         "emp_name": "Miller, Brannon",
@@ -1485,10 +1640,32 @@
         "performance_score": "Fully Meets",
         "first_name": "Brannon",
         "last_name": "Miller",
-        "subordinates": "Linda Bachiochi, Helen Billis, Elijian Clukey, Lily DiNocco, Libby Fidelia, Cayo Gonzalez, Rose Ivey, John Kretschmer, Debbie Mangal, Shari Ngodup, Hong Pham, Elias Robinson, Taylor Sparks, Jeanette Tippett, Catherine Ybarra, Jennifer Cloninger, Juan Gonzalez, Yen Johnston, Ned Miller, Shana Petingill, Jordan Winthrop"
+        "subordinates": [
+            "Linda Bachiochi",
+            "Helen Billis",
+            "Elijian Clukey",
+            "Lily DiNocco",
+            "Libby Fidelia",
+            "Cayo Gonzalez",
+            "Rose Ivey",
+            "John Kretschmer",
+            "Debbie Mangal",
+            "Shari Ngodup",
+            "Hong Pham",
+            "Elias Robinson",
+            "Taylor Sparks",
+            "Jeanette Tippett",
+            "Catherine Ybarra",
+            "Jennifer Cloninger",
+            "Juan Gonzalez",
+            "Yen Johnston",
+            "Ned Miller",
+            "Shana Petingill",
+            "Jordan Winthrop"
+        ]
     },
     {
-        "emp_name": "Peterson, Ebonee  ",
+        "emp_name": "Peterson, Ebonee",
         "id": 1402065355,
         "state": "MA",
         "dob": "1977-05-09",
@@ -1533,10 +1710,33 @@
         "performance_score": "Fully Meets",
         "first_name": "Kelley",
         "last_name": "Spirea",
-        "subordinates": "Francesco A Barone, Michael Carey, Lisa Cornett, Jean Engdahl, Rex England, Barbara Gaul, Paula Gross, Sneha Jhaveri, Jonathan R LeBel, Elizabeth Meads, Adeel Osturnka, Louis Punjabhi, Melinda Saar-Beckles, Rick Stoica, Colleen Volk, Kimberly Beak, Carla Demita, Earnest Hankard, Trina Hendrickson, Mathew Linden, Patrick Moran, Adil Sahoo"
+        "subordinates": [
+            "Francesco A Barone",
+            "Michael Carey",
+            "Lisa Cornett",
+            "Jean Engdahl",
+            "Rex England",
+            "Barbara Gaul",
+            "Paula Gross",
+            "Sneha Jhaveri",
+            "Jonathan R LeBel",
+            "Elizabeth Meads",
+            "Adeel Osturnka",
+            "Louis Punjabhi",
+            "Melinda Saar-Beckles",
+            "Rick Stoica",
+            "Colleen Volk",
+            "Kimberly Beak",
+            "Carla Demita",
+            "Earnest Hankard",
+            "Trina Hendrickson",
+            "Mathew Linden",
+            "Patrick Moran",
+            "Adil Sahoo"
+        ]
     },
     {
-        "emp_name": "Stanley, David ",
+        "emp_name": "Stanley, David",
         "id": 1000974650,
         "state": "MA",
         "dob": "1975-12-17",
@@ -1557,10 +1757,32 @@
         "performance_score": "Needs Improvement",
         "first_name": "David",
         "last_name": "Stanley",
-        "subordinates": "Rachael Baczenski, Donna Brill, James Cockel, Denisa S Dobrin, Raul Garcia, David Gordon, Maryellen Jackson, Enrico Langton, Shana Maurice, Lei-Ming Nguyen, Brad Pitt, Ashley Rose, Kristen Squatrito, Mei Trang, Colleen Zima, Phil Close, Susan Good, Lindsey Langford, Erasumus Monkfish, May Roberson, Hang T Wolk"
+        "subordinates": [
+            "Rachael Baczenski",
+            "Donna Brill",
+            "James Cockel",
+            "Denisa S Dobrin",
+            "Raul Garcia",
+            "David Gordon",
+            "Maryellen Jackson",
+            "Enrico Langton",
+            "Shana Maurice",
+            "Lei-Ming Nguyen",
+            "Brad Pitt",
+            "Ashley Rose",
+            "Kristen Squatrito",
+            "Mei Trang",
+            "Colleen Zima",
+            "Phil Close",
+            "Susan Good",
+            "Lindsey Langford",
+            "Erasumus Monkfish",
+            "May Roberson",
+            "Hang T Wolk"
+        ]
     },
     {
-        "emp_name": "Sullivan, Kissy ",
+        "emp_name": "Sullivan, Kissy",
         "id": 1405067298,
         "state": "MA",
         "dob": "1978-03-28",
@@ -1581,7 +1803,30 @@
         "performance_score": "Fully Meets",
         "first_name": "Kissy",
         "last_name": "Sullivan",
-        "subordinates": "Thomas Barbara, Josephine Bugali, Spencer Cole, Marianne Eaton, Hamish Garneau, Roxana Goyal, Hannah Jacobi, Dallas Leach, Sandy Mckenna, Lynn O'hare, Morissa Power, Janine Purinton, Bruno Rossetti, Barbara M Stanford, Abdellah Veera, Sarah Akinkuolie, Daniel Davis, Phylicia Gosciminski, Mohammed Latif, Luisa Monterro, Peter Robertson, Jason Woodson"
+        "subordinates": [
+            "Thomas Barbara",
+            "Josephine Bugali",
+            "Spencer Cole",
+            "Marianne Eaton",
+            "Hamish Garneau",
+            "Roxana Goyal",
+            "Hannah Jacobi",
+            "Dallas Leach",
+            "Sandy Mckenna",
+            "Lynn O'hare",
+            "Morissa Power",
+            "Janine Purinton",
+            "Bruno Rossetti",
+            "Barbara M Stanford",
+            "Abdellah Veera",
+            "Sarah Akinkuolie",
+            "Daniel Davis",
+            "Phylicia Gosciminski",
+            "Mohammed Latif",
+            "Luisa Monterro",
+            "Peter Robertson",
+            "Jason Woodson"
+        ]
     },
     {
         "emp_name": "Wallace, Courtney  E",
@@ -1656,7 +1901,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Anderson, Carol ",
+        "emp_name": "Anderson, Carol",
         "id": 1001417624,
         "state": "MA",
         "dob": "1989-09-08",
@@ -1680,7 +1925,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Anderson, Linda  ",
+        "emp_name": "Anderson, Linda",
         "id": 1304055947,
         "state": "MA",
         "dob": "1977-05-22",
@@ -1752,7 +1997,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Baczenski, Rachael  ",
+        "emp_name": "Baczenski, Rachael",
         "id": 1307060083,
         "state": "MA",
         "dob": "1974-01-12",
@@ -1848,14 +2093,14 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Beatrice, Courtney ",
+        "emp_name": "Beatrice, Courtney",
         "id": 1403066194,
         "state": "MA",
         "dob": "1970-10-27",
         "age": 47,
         "sex": "Female",
         "maritaldesc": "Single",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "White",
         "doh": "2011-04-04",
         "dot": "1800-01-01",
@@ -1992,7 +2237,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Bugali, Josephine ",
+        "emp_name": "Bugali, Josephine",
         "id": 1408069635,
         "state": "MA",
         "dob": "1969-10-30",
@@ -2016,7 +2261,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Carey, Michael  ",
+        "emp_name": "Carey, Michael",
         "id": 1311063114,
         "state": "MA",
         "dob": "1983-02-02",
@@ -2040,7 +2285,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Chace, Beatrice ",
+        "emp_name": "Chace, Beatrice",
         "id": 1208048062,
         "state": "MA",
         "dob": "1951-01-02",
@@ -2136,14 +2381,14 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Cierpiszewski, Caroline  ",
+        "emp_name": "Cierpiszewski, Caroline",
         "id": 1012023295,
         "state": "MA",
         "dob": "1988-05-31",
         "age": 29,
         "sex": "Female",
         "maritaldesc": "Single",
-        "citizendesc": "Non-Citizen",
+        "citizendesc": "non citizen",
         "racedesc": "Black or African American",
         "doh": "2011-10-03",
         "dot": "1800-01-01",
@@ -2232,7 +2477,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Cornett, Lisa ",
+        "emp_name": "Cornett, Lisa",
         "id": 1403066069,
         "state": "MA",
         "dob": "1977-03-31",
@@ -2280,7 +2525,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Darson, Jene'ya ",
+        "emp_name": "Darson, Jene'ya",
         "id": 1001109612,
         "state": "MA",
         "dob": "1978-11-05",
@@ -2328,7 +2573,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Desimone, Carl ",
+        "emp_name": "Desimone, Carl",
         "id": 1501072124,
         "state": "MA",
         "dob": "1967-04-19",
@@ -2352,7 +2597,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Dickinson, Geoff ",
+        "emp_name": "Dickinson, Geoff",
         "id": 706006285,
         "state": "MA",
         "dob": "1982-11-15",
@@ -2376,7 +2621,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "DiNocco, Lily ",
+        "emp_name": "DiNocco, Lily",
         "id": 1209048696,
         "state": "MA",
         "dob": "1978-12-02",
@@ -2568,7 +2813,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Fernandes, Nilson  ",
+        "emp_name": "Fernandes, Nilson",
         "id": 1302053339,
         "state": "MA",
         "dob": "1989-10-18",
@@ -2808,7 +3053,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Gold, Shenice  ",
+        "emp_name": "Gold, Shenice",
         "id": 1408069539,
         "state": "MA",
         "dob": "1992-06-18",
@@ -2976,7 +3221,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Harrington, Christie ",
+        "emp_name": "Harrington, Christie",
         "id": 1110029602,
         "state": "MA",
         "dob": "1952-08-18",
@@ -3048,7 +3293,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Ivey, Rose ",
+        "emp_name": "Ivey, Rose",
         "id": 1408069882,
         "state": "MA",
         "dob": "1991-01-28",
@@ -3096,7 +3341,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Jacobi, Hannah  ",
+        "emp_name": "Jacobi, Hannah",
         "id": 1503072857,
         "state": "MA",
         "dob": "1966-03-22",
@@ -3120,7 +3365,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Jhaveri, Sneha  ",
+        "emp_name": "Jhaveri, Sneha",
         "id": 1412071713,
         "state": "MA",
         "dob": "1964-04-13",
@@ -3168,7 +3413,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Jung, Judy  ",
+        "emp_name": "Jung, Judy",
         "id": 1107027450,
         "state": "MA",
         "dob": "1986-04-17",
@@ -3192,7 +3437,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Keatts, Kramer ",
+        "emp_name": "Keatts, Kramer",
         "id": 1301052462,
         "state": "MA",
         "dob": "1976-01-19",
@@ -3216,7 +3461,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Kinsella, Kathleen  ",
+        "emp_name": "Kinsella, Kathleen",
         "id": 710007401,
         "state": "MA",
         "dob": "1973-12-08",
@@ -3240,7 +3485,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Kirill, Alexandra  ",
+        "emp_name": "Kirill, Alexandra",
         "id": 903013071,
         "state": "MA",
         "dob": "1970-10-08",
@@ -3384,7 +3629,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Linares, Marilyn ",
+        "emp_name": "Linares, Marilyn",
         "id": 1206042315,
         "state": "MA",
         "dob": "1981-03-26",
@@ -3480,7 +3725,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Mahoney, Lauren  ",
+        "emp_name": "Mahoney, Lauren",
         "id": 1209049259,
         "state": "MA",
         "dob": "1986-07-07",
@@ -3696,7 +3941,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Newman, Richard ",
+        "emp_name": "Newman, Richard",
         "id": 1302053044,
         "state": "MA",
         "dob": "1977-04-08",
@@ -3720,7 +3965,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Ngodup, Shari ",
+        "emp_name": "Ngodup, Shari",
         "id": 1403066020,
         "state": "MA",
         "dob": "1967-06-03",
@@ -3912,7 +4157,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Peterson, Kayla ",
+        "emp_name": "Peterson, Kayla",
         "id": 1307059944,
         "state": "MA",
         "dob": "1973-09-23",
@@ -3960,7 +4205,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Pitt, Brad ",
+        "emp_name": "Pitt, Brad",
         "id": 1001735072,
         "state": "MA",
         "dob": "1981-11-23",
@@ -3991,7 +4236,7 @@
         "age": 33,
         "sex": "Female",
         "maritaldesc": "Divorced",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "Asian",
         "doh": "2011-05-16",
         "dot": "2011-06-04",
@@ -4008,7 +4253,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Punjabhi, Louis  ",
+        "emp_name": "Punjabhi, Louis",
         "id": 1401064562,
         "state": "MA",
         "dob": "1961-06-19",
@@ -4104,7 +4349,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Rivera, Haley  ",
+        "emp_name": "Rivera, Haley",
         "id": 1405067642,
         "state": "MA",
         "dob": "1973-01-12",
@@ -4128,7 +4373,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Robinson, Alain  ",
+        "emp_name": "Robinson, Alain",
         "id": 1206038000,
         "state": "MA",
         "dob": "1974-01-07",
@@ -4200,7 +4445,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Rose, Ashley  ",
+        "emp_name": "Rose, Ashley",
         "id": 710007555,
         "state": "MA",
         "dob": "1974-12-05",
@@ -4272,7 +4517,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Sadki, Nore  ",
+        "emp_name": "Sadki, Nore",
         "id": 1308060535,
         "state": "MA",
         "dob": "1974-12-21",
@@ -4392,7 +4637,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Sparks, Taylor  ",
+        "emp_name": "Sparks, Taylor",
         "id": 1410071137,
         "state": "MA",
         "dob": "1968-07-20",
@@ -4519,7 +4764,7 @@
         "age": 49,
         "sex": "Female",
         "maritaldesc": "Single",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "Asian",
         "doh": "2012-05-14",
         "dot": "1800-01-01",
@@ -4536,14 +4781,14 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Tavares, Desiree  ",
+        "emp_name": "Tavares, Desiree",
         "id": 1405067501,
         "state": "MA",
         "dob": "1975-04-03",
         "age": 42,
         "sex": "Female",
         "maritaldesc": "Married",
-        "citizendesc": "Non-Citizen",
+        "citizendesc": "non citizen",
         "racedesc": "Two or more races",
         "doh": "2009-04-27",
         "dot": "2013-04-01",
@@ -4584,7 +4829,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Tinto, Theresa  ",
+        "emp_name": "Tinto, Theresa",
         "id": 1103024504,
         "state": "MA",
         "dob": "1983-07-30",
@@ -4656,7 +4901,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Veera, Abdellah ",
+        "emp_name": "Veera, Abdellah",
         "id": 1203032235,
         "state": "MA",
         "dob": "1987-01-31",
@@ -4783,7 +5028,7 @@
         "age": 52,
         "sex": "Male",
         "maritaldesc": "Married",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "White",
         "doh": "2011-05-16",
         "dot": "2015-09-07",
@@ -4800,7 +5045,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Williams, Jacquelyn  ",
+        "emp_name": "Williams, Jacquelyn",
         "id": 1308060671,
         "state": "MA",
         "dob": "1969-10-02",
@@ -4824,7 +5069,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Ybarra, Catherine ",
+        "emp_name": "Ybarra, Catherine",
         "id": 1001268402,
         "state": "MA",
         "dob": "1982-05-04",
@@ -4896,7 +5141,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Beak, Kimberly  ",
+        "emp_name": "Beak, Kimberly",
         "id": 1303054329,
         "state": "MA",
         "dob": "1966-04-17",
@@ -4968,7 +5213,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Buccheri, Joseph  ",
+        "emp_name": "Buccheri, Joseph",
         "id": 1101023457,
         "state": "MA",
         "dob": "1983-07-28",
@@ -5016,7 +5261,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Burkett, Benjamin ",
+        "emp_name": "Burkett, Benjamin",
         "id": 1301052449,
         "state": "MA",
         "dob": "1977-08-19",
@@ -5095,7 +5340,7 @@
         "age": 38,
         "sex": "Male",
         "maritaldesc": "Single",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "Two or more races",
         "doh": "2011-11-07",
         "dot": "1800-01-01",
@@ -5160,7 +5405,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Faller, Megan ",
+        "emp_name": "Faller, Megan",
         "id": 1108028428,
         "state": "MA",
         "dob": "1978-09-22",
@@ -5304,7 +5549,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Gosciminski, Phylicia  ",
+        "emp_name": "Gosciminski, Phylicia",
         "id": 1108028351,
         "state": "MA",
         "dob": "1983-12-08",
@@ -5383,7 +5628,7 @@
         "age": 33,
         "sex": "Female",
         "maritaldesc": "Married",
-        "citizendesc": "Non-Citizen",
+        "citizendesc": "non citizen",
         "racedesc": "White",
         "doh": "2011-08-15",
         "dot": "2012-04-07",
@@ -5736,7 +5981,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Monkfish, Erasumus  ",
+        "emp_name": "Monkfish, Erasumus",
         "id": 1404066711,
         "state": "MA",
         "dob": "1992-08-17",
@@ -5808,7 +6053,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Moumanil, Maliki ",
+        "emp_name": "Moumanil, Maliki",
         "id": 1301052436,
         "state": "MA",
         "dob": "1974-12-01",
@@ -5856,7 +6101,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Oliver, Brooke ",
+        "emp_name": "Oliver, Brooke",
         "id": 1001856521,
         "state": "MA",
         "dob": "1952-02-11",
@@ -5928,14 +6173,14 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Petingill, Shana  ",
+        "emp_name": "Petingill, Shana",
         "id": 1103024843,
         "state": "MA",
         "dob": "1979-03-10",
         "age": 38,
         "sex": "Female",
         "maritaldesc": "Married",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "Asian",
         "doh": "2012-04-02",
         "dot": "1800-01-01",
@@ -5959,7 +6204,7 @@
         "age": 36,
         "sex": "Female",
         "maritaldesc": "Divorced",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "White",
         "doh": "2011-09-26",
         "dot": "2011-10-22",
@@ -6072,7 +6317,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Tejeda, Lenora ",
+        "emp_name": "Tejeda, Lenora",
         "id": 1406068345,
         "state": "MA",
         "dob": "1953-05-24",
@@ -6168,12 +6413,12 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Winthrop, Jordan  ",
+        "emp_name": "Winthrop, Jordan",
         "id": 1405067188,
         "state": "MA",
         "dob": "1958-11-07",
         "age": 59,
-        "sex": "Male",
+        "sex": "male",
         "maritaldesc": "Single",
         "citizendesc": "US Citizen",
         "racedesc": "White",
@@ -6271,7 +6516,7 @@
         "age": 53,
         "sex": "Female",
         "maritaldesc": "Married",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "Black or African American",
         "doh": "2011-08-15",
         "dot": "2014-08-02",
@@ -6288,7 +6533,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Carter, Michelle ",
+        "emp_name": "Carter, Michelle",
         "id": 1403065721,
         "state": "VT",
         "dob": "1963-05-15",
@@ -6336,7 +6581,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Dietrich, Jenna  ",
+        "emp_name": "Dietrich, Jenna",
         "id": 1408069481,
         "state": "WA",
         "dob": "1987-05-14",
@@ -6384,7 +6629,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Fraval, Maruk ",
+        "emp_name": "Fraval, Maruk",
         "id": 1411071302,
         "state": "CT",
         "dob": "1963-08-28",
@@ -6432,7 +6677,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Gill, Whitney  ",
+        "emp_name": "Gill, Whitney",
         "id": 1302053046,
         "state": "OH",
         "dob": "1971-07-10",
@@ -6607,7 +6852,7 @@
         "age": 47,
         "sex": "Male",
         "maritaldesc": "Single",
-        "citizendesc": "Eligible NonCitizen",
+        "citizendesc": "non citizen",
         "racedesc": "Black or African American",
         "doh": "2012-05-14",
         "dot": "1800-01-01",
@@ -6816,7 +7061,7 @@
         "subordinates": ""
     },
     {
-        "emp_name": "Terry, Sharlene ",
+        "emp_name": "Terry, Sharlene",
         "id": 1401064637,
         "state": "OR",
         "dob": "1965-05-07",
@@ -6909,7 +7154,11 @@
         "performance_score": "Fully Meets",
         "first_name": "Debra",
         "last_name": "Houlihan",
-        "subordinates": "Lynn Daneault, Donysha Kampew, John Smith"
+        "subordinates": [
+            "Lynn Daneault",
+            "Donysha Kampew",
+            "John Smith"
+        ]
     },
     {
         "emp_name": "Daneault, Lynn",
@@ -6933,10 +7182,24 @@
         "performance_score": "Fully Meets",
         "first_name": "Lynn",
         "last_name": "Daneault",
-        "subordinates": "Edward Buck, Latia Costa, Maruk Fraval, Myriam Givens, Jeremy Prater, Bartholemew Khemmich, Joseph Martins, Jac McKinzie, Dheepa Nguyen, Jasmine Onque, Xana Potts, Michael Riordan, Sharlene Terry"
+        "subordinates": [
+            "Edward Buck",
+            "Latia Costa",
+            "Maruk Fraval",
+            "Myriam Givens",
+            "Jeremy Prater",
+            "Bartholemew Khemmich",
+            "Joseph Martins",
+            "Jac McKinzie",
+            "Dheepa Nguyen",
+            "Jasmine Onque",
+            "Xana Potts",
+            "Michael Riordan",
+            "Sharlene Terry"
+        ]
     },
     {
-        "emp_name": "Kampew, Donysha    ",
+        "emp_name": "Kampew, Donysha",
         "id": 1109029264,
         "state": "PA",
         "dob": "1989-11-11",
@@ -6981,7 +7244,22 @@
         "performance_score": "Needs Improvement",
         "first_name": "John",
         "last_name": "Smith",
-        "subordinates": "Jessica Bunbury, Michelle Carter, Jenna Dietrich, Alfred Digitale, Gerry Friedman, Whitney Gill, Ricardo Gonzales, Mike Guilianno, Giovanni Leruth, Howard Mullaney, Travis Ozark, Caitrin Strong, Jackie Valentin, Noah Villanueva"
+        "subordinates": [
+            "Jessica Bunbury",
+            "Michelle Carter",
+            "Jenna Dietrich",
+            "Alfred Digitale",
+            "Gerry Friedman",
+            "Whitney Gill",
+            "Ricardo Gonzales",
+            "Mike Guilianno",
+            "Giovanni Leruth",
+            "Howard Mullaney",
+            "Travis Ozark",
+            "Caitrin Strong",
+            "Jackie Valentin",
+            "Noah Villanueva"
+        ]
     },
     {
         "emp_name": "Andreola, Colby",
@@ -7183,7 +7461,7 @@
         "age": 34,
         "sex": "Male",
         "maritaldesc": "Single",
-        "citizendesc": "Non-Citizen",
+        "citizendesc": "non citizen",
         "racedesc": "Black or African American",
         "doh": "2013-02-18",
         "dot": "2014-04-15",
@@ -7221,6 +7499,16 @@
         "performance_score": "Fully Meets",
         "first_name": "Alex",
         "last_name": "Sweetwater",
-        "subordinates": "Colby Andreola, Judith Carabbio, Keyla Del Bosque, Susan Exantus, Sandra Martin, Luke Patronick, Adell Saada, Andrew Szabo, Edward True"
+        "subordinates": [
+            "Colby Andreola",
+            "Judith Carabbio",
+            "Keyla Del Bosque",
+            "Susan Exantus",
+            "Sandra Martin",
+            "Luke Patronick",
+            "Adell Saada",
+            "Andrew Szabo",
+            "Edward True"
+        ]
     }
 ]

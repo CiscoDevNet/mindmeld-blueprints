@@ -28,8 +28,8 @@ def get_hierarchy_up(request, responder):
             responder.reply(reply)
 
     except Exception:
-        responder.reply("Who's manager would you like to know?\
-                        (You can try saying 'Mia's manager')")
+        responder.reply(["Who's manager would you like to know?\
+                        (You can try saying 'Mia's manager')"])
 
 
 @app.handle(intent='get_hierarchy_down')
@@ -52,6 +52,7 @@ def get_hierarchy_down(request, responder):
             if len(responder.slots['subordinates']) == 0:
                 responder.reply("{name} has no subordinates")
                 return
+            responder.slots['subordinates'] = ', '.join(responder.slots['subordinates'])
             reply = ["The following people work under {name}: {subordinates}"]
             responder.reply(reply)
 
