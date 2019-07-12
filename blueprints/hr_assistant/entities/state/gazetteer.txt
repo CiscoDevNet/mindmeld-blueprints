@@ -1,59 +1,105 @@
-MA
-TX
-CT
-VA
-VT
-CA
-WA
-NH
-NY
-OH
-IN
-ID
-TN
-NV
-CO
-UT
-AL
-GA
-FL
-NC
-KY
-ND
-MT
-OR
-AZ
-ME
-RI
-PA
-Massachussets
-Texas
-Connecticut
-Virginia
-Vermony
-California
-Washington
-New Hampshire
-New York
-Ohio
-Indiana
-Idaho
-Tennessee
-Nevada
-Colarado
-Utah
 Alabama
-Georgia
-Florida
-North Carolina
-Kentucky
-North Dakota
-Montana
-Oregon
+Alaska
 Arizona
+Arkansas
+California
+Colorado
+Connecticut
+Delaware
+District of Columbia
+Florida
+Georgia
+Hawaii
+Idaho
+Illinois
+Indiana
+Iowa
+Kansas
+Kentucky
+Louisiana
 Maine
-Rhode Island
+Montana
+Nebraska
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New York
+North Carolina
+North Dakota
+Ohio
+Oklahoma
+Oregon
+Maryland
+Massachusetts
+Michigan
+Minnesota
+Mississippi
+Missouri
 Pennsylvania
+Rhode Island
+South Carolina
+South Dakota
+Tennessee
+Texas
+Utah
+Vermont
+Virginia
+Washington
+West Virginia
+Wisconsin
+Wyoming
+AL
+AK
+AZ
+AR
+CA
+CO
+CT
+DE
+DC
+FL
+GA
+HI
+ID
+IL
+IN
+IA
+KS
+KY
+LA
+ME
+MT
+NE
+NV
+NH
+NJ
+NM
+NY
+NC
+ND
+OH
+OK
+OR
+MD
+MA
+MI
+MN
+MS
+MO
+PA
+RI
+SC
+SD
+TN
+TX
+UT
+VT
+VA
+WA
+WV
+WI
+WY
 state
 state of birth
 state of residence
