@@ -36,7 +36,7 @@ class WebexBotServer():
         self.conv = Conversation(nlp=self.nlp, app_path='.')
 
 
-    def run(self, host='localhost', port=port_number):
+    def run(self, host='localhost', port=7150):
         self.app.run(host=host, port=port)
 
 
@@ -71,7 +71,7 @@ class WebexBotServer():
                 return 'OK'
 
         if data['id'] != self.WEBHOOK_ID:
-            self.logger.debug("Retrieved Webhook_id {} doesnt match".format(data['id']))
+            self.logger.debug("Retrieved Webhook_id {} doesn't match".format(data['id']))
             return 'OK'
 
         person_id = data['data']['personId']
