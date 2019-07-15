@@ -6,6 +6,8 @@ the MindMeld HR assistant blueprint application
 from .root import app
 import numpy as np
 
+SIZE = 301
+
 
 """
 The dialogue states below are entity specific cases of the 'get_info_default'
@@ -259,13 +261,15 @@ def get_aggregate(request, responder):
         # unlike average and sum. For eg. 'how many males', require only the count of males
         # and the total count. The following lines resolve all similar queries.
         elif function not in ('avg', 'sum'):
-            qa_out = qa.execute(size=301)
+            qa_out = qa.execute(size=SIZE)
 
             # Default handling if no relevant entity found to filter on
             non_func_entities = [e for e in request.entities if e['type'] != 'function']
             if not non_func_entities:
-                responder.reply("I'm not sure about that. If you are asking about the total\
-                                number of employees, the count is 301.")
+
+                replies = ["I'm not sure about that. If you are asking about the\
+                            total number of employees, the count is 301."]
+                responder.reply(replies)
                 return
             # Calculate and return desired mathemical value
             responder.slots['value'] = _agg_function(qa_out, func=function)
@@ -340,8 +344,9 @@ def get_employees(request, responder):
 
     # Default response
     if len(qa_out) == 0 or len([e for e in request.entities]) == 0:
-        responder.reply("No such employees found. To get all employees, you can say\
-                        'show all hired employees'.")
+        replies = ["No such employees found. To get all employees, you can say\
+            'show all hired employees'."]
+        responder.reply(replies)
         return
 
     # If the user is searching for employment action related employees
@@ -415,7 +420,9 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
     elif len(num_entity) >= 1:
         qa = qa.filter(field='age', gte=np.min(num_entity), lte=np.max(num_entity))
 
-    size = 301
+    else:
+        size = SIZE
+
     return qa, size
 
 
@@ -482,7 +489,7 @@ def _resolve_categorical_entities(request, responder):
 
     # return size of the whole dataset to prevent the execute function from restricting
     # the responses to 10 (Which is the default)
-    size = 301
+    size = SIZE
 
     return qa, size
 
@@ -546,7 +553,7 @@ def _resolve_extremes(request, responder, qa, extreme_entity, field, num_entity=
     # else default to a single response
 
     # Eg. 'who are the 5 youngest employees'
-    if num_entity and num_entity[0] <= 301:
+    if num_entity and num_entity[0] <= SIZE:
         size = num_entity[0]
 
     # Eg. 'who is the youngest employee'

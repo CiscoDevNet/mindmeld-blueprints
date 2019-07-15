@@ -6,7 +6,7 @@ from .root import app
 from hr_assistant.general import (
     _resolve_categorical_entities,
     _resolve_function_entity, _resolve_extremes, _agg_function,
-    _get_person_info, _not_an_employee
+    _get_person_info, _not_an_employee, SIZE
 )
 import numpy as np
 
@@ -310,7 +310,9 @@ def money_filter(qa, request, responder):
 
     elif len(num_entity) >= 1:
         qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))
-    size = 301
+
+    else:
+        size = SIZE
 
     return qa, size
 

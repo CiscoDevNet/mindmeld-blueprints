@@ -5,7 +5,8 @@ the MindMeld HR assistant blueprint application
 from .root import app
 from hr_assistant.general import (
     _resolve_categorical_entities, _resolve_function_entity,
-    _resolve_extremes, _agg_function, _get_names, _not_an_employee
+    _resolve_extremes, _agg_function, _get_names, _not_an_employee,
+    SIZE
 )
 from dateutil.relativedelta import relativedelta
 import datetime
@@ -326,4 +327,4 @@ def _resolve_time(request, responder, qa, size):
     else:
         if field == 'dot':
             qa = qa.filter(field='dot', gt='1800-01-01')
-        return [qa, 301, field]
+        return [qa, SIZE, field]
