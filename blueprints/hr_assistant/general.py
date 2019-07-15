@@ -26,7 +26,7 @@ def get_info_age(request, responder):
 
 
 @app.handle(intent='get_info', has_entity='sex')
-def get_info_sex(request, responder):
+def get_info_gender(request, responder):
     responder = _get_person_info(request, responder, 'sex')
     try:
         responder.reply("{name} is {sex}")
