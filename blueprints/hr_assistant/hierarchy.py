@@ -3,7 +3,7 @@
 the MindMeld HR assistant blueprint application
 """
 from .root import app
-from hr_assistant.general import (_fetch_from_kb, _not_an_employee)
+from hr_assistant.general import (_fetch_from_kb, NOT_AN_EMPLOYEE)
 
 
 @app.handle(intent='get_hierarchy_up')
@@ -22,14 +22,14 @@ def get_hierarchy_up(request, responder):
 
         for name in name_ent:
             if name == '':
-                responder.reply(_not_an_employee())
+                responder.reply(NOT_AN_EMPLOYEE)
             responder = _fetch_from_kb(responder, name, 'manager')
             reply = ["{manager} is {name}'s manager"]
             responder.reply(reply)
 
     except Exception:
-        responder.reply(["Who's manager would you like to know?\
-                        (You can try saying 'Mia's manager')"])
+        responder.reply(["Who's manager would you like to know?"
+                         "(You can try saying 'Mia's manager')"])
 
 
 @app.handle(intent='get_hierarchy_down')
@@ -47,7 +47,7 @@ def get_hierarchy_down(request, responder):
 
         for name in name_ent:
             if name == '':
-                responder.reply(_not_an_employee())
+                responder.reply(NOT_AN_EMPLOYEE)
             responder = _fetch_from_kb(responder, name, 'subordinates')
             if len(responder.slots['subordinates']) == 0:
                 responder.reply("{name} has no subordinates")
@@ -57,5 +57,5 @@ def get_hierarchy_down(request, responder):
             responder.reply(reply)
 
     except Exception:
-        responder.reply("Who's subordinates would you like to know?\
-                        (You can try saying 'which employees report to Mia?')")
+        responder.reply("Who's subordinates would you like to know? "
+                        "(You can try saying 'which employees report to Mia?')")

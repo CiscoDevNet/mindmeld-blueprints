@@ -6,7 +6,7 @@ from .root import app
 from hr_assistant.general import (
     _resolve_categorical_entities,
     _resolve_function_entity, _resolve_extremes, _agg_function,
-    _get_person_info, _not_an_employee, SIZE
+    _get_person_info, NOT_AN_EMPLOYEE, SIZE
 )
 import numpy as np
 
@@ -21,8 +21,8 @@ def get_salary(request, responder):
     responder = _get_person_info(request, responder, 'money')
     try:
         responder.reply("{name}'s hourly salary is {money}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
 
 
 @app.handle(intent='get_salary', has_entity='time_recur')
@@ -47,8 +47,8 @@ def get_salary_for_interval(request, responder):
     try:
         replies = ["{name}'s {interval} salary is ${money}", "{name}'s {interval} wage is ${money}"]
         responder.reply(replies)
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
 
 
 @app.handle(intent='get_salary_aggregate')
@@ -80,8 +80,9 @@ def get_salary_aggregate(request, responder):
     qa = _resolve_time_in_salary(request, responder, qa)
 
     # default reply
-    salary_response = "Hmm, looks like you want a salary statistic. You can ask me about averages,\
-                       sums, counts and percentages. For eg. what is the average salary for women?"
+    salary_response = ["Hmm, looks like you want a salary statistic. You can ask me about "
+                       "averages, sums, counts and percentages. For eg. what is the average "
+                       "salary for women?"]
 
     if func_entities:
         func_entity = func_entities[0]
@@ -241,21 +242,16 @@ def _resolve_time_in_salary(request, responder, qa):
 
 def _apply_money_filter(qa, request, responder):
     # Apply money filter given any numeric values, comparators or extreme conditions
-    # If
     try:
-        qa, size = money_filter(qa, request, responder)
+        qa, size = _money_filter(qa, request, responder)
         return qa, size
-    except Exception:
-        responder.reply("I see you are looking for the {function}, can you be more specific?")
-        responder.params.allowed_intents = ('general.get_aggregate',
-                                            'salary.get_salary_aggregate',
-                                            'date.get_date_range_aggregate',
-                                            'unsupported.unsupported', 'greeting.*')
+    except IndexError:
+        responder.reply("I see you are looking for salary information, can you be more specific?")
         responder.listen()
         return
 
 
-def money_filter(qa, request, responder):
+def _money_filter(qa, request, responder):
     """
     This function is used to filter any salary related queries, that may include a
     comparator, such as, 'what percentage earns less than 20 dollars an hour? ' or an extreme,
@@ -266,22 +262,16 @@ def money_filter(qa, request, responder):
                   for e in request.entities
                   if e['type'] in ('sys_number', 'sys_amount-of-money')]
 
-    try:
-        comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
-    except Exception:
-        comparator_entity = []
+    comparator_entity = [e for e in request.entities if e['type'] == 'comparator']
 
-    try:
-        extreme_entity = [e for e in request.entities if e['type'] == 'extreme'][0]
-    except Exception:
-        extreme_entity = []
+    extreme_entity = [e for e in request.entities if e['type'] == 'extreme']
 
     # The money entity can have either be accompanied by a comparator, extreme or no entity.
     # These are mutually exclusive of others and hence can only be queried separately from
     # the knowledge base.
 
     if comparator_entity:
-        comparator_canonical = comparator_entity['value'][0]['cname']
+        comparator_canonical = comparator_entity[0]['value'][0]['cname']
 
         if comparator_canonical == 'more than' and len(num_entity) == 1:
             gte_val = num_entity[0]
@@ -302,19 +292,17 @@ def money_filter(qa, request, responder):
         # Apply filter iff numerical entity exists
         try:
             qa = qa.filter(field='money', gte=gte_val, lte=lte_val)
-        except Exception:
+        except (UnboundLocalError, IndexError):
             pass
 
     elif extreme_entity:
-        qa, size = _resolve_extremes(request, responder, qa, extreme_entity, 'money', num_entity)
+        qa, size = _resolve_extremes(request, responder, qa, extreme_entity[0], 'money', num_entity)
+        return qa, size
 
     elif len(num_entity) >= 1:
         qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))
 
-    else:
-        size = SIZE
-
-    return qa, size
+    return qa, SIZE
 
 
 def _get_interval_amount(recur_ent, money):

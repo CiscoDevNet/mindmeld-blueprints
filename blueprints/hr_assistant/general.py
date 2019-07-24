@@ -2,12 +2,11 @@
 """This module contains the dialogue states for the 'general' domain in
 the MindMeld HR assistant blueprint application
 """
-
-from .root import app
 import numpy as np
+from .root import app
 
 SIZE = 301
-
+NOT_AN_EMPLOYEE = "Looks like that person does not work in this organisation."
 
 """
 The dialogue states below are entity specific cases of the 'get_info_default'
@@ -22,9 +21,9 @@ def get_info_age(request, responder):
     responder = _get_person_info(request, responder, 'age')
     try:
         responder.reply("The age of {name} is {age}")
-    except Exception:
-        responder.reply(_not_an_employee())
-        return
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
+    return
 
 
 @app.handle(intent='get_info', has_entity='sex')
@@ -32,8 +31,8 @@ def get_info_gender(request, responder):
     responder = _get_person_info(request, responder, 'sex')
     try:
         responder.reply("{name} is {sex}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -42,8 +41,8 @@ def get_info_state(request, responder):
     responder = _get_person_info(request, responder, 'state')
     try:
         responder.reply("{name} is from {state}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -52,8 +51,8 @@ def get_info_maritaldesc(request, responder):
     responder = _get_person_info(request, responder, 'maritaldesc')
     try:
         responder.reply("{name} is {maritaldesc}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -62,8 +61,8 @@ def get_info_citizendesc(request, responder):
     responder = _get_person_info(request, responder, 'citizendesc')
     try:
         responder.reply("{name} is an {citizendesc}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -72,8 +71,8 @@ def get_info_racedesc(request, responder):
     responder = _get_person_info(request, responder, 'racedesc')
     try:
         responder.reply("{name}'s race is {racedesc}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -82,8 +81,8 @@ def get_info_performance_score(request, responder):
     responder = _get_person_info(request, responder, 'performance_score')
     try:
         responder.reply("{name}'s performance status is: {performance_score}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -92,8 +91,8 @@ def get_info_rft(request, responder):
     responder = _get_person_info(request, responder, 'rft')
     try:
         responder.reply("{name}'s reason for termination was: {rft}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -102,8 +101,8 @@ def get_info_employee_source(request, responder):
     responder = _get_person_info(request, responder, 'employee_source')
     try:
         responder.reply("{name}'s discovered the organisation through: {employee_source}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -112,8 +111,8 @@ def get_info_position(request, responder):
     responder = _get_person_info(request, responder, 'position')
     try:
         responder.reply("{name}'s position in the organisation is: {position}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -122,8 +121,8 @@ def get_info_employment_status(request, responder):
     responder = _get_person_info(request, responder, 'employment_status')
     try:
         responder.reply("{name}'s employment status is: {employment_status}")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -132,8 +131,8 @@ def get_info_dept(request, responder):
     responder = _get_person_info(request, responder, 'department')
     try:
         responder.reply("{name} was in the {department} department")
-    except Exception:
-        responder.reply(_not_an_employee())
+    except KeyError:
+        responder.reply(NOT_AN_EMPLOYEE)
         return
 
 
@@ -159,7 +158,7 @@ def get_info_default(request, responder):
         # then respond with the information that the person whose details have been requested
         # is not an employee here
         if name == '':
-            responder.reply(_not_an_employee())
+            responder.reply(NOT_AN_EMPLOYEE)
             return
 
         # If the name is recognized, store name as context for next query
@@ -174,7 +173,7 @@ def get_info_default(request, responder):
                                             'date.get_date')
         responder.listen()
 
-    except Exception:
+    except (KeyError, IndexError):
         # If name was stored in context in the previous turn and no other entities were obtained
         # through the entity recognizer, default return all the details about the employee.
         # (If any other entity was recognized the dialogue state would instead be an entity-specific
@@ -208,8 +207,9 @@ def get_info_default(request, responder):
                 responder.frame = {}
 
             else:
-                responder.reply("Hmmm, looks like this employee did not work here!\
-                                Would you like to know about someone else?")
+                replies = ["Hmmm, looks like this employee did not work here! "
+                           "Would you like to know about someone else?"]
+                responder.reply(replies)
                 responder.frame = {}
         else:
             responder.reply("I believe that person is not an employee here.")
@@ -267,8 +267,8 @@ def get_aggregate(request, responder):
             non_func_entities = [e for e in request.entities if e['type'] != 'function']
             if not non_func_entities:
 
-                replies = ["I'm not sure about that. If you are asking about the\
-                            total number of employees, the count is 301."]
+                replies = ["I'm not sure about that. If you are asking about the "
+                           "total number of employees, the count is 301."]
                 responder.reply(replies)
                 return
             # Calculate and return desired mathemical value
@@ -308,7 +308,7 @@ def get_employees(request, responder):
     # Finding extreme entities such as 'highest', 'lowest', 'youngest' etc. (if any)
     try:
         extreme_entity = [e for e in request.entities if e['type'] == 'extreme'][0]
-    except Exception:
+    except IndexError:
         extreme_entity = []
 
     # 'action' entities represent employment action such as hiring of termination
@@ -344,8 +344,8 @@ def get_employees(request, responder):
 
     # Default response
     if len(qa_out) == 0 or len([e for e in request.entities]) == 0:
-        replies = ["No such employees found. To get all employees, you can say\
-            'show all hired employees'."]
+        replies = ["No such employees found. To get all employees, you can say "
+                   "'show all hired employees'."]
         responder.reply(replies)
         return
 
@@ -384,20 +384,17 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
         for i in request.text.split():
             try:
                 num_entity.append(float(i))
-            except Exception:
+            except ValueError:
                 continue
 
-    try:
-        comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
-    except Exception:
-        comparator_entity = []
+    comparator_entity = [e for e in request.entities if e['type'] == 'comparator']
 
     # The age entity can have either be accompanied by a comparator, extreme or no entity.
     # These are mutually exclusive of others and hence can only be queried separately from
     # the knowledge base.
 
     if comparator_entity:
-        comparator_canonical = comparator_entity['value'][0]['cname']
+        comparator_canonical = comparator_entity[0]['value'][0]['cname']
 
         if comparator_canonical == 'more than':
             gte_val = num_entity[0]
@@ -420,10 +417,7 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
     elif len(num_entity) >= 1:
         qa = qa.filter(field='age', gte=np.min(num_entity), lte=np.max(num_entity))
 
-    else:
-        size = SIZE
-
-    return qa, size
+    return qa, SIZE
 
 
 def _find_additional_age_entities(request, responder):
@@ -447,9 +441,9 @@ def _find_additional_age_entities(request, responder):
         for i in request.text.split():
             try:
                 num_entity.append(float(i))
-            except Exception:
+            except ValueError:
                 continue
-    except Exception:
+    except (IndexError, ValueError):
         comparator_entity = []
         num_entity = []
 
@@ -484,14 +478,13 @@ def _resolve_categorical_entities(request, responder):
                 val = categorical_entity['value'][0]['cname']
                 kw = {key: val}
                 qa = qa.filter(**kw)
-        except Exception:
+        except KeyError:
             pass
 
     # return size of the whole dataset to prevent the execute function from restricting
     # the responses to 10 (Which is the default)
-    size = SIZE
 
-    return qa, size
+    return qa, SIZE
 
 
 def _resolve_function_entity(responder, func_entity):
@@ -535,7 +528,7 @@ def _resolve_extremes(request, responder, qa, extreme_entity, field, num_entity=
         for i in request.text.split():
             try:
                 num_entity.append(float(i))
-            except Exception:
+            except (ValueError):
                 continue
 
         # keep unique
@@ -581,7 +574,7 @@ def _agg_function(qa_out, func='avg', num_col='money'):
             return len(qa_out)
         elif(func == 'pct'):
             return round(len(qa_out)/3, 2)
-    except Exception:
+    except (TypeError, ZeroDivisionError):
         return 0
 
 
@@ -610,14 +603,12 @@ def _get_person_info(request, responder, entity_type):
     try:
         name_ent = [e for e in request.entities if e['type'] == 'name']
         name = name_ent[0]['value'][0]['cname']
-    except Exception:
-        if name:
-            pass
-        else:
+    except IndexError:
+        if not name:
             return responder
 
     # If name in database, fetch details from knowledge base
-    if name != '':
+    if name:
         responder = _fetch_from_kb(responder, name, entity_type)
     return responder
 
@@ -634,7 +625,3 @@ def _fetch_from_kb(responder, name, entity_type):
     responder.slots['name'] = name
     responder.slots[entity_type] = entity_option
     return responder
-
-
-def _not_an_employee():
-    return "Looks like that person does not work in this organisation."

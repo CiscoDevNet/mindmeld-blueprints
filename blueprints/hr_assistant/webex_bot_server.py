@@ -6,7 +6,6 @@ import json
 from flask import Flask, request
 import requests
 from ciscosparkapi import CiscoSparkAPI
-
 from mindmeld.components import NaturalLanguageProcessor
 from mindmeld.components.dialogue import Conversation
 from mindmeld import configure_logs
@@ -14,12 +13,13 @@ from mindmeld import configure_logs
 
 class WebexBotServer():
 
-    def __init__(self, app, logger, WEBHOOK_ID, ACCESS_TOKEN, conv):
+    def __init__(self, app, WEBHOOK_ID, ACCESS_TOKEN, conv):
         self.app = app
-        self.logger = logger
         self.WEBHOOK_ID = WEBHOOK_ID
         self.ACCESS_TOKEN = ACCESS_TOKEN
         self.conv = conv
+
+        self.logger = logging.getLogger(__name__)
 
         if not self.WEBHOOK_ID or not self.ACCESS_TOKEN:
             raise Exception('WEBHOOK_ID and BOT_ACCESS_TOKEN are not set')
@@ -27,6 +27,35 @@ class WebexBotServer():
         self.spark_api = CiscoSparkAPI(self.ACCESS_TOKEN)
         self.ACCESS_TOKEN_WITH_BEARER = 'Bearer ' + self.ACCESS_TOKEN
         self.CISCO_API_URL = 'https://api.ciscospark.com/v1'
+
+        @self.app.route('/', methods=['POST'])
+        def handle_message(self):
+            me = self.spark_api.people.me()
+            data = request.get_json()
+
+            for key in ['personId', 'id', 'roomId']:
+                if key not in data['data'].keys():
+                    return 'OK'
+
+            if data['id'] != self.WEBHOOK_ID:
+                self.logger.debug("Retrieved Webhook_id {} doesn't match".format(data['id']))
+                return 'OK'
+
+            person_id = data['data']['personId']
+            msg_id = data['data']['id']
+            txt = self._get_message(msg_id)
+            room_id = data['data']['roomId']
+
+            if 'text' not in txt:
+                return 'OK'
+
+            message = str(txt['text']).lower()
+
+            # Ignore the bot's own responses, else it would go into an infinite loop
+            # of answering it's own questions.
+            if person_id != me.id:
+                self._post_message(room_id, self.conv.say(message)[0])
+            return 'OK'
 
     def run(self, host='localhost', port=7150):
         self.app.run(host=host, port=port)
@@ -42,47 +71,18 @@ class WebexBotServer():
         return response
 
     def _post_message(self, room_id, text):
-        headers = {'Authorization': self.ACCESS_TOKEN_WITH_BEARER, 'content-type': 'application/json'}
+        headers = {'Authorization': self.ACCESS_TOKEN_WITH_BEARER,
+                   'content-type': 'application/json'}
         payload = {'roomId': room_id, 'text': text}
         resp = requests.post(url=self._url('/messages'), json=payload, headers=headers)
         response = json.loads(resp.text)
         response['status_code'] = str(resp.status_code)
         return response
 
-    @self.app.route('/', methods=['POST'])
-    def handle_message(self):
-        me = self.spark_api.people.me()
-        data = request.get_json()
-
-        for key in ['personId', 'id', 'roomId']:
-            if key not in data['data'].keys():
-                return 'OK'
-
-        if data['id'] != self.WEBHOOK_ID:
-            self.logger.debug("Retrieved Webhook_id {} doesn't match".format(data['id']))
-            return 'OK'
-
-        person_id = data['data']['personId']
-        msg_id = data['data']['id']
-        txt = self._get_message(msg_id)
-        room_id = data['data']['roomId']
-
-        if 'text' not in txt:
-            return 'OK'
-
-        message = str(txt['text']).lower()
-
-        # Ignore the bot's own responses, else it would go into an infinite loop
-        # of answering it's own questions.
-        if person_id != me.id:
-            self._post_message(room_id, self.conv.say(message)[0])
-        return 'OK'
-
 
 if __name__ == '__main__':
 
     app = Flask(__name__)
-    logger = logging.getLogger(__name__)
 
     # Create web hook here: https://developer.webex.com/docs/api/v1/webhooks/create-a-webhook
     WEBHOOK_ID = os.environ.get('WEBHOOK_ID')
@@ -92,10 +92,10 @@ if __name__ == '__main__':
 
     configure_logs()
     nlp = NaturalLanguageProcessor('.')
-    nlp.build()
+    # nlp.build()
     conv = Conversation(nlp=nlp, app_path='.')
 
-    server = WebexBotServer(app, logger, WEBHOOK_ID, ACCESS_TOKEN, conv)
+    server = WebexBotServer(app, WEBHOOK_ID, ACCESS_TOKEN, conv)
 
     port_number = 8080
     print('Running server on port {}...'.format(port_number))

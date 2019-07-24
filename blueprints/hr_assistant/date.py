@@ -5,7 +5,7 @@ the MindMeld HR assistant blueprint application
 from .root import app
 from hr_assistant.general import (
     _resolve_categorical_entities, _resolve_function_entity,
-    _resolve_extremes, _agg_function, _get_names, _not_an_employee,
+    _resolve_extremes, _agg_function, _get_names, NOT_AN_EMPLOYEE,
     SIZE
 )
 from dateutil.relativedelta import relativedelta
@@ -29,18 +29,18 @@ def get_date(request, responder):
     try:
         name_ent = [e for e in request.entities if e['type'] == 'name']
         name = name_ent[0]['value'][0]['cname']
-    except Exception:
+    except IndexError:
         name = None
 
     # If neither context nor the current query has an employee name, return not an employee
     if not name:
-        responder.reply(_not_an_employee())
+        responder.reply(NOT_AN_EMPLOYEE)
         responder.listen()
         return
 
     # If name is found but not in the database, return not an employee
     if name == '':
-        responder.reply(_not_an_employee())
+        responder.reply(NOT_AN_EMPLOYEE)
 
     responder.slots['name'] = name
     responder.frame['name'] = name
@@ -229,7 +229,7 @@ def _check_time_ent(time_ent, date_compare_ent):
             # check if time entity is numeric
             try:
                 int(time_ent[i])
-            except Exception:
+            except ValueError:
                 return
 
             # add duration (i.e. start and end dates) to the time entities list
