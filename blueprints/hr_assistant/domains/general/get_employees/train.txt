@@ -397,3 +397,5 @@ list of {immigrant|citizendesc} at this company
 {us citizen|citizendesc}s
 {CA|state} employees
 Which employees are {female|sex}?
+{asian|racedesc} {women|sex} in {sales|department} 
+I want the {females|sex} that are {white|racedesc}

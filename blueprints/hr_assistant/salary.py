@@ -111,6 +111,7 @@ def get_salary_aggregate(request, responder):
                     responder.reply(salary_response)
                     responder.listen()
                     return
+
                 responder.reply("the {function} {interval} salary, based on your criteria,\
                                 is ${value}")
 
@@ -128,7 +129,11 @@ def get_salary_aggregate(request, responder):
                 if function in ('avg', 'sum'):
                     responder.reply('Based on your criteria, the {function} salary is ${value}')
                 else:
-                    responder.reply("The {function} of employees is {value}")
+                    if function == 'pct':
+                        responder.reply("Of the total employees, the {function} "
+                                        "that meet your criteria is {value}")
+                    else:
+                        responder.reply("The {function} of employees is {value}")
 
         # Capture any implicit mentions of money and resolve count or percentage queries
         # (eg. how many people get more than 30)
@@ -148,7 +153,13 @@ def get_salary_aggregate(request, responder):
                 responder.reply(salary_response)
                 responder.listen()
                 return
-            responder.reply("The {function} of employees is {value}")
+
+            if function == 'pct':
+                responder.reply("Of the total employees, the {function} "
+                                "that meet your criteria is {value}")
+            else:
+                responder.reply("The {function} of employees is {value}")
+            
 
         else:
             responder.reply("I see you are looking for the {function}, can you be more specific?")

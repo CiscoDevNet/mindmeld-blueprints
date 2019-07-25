@@ -32,7 +32,7 @@ class WebexBotServer:
         self.CISCO_API_URL = 'https://api.ciscospark.com/v1'
 
         @self.app.route('/', methods=['POST'])
-        def handle_message(self):
+        def handle_message():
             me = self.spark_api.people.me()
             data = request.get_json()
 
@@ -81,7 +81,7 @@ class WebexBotServer:
         response = json.loads(resp.text)
         response['status_code'] = str(resp.status_code)
         return response
-        
+
 
 if __name__ == '__main__':
 
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
     configure_logs()
     nlp = NaturalLanguageProcessor('.')
-    # nlp.build()
+    nlp.build()
     conv = Conversation(nlp=nlp, app_path='.')
 
     server = WebexBotServer(app, WEBHOOK_ID, ACCESS_TOKEN, conv)

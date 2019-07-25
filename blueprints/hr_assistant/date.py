@@ -141,7 +141,12 @@ def get_date_range_aggregate(request, responder):
 
         # Calculate and return desired mathemical value
         responder.slots['value'] = _agg_function(qa_out, func=function)
-        responder.reply('The {function} is {value}')
+
+        if function == 'pct':
+            responder.reply("Of the total employees, the {function} "
+                            "that meet your criteria is {value}")
+        else:
+            responder.reply("The {function} of employees is {value}")
 
     else:
         responder.reply('What time-filtered statistic would you like to know?')

@@ -255,7 +255,11 @@ def get_aggregate(request, responder):
 
             # Calculate and return desired mathemical value
             responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
-            responder.reply('Based on your query, the {function} is {value}')
+            if function == 'pct':
+                responder.reply("Of the total employees, the {function} "
+                                "that meet your criteria is {value}")
+            else:
+                responder.reply('Based on your query, the {function} is {value}')
 
         # Functions count and percentage do not need to be specific to numerical features,
         # unlike average and sum. For eg. 'how many males', require only the count of males
@@ -273,7 +277,11 @@ def get_aggregate(request, responder):
                 return
             # Calculate and return desired mathemical value
             responder.slots['value'] = _agg_function(qa_out, func=function)
-            responder.reply('Based on your query, the {function} is {value}')
+            if function == 'pct':
+                responder.reply("Of the total employees, the {function} "
+                                "that meet your criteria is {value}")
+            else:
+                responder.reply('Based on your query, the {function} is {value}')
 
         else:
             # Function entity recognized, but no other entities recognized to calculate the function
