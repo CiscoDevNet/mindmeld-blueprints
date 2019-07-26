@@ -305,7 +305,6 @@ def _money_filter(qa, request, responder):
         # Apply filter iff numerical entity exists
         try:
             qa = qa.filter(field='money', gte=gte_val, lte=lte_val)
-            return qa, SIZE
         except (UnboundLocalError, IndexError):
             return []
 
@@ -315,7 +314,8 @@ def _money_filter(qa, request, responder):
 
     elif len(num_entity) >= 1:
         qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))
-        return qa, SIZE
+
+    return qa, SIZE
 
 
 def _get_interval_amount(recur_ent, money):
