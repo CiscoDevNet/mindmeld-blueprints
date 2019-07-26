@@ -159,7 +159,6 @@ def get_salary_aggregate(request, responder):
                                 "that meet your criteria is {value}")
             else:
                 responder.reply("The {function} of employees is {value}")
-            
 
         else:
             responder.reply("I see you are looking for the {function}, can you be more specific?")
@@ -193,7 +192,11 @@ def get_salary_employees(request, responder):
     qa = _resolve_time_in_salary(request, responder, qa)
 
     if money_entities:
-        qa, size = _apply_money_filter(qa, request, responder)
+        out = _apply_money_filter(qa, request, responder)
+        if out:
+            qa, size = out
+        else:
+            return
 
     qa_out = qa.execute(size=size)
     responder.slots['emp_list'] = _get_names(qa_out)
@@ -256,10 +259,9 @@ def _apply_money_filter(qa, request, responder):
     try:
         qa, size = _money_filter(qa, request, responder)
         return qa, size
-    except IndexError:
+    except (IndexError, TypeError, ValueError):
         responder.reply("I see you are looking for salary information, can you be more specific?")
         responder.listen()
-        return
 
 
 def _money_filter(qa, request, responder):
@@ -303,8 +305,9 @@ def _money_filter(qa, request, responder):
         # Apply filter iff numerical entity exists
         try:
             qa = qa.filter(field='money', gte=gte_val, lte=lte_val)
+            return qa, SIZE
         except (UnboundLocalError, IndexError):
-            pass
+            return []
 
     elif extreme_entity:
         qa, size = _resolve_extremes(request, responder, qa, extreme_entity[0], 'money', num_entity)
@@ -312,8 +315,7 @@ def _money_filter(qa, request, responder):
 
     elif len(num_entity) >= 1:
         qa = qa.filter(field='money', gte=np.min(num_entity), lte=np.max(num_entity))
-
-    return qa, SIZE
+        return qa, SIZE
 
 
 def _get_interval_amount(recur_ent, money):

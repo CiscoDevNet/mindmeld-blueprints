@@ -20,7 +20,7 @@ requested details are returned
 def get_info_age(request, responder):
     responder = _get_person_info(request, responder, 'age')
     try:
-        responder.reply("The age of {name} is {age}")
+        responder.reply("{name} is {age} years old")
     except KeyError:
         responder.reply(NOT_AN_EMPLOYEE)
     return
