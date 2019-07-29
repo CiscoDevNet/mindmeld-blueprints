@@ -239,9 +239,16 @@ def _check_time_ent(time_ent, date_compare_ent):
 
             # add duration (i.e. start and end dates) to the time entities list
             try:
+                # Consider the beginning of the year as the comparator point if
+                # date compare entity is provided
                 if date_compare_ent:
                     time_ent[i] = str(time_ent[i])+'-01-01'
+
+                # If no date compare entity, add both beginning and end of year
+                # dates to the time entities (to keep track of the whole duration)    
                 else:
+                    # time_old : year mentioned
+                    # Added entities: 01-01-YEAR and 12-31-YEAR to cover duration
                     time_old = str(time_ent[i])
                     time_ent[i] = time_old+'-01-01'
                     time_ent.append(time_old+'-12-31')
