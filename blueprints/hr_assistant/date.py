@@ -28,7 +28,8 @@ def get_date(request, responder):
     # If user presents a new name, update the name in context
     try:
         name_ent = [e for e in request.entities if e['type'] == 'name']
-        name = name_ent[0]['value'][0]['cname']
+        if name_ent:
+            name = name_ent[0]['value'][0]['cname']
     except IndexError:
         name = None
 
@@ -245,7 +246,7 @@ def _check_time_ent(time_ent, date_compare_ent):
                     time_ent[i] = str(time_ent[i])+'-01-01'
 
                 # If no date compare entity, add both beginning and end of year
-                # dates to the time entities (to keep track of the whole duration)    
+                # dates to the time entities (to keep track of the whole duration)
                 else:
                     # time_old : year mentioned
                     # Added entities: 01-01-YEAR and 12-31-YEAR to cover duration

@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-import logging
-import json
-from flask import Flask, request
-import requests
-from ciscosparkapi import CiscoSparkAPI
+from flask import Flask
 from mindmeld.components import NaturalLanguageProcessor
 from mindmeld.components.dialogue import Conversation
 from mindmeld.bot import WebexBotServer
