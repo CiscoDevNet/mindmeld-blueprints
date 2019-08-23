@@ -1,0 +1,33 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "men",
+                "males",
+                "guys",
+                "dudes",
+                "gents",
+                "gentlemen",
+                "boys",
+                "boy",
+                "male"
+            ],
+            "cname": "male"
+        },
+        {
+            "whitelist": [
+                "women",
+                "females",
+                "ladies",
+                "lady",
+                "ladys",
+                "girls",
+                "gals",
+                "woman",
+                "girl",
+                "female"
+            ],
+            "cname": "female"
+        }
+    ]
+}

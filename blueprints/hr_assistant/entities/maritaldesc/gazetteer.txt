@@ -1,0 +1,25 @@
+married
+divorced
+single
+separated
+widowed
+wed
+legally married
+espoused
+joined in holy matrimony
+hitched
+unmarried
+bachelor
+bachelorette
+husbandless
+without a partner
+unwedded
+wifeless
+no longer married
+without a husband
+without a wife
+maritaldesc
+marital status
+spouse
+husband
+wife

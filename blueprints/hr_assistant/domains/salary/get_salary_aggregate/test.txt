@@ -1,0 +1,13 @@
+fetch me the {min|extreme} {compensation|money} for a {network engineer|position} at this organization
+how much do {non-citizen|citizendesc} {earn|money} on {average|function} {hourly|time_recur}
+{average|function} {hourly|time_recur} {earnings|money} for {us citizen|citizendesc}
+how much do {non-citizens|citizendesc} {earn|money} on {average|function} {hourly|time_recur}
+{avg|function} {income|money} for {on-line web application|employee_source}
+how much do {immigrants|citizendesc} {earn|money} on {average|function} {hourly|time_recur}
+What is the {percent|function} is {earned|money} by {sales manager|position}s in the company?
+how much do {non us citizen|citizendesc} {earn|money} on {average|function} {hourly|time_recur}
+i want the {fraction|function} of employees in the {Sales department|department} that are {making|money} exactly {$70,000|sys_amount-of-money}
+{average|function} {income|money} of employees {recruited|employment_action} {last month|sys_time}
+what are {production technicians|position} {making|money} on {average|function}?
+what is the {average|function} {income|money} that employees that are {non-citizen|citizendesc} {make|money}?
+what is the {typical|function} {salary|money} of {immigrant|citizendesc} people

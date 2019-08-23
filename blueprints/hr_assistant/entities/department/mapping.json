@@ -1,0 +1,45 @@
+{
+    "entities": [
+        {
+            "whitelist": [],
+            "cname": "executive office"
+        },
+        {
+            "whitelist": [
+                "administration",
+                "office of admin",
+                "office of administration",
+                "admin office",
+                "administration office"
+            ],
+            "cname": "admin offices"
+        },
+        {
+            "whitelist": [],
+            "cname": "production"
+        },
+        {
+            "whitelist": [
+                "IT",
+                "IS",
+                "Information Technology",
+                "Information Systems",
+                "Info Tech",
+                "Info Sys"
+            ],
+            "cname": "it/is"
+        },
+        {
+            "whitelist": [
+                "programming",
+                "coding",
+                "software development"
+            ],
+            "cname": "software engineering"
+        },
+        {
+            "whitelist": [],
+            "cname": "sales"
+        }
+    ]
+}

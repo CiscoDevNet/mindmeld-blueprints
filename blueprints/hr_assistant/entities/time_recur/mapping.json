@@ -1,0 +1,72 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "by the year",
+                "every year",
+                "each year",
+                "annually",
+                "on a yearly basis",
+                "per year",
+                "annual",
+                "in a year",
+                "in the year"
+            ],
+            "cname": "yearly"
+        },
+        {
+            "whitelist": [
+                "by the month",
+                "every month",
+                "each month",
+                "month to month",
+                "month-to-month",
+                "on a monthly basis",
+                "per month",
+                "in a month",
+                "in the month"
+            ],
+            "cname": "monthly"
+        },
+        {
+            "whitelist": [
+                "by the week",
+                "every week",
+                "each week",
+                "week by week",
+                "on a weekly basis",
+                "per week",
+                "in a week",
+                "in the week"
+            ],
+            "cname": "weekly"
+        },
+        {
+            "whitelist": [
+                "daily",
+                "every day",
+                "day by day",
+                "each day",
+                "on a daily basis",
+                "per day",
+                "in a day",
+                "in the day"
+            ],
+            "cname": "daily"
+        },
+        {
+            "whitelist": [
+                "every hour",
+                "each hour",
+                "on an hourly basis",
+                "on the hour",
+                "per hour",
+                "in an hour",
+                "in  a hour",
+                "hour",
+                "in the hour"
+            ],
+            "cname": "hourly"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "went back to school",
+                "had to go to school again",
+                "needed to go back to school",
+                "went back to college"
+            ],
+            "cname": "return to school"
+        },
+        {
+            "whitelist": [
+                "took on another job",
+                "landed a new position",
+                "changed positions",
+                "got a new position",
+                "found a new position"
+            ],
+            "cname": "another position"
+        },
+        {
+            "whitelist": [
+                "wasn't happy",
+                "didn't like his job",
+                "didn't like her job",
+                "hated the job",
+                "disliked the job",
+                "didn't enjoy the job",
+                "didn't like his work",
+                "didn't like her work"
+            ],
+            "cname": "unhappy"
+        },
+        {
+            "whitelist": [
+                "joined the military",
+                "went to the military",
+                "left for the military",
+                "enlisted in the military",
+                "was drafted into the military"
+            ],
+            "cname": "military"
+        },
+        {
+            "whitelist": [],
+            "cname": "gross misconduct"
+        },
+        {
+            "whitelist": [],
+            "cname": "hours"
+        },
+        {
+            "whitelist": [
+                "got sick",
+                "fell sick",
+                "medical problems",
+                "sick"
+            ],
+            "cname": "medical issues"
+        },
+        {
+            "whitelist": [
+                "was relocated",
+                "had to relocated",
+                "was assigned to a new location",
+                "was assigned to a different location"
+            ],
+            "cname": "relocation out of area"
+        },
+        {
+            "whitelist": [],
+            "cname": "more money"
+        },
+        {
+            "whitelist": [
+                "changed careers"
+            ],
+            "cname": "career change"
+        },
+        {
+            "whitelist": [],
+            "cname": "n/a - has not started yet"
+        },
+        {
+            "whitelist": [
+                "retired",
+                "went into retirement"
+            ],
+            "cname": "retiring"
+        },
+        {
+            "whitelist": [],
+            "cname": "n/a - still employed"
+        },
+        {
+            "whitelist": [
+                "poor attendance",
+                "bad attendance"
+            ],
+            "cname": "attendance"
+        },
+        {
+            "whitelist": [],
+            "cname": "no-call no-show"
+        },
+        {
+            "whitelist": [
+                "did not come back from maternity leave",
+                "had a kid and dissapeared"
+            ],
+            "cname": "maternity leave - did not return"
+        },
+        {
+            "whitelist": [
+                "poor performance",
+                "performed below expectations"
+            ],
+            "cname": "performance"
+        }
+    ]
+}

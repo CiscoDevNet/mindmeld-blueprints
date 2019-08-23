@@ -43,6 +43,10 @@ The Home Assistant blueprint is a conversational app that helps users to control
 ### [Video Discovery](https://www.mindmeld.com/docs/blueprints/video_discovery.html)
 The Video Discovery blueprint is a conversational app that helps users to search for and ask questions about movies and tv shows. This blueprint will demonstrate the extensive usage of the Knowledge Base component.
 
+### [HR Assistant](https://www.mindmeld.com/docs/blueprints/hr_assistant.html)
+The HR Assistant blueprint is a conversational app that helps users to search for and ask questions about employees working in an organization. This blueprint will demonstrate building an enterprise facing application with multiple intents, domains, and entities. It will also showcase extensive usage of the Knowledge Base and Question Answerer Components.
+
+
 ## Want to learn more about MindMeld?
 
 Visit the [MindMeld website](https://www.mindmeld.com/).

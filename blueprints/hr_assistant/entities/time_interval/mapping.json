@@ -1,0 +1,93 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "00's",
+                "2000's",
+                "two thousands"
+            ],
+            "cname": "2000s"
+        },
+        {
+            "whitelist": [
+                "10's",
+                "two thousand tens",
+                "tens",
+                "2010's"
+            ],
+            "cname": "2010s"
+        },
+        {
+            "whitelist": [
+                "20's",
+                "nineteen twenties",
+                "twenties",
+                "1920's"
+            ],
+            "cname": "1920s"
+        },
+        {
+            "whitelist": [
+                "30's",
+                "nineteen thirties",
+                "thirties",
+                "1930's"
+            ],
+            "cname": "1930s"
+        },
+        {
+            "whitelist": [
+                "40's",
+                "nineteen forties",
+                "forties",
+                "1940's"
+            ],
+            "cname": "1940s"
+        },
+        {
+            "whitelist": [
+                "50's",
+                "nineteen fifties",
+                "fifties",
+                "1950's"
+            ],
+            "cname": "1950s"
+        },
+        {
+            "whitelist": [
+                "60's",
+                "nineteen sixties",
+                "sixties",
+                "1960's"
+            ],
+            "cname": "1960s"
+        },
+        {
+            "whitelist": [
+                "70's",
+                "nineteen seventies",
+                "seventies",
+                "1970's"
+            ],
+            "cname": "1970s"
+        },
+        {
+            "whitelist": [
+                "80's",
+                "nineteen eighties",
+                "eighties",
+                "1980's"
+            ],
+            "cname": "1980s"
+        },
+        {
+            "whitelist": [
+                "90's",
+                "nineteen nineties",
+                "nineties",
+                "1990's"
+            ],
+            "cname": "1990s"
+        }
+    ]
+}

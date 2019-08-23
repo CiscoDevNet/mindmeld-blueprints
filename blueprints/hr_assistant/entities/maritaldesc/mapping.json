@@ -1,0 +1,34 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "wed",
+                "legally married",
+                "espoused",
+                "joined in holy matrimony",
+                "hitched"
+            ],
+            "cname": "married"
+        },
+        {
+            "whitelist": [],
+            "cname": "divorced"
+        },
+        {
+            "whitelist": [
+                "unmarried",
+                "bachelor",
+                "bachelorette"
+            ],
+            "cname": "single"
+        },
+        {
+            "whitelist": [],
+            "cname": "separated"
+        },
+        {
+            "whitelist": [],
+            "cname": "widowed"
+        }
+    ]
+}

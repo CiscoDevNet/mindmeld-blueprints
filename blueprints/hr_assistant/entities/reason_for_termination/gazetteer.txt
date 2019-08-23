@@ -1,0 +1,56 @@
+return to school
+another position
+unhappy
+military
+gross misconduct
+hours
+medical issues
+relocation out of area
+more money
+career change
+n/a - has not started yet
+retiring
+n/a - still employed
+attendance
+no-call no-show
+maternity leave - did not return
+performance
+went back to school
+had to go to school again
+needed to go back to school
+went back to college
+took on another job
+landed a new position
+changed positions
+got a new position
+found a new position
+wasn't happy
+didn't like his job
+didn't like her job
+hated the job
+disliked the job
+didn't enjoy the job
+didn't like his work
+didn't like her work
+joined the military
+went to the military
+left for the military
+enlisted in the military
+was drafted into the military
+got sick
+fell sick
+medical problems
+sick
+was relocated
+had to relocated
+was assigned to a new location
+was assigned to a different location
+changed careers
+retired
+went into retirement
+poor attendance
+bad attendance
+did not come back from maternity leave
+had a kid and dissapeared
+poor performance
+performed below expectations
