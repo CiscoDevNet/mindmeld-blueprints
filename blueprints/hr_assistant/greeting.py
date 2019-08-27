@@ -12,7 +12,8 @@ def greet(request, responder):
                     "an employee's individual information (eg. Is Mia married?), "
                     "some employee statistic (eg. average salary of females) or "
                     "names of employees according to your criteria"
-                    "(eg. give me a list of all married employees)")
+                    "(eg. give me a list of all married employees) or"
+                    "general policy questions")
 
 
 @app.handle(intent='exit')
