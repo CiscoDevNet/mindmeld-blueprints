@@ -8,7 +8,10 @@ from hr_assistant.general import (
     _resolve_function_entity, _resolve_extremes, _agg_function,
     _get_person_info, NOT_AN_EMPLOYEE, SIZE
 )
+from .helpers import extract_entities_from_type
 import numpy as np
+
+MAX_SALARY = 1000
 
 
 @app.handle(intent='get_salary')
@@ -66,8 +69,8 @@ def get_salary_aggregate(request, responder):
     func_entity = request.frame.get('function')
 
     # If the user provides a new function entity, it replaces the one in context from previous turns
-    func_entities = [e for e in request.entities if e['type'] == 'function']
-    money_entities = [e for e in request.entities if e['type'] == 'money']
+    func_entities = extract_entities_from_type(request, 'function')
+    money_entities = extract_entities_from_type(request, 'money')
     recur_ent = [e['value'][0]['cname'] for e in request.entities if e['type'] == 'time_recur']
 
     # If there are any categorical entities (eg. race, gender, department etc.) in the query that
@@ -95,10 +98,10 @@ def get_salary_aggregate(request, responder):
 
         if money_entities:
             out = _apply_money_filter(qa, request, responder)
-            if out:
-                qa, size = out
-            else:
+            if not out:
                 return
+
+            qa, size = out
 
             qa_out = qa.execute(size=size)
 
@@ -140,11 +143,11 @@ def get_salary_aggregate(request, responder):
         elif function not in ('avg', 'sum'):
 
             out = _apply_money_filter(qa, request, responder)
-            if out:
-                qa, size = out
-            else:
+
+            if not out:
                 return
 
+            qa, size = out
             qa_out = qa.execute(size=size)
             responder = _calculate_agg_salary(responder, qa_out, function)
 
@@ -181,7 +184,7 @@ def get_salary_employees(request, responder):
     knowledge base on those criteria and returns the shortlisted list of names.
     """
 
-    money_entities = [e for e in request.entities if e['type'] == 'money']
+    money_entities = extract_entities_from_type(request, 'money')
 
     # Resolve the recognized function entity to its canonical form, one that can be used in
     # the output dialog as well as in the '_agg_function', which is used to calculate the values
@@ -193,13 +196,13 @@ def get_salary_employees(request, responder):
 
     if money_entities:
         out = _apply_money_filter(qa, request, responder)
-        if out:
-            qa, size = out
-        else:
+        if not out:
             return
 
+        qa, size = out
+
     qa_out = qa.execute(size=size)
-    responder.slots['emp_list'] = _get_names(qa_out)
+    responder.slots['emp_list'] = _get_names_with_money(qa_out)
 
     if qa_out:
         if size == 1:
@@ -227,7 +230,7 @@ def _resolve_time_in_salary(request, responder, qa):
                         for e in request.entities
                         if e['type'] == 'date_compare']
 
-    dob_entity = [e for e in request.entities if e['type'] == 'dob']
+    dob_entity = extract_entities_from_type(request, 'dob')
 
     action_entity = [e['value'][0]['cname']
                      for e in request.entities
@@ -275,9 +278,9 @@ def _money_filter(qa, request, responder):
                   for e in request.entities
                   if e['type'] in ('sys_number', 'sys_amount-of-money')]
 
-    comparator_entity = [e for e in request.entities if e['type'] == 'comparator']
+    comparator_entity = extract_entities_from_type(request, 'comparator')
 
-    extreme_entity = [e for e in request.entities if e['type'] == 'extreme']
+    extreme_entity = extract_entities_from_type(request, 'extreme')
 
     # The money entity can have either be accompanied by a comparator, extreme or no entity.
     # These are mutually exclusive of others and hence can only be queried separately from
@@ -288,7 +291,7 @@ def _money_filter(qa, request, responder):
 
         if comparator_canonical == 'more than' and len(num_entity) == 1:
             gte_val = num_entity[0]
-            lte_val = 1000  # Default value since it is much above the hourly salary limit
+            lte_val = MAX_SALARY  # Default value since it is much above the hourly salary limit
 
         elif comparator_canonical == 'less than' and len(num_entity) == 1:
             lte_val = num_entity[0]
@@ -346,7 +349,7 @@ def _calculate_agg_salary(responder, qa_out, function, recur_ent='hourly'):
     return responder
 
 
-def _get_names(qa_out):
+def _get_names_with_money(qa_out):
     """
     Get a List of Names from a QA Result
     param qa_out (list) Output of QA from a query
