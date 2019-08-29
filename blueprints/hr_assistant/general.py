@@ -16,6 +16,8 @@ If the person is not in the index then the responder slot for name is returned
 empty, resulting in the shift to the except case. If name exists in the KB, the
 requested details are returned
 """
+
+
 @app.handle(intent='get_info', has_entity='age')
 def get_info_age(request, responder):
     responder = _get_person_info(request, responder, 'age')
