@@ -1,0 +1,17 @@
+switch the {stereo|appliance} on
+turn on the {coffee maker|appliance}
+turn the {stereo|appliance} in the {kitchen|location}
+{humidifier|appliance} on
+turn the {tv|appliance} on
+flip on the {stereo|appliance}
+turn the {tv|appliance} in the {kitchen|location} on
+switch the {ac|appliance} on in the {bedroom|location}
+turn on the {stereo|appliance}
+{tv|appliance} on
+turn on the {tv|appliance} in the {bedroom|location}
+flip on the {water cooker|appliance}
+turn on the {tv|appliance}
+flip the {tv|appliance} on
+{coffee|appliance} on
+turn the {radio|appliance} on
+turn on the {video player|appliance} in the {living room|location}

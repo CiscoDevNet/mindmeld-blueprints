@@ -1,0 +1,452 @@
+show me {the pianist|title}
+show {grey s anatomy|title}
+show me {shows|type} with {tim allen|cast}
+i would like to view the {shows|type} with {angelina jolie|cast}
+show me {movies|type} directed by {tarantino|director} starring {charlize theron|cast}
+do you have any {anime|genre} {shows|type}
+what shows are {new|sort} and {bizarre|genre}
+can you show me any {action|genre} {movies|type} directed by {guillermo del toro|director}
+find the {movie|type} about mail order brides
+search for {comedy|genre} {movie|type}
+can you show me {elementary|title}
+what {movies|type} are on that {mel brooks|director} directed
+show me {horror|genre} {movies|type}
+are there any {cartoons|genre}
+are there any {mystery|genre} {thriller|genre} {movies|type} playing
+pull up {fear and loathing in las vegas|title}
+do you have any {movies|type} with {nicolas cage|cast}
+find me a {show|type} with {michael j fox|cast}
+are there any {movies|type} with {megan good|cast} in it
+{angelina jolie|cast} s {new|sort} {movie|type}
+show me interesting {movies|type}
+{best|sort} {drama|genre} {films|type} direction by {steven spielberg|director}
+i would like to watch {bozo|title}
+what {sports|genre} are on live now
+i want to see something with {alicia silverstone|cast}
+what {apocalypse|genre} type {shows|type} are on
+find {broad city|title}
+show me all {movies|type} with {bette davis|cast}
+are there any {fantasy|genre} {movies|type} available
+display a list of {will smith|cast} {sci fi|genre} {films|type}
+is {elementary|title} on
+are there any good {romance|genre} {movies|type} out
+to show me all {family guy|title} {shows|type}
+search for {horror|genre} {movies|type}
+list {horror|genre} please
+i want to see {comedies|genre} that are available with {farley|cast} in them
+show me {comedies|genre} with {eddie murphy|cast}
+what {sci fi|genre} {movies|type} are showing
+show me {tv shows|type} relevant to {kids|genre}
+let s see {movies|type} by {j j abrams|director}
+show me anything with {tina fey|cast}
+display {movies|type} starring {leonardo dicaprio|cast}
+classic {noir|genre} {movies|type}
+show me {comedy|genre} {movies|type}
+show me some {shows|type} that have {bob barker|cast} in them
+let s see {elementary|title}
+show me {movies|type} with {vin diesel|cast}
+give me {movies|type} with {nathan fillion|cast}
+play me {recent|sort} {comedy|genre} {movies|type}
+are there any {crime dramas|genre} on
+show me the {movie|type} {avatar|title}
+find me {movies|type} by {michael bay|director}
+show me {science fiction|genre} {shows|type}
+how many {romantic|genre} {movies|type} can i choose from
+do you have {the big lebowski|title}
+find {documentaries|genre} on rob halford
+show me the {movie|type} {just friends|title}
+{science fiction|genre} {movies|type} with {tom cruise|cast}
+open up last week tonight
+i want to see something with {mark wahlberg|cast} in it
+show me {romantic comedy|genre} {movies|type}
+what do we have in {action|genre} {movies|type}
+{seeking a friend for the end of the world|title}
+show me {sci fi|genre} genre
+show me {shows|type} with {elizabeth mccarthy|cast}
+are there any {movies|type} with {adam sandler|cast} and {chris farley|cast}
+show me any {movies|type} directed by {michael bay|director}
+i would like to see all {films|type} directed by {stanley kubrick|director}
+are there any {science fiction|genre} {movies|type} on
+show me {comedy|genre} {movies|type}
+are there any {family|genre} {movies|type} coming on
+show me {movies|type} directed by {quentin tarantino|director}
+what {movies|type} with {brad pitt|cast} are showing
+the {highest rated|sort} {movies|type} of all time
+any {tarantino|director} {flicks|type}
+{memento|title} with {guy pearce|cast}
+sort by {movies|type} please
+i want to watch {silence of the lambs|title}
+show me {movies|type} by {tarantino|director}
+show my {favorites|title}
+list all {movies|type} by director {woody allen|director}
+show me {movies|type} about {boxing|genre}
+would you please filter out all {films|type} with {matthew mcconaughey|cast}
+show me {the office|title}
+i d like to see a {music|genre} {documentary|genre}
+show me a {steven spielberg|director} {movie|type}
+find {new|sort} {tv shows|type}
+which {movies|type} star {val kilmer|cast}
+i want to watch {dumb and dumber|title}
+any {movies|type} with {johnny depp|cast} on
+show me all {films|type} directed by {mel brooks|director}
+can i watch some {movies|type} directed by {john woo|director}
+show me {game shows|genre}
+can you find me {friends|title}
+please search for the {tonight show|title}
+i heard {guardians of the galaxy|title} is a good {movie|type}
+what {movie|type} with {adam sandler|cast}
+are there any {movies|type} with {jennifer aniston|cast}
+give me a {sitcom|genre}
+show me {movies|type} with {megan fox|cast}
+show me current {action|genre} {movies|type}
+what {drama|genre} {movies|type} are about to start
+show me a {drama|genre} {show|type}
+show me some upcoming {movies|type} directed by {robert zemeckis|director}
+any {movie|type} that {joseph gordon levitt|cast} stars in
+{movies|type} with {humphrey bogart|cast}
+show all {movies|type} with {nicolas cage|cast} in them
+i want to see {movies|type} by {tarantino|director}
+show me {movies|type} with {hugh jackman|cast}
+look up {broad city|title}
+{titanic|title}
+i want to see {movies|type} with {ryan gosling|cast} in them
+what {comedy|genre} {shows|type} are playing
+show me {movies|type} with {james franco|cast}
+show me {movies|type} directed by {quentin tarantino|director}
+what {comedy|genre} {movies|type} are currently airing
+tv please locate {the walking dead|title}
+show me {movies|type} with {robert de niro|cast}
+show me {shows|type} with female leads
+show me some {funny|genre} {movies or tv shows|type}
+find {animated|genre} {movies|type}
+show me {movies|type} starring {armie hammer|cast}
+i need a {film|type} with actor {johnny depp|cast}
+find me something {for the kids|genre}
+show me {movies|type} that just started
+show me {movies|type} directed by the {coen brothers|director}
+show me {movies|type} starring {nathan fillion|cast} and directed by {joss whedon|director}
+show me the {shows|type} with {ashton kutcher|cast}
+find all listing for {the sopranos|title}
+{show|type} popular {cartoons|genre}
+what's that {movie|type} with {jackie chan|cast} where he plays a drunk guy that buys dogs
+show me a {comedy|genre} with {jim carrey|cast}
+show me {movies|type} with {robert de niro|cast}
+look for {john wayne|cast} {movies|type}
+i want to see {movies|type} with {leonardo dicaprio|cast}
+show me {horror|genre} {movies|type}
+show me {movies|type} by {j j abrams|director} please
+show me things with {matthew mcconaughey|cast}
+show me upcoming {tarantino|director} {films|type}
+show me the {shows|type} with {gordon ramsay|cast}
+{wes anderson|director} {movies|type}
+show me some {horror|genre} {movies|type}
+what {action|genre} {movies|type} are currently on
+what {comedy|genre} {cartoons|genre} are on
+what is the full list of television {shows|type} created by {kurt sutter|director}
+show me all the upcoming {documentaries|genre}
+turn to {elementary|title}
+show me the {sci fi|genre} {movies|type}
+i want to watch {frozen|title}
+show me {movies|type} starring {jessica alba|cast}
+look for {movies|type} directed by {quentin tarantino|director}
+show me {funny|genre} {shows|type}
+show me {in the heat of the night|title} episodes containing {carroll o connor|cast}
+{transformers|title} with {mark wahlberg|cast}
+show me anything directed by {mel gibson|director}
+please play a {movie|type} directed by {quentin tarantino|director}
+show me a {movie|type} with {leonardo dicaprio|cast}
+show me a {movie|type} about artificial intelligence
+what {movies|type} in the {comedy|genre} genre are there
+display list of {movies|type} with {johnny depp|cast}
+i want to watch a {sci fi|genre} {show|type}
+show me an {educational|genre} {kids|genre} {show|type}
+show me any {musical|genre} {movies|type}
+show me a {movie|type} about julia roberts
+please play a {movie|type} directed by {wes anderson|director}
+i want to see {alfred hitchcock|director} {movies|type}
+show me a {movie|type} with {jennifer lawrence|cast}
+do you have any {old classic|sort} {movies|type}
+are there any {family|genre} time {movies|type} playing
+i want to see {it happened one night|title}
+is there a {tarantino|director} {movie|type} on
+show me {comedy romance|genre} {movies|type} with dogs in it
+what's the {movie|type} with {michael douglas|cast} where he plans to get his wife murdered
+show all {science fiction|genre} {shows|type}
+show me {shows|type} with {hugh laurie|cast}
+show me a {movie|type} with {will smith|cast}
+is there anything on that has {philip seymour hoffman|cast} in it
+list {shows|type}
+what are some {movies|type} directed by {christopher nolan|director}
+filter out {adult|genre} {movies|type}
+locate all {horror|genre} {movies|type}
+show me {action|genre} {movies|type} with {meg tilly|cast}
+is there a {movie|type} with {leonardo dicaprio|cast} on
+what show has {ice cube|cast} in it
+can you find {college basketball|title}
+go to a {sports|genre} channel
+what {horror|genre} {movie|type} is playing currently
+show me {horror|genre} {movies|type}
+heist {movies|type} with {good reviews|sort}
+find {action|genre} {movies|type}
+let s see some {films|type} starring {jennifer lawrence|cast}
+what are the {movies|type} {milla jovovich|cast} starred in
+show me {movies|type} with oscar winning actors in it
+find a {comedy|genre} starring {robin williams|cast}
+are there any {tarantino|director} {movies|type} on
+show me {horror|genre} {documentaries|genre}
+show me {documentary|genre} {movies|type}
+show {most popular|sort} {shows|type}
+show me a {comedy|genre} {show|type}
+show me {comedy|genre} {shows|type}
+show me anything with {bill burr|cast}
+are there any {baseball|genre} games on
+show me {top|sort} {movies|type} directed by {guy ritchie|director}
+please pick a {show|type} directed by {gerren keith|director}
+{wild|title} with {reese witherspoon|cast}
+put on {sportscenter|title}
+can i see a {brad pitt|cast} {movie|type}
+what's that {movie|type} with alan turing about world war ii
+find local {sports|genre}
+can you show me {cartoons|genre} {movies|type}
+show me {popular|sort} {romantic comedies|genre}
+i want to watch the {nba|genre} playoffs
+i want to watch {modern family|title}
+put on any {tv show|type} with {bob saget|cast}
+can you suggest some good {bollywood|country} {movies|type}
+show me {movies|type} that {kate mara|cast} is in
+show me all {movies|type} by {j j abrams|director}
+list all {comedies|genre} with {bill murray|cast} or {john belushi|cast}
+find me all {crime|genre} {shows|type}
+filter {shows|type} to only include those with actor {liam neeson|cast}
+what {movies|type} directed by {woody allen|director} are playing
+show me {movies|type} with {mark hamill|cast}
+show me {movies|type} with {burt reynolds|cast}
+search for {comedy|genre}
+show me {movies|type} directed by {james cameron|director}
+show me all {reality tv|genre} {shows|type}
+show me {movies|type} with {jim carrey|cast}
+show me something {funny|genre} with {kevin hart|cast}
+{movies|type} directed by {alfred hitchcock|director}
+show me {movies|type} with {tom cruise|cast}
+show me {cooking|genre} {shows|type}
+show me all {andy sandberg|cast} {show|type} episodes
+show me {movies|type} directed by {martin scorsese|director}
+major league baseball
+show me {tv shows|type} starring {jennifer aniston|cast}
+can you turn to a {cooking|genre} {show|type}
+please show me {movies|type} with {johnny depp|cast}
+search for {movies|type} by {quentin tarantino|director}
+what is {meg ryan|cast} s {latest|sort} {movie|type}
+show me {crime|genre} {shows|type}
+show me {eternal sunshine of the spotless mind|title}
+show me any {movies|type} by {george lucas|director}
+show me a {show|type} with {will smith|cast}
+{kristen wiig|cast} {movies|type}
+i would like to see the {movie|type} {love actually|title}
+i want to see a {movie|type} directed by {steven spielberg|director}
+will you please find {sesame street|title}
+show me {drama|genre} {shows|type}
+show me the list of all {ryan reynolds|cast} {movies|type}
+i would like to watch the {latest|sort} {action|genre} {movies|type}
+find {seinfeld|title} for me
+show me {shows|type} with {tina fey|cast}
+show me the {comedies|genre}
+show my {history|genre}
+can you find me {movies|type} directed by {spike lee|director}
+show {movies|type} that are 2 and a half hours long
+show me {movies|type} directed by {ridley scott|director}
+show me any {movies|type} by {quentin tarantino|director}
+show me {shows|type} that include {jerry springer|cast}
+what s the next {movie|type} directed by {j j abrams|director}
+pick a random {movie|type}
+{movies|type} with {hugh grant|cast} in them
+can you find me something {funny|genre} to watch
+what is the {oldest|sort} {charlize theron|cast} {movie|type} that is available
+i want to see {movies|type} featuring {drew barrymore|cast}
+are there any {movies|type} currently on that star {brad pitt|cast}
+80s {comedies|genre} {bill murray|cast}
+show me {movies|type} directed by {steven spielberg|director}
+list {shows|type} with {billy murray|cast} in them
+are there any {series|type} marathons currently {running|genre}
+are there {shows|type} with {aziz ansari|cast}
+i want to see a {funny|genre} {show|type}
+display {movies|type} with {sandra bullock|cast}
+show me all {documentaries|genre}
+what are some offbeat {science fiction|genre} {films|type}
+show me {m night shyamalan|director} s {latest|sort} work
+show me {movies|type} with {cillian murphy|cast}
+i d like to watch {documentaries|genre}
+any {movies|type} with {nicolas cage|cast} in them
+find {comedy|genre} {movies|type}
+do you have the {documentary|genre} about scientology
+the one that s called {red cliff|title}
+find {nfl|genre} {football|genre} games
+are any {movies|type} playing with {eddie murphy|cast} in them
+show me all the {shows|type} that {j j abrams|director} is involved with
+show me {tv shows|type} with {chris pratt|cast}
+show me {romantic comedies|genre} playing now
+are there any {horror|genre} {movies|type} available
+which are the {best|sort} {movies|type} with {kate beckinsale|cast}
+show me any {show|type} with {aziz ansari|cast}
+show me {matt damon|cast} {movies|type}
+search for {space ghost coast to coast|title}
+show me all {sports|genre}
+change it to something {funny|genre}
+show me {movies or tv shows|type} featuring {madonna|cast}
+show me what {comedies|genre} are available
+{comedy|genre} {show|type} {it s always sunny in philadelphia|title}
+show me the {shows|type} with {tim heidecker|cast}
+tv can you show me some {comedy|genre}
+are there any {movies|type} starring {tom cruise|cast} on
+can you show me {fantasy|genre} {movies|type}
+switch to {the walking dead|title}
+show all {johnny depp|cast} {movies|type}
+are there any {joss whedon|director} {shows|type} on
+find {freaks and geeks|title} channel
+i want to watch {the goblet of fire|title}
+show me all {movies|type} with {brad pitt|cast}
+whats the {movie|type} where {julie andrews|cast} sings
+show me a list of {series|type} contain {bryan cranston|cast}
+what kinds of {western|genre} {movies|type} are showing
+what {movies|type} are {chris pratt|cast} in
+show me {comedy|genre} {tv shows|type}
+{the phantom of the opera|title}
+search for {broad city|title}
+find me anything with aliens and {action|genre}
+give me something {funny|genre} to watch
+are there any ongoing {movies|type} at the moment
+i want to find {the office|title}
+what were the {last|sort} {movies|type} that {liam neeson|cast} was in
+i want to see the {most recent|sort} {sci fi|genre} {movie|type}
+what are the {top|sort} {movies|type} by {quentin tarantino|director}
+{last man standing|title}
+show me {movies|type} from {quentin tarantino|director}
+show me episodes of {glee|title} with with {cory monteith|cast}
+show me a list of the {latest|sort} {documentaries|genre}
+show me a {show|type} with {action|genre}
+anything with {natalie portman|cast} on
+find me a {drama|genre} directed by {joss whedon|director}
+i want to watch a {sci fi|genre} {tv show|type}
+show me {comedy|genre} {movies|type} starring {arnold schwarzenegger|cast}
+find {reality|genre} {shows|type}
+i want to see {tv shows|type} with {wayne brady|cast}
+show me {nicolas cage|cast} {movies|type}
+{the good the bad and the ugly|title}
+play a {drama|genre} {movie|type} showing now
+show me a {movie|type} with a sad ending
+what's a good {crime|genre} {movie|type}
+show me {movies|type} with {tom hanks|cast}
+show me my {comedy|genre} options
+what was the {first|sort} {movie|type} that starred {michael j fox|cast}
+how many {top|sort} 10 all time {movies|type} are available to watch
+show me the {movie|type} {chef|title}
+find the next {vikings|title} show
+{movies|type} by {george lucas|director}
+are there any {tarantino|director} {movies|type} available that are free
+find a {movie|type} with {tom hanks|cast}
+what {children|genre} {shows|type} are playing
+give me {movies|type} with {john cena|cast} in them
+show me some {baseball|genre} games
+find a {tom cruise|cast} {flick|type}
+show me {shows|type} starring {tom hanks|cast}
+what {movies|type} have car chases
+show me {movies|type} directed by {judd apatow|director}
+show me {movies|type} made by {quentin tarantino|director}
+are there any {comedy|genre} {movies|type} on
+{teenage mutant ninja turtles|title}
+what {movies|type} are showing with {matthew mcconaughey|cast}
+show me all {ncis|title} {shows|type}
+{the machine|title}
+find {america s got talent|title}
+what {horror|genre} {movies|type} are currently on
+show me {shows|type} with {sophia bush|cast}
+find {comedy|genre} {movies|type}
+tv can you open the {weather|genre} channel
+show me any {movies|type} directed by {quentin tarantino|director}
+show me {swingers|title}
+what {jim carrey|cast} {movies|type} are on
+display {films|type} by {uwe boll|director} please
+display all {films|type} with {james franco|cast}
+are there any {movies or shows|type} with {matt bomer|cast} playing
+show {basketball|genre} games
+i need a {family|genre} {show|type}
+show me {movies|type} with {john wayne|cast}
+are there any {shows|type} with {jessica capshaw|cast}
+show me {mystery|genre} {movies|type}
+what {comedy|genre} {shows|type} are on
+show me all {shows|type} with {bruce willis|cast}
+show me {movies|type} with {denzel washington|cast}
+show me things with {william shatner|cast}
+what {crime|genre} {tv shows|type} come on
+what are all the {action adventure|genre} {shows|type} available to me
+are there any {shows|type} on with {larry david|cast}
+what {new|sort} {drama|genre} {movies|type} are coming out soon
+show me {the maze runner|title}
+bring up {action|genre} {movies|type}
+{gillian anderson|cast} {tv shows|type}
+what s on for {romance|genre}
+navigate to some {horror|genre} {flicks|type}
+{tv shows|type} staring {will smith|cast}
+what {scifi|genre} {shows|type} are available to watch
+do you have any good {romance|genre} {movies|type}
+look for a {show|type} with {michael j fox|cast}
+what shows have {christina applegate|cast}
+switch to {jimmy fallon|title}
+find {movies|type} with {jennifer lawrence|cast}
+{dule hill|cast} on {the west wing|title}
+{what's new|sort}
+any {movies|type} on with {kevin hart|cast} as the main character
+{movies|type} about alabama
+find {grey s anatomy|title}
+i want to see that {movie|type} with {arnold schwarzenegger|cast} where he's on mars
+what are the top {comedy|genre} {movies|type}
+show me {movies|type} with {tom hanks|cast}
+find me a {movie|type} directed by {steven spielberg|director}
+are there any {movies or tv shows|type} with {bradley cooper|cast} currently playing
+the {tonight show|title} listing
+let me see what {horror|genre} {movies|type} are available
+are there any {action|genre} {movies|type}
+are there any {animes|genre} on
+let me see {comedy|genre} {shows|type}
+{fargo|title}
+what {comedy|genre} {movies|type} are on
+show me {shows|type} with {will smith|cast}
+are there any {documentaries|genre} on
+show me the {top rated|sort} {comedy|genre} {movies|type}
+play a {rom com|genre}
+show me all {documentaries|genre}
+do you have {the lego movie|title}
+show me {michelle rodriguez|cast} {movies|type}
+{the incredible burt wonderstone|title}
+are there any {family friendly|genre} {movies|type}
+i want to watch {bates motel|title}
+what {tv show|type} have {emilia clarke|cast}
+show {shows|type}
+show me some {james cameron|director} {movies|type}
+is there any {mob|genre} {movies|type} on
+show me a {best|sort} list of {action|genre} {film|type} monthly
+what {movies|type} with {al pacino|cast} are on
+what {kid|genre} {shows|type} are available
+can i watch a {show|type} with {jamie foxx|cast}
+{brad pitt|cast} {movies|type}
+show me some {movies|type} directed by {charlie chaplin|director}
+what is the {movie|type} where {julia roberts|cast} plays a prostitute
+i want to see a {film|type} which includes {toshiro mifune|cast}
+find me {crime dramas|genre}
+show me what {baseball|genre} games on
+what {movies|type} has {scarlett johansson|cast} been in
+could you show me some {romance|genre} genre {shows|type}
+what is the complete list of {movies|type} that {charlie hunnam|cast} has starred in
+i want to watch a {comedy|genre}
+find a {movie|type} with {winona ryder|cast}
+what are {movies|type} good {for kids|genre}
+{x men wolverine|title}
+find {standup|genre} {comedies|genre}
+{movies|type} directed by {michael bay|director}
+go to {documentaries|genre}
+show me {movies|type} with the {best|sort} rating
+{last tango in paris|title}
+find {drama|genre} series
+show all {shows|type} with {matthew fox|cast}
+change it to {game of thrones|title}
+if the children want to watch tv are there {family friendly|genre} {shows|type} on

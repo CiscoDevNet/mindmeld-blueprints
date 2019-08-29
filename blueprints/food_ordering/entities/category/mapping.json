@@ -1,0 +1,599 @@
+{
+    "entities": [
+        {
+            "whitelist": [],
+            "cname": "Hawaiian Style Poke (HP)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Beverages"
+        },
+        {
+            "whitelist": [],
+            "cname": "Dipping Sauce"
+        },
+        {
+            "whitelist": [],
+            "cname": "Side Orders"
+        },
+        {
+            "whitelist": [],
+            "cname": "Rice Bowl (RB)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Curries"
+        },
+        {
+            "whitelist": [],
+            "cname": "Rawking Nut Milk and Boba"
+        },
+        {
+            "whitelist": [],
+            "cname": "Sandwiches (SW)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Cleanse and Remedy (Rejuvenation)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Side Order"
+        },
+        {
+            "whitelist": [],
+            "cname": "Dim Sum"
+        },
+        {
+            "whitelist": [],
+            "cname": "Dessert"
+        },
+        {
+            "whitelist": [],
+            "cname": "Farmers Market Flat Bread"
+        },
+        {
+            "whitelist": [],
+            "cname": "The Caesar Salads"
+        },
+        {
+            "whitelist": [],
+            "cname": "Grinders"
+        },
+        {
+            "whitelist": [],
+            "cname": "Rice Specialties"
+        },
+        {
+            "whitelist": [],
+            "cname": "Noodle"
+        },
+        {
+            "whitelist": [],
+            "cname": "Salad"
+        },
+        {
+            "whitelist": [],
+            "cname": "Farmers Market Wrap"
+        },
+        {
+            "whitelist": [],
+            "cname": "Modern Thai Specialties"
+        },
+        {
+            "whitelist": [],
+            "cname": "Rotisserie Chickens"
+        },
+        {
+            "whitelist": [],
+            "cname": "Tandoori Breads"
+        },
+        {
+            "whitelist": [],
+            "cname": "Specialties"
+        },
+        {
+            "whitelist": [],
+            "cname": "Breakfast Plates"
+        },
+        {
+            "whitelist": [],
+            "cname": "Foot Long Chicken Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Thep's Favorites"
+        },
+        {
+            "whitelist": [],
+            "cname": "Noodles & Rice"
+        },
+        {
+            "whitelist": [],
+            "cname": "Desserts"
+        },
+        {
+            "whitelist": [],
+            "cname": "Falafel"
+        },
+        {
+            "whitelist": [],
+            "cname": "Breakfast"
+        },
+        {
+            "whitelist": [],
+            "cname": "Noodles"
+        },
+        {
+            "whitelist": [],
+            "cname": "Noodle Soup"
+        },
+        {
+            "whitelist": [],
+            "cname": "Popular Dishes"
+        },
+        {
+            "whitelist": [],
+            "cname": "Veggin' Out Signature Pizzas"
+        },
+        {
+            "whitelist": [],
+            "cname": "Appetizers"
+        },
+        {
+            "whitelist": [],
+            "cname": "Batata"
+        },
+        {
+            "whitelist": [],
+            "cname": "Vegetarian Specialties"
+        },
+        {
+            "whitelist": [],
+            "cname": "Rice Bowls with Fried Eggs"
+        },
+        {
+            "whitelist": [],
+            "cname": "Calzone"
+        },
+        {
+            "whitelist": [],
+            "cname": "Clam Chowder (CC)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Fresh Breads"
+        },
+        {
+            "whitelist": [],
+            "cname": "Milkshakes"
+        },
+        {
+            "whitelist": [],
+            "cname": "House of Thai Favorites"
+        },
+        {
+            "whitelist": [],
+            "cname": "Meat & Poultry"
+        },
+        {
+            "whitelist": [],
+            "cname": "Combinations"
+        },
+        {
+            "whitelist": [],
+            "cname": "Seafood Entrees"
+        },
+        {
+            "whitelist": [],
+            "cname": "Ceviche (C)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Seafood"
+        },
+        {
+            "whitelist": [],
+            "cname": "Cleanse and Remedy (Basic)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Specialty Pasta"
+        },
+        {
+            "whitelist": [],
+            "cname": "Soups"
+        },
+        {
+            "whitelist": [],
+            "cname": "Specials"
+        },
+        {
+            "whitelist": [],
+            "cname": "Burgers"
+        },
+        {
+            "whitelist": [],
+            "cname": "X-factors/ Sides"
+        },
+        {
+            "whitelist": [],
+            "cname": "Entrees"
+        },
+        {
+            "whitelist": [],
+            "cname": "Chicken Specialties"
+        },
+        {
+            "whitelist": [],
+            "cname": "Salads (SL)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Farmers Market Lunchbox"
+        },
+        {
+            "whitelist": [],
+            "cname": "Big Chef Tom's Creations"
+        },
+        {
+            "whitelist": [],
+            "cname": "Side Order (SO)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Special Rolls"
+        },
+        {
+            "whitelist": [],
+            "cname": "Vegetarian Entrees"
+        },
+        {
+            "whitelist": [],
+            "cname": "Platters"
+        },
+        {
+            "whitelist": [],
+            "cname": "Create Your Own Pasta"
+        },
+        {
+            "whitelist": [],
+            "cname": "Juices"
+        },
+        {
+            "whitelist": [],
+            "cname": "Smoothies"
+        },
+        {
+            "whitelist": [],
+            "cname": "Drinks"
+        },
+        {
+            "whitelist": [],
+            "cname": "Wraps"
+        },
+        {
+            "whitelist": [],
+            "cname": "Panini Pressed Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Fish & Chips (FC)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Sandwiches and Wraps"
+        },
+        {
+            "whitelist": [],
+            "cname": "Specialty Salads"
+        },
+        {
+            "whitelist": [],
+            "cname": "Kebabs"
+        },
+        {
+            "whitelist": [],
+            "cname": "Power Cleanse"
+        },
+        {
+            "whitelist": [],
+            "cname": "Pancakes"
+        },
+        {
+            "whitelist": [],
+            "cname": "Deli Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Nigiri Sushi (2 Pcs)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Small Plates"
+        },
+        {
+            "whitelist": [],
+            "cname": "Appetizer"
+        },
+        {
+            "whitelist": [],
+            "cname": "French Toast"
+        },
+        {
+            "whitelist": [],
+            "cname": "Fried Rice"
+        },
+        {
+            "whitelist": [],
+            "cname": "Charbroiled Burgers"
+        },
+        {
+            "whitelist": [],
+            "cname": "Pizzas"
+        },
+        {
+            "whitelist": [],
+            "cname": "Tandoori Specialties"
+        },
+        {
+            "whitelist": [],
+            "cname": "Spicy Bite Special"
+        },
+        {
+            "whitelist": [],
+            "cname": "Foot Long Classic Steak Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Fries"
+        },
+        {
+            "whitelist": [],
+            "cname": "Seafood Specialties"
+        },
+        {
+            "whitelist": [],
+            "cname": "Fresh Salads"
+        },
+        {
+            "whitelist": [],
+            "cname": "Extras"
+        },
+        {
+            "whitelist": [],
+            "cname": "Large Plates"
+        },
+        {
+            "whitelist": [],
+            "cname": "Noodle Soups"
+        },
+        {
+            "whitelist": [],
+            "cname": "Other Salads"
+        },
+        {
+            "whitelist": [],
+            "cname": "Waffles"
+        },
+        {
+            "whitelist": [],
+            "cname": "Small Eats"
+        },
+        {
+            "whitelist": [],
+            "cname": "Gourmet Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Organic Cold Pressed Juice Elixirs"
+        },
+        {
+            "whitelist": [],
+            "cname": "Subs"
+        },
+        {
+            "whitelist": [],
+            "cname": "House Made Sauces"
+        },
+        {
+            "whitelist": [],
+            "cname": "Fresco's Special Pizza"
+        },
+        {
+            "whitelist": [],
+            "cname": "Bowls"
+        },
+        {
+            "whitelist": [],
+            "cname": "Vegetables & Tofu"
+        },
+        {
+            "whitelist": [],
+            "cname": "Appetizers and Side Orders"
+        },
+        {
+            "whitelist": [],
+            "cname": "Sashimi (5 Pcs)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Wraps / Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Salad Dishes"
+        },
+        {
+            "whitelist": [],
+            "cname": "Rawesome Acai Super Bowls and Coconut Parfait"
+        },
+        {
+            "whitelist": [],
+            "cname": "Wok"
+        },
+        {
+            "whitelist": [],
+            "cname": "Insalate"
+        },
+        {
+            "whitelist": [],
+            "cname": "Pan Fried Noodle and Fried Rice"
+        },
+        {
+            "whitelist": [],
+            "cname": "Makimono-Sushi Rolls (6 Pcs)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Rotisserie Chicken Meals"
+        },
+        {
+            "whitelist": [],
+            "cname": "Lunch Box"
+        },
+        {
+            "whitelist": [],
+            "cname": "Deep Dish Pizza"
+        },
+        {
+            "whitelist": [],
+            "cname": "The Benedicts"
+        },
+        {
+            "whitelist": [],
+            "cname": "Pizza"
+        },
+        {
+            "whitelist": [],
+            "cname": "Shawarma Sandwich"
+        },
+        {
+            "whitelist": [],
+            "cname": "Baked Pasta"
+        },
+        {
+            "whitelist": [],
+            "cname": "Daily Dinner Special"
+        },
+        {
+            "whitelist": [],
+            "cname": "Soda & Water"
+        },
+        {
+            "whitelist": [],
+            "cname": "Raw Superfood Smoothies"
+        },
+        {
+            "whitelist": [],
+            "cname": "Hot Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Salads & Soups"
+        },
+        {
+            "whitelist": [],
+            "cname": "Entr\u00e9es"
+        },
+        {
+            "whitelist": [],
+            "cname": "Pasta"
+        },
+        {
+            "whitelist": [],
+            "cname": "Carnivore Signature Pizzas"
+        },
+        {
+            "whitelist": [],
+            "cname": "Sides"
+        },
+        {
+            "whitelist": [],
+            "cname": "Monster Subs"
+        },
+        {
+            "whitelist": [],
+            "cname": "Farmers Market Soups"
+        },
+        {
+            "whitelist": [],
+            "cname": "Basics"
+        },
+        {
+            "whitelist": [],
+            "cname": "Combo Plate"
+        },
+        {
+            "whitelist": [],
+            "cname": "Special Combo (PC)"
+        },
+        {
+            "whitelist": [],
+            "cname": "Healthy"
+        },
+        {
+            "whitelist": [],
+            "cname": "Antipasto"
+        },
+        {
+            "whitelist": [],
+            "cname": "Mediterranean Food"
+        },
+        {
+            "whitelist": [],
+            "cname": "Traditional Pasta"
+        },
+        {
+            "whitelist": [],
+            "cname": "Soup"
+        },
+        {
+            "whitelist": [],
+            "cname": "Hoagies"
+        },
+        {
+            "whitelist": [],
+            "cname": "Farmers Market Sandwiches"
+        },
+        {
+            "whitelist": [],
+            "cname": "Lamb Specialties"
+        },
+        {
+            "whitelist": [],
+            "cname": "Main Course"
+        },
+        {
+            "whitelist": [],
+            "cname": "Salata"
+        },
+        {
+            "whitelist": [],
+            "cname": "Calzones"
+        },
+        {
+            "whitelist": [],
+            "cname": "Hot Dogs"
+        },
+        {
+            "whitelist": [],
+            "cname": "Roasted"
+        },
+        {
+            "whitelist": [],
+            "cname": "Baos"
+        },
+        {
+            "whitelist": [],
+            "cname": "Targeted Remedy"
+        },
+        {
+            "whitelist": [],
+            "cname": "Salads"
+        }
+    ]}

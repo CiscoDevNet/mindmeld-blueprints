@@ -1,0 +1,71 @@
+1.0	attic
+1.0	back
+1.0	backroom
+1.0	backyard
+1.0	basement
+1.0	bathroom
+1.0	bedroom
+1.0	boardroom
+1.0	boiler room
+1.0	breakfast room
+1.0	cellar
+1.0	clean room
+1.0	cloakroom
+1.0	closet
+1.0	common room
+1.0	conference room
+1.0	corridor
+1.0	dark room
+1.0	den
+1.0	dining room
+1.0	downstairs
+1.0	dressing room
+1.0	entryway
+1.0	exterior
+1.0	family room
+1.0	front
+1.0	foyer
+1.0	front room
+1.0	garage
+1.0	guest bathroom
+1.0	guest bedroom
+1.0	guest room
+1.0	guestroom
+1.0	green room
+1.0	hall
+1.0	hallway
+1.0	home
+1.0	homeroom
+1.0	kids room
+1.0	kitchen
+1.0	kitchenette
+1.0	ladies room
+1.0	laundry room
+1.0	library
+1.0	living room
+1.0	lobby
+1.0	lounge
+1.0	lunchroom
+1.0	master bathroom
+1.0	master bath
+1.0	master bedroom
+1.0	mens room
+1.0	mudroom
+1.0	nursery
+1.0	office
+1.0	outside
+1.0	pantry
+1.0	patio
+1.0	playroom
+1.0	porch
+1.0	sauna
+1.0	side
+1.0	studio
+1.0	study
+1.0	upstairs
+1.0	visitors room
+1.0	waiting room
+1.0	washroom
+1.0	water closet
+1.0	womens room
+1.0	workroom

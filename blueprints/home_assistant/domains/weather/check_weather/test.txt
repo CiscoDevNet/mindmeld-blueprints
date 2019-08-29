@@ -1,0 +1,37 @@
+what s the temperature in {cancun|city}
+what s the temperature outside {right now|sys_time}
+{london|city} weather
+see what the temperature is in {concord|city}
+check what the temperature is in {salt lake city|city}
+{taipei|city} current temperature
+temperature in {san fran|city}
+check {houston|city} temperature
+what s current temperature in {shanghai|city}
+check temperature in {miami|city}
+what s the temperature in {toronto|city} {right now|sys_time}
+what is the temperature in {philadelphia|city}
+what s the temperature outside
+{beijing|city} temperature
+what is the temperature in {rome|city} {right now|sys_time}
+let me know temperature in {portland|city}
+how's the weather in the {big apple|city}
+check current temperature in {chicago|city}
+let me know {san diego|city} temperature
+check {new york city|city} temperature
+see {boston|city} temperature
+check the current temperature in {providence|city}
+{san francisco|city} temperature {now|sys_time}
+{chennai|city} current temperature
+let me know what the temperature is in {mumbai|city}
+what s the current temperature in {berlin|city}
+tell me what the temperature is in {brussels|city}
+tell me the temperature in {san jose|city}
+see temperature in {austin|city}
+current temperature in {honolulu|city}
+tell me {madrid|city} temperature
+what is current temperature in {jefferson city|city}
+check temperature outside
+check what s the temperature in {dallas|city}
+tell me temperature in {los angeles|city}
+tell me what the temperature is in {berlin|city}
+what is the current temperature in {prague|city}

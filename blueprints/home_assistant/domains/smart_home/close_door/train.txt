@@ -1,0 +1,83 @@
+close the {garage|location} door
+close {garage|location} door
+close the {garage|location} door
+can you please shut the {front|location} door
+shut {garage|location} door
+close the {bathroom|location} door
+close the {back|location} door
+close {garage|location} door
+please shut the {front|location} door
+close the {front|location} door
+close the {bathroom|location} door
+shut the door to the {kitchen|location}
+close {bedroom|location} door
+close {front|location}
+close {all|all} the doors now
+close only the {front|location} door
+close doors
+close {all|all} {bedroom|location} doors
+please close the {bathroom|location} door
+close the door
+shut the {front|location} door
+shut {bathroom|location} door
+please close the {garage|location} door
+close the {bathroom|location} door
+close the door to the {kitchen|location}
+shut the {master bedroom|location}
+close door
+close the {garage|location} door
+close the {den|location} door
+shut {all|all} the doors
+shut the {basement|location} door
+close {back|location}
+shut the {garage|location} door
+shut {all|all} the doors for the night
+close the {front|location} door and the {bathroom|location} door
+shut the {front|location} door
+close {all|all} doors in {all|all} the rooms
+shut {all|all} the doors
+close the door to the {basement|location}
+close the {front|location} door
+please shut the {bathroom|location} door
+shut the {backyard|location} gate
+shut the {closet|location} door
+close door
+shut {all|all} doors
+close the {laundry room|location} door
+close the {back|location} door
+close the {garage|location} door
+close {all|all} doors
+close the {front|location} door
+close the door to the {living room|location}
+close the {back|location} door
+close the {family room|location} door
+close {garage|location}
+close {front|location} door now
+close {all|all} the doors
+close the {front|location} door
+close the {nursery|location} door
+close {bathroom|location} door
+close the {basement|location} door
+close the {playroom|location} door
+shut {all|all} doors
+close the {front|location} door
+close the {bathroom|location} door
+shut the {bedroom|location} door
+shut {front|location} door
+close door in {master bedroom|location}
+close the {back|location} door
+close the {front|location} door
+close {back|location} door
+shut the {bathroom|location} door
+{all|all} close now
+close {front|location} door
+close the {master bedroom|location} door
+close my {bedroom|location} door
+close the {bathroom|location} door
+close the {back|location} door
+close doors
+close {front|location} door
+close {den|location} door
+close the {back|location} door
+close {guest room|location} door
+shut the {front|location} door

@@ -1,0 +1,140 @@
+start the {dishwasher|appliance}
+turn the {lamp|appliance} on in the {office|location}
+turn on the {fan|appliance}
+please start the {oven|appliance} for me
+turn the {fan|appliance} on
+turn on the {fan|appliance} please
+turn on {tv|appliance}
+start the {coffee maker|appliance} please
+{ice machine|appliance} make ice
+{tv|appliance} on
+please turn on the {tv|appliance}
+turn on the {bathroom|location} {vents|appliance}
+start the {dish washer|appliance}
+{tv|appliance} on
+start the {microwave|appliance}
+activate the {roomba|appliance}
+turn on the {roomba|appliance}
+make {coffee|appliance}
+turn on the {bedroom|location} {tv|appliance}
+can you start the {slow cooker|appliance} on
+boot up the {computer|appliance} please
+will you turn on the {air purifier|appliance}
+turn on the {coffee maker|appliance}
+can you start the {dishwasher|appliance}
+turn on the {tv|appliance}
+turn on the {bathroom|location} fan
+run the water in the {shower|appliance}
+run the {dishwasher|appliance}
+turn on {tv|appliance}
+start the {oven|appliance}
+turn on the {stereo|appliance}
+could you start the {laptop|appliance} in the {living room|location}
+can you turn on the {tv|appliance} in my {bedroom|location}
+turn on the {tv|appliance} in the {back|location} bedroom
+turn the fm {radio|appliance} on
+turn on {stove|appliance} please
+start the {bath|appliance}
+turn on the {oven|appliance}
+start the {microwave|appliance}
+turn on {fans|appliance}
+{computer|appliance} on
+turn the {tv|appliance} in the {living room|location} on
+make the {oven|appliance} turn on
+turn on the {tv|appliance} in my {bedroom|location}
+at present time turn on {stove|appliance}
+activate the {microwave|appliance}
+start the {dishwasher|appliance}
+turn on the {fans|appliance}
+turn on the {fan|appliance} only
+turn on {microwave|appliance}
+preheat the {oven|appliance}
+can you turn on my {stereo|appliance} please
+turn on {television|appliance}
+turn on the {television|appliance}
+start brewing {coffee|appliance}
+i d like the {clothes dryer|appliance} started
+turn the {ceiling fan|appliance} on
+can you turn the {fan|appliance} on
+activate the {coffee maker|appliance}
+can you start the {oven|appliance}
+start {dryer|appliance}
+turn on my {computer|appliance}
+i need the {humidifier|appliance} turned on now
+{coffee machine|appliance} on
+turn on the {living room|location} electrical socket to power on the room {fan|appliance}
+{television|appliance} on please
+turn on the {security system|appliance} in the {garage|location}
+turn {master bedroom|location} {television|appliance} on
+turn on {tv|appliance} in the {living room|location}
+start the {dishwasher|appliance}
+turn on the {tv|appliance}
+{radio|appliance} on
+turn on the {stove|appliance}
+turn on {shower|appliance}
+turn on the {tv|appliance} and {sound system|appliance}
+turn on the {fans|appliance}
+start the {dryer|appliance}
+start {clothes dryer|appliance}
+turn on my {living room|location} {stereo|appliance}
+please start the {oven|appliance}
+turn on {all|all} the {fans|appliance}
+boot the {computer|appliance}
+switch on the {television|appliance}
+power on the {tv|appliance}
+turn on the {fans|appliance} in the {living room|location}
+turn on {coffee|appliance}
+start the {dishwasher|appliance}
+turn on the {kitchen|location} {sink|appliance}
+start the {washer|appliance}
+preheat the {oven|appliance}
+start the {coffee maker|appliance}
+{toaster|appliance} toast now
+start the {toaster|appliance}
+boot up my {computer|appliance}
+turn on the {fan|appliance}
+turn the {jacuzzi|appliance} on
+would you turn the {fan|appliance} on
+start the {coffee machine|appliance}
+please start the {dishwasher|appliance}
+turn the {printer|appliance} on
+start the {computer|appliance} please
+start the {fireplace|appliance}
+turn on {all|all} {tvs|appliance}
+start {all|all} the {stereos|appliance}
+switch on {all|all} the {washers|appliance}
+turn on {all|all} the {televisions|appliance}
+turn on the {dryer|appliance} in the {laundry room|location}
+heat the food in the {microwave|appliance}
+start {all|all} the {computers|appliance}
+turn on {speakers|appliance} in the {house|all}
+pump up {all|all} {stereos|appliance}
+{television|appliance} on
+switch on {microwave|appliance} in the {kitchen|location}
+turn on the {vacuum cleaner|appliance} in the {bedroom|location}
+switch on the {water heater|appliance} in the {bathroom|location}
+activate {radio|appliance} in the {kitchen|location}
+boot {all|all} {computers|appliance} in the {study|location}
+start baking the cake in the {oven|appliance}
+turn on {all|all} {washers|appliance} in the {laundry room|appliance}
+dry the clothes in the {dryer|appliance}
+i m going out turn on the {security alarm|appliance} for the {whole house|all}
+start the {security system|appliance} in the {house|all}
+turn on the {blender|appliance} in the {kitchen|location}
+start the {blender|appliance}
+switch on the {blow dryer|appliance} in the {bathroom|location}
+i want to relax turn on the {television|appliance}
+i want to dance turn on the {stereo|appliance}
+switch off {all|all} {stoves|appliance}
+can you turn on the {water filter|appliance} in the {kitchen|location}
+start the {lawn mower|appliance} int he {backyard|location}
+start {all|all} the {sprinklers|appliance} in the {front yard|location}
+turn on {all|all} {sprinklers|appliance} in the {backyard|location}
+{lawn mower|appliance} go
+can you switch on {all|all} the {sprinklers|appliance} please
+turn on the {refrigerator|appliance} please
+{all|all} {televisions|appliance} need to be turned on now
+{all|all} {radios|appliance} on
+it s too quiet turn on the {radio|appliance}
+my favorite show is on turn on the {tv|appliance}
+i want to listen to the news switch on the {tv|appliance}

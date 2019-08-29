@@ -1,0 +1,175 @@
+remove {all|all} alarm settings
+clear {all|all} alarms
+delete the {8am|sys_time} alarm
+cancel {all|all} set alarms
+end {all|all} alarms
+delete {all|all} alarms for {sunday|sys_time}
+delete {saturday|sys_time} and {sunday|sys_time} alarms
+clear {all|all} alarms
+reset my {6 am|sys_time} alarm
+turn off my {8 am|sys_time} alarm
+turn off my {7 am|sys_time} alarm for {tomorrow morning|interval} only
+alarms off
+please remove my alarm for {saturday morning|interval}
+cancel my {midnight|sys_time} alarm
+clear {all|all} current alarms
+turn off my {8am|sys_time} alarm
+get rid of the alarm {tonight|interval}
+clear my alarms {before 3 this afternoon|interval}
+i want to remove {all|all} of my current alarms
+delete {all|all} day alarms
+can you delete {all|all} of my alarms
+delete my {6:00 a m|sys_time} alarm for {tomorrow|sys_time} only
+cancel alarm
+please end {7am|sys_time} alarm
+take away the alarm {at 9am|sys_time}
+cancel {thursday|sys_time} s alarm
+unset {all|all} alarms for {tomorrow|sys_time}
+delete my last alarm
+delete my {7:30am|sys_time} alarm
+cancel my {6:45 a m|sys_time} alarm
+turn off my alarms
+delete my {6:30am|sys_time} alarm
+remove {all|all} alarms for {thursday|sys_time}
+cancel {tomorrow|sys_time} s alarm
+remove any alarm {before noon today|interval}
+don t wake me up {tomorrow|sys_time}
+turn off the {9am|sys_time} alarm
+delete {all|all} alarms {before 7 am|interval}
+cancel the alarm at {9 am|sys_time}
+delete my alarm {at noon|sys_time}
+cancel {all|all} alarms {tomorrow|sys_time}
+cancel {all|all} alarms
+cancel alarms {before 8 am|interval}
+cancel my {4pm|sys_time} alarm
+turn off {all|all} alarms {today|sys_time}
+turn off {all|all} my alarms {before 5pm|interval}
+turn off my {9 am|sys_time} alarm
+remove {all|all} alarms {on wednesday|sys_time}
+delete the {7 a m|sys_time} alarm
+remove {all|all} {tomorrow|sys_time} s alarm
+cancel the {midnight|sys_time} alarm
+set {all|all} alarms off
+shut off alarms for {this week|sys_time}
+remove alarm for {7:05 pm tonight|sys_time}
+end my {morning|interval} alarm
+remove my alarm for {6 am tomorrow|sys_time}
+delete the earliest alarm for {tomorrow|sys_time}
+remove {all|all} alarms i have set
+delete my {7 a m|sys_time} alarm
+remove {all|all} my alarms set for the {weekend|interval}
+stop {all|all} alarms {today|sys_time}
+i d like to disable {all|all} alarms
+remove my alarms
+turn alarm off
+take out the alarm {at 6|sys_time}
+clear {all|all} alarms
+delete my {10:30am|sys_time} alarm
+please delete the {5 am|sys_time} alarm
+deactivate my alarms
+disable my alarms {next weekend|interval}
+delete my {7:30|sys_time} alarm
+i would like to cancel my alarm settings
+delete my alarms {this weekend|interval}
+cancel my last configures alarm
+clear my alarm {next week|sys_time}
+turn off {all|all} alarms
+end my alarm {tomorrow|sys_time}
+remove the master bedroom alarm
+cancel my {5:45|sys_time} alarm
+remove my {3 pm|sys_time} alarm
+delete alarm set for {6 am|sys_time}
+delete the alarm {at 7 am on tuesday|sys_time}
+reset {all|all} alarms
+no alarms please
+erase my other alarms
+turn off the {sunday|sys_time} alarm
+remove the alarm for {tomorrow|sys_time}
+delete {all|all} alarms {after 6 am|interval}
+delete my alarm {tomorrow|sys_time}
+turn off {all|all} alarms
+pause {all|all} my alarms
+delete my alarms set for {saturday|sys_time}
+don t wake me up {tomorrow|sys_time}
+delete my coming alarm
+delete alarms {after 8pm tomorrow|interval}
+disable {all|all} alarms
+don t alarm me
+delete my last alarm
+please delete my {friday|sys_time} alarms
+skip {all|all} alarms {tomorrow|sys_time}
+delete {tomorrow morning|interval} s alarm
+shut of my alarms for {this weekend|interval}
+please turn off my {saturday|sys_time} alarm
+cancel {tomorrow night|sys_interval} s alarms
+end {3:00am|sys_time} alarm
+cancel my alarms
+turn off the alarms
+please delete my {10am|sys_time} alarm
+i d like to deactivate alarms
+dont play my recurring alarm {tomorrow|sys_time}
+remove my {5 a m|sys_time} alarm
+reset {all|all} alarms
+turn alarm off
+reset alarm until {7:30am|sys_time}
+please delete my alarm {at 7 am|sys_time}
+no more alarms please
+turn off {all|all} alarms {before 6 am|interval}
+no alarm {today|sys_time}
+clear my {midnight|sys_time} alarm
+delete my {midnight|sys_time} alarm
+delete {all|all} my alarms
+cancel my alarm for {5:30 am|sys_time}
+delete my sherlock alarm
+deactivate {all|all} alarms
+please delete and clean {all|all} pm alarm
+delete {all|all} alarms
+deactivate the alarms
+cancel {all|all} alarms
+turn off my {midnight|sys_time} alarm
+delete my alarm {at 8 pm|sys_time}
+would you remove my {3 am|sys_time} alarm
+cancel {all|all} my alarms
+alarm off
+delete {all|all} currently set alarms
+please remove my {wednesday|sys_time} pm alarm
+turn off alarm {tomorrow|sys_time}
+remove {all|all} alarms
+remove {all|all} current alarms and set one for {5am|sys_time}
+remove {tomorrow morning|interval} s alarm
+disable my {5am|sys_time} alarm
+turn off alarms {on saturday|sys_time}
+cancel my alarm
+delete the {2:30 p m|sys_time} alarm
+delete my next alarm
+no alarms {next week|sys_time}
+shut off alarm for {tomorrow morning|interval}
+delete alarm
+i would like to remove alarms
+turn off the alarms {after 5pm|interval}
+delete {all|all} alarms for {tomorrow|sys_time}
+cancel the alarm for {8 am|sys_time}
+deactivate {all|all} my alarms {after 8 tonight|interval}
+reset {midnight|sys_time} alarm
+delete my alarm settings
+disable alarms {this week|sys_time}
+turn off {all|all} the current alarms
+silence {6:00 am|sys_time} alarm
+erase {tomorrow morning|interval} s alarm
+turn alarm off
+delete {all|all} alarms
+i d like to delete {all|all} my alarm settings
+delete my {5 am|sys_time} alarm
+cancel {6 pm|sys_time} alarm
+remove {all|all} the alarms
+cancel the alarm i ain t going to work anymore
+reset my alarms
+turn off alarms for {saturday|sys_time} and {sunday|sys_time}
+delete alarms
+delete my alarms
+delete {all|all} {weekend|interval} alarms
+alarm deactivate
+delete the alarm {at 5 am tomorrow|sys_time}
+please delete my {9am|sys_time} alarm
+disable alarm for {thursday|sys_time}
+discontinue alarms

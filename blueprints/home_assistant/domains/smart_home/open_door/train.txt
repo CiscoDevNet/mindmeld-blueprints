@@ -1,0 +1,90 @@
+open {bedroom|location} door
+open the {entryway|location}
+open the {back|location} door
+please open {bedroom|location} door
+open {garage|location} door
+please open my {master bedroom|location} door
+open door
+leave {all|all} of my doors open
+open all the doors to the {backyard|location}
+open {kitchen|location} door
+open sesame
+open {garage|location} door
+open the {laundry room|location} door
+open the {garage|location} door please
+open the {kitchen|location} pantry
+open {front|location} door
+open the {back|location} door
+open {garage|location} door
+open the {back|location} {patio|location} door
+open {all|all} the doors now
+open {garage|location}
+open the {bathroom|location} door
+open main door
+open {back|location}
+open the {garage|location}
+open door
+open the {family room|location} door
+open the {bedroom|location} door
+open the door to the {nursery|location}
+open {garage|location}
+{front|location} door open
+open {back|location} door
+open guest {bedroom|location} door
+open the door to the {basement|location}
+open the {garage|location}
+open {bathroom|location} door
+open the {garage|location} door
+open the {garage|location} door
+open the {pantry|location} door
+open {all|all} interior
+open the {bathroom|location}
+open the {side|location} door
+swing open the {bathroom|location} door
+open the {back|location} door
+open the {garage|location}
+open my {bedroom|location} door
+open {front|location}
+open {all|all} doors
+open {back|location} door please
+open {garage|location} door
+open the {back|location} door
+open {bathroom|location} door
+open the {front|location} door
+open {all|all} the doors
+please open the door to the {nursery|location}
+open {all|all} doors
+open {garage|location} door
+open the {back|location} door
+open the {garage|location} door
+open the {garage|location} door please
+open the {front|location} door
+open the {front|location} storm door
+open {cellar|location} door
+open the {den|location} door
+open only the {front|location} door
+open the {back|location} door
+open the {porch|location} door
+open {all|all} doors
+open the {side|location} door
+open {all|all} the doors
+open all the doors to the {kitchen|location}
+open {back|location} door
+open the door to my {bedroom|location}
+open {garage|location} door
+please open the {back|location} door
+open the {laundry room|location} door
+open the {bathroom|location} door
+open the {patio|location} door
+open the {bathroom|location} door a crack
+open {garage|location} door
+open the {back|location} door
+open {front|location} door
+open {basement|location} door
+open the {garage|location} door
+open the {basement|location} door now
+open the {side|location} door
+open my door
+open the {attic|location}
+open the {back|location} door
+open {den|location} door

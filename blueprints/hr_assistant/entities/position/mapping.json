@@ -1,0 +1,144 @@
+{
+    "entities": [
+        {
+            "whitelist": [],
+            "cname": "it manager - infra"
+        },
+        {
+            "whitelist": [
+                "chief information officer"
+            ],
+            "cname": "cio"
+        },
+        {
+            "whitelist": [],
+            "cname": "sales manager"
+        },
+        {
+            "whitelist": [
+                "chief executive officer",
+                "ceo",
+                "prez",
+                "president",
+                "executive",
+                "highest rank",
+                "highest ranked",
+                "CEO",
+                "highest ranking"
+            ],
+            "cname": "president & ceo"
+        },
+        {
+            "whitelist": [],
+            "cname": "administrative assistant"
+        },
+        {
+            "whitelist": [
+                "db admin",
+                "db administrator",
+                "database admin"
+            ],
+            "cname": "database administrator"
+        },
+        {
+            "whitelist": [],
+            "cname": "area sales manager"
+        },
+        {
+            "whitelist": [
+                "director of it"
+            ],
+            "cname": "it director"
+        },
+        {
+            "whitelist": [
+                "senior accountant"
+            ],
+            "cname": "sr. accountant"
+        },
+        {
+            "whitelist": [],
+            "cname": "it manager - support"
+        },
+        {
+            "whitelist": [
+                "production technician 2",
+                "production technician two"
+            ],
+            "cname": "production technician ii"
+        },
+        {
+            "whitelist": [],
+            "cname": "network engineer"
+        },
+        {
+            "whitelist": [
+                "senior network engineer"
+            ],
+            "cname": "sr. network engineer"
+        },
+        {
+            "whitelist": [],
+            "cname": "shared services manager"
+        },
+        {
+            "whitelist": [
+                "accountant 1",
+                "accountant one"
+            ],
+            "cname": "accountant i"
+        },
+        {
+            "whitelist": [
+                "tech support"
+            ],
+            "cname": "it support"
+        },
+        {
+            "whitelist": [],
+            "cname": "software engineering manager"
+        },
+        {
+            "whitelist": [
+                "production technician 1",
+                "production technician one"
+            ],
+            "cname": "production technician i"
+        },
+        {
+            "whitelist": [
+                "operations director"
+            ],
+            "cname": "director of operations"
+        },
+        {
+            "whitelist": [
+                "sales director"
+            ],
+            "cname": "director of sales"
+        },
+        {
+            "whitelist": [
+                "senior database administrator",
+                "senior db admin",
+                "senior db administrator"
+            ],
+            "cname": "sr. dba"
+        },
+        {
+            "whitelist": [],
+            "cname": "it manager - db"
+        },
+        {
+            "whitelist": [
+                "software developer",
+                "programmer"
+            ],
+            "cname": "software engineer"
+        },
+        {
+            "whitelist": [],
+            "cname": "production manager"
+        }
+    ]
+}

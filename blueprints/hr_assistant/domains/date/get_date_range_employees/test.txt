@@ -1,0 +1,14 @@
+who was the {earliest|extreme} employee to be {fired|employment_action}
+list of employees that were {born|dob} the {seventies|time_interval}
+Which employees were not yet {born|dob} when {9/11|sys_time} happened?
+{male|sex} workers {born|dob} in the {90's|time_interval}
+{non us citizen|citizendesc} employees were {fired|employment_action} in the {last|date_compare} {five years|sys_duration}?
+I want {male|sex} {born|dob} in the {1930s|time_interval}
+which {citizen|citizendesc} workers {joined|employment_action} in {2012|sys_time}
+which {from abroad|citizendesc} workers have a {birthday|dob} in {1960|time_interval}
+Find me the names of {not citizens|citizendesc} {hired|employment_action} in {2013|sys_time}
+Find me the names of {non us citizen|citizendesc} {hired|employment_action} in {2013|sys_time}
+{women|sex} {born|dob} in the {60's|time_interval}
+Which employees were {born in|dob} the {80's|time_interval}?
+get me a list of {eligble non citizen|citizendesc} workersthat have their {birthdays|dob} in the {1970's|time_interval}
+{us citizen|citizendesc} employees were {fired|employment_action} in the {last|date_compare} {five years|sys_duration}?

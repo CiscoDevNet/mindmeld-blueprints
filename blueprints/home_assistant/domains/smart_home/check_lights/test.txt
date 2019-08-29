@@ -1,0 +1,22 @@
+is the {porch|location} light still on
+please check the lights
+are the lights on or off right now in the {living room|location}
+are the {bedroom|location} lights on
+what's up with the {kitchen|location} lights
+light check
+are {tv lounge|location} lights still turned on
+are the lights off in the {hallway|location}
+check if the lights of the {family room|location} are on
+are the lights in the {bathroom|location} on
+are lights on in the {basement|location}
+are my {kitchen|location} lights on
+tell me the {bedroom|location} light status
+are the lights in the {bathroom|location} still on
+status of the {kitchen|location} lights
+are my lights in the {bathroom|location} on
+please tell me the status of the {living room|location} lights
+did I leave the {garage|location} light on
+did I leave the {porch|location} lights on
+see if {patio deck|location} lights are off or on
+tell me the status of the lights
+are the lights on in the {bathroom|location}

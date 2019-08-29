@@ -1,0 +1,252 @@
+is it too warm in the {basement|location}
+let me know the thermostat setting in {all|all} the rooms
+let me know what the temp is
+thermostat setting
+{kitchen|location} temperature
+what is the thermostat setting
+what's the thermostat setting right now
+what is the temperature outside
+tell me {kitchen|location} temperature
+could you tell me if it s hot in the {kitchen|location}
+how cold is it in the {mudroom|location}
+what degree is the {living room|location} right now
+what is the temperature right now
+check the temperature setting in the {bedroom|location}
+let me know the thermostat setting in here right now
+check thermostat in the {bedroom|location}
+check the temperature in the {living room|location}
+is the cooler on
+check {bedroom|location} temperature
+check the current temp
+what is the temp in the {kitchen|location}
+what s the temperature in the house right now
+let me know how warm it is right now
+what s the temperature in the {bedroom|location}
+tell me how hot it is
+see temperature
+check the heat
+how cool is it in the {bedroom|location}
+tell me the {bedroom|location} temperature now
+how cold is the {basement|location}
+what is the heat right now
+is the ac running
+check what the temp is in here
+check the thermostat setting
+how cold is it in the upstairs {bathroom|location}
+what temperature is it in this room
+is the heat working
+tell me what s on the thermostat
+let me know what the temp is set to in the {kitchen|location}
+how hot is the {kitchen|location}
+see {kitchen|location} temperature
+what is the thermostat set to in here
+check what the temperature is in {all|all} the rooms
+i want temperature readings
+what s the temperature in here
+tell me what the temperature is
+what s the {bedroom|location} temperature
+computer i demand temperature readings
+let me know what the heat is set to
+is the thermostat set to 70 degrees now
+can you tell me the temperature setting
+how hot is it in the {bedroom|location} right now
+what s the temp in the {attic|location}
+list the temperature in the {bedroom|location}
+is the thermostat set to 68 degrees in the {bedroom|location}
+is the heat on
+i would like to check the current temperature
+is the thermostat set to 78
+how hot is it here right now
+how much warmer is it in here than it is outside
+is it colder than it should be
+check thermostat in the {bathroom|location}
+how hot is it in the {kitchen|location} right now
+how cold is it
+what s the temperature in here
+how cold is it in the {living room|location}
+is the heater on
+what s the temperature in my {bedroom|location} right now
+what s the temperature at
+check the temp
+check the current temperature setting
+is it hot in the {kitchen|location}
+what is the {living room|location} temperature
+let me know the thermostat setting in the {bathroom|location} right now
+what's the thermostat setting
+what is the temperature of the house
+check the thermostat setting here
+check thermostat {living room|location}
+i can t sleep how hot is it in the {bedroom|location}
+what s the thermometer say
+see what the temperature is set to in {all|all} the rooms
+what temperature is the thermostat set at
+what temperature is the {basement|location} right now
+check the heater
+check the temperature of the {family room|location}
+tell me {living room|location} temperature
+what s the current temperature in the {living room|location}
+tell me the {bedroom|location} {bathroom|location} temperature
+what s the in room temperature in celsius
+check the current temperature
+what is the heating set to here
+how high is the thermostat set
+how cold is it
+what's the thermostat set to in the {kitchen|location} right now
+check the temperature
+is it cold in the {basement|location}
+what s the temperature in the {master bedroom|location}
+how cold is the kids {bathroom|location}
+let me know what the heater is set to
+is it hot in here
+how hot is the {bedroom|location} right now
+check thermostat {bedroom|location}
+what's the setting on the thermostat
+what is the thermostat set to here right now
+let me know what the temperature is
+what is the {garage|location} temperature right now
+see what the thermostat is set to
+is the heat running
+how hot is it
+how hot is it in this room
+is the temperature set at 68 degrees
+how warm is it in the {bedroom|location}
+how cold is it in the guest bedroom right now
+what is the temperature in the {kitchen|location}
+thermostat how cold is it
+check the heat
+what s the temp in my {bedroom|location}
+how warm is it right now
+see how hot it is right now
+tell me the thermostat setting in {all|all} the rooms right now
+what s the temperature in the {family room|location}
+can you check the temperature setting
+tell me what the temp is set to
+is the temperature setting at 72 degrees
+{bedroom|location} temperature
+check how warm it is right now
+thermostat what is the current temperature
+check thermostat {kitchen|location}
+how cold is it in the {bathroom|location}
+what is the thermostat set to
+what temperature is it
+what is the thermostat set to in the {basement|location}
+what does the thermostat say
+check the heat setting
+check how cold it is in {all|all} the rooms right now
+is it chilly in here to you
+what s the temp in the {basement|location}
+what is the temperature
+is the temperature setting at 75 degrees in the {bathroom|location}
+let me know what the temperature is set to
+what temperature is the thermostat in the {bedroom|location}
+check the temperature setting
+what's the heating set to in the house
+what is the temperature
+what is the outside temperature
+tell me the temperature
+how warm is it in the {study|location}
+tell me what temperature it is
+how cool is the {bedroom|location}
+how hot is it in the {family room|location}
+is the heater running
+what is temp in {kitchen|location}
+check the thermostat setting here right now
+what is the temp right now
+what is the heating set to in here
+how hot is it right now
+tell me the average temperature of the {kitchen|location}
+what s average temperature in the house
+check {bathroom|location} temperature
+check thermostat {bathroom|location}
+what's the heating in here
+the thermostat is at what degrees
+how warm is it in the house
+check what the heat is set to
+check {living room|location} temperature
+list the temperature of {all|all} the rooms
+is the {office|location} warmer than the {living room|location}
+what does the thermostat in the {master bedroom|location} say
+i want the temperature setting
+at what temp is thermostat in {kitchen|location} set
+is it cooler in the bedroom than the living room right now
+how warm is it in the {whole house|location} right now
+may i get the temperature of the {kitchen|location}
+{living room|location} temperature
+what is the temperature in the {kitchen|location} right now
+how cold is it in the {laundry room|location}
+check {kitchen|location} temperature
+what's the thermostat setting in here right now
+current temperature
+check how hot it is in the house
+what is the current temperature
+what s the current temperature
+let me know what the temp is set to in the house
+what degree is it
+how cool is the {kitchen|location}
+see how hot it is
+what s on the thermostat
+how cold is it here
+please tell me the current temp in the {kitchen|location}
+let me know what the heating is set to
+what is the heater set to here
+what is my {bedroom|location} temperature now
+how hot is the home {office|location}
+see what the temperature is set to
+how cold is the air conditioner
+at what temperature is the {living room|location}
+what is the thermostat set to in the {den|location}
+how cold is the {bathroom|location}
+tell me the current temperature
+what s the temperature in the {dining room|location}
+let me know temperature
+how warm is it in the {bedroom|location}
+what is the temperature in the {den|location}
+how cold is it in the {basement|location}
+see the thermostat setting right now
+i demand the temperature setting
+what's on the heater control panel
+what s the current temperature in fahrenheit
+how cold is it in the {bedroom|location}
+read the {kitchen|location} temperature
+what temperature is the {kitchen|location}
+check thermostat in the {living room|location}
+is the heat turned on
+let me know what the temperature is
+check the temperature
+give me the current temperature in the {kitchen|location}
+what is the temperature right now
+what s the temperature of the {living room|location} right now
+check what the temperature is here
+what s the thermostat set at in the {dining room|location}
+tell me what the temperature is set to
+do you know what the temperature is in here right now
+how cold is it in my son s {bedroom|location}
+can you tell me how hot it is on the {patio|location} right now
+tell me what the temperature is in the house
+thermostat setting in {kitchen|location}
+what s the thermostat in the {living room|location} set to
+what's the thermostat setting {everywhere|all} right now
+what is the thermostat set to
+what is the temp set to in the house
+how hot is in in the {bathroom|location}
+check the thermostat
+tell me how cold it is right now
+check the thermostat setting
+what s the temperature set to
+{bathroom|location} temperature
+what is the temperature in the {nursery|location}
+see how warm it is in here
+how many degrees is it in here right now
+what does the thermostat read in the {den|location}
+how many degrees is it in the {living room|location}
+can you check the temperature in the {kitchen|location}
+how hot is it in here
+what s the temperature in the {living room|location}
+show me the temperature
+what is the thermostat set to in the {bedroom|location}
+how hot is the {living room|location}
+what s the current temperature in the {kitchen|location}
+how hot is the thermostat
+what is the heating
+what is the thermostat in the house
+what is the fahrenheit temperature in the {living room|location}

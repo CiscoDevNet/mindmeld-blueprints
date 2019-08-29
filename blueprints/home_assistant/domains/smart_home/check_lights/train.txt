@@ -1,0 +1,90 @@
+is the {living room|location} lights on
+are the {kitchen|location} lights turned off
+lights on or off
+is the {bathroom|location} light still on
+are the lights in the {bedroom|location} off
+are the lights on
+are the {bathroom|location} lights on or off
+see if lights on {terrace|location} is off
+are the lights of the {living room|location} off
+check the status of the {living room|location} lights
+are the {garage|location} lights turned on
+are the lights on in the {kitchen|location}
+are the lights off
+are all the lights off
+tell me if the {bedroom|location} light is off
+tell me if I turned off the lights
+are {kitchen|location} lights off
+are the {bathroom|location} lights on
+check if the lights of {living room|location} off
+is the {porch|location} light on
+is the {porch|location} light turned off
+are the {kitchen|location} lights on
+did I turn on the light
+can you give me the status of the {living room|location} lights
+did I leave the {bedroom|location} lights on
+please check if any of the {kitchen|location} lights are on
+are the {patio|location} lights on
+did I remember to turn off the {kitchen|location} lights
+what lights are on
+did I forget to turn off the lights
+check the lights in the {bathroom|location}
+check if the {bathroom|location} light is off
+make sure the {bedroom|location} lights are off
+tell me if the {bathroom|location} lights are on
+can you let me know the status of the {living room|location} light
+is the light off in the {bathroom|location}
+did I leave the {bathroom|location} light on
+is the {living room|location} light on or off
+check if the lights are on
+are the {exterior|location} lights on
+are any lights on in the {kitchen|location}
+are the {bedroom|location} lights off
+are the lights turned on
+are the lights in the {kitchen|location} off or on
+did I leave the {dining room|location} light on
+did I turn off the {kitchen|location} light
+check the {kitchen|location} lights
+tell me if the lights are on
+are the {living room|location} lights running
+did someone turn off the {kitchen|location} lights
+are the {bedroom|location} lights on or off
+did I remember to cut off the light in the {kitchen|location}
+what status is the lights in right now
+turn on the lights
+did the {porch|location} light get shut off
+are the lights on in the {hallway|location}
+are the {living room|location} lights on
+is the {bedroom|location} light on
+check the lights
+which lights are on
+is the {laundry room|location} light on
+are the lights on in the {living|location} room
+are the lights in the {office|location} still on
+did we turn off the lights in the {laundry room|location}
+please tell me if the lights are on
+is the {upstairs|location} lights on
+are the lights in the {kitchen|location} on or off
+check the lights, please
+did I turn on the {kitchen|location} lights
+are the lights on in the {garage|location}
+please check if I turned off the {porch|location} light
+is {bathroom|location} light on
+did I switch off the lights
+are the lights currently on
+are the {lights|location} in my living room on
+please make sure that the {kitchen|location} lights are off
+i need to know if the {master bedroom|location} lights are on or off
+is the {back|location} porch light off
+are the {hall|location} lights on
+is the {garage|location} light on
+are all the lights out
+are all the {indoor|location} lights working
+are the {outside|location} lights on
+{kitchen|location} lights status
+is the light on in {bathroom|location}
+are the {outdoor|location} lights off
+are the lights still on
+are the {basement|location} lights on
+check the {kitchen|location} lights for on
+is the light on

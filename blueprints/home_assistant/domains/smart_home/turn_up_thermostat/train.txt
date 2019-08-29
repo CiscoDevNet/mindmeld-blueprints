@@ -1,0 +1,196 @@
+increase temperature
+turn it up a notch
+crank up heater in the {bedroom|location}
+raise the heat {4 degrees|sys_temperature}
+make it toasty by about {five|sys_temperature} more degrees
+make it warmer in here by {5 degrees|sys_temperature}
+heat up the {living room|location} just a bit
+raise the temperature in the {bedroom|location}
+heat up a little bit
+temp up by {5 degrees|sys_temperature}
+make the house {3 degrees|sys_temperature} hotter
+heat up {bedroom|location} by a small amount
+its cold adjust up {2 degrees|sys_temperature}
+increase the {kitchen|location} thermostat by just a tiny bit
+raise temperature {5 degrees|sys_temperature}
+crank up {bedroom|location} heat by {4 degrees|sys_temperature}
+raise temp {4 degrees|sys_temperature}
+turn up {bathroom|location} temp
+turn heat up {2 degrees|sys_temperature}
+increase {bedroom|location} temperature
+raise {kitchen|location} thermostat
+crank that shit up
+heater higher {everywhere|all} by {6 degrees|sys_temperature}
+turn the temperature up {a few degrees|sys_temperature}
+increase the {living room|location} heat by {6|sys_temperature}
+make it warmer by {a few degrees|sys_temperature}
+turn up the {bedroom|location} temperature
+temperature higher
+make it warmer in the {kitchen|location}
+warm up the {bathroom|location} by {3 degrees|sys_temperature}
+raise the heat
+heat needs to be turned up
+make {living room|location} warmer
+it s cold turn up the temperature
+will you heat up the thermostat
+raise temp just a little
+turn it up {a few degrees|sys_temperature}
+its chilly turn up the temperature by {5|sys_temperature}
+heat up {2 degrees|sys_temperature}
+raise heat {two degrees|sys_temperature} {upstairs|location}
+warm up the {bathroom|location}
+turn up heat
+i am really cold please turn temperature up {10 degrees|sys_temperature}
+make my bed room warmer by {5 degrees|sys_temperature}
+make it warmer by {2 degrees|sys_temperature}
+make it hot
+heater up {3|sys_temperature}
+can you turn the heat up in the {living room|location}
+its kind of cool outside can you make just {10 degrees|sys_temperature} warmer in here
+heat things up {5 more|sys_temperature}
+increase heat {two degrees|sys_temperature} in {living room|location}
+heat up the {bathroom|location} {4 degrees|sys_temperature}
+crank up heater just a small amount
+make it {5 degrees|sys_temperature} warmer
+make it warmer
+it s too cold
+it s too cold turn the heat up {4 degrees|sys_temperature}
+it s too cold in the {living room|location}
+bump up the {kitchen|location} temp by {1 degree|sys_temperature}
+turn up the {kitchen|location} heating by {1 degree|sys_temperature}
+increase the {living room|location} heater by just a little bit
+warm up {bathroom|location} {5|sys_temperature}
+it is freezing please increase the temperature
+increase heat
+heat the {bedroom|location}
+turn up the temperature by a little
+please make it {2 degrees|sys_temperature} warmer {upstairs|location}
+make it just a small amount hotter
+raise thermostat {2 degrees|sys_temperature}
+it s cold turn the thermostat up {5 degrees|sys_temperature} in here
+make it slightly warmer please
+increase the {living room|location} heating just a little bit
+just a little warmer
+increase {living room|location} heater a small amount
+raise temperature here
+turn up the heat by {25 degrees|sys_temperature} in the {sauna|location}
+make it {3 degrees|sys_temperature} hotter in my {bedroom|location} please
+heat higher a little bit
+i m freakin freezing in here
+could you make it {5 degrees|sys_temperature} warmer in here
+warm the {bedroom|location} up another {5 degrees|sys_temperature}
+raise the temperature {3 degrees|sys_temperature}
+warm me up
+bump up {living room|location} temp by a small amount
+turn up {living room|location} heating
+increase temperature to my setting
+warm up the {bedroom|location} by {ten|sys_temperature} more degrees
+raise the temp
+it s freezing in here
+raise the temperature {2 degrees|sys_temperature}
+warm up the {guest bathroom|location}
+increase heat {everywhere|all} just a tiny bit
+please turn up the temperature {5 degrees|sys_temperature}
+heat higher
+i m freezing please raise the {family room|location} temperature {5 degrees|sys_temperature}
+heat up the {whole house|location}
+make it {4 degrees|sys_temperature} warmer in {bedroom|location}
+i d like it to be {4 degrees|sys_temperature} warmer
+warm up {bedroom|location} {3 degrees|sys_temperature}
+raise the temperature {7 degree|sys_temperature} in the {kitchen|location}
+please turn up temperature
+crank up {bathroom|location} temperature just a little bit
+i m cold please raise the temperature {5 degrees|sys_temperature}
+increase {kitchen|location} temp by {1|sys_temperature}
+raise {home|location} temperature {5 degrees|sys_temperature}
+turn up the temperature in the {living room|location}
+please heat up this room
+increase the heat {2 degrees|sys_temperature}
+make the {bedroom|location} {3 degrees|sys_temperature} warmer please
+it is too cold please turn up above room temperature
+make it hot in here
+can you turn the heat up a little
+please raise the temperature in here
+turn up the {bathroom|location} temp
+please turn the temperature up {5 degrees|sys_temperature}
+raise the temperature by {5 degrees|sys_temperature}
+it s freezing in here make the room {7 degrees|sys_temperature} warmer
+heating higher {everywhere|all}
+add heat
+turn up the heat in here
+raise the temperature {2 degrees|sys_temperature} in the {downstairs|location} {bathroom|location}
+more heat please
+it s cold please increase the heat by {4 degrees|sys_temperature}
+warm the {bedroom|location} up please
+turn the temperature higher
+it s too cold in the {living room|location} raise the temperature {3 degrees|sys_temperature}
+{kitchen|location} temp up
+turn up the {living room|location} heat
+it s a bit chilly please raise the temperature in here bu {4 degrees|sys_temperature}
+crank up {living room|location} heating {3|sys_temperature}
+heat it up
+please turn up the temperature in the {whole house|all} by {2 degrees|sys_temperature}
+turn up the furnace please
+turn up temperature just a little
+my {bedroom|location} is too cold make it warmer by {a few degrees|sys_temperature}
+raise temperature setting in the {living room|location} by {2 degrees|sys_temperature}
+up the temperature by {2 degrees|sys_temperature}
+turn up {living room|location} thermostat {5|sys_temperature}
+my {bedroom|location} is too cold
+thermostat higher by just a little bit
+make the temperature higher in the {bedroom|location}
+turn up the heat
+heat higher here by a small amount
+add {2 degrees|sys_temperature} to the temp in here
+add {5 degrees|sys_temperature} to the current temperature
+make it warmer in the {bathroom|location} please
+make it a little warmer
+turn the heat up {4 degrees|sys_temperature}
+more heat
+let the {living room|location} be a bit warmer up by {3 degrees|sys_temperature}
+heater up by just a little bit
+i m feeling chilly please raise the temperature by {5 degrees|sys_temperature}
+make it warmer in the {living room|location}
+make it a little hotter
+raise the temperature in the {bedroom|location} by {10|sys_temperature}
+make the temperature more cozy
+warm up {bathroom|location} by {5|sys_temperature}
+raise the {garage|location} door
+it s chilly warm me up
+increase temp in {master bedroom|location}
+heat up the {living room|location}
+raise {bathroom|location} heat
+warm it up
+its cold raise the heat by {3 degrees|sys_temperature}
+make it {3 degrees|sys_temperature} warmer in {living room|location}
+make it more cozy
+turn up the heat {a few degrees|sys_temperature}
+increase {bathroom|location} thermostat {3 degrees|sys_temperature}
+crank the heat up another {couple degrees|sys_temperature}
+it s too cold in here
+raise temperature {2 degrees|sys_temperature} at 7am
+heat up in the house {1|sys_temperature}
+please warm up the {master bedroom|location} by {5 degrees|sys_temperature}
+please heat the {bathroom|location}
+increase the temperature
+it s too cold turn up the heat {a few degrees|sys_temperature}
+please warm up the {garage|location}
+i am cold please increase temperature {2 degrees|sys_temperature}
+turn up heating in here
+i want it to be {2 degrees|sys_temperature} warmer
+heat the {bathroom|location}
+make it more toasty in here
+make it {4 degrees|sys_temperature} warmer
+heating up
+when the sun comes out, turn {bedroom|location} temperature up by {3 degrees|sys_temperature}
+make it {6 degrees|sys_temperature} hotter in {living room|location}
+please turn the heat up {1 degree|sys_temperature}
+please turn the heat up {five degrees|sys_temperature}
+make it {3|sys_temperature} hotter in {bedroom|location}
+raise the temperature {two degrees|sys_temperature}
+make it warmer in here
+make it a tiny bit hotter in the {kitchen|location}
+turn the heat up in the {kitchen|location}
+crank up heating in the house by just a little bit
+turn up heat {2 degrees|sys_temperature}
+make it just a little warmer in the {bathroom|location}

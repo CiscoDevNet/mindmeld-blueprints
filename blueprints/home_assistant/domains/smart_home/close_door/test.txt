@@ -1,0 +1,21 @@
+{office|location} close
+shut {all|all} doors
+close {foyer|location}
+close
+shut the {front|location} door
+close {all|all} the doors
+close {office|location} door
+close the door
+shut {all|all} the doors
+close the {front|location} door
+close {garage|location}
+shut the door in the {kitchen|location}
+shut the door
+close {all|all} doors
+{garage|location} door close
+close the door in the {kitchen|location}
+shut the {garage|location}
+{back|location} door close
+close {everywhere|all}
+close the {garage|location}
+close {everything|all}

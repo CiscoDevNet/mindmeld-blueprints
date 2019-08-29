@@ -1,0 +1,133 @@
+deactivate the heater
+turn off the thermostat {now|sys_time}
+off thermostat
+can you turn off the thermostat
+stop running the heater
+shut down the thermostat
+turn over off in {3 minutes|sys_time}
+turn the temp off
+turn off air conditioning
+turn the thermostat off
+can the thermostat be off
+heat off
+turn the AC off
+can you turn off the thermostat
+turn the thermostat off
+turn off the air conditioning
+thermostat off
+turn the thermostat off now
+shut down the heat in the {kitchen|location}
+turn off the heater in the {living room|location}
+can you shut off the air conditioning
+heating off
+turn off thermostat in {30 minutes|sys_time}
+turn off thermostat {now|sys_time}
+turn off the heat in the {downstairs|location} {bedroom|location}
+can you turn off the thermostat
+thermostat off
+shut off the thermostat {now|sys_time}
+extinguish the heat
+turn off the ac
+turn off the heat in the {entire house|all}
+turn the heat off at {76 degrees|sys_temperature}
+please shut off the furnace
+can you shut off on the weekends alarm
+i want the heat off
+thermostat off now
+shut the thermostat off
+turn off heat in the {kitchen|location}
+turn off the heat in {bedroom|location}
+heater off
+heat off
+it is too cold turn off all the air conditioning
+turn off the {kitchen|location} sink
+please turn off the thermostat at {8 pm|sys_time}
+thermostat power off
+turn off the heat
+please turn off the heat
+alarm off
+shut off the temp
+air conditioner off
+set the thermostat to switch off
+shut off heat
+thermostat off
+turn off the heater
+thermostat off only in {bedroom|location}
+turn off the heat
+turn off the air
+switch off the heater
+turrn off all timers
+please turn off the thermostat at {10 pm|sys_time}
+AC off please
+please turn off the thermostat at {noon|sys_time}
+shut off the heater
+turn off the heat
+turn off ac in the {living room|location}
+deactivate the air conditioning
+thermostat off
+i don t want the thermostat to be on
+shut off heating please
+air conditioning off
+turn off thermostat
+thermostat off
+please turn off the heat
+please shut the heat off to the {upstairs|location}
+air conditioning off
+turn off heat
+thermostat off
+turn the air off please
+kill the ac
+please turn off the thermostat the temperature is just right
+temp off
+thermostat off
+we re heading out please turn off the thermostat
+kill the heat
+turn off the air
+please shut off the thermostat
+therm off
+turn off the air conditioner
+thermostat off in {10 minutes|sys_time}
+set my thermostat to turn off at {2 am|sys_time}
+thermostat off
+turn off the air conditioning
+turn off the heater
+stop all climate control in the {garage|location}
+please kill the heat in here
+please turn off the heat
+stop the air conditioner
+ac off
+please turn off the thermostat
+turn off the air conditioner in the {kitchen|location}
+heater off
+set thermostat off
+please turn off the air conditinoing
+shut the air conditioning off
+turn ac off
+please bring down the air
+thermostat off please
+it s getting warm can you turn off the heat
+turn heat off
+can you make sure the heater is off
+shut down the heat
+thermostat off
+shut the heater off
+shut down the AC
+power off thermostat
+shut off the heater
+temperature off please
+kill the thermostat
+stop the heat
+turn the thermostat off
+let the thermostat go off now.
+stop the temp
+turn off the heat
+turn off heat {downstairs|location}
+turn off the fucking heat
+turn heat off in {basement|location}
+thermostat off in {bathroom|location} please
+turn off the heater
+turn off the air conditioning
+heat off
+we re off for a while can you turn off the thermostat
+turn the air off please
+please turn the heat off at {6 am|sys_time}

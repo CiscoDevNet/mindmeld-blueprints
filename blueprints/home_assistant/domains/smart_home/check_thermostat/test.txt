@@ -1,0 +1,65 @@
+see {bathroom|location} temperature
+what is the thermostat setting right now
+how warm is it
+how cold is it in {all|all} the rooms
+tell me how warm it is in the house right now
+check thermostat in the {kitchen|location}
+see the thermostat setting {everywhere|all}
+how many degrees is it in the {bathroom|location} right now
+how hot is it
+check what the temp is set to
+how warm is it in {all|all} the rooms
+how cold is it
+what's the thermostat setting here right now
+check the temp
+let me know what the temp is set to
+how cold is it in the {bathroom|location}
+how hot is it in here
+check the heating
+see what the heating is set to
+what is the temp
+how cold is it in here
+check what the thermostat is set to
+see what the temperature is
+let me know the thermostat setting right now
+check heater
+check temperature
+let me know how hot it is {everywhere|all} right now
+{bedroom|location} temperature
+how many degrees is it {everywhere|all} right now
+see how hot it is in the house
+see what the heater is set to
+how cold is it in here
+tell me how cold it is in here right now
+let me know how cold it is right now
+what is the heater in the house
+what is the temperature
+check the thermostat
+what is the temperature in the {kitchen|location}
+check temp
+let me know {bedroom|location} temperature
+tell me the temperature
+see the thermostat setting in the {bathroom|location} right now
+see the thermostat setting {everywhere|all} right now
+what's the temp set to in the {bedroom|location}
+what is the thermostat setting here
+tell me the thermostat setting in the {bathroom|location}
+tell me what the heater is set to
+check the temperature
+see the thermostat setting in the {bedroom|location} right now
+check what the temperature is set to
+tell me how hot it is in here
+check thermostat
+what is the thermostat setting in the house right now
+let me know {living room|location} temperature
+what's the temperature set to right now
+how many degrees is it {everywhere|all}
+what is the thermostat setting
+how hot is it in the {living room|location}
+what's the heat set to
+tell me temperature
+check how hot it is {everywhere|all} right now
+what is the temperature
+tell me what the thermostat is set to
+tell me what the temperature is set to in the {bathroom|location}
+how hot is it in here

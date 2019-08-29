@@ -1,0 +1,123 @@
+turn the a c on in the {back|location} room
+turn the thermostat on high
+heating on
+thermostat on
+start the thermostat
+turn on the heating
+can you turn on the air conditioner
+can you flip on the furnace
+switch on the temp
+turn on the heat
+power on thermostat
+ac on in the {guest room|location}
+thermostat on
+please turn on the thermostat in the {master bedroom|location}
+air conditioning on
+turn the heat on
+temp on please
+smart home turn on the thermostat
+thermostat power on
+can you turn on the air conditioner
+you may turn on the thermostat
+ac on
+turn on the AC
+turn on the heat in the {entire house|all}
+turn on the heat in the {master bathroom|location}
+please switch on the thermostat
+start the temp
+please turn the a c on in the {whole house|all}
+turn on a c
+turn the heating on
+turn on the heater
+can you turn on the air conditioner
+start air conditioning {now|sys_time}
+can you turn on the heater
+please turn on the heat in the {back|location} room
+could you flip on the heater
+turn on the thermostat
+turn on the heat
+power on the thermostat
+turn on the air conditioner
+heat on high
+it s getting cold can you turn on the thermostat
+turn the heat on in the {living room|location}
+put the thermostat on
+thermostat on
+turn on the heater
+turn the temp on
+air conditioner on
+activate the AC
+heater on please
+i want the air conditioning
+turn on heater
+turn the thermostat on
+get the ac going
+AC on please
+please flip on the heater
+it s cold turn the heat on
+turn on the air
+turn the heat on at {2pm|sys_time} in the {living room|location}
+temperature on
+turn on the heat
+turn on the ac
+temp on
+turn on the air conditioner
+make the termostat go on
+turn on the air conditioning
+set my thermostat to turn on at {6 am|sys_time}
+turn on the thermostat now
+please turn on the heater
+turn on air conditioner
+air conditioning on
+turn ac on low
+turn on the heat
+turn on the ac
+turn on the heat ac
+turn the heat on in the {master bedroom|location} please
+turn on the heater
+thermostat on now
+please turn on the ac
+turn on the furnace
+house can you turn on the ac
+turn on the temp
+turn the air conditioning on
+switch on the thermostat
+turn the heat on in the {basement|location}
+thermostat on
+turn the a c on in the {master bedroom|location}
+turn on heat for the {bathroom|location}
+can you turn on the air conditioner
+turn on the ac in the {kitchen|location}
+heating on
+could you turn on the furnace
+please turn on the air conditioner
+let the thermostat go on.
+heat on
+please turn the thermostat on
+turn on the heater
+turn on the air please
+temperature on please
+turn on the heat in the {attic|location}
+turn on central heating
+please turn on the heat in the {bedroom|location}
+turn on thermostat
+i want the {heater|appliance} on in the {living room|location}
+heat on
+please turn on the heat
+turn on the heat {downstairs|location}
+run the air conditioner
+now i would like for the thermostat to be on
+thermostat on in {all|all} rooms
+start the air conditioning
+can we get some air in here
+turn on the air conditioning in the {whole house|all}
+please turn on the thermostat
+thermostat on
+turn on the thermostat
+turn the ac on
+turn the thermostat on
+turn on the heat
+turn on ac
+turn on the air conditioning in the {kitchen|location}
+start cooling house
+get the heat going

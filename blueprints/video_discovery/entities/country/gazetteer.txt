@@ -1,0 +1,477 @@
+5	AD
+89	AE
+36	AF
+5	AG
+2	AI
+139	AL
+54	AM
+4	AN
+20	AO
+6	AQ
+1471	AR
+6	AS
+1916	AT
+2755	AU
+9	AW
+28	AZ
+36	Afghanistan
+139	Albania
+72	Algeria
+6	American Samoa
+5	Andorra
+20	Angola
+2	Anguilla
+6	Antarctica
+5	Antigua and Barbuda
+1471	Argentina
+54	Armenia
+9	Aruba
+2755	Australia
+1916	Austria
+28	Azerbaijan
+168	BA
+10	BB
+67	BD
+1587	BE
+43	BF
+312	BG
+7	BH
+7	BI
+6	BJ
+4	BM
+7	BN
+61	BO
+3508	BR
+19	BS
+9	BT
+8	BW
+72	BY
+4	BZ
+19	Bahamas
+7	Bahrain
+67	Bangladesh
+10	Barbados
+72	Belarus
+1587	Belgium
+4	Belize
+6	Benin
+4	Bermuda
+9	Bhutan
+61	Bolivia, Plurinational State of
+61	Bolivia
+168	Bosnia and Herzegovina
+8	Botswana
+3508	Brazil
+42	British Indian Ocean Territory
+7	Brunei Darussalam
+312	Bulgaria
+43	Burkina Faso
+7	Burundi
+7042	CA
+22	CD
+5	CF
+8	CG
+1270	CH
+11	CI
+4	CK
+397	CL
+25	CM
+1749	CN
+267	CO
+43	CR
+85	CS
+281	CU
+4	CV
+38	CY
+1459	CZ
+4	Cabo Verde
+52	Cambodia
+25	Cameroon
+7042	Canada
+6	Cayman Islands
+5	Central African Republic
+14	Chad
+397	Chile
+1749	China
+267	Colombia
+4	Comoros
+8	Congo
+22	Congo, The Democratic Republic of the
+4	Cook Islands
+43	Costa Rica
+465	Croatia
+281	Cuba
+38	Cyprus
+1459	Czechia
+11	Côte d'Ivoire
+18711	DE
+4	DJ
+2105	DK
+6	DM
+103	DO
+72	DZ
+2105	Denmark
+4	Djibouti
+6	Dominica
+103	Dominican Republic
+48	EC
+241	EE
+460	EG
+1	EH
+4	ER
+5589	ES
+24	ET
+48	Ecuador
+460	Egypt
+38	El Salvador
+8	Equatorial Guinea
+4	Eritrea
+241	Estonia
+24	Ethiopia
+1020	FI
+6	FJ
+2	FK
+1	FM
+8	FO
+13440	FR
+2	Falkland Islands (Malvinas)
+8	Faroe Islands
+6	Fiji
+1020	Finland
+13440	France
+3	French Guiana
+6	French Polynesia
+1	French Southern Territories
+11	GA
+17976	GB
+4	GD
+105	GE
+3	GF
+32	GH
+5	GI
+11	GL
+5	GM
+12	GN
+3	GP
+8	GQ
+931	GR
+1	GS
+41	GT
+3	GU
+9	GW
+2	GY
+11	Gabon
+5	Gambia
+105	Georgia
+18711	Germany
+32	Ghana
+5	Gibraltar
+931	Greece
+11	Greenland
+4	Grenada
+3	Guadeloupe
+3	Guam
+41	Guatemala
+12	Guinea
+9	Guinea-Bissau
+2	Guyana
+3556	HK
+45	HN
+465	HR
+21	HT
+1103	HU
+21	Haiti
+2	Holy See (Vatican City State)
+2	Vatican
+45	Honduras
+3556	Hong Kong
+1103	Hungary
+620	ID
+597	IE
+747	IL
+5472	IN
+42	IO
+43	IQ
+450	IR
+241	IS
+6879	IT
+241	Iceland
+5472	India
+620	Indonesia
+450	Iran, Islamic Republic of
+450	Iran
+43	Iraq
+597	Ireland
+747	Israel
+6879	Italy
+23	JM
+30	JO
+11939	JP
+23	Jamaica
+11939	Japan
+30	Jordan
+43	KE
+27	KG
+52	KH
+4	KI
+4	KM
+2	KN
+46	KP
+2815	KR
+25	KW
+6	KY
+89	KZ
+89	Kazakhstan
+43	Kenya
+4	Kiribati
+46	Korea, Democratic People's Republic of
+46	North Korea
+2815	Korea, Republic of
+2815	South Korea
+25	Kuwait
+27	Kyrgyzstan
+21	LA
+109	LB
+2	LC
+23	LI
+39	LK
+12	LR
+3	LS
+140	LT
+200	LU
+208	LV
+19	LY
+21	Lao People's Democratic Republic
+208	Latvia
+109	Lebanon
+3	Lesotho
+12	Liberia
+19	Libya
+23	Liechtenstein
+140	Lithuania
+200	Luxembourg
+126	MA
+17	MC
+20	MD
+55	ME
+13	MG
+2	MH
+157	MK
+15	ML
+17	MM
+18	MN
+7	MO
+2	MP
+6	MQ
+16	MR
+2	MS
+28	MT
+5	MU
+7	MV
+5	MW
+2527	MX
+540	MY
+19	MZ
+7	Macao
+157	Macedonia, Republic of
+157	Macedonia
+13	Madagascar
+5	Malawi
+540	Malaysia
+7	Maldives
+15	Mali
+28	Malta
+2	Marshall Islands
+6	Martinique
+16	Mauritania
+5	Mauritius
+1	Mayotte
+2527	Mexico
+1	Micronesia, Federated States of
+1	Micronesia
+20	Moldova, Republic of
+20	Moldova
+17	Monaco
+18	Mongolia
+55	Montenegro
+2	Montserrat
+126	Morocco
+19	Mozambique
+17	Myanmar
+11	NA
+2	NC
+15	NE
+109	NG
+23	NI
+2718	NL
+1072	NO
+39	NP
+2	NU
+529	NZ
+11	Namibia
+39	Nepal
+2718	Netherlands
+2	New Caledonia
+529	New Zealand
+23	Nicaragua
+15	Niger
+109	Nigeria
+2	Niue
+2	Northern Mariana Islands
+1072	Norway
+4	OM
+4	Oman
+30	PA
+158	PE
+6	PF
+7	PG
+2415	PH
+79	PK
+1418	PL
+972	PR
+74	PS
+987	PT
+40	PY
+79	Pakistan
+74	Palestine, State of
+74	Palestine
+30	Panama
+7	Papua New Guinea
+40	Paraguay
+158	Peru
+2415	Philippines
+1418	Poland
+987	Portugal
+972	Puerto Rico
+51	QA
+51	Qatar
+2	RE
+540	RO
+630	RS
+3669	RU
+12	RW
+540	Romania
+3669	Russian Federation
+12	Rwanda
+2	Réunion
+14	SA
+3	SB
+11	SD
+2387	SE
+225	SG
+1	SH
+242	SI
+1	SJ
+251	SK
+9	SL
+5	SM
+45	SN
+12	SO
+3	SR
+1	ST
+173	SU
+38	SV
+40	SY
+10	SZ
+1	Saint Helena, Ascension and Tristan da Cunha
+2	Saint Kitts and Nevis
+2	Saint Lucia
+4	Saint Vincent and the Grenadines
+4	Samoa
+5	San Marino
+1	Sao Tome and Principe
+14	Saudi Arabia
+45	Senegal
+630	Serbia
+9	Sierra Leone
+225	Singapore
+251	Slovakia
+242	Slovenia
+3	Solomon Islands
+12	Somalia
+567	South Africa
+1	South Georgia and the South Sandwich Islands
+5589	Spain
+39	Sri Lanka
+11	Sudan
+3	Suriname
+1	Svalbard and Jan Mayen
+10	Swaziland
+2387	Sweden
+1270	Switzerland
+40	Syrian Arab Republic
+40	Syria
+4	TC
+14	TD
+1	TF
+2	TG
+1234	TH
+22	TJ
+1	TK
+3	TL
+12	TM
+68	TN
+1	TO
+1032	TR
+18	TT
+1	TV
+1153	TW
+14	TZ
+1153	Taiwan, Province of China
+1153	Taiwan
+22	Tajikistan
+14	Tanzania, United Republic of
+14	Tanzania
+1234	Thailand
+3	Timor-Leste
+2	Togo
+1	Tokelau
+1	Tonga
+18	Trinidad and Tobago
+68	Tunisia
+1032	Turkey
+12	Turkmenistan
+4	Turks and Caicos Islands
+1	Tuvalu
+439	UA
+15	UG
+8	UM
+66549	US
+87	UY
+23	UZ
+15	Uganda
+439	Ukraine
+89	United Arab Emirates
+17976	United Kingdom
+66549	United States
+8	United States Minor Outlying Islands
+87	Uruguay
+23	Uzbekistan
+2	VA
+4	VC
+248	VE
+2	VG
+1	VI
+106	VN
+6	VU
+6	Vanuatu
+248	Venezuela, Bolivarian Republic of
+248	Venezuela
+106	Viet Nam
+2	Virgin Islands, British
+2	British Virgin Islands
+1	Virgin Islands, U.S.
+4	WS
+1	Western Sahara
+118	XC
+49	XG
+9	XK
+7	YE
+1	YT
+207	YU
+7	Yemen
+567	ZA
+9	ZM
+20	ZW
+9	Zambia
+20	Zimbabwe

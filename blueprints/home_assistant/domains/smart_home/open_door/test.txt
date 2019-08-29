@@ -1,0 +1,15 @@
+open {all|all} the doors
+open {everywhere|all}
+open sesame
+open the door
+open the door in the {kitchen|location}
+{garage|location} door open
+open {foyer|location}
+open {garage|location}
+{back|location} door open
+{office|location} open
+open {all|all} doors
+open {office|location} door
+open the {front|location} door
+open
+open {everything|all}

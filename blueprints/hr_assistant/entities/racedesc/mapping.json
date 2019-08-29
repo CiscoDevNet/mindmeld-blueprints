@@ -1,0 +1,52 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "black",
+                "african american",
+                "african-american"
+            ],
+            "cname": "black or african american"
+        },
+        {
+            "whitelist": [
+                "from asia"
+            ],
+            "cname": "asian"
+        },
+        {
+            "whitelist": [
+                "multiracial",
+                "multi-racial",
+                "mixed",
+                "mixed race",
+                "biracial",
+                "interracial"
+            ],
+            "cname": "two or more races"
+        },
+        {
+            "whitelist": [
+                "caucasian"
+            ],
+            "cname": "white"
+        },
+        {
+            "whitelist": [
+                "latino"
+            ],
+            "cname": "hispanic"
+        },
+        {
+            "whitelist": [
+                "native",
+                "natives",
+                "indians",
+                "indian",
+                "american indian",
+                "alaska native"
+            ],
+            "cname": "american indian or alaska native"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "fraction",
+                "portion",
+                "proportion",
+                "percentage",
+                "%",
+                "ratio",
+                "ratios",
+                "pct",
+                "distribution"
+            ],
+            "cname": "percent"
+        },
+        {
+            "whitelist": [
+                "total",
+                "cumulative",
+                "added up",
+                "summed up",
+                "totalled",
+                "summed",
+                "combined",
+                "aggregate"
+            ],
+            "cname": "sum"
+        },
+        {
+            "whitelist": [
+                "mean",
+                "typical",
+                "typically",
+                "median",
+                "avg",
+                "range"
+            ],
+            "cname": "average"
+        },
+        {
+            "whitelist": [
+                "how many",
+                "number",
+                "number of",
+                "num of",
+                "headcount",
+                "count of"
+            ],
+            "cname": "count"
+        }
+    ]
+}

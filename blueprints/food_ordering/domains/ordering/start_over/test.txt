@@ -1,0 +1,117 @@
+clear basket
+empty my cart
+please cancel
+not right
+start the order over
+sorry no
+clear order
+reset
+undo order
+i did not order that.
+new order
+nah forget it
+i think i would like to start over.
+let's start this thing over
+i think i would like to start over.
+i meant something different
+no, cancel that, please.
+that's not right at all.
+reset the order
+sorry nope
+clear
+nvm that
+can you start over
+clear all
+new cart
+go back to the beginning
+restart order
+please cancel the order.
+i'm good thanks
+i meant something different
+cancel order
+revert order
+nevermind
+i do not
+cancel
+delete orders
+start new order
+cancel this order
+nah, that'll be fine
+cancel entire order
+redo the order
+begin again
+i meant a different drink
+that's not right at all.
+stop
+go back to order again
+clear my order
+oh dear let's start over
+nope that's not correct.
+try a redo
+wait, that's not right
+restart the order
+i'd like to cancel
+that's not right at all.
+actually let's not
+no, wrong!
+nix
+clear the basket
+nope that's not correct.
+i want to cancel that.
+back to start
+sorry no
+no
+restart
+that is wrong
+delete my order
+stop order
+please no
+reset the order
+incorrect, lets try that order again.
+i did not order that.
+nevermind
+start the order over
+i think you misheard me.
+i want to cancel that.
+i'm good thanks
+can we start over
+nah, I'm good
+let's start this thing over
+hard pass
+actually not that
+nvm
+i'm sorry, please cancel that order.
+clear my order
+no, that is incorrect.
+not at all. reset
+decline
+that is wrong
+no not correct.
+i would not like that
+oh dear let's start over
+not at all. reset
+empty my cart
+incorrect, lets try that order again.
+i meant a different drink
+new order
+no, incorrect!
+redo the order
+reset
+restart
+starting over
+the order is incorrect.
+please cancel that.
+Clear
+no, I'm good
+no, incorrect!
+let's redo
+sorry nope
+let's redo
+clear the order
+no i do not
+decline
+that's wrong.
+scratch that actually
+i do not
+thanks but no
+cancel my order

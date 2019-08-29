@@ -1,0 +1,89 @@
+warm up {living room|location} by a tiny bit
+crank up the {bathroom|location} thermostat by {1|sys_temperature}
+thermostat up just a small amount
+make it a small amount warmer
+increase the heat by a small amount
+turn up the temp in the {kitchen|location}
+crank up the heating {everywhere|all}
+warm up the {living room|location} {4|sys_temperature}
+bump up {bedroom|location} heater just a tiny bit
+thermostat up {2 degrees|sys_temperature}
+make it hotter in here
+warm up {kitchen|location} by {1 degree|sys_temperature}
+heat up {bathroom|location} by {6 degrees|sys_temperature}
+turn up the thermostat in the {kitchen|location}
+increase {bedroom|location} temp {4|sys_temperature}
+heat up {bathroom|location} a small amount
+temperature up by {2 degrees|sys_temperature} in the {kitchen|location}
+crank up {bathroom|location} heater by just a tiny bit
+temperature up {2 degrees|sys_temperature}
+thermostat up in {all|all} the rooms {6 degrees|sys_temperature}
+heat up the {bedroom|location} {5|sys_temperature}
+increase {living room|location} heat just a small amount
+make it hotter
+warm up {bathroom|location} by a little bit
+turn up the thermostat
+turn up heating
+make it a bit warmer in the {living room|location}
+turn up the heat
+make it hotter in the {kitchen|location}
+temp up {2 degrees|sys_temperature}
+make it warmer in here
+make it {1|sys_temperature} hotter
+make it {1 degree|sys_temperature} hotter in the {bedroom|location}
+increase the heater in here by just a little bit
+heat higher here by {5|sys_temperature}
+increase {living room|location} thermostat {2 degrees|sys_temperature}
+warm up the {bedroom|location} a little bit
+heat higher in here
+temp up {2 degrees|sys_temperature} in the {kitchen|location}
+make it a little bit warmer
+temperature up {2 degrees|sys_temperature} in the {kitchen|location}
+make it a little bit hotter in the {kitchen|location}
+warm up {bathroom|location} by just a bit
+turn up heater {1|sys_temperature}
+turn up the thermostat in here
+crank up the {kitchen|location} heater by just a little
+make it a little bit warmer in the {kitchen|location}
+make it a little bit hotter
+heat up the {kitchen|location} by just a little
+make it just a bit hotter
+turn up the heat
+turn up the temperature
+heater up by a little
+bump up the {kitchen|location} heating by a little
+bump up the heating here
+turn up thermostat
+increase {bathroom|location} heat a tiny bit
+crank up the {living room|location} temp {3 degrees|sys_temperature}
+increase the {kitchen|location} heater by {4|sys_temperature}
+turn up heat
+bump up the {bathroom|location} thermostat by {2|sys_temperature}
+make it warmer
+bump up the heat
+crank up the {bedroom|location} temp
+heat up {living room|location} {6 degrees|sys_temperature}
+turn up the thermostat
+temperature up by {2 degrees|sys_temperature}
+temp up {2 degrees|sys_temperature}
+turn up the temp
+bump up the {bedroom|location} heating by {6|sys_temperature}
+turn up the temp by {2 degrees|sys_temperature}
+make it {4|sys_temperature} warmer in the {kitchen|location}
+make it just a tiny bit hotter in the {bedroom|location}
+temp up {2 degrees|sys_temperature} in the {kitchen|location}
+crank up the {bathroom|location} temp by a little
+heat up the {living room|location} {3|sys_temperature}
+turn up the temperature by {2 degrees|sys_temperature}
+thermostat up {2 degrees|sys_temperature} in the {kitchen|location}
+make it warmer in the {living room|location}
+crank up the {kitchen|location} temp
+raise the {living room|location} thermostat {6|sys_temperature}
+thermostat up by {2 degrees|sys_temperature}
+bump up the temp
+heat up {bedroom|location} by {4 degrees|sys_temperature}
+thermostat up by {2 degrees|sys_temperature} in the {kitchen|location}
+make it {1 degree|sys_temperature} warmer
+crank up the {bedroom|location} heating by {5 degrees|sys_temperature}
+make it {1|sys_temperature} warmer in the {bedroom|location}
+bump up the thermostat

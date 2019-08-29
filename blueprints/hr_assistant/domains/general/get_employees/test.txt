@@ -1,0 +1,22 @@
+All employees from {MA|state}
+Who {has worked here|employment_action} based on a {monster.com|employee_source}?
+{production manager|position}
+Which employees have gotten only {positive feedback|performance_score}?
+Which employee(s) {need improvement|performance_score} company's expectations?
+{eligible non-citizens|citizendesc}
+who is the {highest ranking|position} employee
+All employees from {California|state} state
+{sr. network engineer|position}
+what people work here
+i want the {least|extreme} {third|sys_ordinal} of employees
+Which employees are {single|maritaldesc}?
+give me a list of {separated|maritaldesc}
+Who is our {highest|extreme} employee?
+is there anyone that is {married|maritaldesc}
+employees {older than|comparator} {34 years|sys_duration}
+whose the {ceo|position} in our org
+who is doing {it support|position} at this company?
+who are the {top|extreme} {10|sys_number}{percent|function} {oldest|extreme} employees
+employees from {CA|state}
+Which employees were found via {website banner ads|employee_source}?
+Which employees have the {max|extreme} {performance score|performance_score}?

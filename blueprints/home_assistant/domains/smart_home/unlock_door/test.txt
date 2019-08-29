@@ -1,0 +1,12 @@
+{office|location} unlock
+unlock {office|location} door
+unlock {everywhere|all}
+unlock the door
+unlock the {front|location} door
+{back|location} door unlock
+unlock the door in the {kitchen|location}
+unlock
+unlock {all|all} the doors
+unlock {foyer|location}
+{garage|location} door unlock
+unlock {garage|location}

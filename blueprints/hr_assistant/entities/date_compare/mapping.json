@@ -1,0 +1,25 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "before",
+                "pre",
+                "prior to"
+            ],
+            "cname": "prev"
+        },
+        {
+            "whitelist": [
+                "after",
+                "last",
+                "post",
+                "this year",
+                "this month",
+                "this week",
+                "atleast",
+                "since"
+            ],
+            "cname": "post"
+        }
+    ]
+}

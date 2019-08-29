@@ -1,0 +1,18 @@
+1	film
+1	films
+1	movie
+1	movies
+1	flick
+1	flicks
+1	show
+1	shows
+1	tv show
+1	tv shows
+1	showing
+1	showings
+1	television shows
+1	television show
+1	series
+1	tv series
+1	program
+1	programs

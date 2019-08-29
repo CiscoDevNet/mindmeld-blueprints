@@ -1,0 +1,7 @@
+{1 hour|duration} timer
+{2 minute|duration} timer
+timer for {60 seconds|duration}
+set a timer for {1 hour|duration}
+timer for {1 minute|duration}
+set a timer for {20 minutes|duration}
+remind me in {1 hour|duration}

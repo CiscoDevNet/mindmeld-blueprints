@@ -1,0 +1,46 @@
+ac on 
+turn the heat on at {7|sys_time}
+turn on the ac
+please turn on the heat
+turn on the thermostat in the {bedroom|location}
+AC on
+turn on the a c
+please turn on the ac
+at {11 o clock|sys_time} turn on the ac in the {kitchen|location}
+start the temperature
+please turn on the air con
+turn on the heat in the {bathroom|location}
+heat on in the {kitchen|location} at {2 am|sys_time}
+heat on at {6 o clock|sys_time}
+heat on
+put the heat on in the {bedroom|location} at {9|sys_time}
+please turn on the aircon
+switch on the temperature
+turn on the air conditioning
+turn on the air con
+turn on the thermostat at {4 pm|sys_time} in the {bedroom|location}
+turn on the heat
+turn the heater on
+thermostat on please
+please turn on the air conditioning
+air conditioning on please
+turn the AC on
+turn the air conditioning on at {8 am|sys_time}
+activate the heater
+heat on please
+aircon on
+start the thermostat
+switch on the air conditioning
+turn on the aircon
+turn on the thermostat
+turn on the heat at {5 pm|sys_time}
+aircon on please
+thermostat on
+heat on please
+please turn on the a c
+ac on at {noon|sys_time}
+ac on please
+heat on at {3 pm|sys_time}
+air conditioning on please
+thermostat on
+switch on the heat

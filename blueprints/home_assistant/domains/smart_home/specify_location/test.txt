@@ -1,0 +1,400 @@
+the {exterior|location} {water cooker|appliance}
+the {corridor|location}
+{bedroom|location}
+the {closet|location} {fireplace|appliance}
+{office|location} door
+the {office|location} {television|appliance}
+the {porch|location} {jacuzzi|appliance}
+the {hall|location} {tv|appliance}
+the {bedroom|location} {washer|appliance}
+the {nursery|location} {coffee machine|appliance}
+the {upstairs|location} {ceiling fan|appliance}
+the {cellar|location} {ac|appliance}
+the {kitchen|location} {jacuzzi|appliance}
+the {living room|location} {washer|appliance}
+the {laundry room|location} {ac|appliance}
+{bedroom|location} light
+the {porch|location} {toaster|appliance}
+the {corridor|location} light
+the {cellar|location} {air purifier|appliance}
+the {den|location} {ceiling fan|appliance}
+the {corridor|location} {toaster|appliance}
+the {hallway|location} {vents|appliance}
+the {office|location} {washer|appliance}
+the {downstairs|location} {fan|appliance}
+the {exterior|location} {oven|appliance}
+the {kids bedroom|location} {sink|appliance}
+the {guest bedroom|location} {vents|appliance}
+the {porch|location} {coffee machine|appliance}
+the {master bathroom|location} {printer|appliance}
+the {outside|location} {roomba|appliance}
+the {attic|location} {ac|appliance}
+the {master bedroom|location} {fan|appliance}
+the {bedroom|location} {dishwasher|appliance}
+the {kitchen|location} {stereo|appliance}
+the {guest bedroom|location} {coffee machine|appliance}
+the {porch|location} {printer|appliance}
+the {master bedroom|location} door
+the {guest bedroom|location} {humidifier|appliance}
+{basement|location} door
+the {exterior|location} {printer|appliance}
+{hallway|location} lights
+the {living room|location} {security system|appliance}
+the {family room|location} {dryer|appliance}
+the {guestroom|location} {slow cooker|appliance}
+the {laundry room|location} {wifi|appliance}
+the {nursery|location} {computer|appliance}
+in the {kids room|location}
+the {closet|location} {air purifier|appliance}
+the {cellar|location} {shower|appliance}
+the {basement|location} {computer|appliance}
+the {bedroom|location} {vents|appliance}
+the {foyer|location} {stove|appliance}
+the {playroom|location} {clothes dryer|appliance}
+the {hallway|location} {fans|appliance}
+the {side|location} {video player|appliance}
+the {nursery|location} {dishwasher|appliance}
+the {side|location} {fan|appliance}
+the {back|location} {security system|appliance}
+the {den|location} {tv|appliance}
+the {master bedroom|location} {toaster|appliance}
+the {outside|location} {toaster|appliance}
+the {basement|location} {dvd player|appliance}
+the {office|location} {jacuzzi|appliance}
+the {kitchen|location} {microwave|appliance}
+the {hall|location} {dishwasher|appliance}
+the {laundry room|location} {stove|appliance}
+the {exterior|location} {security system|appliance}
+the {guest room|location} {wifi|appliance}
+the {guest room|location} {slow cooker|appliance}
+the {bedroom|location} {fans|appliance}
+the {master bedroom|location} {wifi|appliance}
+the {backyard|location} {dryer|appliance}
+the {garage|location} {ac|appliance}
+the {outside|location} {humidifier|appliance}
+{den|location} light
+the {kitchen|location} {security system|appliance}
+the {guestroom|location} {air purifier|appliance}
+the {family room|location} {lamp|appliance}
+the {front|location} {toaster|appliance}
+the {upstairs|location} {slow cooker|appliance}
+the {laundry room|location} {radio|appliance}
+the {upstairs|location} {roomba|appliance}
+the {kitchen|location} {slow cooker|appliance}
+the {downstairs|location} {ac|appliance}
+the {family room|location} {water cooker|appliance}
+the {pantry|location} {water cooker|appliance}
+the {guest bedroom|location} {ceiling fan|appliance}
+the {patio|location} lights
+the {side|location} {sink|appliance}
+the {office|location} {humidifier|appliance}
+the {downstairs|location} {television|appliance}
+the {cellar|location} {tv|appliance}
+the {attic|location} {vents|appliance}
+the {exterior|location} {lamp|appliance}
+the {corridor|location} {laptop|appliance}
+the {kids room|location} {fans|appliance}
+the {playroom|location} {jacuzzi|appliance}
+the {exterior|location} {stove|appliance}
+in the {pantry|location}
+the {kids room|location} {wifi|appliance}
+{master bathroom|location}
+the {outside|location} {television|appliance}
+the {kids room|location} {humidifier|appliance}
+the {upstairs|location} door
+the {guest bedroom|location} {television|appliance}
+{guest bathroom|location} door
+{living room|location} door
+the {guest bathroom|location} {slow cooker|appliance}
+the {nursery|location} {air purifier|appliance}
+the {upstairs|location} {fireplace|appliance}
+the {entryway|location} {humidifier|appliance}
+the {garage|location} {stove|appliance}
+the {downstairs|location} {stereo|appliance}
+the {backyard|location} {fans|appliance}
+the {foyer|location}
+in the {laundry room|location}
+the {guest bathroom|location} {toaster|appliance}
+the {kids room|location} {fireplace|appliance}
+the {kids room|location} {television|appliance}
+the {guest bedroom|location} {radio|appliance}
+the {front|location} {water cooker|appliance}
+the {dining room|location} {roomba|appliance}
+the {master bathroom|location} {fireplace|appliance}
+the {kitchen|location} {toaster|appliance}
+the {family room|location} {coffee maker|appliance}
+the {kitchen|location} {wifi|appliance}
+the {dining room|location} {coffee maker|appliance}
+the {master bedroom|location} {humidifier|appliance}
+the {nursery|location} {ceiling fan|appliance}
+the {attic|location} {coffee|appliance}
+the {patio|location} {dishwasher|appliance}
+the {family room|location} {jacuzzi|appliance}
+the {dining room|location} {vents|appliance}
+the {bathroom|location} {tv|appliance}
+{side|location} door
+the {porch|location} {fans|appliance}
+the {corridor|location} {coffee|appliance}
+the {basement|location} {television|appliance}
+the {family room|location} {stove|appliance}
+the {backyard|location} {air purifier|appliance}
+the {hall|location} {fireplace|appliance}
+the {pantry|location} {roomba|appliance}
+the {patio|location} {fireplace|appliance}
+the {master bathroom|location} {radio|appliance}
+{foyer|location} door
+in the {patio|location}
+the {kids bedroom|location} {bath|appliance}
+the {kitchen|location} {dishwasher|appliance}
+the {corridor|location} {ice machine|appliance}
+the {bathroom|location} {coffee|appliance}
+the {hallway|location} {radio|appliance}
+the {corridor|location} {fans|appliance}
+the {guest room|location} {radio|appliance}
+{foyer|location} lights
+the {back|location} {bath|appliance}
+the {foyer|location} {roomba|appliance}
+the {corridor|location} {video player|appliance}
+the {kids room|location} {dishwasher|appliance}
+{family room|location} lights
+the {side|location} {tv|appliance}
+the {office|location} {clothes dryer|appliance}
+the {master bathroom|location} {television|appliance}
+the {patio|location} {washer|appliance}
+the {guest bedroom|location} {stove|appliance}
+the {bathroom|location} {fan|appliance}
+the {master bathroom|location} {coffee maker|appliance}
+the {hallway|location} {fireplace|appliance}
+the {outside|location} {fan|appliance}
+the {dining room|location} {dryer|appliance}
+the {kitchen|location} {coffee maker|appliance}
+the {guest bedroom|location} {coffee maker|appliance}
+the {guest room|location} {dvd player|appliance}
+the {entryway|location} {wifi|appliance}
+the {downstairs|location} {coffee maker|appliance}
+the {downstairs|location} {fans|appliance}
+{patio|location} lights
+{entryway|location} lights
+the {front|location} {microwave|appliance}
+the {guest bathroom|location} {fan|appliance}
+the {backyard|location} {dishwasher|appliance}
+the {corridor|location} {coffee machine|appliance}
+the {guestroom|location} lights
+the {basement|location} {roomba|appliance}
+the {living room|location} {radio|appliance}
+the {downstairs|location} {video player|appliance}
+the {dining room|location} {laptop|appliance}
+the {kids bedroom|location} {fan|appliance}
+the {master bathroom|location} {microwave|appliance}
+the {kids bedroom|location} {ice machine|appliance}
+the {bedroom|location} {roomba|appliance}
+the {bathroom|location} {humidifier|appliance}
+the {guest room|location} {fan|appliance}
+the {backyard|location} {coffee maker|appliance}
+the {master bedroom|location} {stove|appliance}
+the {exterior|location} {dishwasher|appliance}
+the {master bedroom|location} {coffee|appliance}
+the {basement|location} {air purifier|appliance}
+the {basement|location} {slow cooker|appliance}
+the {dining room|location} {ac|appliance}
+{cellar|location}
+the {nursery|location} {dvd player|appliance}
+{living room|location} light
+the {pantry|location} {toaster|appliance}
+the {patio|location} {ice machine|appliance}
+in the {hall|location}
+the {hall|location} {humidifier|appliance}
+in the {outside|location}
+the {entryway|location} {printer|appliance}
+the {pantry|location} light
+the {outside|location} {air purifier|appliance}
+the {patio|location} {clothes dryer|appliance}
+the {basement|location} {oven|appliance}
+{porch|location}
+the {laundry room|location} {fireplace|appliance}
+the {entryway|location} {coffee maker|appliance}
+the {family room|location} {fan|appliance}
+the {living room|location} {lamp|appliance}
+the {living room|location} {stove|appliance}
+the {dining room|location} {air purifier|appliance}
+the {foyer|location} {washer|appliance}
+the {side|location} {dish washer|appliance}
+the {corridor|location} {dryer|appliance}
+the {downstairs|location} {water cooker|appliance}
+the {kids room|location} {tv|appliance}
+the {closet|location} {stove|appliance}
+the {backyard|location} {microwave|appliance}
+the {front|location} {dryer|appliance}
+the {exterior|location} {slow cooker|appliance}
+the {downstairs|location} {shower|appliance}
+the {front|location} {fireplace|appliance}
+{bathroom|location}
+{porch|location} door
+the {den|location} {shower|appliance}
+the {den|location} {coffee maker|appliance}
+the {backyard|location} light
+the {bedroom|location} {television|appliance}
+the {backyard|location} lights
+the {den|location} {computer|appliance}
+the {guest room|location} {fans|appliance}
+the {garage|location} {air purifier|appliance}
+the {garage|location} {fans|appliance}
+the {upstairs|location} {shower|appliance}
+the {nursery|location}
+the {guest bathroom|location} {tv|appliance}
+the {hallway|location} {wifi|appliance}
+in the {front|location}
+the {cellar|location} light
+the {attic|location} {microwave|appliance}
+the {entryway|location} {bath|appliance}
+the {bedroom|location} {ac|appliance}
+the {exterior|location} lights
+the {den|location} {ice machine|appliance}
+{pantry|location} light
+the {pantry|location} {wifi|appliance}
+the {master bathroom|location} {oven|appliance}
+the {laundry room|location} {stereo|appliance}
+the {upstairs|location} {wifi|appliance}
+the {guestroom|location} light
+the {porch|location} {computer|appliance}
+the {living room|location} {oven|appliance}
+the {porch|location} {roomba|appliance}
+the {downstairs|location} {laptop|appliance}
+the {master bathroom|location} {clothes dryer|appliance}
+the {guest bedroom|location} {clothes dryer|appliance}
+the {entryway|location} {ac|appliance}
+the {attic|location} {television|appliance}
+the {dining room|location} lights
+the {hallway|location} {ceiling fan|appliance}
+the {master bedroom|location} {coffee machine|appliance}
+the {basement|location} {dishwasher|appliance}
+the {master bedroom|location} {sink|appliance}
+the {kids room|location} {washer|appliance}
+the {outside|location} {tv|appliance}
+the {upstairs|location} {fans|appliance}
+the {master bedroom|location} {coffee maker|appliance}
+the {guest bedroom|location} {dvd player|appliance}
+the {patio|location} {lamp|appliance}
+the {pantry|location} {ac|appliance}
+the {outside|location} {water cooker|appliance}
+the {hall|location} {coffee|appliance}
+{dining room|location}
+the {cellar|location} {dryer|appliance}
+the {cellar|location} {ceiling fan|appliance}
+the {back|location} {fireplace|appliance}
+the {garage|location} {wifi|appliance}
+the {office|location} {coffee maker|appliance}
+the {living room|location} {water cooker|appliance}
+the {kitchen|location} light
+the {guest bathroom|location} {vents|appliance}
+the {closet|location} {oven|appliance}
+the {exterior|location} {humidifier|appliance}
+the {back|location} {slow cooker|appliance}
+the {closet|location} {fans|appliance}
+the {family room|location} {security system|appliance}
+the {back|location} {tv|appliance}
+the {basement|location} {fan|appliance}
+the {bathroom|location} {dish washer|appliance}
+the {master bathroom|location} {water cooker|appliance}
+the {upstairs|location} light
+the {patio|location} {roomba|appliance}
+the {hallway|location} {jacuzzi|appliance}
+the {kitchen|location} {radio|appliance}
+{hallway|location} light
+the {guest bedroom|location} {ice machine|appliance}
+the {family room|location} {coffee machine|appliance}
+the {family room|location} {sink|appliance}
+the {laundry room|location} {dvd player|appliance}
+the {closet|location} {computer|appliance}
+the {guest room|location} {security system|appliance}
+the {patio|location} {printer|appliance}
+{guest room|location} door
+the {back|location} {video player|appliance}
+the {cellar|location} lights
+in the {upstairs|location}
+the {bedroom|location} {video player|appliance}
+the {family room|location} {tv|appliance}
+the {playroom|location}
+the {dining room|location} {microwave|appliance}
+the {front|location} {laptop|appliance}
+the {dining room|location} {lamp|appliance}
+the {dining room|location} {bath|appliance}
+the {downstairs|location} door
+the {office|location} {ac|appliance}
+the {kids room|location}
+the {playroom|location} {ac|appliance}
+the {bedroom|location} {laptop|appliance}
+the {guest bedroom|location} {fans|appliance}
+the {living room|location} {vents|appliance}
+the {exterior|location} {washer|appliance}
+the {side|location} {humidifier|appliance}
+the {pantry|location} {slow cooker|appliance}
+the {downstairs|location} lights
+the {family room|location} {dishwasher|appliance}
+the {outside|location} {video player|appliance}
+the {entryway|location} {fireplace|appliance}
+the {foyer|location} {video player|appliance}
+the {guest room|location} {oven|appliance}
+the {basement|location} {toaster|appliance}
+the {bedroom|location} {slow cooker|appliance}
+the {pantry|location} {coffee maker|appliance}
+the {kitchen|location} {dish washer|appliance}
+the {kids room|location} {fan|appliance}
+the {den|location} {dishwasher|appliance}
+the {pantry|location} {vents|appliance}
+{corridor|location}
+the {garage|location} {bath|appliance}
+the {hall|location} {toaster|appliance}
+the {porch|location} light
+the {outside|location} {vents|appliance}
+the {exterior|location} {coffee|appliance}
+the {garage|location} {roomba|appliance}
+the {bedroom|location} {shower|appliance}
+{back|location} door
+the {outside|location} {ac|appliance}
+the {attic|location} {fireplace|appliance}
+the {bathroom|location} {lamp|appliance}
+the {patio|location} {microwave|appliance}
+the {dining room|location} {dish washer|appliance}
+the {backyard|location} {ceiling fan|appliance}
+the {front|location} {stereo|appliance}
+the {kitchen|location} {coffee machine|appliance}
+the {entryway|location} {stereo|appliance}
+the {office|location} {vents|appliance}
+the {pantry|location} {stove|appliance}
+{master bedroom|location} light
+in the {back|location}
+the {playroom|location} lights
+the {entryway|location} {dish washer|appliance}
+the {nursery|location} {video player|appliance}
+the {guest room|location} {washer|appliance}
+the {entryway|location} {shower|appliance}
+the {side|location} {printer|appliance}
+the {front|location} {shower|appliance}
+the {living room|location} {coffee maker|appliance}
+the {patio|location} {video player|appliance}
+the {backyard|location} {coffee machine|appliance}
+the {basement|location} {coffee maker|appliance}
+{garage|location} light
+the {kids bedroom|location} {roomba|appliance}
+the {master bathroom|location} lights
+the {garage|location} {oven|appliance}
+the {patio|location} {security system|appliance}
+the {guest room|location} {clothes dryer|appliance}
+{patio|location} door
+the {playroom|location} {television|appliance}
+the {pantry|location} {coffee|appliance}
+the {foyer|location} {ac|appliance}
+the {patio|location} {wifi|appliance}
+the {living room|location} {dvd player|appliance}
+the {nursery|location} {water cooker|appliance}
+the {nursery|location} {coffee maker|appliance}
+the {guestroom|location} {toaster|appliance}
+the {entryway|location} {sink|appliance}
+the {master bathroom|location} {coffee machine|appliance}
+the {outside|location} {computer|appliance}
+the {garage|location} {coffee machine|appliance}
+{basement|location} lights
+the {backyard|location} {ice machine|appliance}
+the {laundry room|location} {clothes dryer|appliance}
+the {back|location} {ac|appliance}

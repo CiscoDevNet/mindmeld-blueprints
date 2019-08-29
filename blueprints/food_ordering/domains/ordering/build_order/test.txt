@@ -1,0 +1,254 @@
+{chow mein|option} {noodle|dish} with {beef|option}
+{two|sys_number|num_orders} plates of {lamb biryani|dish} and {keema naan|dish}
+{Sallys|restaurant}
+with {curry ketchup|option}, {extra sauerkraut|option} and {large fries|option}
+do you have anything {vegan|category}?
+i feel like having a {chili naan|dish}
+can i get a {chicken samba bowl|dish}?
+order from {cafe taboo|restaurant}
+{Elixiria|restaurant}
+add {2|sys_number|num_orders} orders of {jasmine rice|dish}
+Can I get the {pomogranite chicken|dish} with {garlic sauce|option} from {sajj|restaurant}. Make it a {rice bowl|option}
+{rice box with two sides|dish} {vege with chicken|option} and {mushroom|option} with {jasmine rice|option}
+my wife likes {matcha|dish}, do you have any?
+Where can I get {dosas|dish}?
+{potobello mushroom sandwich|dish} can i get that with {gluten free bread|option} and can you add a side of {ranch|option}?
+i'd like to order from {Thep Phanom Thai Restaurant|restaurant} please
+actually switch that for {brown rice|option}
+{mango salad with tiger prawns|dish}
+A {whole chicken|dish} please
+a side of {macoroni salad|option}
+the {veggie fried spring rolls|dish}, the {bbq pork buns|dish} and {shrimp wontons|dish}
+A {mediterranean combo plate|dish} and a {kebab salad|dish} from {saffron 685|restaurant}.
+{general tsao tofu|dish} and {steamed vege mix|dish}
+get me some {sandwiches|dish}
+{one|sys_number|num_orders} {chicken bbq|dish} plate
+i feel like having some {Onion Bagel|dish}
+I'd like a {spicy|option} {tofu tarkari|dish} and {two|sys_number|num_orders} {garlic naan|dish}.
+{chinese|cuisine} restaurant with {dim sum|dish}
+Could you also add {pico de gallo|dish} and a {bag of chips|dish} to my order?
+and a {couple|sys_number|num_orders} of pieces of {mochi|dish}
+I want the {house special|dish} from {Urban curry|restaurant}.
+i feel like having some {falafel|dish}
+i'll take a {bowl|dish} with {wasabi|option} and {spicy tuna|option} and an {extra scoop|option}
+{burger|dish}
+where can i get some {spicy calamari|dish}
+i want some {murder wings|dish} and {pork of the heaven|dish}
+i want the {strawberry bomb smoothie|dish} with {one|sys_number|num_orders} order of {almond delight smoothie|dish}
+{mango lassi|dish} and {spicy|option} {paneer makhani|dish} from {mehfil indian|restaurant}
+{achar chicken|dish} and {chole paneer|dish}
+some {noodles|dish} for my {dinner|category} please
+{fried zucchini fries|dish} and {popcorn shrimps|dish}
+{braised baby octopus|dish} with {rice and sausage gravy|dish} on the side
+does {buffalo wild wings|restaurant} do deliveries?
+what is available now?
+Hmm... Feel like having {noodles|dish} today
+with {two|sys_number|num_orders} {biscuits with gravy|dish}
+get me something with lots of {vegetables|category}
+I want {five|sys_number|num_orders} plates of {soup dim sum|dish}
+Where can I get {momos|dish} at this hour?
+the {gourmet chicken salad|dish} and a {romaine salad|dish}
+I'll have the {ostrich pizza|dish} from {oz pizza|restaurant}, {small|option} size
+i want to order from {sam's sandwiches & coffee|restaurant}
+{Chicken Korma|dish} with {brown rice|option} and {paneer makhani|dish} with {raita|option}.
+{noodles|dish}
+what's the most pricy {omusubi|dish}
+{Mint yogurt|dish} and the {daily special|dish} from {sajj|restaurant}
+hi i would like some {takoyaki|dish} for {starters|category}
+{NEWA|restaurant}
+i want to order from {tsing tao restaurant|restaurant}
+{catfish sandwich|dish} with {no slaw|option}
+{Mo'z cafe|restaurant}
+also add the {pizza|dish}
+get me {cabonara bacon|dish}
+add {sticky rice|dish}
+give me a {salmon bowl|dish} with a {diet coke|dish}
+can i get some {mochi|dish} from anywhere?
+how about {pizza|dish} for dinner?
+what are your most {popular|category} dishes?
+Does {Melody Cafe|restaurant} have a {fish wrap|dish}
+What {salads|dish} does {melody cafe|restaurant} have
+also put some {crab|option} in there
+{pot stickers|dish} {onion pancakes|dish} and {fried chicken wings|dish}
+{gingerale|dish} please
+{blueberry almond smoothie|dish} for me please
+Add a {shrimp basmati rice|dish}, an {onion naan|dish} and {three|sys_number|num_orders} {rotis|dish}.
+{daal gosht curry|dish} and {mutter paneer|dish} plate please
+i like {chinese|cuisine}
+Is there a {combo|dish} deal?
+{white rice|option} and {yellowtail|option} bowl with {jalapenos|option}, {ginger|option} and {corn|option}
+give me some that {arabian nights lentil soup|dish} and a {cheese sampler|dish} for the missus
+some {sweets|category}
+i feel like having some {Prawn Kebab|dish}
+{one|sys_number|num_orders} plate of {baba ghannouj|dish} and some {tabbouleh|dish}
+{sweet|category}
+I'd like to order from {Sajj Mediterranean|restaurant} a {steak schwarma|dish} {salad bowl|option} with {hummus|option} and {avocado|option}
+i feel like having some {Lemon Tea|dish}
+{desserts|category}
+What are the top recommendations for {vegetarian|category} food?
+anything {not spicy|option}
+{sandwich|dish}
+let me get an order of {chicken and waffles|dish}
+I'd like a {falafel wrap|dish}, where can I get that
+{vegan jambalaya|dish} with a {grits|dish} on the side
+what {desserts|dish} are available
+{lunch|category} which are less than 15 dollars
+{pulled BBQ chicken sandwich|dish} with a {side salad|option}
+{hunan hot pepper beef|dish}
+let me try the {smoked pork|dish} and {kelp noodle|option}
+what are the {white sauce pizzas|dish}?
+what's the cheapest pizza place for a {normal cheese|option} {pizza|dish}?
+you better give me {two|sys_number|num_orders} orders of {margherita pizzas|dish} now
+what do you have for {dinner|category}
+let me start with a {seaweed salad|dish}
+i want some {Chinese|cuisine} foods or {Thai|cuisine} foods
+A {taco trio|dish}, {plato cubano|dish} and some {totopos|dish} please.
+{minty chicken|dish} and {spicy string bean|dish}
+{lamb tikka masala|dish} and {bhindi ghost curry|dish}
+give me the {jumbo prawn|dish} plate please
+add {coleslaw|option}
+is there any {vegetarian sausage|dish} around
+{L'Ottavo Ristorante|restaurant}
+I want the {firri quail|dish}
+i want some {chicken tikka masala|dish} and {onion nans|dish} but my wife wants {pasta|dish}
+what's a good place for {dim sum|dish}
+what other {omusubi|dish} do you have
+what's today's {special|category}
+{One|sys_number|num_orders} {chicken parmesan sub|dish}, a {summer calzone|dish} and a {large|option} {pizza|dish} with {extra mozzarella cheese|option}, {jalapenos|option} {tomatoes|option} and {tandori chicken|option} oh and {extra sauce|option} please
+i want some {meat balls in marinara sauce|dish}
+I want the {veg sandwich|dish} and a {peach|option} {snapple|dish} from {chez fayala|restaurant}
+also give me an order of {italian sausage penne|dish}
+i will take {two|sys_number|num_orders} orders of that
+{small tuna poke|dish} on {kelp noodles|option} with {corn|option}
+{Pancakes|dish} and {eggs|dish} from somewhere close please!
+can i get a {lunch box|dish} with the {corned beef baguette|option}, the {caesar salad|option}, and {potato chips|option}
+{singapore style fried|option} {noodles|dish} with {fried chicken|option}
+{smoked pork|dish} with {brown rice|option}
+I'd like the {hog heaven burger|dish} with {extra garlic mayo|option} and {fresh jalapenos|option} from {Tom's Belly Burgers|restaurant}.
+Can I get a {Banh burger|dish} in a {lettuce wrap|option} with a side of {secret sauce|option}?
+{Indian|cuisine} food.
+{vegan|category}
+{Chicken Vindaloo Curry|dish}
+{gnocchi|dish} with {extra garlic|option}
+where do they make good {burgers|dish} near here
+Add a {Pozole|dish} to my order.
+{shrimp|option} {poki bowl|dish}
+I want {alambres|dish}, {fajitas|dish} and a {garden burger|dish} with {3|sys_number|num_orders} {mexican colas|dish}.
+can i get the {veggie lasagna|dish}
+get me some {dinner|category}
+order some {chicken and seafood gumbo|dish}
+{salad with crab cake|dish}
+Any recommendations for good {spanish|cuisine} cuisine?
+add a can of {Sprite|dish} too
+what {Thai|cuisine} restaurents are available at this moment
+{no cheese|option} on the the {biscuit sandwich|dish}
+i'll have a {tuna|dish} and a {lemon juice|dish}
+I want to {Italian|cuisine} handcrafted {Pizza|dish}
+an order of the {baby back ribs|dish}
+{Prawns coconut milk curry|dish} with {rice|option} please
+{medium|option}?
+I am super hungry, please give us {one|sys_number|num_orders} {mango curry|dish} plate, {pineapple fried rice|dish} and {two|sys_number|num_orders} plates of {nam kao tod|dish}
+Can I have the {greek salad|dish} and {hawaiian|dish} from {oz pizza|restaurant}
+let me get a {hawaiian sun strawberry guava|dish}
+how about some {ice cream|dish} tonight?
+{hong kong wonton soup|dish}
+{Katana-Ya|restaurant}
+{spicy garlic edamame|dish}
+I'd like the {falafel|dish} {bowl|option} with {taziki|option} from {sajj|restaurant}
+give me the {red snapper|dish}
+I would like to place an order for {panchit bihon|dish}
+i feel like having some {chicken tikka masala|dish}
+can i order another {burger|dish}
+i want some {flan|dish}
+I'd like the {shrimp and chicken|dish}?
+{no cornbread|option}
+Can I also get some {mango chutney|option} on the side?
+{vegetarian scramble|dish} with {no feta|option}
+{hawaii cheese burger|dish} {medium rare|option} with {american cheese|option} {extra meat|option}
+i like {burgers|dish}
+place an order for {alfredo prosciutto|dish}
+i feel like having some {falafel|dish}
+i like {pizza|dish}
+get me something with {fish|dish}
+Get me a {saffron rice pudding|dish}.
+{Sajj|restaurant}
+which is the best place for chaat
+{blt|dish} with {rye bread|option}, and can i add a side of {caesar salad|option}?
+i feel like having some {Green Tea|dish}
+{two|sys_number|num_orders} {shiu mai|dish} with {fried rice|option}
+the {muffalata|dish} on {dutch crunch bread|option}, {not toasted|option}
+{bowl|dish} with {mixed greens|option} and {tuna|option} only
+get me some {roast duck|dish}
+I'd also like one of each {chutney|option} available from {Urban Curry|restaurant}.
+{Don Ramon's|restaurant}
+can i have {brown rice|option} on the side?
+can you add {avocado|option} to that?
+i like {indian|cuisine}
+Feel like wanting a {pizza|dish} today
+can i have {dim sum|dish}?
+i'll take a {jelly fish|dish} app
+how about {chinese|cuisine}?
+What {salads|dish} are available at {chez fayala|restaurant}?
+plus {2|sys_number|num_orders} {duck sausages|dish} and {3|sys_number|num_orders} {hot italian sausages|dish}
+get me some {lunch|category}
+Can I get a {veggie burger|dish}?
+Get me the {mojado burrito|dish} with {carnitas|option}.
+most popular {ramen|dish} places
+{18 inch|option} pizza from {oz pizza|restaurant} with {pesto and potato|dish}
+i'll take a {latin hot dog|dish}
+{Strawberry Nutella Crepe|dish}
+{drinks|category} with pinapple and apple
+feel like {fried chicken|dish} and {coke|dish} tonight
+{one|sys_number|num_orders} plate of {chicken tikka masala|dish} and {lamb saag|dish} plate
+Does {burma cafe|restaurant} have the {garlic noodles|dish}?
+I'll have the {onion prawn|dish} dish from {mehfil|restaurant}
+i could go for some {poke|dish}
+{no broccoli|option} for that last one
+{beef|category}
+i'll order from {Peasant Pies|restaurant}
+I want to order a {pizza|dish}.
+I feel like having some {curry|dish} today
+i'll take some {puttanesca|dish} without {black olives|option}
+show me some places that have {ravioli|dish}
+{babylon mussels|dish}
+get me something for {starters|category}
+Could you also add {ranch|option} and {garlic mayo dipping sauce|option}?
+small {tea leaf salad|dish}
+The {wild boar sausage plate|dish} with {large fries|option} and {baked beans|option}
+What kinds of {pork sandwich|dish} do they have
+{sandwiches|dish}
+I want {falafel|dish}.
+Can I have the {fish pakora|dish} and {aloo tikki|dish} for {appetizers|category}?
+tell me some {chinese|cuisine} foods
+show me some places for my {lunch|category}
+I am craving for a {greek mixed salad|dish}
+give me some {dim sum|dish} recommendations
+{dessert|category}
+{Escape From NY Pizza|restaurant}
+{pepperoni pizza|dish} with {cheese|option}
+Add a {rice pudding|dish} and a {diet pepsi|dish} to the order.
+what {beverages|category} can I add to that?
+add some {house pickles|option} too
+i would like to order from {Noodle Bar and Grill|restaurant}
+{brown rice|option} and {tuna|option} bowl with {jalapenos|option}
+I would like to have {burger|dish} and {fries|dish}.
+I'll take a {18|sys_number|item_size} ounce soda
+I'll take a {20|sys_number|item_size} ounce steak
+I'll take a {16|sys_number|item_size} ounce steak
+I'll take a {21|sys_number|item_size} ounce beer
+I want a {14|sys_number|item_size} ounce salmon
+place an order for a {13|sys_number|item_size} ounce salmon
+I want a {21|sys_number|item_size} ounce beer
+I'll take a {13|sys_number|item_size} ounce soda
+I want a {17|sys_number|item_size} ounce steak
+I want a {13|sys_number|item_size} ounce salmon
+I'll take a {17|sys_number|item_size} ounce beer
+I want a {19|sys_number|item_size} ounce steak
+I want a {16|sys_number|item_size} ounce soda
+I want a {12|sys_number|item_size} ounce soda
+I want a {18|sys_number|item_size} ounce soda
+I want a {19|sys_number|item_size} ounce salmon
+place an order for a {17|sys_number|item_size} ounce soda
+place an order for a {21|sys_number|item_size} ounce beer
+place an order for a {14|sys_number|item_size} ounce steak
+place an order for a {13|sys_number|item_size} ounce salmon

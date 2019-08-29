@@ -1,0 +1,55 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "extraordinary"
+            ],
+            "cname": "exceptional"
+        },
+        {
+            "whitelist": [
+                "up to the mark",
+                "meet expectations",
+                "meet",
+                "meets"
+            ],
+            "cname": "fully meets"
+        },
+        {
+            "whitelist": [],
+            "cname": "n/a- too early to review"
+        },
+        {
+            "whitelist": [],
+            "cname": "pip"
+        },
+        {
+            "whitelist": [
+                "performing badly",
+                "performing below expectations",
+                "not meeting standards",
+                "not meeting expectations",
+                "poor performance",
+                "performing poorly",
+                "poorly performing",
+                "does not meet",
+                "do not meet"
+            ],
+            "cname": "needs improvement"
+        },
+        {
+            "whitelist": [
+                "beyond expectations",
+                "more than expected",
+                "better than expected",
+                "higher than excpected",
+                "exceed expectations"
+            ],
+            "cname": "exceeds"
+        },
+        {
+            "whitelist": [],
+            "cname": "90-day meets"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+1.0	blue
+1.0	daylight
+1.0	green
+1.0	orange
+1.0	pink
+1.0	purple
+1.0	red
+1.0	soft white
+1.0	warm white
+1.0	white
+1.0	yellow

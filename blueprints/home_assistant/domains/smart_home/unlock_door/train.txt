@@ -1,0 +1,65 @@
+unlock the {back|location} door
+unlock {all|all} doors
+unlock {all|all} doors
+unlock {all|all} the doors leading to the {master bedroom|location}
+unlock {back|location} door
+i am home please unlock the {front|location} door
+unlock {every|all} door
+unlock {front|location} door
+unlock {front|location} door now remote
+unlock {all|all} doors
+unlock the {back|location} door
+please unlock the {side|location} door
+unlock {all|all} doors
+unlock {all|all} the rooms now
+unlock the {back|location} door
+unlock the {bathroom|location} door
+unlock the house
+unlock the {bathroom|location} door
+unlock the {back|location} door
+unlock the {bathroom|location} door and the {back|location} door
+unlock {master bedroom|location}
+unlock {all|all} doors
+unlock the door to the {basement|location}
+unlock {all|all} of the doors in the house
+unlock the {back|location} door
+unlock the {front|location} door
+unlock {all|all} doors in {all|all} the rooms
+unlock the {bathroom|location} door
+could you please unlock the {upstairs|location} {guest bedroom|location}
+unlock the {bathroom|location} door
+unlock the {front|location} door
+unlock the {front|location} door
+unlock the {front|location} door
+unlock the {back|location} door
+unlock the door to the {porch|location}
+unlock the {bathroom|location}
+unlock the {front|location} door
+please unlock the {garage|location}
+unlock {front|location} door
+unlock {all|all} doors
+unlock {all|all} doors
+unlock the door to the {master bedroom|location}
+unlock {all|all} now
+unlock the {garage|location}
+please unlock {bathroom|location} door
+unlock the {basement|location} door
+unlock the {garage|location} {side|location} door
+unlock the {master bedroom|location} door
+unlock the {front|location} door
+unlock {all|all} doors
+unlock {all|all} rooms
+unlock {basement|location} door
+unlock the {basement|location} door
+unlock the {bedroom|location}
+unlock {all|all}
+i want {all|all} doors unlocked
+please unlock the {front|location} door
+unlock the {back|location} door
+unlock the {master bedroom|location}
+unlock the {back|location} door
+unlock {all|all} doors
+unlock the {front|location} door
+unlock the {front|location} door
+unlock {garage|location} door
+unlock the {back|location} door

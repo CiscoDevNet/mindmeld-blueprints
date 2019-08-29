@@ -1,0 +1,118 @@
+what are my alarm settings
+what time is my alarm set for on {wednesday|sys_time}
+what are my alarm settings for {tomorrow|sys_time}
+when s my next alarm
+is my alarm set for {tomorrow morning|sys_interval}
+what alarm settings do i have
+what days do i have alarms set for {this week|sys_time}
+is there an alarm set for {2am tonight|sys_time}
+tell me what alarms i ve set up
+what are my {weekend|sys_interval} alarms
+can i test out the alarms
+what alarms do i have set for {tomorrow|sys_time}
+is there any alarm set to wake me up at {4pm|sys_time}
+check alarm time
+tell me {all|all} the current alarms
+{all|all} alarm settings
+how many alarms are active
+what time is the alarm for {tomorrow|sys_time} set for
+what alarms are set for {tomorrow|sys_time}
+when will the next alarm go off
+when is my alarm set to go off
+{all|all} alarms are working
+list {all|all} my alarms for {tuesday|sys_time}
+what s my lastest alarm set at
+how long do i have to sleep
+did you set an alarm for {7am tomorrow|sys_time}?
+check alarm set for {6 am|sys_time}
+do i have any alarms set
+what is my alarm set to
+is there some alarm to wake me up in the {night|sys_interval}
+please list {all|all} my current alarms
+show {saturday|sys_time} alarms
+tell me what {friday|sys_time} s alarm is
+list alarms
+what time is my alarm set for {tomorrow|sys_time}
+do i have any {morning|sys_interval} alarms
+what is my earliest alarm set at
+do i have any alarms set for {this week|sys_time}
+did you have any alarm set to wake me up at {9 am|sys_time}
+do i have an alarm set for {6:15|sys_time}
+do i have an alarm set for {thursday|sys_time}
+check what time the alarm is set {in the morning|sys_interval}
+are {all|all} alarms set
+check that my alarm is on
+what time is my alarm set to go off {tomorrow|sys_time}
+see {all|all} alarm settings
+what alarms are set for {saturday|sys_time}
+how many alarms are set for {tomorrow morning|sys_interval}
+check alarm
+are {all|all} alarms working
+what is my alarm settings
+tell me my alarms
+what alarms do i have {tomorrow|sys_time}
+do i have an alarm set
+check alarms for {today|sys_time}
+is my alarm set
+check if the alarms are on
+check if my {7 a m|sys_time} alarm is on
+check my alarms
+please tell me the alarms set for {tomorrow|sys_time}
+what is {tuesday|sys_time} s alarm
+what time is my alarm set for
+do i have any daily alarms
+do i have an alarm set for the {morning|sys_interval} alarms
+what alarms do i have {tomorrow|sys_time}
+what is the alarm for {sunday|sys_time}
+what time is my latest alarm
+when is my next alarm
+what time will the next alarm go off
+test out the alarms
+what alarms are working
+when am I waking up {tomorrow|sys_time} again
+what are my current alarm settings
+what alarms are set right now
+when is the alarm going off {tomorrow|sys_time}
+check to see if alarm is set for {6:00 am|sys_time}
+check my alarms for me
+what are my current alarms set at
+what time is my alarm {tomorrow|sys_time}
+please tell me my current alarms
+check if the alarms are off
+when is my next alarm
+show my alarm settings for {tomorrow|sys_time}
+do have an alarm set for {tomorrow morning|sys_interval}
+what alarms do i have for the {evening|sys_interval}
+alarm settings for {tomorrow|sys_time}
+when is my alarm set for {tomorrow|sys_time}
+see alarm settings
+when is the next alarm
+when does the next alarm go off
+what alarms do i have set for {this afternoon|sys_interval}
+when will i wake up {in the morning|sys_interval}
+is there alarm set for {10pm today|sys_time}?
+what alarms are active
+list {all|all} alarms set
+which alarms do i currently have on
+are {all|all} my alarms set
+what alarms do i have for {wednesday|sys_time}
+what {morning|sys_interval} alarms do i currently have
+what is {tomorrow|sys_time} s wake up time
+tell me what alarms i have set
+is there any alarms for {11 pm|sys_time}
+what alarms do i have for the {morning|sys_interval}
+when is my alarm going off {tomorrow morning|sys_interval}
+what time is my alarm on {friday|sys_time}
+what time is alarm set for {today|sys_time}
+did you manage to set an alarm for {4pm in the evening|sys_time}
+are there any alarms set to wake us up in the {afternoon|sys_interval}
+check that {all|all} alarms are on
+did you set an alarm for {10pm in the night|sys_time}
+show alarms
+what time is my alarm set for
+what alarms are currently set up
+when is my next alarm
+what time is my first alarm set for
+what alarms do i have for {monday morning|sys_interval}
+when will the alarm ring {in the morning|sys_interval}
+how many alarms are set

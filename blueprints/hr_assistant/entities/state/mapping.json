@@ -1,0 +1,172 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "Massachussets"
+            ],
+            "cname": "MA"
+        },
+        {
+            "whitelist": [
+                "Texas"
+            ],
+            "cname": "TX"
+        },
+        {
+            "whitelist": [
+                "Connecticut"
+            ],
+            "cname": "CT"
+        },
+        {
+            "whitelist": [
+                "Virginia"
+            ],
+            "cname": "VA"
+        },
+        {
+            "whitelist": [
+                "Vermony"
+            ],
+            "cname": "VT"
+        },
+        {
+            "whitelist": [
+                "California"
+            ],
+            "cname": "CA"
+        },
+        {
+            "whitelist": [
+                "Washington"
+            ],
+            "cname": "WA"
+        },
+        {
+            "whitelist": [
+                "New Hampshire"
+            ],
+            "cname": "NH"
+        },
+        {
+            "whitelist": [
+                "New York"
+            ],
+            "cname": "NY"
+        },
+        {
+            "whitelist": [
+                "Ohio"
+            ],
+            "cname": "OH"
+        },
+        {
+            "whitelist": [
+                "Indiana"
+            ],
+            "cname": "IN"
+        },
+        {
+            "whitelist": [
+                "Idaho"
+            ],
+            "cname": "ID"
+        },
+        {
+            "whitelist": [
+                "Tennessee"
+            ],
+            "cname": "TN"
+        },
+        {
+            "whitelist": [
+                "Nevada"
+            ],
+            "cname": "NV"
+        },
+        {
+            "whitelist": [
+                "Colarado"
+            ],
+            "cname": "CO"
+        },
+        {
+            "whitelist": [
+                "Utah"
+            ],
+            "cname": "UT"
+        },
+        {
+            "whitelist": [
+                "Alabama"
+            ],
+            "cname": "AL"
+        },
+        {
+            "whitelist": [
+                "Georgia"
+            ],
+            "cname": "GA"
+        },
+        {
+            "whitelist": [
+                "Florida"
+            ],
+            "cname": "FL"
+        },
+        {
+            "whitelist": [
+                "North Carolina"
+            ],
+            "cname": "NC"
+        },
+        {
+            "whitelist": [
+                "Kentucky"
+            ],
+            "cname": "KY"
+        },
+        {
+            "whitelist": [
+                "North Dakota"
+            ],
+            "cname": "ND"
+        },
+        {
+            "whitelist": [
+                "Montana"
+            ],
+            "cname": "MT"
+        },
+        {
+            "whitelist": [
+                "Oregon"
+            ],
+            "cname": "OR"
+        },
+        {
+            "whitelist": [
+                "Arizona"
+            ],
+            "cname": "AZ"
+        },
+        {
+            "whitelist": [
+                "Maine"
+            ],
+            "cname": "ME"
+        },
+        {
+            "whitelist": [
+                "Rhode Island"
+            ],
+            "cname": "RI"
+        },
+        {
+            "whitelist": [
+                "Pennsylvania"
+            ],
+            "cname": "PA"
+        }
+    ]
+}

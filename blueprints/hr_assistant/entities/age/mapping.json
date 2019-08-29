@@ -1,0 +1,14 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "old",
+                "years old",
+                "age of",
+                "ages of",
+                "age"
+            ],
+            "cname": "age"
+        }
+    ]
+}

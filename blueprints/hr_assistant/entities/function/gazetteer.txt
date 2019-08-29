@@ -1,0 +1,34 @@
+percent
+sum
+average
+count
+fraction
+portion
+proportion
+percentage
+%
+ratio
+ratios
+pct
+distribution
+total
+cumulative
+added up
+summed up
+totalled
+summed
+combined
+aggregate
+mean
+typical
+typically
+median
+avg
+range
+how many
+number
+number of
+num of
+headcount
+count of
+turn over rate

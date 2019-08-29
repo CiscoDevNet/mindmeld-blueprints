@@ -1,0 +1,264 @@
+{on sunday|sys_time} alarm
+my {9pm tonight|sys_time} alarm
+my {in 1 hour|sys_time} alarm
+at {sunday for 8am|sys_time}
+my {at 6:30 am|sys_time}
+my {8 in the morning|sys_time}
+my {at 7 am tomorrow|sys_time}
+my {7 pm|sys_time}
+{at 6:30|sys_time}
+my {7:00 p m on november 20th|sys_time} alarm
+my {next week wednesday at 7 am|sys_time}
+{6pm|sys_time} please
+{at 6 pm|sys_time} alarm
+the {at 6 am|sys_time} alarm
+at {wednesday at 10 am|sys_time}
+{8 a m|sys_time} alarm
+{11 am|sys_time}
+{9 am|sys_time} please
+{friday at 6 am|sys_time} alarm
+my {7 am|sys_time}
+at {5 am|sys_time}
+{6:30am|sys_time}
+{10am sunday|sys_time} alarm
+the {wednesday at 10 am|sys_time}
+my {tomorrow morning at 6|sys_time}
+the {at eight tomorrow|sys_time}
+the {10am sunday|sys_time} alarm
+{6:25am|sys_time} alarm
+{next week wednesday at 7 am|sys_time} alarm
+{5 pm|sys_time}
+my {6 pm|sys_time}
+my {6:00 am|sys_time} alarm
+the {at 8am on saturday|sys_time}
+the {7am on thursday|sys_time} alarm
+the {730 am|sys_time} alarm
+my {at 8am|sys_time} alarm
+the {6am in morning|sys_time}
+{10 o clock in the morning|sys_time} please
+{6:45am|sys_time} please
+{10am on november 29th 2015|sys_time} please
+my {730 am|sys_time}
+{6:45am|sys_time}
+my {at 5:30 am|sys_time}
+the {at 7 am|sys_time}
+the {5pm|sys_time}
+{10 pm|sys_time}
+{wednesday at 10 am|sys_time}
+{5pm|sys_time} alarm
+my {7am|sys_time} alarm
+at {sunday|sys_time}
+{7 pm|sys_time} alarm
+the {10 pm|sys_time}
+my {5 a m|sys_time}
+my {7:05 pm wednesday|sys_time} alarm
+my {at 7 o clock a m|sys_time}
+my {this week|sys_time}
+the {4 o clock|sys_time} alarm
+the {730am|sys_time} alarm
+{2am|sys_time}
+{4 am|sys_time}
+the {next week wednesday at 7 am|sys_time} alarm
+the {9:30pm|sys_time}
+my {10am sunday|sys_time} alarm
+the {7:00 p m on november 20th|sys_time} alarm
+{2 pm|sys_time}
+{at seven tomorrow|sys_time} please
+{noon|sys_time}
+{515|sys_time} please
+the {6:00 a m|sys_time}
+{11 am|sys_time} alarm
+at {6pm|sys_time}
+my {6am tomorrow|sys_time}
+{at 7 am on tuesday|sys_time} please
+the {2 pm|sys_time}
+my {6|sys_time}
+{5:45|sys_time}
+{6:45am|sys_time} alarm
+my {6am tomorrow|sys_time} alarm
+the {6:15 am|sys_time}
+the {3:00am|sys_time} alarm
+my {midnight|sys_time} alarm
+{sunday|sys_time} alarm
+{2 p m|sys_time} please
+{9am|sys_time} alarm
+{5:30 am|sys_time}
+my {8 in the morning|sys_time} alarm
+my {8 pm|sys_time}
+the {at 6:30|sys_time} alarm
+{thursday 7 am|sys_time}
+my {6 am for next thursday|sys_time} alarm
+{6:10 am|sys_time} alarm
+{at midnight|sys_time} alarm
+my {in 2 hours|sys_time} alarm
+at {6:30am|sys_time}
+{in 1 hour|sys_time}
+{8:00am|sys_time} alarm
+{7:30am|sys_time}
+at {8:00 a m on sunday|sys_time}
+the {2 p m|sys_time}
+the {tomorrow morning at 6|sys_time}
+my {6pm on tuesday|sys_time}
+{in 1 hour|sys_time} alarm
+at {at 9:15am tuesday morning|sys_time}
+the {9:30pm|sys_time} alarm
+at {at 9am|sys_time}
+{4 o clock|sys_time} alarm
+my {at 9am|sys_time} alarm
+{tonight at 6|sys_time} please
+my {thursday|sys_time}
+my {10 am|sys_time} alarm
+the {9pm tonight|sys_time}
+{7:00 am|sys_time}
+{at 6:30|sys_time} alarm
+the {at 3:30|sys_time}
+{this week|sys_time} please
+the {7 am|sys_time} alarm
+{3 p m|sys_time}
+{at 3am|sys_time}
+the {6|sys_time}
+at {at 10|sys_time}
+the {11 am|sys_time} alarm
+my {6:15 am|sys_time} alarm
+my {at 8 am|sys_time} alarm
+my {9pm tonight|sys_time}
+my {7 in the evening|sys_time} alarm
+the {at 7|sys_time} alarm
+the {8|sys_time} alarm
+the {7:00 p m on november 20th|sys_time}
+the {3 am|sys_time} alarm
+the {730 am|sys_time}
+the {at 5:30 am|sys_time} alarm
+my {at 10|sys_time}
+my {4:45 am|sys_time} alarm
+{at 8 am|sys_time}
+{8 am|sys_time} please
+at {2am|sys_time}
+{tuesday|sys_time} alarm
+{5:30 pm|sys_time} alarm
+my {7am tomorrow|sys_time} alarm
+{tomorrow at 10am|sys_time}
+{at ten tomorrow|sys_time}
+my {saturday for 8am|sys_time} alarm
+at {7 am|sys_time}
+the {4pm|sys_time}
+{11:59pm|sys_time} please
+my {7:30am|sys_time} alarm
+{tonight at 6|sys_time}
+{sunday for 8am|sys_time} please
+the {at 4:30pm|sys_time}
+my {wednesday|sys_time}
+my {at 2 pm|sys_time}
+{11am tomorrow|sys_time} alarm
+{tuesday|sys_time}
+the {7:30|sys_time}
+{7am tomorrow|sys_time}
+{5:45|sys_time} alarm
+{in 2 hours|sys_time} please
+the {7am on thursday|sys_time}
+the {at 8 am|sys_time}
+the {at 6:30|sys_time}
+the {at 7 tomorrow|sys_time}
+{6am|sys_time} alarm
+my {10am on november 29th 2015|sys_time} alarm
+{tuesday|sys_time} please
+my {6:45am|sys_time}
+at {8:30|sys_time}
+at {next week wednesday at 7 am|sys_time}
+the {5:45 am|sys_time}
+the {5:00 am|sys_time} alarm
+{at 11 am|sys_time} please
+{3 am|sys_time} please
+{8 a m|sys_time} please
+my {at 6|sys_time}
+{6 am|sys_time}
+the {6 am tomorrow|sys_time} alarm
+{at 8 am|sys_time} alarm
+my {7:00 p m on november 20th|sys_time}
+my {2:30 p m|sys_time}
+{at 9:15am tuesday morning|sys_time} alarm
+{at 3:30|sys_time}
+{8 tomorrow morning|sys_time}
+my {7:00 am|sys_time}
+at {6am|sys_time}
+the {this week|sys_time}
+at {1:00 a m|sys_time}
+{6 pm|sys_time}
+the {2am|sys_time} alarm
+the {6 pm|sys_time}
+{at 5:00|sys_time} alarm
+{5 am|sys_time} alarm
+at {7 a m|sys_time}
+the {tomorrow at 8:30|sys_time}
+the {8 pm|sys_time}
+the {10 at night|sys_time}
+at {at 7 am|sys_time}
+the {9 am|sys_time}
+{7:00 p m on november 20th|sys_time} please
+{at 6:30 am|sys_time} alarm
+my {5:45 am|sys_time}
+{in 1 hour|sys_time} please
+{saturday for 8am|sys_time} please
+my {sunday|sys_time} alarm
+{next week wednesday at 7 am|sys_time} please
+the {at ten tomorrow|sys_time} alarm
+{6 pm|sys_time} alarm
+at {7am|sys_time}
+at {at 5:30 am|sys_time}
+{at noon|sys_time} alarm
+the {7:30 am|sys_time}
+at {3 p m|sys_time}
+{6|sys_time} please
+my {at 9am|sys_time}
+{next week wednesday at 7 am|sys_time}
+my {3 am|sys_time} alarm
+the {7:30am|sys_time}
+my {on saturday|sys_time}
+{tomorrow morning at 6|sys_time} please
+at {at noon|sys_time}
+my {7am on thursday|sys_time} alarm
+at {tuesday|sys_time}
+{at 10am|sys_time}
+at {at 5:00|sys_time}
+{at 6:30 am|sys_time} please
+the {at 5 am tomorrow|sys_time} alarm
+{at 11 am|sys_time}
+{tomorrow|sys_time}
+{6:31 am tuesday|sys_time} please
+the {at 7 am tomorrow|sys_time} alarm
+my {at 7|sys_time} alarm
+the {at 9 tomorrow|sys_time} alarm
+{noon|sys_time} please
+at {7 in the evening|sys_time}
+my {at noon|sys_time} alarm
+{8am|sys_time} alarm
+{at 7 o clock a m|sys_time} please
+{tomorrow at 10am|sys_time} please
+my {at 7:15am|sys_time} alarm
+{10 am tomorrow|sys_time} please
+my {7:00 am|sys_time} alarm
+at {10:30am|sys_time}
+the {at 7 am tomorrow|sys_time}
+{5:45 am|sys_time}
+{6 am|sys_time} please
+{5:00 am|sys_time} please
+my {7:30|sys_time}
+the {5am|sys_time} alarm
+the {at 6|sys_time} alarm
+my {tomorrow at 6 am|sys_time} alarm
+{9pm tonight|sys_time} please
+the {thursday|sys_time}
+my {10 at night|sys_time} alarm
+{7:05 pm wednesday|sys_time} please
+at {in 1 hour|sys_time}
+at {tomorrow|sys_time}
+my {friday at 2pm|sys_time}
+at {7:05 pm tonight|sys_time}
+the {at 10am|sys_time}
+the {9:30|sys_time}
+{at ten tomorrow|sys_time} alarm
+{at seven tomorrow|sys_time}
+{at 7 tomorrow|sys_time} alarm
+at {6 am tomorrow|sys_time}
+the {friday|sys_time} alarm
+{4pm|sys_time} please

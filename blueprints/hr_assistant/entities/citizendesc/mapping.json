@@ -1,0 +1,31 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "citizen",
+                "usa citizen",
+                "american citizen",
+                "citizen of the us",
+                "citizen of America",
+                "citizen of the usa",
+                "citizens"
+            ],
+            "cname": "us citizen"
+        },
+        {
+            "whitelist": [
+                "non citizen",
+                "not a citizen",
+                "non us citizen",
+                "not citizens",
+                "from abroad",
+                "immigrant",
+                "immigrants",
+                "eligble non citizen",
+                "non-citizen",
+                "non-citizens"
+            ],
+            "cname": "non citizen"
+        }
+    ]
+}

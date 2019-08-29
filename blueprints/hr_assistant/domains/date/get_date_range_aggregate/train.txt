@@ -1,0 +1,129 @@
+{sum|function} of {non-citizen|citizendesc} people {hired|employment_action} {after|date_compare} {2005|sys_time}
+What {percentage|function} of employees were {born|dob} {before|date_compare} {1992|sys_time}?
+{us citizen|citizendesc} people with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+{count|function} of {eligble non citizen|citizendesc} workers {born|dob} {before|date_compare} {1994|sys_time}
+{count|function} of folks from {FL|state} in the {last|date_compare} {two years|sys_duration}
+{count of|function} {eligible non-citizens|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+{count|function} of {eligible non-citizens|citizendesc} employees {born|dob} {before|date_compare} {1994|sys_time}
+{sum|function} of {eligible non-citizens|citizendesc} people {hired|employment_action} {after|date_compare} {2005|sys_time}
+{count of|function} {not a citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+can you please tell me what {fraction|function} of people have been doing {work here for|employment_action} {more than|comparator} {three years|sys_duration} but {less than|comparator} {five|sys_number}?
+{count|function} of {non-citizens|citizendesc} people {born|dob} {before|date_compare} {1994|sys_time}
+{percent|function} {1933|sys_time} {born|dob} employees
+{count of|function} {non us citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+{count of|function} {eligble non citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+what's the {count|function} of employees who were {born|dob} {prior to|date_compare} {1992|sys_time}?
+{not a citizen|citizendesc} employees was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{count of|function} {not a citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+{count of|function} {not citizens|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+{count|function} of {immigrants|citizendesc} workers {born|dob} {before|date_compare} {1994|sys_time}
+{ratio|function} {joined|employment_action} {less than|comparator} {5 years|sys_duration}?
+{total|function} employees that have {been with the company|employment_action} for {less than|comparator} {9 years|sys_duration}
+{eligible non-citizens|citizendesc} people with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+how many {joined|employment_action} {prior to|date_compare} {1998|sys_time}
+{last|date_compare} {three months|sys_duration}, {total|function} {CA|state} {hired|employment_action}
+{hired|employment_action} in {California|state} in the {last|date_compare} {42 weeks|sys_duration}, get me the {total|function}
+{count|function} employees {born|dob} {before|date_compare} {1993|sys_time}?
+what is the {total|function} {number of|function} employees that {started working|employment_action} here {before|date_compare} {2012|sys_time}
+{sum|function} of {non-citizens|citizendesc} people {hired|employment_action} {after|date_compare} {2005|sys_time}
+What {pct|function} of our staff have a {bday|dob} in {1902|sys_time}
+employees that were {born|dob} within {five years|sys_duration} of {1990|sys_time}
+{percent|function} {born|dob} in {1947|sys_time}
+{from abroad|citizendesc} people that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+{not a citizen|citizendesc} workers that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+{non us citizen|citizendesc} employees was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+Tell me {proportion|function} of workers at the company that {more than|comparator} {4 yrs|sys_duration} ago {began employment|employment_action} here at the organization
+{immigrants|citizendesc} employees that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+{sum|function} {joined|employment_action} for {less than|comparator} {4.3 yrs|sys_duration} ago
+{count|function} of {from abroad|citizendesc} employees {born|dob} {before|date_compare} {1994|sys_time}
+{count|function} of {non-citizens|citizendesc} employees {born|dob} {before|date_compare} {1994|sys_time}
+{count|function} of {eligble non citizen|citizendesc} employees {born|dob} {before|date_compare} {1994|sys_time}
+i want the {count|function} of employees that have their {bday|dob} {before|date_compare} {1996|sys_time}
+Calculate the {total|function} {number of|function} folks {joined|employment_action} {less than|comparator} {6.5 yrs|sys_duration} ago
+{headcount|function} people who {have worked here|employment_action} for {less than|comparator} {7 years|sys_duration}
+{How many|function} employees were {hired|employment_action} {last year|sys_time}?
+{sum|function} of {not a citizen|citizendesc} employees {hired|employment_action} {after|date_compare} {2005|sys_time}
+{not citizens|citizendesc} employees that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+What {percent|function} of employees {began employment|employment_action} {more than|comparator} {4 years|sys_duration} ago?
+{non-citizen|citizendesc} people was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{not citizens|citizendesc} employees was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{eligible non-citizens|citizendesc} people that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+{1980|sys_time} {born|dob} employees {total|function} {percent|function}
+{how many|function} new employees based out of {California|state} in the {last|date_compare} {3 years|sys_duration}?
+Were there more {men|sex} with {birthdays|dob} in {1990|sys_time} or more {women|sex}
+{non-citizens|citizendesc} people was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{total|function} {num of|date_compare} {CA|state} employees {hired|employment_action} in the {last|date_compare} {three months|sys_duration}
+{count of|function} {non us citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+Find the {total|function} of workers who were {born|dob} {post|date_compare} {1992|sys_time}
+{sum|function} of {not citizens|citizendesc} workers {hired|employment_action} {after|date_compare} {2005|sys_time}
+{started employment|employment_action} {less than|comparator} {3 yrs|sys_duration} ago, what's the {total|function} {count|function}
+{how many|function} people were based out of {IN|state} in the {last|date_compare} {4 years|sys_duration}?
+{eligible non-citizens|citizendesc} people was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{total|function} {number of|function} of employees that {have worked here|employment_action} for {more than|comparator} {7 years|sys_duration}?
+Can you {count|function} the number of people that {began working|employment_action} for this company {pre|date_compare} {2005|sys_time}
+{1974|sys_time} {born|dob} employees {percent|function}
+Get me the {total|function} {num of|function} employees who {joined|employment_action} {before|date_compare} {2008|sys_time}
+Fetch me {percent|function} that {started working|employment_action} {less than|comparator} {3 years|sys_duration} in the past
+{count of|function} {immigrant|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+{non citizen|citizendesc} people that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+employees {born|dob} {before|date_compare} {1994|sys_time}, give me the {total|function} {count|function}
+{immigrant|citizendesc} workers with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+{non-citizens|citizendesc} employees that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+{1980|sys_time} {born|dob} employees {total|function} {count|function}
+what is the {fraction|function} of employees that have been here {since|date_compare} the {2000's|time_interval}
+{from abroad|citizendesc} people with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+{How many|function} employees were {born|dob} within {five years|sys_duration} of {1980|sys_time}
+{non us citizen|citizendesc} workers with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+what is the {number of|function} employees {born|dob} {two years|sys_duration} {before|date_compare} or {after|date_compare} {1980|sys_time}
+{percent|function} with {birthday|dob} in {1941|sys_time}
+{How many|function} employees were {born|dob} in the {2009|sys_time}?
+{from abroad|citizendesc} employees that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+{hired|employment_action} for {less than|comparator} {5 yrs|sys_duration} ago, {total|function}
+{count of|function} {us citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+For all of those that {joined|employment_action} the organization {before|date_compare} {1995|sys_time}, what is the {total|function} {count|function}
+{not a citizen|citizendesc} workers with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+{sum|function} of {eligble non citizen|citizendesc} workers {hired|employment_action} {after|date_compare} {2005|sys_time}
+{count|function} of {immigrant|citizendesc} employees {born|dob} {before|date_compare} {1994|sys_time}
+What {percentage|function} of employees were {born|dob} {after|date_compare} {2010|sys_time}?
+{sum|function} of {eligble non citizen|citizendesc} employees {hired|employment_action} {after|date_compare} {2005|sys_time}
+{not a citizen|citizendesc} workers was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{from abroad|citizendesc} employees was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+Tell me the {pct|function} of staff that have their {birth day|dob} in the year of {1922|sys_time}
+{pct|function} {1902|sys_time} {bday|dob} workers
+{count of|function} {from abroad|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+{immigrant|citizendesc} workers that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+{total|function} employees were {born|dob} around {five years|sys_duration} of {1963|sys_time}
+{count|function} of employees {terminated|employment_action} {prior to|date_compare} {2008|sys_time}?
+{us citizen|citizendesc} employees was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{non-citizen|citizendesc} workers was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{count of|function} {non-citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+{count|function} of {us citizen|citizendesc} workers {born|dob} {before|date_compare} {1994|sys_time}
+{total|function} {number of|function} employee that have been working here {since|date_compare} the year {2016|sys_time}
+{not a citizen|citizendesc} people that {joined|employment_action} {after|date_compare} {2013|sys_time} {how many|function}
+{sum|function} of {eligible non-citizens|citizendesc} employees {hired|employment_action} {after|date_compare} {2005|sys_time}
+{How many|function} people have {worked here|employment_action} {since|date_compare} {2015|sys_time}?
+{us citizen|citizendesc} people was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{1975|sys_time} {born|dob} employees {ratio|function}
+{sum|function} of {us citizen|citizendesc} employees {hired|employment_action} {after|date_compare} {2005|sys_time}
+What {percent|function} of all our employees were {hired|employment_action} {this year|sys_time}?
+What {percentage|function} of employees have been on the team for {more than|comparator} {2 years|sys_duration}?
+Is there anyone who {joined|employment_action} us {prior to|date_compare} {1999|sys_time} or not
+{from abroad|citizendesc} workers was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{not citizens|citizendesc} workers was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+What {percentage|function} of employees were {hired|employment_action} {more than|comparator} {3 years|sys_duration} ago?
+I want the {total|function} {number of|function} employees that {joined|employment_action} {this year|sys_time}
+{immigrant|citizendesc} workers was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{ratio|function} out of all of the employees that {started employment|employment_action} {less than|comparator} {2.5 years|sys_duration} before today
+{number of|function} people working {since|date_compare} {2016|sys_time}
+{immigrants|citizendesc} workers was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{sum|function} of {immigrant|citizendesc} employees {hired|employment_action} {after|date_compare} {2005|sys_time}
+{sum|function} of {non-citizen|citizendesc} employees {hired|employment_action} {after|date_compare} {2005|sys_time}
+{percent|function} of employees {born|dob} in the year of {2014|sys_time}
+{count of|function} {non citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}
+{count|function} of {non-citizen|citizendesc} people {born|dob} {before|date_compare} {1994|sys_time}
+{total|function} of workers {DOB|dob} {prior to|date_compare} {1994|sys_time}
+{How many|function} people were based out of {Colarado|state} in the {last|date_compare} {3 years|sys_duration}?
+{1945|sys_time} {born|dob} employees {percent|function}
+{sum|function} of {non-citizens|citizendesc} employees {hired|employment_action} {after|date_compare} {2005|sys_time}
+{non citizen|citizendesc} workers was {fired|employment_action} {prior to|date_compare} {2009|sys_time} {count|function}
+{count of|function} {non-citizen|citizendesc} {let go|employment_action} {prior to|date_compare} {2010|sys_time}

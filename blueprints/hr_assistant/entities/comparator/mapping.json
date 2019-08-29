@@ -1,0 +1,43 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "greater than",
+                "higher than",
+                "longer",
+                "over",
+                "older than",
+                "above",
+                "bigger than",
+                "larger than"
+            ],
+            "cname": "more than"
+        },
+        {
+            "whitelist": [
+                "is exactly",
+                "is equal to",
+                "equates to",
+                "equal to"
+            ],
+            "cname": "equals to"
+        },
+        {
+            "whitelist": [
+                "lower than",
+                "below",
+                "under",
+                "fewer than",
+                "younger than"
+            ],
+            "cname": "less than"
+        },
+        {
+            "whitelist": [
+                "between",
+                "in between"
+            ],
+            "cname": "between"
+        }
+    ]
+}

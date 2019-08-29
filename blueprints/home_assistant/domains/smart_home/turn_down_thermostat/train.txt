@@ -1,0 +1,195 @@
+make it cooler here
+decrease the heat in the {kitchen|location}
+make it {5 degrees|sys_temperature} cooler in the {bedroom|location}
+cool down the {kitchen|location} {a few degrees|sys_temperature}
+lower the temperature by {four degrees|sys_temperature} in the {kitchen|location}
+decrease the thermostat
+cool it down
+turn the temperature down {3 degrees|sys_temperature}
+turn the heat down
+decrease {bedroom|location} heat
+make it more chilly
+reduce {living room|location} heating {3 degrees|sys_temperature}
+stat turn down {1 degree|sys_temperature}
+lower whole {home|location} temperature by {5 degrees|sys_temperature}
+heater lower by {6|sys_temperature}
+make it colder {2 degrees|sys_temperature}
+make the air cold
+make the {kitchen|location} colder
+lower it {3 degrees|sys_temperature} cooler
+make it just a little cooler
+turn down the heat {1 degree|sys_temperature}
+turn it down {a few degrees|sys_temperature}
+turn down the heat in the {whole house|all}
+it is too hot please turn down the heat to {63|sys_temperature}
+cool down the {garage|location} please
+reduce {bathroom|location} thermostat {4|sys_temperature}
+set the temperature lower {3 degrees|sys_temperature}
+decrease temp in the {living room|location} by {4|sys_temperature}
+reduce heater just a little bit
+can you make it cooler in the {living room|location}
+reduce {kitchen|location} temp just a tiny bit
+i am hot please decrease heat by {2 degrees|sys_temperature}
+decrease the {bedroom|location} temperature
+make it more chilly here
+turn down {bedroom|location} heater just a small amount
+please turn the heating down
+it is too hot please turn down the heat to {65|sys_temperature}
+cool down the {kitchen|location} a tiny bit
+colder in the {bedroom|location}
+it s hot cool me off
+the {bathroom|location} is too hot please turn the heat down {2 degrees|sys_temperature} in the {bathroom|location}
+make it a tiny bit colder in the {living room|location}
+its warm cool it down by {a few degrees|sys_temperature}
+please lower temperature by {10 degrees|sys_temperature}
+make it just a bit colder
+change the temperature to {2 degrees|sys_temperature} lower
+cool down the {dining room|location}
+could you turn down the heat please
+heating down in the {bathroom|location} by {1|sys_temperature}
+decrease {kitchen|location} thermostat {5|sys_temperature}
+decrease the temp
+turn the heat in the {living room|location} down {5 degrees|sys_temperature} please
+turn down the heat in the {basement|location}
+reduce {bathroom|location} heating just a little bit
+it s too hot
+make it less warm
+lower {bathroom|location} temp {6|sys_temperature}
+make the air colder in here
+it is hot in here please turn temperature down {5 degrees|sys_temperature}
+drop the temperature a bit
+turn down heat
+heating lower in here by {6|sys_temperature}
+make it a tiny bit colder
+heater down in here {2 degrees|sys_temperature}
+cool down the {kitchen|location}
+lower heater in here
+the heat is too hot here
+cool my place down now
+cool down the {study|location}
+make it {1 degree|sys_temperature} colder in {bathroom|location}
+make it cooler
+cool down {kitchen|location} {1 degree|sys_temperature}
+decrease the {kitchen|location} heater by just a tiny bit
+turn down by {2 degrees|sys_temperature}
+lower the air conditioning by {2 degrees|sys_temperature}
+please lower the heat by {3 degrees|sys_temperature}
+its a bit warm take the heat down by {2|sys_temperature}
+turn down {bedroom|location} heating by {1 degree|sys_temperature}
+lower the temperature in the house by {5 degrees|sys_temperature}
+temperature down in the house
+lower the temperature in the {guest room|location} by {5 degrees|sys_temperature}
+please lower the temperature by {5 degrees|sys_temperature}
+decrease the {bedroom|location} temperature {4|sys_temperature}
+make it colder please
+{2 degrees|sys_temperature} colder in the {bedroom|location} please
+cool down {living room|location} {3 degrees|sys_temperature}
+cool down the {bedroom|location} a little
+turn the heater down in my {bedroom|location} by {10 degrees|sys_temperature}
+please lower it {5 degrees|sys_temperature} in here
+make it less warm in here
+make room cooler
+please cool down my {bedroom|location}
+stat down {2 degrees|sys_temperature}
+turn down the temperature by {3 degrees|sys_temperature} for the {whole house|all}.
+lower the thermostat down by {2|sys_temperature}
+it s too hot in here
+lower the overall temperature {5 degrees|sys_temperature}
+turn down the heat just a little
+lower the heat in this room
+please make the temperature less warm
+lower the heat in the {bedroom|location}
+reduce heater a little
+{bedroom|location} temp down
+make it {4 degrees|sys_temperature} colder in here
+set the thermostat lower {2 degrees|sys_temperature} in the {kitchen|location}
+lower {living room|location} temp by a bit
+lower the temperature by {3 degrees|sys_temperature} in the {bedroom|location}
+make it colder
+change the temperature to {3 degrees|sys_temperature} less
+set the thermostat {5 degrees|sys_temperature} lower
+please chill the air a bit
+lower temperature
+please make it cold
+decrease the temperature by {3 degrees|sys_temperature}
+make it a little cooler
+turn down heat in {kitchen|location}
+decrease the {living room|location} thermostat by {6 degrees|sys_temperature}
+make it cold
+make it {4 degrees|sys_temperature} cooler in {kitchen|location}
+let the {bedroom|location} be {2 degrees|sys_temperature} cooler.
+drop the temp {a few degrees|sys_temperature}
+its warm adjust down {2 degrees|sys_temperature}
+lower temperature
+lower the temp {5 degrees|sys_temperature} in the {family room|location}
+lower {kitchen|location} heater a little bit
+lower the temperature {2 degrees|sys_temperature} please
+decrease the {kitchen|location} heater
+decrease {bathroom|location} heat by a small amount
+can you chill the household
+make it chilly
+thermostat down by a little
+if the temperature is over {70|sys_temperature} can you lower it by {a few degrees|sys_temperature}
+i want it {3 degrees|sys_temperature} cooler in here
+make it just a little bit colder in {kitchen|location}
+need to cool down the room by {a couple degrees|sys_temperature}
+cool the {living room|location}
+decrease the temperature in the {living room|location} by {4 degrees|sys_temperature}
+i m about to work out cool down the room
+make it cooler in the {dining room|location} please
+reduce the {kitchen|location} thermostat by {3 degrees|sys_temperature}
+heater down in {all|all} rooms {6 degrees|sys_temperature}
+can you please make it colder
+reduce heating {3 degrees|sys_temperature}
+cool down the {living room|location} by a small amount
+at {12pm|sys_time} turn the temperature down by {3 degrees|sys_temperature}
+cool the {bedroom|location} by {5 degrees|sys_temperature}
+lower the temperature by {5 degrees|sys_temperature} for the next 8 hours
+lower the {bathroom|location} temp
+make it colder in here
+make the room {5 degrees|sys_temperature} cooler
+please lower the heat {10 degrees|sys_temperature}
+please make the {master bedroom|location} {two degrees|sys_temperature} cooler
+make it cold in here
+adjust the temperature {5 degrees|sys_temperature} colder
+turn down the heater
+make it a bit colder
+please turn down the heat by {5 degrees|sys_temperature}
+cool down the {kitchen|location} {1|sys_temperature}
+make it {3 degrees|sys_temperature} cooler please
+make the {living room|location} {6 degrees|sys_temperature} cooler
+decrease the heater just a small amount
+turn down the heat {1 degree|sys_temperature}
+make it {1 degree|sys_temperature} cooler in the {bathroom|location}
+reduce {bedroom|location} heater
+lower the temperature {5 degrees|sys_temperature}
+cool it down in here
+reduce {kitchen|location} temperature by {3|sys_temperature}
+please turn the thermostat down
+drop temp {3 degrees|sys_temperature}
+temperature lower by {1 degree|sys_temperature}
+chill the {bedroom|location}
+the {living room|location} is too hot turn the heat down {4 degrees|sys_temperature}
+lower the heat by {3 degrees|sys_temperature}
+decrease heater {4|sys_temperature}
+make it {3 degrees|sys_temperature} cooler
+heat down in the {kitchen|location}
+cool it down in here
+turn down heater
+change the temperature lower {a few degrees|sys_temperature}
+set the temperature {a few degrees|sys_temperature} lower
+lower heat {4 degrees|sys_temperature} in bedrooms
+make the {living room|location} less hot
+i m sweating turn down the heat by {5|sys_temperature}
+cool the air down by {5 degrees|sys_temperature}
+lower temperature setting {3 degrees|sys_temperature}
+make it {6 degrees|sys_temperature} colder
+turn the temperature down {10 degrees|sys_temperature} in the {bathroom|location}
+turn down {kitchen|location} temp a little bit
+set the thermostat to {5 degrees|sys_temperature} less
+make the {bedroom|location} cooler
+lower the temperature {3 degrees|sys_temperature}
+please cool the house down
+turn down the temperature by {3 degrees|sys_temperature}
+cool down the guest {bathroom|location}
+it s way to warm in here please lower the temperature by {three degrees|sys_temperature}

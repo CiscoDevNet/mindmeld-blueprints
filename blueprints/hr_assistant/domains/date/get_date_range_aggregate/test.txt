@@ -1,0 +1,7 @@
+What is the {total|function} of employees with {bdays|dob} {prior to|date_compare} {1990|sys_time}
+{count|function} of employees {born|dob} {before|date_compare} {1983|sys_time}
+{ratios|function} of employees that were {born|dob} about {five years|sys_duration} from {1975|sys_time}
+{eligible non-citizens|citizendesc} employees with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+{citizen|citizendesc} employees with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+{not citizens|citizendesc} people with {birthday|dob} {before|date_compare} {1996|sys_time} {count|function}
+What {percent|function} of employees were {hired|employment_action} {post|date_compare} {2008|sys_time}?

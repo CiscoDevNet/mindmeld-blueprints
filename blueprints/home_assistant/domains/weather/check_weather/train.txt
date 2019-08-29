@@ -1,0 +1,291 @@
+whats the weather around here
+what is the weather for {mexico city|city} {on friday|sys_time} in {fahrenheit|unit}
+what is the weather for {next week|sys_time} in {berlin|city}
+what is the weather like {tomorrow|sys_time}
+what is the weather {right now|sys_time} in {philadelphia|city}
+what is the low {tonight|sys_interval} in {london ontario|city}
+what's the forecast for {tomorrow evening|sys_interval} {milan|city}
+what's the forecast for {tonight|sys_interval} in {san francisco california|city}
+what's the weather like {in the morning|sys_interval}
+how cold will it be {tomorrow|sys_time}
+weather in {london|city} in {c|unit}
+what's the forecast for {tomorrow morning|sys_interval} i want the city {milan|city}
+is it going to be hot {tomorrow|sys_time}
+how's the weather {this week|sys_time}
+check the weather on {tuesday|sys_time}
+what's the temperature outside
+what's the weather like {this morning|sys_interval}
+i want to get the weather in {fahrenheit|unit}
+what's the weather outside
+show me the weather for {next week|sys_time} i want it for {toronto|city}
+check the temperature outside in {San Leandro|city}
+what is the weather for {mexico city|city} {on monday|sys_time} in {fahrenheit|unit}
+it is wet {today|sys_time}
+check the weather on {friday|sys_time}
+will it rain in {singapore|city}
+show me the forecast {paris|city}
+current temperature in {hawaii|city} {later tonight|sys_interval}
+show me the forecast {ames iowa|city}
+how cold will it be in {new york|city} {next week|sys_time}
+how hot will it get {next week|sys_time}
+the weather in {sf|city}
+weather in {montreal|city} {tomorrow|sys_time}
+what is the forecast {next week|sys_time} for {busan|city} in {c|unit}
+the weather in {incheon|city}
+weather {right now|sys_time}
+what is the temperature in {pisa|city} {right now|sys_time}
+what is the low for {tonight|sys_interval}
+how hot is it in {atlanta|city}
+what is the weather for {seoul|city} {next week|sys_time} in {fahrenheit|unit}
+is there a chance of rain {tomorrow|sys_time}
+will it be hot in {vancouver|city} {tomorrow|sys_time}
+what's the weather like {next week|sys_time}
+is it raining {today|sys_time}
+what's it like out there
+how hot will it be in {san francisco|city} {next week|sys_time}
+show me the forecast {osaka|city}
+how cold is it going to be {today|sys_time}
+tell me the temperature in {mangalore|city} {now|sys_time}
+forecast for {next friday|sys_time}
+{shanghai|city} temperature {now|sys_time}
+weather in {madrid|city}
+the weather {manchester|city}
+how's the forecast {tonight|sys_interval} for {new york city|city}
+what is the weather on the moon
+how cold is it outside
+show me the forecast {seattle|city}
+what is the low {tonight|sys_interval}
+is it windy {today|sys_time}
+how cold is it {right now|sys_time} in {berlin|city}
+can you give me the temperature {tomorrow|sys_time} in {thimphu|city}
+tell me the temperature in {tel aviv|city} {now|sys_time}
+show me the forecast {san francisco|city}
+show me the weather for {sausalito california|city} in {celsius|unit}
+forecast for {next tuesday|sys_time}
+{new delhi|city} temperature {now|sys_time}
+what will the weather be like {tonight|sys_interval}
+what's the weather like in {toronto|city}
+how is the weather for {this week|sys_time}
+how is the weather {tomorrow night|sys_interval} for {macau|city}
+what's the forecast for {tomorrow afternoon|sys_interval}
+is it a beach day {tomorrow|sys_time}
+is it warm {right now|sys_time} {barcelona|city}
+show me the weather {seattle|city}
+can you show us the temperature {tomorrow|sys_time} in {houston|city}
+weather in {bangkok|city}
+is it hot {today|sys_time}
+is it going to rain in {vienna|city} {next week|sys_time}
+what's the forecast for {next week|sys_time}
+what's {tomorrow|sys_time}'s weather for {carmel-by-the-sea california|city}
+what is the forecast for {manchester new hampshire|city} for {next week|sys_time} in {celsius|unit}
+is it clear skies out
+is it windy {rio de janeiro|city}
+weather {new delhi|city}
+is it raining in {ottawa|city}
+check the weather in {seoul|city}
+what is the weather {on monday|sys_time} in {fahrenheit|unit}
+is it going to rain {today|sys_time}
+what's the forecast for {frankfurt|city}
+check outside temperature outside in {Chicago|city} {today|sys_time}
+is it raining in {madrid|city}
+should i bring an umbrella {today|sys_time}
+check the weather {on saturday|sys_time}
+what's the weather {today|sys_time}
+what's the current temperature outside in {celsius|unit}
+is it going to be warm {tomorrow|sys_time}
+the weather {london|city}
+current temperature in {hong kong|city}
+show me {saturday|sys_time}'s weather for {sausalito california|city}
+check the current temperature outside in {San Francisco|city}
+show me the weather for {sf|city} in the {next 2 days|sys_interval}
+please advice me on temperature outside in {boxborough|city}
+is it going to get hotter or colder
+check the weather {on wednesday|sys_time}
+what is the weather for {dallas|city} for {next week|sys_time}
+show me the forecast for {tomorrow|sys_time}
+how hot is it going to be {next week|sys_time}
+what is the forecast for {vienna|city}
+is it going to rain in {hong kong|city}
+how's the weather for {tomorrow|sys_time} in {los angeles|city}
+what is the forecast {right now|sys_time}
+the forecast for {right now|sys_time}
+check the temperature outside in {bangalore|city}
+what's the weather {right now|sys_time}
+is it going to snow {tomorrow|sys_time}
+what is the weather like {right now|sys_time} in {minneapolis|city}
+show me the forecast for {this evening|sys_interval}
+what is the weather like for {ottawa|city} {in the morning|sys_interval}
+what is the weather {tomorrow morning|sys_interval}
+is it warm {right now|sys_time} in {boston|city}
+what is the forecast going to be like the city of {montreal|city}
+what is the weather forecast for {seattle|city}
+are we in for a thunderstorm
+what's the weather like {in the afternoon|sys_interval}
+forecast for {boston|city}
+check the outside temperature in {stanford|city}
+what's the weather {this weekend|sys_interval}
+what's the weather on {mars|city}
+what is the weather for the {next 5 days|sys_interval}
+what's the weather going to be like in the city of {phoenix arizona|city}
+how is the weather for {next week|sys_time}
+i want to get the forecast
+is it raining in {seattle|city}
+check the forecast
+what is the forecast for {right now|sys_time}
+what's the forecast for {next week|sys_time} i want it for {san francisco|city}
+what's the temperature in {seattle|city} {tomorrow|sys_time}
+what's it like outside
+tell us the temperature in {haifa|city} on {tuesday|sys_time}
+current temperature in {hawaii|city} {right now|sys_time}
+check the forecast for {tomorrow|sys_time}
+what's the forecast going to be like in the city of {new york|city}
+what's the forecast {right now|sys_time}
+what's the temperature {today|sys_time}
+what is the weather {today|sys_time}
+what is the forecast for the {next 5 days|sys_interval} in {ottawa|city}
+what's the weather like for {madrid|city} {in the afternoon|sys_interval}
+show me the forecast for {lisbon|city} {in the evening|sys_interval}
+show me the weather for {johannesburg|city}
+is it raining {right now|sys_time} {singapore|city}
+forecast for {tomorrow|sys_time}
+show me the weather for {sf|city} in the {next 3 days|sys_interval}
+what is the forecast going to be like the city of {philadelphia|city}
+please find the current temperature outside in {new delhi|city}
+is it windy in {san francisco|city}
+is it cold in in {toronto|city}
+is it below freezing {tomorrow|sys_time}
+what's the forecast for {tomorrow morning|sys_interval} {manchester|city}
+forecast for the {next week|sys_time}
+what is the forecast for {london|city}
+the weather {right now|sys_time}
+forecast for {chicago|city} {tomorrow|sys_time}
+how likely is it going to rain {today|sys_time}
+temperature in {cochin|city} on {monday|sys_time}
+what's the weather like {at night|sys_interval}
+let me know the temperature in {cochin|city} on {monday|sys_time}
+how's the weather going to be in {milan|city}
+forecast {tomorrow|sys_time} for {rome|city}
+what's the weather like {next week|sys_time} in {miami|city}
+what's it like outside
+is it snowing in {toronto|city}
+weather in {beijing|city}
+what's the weather in {shanghai|city}
+weather in {seoul|city}
+what is the forecast going to be like the city of {toronto|city}
+will it snow in {stockholm|city}
+forecast {tomorrow|sys_time} for {madrid|city}
+what's the temperature in {seattle|city} {today|sys_time}
+what is the weather in {c|unit}
+show me the weather {in the evening|sys_interval}
+the forecast for the {next 6 days|sys_interval}
+show me the weather for the {next 4 days|sys_interval}
+what is the low for {tonight|sys_interval} in {fahrenheit|unit}
+what is the weather for {brisbane|city} {next week|sys_time} in {f|unit}
+what is the weather like for {stuttgart|city} {in the evening|sys_interval}
+what is {next week|sys_time}'s forecast
+see the temperature {tomorrow|sys_time} in {dallas|city}
+what's the forecast for the {next 3 days|sys_interval}
+is it cold {right now|sys_time} {hong kong|city}
+the weather {this thursday|sys_time}
+what is the low {tomorrow|sys_time}
+are we expecting clouds
+can you inform me the temperature in {aukland|city}
+check the outside temperature outside in {san jose|city} {today|sys_time}
+is it hot {sao paulo|city}
+the forecast for {this friday|sys_time}
+what is the forecast for {london|city} in {celsius|unit}
+show me the weather for {tomorrow|sys_time} i want the weather for {new york city|city}
+is it going to be humid in {houston texas|city} {tomorrow|sys_time}
+the weather in {monaco|city}
+is it going to be cold {tomorrow|sys_time}
+what will the weather be like {on saturday|sys_time}
+get me the forecast {dublin|city}
+let us know the temperature in {calicut|city} on {monday|sys_time}
+{new delhi|city} temperature {now|sys_time}
+check the weather {on thursday|sys_time}
+what's the weather for the {next 3 days|sys_interval}
+show me the weather for {sf|city}
+how is the weather like {tomorrow evening|sys_interval} for {tianjin|city}
+check the weather in {san francisco|city}
+show me the forecast for the {next 5 days|sys_interval} {madrid|city}
+get me the forecast for {next week|sys_time} {rome|city}
+show me the weather for {sf|city} for {next tuesday|sys_time}
+show me the weather {edinburgh|city}
+check the forecast for {sf|city}
+how's the weather going to be in {venice|city}
+show me the forecast for {tomorrow morning|sys_interval} {busan|city}
+what is the temperature in {goa|city}
+what is the weather {right now|sys_time}
+what's the forecast for {tomorrow|sys_time} {new york|city}
+what is the weather for {new york city|city} {on monday|sys_time} in {fahrenheit|unit}
+check the weather for {mexico city|city} {next week|sys_time} in {celsius|unit}
+weather {bangalore|city}
+what is the forecast for {london|city} in {fahrenheit|unit}
+what is the forecast in {toronto|city}
+what is {tomorrow|sys_time}'s forecast
+is it going to rain {tomorrow|sys_time} {beijing|city}
+will it be sunny {on tuesday afternoon|sys_interval}
+check the forecast for {seoul|city} {next week|sys_time}
+show me the weather
+how cold is it in {quebec city|city}
+the weather {new york city|city}
+please check the temperature in {new york city|city}
+is it hot {right now|sys_time} in {tokyo|city}
+is it windy {right now|sys_time}
+what's the high {tomorrow|sys_time}
+show me the weather for {tomorrow evening|sys_interval} the city {paris|city}
+check temperature outside in {chennai|city} {today|sys_time}
+what is the weather like for {florence|city} {this evening|sys_interval}
+check the weather {on sunday|sys_time}
+weather in {new york city|city}
+the forecast for {barcelona|city} {next wednesday|sys_time}
+is it going to be hot {tomorrow|sys_time}
+how cold will it get in {manchester united kingdom|city} {tomorrow|sys_time}
+what is the weather going to be like the city {seoul|city}
+how hot is it {today|sys_time} in {atlanta|city}
+get me the forecast {toronto|city}
+what is the weather for {this evening|sys_interval} {los angeles|city}
+what is the forecast for {toronto|city}
+tell me the temperature in {sydney|city}
+what is the weather like {this week|sys_time}
+forecast for {geneva|city} {this week|sys_time}
+is it sunny {today|sys_time}
+do i need an umbrella
+show me the forecast for {tomorrow|sys_time}
+what's the forecast for {this afternoon|sys_interval}
+what's the forecast for {this afternoon|sys_interval} {san diego|city}
+forecast for the {next 4 days|sys_interval}
+current temperature in {goa|city} {right now|sys_time}
+what's the weather {on tuesday|sys_time} in {celsius|unit}
+forecast {next week|sys_time} for {seattle washington|city}
+how's the weather for {next week|sys_time}
+i want to get the forecast in {celsius|unit}
+what's the temperature in {rome|city} {right now|sys_time}
+see what the temperature is in {kathmandu|city}
+what is the weather going to be like in {seattle|city}
+check {tomorrow|sys_time}'s forecast for {singapore|city}
+do i need a coat
+check the weather {on monday|sys_time}
+what's the weather in {phoenix arizona|city} {right now|sys_time}
+what's the forecast for {tomorrow night|sys_interval} in {madrid|city}
+show me the forecast
+let us know the temperature in {calcutta|city} on {friday|sys_time}
+the weather in {madrid|city} {next friday|sys_time}
+what's the forecast in {fahrenheit|unit}
+how hot is it {right now|sys_time}
+what's the forecast
+is it going to snow {tomorrow morning|sys_interval} {taipei|city}
+weather in {ottawa|city}
+is it going to be hot {today|sys_time}
+the weather in {paris|city} {this tuesday|sys_time}
+how's the weather going to be for {seoul south korea|city}
+what's the weather {right now|sys_time}
+forecast for {athens|city} {this friday|sys_time}
+weather in {san diego|city} {right now|sys_time}
+weather {this week|sys_time}
+what's the forecast for {next week|sys_time}
+what is the low for {tonight|sys_interval} in {celsius|unit}
+is it snowing in {chicago|city}
+weather in {busan|city} {right now|sys_time}
+check the weather in {sf|city}
+what is the weather for {this week|sys_time}

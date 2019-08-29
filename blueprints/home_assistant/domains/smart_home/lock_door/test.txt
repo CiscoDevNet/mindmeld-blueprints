@@ -1,0 +1,12 @@
+lock the door
+lock {office|location} door
+lock the {front|location} door
+{office|location} lock
+{garage|location} door lock
+lock {foyer|location}
+lock {garage|location}
+lock
+lock the door in the {kitchen|location}
+lock {all|all} the doors
+lock {everywhere|all}
+{back|location} door lock
