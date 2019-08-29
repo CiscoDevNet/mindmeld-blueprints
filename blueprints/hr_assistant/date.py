@@ -3,6 +3,7 @@
 the MindMeld HR assistant blueprint application
 """
 from .root import app
+from .helpers import extract_entities_from_type
 from hr_assistant.general import (
     _resolve_categorical_entities, _resolve_function_entity,
     _resolve_extremes, _agg_function, _get_names, NOT_AN_EMPLOYEE,
@@ -27,7 +28,7 @@ def get_date(request, responder):
 
     # If user presents a new name, update the name in context
     try:
-        name_ent = [e for e in request.entities if e['type'] == 'name']
+        name_ent = extract_entities_from_type(request, 'name')
         if name_ent:
             name = name_ent[0]['value'][0]['cname']
     except IndexError:
@@ -42,6 +43,7 @@ def get_date(request, responder):
     # If name is found but not in the database, return not an employee
     if name == '':
         responder.reply(NOT_AN_EMPLOYEE)
+        return
 
     responder.slots['name'] = name
     responder.frame['name'] = name
@@ -49,10 +51,10 @@ def get_date(request, responder):
     employee = app.question_answerer.get(index='employee_data', emp_name=name)[0]
 
     # 'action' entities represent employment action such as hiring or termination
-    action_entity = [e for e in request.entities if e['type'] == 'employment_action']
+    action_entity = extract_entities_from_type(request, 'employment_action')
 
     # 'dob' entities represent the date of birth entity
-    dob_entity = [e for e in request.entities if e['type'] == 'dob']
+    dob_entity = extract_entities_from_type(request, 'dob')
 
     # Search for the determined action entity or date of birth in the KB and return.
     # 'doh' - 'date of hire', 'dot' - 'date of termination', 'dob' - 'date of birth'
@@ -115,7 +117,7 @@ def get_date_range_aggregate(request, responder):
     func_entity = request.frame.get('function')
 
     # If the user provides a new function entity, it replaces the one in context from previous turns
-    func_entities = [e for e in request.entities if e['type'] == 'function']
+    func_entities = extract_entities_from_type(request, 'function')
 
     if func_entities:
         func_entity = func_entities[0]
@@ -176,7 +178,7 @@ def get_date_range_employees(request, responder):
         qa, size, field = out
 
         # Finding extreme entities such as 'highest', 'lowest', 'youngest' etc. (if any)
-        extreme_entity = [e for e in request.entities if e['type'] == 'extreme']
+        extreme_entity = extract_entities_from_type(request, 'extreme')
 
         # Filter on the extreme entities if they exist
         if extreme_entity:
@@ -280,15 +282,15 @@ def _resolve_time(request, responder, qa, size):
         action_entity.append(request.frame.get('action'))
         responder.frame['action'] = None
 
-    time_ent = [e['text'] for e in request.entities if e['type'] == 'sys_time']
-    date_compare_ent = [e for e in request.entities if e['type'] == 'date_compare']
+    time_ent = extract_entities_from_type(request, 'sys_time')
+    date_compare_ent = extract_entities_from_type(request, 'date_compare')
 
     # Catch new action entity and update the existing one in context (if any)
     new_action_entity = [e['value'][0]['cname']
                          for e in request.entities
                          if e['type'] == 'employment_action']
 
-    dob_entity = [e for e in request.entities if e['type'] == 'dob']
+    dob_entity = extract_entities_from_type(request, 'dob')
 
     if new_action_entity:
         action_entity = [e['value'][0]['cname']
