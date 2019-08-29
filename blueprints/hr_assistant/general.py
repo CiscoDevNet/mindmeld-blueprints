@@ -4,8 +4,10 @@ the MindMeld HR assistant blueprint application
 """
 import numpy as np
 from .root import app
+from .helpers import extract_entities_from_type
 
 SIZE = 301
+MAX_AGE = 100
 NOT_AN_EMPLOYEE = "Looks like that person does not work in this organisation."
 
 """
@@ -16,6 +18,8 @@ If the person is not in the index then the responder slot for name is returned
 empty, resulting in the shift to the except case. If name exists in the KB, the
 requested details are returned
 """
+
+
 @app.handle(intent='get_info', has_entity='age')
 def get_info_age(request, responder):
     responder = _get_person_info(request, responder, 'age')
@@ -151,7 +155,7 @@ def get_info_default(request, responder):
 
     try:
         # Search for names in the query and store their canonical forms
-        name_ent = [e for e in request.entities if e['type'] == 'name']
+        name_ent = extract_entities_from_type(request, 'name')
         name = name_ent[0]['value'][0]['cname']
 
         # if the name is empty (i.e. not in the employee database but recognized as a name),
@@ -197,7 +201,7 @@ def get_info_default(request, responder):
                                'state': 'State', 'employment_status': 'Employment Status',
                                'position': 'Position', 'department': 'Department', 'age': 'Age',
                                'money': 'Hourly Pay'}
-                details = [str(expand_dict[key])+" : "+str(details[key])
+                details = [str(expand_dict[key]) + " : " + str(details[key])
                            for key in details.keys()
                            if key in expand_dict]
 
@@ -230,8 +234,8 @@ def get_aggregate(request, responder):
     func_entity = request.frame.get('function')
 
     # If the user provides a new function entity, it replaces the one in context from previous turns
-    func_entities = [e for e in request.entities if e['type'] == 'function']
-    age_entities = [e for e in request.entities if e['type'] == 'age']
+    func_entities = extract_entities_from_type(request, 'function')
+    age_entities = extract_entities_from_type(request, 'age')
 
     if func_entities:
         func_entity = func_entities[0]
@@ -311,11 +315,11 @@ def get_employees(request, responder):
     """
 
     # Finding age entities (indicators), if any
-    age_entities = [e for e in request.entities if e['type'] == 'age']
+    age_entities = extract_entities_from_type(request, 'age')
 
     # Finding extreme entities such as 'highest', 'lowest', 'youngest' etc. (if any)
     try:
-        extreme_entity = [e for e in request.entities if e['type'] == 'extreme'][0]
+        extreme_entity = extract_entities_from_type(request, 'extreme')[0]
     except IndexError:
         extreme_entity = []
 
@@ -395,7 +399,7 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
             except ValueError:
                 continue
 
-    comparator_entity = [e for e in request.entities if e['type'] == 'comparator']
+    comparator_entity = extract_entities_from_type(request, 'comparator')
 
     # The age entity can have either be accompanied by a comparator, extreme or no entity.
     # These are mutually exclusive of others and hence can only be queried separately from
@@ -406,7 +410,7 @@ def _apply_age_filter(request, responder, qa, age_entities, num_entity=None):
 
         if comparator_canonical == 'more than':
             gte_val = num_entity[0]
-            lte_val = 100
+            lte_val = MAX_AGE
 
         elif comparator_canonical == 'less than':
             lte_val = num_entity[0]
@@ -439,7 +443,7 @@ def _find_additional_age_entities(request, responder):
     lack of it, respectively.
     """
     try:
-        comparator_entity = [e for e in request.entities if e['type'] == 'comparator'][0]
+        comparator_entity = extract_entities_from_type(request, 'comparator')[0]
         num_entity = [float(e['value'][0]['value'])
                       for e in request.entities
                       if e['type'] == 'sys_number']
@@ -574,13 +578,13 @@ def _agg_function(qa_out, func='avg', num_col='money'):
     """
 
     try:
-        if(func == 'avg'):
+        if func == 'avg':
             return round(np.mean([emp[num_col] for emp in qa_out]), 2)
-        elif(func == 'sum'):
+        elif func == 'sum':
             return np.sum([emp[num_col] for emp in qa_out])
-        elif(func == 'ct'):
+        elif func == 'ct':
             return len(qa_out)
-        elif(func == 'pct'):
+        elif func == 'pct':
             return round(len(qa_out)/3, 2)
     except (TypeError, ZeroDivisionError):
         return 0
@@ -609,7 +613,7 @@ def _get_person_info(request, responder, entity_type):
 
     # if the user has provided a new name, replace the existing name with it
     try:
-        name_ent = [e for e in request.entities if e['type'] == 'name']
+        name_ent = extract_entities_from_type(request, 'name')
         name = name_ent[0]['value'][0]['cname']
     except IndexError:
         if not name:
