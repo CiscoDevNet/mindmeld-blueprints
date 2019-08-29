@@ -15,7 +15,6 @@ def generic(request, responder):
 
 @app.handle(intent='all_topics')
 def all_topics(request, responder):
-    responder.params.target_dialogue_state = None
     query = request.text
     answers = app.question_answerer.get(index='faq_data', query_type='text', question=query,
                                         answer=query)
