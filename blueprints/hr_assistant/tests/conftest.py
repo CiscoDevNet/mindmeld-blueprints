@@ -18,7 +18,7 @@ APP_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 def nlp():
     the_nlp = NaturalLanguageProcessor(APP_PATH)
     try:
-        the_nlp.build()
+        the_nlp.load()
     except ClassifierLoadError as exc:
         raise ClassifierLoadError(
             "Could not load app. Have you built the models? "

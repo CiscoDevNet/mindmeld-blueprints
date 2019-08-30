@@ -8,11 +8,10 @@ from .root import app
 
 @app.handle(intent='greet')
 def greet(request, responder):
-    responder.reply("Hi, I am your HR assistant. You can ask me about "
-                    "an employee's individual information (eg. Is Mia married?), "
-                    "some employee statistic (eg. average salary of females) or "
-                    "names of employees according to your criteria"
-                    "(eg. give me a list of all married employees)")
+    responder.reply("Hi, I am your HR assistant. Ask me about an individual "
+                    "employee, company's employee demographic or "
+                    "general policy questions. You can say 'Is Mia married?' or "
+                    "'Average salary of females' or 'When will I get my W2?'")
 
 
 @app.handle(intent='exit')
