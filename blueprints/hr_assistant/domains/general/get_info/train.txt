@@ -837,3 +837,6 @@ what is the {employment status|employment_status} of {Betsy|name}
 Why did {Linda|name} {end employment|employment_action}?
 tell me the {performance|performance_score} of {taylor|name}
 {latia|name} {employment status|employment_status}
+Is {Melinda|name} in the {production|department} department?
+Is {Francesco|name} in the {sales|department} department?
+Is {hong pham|name} in the {software engineering|department} department?
