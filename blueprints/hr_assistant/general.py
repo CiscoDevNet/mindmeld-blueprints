@@ -257,7 +257,7 @@ def get_aggregate(request, responder):
             qa, size = _apply_age_filter(request, responder, qa, age_entities)
             qa_out = qa.execute(size=size)
 
-            # Calculate and return desired mathemical value
+            # Calculate and return desired mathematical value
             responder.slots['value'] = _agg_function(qa_out, func=function, num_col='age')
             if function == 'pct':
                 responder.reply("Of the total employees, the {function} "
