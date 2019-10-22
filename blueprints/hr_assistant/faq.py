@@ -16,7 +16,7 @@ def generic(request, responder):
 @app.handle(intent='all_topics')
 def all_topics(request, responder):
     query = request.text
-    answers = app.question_answerer.get(index='faq_data', query_type='text', question=query,
+    answers = app.question_answerer.get(index='hr_faq_data', query_type='text', question=query,
                                         answer=query)
     if answers:
         reply = ['Here is the top result:', answers[0]['question'], answers[0]['answer']]
