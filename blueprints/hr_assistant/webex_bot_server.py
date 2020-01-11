@@ -21,9 +21,9 @@ if __name__ == '__main__':
     nlp = NaturalLanguageProcessor('.')
     nlp.build()
     conv = Conversation(nlp=nlp, app_path='.')
-
-    server = WebexBotServer(app, WEBHOOK_ID, ACCESS_TOKEN, conv)
-
+    server = WebexBotServer(name='webex_bot', app_path='.',
+                            nlp=nlp, webhook_id=WEBHOOK_ID,
+                            access_token=ACCESS_TOKEN)
     port_number = 8080
     print('Running server on port {}...'.format(port_number))
 
