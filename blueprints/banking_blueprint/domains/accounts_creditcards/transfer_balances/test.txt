@@ -1,0 +1,10 @@
+Move money from one account to another
+Put money from my {savings|account_type|origin} into my {checkings|account_type|dest} account
+How do I transfer money between accounts
+I want to transfer money into my {savings|account_type|dest} account
+move some money
+I want {5k|sys_amount-of-money} in this account from the other account.
+Can I transfer some money
+I'd like to transfer money between my accounts
+Can I move money from my {checkings|account_type|origin} to {savings|account_type|dest}
+How do I transfer money between accounts
