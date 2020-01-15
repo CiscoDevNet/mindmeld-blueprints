@@ -1,0 +1,99 @@
+How much is in my {checking|account_type} account
+What’s my balance in {savings|account_type}?
+What’s my {checkings|account type} balance?
+What’s my {credit card|account_type} balance?
+How much have I spent on my {credit_card|account_type}
+What’s the balance on my {credit_card|account_type}
+What’s the total amount in my {checkings|account_type} account?
+What are my account balances?
+Want to check my {checkings|account_type} balance
+{credit_card|account_type} balance
+What’s the value of my {checking|account_type}
+How much money do I have in my {checkings|account_type}?
+how far in debt am I?
+whats my balance
+How much money total do I have?
+How much do I have in my {checkings|account_type} account?
+how much money do i have in my {checkings|account_type} account?
+how much do I have in my {checkings|account_type}  account?
+Show me my {savings|account_type} account balance.
+how much do i have in my {checking|account_type}?
+show me my account {balance|amount_type}
+Get me my {checking|account_type} account remaining balance
+How much money does my {checking|account_type} account have
+Please, check my account balance
+How much do I have in the {checking|account_type} account?
+How much money is in my {savings|account_type} account?
+I want to know my {checking|account_type} account
+check my {balance|amount_type}
+How much {money|amount_type} is left in my account
+Give me my {checking|account_type} balance.
+{checking|account_type} account balance
+Tell me what my balance is for {checking|account_type}
+How much money is in my {savings|account_type}
+I want to know how much I have in {savings|account_type}
+I would like information on the amount in my {checking|account_type} account
+i need to find out what my balance is
+Check my account balance.
+What's my account balance?
+What's my {checking|account_type} account balance?
+What's the balance in my account?
+Show my account balance.
+Show my {checking|account_type} account balance.
+Show the balance in my account.
+Show the balance in my {checking|account_type} account.
+Check the balance in my account.
+Check the balance in my {checking|account_type} account.
+How much money is in my account?
+How much money is in my {checking|account_type} account?
+check balance
+{checking|account_type} balance
+balance please
+how much is in my {checking|account_type}
+what's my {checking|account_type} look like
+{savings|account_type} balance
+{credit_card|account_type} card balance
+need balances now
+balances please
+What is my balance?
+How much money is in my account?
+How much money do I have?
+What is my balance?
+How broke am I?
+Am I going to overdraw soon?
+View my bank account
+What's my account balance?
+How much do I have in my {checking|account_type} account?
+What is my account balance? 
+What is the balance on my {checking|account_type} account? 
+How much money is in my account? 
+How much money do I have in my account? 
+How much money do I have left in my account? 
+How much money is left in my account? 
+How much money is left in my {checking|account_type} account? 
+What is the balance on my account? 
+{checking|account_type} Account Balance
+Account Balance
+What's in my {checking|account_type} account?
+What's my balance?
+{checking|account_type} Balance
+How much is in my account?
+Check Account Total
+Balance inquiry
+What's my account total?
+Account total
+balance
+total
+amount
+amount in my account
+{checking|account_type} amount
+Can you check my account balance?
+Can you check my bank balance?
+Can you check my account amount?
+Can you show me the balance on my account?
+Can you show me the balance on my bank account?
+I’d like to see my bank balance
+I’d like to see my account balance
+I’d like to see my account amount
+Show me my bank balance
+Show me my account balance please

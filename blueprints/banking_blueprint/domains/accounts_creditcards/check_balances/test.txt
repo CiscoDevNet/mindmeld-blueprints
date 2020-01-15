@@ -1,0 +1,11 @@
+I’d like to see my account balance
+Tell me my {checking|account_type} account balance?
+How much do I have in my {checking|account_type} account?
+How do I see my {checking|account_type} account balance?
+How much money do I have?
+how much money is in my account
+How much money do I have?
+What's my balance?
+Do I have a lot of money?
+What's the damage?
+
