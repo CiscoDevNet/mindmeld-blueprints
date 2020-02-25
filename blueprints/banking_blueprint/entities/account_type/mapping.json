@@ -1,0 +1,32 @@
+{
+    "entities": [
+        {
+            "whitelist": [],
+            "cname": "checkings"
+        },
+        {
+            "whitelist": [],
+            "cname": "checking"
+        },
+        {
+            "whitelist": [],
+            "cname": "saving"
+        },
+        {
+            "whitelist": [],
+            "cname": "savings"
+        },
+        {
+            "whitelist": [],
+            "cname": "credit"
+        },
+                {
+            "whitelist": [],
+            "cname": "balance"
+        },
+        {
+            "whitelist": [],
+            "cname": "minimum"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "entities": [
+        {
+            "whitelist": [],
+            "cname": "minimum"
+        },
+        {
+            "whitelist": [],
+            "cname": "balance"
+        }    ]
+}
