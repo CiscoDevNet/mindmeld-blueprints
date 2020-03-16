@@ -1,5 +1,5 @@
 Transfer {100k|sys_amount-of-money} from {checking|account_type|origin} to {savings|account_type|dest}
-Move {100k|sys_amount-of-money} to {savings|account_type|dest} from{checking|account_type|origin}
+Move {100k|sys_amount-of-money} to {savings|account_type|dest} from {checking|account_type|origin}
 I want to send {100k|sys_amount-of-money} from {savings|account_type|origin} to my {checkings|account_type|dest} account
 Pay {credit|account_type|dest} bill from {checkings|account_type|origin}
 Send {100k|sys_amount-of-money} to {checking|account_type|dest} from {savings|account|origin}

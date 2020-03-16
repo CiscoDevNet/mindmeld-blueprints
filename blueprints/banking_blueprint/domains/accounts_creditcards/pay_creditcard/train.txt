@@ -1,4 +1,4 @@
-Pay the {{balance|credit_amount}|credit_amount} on my credit card
+Pay the {balance|credit_amount} on my credit card
 Schedule a {$400|sys_amount-of-money} payment for my card
 complete full {balance|credit_amount} on the credit card
 Pay my credit card.
