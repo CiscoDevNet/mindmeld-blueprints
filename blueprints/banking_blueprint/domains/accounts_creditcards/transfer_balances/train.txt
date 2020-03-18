@@ -2,7 +2,7 @@ Transfer {100k|sys_amount-of-money} from {checking|account_type|origin} to {savi
 Move {100k|sys_amount-of-money} to {savings|account_type|dest} from {checking|account_type|origin}
 I want to send {100k|sys_amount-of-money} from {savings|account_type|origin} to my {checkings|account_type|dest} account
 Pay {credit|account_type|dest} bill from {checkings|account_type|origin}
-Send {100k|sys_amount-of-money} to {checking|account_type|dest} from {savings|account|origin}
+Send {100k|sys_amount-of-money} to {checking|account_type|dest} from {savings|account_type|origin}
 Add {100k|sys_amount-of-money} to my {savings|account_type|dest} from {checkings|account_type|origin}
 take {$400|sys_amount-of-money} and move it from my {checkings|account_type|origin} account to {saving|account_type|dest} account today
 Move {$100|sys_amount-of-money} from my {savings|account_type|origin} into my {checkings|account_type|dest}

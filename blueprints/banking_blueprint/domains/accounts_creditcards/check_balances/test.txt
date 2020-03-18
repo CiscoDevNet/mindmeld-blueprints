@@ -7,3 +7,13 @@ how much money is in my account
 How much money do I have?
 What's my balance?
 Do I have a lot of money?
+balance and bill info
+{credit card|account_type} - Bill & Balance
+Can you check and see how much my {credit card|account_type} balance is?
+Show me my {credit card|account_type} balance
+Show me my balance info
+I’d like to see how much I have due on my {credit card|account_type} balance
+what is the balance on my {credit card|account_type}
+show me my available {credit|account_type}
+how much do I owe?
+what do I owe?

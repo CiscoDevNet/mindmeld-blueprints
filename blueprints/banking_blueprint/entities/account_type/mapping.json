@@ -22,11 +22,7 @@
         },
                 {
             "whitelist": [],
-            "cname": "balance"
-        },
-        {
-            "whitelist": [],
-            "cname": "minimum"
+            "cname": "credit card"
         }
     ]
 }

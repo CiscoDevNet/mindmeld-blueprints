@@ -97,3 +97,31 @@ I'd like to see my account balance
 I'd like to see my account amount
 Show me my bank balance
 Show me my account balance please
+How much {credit|account_type} do I have left?
+Check {credit card|account_type} balance.
+Please provide my currently {credit card|account_type} balance.
+whats the minimum payment due on my {credit card|account_type} bill?
+what is the minimum due on the {credit card|account_type}
+Check my current {credit card|account_type} balance
+How much money do i owe on my {credit card|account_type}
+how much is my {credit card|account_type} balance
+What is the balance on my card? 
+How much do I owe for the {credit card|account_type}?
+How much did I spend on my visa?
+how much do I owe
+What's the maximum limit on my MasterCard?
+How much is the balance on my {credit card|account_type}?
+whats my {credit card|account_type} balance
+What is my current {credit card|account_type} balance?
+How much is due on my {credit card|account_type}?
+How much do I owe on my {credit card|account_type}?
+How much is my {credit card|account_type} balance?
+How much is the outstanding balance on my {credit card|account_type}?
+How much {credit|account_type} do I have?
+What is my {credit|account_type} balance?
+Is my {credit card|account_type} maxed out?
+How much money is due on my {credit card|account_type}? 
+How much have I spent this month? 
+Check {credit card|account_type} Balance
+Tell me my card balance 
+{credit|account_type} balance
