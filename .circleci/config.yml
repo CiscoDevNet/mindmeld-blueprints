@@ -58,7 +58,7 @@ definitions:
             pip install awscli
 
             # install mindmeld and test requirements
-            pip install mindmeld==4.1.0
+            pip install mindmeld==4.2.8
             pip install -r test-requirements.txt
 
     # Step Sequences
