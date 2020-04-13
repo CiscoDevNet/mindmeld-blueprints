@@ -15,7 +15,7 @@ whats my balance
 How much money total do I have?
 How much do I have in my {checkings|account_type} account?
 how much money do i have in my {checkings|account_type} account?
-how much do I have in my {checkings|account_type}  account?
+how much do I have in my {checkings|account_type} account?
 Show me my {savings|account_type} account balance.
 how much do i have in my {checking|account_type}?
 show me my account balance
@@ -125,3 +125,6 @@ How much have I spent this month?
 Check {credit card|account_type} Balance
 Tell me my card balance 
 {credit|account_type} balance
+What is my {credit|account_type} balance 
+what is my {credit card|account_type} balance 
+what is the minimum payment on my {credit card|account_type} bill 

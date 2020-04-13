@@ -55,3 +55,35 @@ pin number update
 How to find my pin number
 PIN setup
 unknown pin
+I do not know my pin 
+Forgot my pin number
+I forgot my pin number 
+I do not know my account pin 
+I do not remember my pin 
+I do not remember my account pin number 
+I do not recall my pin 
+I do not recall my pin number 
+I seem to have forgotten my pin 
+I seem to have forgotten my pin number
+Looks like I forgot my pin number
+Need to reset my pin
+I need to reset my pin number
+I cannot login using my pin 
+I want to set a new pin
+change pin settings 
+can I change my pin number?
+forgot PIN number
+I forgot my pin
+what's my pin?
+what is my pin number?
+I need to be sent my pin number
+don't remember my pin 
+email me my pin
+forgotten my pin number
+Pin number
+forgot PIN number 
+reset PIN number 
+need new PIN number 
+what is my PIN number 
+how do I find my PIN number 
+PIN number stolen

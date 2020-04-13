@@ -51,7 +51,7 @@ Pay my credit card bill
 Pay my card
 Send bill for credit card
 Send {minimum|credit_amount} credit card payment
-Billpay
+Bill pay
 Pay my bill
 send payment for credit card
 credit card payment
@@ -67,3 +67,29 @@ I have to make a payment on my credit card
 I’d like to pay my credit card bill
 I’d like to pay the bill for my credit card
 I have to pay the bill for my credit card
+Pay my bill
+I want to pay my credit card bill 
+I would like to pay my credit card bill 
+I want to pay my card bill 
+pay card bill 
+pay credit card bill 
+pay existing balance on credit card 
+pay existing balance on credit account 
+Take my credit card balance to $0
+pay my bill
+pay off bills
+pay bills on time 
+pay my bills online
+pay my credit card bill 
+pay credit card bill
+pay off credit card
+I need to pay my credit card bill
+pay off me credit card
+i need my credit card paid off
+I want to pay off my credit card
+pay credit card bill
+pay bill 
+credit card bill 
+pay credit card 
+credit card statement 
+pay statement 
