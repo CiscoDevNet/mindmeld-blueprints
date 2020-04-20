@@ -1,28 +1,32 @@
 {
     "entities": [
         {
-            "whitelist": [],
-            "cname": "checkings"
-        },
-        {
-            "whitelist": [],
-            "cname": "checking"
-        },
-        {
-            "whitelist": [],
-            "cname": "saving"
-        },
-        {
-            "whitelist": [],
+            "whitelist": [
+                "saving",
+                "save",
+                "svings",
+                "shavings"
+            ],
             "cname": "savings"
         },
         {
-            "whitelist": [],
-            "cname": "credit"
+            "whitelist": [
+                "checking",
+                "cheking",
+                "chkings",
+                "chunkings",
+                "checkingz"
+            ],
+            "cname": "checkings"
         },
-                {
-            "whitelist": [],
-            "cname": "credit card"
+        {
+            "whitelist": [
+		"credit cards",
+		"cred",
+		"credit",
+		"credit card"
+	    ],
+            "cname": "credit"
         }
     ]
 }

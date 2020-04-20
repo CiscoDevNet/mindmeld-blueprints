@@ -11,17 +11,26 @@
 INTENT_CLASSIFIER_CONFIG = {
     'model_type': 'text',
     'model_settings': {
-        'classifier_type': 'dtree'
+        'classifier_type': 'logreg'
     },
     'param_selection': {
         'type': 'k-fold',
-        'k': 10,
+        'k': 5,
         'grid': {
-            'max_features': ['log2', 'sqrt', 0.01, 0.1]
+            'fit_intercept': [True, False],
+            'C': [0.01, 1, 10, 100],
+            'class_bias': [0.7, 0.3, 0]
         },
     },
     "features": {
-        "exact": {},
+        "bag-of-words": {
+            "lengths":[1,2]
+        },
+        "edge-ngrams" : {"lengths": [1,2]},
+        "in-gaz": {},
+        "exact": {"scaling": 10},
+        "gaz-freq": {},
+        "freq": {"bins":5}
     }
 }
 

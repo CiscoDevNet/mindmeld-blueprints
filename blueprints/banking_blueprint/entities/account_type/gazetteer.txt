@@ -1,5 +1,6 @@
 checking
+Checking
+Savings
 saving
 credit
 credit card
-
