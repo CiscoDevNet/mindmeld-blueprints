@@ -203,3 +203,12 @@ I need to start autopay
 start autopay for this account
 enable autopay
 begin autopay for this card
+start using my autopay 
+I need to start autopay
+start autopay for this account
+enable autopay
+begin autopay for this card
+autopay start
+autopay setup
+auto pay
+set up auto pay

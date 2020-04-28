@@ -128,3 +128,13 @@ Tell me my card balance
 What is my {credit|account_type} balance 
 what is my {credit card|account_type} balance 
 what is the minimum payment on my {credit card|account_type} bill 
+what is my {card|account_type} balance?
+what do I need to pay?
+how much is my balance?
+what is due for this {card|account_type}?
+how much do I owe?
+what is to be paid
+what {credit|account_type} needs to be paid
+how much {credit card|account_type} balance is due
+how much amount is unsettle on my {credit card|account_type}
+how much {credit card|account_type} balance do I need to settle

@@ -3,10 +3,19 @@
 from mindmeld import Application
 from mindmeld.models import entity_features
 from mindmeld.markup import process_markup
+from mindmeld.core import FormEntity
 
 app = Application(__name__)
 
 __all__ = ['app']
+
+
+sample_user = {
+    'savings' : 500,
+    'checking' : 100,
+    'credit' : 60,
+    'autoPay' : False,
+}
 
 
 @app.handle(intent='greet')
@@ -63,119 +72,95 @@ def default(request, responder):
                'Sorry, tell me one more time?', 'Sorry, can you say that again?']
     responder.reply(replies)
 
-def validation(text, entity_type):
-    resource_loader = app.app_manager.nlp.resource_loader
-    query = process_markup(text, resource_loader.query_factory, {})[1]
-    formatted_payload = (query, [query], 0)
 
-    if 'sys_' in entity_type:
-        # duckling validation
-        extracted_feature = entity_features.extract_numeric_candidate_features()(formatted_payload, {})
-    else:
-        # gazetteer validation
-        gazetter = {'gazetteers': {entity_type: app.app_manager.nlp.resource_loader.get_gazetteer(entity_type)}}
-        extracted_feature = entity_features.extract_in_gaz_features()(formatted_payload, gazetter)
 
-    return extracted_feature != {}
+entity_form = [
 
-@app.handle(targeted_only=True)
-def form_fill(request, responder, nlr_form=None):
-    nlr = nlr_form or request.frame['slots']
-    slot_already_filled = nlr_form is not None
-
-    for elem in nlr:
-        entity_type = elem['entity']
-        value = elem['value']
-        response = elem['response']
-        if not value:
-            if slot_already_filled:
-                responder.params.target_dialogue_state = 'form_fill'
-                responder.frame['slots'] = nlr
-                responder.reply([response])
-                responder.listen()
-                return
-            else:
-                if validation(request.text, entity_type):
-                    elem['value'] = request.text
-                    slot_already_filled = True
-                else:
-                    # retry logic
-                    app.app_manager.dialogue_manager.reprocess()
-    kwargs = {}
-    for elem in nlr:
-        value = elem['value']
-        role = elem['role'] if 'role' in elem else '*'
-        entity = elem['entity']
-
-        if entity == 'account_type' and role == 'origin':
-            kwargs['origin'] = value
-        elif entity == 'account_type' and role == 'dest':
-            kwargs['dest'] = value
-        elif entity == 'sys_amount-of-money':
-            kwargs['amount'] = value
-
-    replies = ["All right. A transfer has been initiated of {amount} from your "
-               "{origin} to a {dest}.".format(**kwargs), ]
-    responder.reply(replies)
-    return
+    FormEntity(
+        entity='account_type',
+        role='origin',
+        responses=['Sure. Transfer from which account?']),
+    FormEntity(
+        entity='account_type',
+        role='dest',
+        responses=['To which account?']),
+    FormEntity(
+        entity='sys_amount-of-money',
+        responses=['And, how much do you want to transfer?'])
+    ]
                        
 
-@app.handle(intent='transfer_balances')
+@app.auto_fill(intent='transfer_balances', entity_form=entity_form)
 def transfer_balances_handler(request, responder):
-    nlr_form = [
-        {'entity': 'account_type',
-         'role': 'origin',
-         'response': 'Sure. Transfer from which account?',
-         'constraint': 'closed',
-         'value': None},
-        {'entity': 'account_type',
-         'role': 'dest',
-         'response': 'To which account?',
-         'constraint': 'closed',
-         'value': None},
-        {'entity': 'sys_amount-of-money',
-         'response': 'And, how much do you want to transfer?',
-         'constraint': 'closed',
-         'value': None}
-    ]
-
+	
     for entity in request.entities:
-        entity_type = entity['type']
-        role = entity['role']
-        value = entity['text']
+        if entity['type'] == 'account_type':
+            if entity['role'] == 'origin':
+                responder.slots['origin'] = entity['value'][0]['cname'] or entity['text']
+            elif entity['role'] == 'dest':
+                responder.slots['dest'] = entity['value'][0]['cname'] or entity['text']
+        else:
+            print(entity)
+            responder.slots['amount'] = entity['text']
 
-        for elem in nlr_form:
-            if entity_type == elem['entity']:
-                if ('role' not in elem) or (role == elem['role']):
-                    elem['value'] = value
+    replies = ["All right. So, you're transferring {amount} from your "
+               "{origin} to a {dest}. Is that right?"]
+    responder.reply(replies)
 
-    form_fill(request, responder, nlr_form)
+
+pay_form = [
+    FormEntity(
+        entity='credit_amount',
+        responses=['Would you like to pay off the minimum or full balance?']),            
+    FormEntity(
+        entity='sys_amount-of-money',
+        responses=['And, how much do you want to transfer?'])
+]
 
 @app.handle(intent='pay_creditcard')
 def pay_creditcard_handler(request, responder):
-	    nlr_form = [
-        {'entity': 'credit_amount',
-         'response': 'Sure. Would you like to pay the minimum or full balance?',
-         'value': None},
-        {'entity': 'sys_amount-of-money',
-         'response': 'And, how much do you want to pay off?',
-         'constraint': 'closed',
-         'value': None}
-    ]
+    if request.entities:
+        for entity in request.entities:
+            if entity['type'] == 'credit_amount':
+                responder.slots['payment'] = entity['value'][0]['cname'] or entity['text']
+                print(entity)
+                responder.reply(['Ok we have scheduled your credit card payment for your {payment}'])
+                return
+            else:
+                responder.slots['amount'] = entity['text']    
+                responder.reply(['Ok we have scheduled your credit card payment for {amount}]'])
+    else:
+        responder.params.target_dialogue_state = 'pay_creditcard_handler'
+        responder.slots['min'] = round(sample_user['credit'] * .05)
+        responder.slots['total_balance'] = sample_user['credit']
+        responder.reply(['What amount do you want to pay off? '
+            'You can choose to make a minimum payment of ${min} up to the total balance of ${total_balance}'])
+
+
 
 @app.handle(intent='setup_autopay')
 def setup_autpay_handler(request, responder):
     replies = ['AutoPay has been turned on']
     responder.reply(replies)
 
-@app.handle(intent='check_balances')
+
+balance_form = [
+    FormEntity(
+        entity='account_type',
+        responses=['Sure. for which account?'])
+]
+
+
+@app.auto_fill(intent='check_balances', entity_form=balance_form)
 def check_balances_handler(request, responder):
-	current_account = next((e for e in request.entities if e['type'] == 'account_type'), None)
-	if current_account:
-		responder.reply('Balance for' + current_account['account_type'] + ' is 10k')
-	else:
-		responder.reply('Sure, for which account?')
-		responder.listen()
+    if request.entities:
+        for entity in request.entities:
+            if entity['type'] == 'account_type':
+                print(entity)
+                responder.slots['account'] = entity['text']
+                responder.slots['amount'] = sample_user[entity['value'][0]['cname']]
+                responder.reply('Balance for {account} account is {amount}')
+    
 
 
 

@@ -2,11 +2,6 @@ I cannot remember my pin
 Tell me my pin number
 what's my pin again?
 Forgot PIN number.
-I don't remember my pin number
-I forgot my pin
-what is my pin
-I lost my ATM pin.
-i need to reset my PIN
 i can't find my pin number
 I lost my pin number
 I lost my PIN
@@ -87,3 +82,15 @@ need new PIN number
 what is my PIN number 
 how do I find my PIN number 
 PIN number stolen
+idk my pin number
+what's my pin?
+I for my pin number
+I need a new pin number
+I don't remember my pin number
+I need to recover my pin
+forgot pin
+forget pin
+what's my pin
+pin
+find my pin
+get pin

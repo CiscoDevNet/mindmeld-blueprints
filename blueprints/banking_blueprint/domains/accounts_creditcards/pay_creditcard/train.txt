@@ -12,10 +12,6 @@ Pay {500 dollars|sys_amount-of-money} to my credit card {balance|credit_amount}
 Clear off my credit card statement {balance|credit_amount}
 pay my credit card {balance|credit_amount}
 Pay my credit card ending 1234
-Cover the {minimum|credit_amount} charge on the credit card
-Put two hundred dollars towards my visa bill
-Pay credit card
-pay card
 pay off my {balance|credit_amount}
 Pay the last month's statement
 Pay the last month's statement
@@ -93,3 +89,54 @@ credit card bill
 pay credit card 
 credit card statement 
 pay statement 
+pay the balance on my card
+I need my credit card balance to be zero 
+I want my card balance to be $0
+pay credit card bills
+make sure my credit card is paid off
+pay my credit due
+pay my credit statement
+clear my credit statement
+clear my credit account
+pay my remaining credit
+pay my {minimum|credit_amount} bill
+Schedule payment for card {minimum|credit_amount}
+I need to pay {minimum|credit_amount} card payment
+card payment for {minimum|credit_amount} bill
+Send payment for credit card for {minimum|credit_amount} bill
+pay credit bill for {minimum|credit_amount} amount 
+Pay bill for {minimum|credit_amount} amount 
+Pay card off for {minimum|credit_amount} balance 
+Pay off my full {balance|credit_amount} for my credit card
+Send full {balance|credit_amount} payment for card
+I need to pay my credit {balance|credit_amount} 
+Schedule payment for remaining {balance|credit_amount} on credit card
+Credit card payment of total {balance|credit_amount}
+I want to pay off my credit card {balance|credit_amount}
+send payment for credit card {balance|credit_amount}
+Payment for credit {balance|credit_amount}
+Payment for card {balance|credit_amount}
+Can I pay off my {balance|credit_amount} for card
+Can I pay off my credit card {balance|credit_amount}
+I would like to pay my card bill
+Pay {balance|credit_amount}
+Send money to pay off card {balance|credit_amount}
+Make payment of {$400|sys_amount-of-money} for credit card 
+Send payment of {$400|sys_amount-of-money} for card
+Pay off credit card for {$400|sys_amount-of-money}
+{$400|sys_amount-of-money} payment for credit card
+I want to pay {$400|sys_amount-of-money} off my credit bill
+Send {$400|sys_amount-of-money} to pay off bill
+Bill payment of {$400|sys_amount-of-money}
+Can you make a payment of {$400|sys_amount-of-money} for my credit bill
+schedule payment of {$400|sys_amount-of-money} for my credit card
+Credit card payment of {$400|sys_amount-of-money}
+Card pay off {$400|sys_amount-of-money}
+Pay off {$400|sys_amount-of-money} on my card bill
+i need to pay off my credit bill for {$400|sys_amount-of-money}
+I need to pay off my bill 
+I need to schedule credit card payment
+make payment of {$400|sys_amount-of-money} for credit bill
+Pay off {$400|sys_amount-of-money} on credit amount
+Take off {40 dollars|sys_amount-of-money} of credit balance 
+{40 dollars|sys_amount-of-money} payment on bill

@@ -15,16 +15,17 @@
                 "cheking",
                 "chkings",
                 "chunkings",
-                "checkingz"
+                "checkingz",
+                "checkings"
             ],
-            "cname": "checkings"
+            "cname": "checking"
         },
         {
             "whitelist": [
-		"credit cards",
-		"cred",
-		"credit",
-		"credit card"
+        		"credit cards",
+        		"cred",
+        		"credit",
+        		"credit card"
 	    ],
             "cname": "credit"
         }

@@ -19,7 +19,6 @@ My card has an incorrect charge
 i have a suspicious charge on my account
 There are charges on my card that I don't recognize
 My card has some suspicious activity
-I don't recognize a card transaction
 Looks like someone is using my credit card
 I've noticed some suspicious activity on my credit card
 My card has a fraudulent charge.
@@ -32,9 +31,6 @@ My card has an incorrect charge.
 There is an incorrect charge on my card.
 My credit card has an incorrect charge.
 There is an incorrect charge on my credit card.
-My account has an incorrect charge.
-There is an incorrect charge on my account.
-report fraud
 report fraudulent activity
 fraudulent activity
 suspicious activity
@@ -59,10 +55,6 @@ I didn't buy that
 Report suspicious purchases
 My card has a charge I didn't make
 There is a charge on my card I don't recognize 
-Someone has been making charges on my card
-This wasn't me
-I didn't make this charge
-I don't recognize this charge
 I don't recognize this purchase
 not my purchase
 this charge is fraudulent
@@ -110,3 +102,17 @@ stolen charges
 wrong charges 
 not my charges
 I did not buy these things
+I suspect credit card fraud
+I see a charge I didn't make on my card
+I see incorrect charges on my card
+I need to report fake charges
+I need to report fraud on my card
+fraud
+fraudulent
+wrong charge
+I don't recognize this
+don't know this charge
+I didn't make this payment
+Someone hacked my card
+hacked card and made wrong purchase
+Fraud charge by hacker on card
