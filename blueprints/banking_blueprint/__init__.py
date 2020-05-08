@@ -4,23 +4,50 @@ from mindmeld import Application
 from mindmeld.models import entity_features
 from mindmeld.markup import process_markup
 from mindmeld.core import FormEntity
+import random
+import json
 
 app = Application(__name__)
 
 __all__ = ['app']
 
+user_data = {}
 
-sample_user = {
-    'savings' : 500,
-    'checking' : 100,
-    'credit' : 60,
-    'autoPay' : False,
+sample_users = {
+    "johndoe123" : 0,
+    "larry_l12" : 1,
+    "splashbro30" : 2,
 }
 
+def pull_data(request):
+    with open('banking_blueprint/data/sample_user_data.json') as f:
+        global user_data 
+        data = json.load(f)
+        if request.context.get('user_name'):
+            user_name = request.context.get('user_name')
+            user = sample_users[user_name]
+        else:
+            user = random.choice([0, 1, 2])
+
+        user_data = data[user]
+        print(user_data)
+
+def get(key):
+    return user_data[key]
+
+def put(key, value):
+    global user_data
+    user_data[key] = value
 
 @app.handle(intent='greet')
 def greet(request, responder):
-    replies = ['Hello there! Welcome to MindMeld Bank', 'Hello, thanks for choosing MindMeld Bank.']
+    if not user_data: 
+        pull_data(request)
+    responder.slots['name'] = get('first_name')
+    replies = ['Hi {name}, How can I help with your banking tasks? You can try transferring money between accounts or paying a bill.',
+     'Hello {name}, thanks for choosing MindMeld Bank. You can do things like, ask for your routing number, order checks, and check bill due dates.',
+     'Welome to MindMeld Bank {name}, How can I help with your banking tasks? You can try reporting a fraud charge or a lost credit card.',
+     'Thanks for using MindMeld Bank {name}! What would you like to do today? A few things I can help with are, checking balances, paying off your credit card, and setting up a new card.']
     responder.reply(replies)
 
 @app.handle(intent='lost_creditcard')
@@ -40,7 +67,8 @@ def faq_order_checks_handler(request, responder):
 
 @app.handle(intent='routing_number')
 def faq_routing_number_handler(request, responder):
-    replies = ['Your routing number is 121122676.']
+    responder.slots['routing'] = get('routing')
+    replies = ['Your routing number is {routing}.']
     responder.reply(replies)
 
 @app.handle(intent='fraud_charge')
@@ -65,46 +93,59 @@ def faq_activate_creditcard_handler(request, responder):
 
 @app.handle(default=True)
 def default(request, responder):
-    replies = ['Sorry, I didn’t get that.', "I'm afraid I don't understand.",
-               'Sorry, say that again?', 'Sorry, can you say that again?',
-               "I didn't get that. Can you say it again?",
-               'Sorry, could you say that again?', 'Sorry, can you tell me again?',
-               'Sorry, tell me one more time?', 'Sorry, can you say that again?']
+    replies = ['Sorry, I didn’t get that. Try asking about account balances or ordering checks', 
+            "I'm afraid I don't understand. You can try to ask to check your balance or pay a bill",
+            'Sorry, I do not know what that is. Try asking about card activation or reporting a stolen card', 
+            "I'm afraid I dont't understand. A few banking tasks you can try are, transferring balances and paying bills"]
+    responder.reply(replies)
+
+@app.handle(intent='credit_due_date')
+def check_due_date_handler(request, responder):
+    replies = ['Your credit card bill is due on the 15th of every month, late payments will result in a $25 fee']
     responder.reply(replies)
 
 
+def check_amount(amount):
+    pass
+    #logic for checking if amount is available to be transferred 
 
-entity_form = [
 
-    FormEntity(
-        entity='account_type',
-        role='origin',
-        responses=['Sure. Transfer from which account?']),
-    FormEntity(
-        entity='account_type',
-        role='dest',
-        responses=['To which account?']),
-    FormEntity(
-        entity='sys_amount-of-money',
-        responses=['And, how much do you want to transfer?'])
-    ]
+entity_form = {
+    'entities':[
+        FormEntity(
+            entity='account_type',
+            role='origin',
+            responses=['Sure. Transfer from which account?']),
+        FormEntity(
+            entity='account_type',
+            role='dest',
+            responses=['To which account?']),
+        FormEntity(
+            entity='sys_amount-of-money',
+            responses=['And, how much do you want to transfer?'])
+            #custom_eval=check_amount
+        ],
+}
+
                        
 
-@app.auto_fill(intent='transfer_balances', entity_form=entity_form)
+@app.auto_fill(intent='transfer_balances', form=entity_form)
 def transfer_balances_handler(request, responder):
 	
     for entity in request.entities:
         if entity['type'] == 'account_type':
             if entity['role'] == 'origin':
+                print(entity)
                 responder.slots['origin'] = entity['value'][0]['cname'] or entity['text']
             elif entity['role'] == 'dest':
+                print(entity)
                 responder.slots['dest'] = entity['value'][0]['cname'] or entity['text']
         else:
             print(entity)
             responder.slots['amount'] = entity['text']
 
-    replies = ["All right. So, you're transferring {amount} from your "
-               "{origin} to a {dest}. Is that right?"]
+    replies = ["All right. A transfer of {amount} dollars from your "
+               "{origin} to a {dest} has been intiated."]
     responder.reply(replies)
 
 
@@ -125,14 +166,18 @@ def pay_creditcard_handler(request, responder):
                 responder.slots['payment'] = entity['value'][0]['cname'] or entity['text']
                 print(entity)
                 responder.reply(['Ok we have scheduled your credit card payment for your {payment}'])
+                #logic for changing data store
                 return
             else:
                 responder.slots['amount'] = entity['text']    
-                responder.reply(['Ok we have scheduled your credit card payment for {amount}]'])
+                responder.reply(['Ok we have scheduled your credit card payment for {amount}'])
+                #logic for changing data store
     else:
-        responder.params.target_dialogue_state = 'pay_creditcard_handler'
-        responder.slots['min'] = round(sample_user['credit'] * .05)
-        responder.slots['total_balance'] = sample_user['credit']
+        responder.params.allowed_intents = ('accounts_creditcards.pay_creditcard')
+        print(request.domain)
+        print(request.intent)
+        responder.slots['min'] = round(responder.frame['user']['credit'][0] * .05)
+        responder.slots['total_balance'] = responder.frame['user']['credit'][0]
         responder.reply(['What amount do you want to pay off? '
             'You can choose to make a minimum payment of ${min} up to the total balance of ${total_balance}'])
 
@@ -140,27 +185,34 @@ def pay_creditcard_handler(request, responder):
 
 @app.handle(intent='setup_autopay')
 def setup_autpay_handler(request, responder):
-    replies = ['AutoPay has been turned on']
+    if(get('auto_pay') != 0):
+        replies = ['AutoPay is already turned on']
+    else:
+        replies = ['AutoPay has been turned on']
+        put('auto_pay', 1)
     responder.reply(replies)
 
 
-balance_form = [
+balance_form = {
+    'entities':[
     FormEntity(
         entity='account_type',
         responses=['Sure. for which account?'])
-]
+    ],
+}
 
 
-@app.auto_fill(intent='check_balances', entity_form=balance_form)
+@app.auto_fill(intent='check_balances', form=balance_form)
 def check_balances_handler(request, responder):
     if request.entities:
         for entity in request.entities:
             if entity['type'] == 'account_type':
                 print(entity)
                 responder.slots['account'] = entity['text']
-                responder.slots['amount'] = sample_user[entity['value'][0]['cname']]
+                responder.slots['amount'] = get([entity['value'][0]['cname']])
                 responder.reply('Balance for {account} account is {amount}')
-    
+
+        
 
 
 

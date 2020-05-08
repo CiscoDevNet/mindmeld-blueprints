@@ -1,11 +1,22 @@
 {
     "entities": [
         {
-            "whitelist": [],
+            "whitelist": [
+            	"min",
+            	"mini",
+            	"minimums",
+            	"minz",
+            	"mins"
+
+            ],
             "cname": "minimum"
         },
         {
-            "whitelist": [],
+            "whitelist": [
+            	"bal",
+            	"balan",
+            	"balances"
+            ],
             "cname": "balance"
         }    ]
 }

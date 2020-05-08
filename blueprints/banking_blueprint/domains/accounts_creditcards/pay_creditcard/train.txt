@@ -140,3 +140,5 @@ make payment of {$400|sys_amount-of-money} for credit bill
 Pay off {$400|sys_amount-of-money} on credit amount
 Take off {40 dollars|sys_amount-of-money} of credit balance 
 {40 dollars|sys_amount-of-money} payment on bill
+{minimum|credit_amount}
+{balance|credit_amount}
