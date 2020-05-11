@@ -12,10 +12,6 @@ Turn on autopay
 set up autopay on my bills account
 Turn autopay on
 Setup a recurring payment
-Initialize autopay please
-Setup autopay for me
-configure autopay
-set up autopay
 I want to automate monthly payments
 Turn on auto pay
 set up autopay on my account
@@ -209,6 +205,21 @@ start autopay for this account
 enable autopay
 begin autopay for this card
 autopay start
+Can I setup automatic payment
+Can I setup autopay for bill payment
+Can I use autopay to pay credit bill
 autopay setup
+Setup autopay for credit card
+Setup autopay for card
+Turn on autopay for credit card bill
+Autopay on for bill payment
+Autopay on for credit card
+Setup autopay to pay credit card bill
+Make automatic payment with autopay 
+Turn on autopay to pay card payment
+Make autopay on to pay credit card bill
+Can I turn on autopay to pay bill
+Pay card bill with autopay 
+Autopay my bill
 auto pay
 set up auto pay

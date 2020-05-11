@@ -33,6 +33,7 @@ def pull_data(request):
         print(user_data)
 
 def get(key):
+    print(key)
     return user_data[key]
 
 def put(key, value):
@@ -127,7 +128,8 @@ entity_form = {
         ],
 }
 
-                       
+def check_value(responder):
+    return get(responder.slots['origin']) >= responder.slots['amount']
 
 @app.auto_fill(intent='transfer_balances', form=entity_form)
 def transfer_balances_handler(request, responder):
@@ -142,11 +144,17 @@ def transfer_balances_handler(request, responder):
                 responder.slots['dest'] = entity['value'][0]['cname'] or entity['text']
         else:
             print(entity)
-            responder.slots['amount'] = entity['text']
+            responder.slots['amount'] = entity['value'][0]['value']
 
-    replies = ["All right. A transfer of {amount} dollars from your "
-               "{origin} to a {dest} has been intiated."]
-    responder.reply(replies)
+
+    if check_value(responder):
+        responder.reply(["All right. A transfer of {amount} dollars from your "
+               "{origin} to your {dest} has been intiated."])
+        put(responder.slots['origin'], get(responder.slots['origin']) - responder.slots['amount'])
+        put(responder.slots['dest'], get(responder.slots['dest']) + responder.slots['amount'])
+    else:
+        responder.reply(['You do not have ${amount} in your {origin} account. ' 
+            'The max you can transfer from your {origin} is $' + str(get(responder.slots['origin'])) + '.'])
 
 
 pay_form = [
@@ -160,26 +168,35 @@ pay_form = [
 
 @app.handle(intent='pay_creditcard')
 def pay_creditcard_handler(request, responder):
-    if request.entities:
-        for entity in request.entities:
-            if entity['type'] == 'credit_amount':
-                responder.slots['payment'] = entity['value'][0]['cname'] or entity['text']
+    responder.slots['min'] = round(get('credit') * .05)
+    responder.slots['total_balance'] = get('credit')
+    if get('credit') > 0:
+        if request.entities:
+            for entity in request.entities:
                 print(entity)
-                responder.reply(['Ok we have scheduled your credit card payment for your {payment}'])
-                #logic for changing data store
-                return
-            else:
-                responder.slots['amount'] = entity['text']    
-                responder.reply(['Ok we have scheduled your credit card payment for {amount}'])
-                #logic for changing data store
+                if entity['type'] == 'credit_amount':
+                    responder.slots['payment'] = entity['value'][0]['cname'] or entity['text']
+                    if(responder.slots['payment'] == 'minimum'):
+                        responder.reply(['Ok we have scheduled your credit card payment for your {payment} balance of ${min}'])
+                        put('credit', get('credit') - responder.slots['min'])
+                    else:
+                        responder.reply(['Ok we have scheduled your credit card payment for your {payment} of ${total_balance}'])
+                        put('credit', 0)
+                else:
+                    if entity['value'][0]['value'] <= responder.slots['total_balance']:
+                        responder.slots['amount'] = entity['value'][0]['value'] 
+                        responder.reply(['Ok we have scheduled your credit card payment for {amount}'])
+                        put('credit', get('credit') - entity['value'][0]['value'])
+                    else:
+                        responder.reply(['The amount you have specified is greater than your credit balance of ${total_balance}'])
+        else:
+            responder.params.allowed_intents = ("accounts_creditcards.pay_creditcard", "greeting.*")
+            print(request.domain)
+            print(request.intent)
+            responder.reply(['What amount do you want to pay off? '
+                'You can choose to make a minimum payment of ${min} up to the total balance of ${total_balance}'])
     else:
-        responder.params.allowed_intents = ('accounts_creditcards.pay_creditcard')
-        print(request.domain)
-        print(request.intent)
-        responder.slots['min'] = round(responder.frame['user']['credit'][0] * .05)
-        responder.slots['total_balance'] = responder.frame['user']['credit'][0]
-        responder.reply(['What amount do you want to pay off? '
-            'You can choose to make a minimum payment of ${min} up to the total balance of ${total_balance}'])
+        responder.reply(['Looks like your credit balance is $0, no need to make a payment at this time.'])
 
 
 
@@ -209,8 +226,8 @@ def check_balances_handler(request, responder):
             if entity['type'] == 'account_type':
                 print(entity)
                 responder.slots['account'] = entity['text']
-                responder.slots['amount'] = get([entity['value'][0]['cname']])
-                responder.reply('Balance for {account} account is {amount}')
+                responder.slots['amount'] = get(entity['value'][0]['cname'])
+                responder.reply('Your {account} account balance is {amount}')
 
         
 

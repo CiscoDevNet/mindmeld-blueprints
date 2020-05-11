@@ -8,3 +8,13 @@ Can I transfer some money
 I'd like to transfer money between my accounts
 Can I move money from my {checkings|account_type|origin} to {savings|account_type|dest}
 How do I transfer money between accounts
+I want to make a transfer
+Lets transfer money from my {savings|account_type|origin} to {checking|account_type|dest}
+Start a transfer from {checkings|account_type|origin}
+Transfer funds from {checkings|account_type|origin} to {savings|account_type|dest}
+take {20k|sys_amount-of-money} from my {savings|account_type|origin} account and put it in my {checkings|account_type|dest} account
+Send {2,000|sys_amount-of-money} from my {saving|account_type|origin} account and put it in my {checkings|account_type|dest} account
+Move {200|sys_amount-of-money} from my {savings|account_type|origin} account and put it in my {checkin|account_type|dest}
+Put an order to transfer money
+Make a request to move money into my {checking|account_type|dest} account
+How do I move money into my {saving|account_type|dest}

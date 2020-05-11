@@ -1,17 +1,20 @@
-How much is my credit card bill
 Where do I pay my credit card bill
-Can I pay my credit card bill with my checking account
+Can I pay my credit card bill
 Pay the {balance|credit_amount} on my credit card bill
 pay off my credit card
-Pay what I owe
 pay the bill
-move money from my checking account to pay for my credit card
 Pay off {40 dollars|sys_amount-of-money} on credit card bill
 Credit bill {40 dollars|sys_amount-of-money}
 I want to pay my {balance|credit_amount} off 
 Pay off {balance|credit_amount}
 Make card payment for {minimum|credit_amount} amount
 Cover the {minimum|credit_amount} charge on the credit card
-Put {two hundred dollars|sys_amount-of-money} towards my visa bill
+Put {two hundred dollars|sys_amount-of-money} towards my card bill
 Pay credit card
 pay card
+Pay my credit bill of {1,000|sys_amount-of-money}
+Send credit payment of {50 dollars|sys_amount-of-money}
+Make credit payment of {1k|sys_amount-of-money}
+Can I pay my credit card bill
+Lets make a payment of my total {balance|credit_amount} for my card
+Pay {min|credit_amount} credit payment

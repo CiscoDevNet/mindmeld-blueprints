@@ -138,3 +138,44 @@ what {credit|account_type} needs to be paid
 how much {credit card|account_type} balance is due
 how much amount is unsettle on my {credit card|account_type}
 how much {credit card|account_type} balance do I need to settle
+How much is due for my {credit card|account_type}
+How much is due for my {card|account_type}
+What is the balance due for my {credit|account_type} account 
+What is the payment remaining for my {credit card|account_type}
+What is the payment remaining for my {card|account_type}
+I'd like to see what is amount is due for my {credit card|account_type}
+I'd like to see amount due for my {card|account_type}
+I'd like to see amount due for my {credit|account_type}
+I'd like to see amount due for my {card|account_type} account balance
+Amount due on {credit|account_type}
+Amount due for my {credit|account_type} balance
+Amount due on {credit card|account_type}
+Amount due for my {credit card|account_type} balance
+What is due for my {credit card|account_type}
+What amount is due for {credit card|account_type}
+What is due for my {card|account_type}
+What amount is due for {card|account_type}
+What is due for my {credit|account_type}
+What amount is due for {credit|account_type}
+I'd like to see what amount is due for my {credit|account_type}
+I'd like to see the amount due for my {credit|account_type} balance
+I'd like to see what amount is due for my {credit|account_type} account
+I'd like to see amount is pending for my {credit card|account_type} balance
+I'd like to see the amount due for my {credit|account_type} account
+How much is due for my {credit|account_type} account
+How much money is due for my {credit|account_type} account
+how much is due for my {credit|account_type} account balance
+How much is due for my {credit card|account_type} balance
+Can you show me how much I have due for my {credit card|account} bill
+Can you show me what is due for {credit|account} balance
+Can you show me how much I have due for {credit|account} payment
+Can you show me what is due for my {credit|account} balance
+Can you show me how much I have due for my {credit card|account} payment
+I’d like to know how much I have due for {credit card|account} payment
+I’d like to find out how much I have due on my {credit card|account} balance
+I’d like to figure out how much I have due on my {credit card|account} bill
+I’d like to see what is due for {credit card|account} payment
+I’d like to see what is due for {credit card|account} balance
+I’d like to see what is due for my {credit card|account} bill
+Can I see how much I have due for {credit card|account} payment
+I’d like to see how much I have due for my {credit card|account} payment

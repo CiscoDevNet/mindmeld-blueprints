@@ -103,7 +103,6 @@ credit card statement due date
 payment date 
 statement date 
 credit card statement deadline
-credit card bill deadline 
 credit card payment deadline
 when is my card bill due?
 when does the next billing cycle begin?
