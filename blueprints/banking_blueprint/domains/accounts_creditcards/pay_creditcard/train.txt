@@ -150,7 +150,6 @@ Put card payment of {two hundred dollars|sys_amount-of-money}
 {balances|credit_amount}
 {balan|credit_amount}
 {bal|credit_amount}
-{min|credit_amount}
 pay my {min|credit_amount} bill
 Schedule payment for card {min|credit_amount}
 I need to pay {min|credit_amount} card payment

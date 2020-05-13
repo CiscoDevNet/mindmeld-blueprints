@@ -17,4 +17,4 @@ what is the balance on my {credit card|account_type}
 show me my available {credit|account_type}
 how much do I owe?
 what do I owe?
-Can you show me what is due for my {credit|account|type} bill
+Can you show me what is due for my {credit|account_type} bill

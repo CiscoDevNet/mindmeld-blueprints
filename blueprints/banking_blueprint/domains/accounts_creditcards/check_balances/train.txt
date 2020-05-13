@@ -166,16 +166,16 @@ How much is due for my {credit|account_type} account
 How much money is due for my {credit|account_type} account
 how much is due for my {credit|account_type} account balance
 How much is due for my {credit card|account_type} balance
-Can you show me how much I have due for my {credit card|account} bill
-Can you show me what is due for {credit|account} balance
-Can you show me how much I have due for {credit|account} payment
-Can you show me what is due for my {credit|account} balance
-Can you show me how much I have due for my {credit card|account} payment
-I’d like to know how much I have due for {credit card|account} payment
-I’d like to find out how much I have due on my {credit card|account} balance
-I’d like to figure out how much I have due on my {credit card|account} bill
-I’d like to see what is due for {credit card|account} payment
-I’d like to see what is due for {credit card|account} balance
-I’d like to see what is due for my {credit card|account} bill
-Can I see how much I have due for {credit card|account} payment
-I’d like to see how much I have due for my {credit card|account} payment
+Can you show me how much I have due for my {credit card|account_type} bill
+Can you show me what is due for {credit|account_type} balance
+Can you show me how much I have due for {credit|account_type} payment
+Can you show me what is due for my {credit|account_type} balance
+Can you show me how much I have due for my {credit card|account_type} payment
+I’d like to know how much I have due for {credit card|account_type} payment
+I’d like to find out how much I have due on my {credit card|account_type} balance
+I’d like to figure out how much I have due on my {credit card|account_type} bill
+I’d like to see what is due for {credit card|account_type} payment
+I’d like to see what is due for {credit card|account_type} balance
+I’d like to see what is due for my {credit card|account_type} bill
+Can I see how much I have due for {credit card|account_type} payment
+I’d like to see how much I have due for my {credit card|account_type} payment

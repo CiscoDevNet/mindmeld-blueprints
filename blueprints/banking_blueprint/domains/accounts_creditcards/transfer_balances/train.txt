@@ -78,3 +78,6 @@ Tell me how to transfer money
 How can I make a transfer
 What can I do to make a transfer
 How do I transfer money into my {savings|account_type|dest}
+{100 dollars|sys_amount-of-money}
+{savings|account_type|origin}
+{checking|account_type|origin}
