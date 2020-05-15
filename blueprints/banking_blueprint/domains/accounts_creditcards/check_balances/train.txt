@@ -1,5 +1,6 @@
 How much is in my {checking|account_type} account
 What's my balance in {savings|account_type}?
+What's my balance in {saving|account_type}?
 What's my {checkings|account_type} balance?
 What's my {credit card|account_type} balance?
 How much have I spent on my {credit_card|account_type}
@@ -10,6 +11,7 @@ Want to check my {checkings|account_type} balance
 {credit_card|account_type} balance
 What's the value of my {checking|account_type}
 How much money do I have in my {checkings|account_type}?
+{checkings|account_type}
 how far in debt am I?
 whats my balance
 How much money total do I have?
@@ -17,6 +19,7 @@ How much do I have in my {checkings|account_type} account?
 how much money do i have in my {checkings|account_type} account?
 how much do I have in my {checkings|account_type} account?
 Show me my {savings|account_type} account balance.
+Show me my {saving|account_type} account balance.
 how much do i have in my {checking|account_type}?
 show me my account balance
 Get me my {checking|account_type} account remaining balance
@@ -24,6 +27,7 @@ How much money does my {checking|account_type} account have
 Please, check my account balance
 How much do I have in the {checking|account_type} account?
 How much money is in my {savings|account_type} account?
+How much money is in my {saving|account_type} account?
 I want to know my {checking|account_type} account
 check my balance
 How much money is left in my account
@@ -32,6 +36,7 @@ Give me my {checking|account_type} balance.
 Tell me what my balance is for {checking|account_type}
 How much money is in my {savings|account_type}
 I want to know how much I have in {savings|account_type}
+I want to know how much I have in {saving|account_type}
 I would like information on the amount in my {checking|account_type} account
 i need to find out what my balance is
 Check my account balance.
@@ -157,6 +162,8 @@ What is due for my {card|account_type}
 What amount is due for {card|account_type}
 What is due for my {credit|account_type}
 What amount is due for {credit|account_type}
+{saving|account_type}
+{save|account_type}
 I'd like to see what amount is due for my {credit|account_type}
 I'd like to see the amount due for my {credit|account_type} balance
 I'd like to see what amount is due for my {credit|account_type} account
@@ -179,3 +186,4 @@ I’d like to see what is due for {credit card|account_type} balance
 I’d like to see what is due for my {credit card|account_type} bill
 Can I see how much I have due for {credit card|account_type} payment
 I’d like to see how much I have due for my {credit card|account_type} payment
+{cred|account_type}
