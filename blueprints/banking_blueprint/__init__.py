@@ -11,6 +11,8 @@ app = Application(__name__)
 
 __all__ = ['app']
 
+#User data and helper functions
+
 user_data = {}
 
 sample_users = {
@@ -38,73 +40,10 @@ def _put(key, value):
     global user_data
     user_data[key] = value
 
-@app.handle(intent='greet')
-def greet(request, responder):
-    if not user_data: 
-        _pull_data(request)
-    responder.slots['name'] = _get('first_name')
-    replies = ['Hi {name}, How can I help with your banking tasks? You can try transferring money between accounts or paying a bill.',
-     'Hello {name}, thanks for choosing MindMeld Bank. You can do things like, ask for your routing number, order checks, and check bill due dates.',
-     'Welome to MindMeld Bank {name}, How can I help with your banking tasks? You can try reporting a fraud charge or a lost credit card.',
-     'Thanks for using MindMeld Bank {name}! What would you like to do today? A few things I can help with are, checking balances, paying off your credit card, and setting up a new card.']
-    responder.reply(replies)
+def check_value(responder):
+    return _get(responder.slots['origin']) >= responder.slots['amount']
 
-@app.handle(intent='lost_creditcard')
-def faq_lost_creditcard_handler(request, responder):
-    replies = ['If your card is lost or stolen, or you think someone used your account without permission, tell us immediately by calling 1-800-432-3117.']
-    responder.reply(replies)
-
-@app.handle(intent='new_creditcard')
-def faq_new_creditcard_handler(request, responder):
-    replies = ['In order to open a new credit card you must visit our website MindMeldBank.com or visit a local branch.']
-    responder.reply(replies)
-
-@app.handle(intent='order_checks')
-def faq_order_checks_handler(request, responder):
-    replies = ['We have placed an order for a checkbook. To confirm, change quanity of checks, or any other questions please view confirmation email.']
-    responder.reply(replies)
-
-@app.handle(intent='routing_number')
-def faq_routing_number_handler(request, responder):
-    if not user_data: 
-        _pull_data(request)
-    responder.slots['routing'] = _get('routing')
-    replies = ['Your routing number is {routing}.']
-    responder.reply(replies)
-
-@app.handle(intent='fraud_charge')
-def faq_fraud_charge_handler(request, responder):
-    replies = ['If you think someone used your account without your permission or notice any charge errors, tell us immediately by calling 1-800-MindMeld.']
-    responder.reply(replies)
-
-@app.handle(intent='forgot_pin')
-def faq_forgot_pin_handler(request, responder):
-    replies = ['If you\'ve forgotten your PIN or don\'t have one, please visit your local branch or contact customer service at 1-800-MindMeld to have a new PIN mailed to you.']
-    responder.reply(replies)
-
-@app.handle(intent='apply_loan')
-def faq_apply_loan_handler(request, responder):
-    replies = ['To apply for a loan or any further questions you will need to visit our website MindMeld.com/loans']
-    responder.reply(replies)  
-
-@app.handle(intent='activate_creditcard')
-def faq_activate_creditcard_handler(request, responder):
-    replies = ['You can activate your card by logging into our website and also over the phone. Just call the MindMeld card activation number 1-800-MindMeld. Follow the prompts that will trigger the activation of your card.']
-    responder.reply(replies)
-
-@app.handle(default=True)
-def default(request, responder):
-    replies = ['Sorry, I didn’t get that. Try asking about account balances or ordering checks', 
-            "I'm afraid I don't understand. You can try to ask to check your balance or pay a bill",
-            'Sorry, I do not know what that is. Try asking about card activation or reporting a stolen card', 
-            "I'm afraid I dont't understand. A few banking tasks you can try are, transferring balances and paying bills"]
-    responder.reply(replies)
-
-@app.handle(intent='credit_due_date')
-def check_due_date_handler(request, responder):
-    replies = ['Your credit card bill is due on the 15th of every month, late payments will result in a $25 fee']
-    responder.reply(replies)
-
+#Slot filling forms 
 
 entity_form = {
     'entities':[
@@ -123,11 +62,105 @@ entity_form = {
         ],
         'exit_keys' : ['cancel', 'restart', 'exit', 'reset', 'no', 'nevermind', 'stop', 'back', 'help', 'stpo it', 'go back'
             'new task', 'other', 'return'],
-        'exit_msg' : 'A few other banking tasks you can try are, reporting a fraudelent charge and setting up AutoPay'
+        'exit_msg' : 'A few other banking tasks you can try are, reporting a fraudelent charge and setting up AutoPay',
+        'max_retries' : 1
 }
 
-def check_value(responder):
-    return _get(responder.slots['origin']) >= responder.slots['amount']
+balance_form = {
+    'entities':[
+    FormEntity(
+        entity='account_type',
+        responses=['Sure. for which account?'])
+    ],
+    'exit_keys' : ['cancel', 'restart', 'exit', 'reset', 'no', 'nevermind', 'stop', 'back', 'help', 'stop it', 'go back'
+            'new task', 'other', 'return'],
+    'exit_msg' : 'A few other banking tasks you can try are, ordering checks and paying bills',
+    'max_retries' : 1
+}
+
+#Dialogue state handlers 
+
+@app.handle(intent='greet')
+def greet(request, responder):
+    if not user_data: 
+        _pull_data(request)
+    responder.slots['name'] = _get('first_name')
+    replies = ['Hi {name}, How can I help with your banking tasks? You can try transferring money between accounts or paying a bill.',
+     'Hello {name}, thanks for choosing MindMeld Bank. You can do things like, ask for your routing number, order checks, and check bill due dates.',
+     'Welome to MindMeld Bank {name}, How can I help with your banking tasks? You can try reporting a fraud charge or a lost credit card.',
+     'Thanks for using MindMeld Bank {name}! What would you like to do today? A few things I can help with are, checking balances, paying off your credit card, and setting up a new card.']
+    responder.reply(replies)
+
+@app.handle(intent='exit')
+def say_goodbye(request, responder):
+    responder.reply(['Bye', 'Goodbye', 'Have a nice day.'])
+
+
+@app.handle(intent='lost_creditcard')
+def faq_lost_creditcard_handler(request, responder):
+    replies = ['If your card is lost or stolen, or you think someone used your account without permission, tell us immediately by calling 1-800-432-3117.']
+    responder.reply(replies)
+
+
+@app.handle(intent='new_creditcard')
+def faq_new_creditcard_handler(request, responder):
+    replies = ['In order to open a new credit card you must visit our website MindMeldBank.com or visit a local branch.']
+    responder.reply(replies)
+
+
+@app.handle(intent='order_checks')
+def faq_order_checks_handler(request, responder):
+    replies = ['We have placed an order for a checkbook. To confirm, change quanity of checks, or any other questions please view confirmation email.']
+    responder.reply(replies)
+
+
+@app.handle(intent='routing_number')
+def faq_routing_number_handler(request, responder):
+    if not user_data: 
+        _pull_data(request)
+    responder.slots['routing'] = _get('routing')
+    replies = ['Your routing number is {routing}.']
+    responder.reply(replies)
+
+
+@app.handle(intent='fraud_charge')
+def faq_fraud_charge_handler(request, responder):
+    replies = ['If you think someone used your account without your permission or notice any charge errors, tell us immediately by calling 1-800-MindMeld.']
+    responder.reply(replies)
+
+
+@app.handle(intent='forgot_pin')
+def faq_forgot_pin_handler(request, responder):
+    replies = ['If you\'ve forgotten your PIN or don\'t have one, please visit your local branch or contact customer service at 1-800-MindMeld to have a new PIN emailed to you.']
+    responder.reply(replies)
+
+
+@app.handle(intent='apply_loan')
+def faq_apply_loan_handler(request, responder):
+    replies = ['To apply for a loan or any further questions you will need to visit our website MindMeld.com/loans']
+    responder.reply(replies)  
+
+
+@app.handle(intent='activate_creditcard')
+def faq_activate_creditcard_handler(request, responder):
+    replies = ['You can activate your card by logging into our website and also over the phone. Just call the MindMeld card activation number 1-800-MindMeld. Follow the prompts that will trigger the activation of your card.']
+    responder.reply(replies)
+
+
+@app.handle(default=True)
+def default(request, responder):
+    replies = ['Sorry, I didn’t get that. Try asking about account balances or ordering checks', 
+            "I'm afraid I don't understand. You can try to ask to check your balance or pay a bill",
+            'Sorry, I do not know what that is. Try asking about card activation or reporting a stolen card', 
+            "I'm afraid I dont't understand. A few banking tasks you can try are, transferring balances and paying bills"]
+    responder.reply(replies)
+
+
+@app.handle(intent='credit_due_date')
+def check_due_date_handler(request, responder):
+    replies = ['Your credit card bill is due on the 15th of every month, late payments will result in a $25 fee']
+    responder.reply(replies)
+
 
 @app.auto_fill(intent='transfer_balances', form=entity_form)
 def transfer_balances_handler(request, responder):
@@ -165,14 +198,17 @@ def pay_creditcard_handler(request, responder):
                     if(responder.slots['payment'] == 'minimum'):
                         responder.reply(['Ok we have scheduled your credit card payment for your {payment} balance of ${min}'])
                         _put('credit', _get('credit') - responder.slots['min'])
+                        _put('checking', get('checking') - responder.slots['min'])
                     else:
                         responder.reply(['Ok we have scheduled your credit card payment for your {payment} of ${total_balance}'])
                         _put('credit', 0)
+                        _put('checking', get('checking') - responder.slots['total_balance'])
                 else:
                     if entity['value'][0]['value'] <= responder.slots['total_balance']:
                         responder.slots['amount'] = entity['value'][0]['value']
                         responder.reply(['Ok we have scheduled your credit card payment for {amount}'])
                         _put('credit', _get('credit') - entity['value'][0]['value'])
+                        _put('checking', get('checking') - responder.slots['amount'])
                     else:
                         responder.reply(['The amount you have specified is greater than your credit balance of ${total_balance}'])
         else:
@@ -181,7 +217,6 @@ def pay_creditcard_handler(request, responder):
                 'You can choose to make a minimum payment of ${min} up to the total balance of ${total_balance}'])
     else:
         responder.reply(['Looks like your credit balance is $0, no need to make a payment at this time.'])
-
 
 
 @app.handle(intent='setup_autopay')
@@ -196,18 +231,6 @@ def setup_autpay_handler(request, responder):
     responder.reply(replies)
 
 
-balance_form = {
-    'entities':[
-    FormEntity(
-        entity='account_type',
-        responses=['Sure. for which account?'])
-    ],
-    'exit_keys' : ['cancel', 'restart', 'exit', 'reset', 'no', 'nevermind', 'stop', 'back', 'help', 'stpo it', 'go back'
-            'new task', 'other', 'return'],
-    'exit_msg' : 'A few other banking tasks you can try are, ordering checks and paying bills'
-}
-
-
 @app.auto_fill(intent='check_balances', form=balance_form)
 def check_balances_handler(request, responder):
     if not user_data: 
@@ -218,11 +241,4 @@ def check_balances_handler(request, responder):
                 responder.slots['account'] = entity['value'][0]['cname'] or entity['text']
                 responder.slots['amount'] = _get(entity['value'][0]['cname'] or entity['text'])
                 responder.reply('Your {account} account balance is {amount}')
-
-        
-
-
-
-
-
 
