@@ -11,7 +11,8 @@
         "checking_account_number" : 2721,
         "credit" : 600, 
         "credit_account_number" : 7431,
-        "auto_pay" : 0
+        "auto_pay" : 0,
+        "email" : "johndoe123@gmail.com"
     },
     {
         "user_name" : "larry_l12",
@@ -25,7 +26,8 @@
         "checking_account_number" : 7232,
         "credit" : 40, 
         "credit_account_number" : 3823,
-        "auto_pay" : 0
+        "auto_pay" : 0,
+        "email" : "larrylob@cisco.com"
     },
     {
         "user_name" : "splashbro30",
@@ -39,6 +41,7 @@
         "checking_account_number" : 8734,
         "credit" : 5000, 
         "credit_account_number" : 4545,
-        "auto_pay" : 0
+        "auto_pay" : 0,
+        "email" : "stephencurry30@gmail.com"
     }
 ]
