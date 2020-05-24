@@ -1,0 +1,47 @@
+[
+    {   
+        "user_name" : "johndoe123",
+        "id": 1103024456,
+        "first_name": "John",
+        "last_name" : "Doe",
+        "routing": 123456,
+        "savings" : 5000, 
+        "savings_account_number" : 6464,
+        "checking" : 100, 
+        "checking_account_number" : 2721,
+        "credit" : 600, 
+        "credit_account_number" : 7431,
+        "auto_pay" : 0,
+        "email" : "johndoe123@mindmeld.com"
+    },
+    {
+        "user_name" : "larry_l12",
+        "id": 1103024452,
+        "first_name": "Larry",
+        "last_name" : "Lobster",
+        "routing": 123457,
+        "savings" : 900, 
+        "savings_account_number" : 6143,
+        "checking" : 400, 
+        "checking_account_number" : 7232,
+        "credit" : 40, 
+        "credit_account_number" : 3823,
+        "auto_pay" : 0,
+        "email" : "larrylob@mindmeld.com"
+    },
+    {
+        "user_name" : "splashbro30",
+        "id": 1103024459,
+        "first_name": "Stephen",
+        "last_name" : "Curry",
+        "routing": 123458,
+        "savings" : 100000, 
+        "savings_account_number" : 6243,
+        "checking" : 20000, 
+        "checking_account_number" : 8734,
+        "credit" : 5000, 
+        "credit_account_number" : 4545,
+        "auto_pay" : 0,
+        "email" : "stephencurry30@mindmeld.com"
+    }
+]

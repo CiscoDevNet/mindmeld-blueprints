@@ -1,0 +1,20 @@
+Help me set up autopay
+I’d like to use my autopay
+Can I see autopay?
+i want to use autopay
+can I set up autopay to pay my credit card bill
+Can you set up auto payment?
+Just pay it automatically
+I need autopay
+how do I set up autopay?
+Initialize autopay please
+Setup autopay for me
+configure autopay
+set up autopay
+Use autopay to pay card bill
+Lets turn on autopay
+{stop|autopay_status} autopay
+please setup autopay for bills
+turn on autopay to pay credit card bill
+turn {off|autopay_status} automatic payment
+make payment with autopay

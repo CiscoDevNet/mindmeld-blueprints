@@ -1,0 +1,12 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+            	"stop",
+            	"cancel",
+            	"deactivate",
+            	"disable"
+            ],
+            "cname": "off"
+        }   ]
+}
