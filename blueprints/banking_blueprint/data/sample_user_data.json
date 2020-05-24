@@ -12,7 +12,7 @@
         "credit" : 600, 
         "credit_account_number" : 7431,
         "auto_pay" : 0,
-        "email" : "johndoe123@gmail.com"
+        "email" : "johndoe123@mindmeld.com"
     },
     {
         "user_name" : "larry_l12",
@@ -27,7 +27,7 @@
         "credit" : 40, 
         "credit_account_number" : 3823,
         "auto_pay" : 0,
-        "email" : "larrylob@cisco.com"
+        "email" : "larrylob@mindmeld.com"
     },
     {
         "user_name" : "splashbro30",
@@ -42,6 +42,6 @@
         "credit" : 5000, 
         "credit_account_number" : 4545,
         "auto_pay" : 0,
-        "email" : "stephencurry30@gmail.com"
+        "email" : "stephencurry30@mindmeld.com"
     }
 ]

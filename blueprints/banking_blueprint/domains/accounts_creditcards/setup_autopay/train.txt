@@ -223,3 +223,152 @@ Pay card bill with autopay
 Autopay my bill
 auto pay
 set up auto pay
+I need to {stop|autopay_status} using autopay
+turn auto pay {off|autopay_status}
+{disable|autopay_status} autopay
+turn {off|autopay_status} monthly payments
+I want to {stop|autopay_status} using autopay for my credit card
+turn {off|autopay_status} auto pay for my rent
+please help me turn {off|autopay_status} auto pay for my card
+{deactivate|autopay_status} auto pay
+Turn {off|autopay_status} autopay 
+turn {off|autopay_status} autopay on my bills account
+turn autopay {off|autopay_status}
+{stop|autopay_status} recurring payment
+I want to {stop|autopay_status} automating monthly payments
+Turn {off|autopay_status} auto pay
+turn {off|autopay_status} autopay on my account
+turn {off|autopay_status} automatic payments.
+{stop|autopay_status} using automatic payments.
+{stop|autopay_status} using autopay
+Get autopay {off|autopay_status}
+turn {off|autopay_status} with autopay
+I want to turn {off|autopay_status} autopay
+turn {off|autopay_status} autopay using card number
+turn {off|autopay_status} autopay with account and routing number
+turn {off|autopay_status} automatic ACH transfer
+turn {off|autopay_status} recurring ACH transfer
+turn {off|autopay_status} autopay on my checking
+{stop|autopay_status} making reoccurring payments to credit
+I want to {stop|autopay_status} using autopay
+Can I {stop|autopay_status} automatically paying my bills 
+Can i turn {off|autopay_status} automatic payments 
+How do I {stop|autopay_status} using autopay?
+How do I {stop|autopay_status} autopay on my phone?
+How do I {cancel|autopay_status} autopay on my account?
+{stop|autopay_status} Autopay
+{stop|autopay_status}ping Automatic payments
+Please {stop|autopay_status} my autopay
+I’d like to turn {off|autopay_status} my autopay please
+{stop|autopay_status} autopay
+I need to {stop|autopay_status} using autopay
+turn auto pay {off|autopay_status}
+{disable|autopay_status} autopay
+turn {off|autopay_status} monthly payments
+I want to {stop|autopay_status} using autopay for my credit card
+turn {off|autopay_status} auto pay for my rent
+please help me turn {off|autopay_status} auto pay for my card
+{deactivate|autopay_status} auto pay
+Turn {off|autopay_status} autopay 
+turn {off|autopay_status} autopay on my bills account
+turn autopay {off|autopay_status}
+turn {off|autopay_status} autopay
+I want to {stop|autopay_status} automating monthly payments
+Turn {off|autopay_status} auto pay
+turn {off|autopay_status} autopay on my account
+turn {off|autopay_status} automatic payments.
+{stop|autopay_status} using automatic payments.
+{stop|autopay_status} using autopay
+Get autopay turn {off|autopay_status}
+Get me turn {off|autopay_status} with autopay
+I want to turn {off|autopay_status} autopay
+turn {off|autopay_status} autopay using card number
+turn {off|autopay_status} autopay with account and routing number
+turn {off|autopay_status} automatic ACH transfer
+turn {off|autopay_status} recurring ACH transfer
+turn {off|autopay_status} autopay on my checking
+{stop|autopay_status} making reoccurring payments to credit
+I want to {stop|autopay_status} using autopay
+Can I {stop|autopay_status} automatically paying my bills 
+Can i turn {off|autopay_status} automatic payments 
+How do I {stop|autopay_status} using autopay?
+I’d like to turn {off|autopay_status} my autopay please
+{stop|autopay_status} autopay
+I need to {stop|autopay_status} using autopay
+turn auto pay {off|autopay_status}
+{disable|autopay_status} autopay
+turn {off|autopay_status} monthly payments
+I want to {stop|autopay_status} using autopay for my credit card
+turn {off|autopay_status} auto pay for my rent
+please help me turn {off|autopay_status} auto pay for my card
+{deactivate|autopay_status} auto pay
+Turn {off|autopay_status} autopay 
+turn {off|autopay_status} autopay on my bills account
+turn autopay {off|autopay_status}
+{stop|autopay_status} recurring payment
+{stop|autopay_status} autopay for me
+turn {off|autopay_status} autopay
+I want to {stop|autopay_status} automating monthly payments
+Turn {off|autopay_status} auto pay
+turn {off|autopay_status} autopay on my account
+turn {off|autopay_status} automatic payments.
+{stop|autopay_status} using automatic payments.
+{stop|autopay_status} using autopay
+Get autopay turn {off|autopay_status}
+Get me turn {off|autopay_status} with autopay
+I want to turn {off|autopay_status} autopay
+turn {off|autopay_status} autopay using card number
+turn {off|autopay_status} autopay with account and routing number
+turn {off|autopay_status} automatic ACH transfer
+turn {off|autopay_status} recurring ACH transfer
+turn {off|autopay_status} autopay on my checking
+{stop|autopay_status} making reoccurring payments to credit
+I want to {stop|autopay_status} using autopay
+Can I {stop|autopay_status} automatically paying my bills 
+Can i turn {off|autopay_status} automatic payments
+How do I {stop|autopay_status} using autopay?
+Please {stop|autopay_status} my autopay
+I’d like to turn {off|autopay_status} my autopay please
+{stop|autopay_status} autopay
+I would like to turn {off|autopay_status} autopay
+can you show me how to turn {off|autopay_status} autopay
+I want to turn {off|autopay_status} autopay  
+I want to {stop|autopay_status} autopay for my credit account 
+I want to {stop|autopay_status} using autopay for my credit card bill 
+{stop|autopay_status} using autopay
+turn {off|autopay_status} autopay
+{stop|autopay_status} using autopay
+turn {off|autopay_status} autopay
+{stop|autopay_status} autopay 
+I need to begin using autopay
+{stop|autopay_status} up autopay 
+I want to turn {off|autopay_status} my autopay
+turn {off|autopay_status} autopay 
+turn {off|autopay_status} auto pay 
+{stop|autopay_status} using autopay
+{stop|autopay_status} using auto pay
+how to {stop|autopay_status} using autopay 
+how to {stop|autopay_status} using auto pay
+{stop|autopay_status} using my autopay
+I need to {stop|autopay_status} autopay
+{stop|autopay_status} autopay for this account
+{disable|autopay_status} autopay
+{stop|autopay_status} using my autopay 
+I need to {stop|autopay_status} autopay
+{stop|autopay_status} autopay for this account
+{disable|autopay_status} autopay
+autopay {stop|autopay_status}
+Can I {stop|autopay_status} automatic payment
+Can I {cancel|autopay_status} autopay for bill payment
+Can I {stop|autopay_status} using autopay to pay credit bill
+autopay {stop|autopay_status}
+{stop|autopay_status} autopay for credit card
+{stop|autopay_status} autopay for card
+Turn {off|autopay_status} autopay for credit card bill
+Autopay {off|autopay_status} for bill payment
+Autopay {off|autopay_status} for credit card
+{stop|autopay_status} autopay to pay credit card bill 
+Turn {off|autopay_status} autopay to pay card payment
+Make autopay {off|autopay_status} to pay credit card bill
+Can I turn {off|autopay_status} autopay to pay bill
+turn {off|autopay_status} auto pay

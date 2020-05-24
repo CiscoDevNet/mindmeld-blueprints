@@ -6,6 +6,7 @@ from mindmeld.markup import process_markup
 from mindmeld.core import FormEntity
 import random
 import json
+import re
 
 app = Application(__name__)
 
@@ -40,8 +41,47 @@ def _put(key, value):
     global user_data
     user_data[key] = value
 
-def check_value(responder):
+def _check_value(responder):
     return _get(responder.slots['origin']) >= responder.slots['amount']
+
+def _parseSentenceForNumber(sentence):
+    sen = sentence.replace(',', '')
+    result = re.findall("[-+]?\d*\.\d+|\d+", sen)
+    return result[0];
+
+def _credit_amount_helper(request, responder, entity):
+    responder.slots['payment'] = entity['value'][0]['cname'] if len(entity['value']) > 0 else entity['text']
+    if(responder.slots['payment'] == 'minimum'):
+        responder.reply('Ok we have scheduled your credit card payment for your {payment} balance of $' + format(responder.slots['min'], '.2f'))
+        _put('credit', _get('credit') - responder.slots['min'])
+        _put('checking', _get('checking') - responder.slots['min'])
+    else:
+        responder.reply('Ok we have scheduled your credit card payment for your {payment} of $' + format(responder.slots['total_balance'], '.2f'))
+        _put('credit', 0)
+        _put('checking', _get('checking') - responder.slots['total_balance'])
+
+def _exact_amount_helper(request, responder, entity):
+    try:
+        responder.slots['amount'] = entity['value'][0]['value']
+    except KeyError as e:
+        responder.reply('Unable to recognize the amount of money you have provided, try formatting the value like this \'$40.50\'')
+        return; 
+    if (responder.slots['amount'] <= _get('credit')) & (responder.slots['amount'] > 0):
+        responder.slots['amount'] = entity['value'][0]['value']
+        responder.reply('Ok we have scheduled your credit card payment for $' + format(responder.slots['amount'], '.2f'))
+        _put('credit', round(_get('credit') - entity['value'][0]['value'],2))
+        _put('checking', round((_get('checking') - responder.slots['amount']),2))
+    else:
+        if responder.slots['amount'] > 0:
+            responder.reply('The amount you have specified is greater than your credit balance of $' + format(responder.slots['total_balance'], '.2f'))
+        else:
+            responder.reply('Please input an amount greater than zero.')
+
+def _credit_check(request, responder, entity):
+    account_name = entity['value'][0]['cname'] if len(entity['value']) > 0 else entity['text']
+    if account_name == "credit":
+        responder.reply('You may not transfer money to or from your credit account. If you would like to pay your credit bill please try saying \'Pay my credit bill\'.')
+        return True
 
 #Slot filling forms 
 
@@ -61,7 +101,7 @@ entity_form = {
 
         ],
         'exit_keys' : ['cancel', 'restart', 'exit', 'reset', 'no', 'nevermind', 'stop', 'back', 'help', 'stpo it', 'go back'
-            'new task', 'other', 'return'],
+            'new task', 'other', 'return', 'end'],
         'exit_msg' : 'A few other banking tasks you can try are, reporting a fraudelent charge and setting up AutoPay',
         'max_retries' : 1
 }
@@ -73,7 +113,7 @@ balance_form = {
         responses=['Sure. for which account - checkings, savings, or credit?'])
     ],
     'exit_keys' : ['cancel', 'restart', 'exit', 'reset', 'no', 'nevermind', 'stop', 'back', 'help', 'stop it', 'go back'
-            'new task', 'other', 'return'],
+            'new task', 'other', 'return', 'end'],
     'exit_msg' : 'A few other banking tasks you can try are, ordering checks and paying bills',
     'max_retries' : 1
 }
@@ -199,20 +239,21 @@ def transfer_balances_handler(request, responder):
         _pull_data(request)
     for entity in request.entities:
         if entity['type'] == 'account_type':
+            if _credit_check(request, responder, entity): return
             if entity['role'] == 'origin':
-                responder.slots['origin'] = entity['value'][0]['cname'] or entity['text']
+                responder.slots['origin'] = entity['value'][0]['cname'] if len(entity['value']) > 0 else entity['text']
             elif entity['role'] == 'dest':
-                responder.slots['dest'] = entity['value'][0]['cname'] or entity['text']
+                responder.slots['dest'] = entity['value'][0]['cname'] if len(entity['value']) > 0 else entity['text']
         else:
-            responder.slots['amount'] = entity['value'][0]['value'] or entity['text']
-    if check_value(responder):
-        responder.reply(["All right. A transfer of {amount} dollars from your "
-               "{origin} to your {dest} has been intiated."])
+            responder.slots['amount'] = entity['value'][0]['value'] if len(entity['value']) > 0 else entity['text']
+    if _check_value(responder):
+        responder.reply(['All right. A transfer of $' + format(responder.slots['amount'], '.2f') + ' dollars from your '
+               '{origin} to your {dest} has been intiated.'])
         _put(responder.slots['origin'], _get(responder.slots['origin']) - responder.slots['amount'])
         _put(responder.slots['dest'], _get(responder.slots['dest']) + responder.slots['amount'])
     else:
-        responder.reply(['You do not have ${amount} in your {origin} account. ' 
-            'The max you can transfer from your {origin} is $' + str(_get(responder.slots['origin'])) + '.'])
+        responder.reply(['You do not have $'+ format(responder.slots['amount'], '.2f') +  ' in your {origin} account. ' 
+            'The max you can transfer from your {origin} is $' + format(_get(responder.slots['origin']), '.2f')])
 
 
 @app.handle(intent='pay_creditcard')
@@ -225,40 +266,33 @@ def pay_creditcard_handler(request, responder):
         if request.entities:
             for entity in request.entities:
                 if entity['type'] == 'credit_amount':
-                    responder.slots['payment'] = entity['value'][0]['cname'] or entity['text']
-                    if(responder.slots['payment'] == 'minimum'):
-                        responder.reply(['Ok we have scheduled your credit card payment for your {payment} balance of ${min}'])
-                        _put('credit', _get('credit') - responder.slots['min'])
-                        _put('checking', _get('checking') - responder.slots['min'])
-                    else:
-                        responder.reply(['Ok we have scheduled your credit card payment for your {payment} of ${total_balance}'])
-                        _put('credit', 0)
-                        _put('checking', _get('checking') - responder.slots['total_balance'])
+                    _credit_amount_helper(request, responder, entity)
                 else:
-                    if entity['value'][0]['value'] <= responder.slots['total_balance']:
-                        responder.slots['amount'] = entity['value'][0]['value']
-                        responder.reply(['Ok we have scheduled your credit card payment for {amount}'])
-                        _put('credit', _get('credit') - entity['value'][0]['value'])
-                        _put('checking', _get('checking') - responder.slots['amount'])
-                    else:
-                        responder.reply(['The amount you have specified is greater than your credit balance of ${total_balance}'])
+                    _exact_amount_helper(request, responder, entity)
         else:
-            responder.params.allowed_intents = ("accounts_creditcards.pay_creditcard", "greeting.*")
-            responder.reply(['What amount do you want to pay off? '
-                'You can choose to make a minimum payment of ${min} up to the total balance of ${total_balance}'])
+            responder.params.allowed_intents = ("accounts_creditcards.pay_creditcard", "faq.help")
+            responder.reply('What amount do you want to pay off? '
+                'You can choose to make a minimum payment of ${min} up to the total balance of ${total_balance}')
     else:
-        responder.reply(['Looks like your credit balance is $0, no need to make a payment at this time.'])
+        responder.reply('Looks like your credit balance is $0, no need to make a payment at this time.')
 
 
 @app.handle(intent='setup_autopay')
 def setup_autpay_handler(request, responder):
     if not user_data: 
         _pull_data(request)
-    if(_get('auto_pay') != 0):
-        replies = ['AutoPay is already turned on']
+    if request.entities:
+        if _get('auto_pay') == 0:
+            replies = ['Autopay is already off. To turn back on just say \'autopay on\'.']
+        else:
+            replies = ['Autopay has been turned off. To turn back on just say \'autopay on\'.']
+            _put('auto_pay', 0)
     else:
-        replies = ['AutoPay has been turned on']
-        _put('auto_pay', 1)
+        if(_get('auto_pay') != 0):
+            replies = ['AutoPay is already turned on. To turn off just say \'autopay off\'.']
+        else:
+            replies = ['AutoPay has been turned on. To turn off just say \'autopay off\'.']
+            _put('auto_pay', 1)
     responder.reply(replies)
 
 
@@ -269,7 +303,7 @@ def check_balances_handler(request, responder):
     if request.entities:
         for entity in request.entities:
             if entity['type'] == 'account_type':
-                responder.slots['account'] = entity['value'][0]['cname'] or entity['text']
-                responder.slots['amount'] = _get(entity['value'][0]['cname'] or entity['text'])
-                responder.reply('Your {account} account balance is {amount}')
+                responder.slots['account'] = entity['value'][0]['cname'] if len(entity['value']) > 0 else entity['text']
+                responder.slots['amount'] = _get(responder.slots['account'])
+                responder.reply('Your {account} account balance is $' + format(responder.slots['amount'], '.2f'))
 

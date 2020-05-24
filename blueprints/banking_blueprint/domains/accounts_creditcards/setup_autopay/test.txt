@@ -13,8 +13,8 @@ configure autopay
 set up autopay
 Use autopay to pay card bill
 Lets turn on autopay
-Start autopay
+{stop|autopay_status} autopay
 please setup autopay for bills
 turn on autopay to pay credit card bill
-turn on automatic payment
+turn {off|autopay_status} automatic payment
 make payment with autopay

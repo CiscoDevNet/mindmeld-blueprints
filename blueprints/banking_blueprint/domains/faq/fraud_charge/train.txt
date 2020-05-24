@@ -116,3 +116,23 @@ I didn't make this payment
 Someone hacked my card
 hacked card and made wrong purchase
 Fraud charge by hacker on card
+There are some unauthorized payments 
+I don't recognize this payment
+Not my payment
+Wrong payment 
+Fraudulent payment
+Incorrect charge 
+Don't know where this payment came from 
+fraud payment
+Fraud payment on account 
+Fraud payment on my card 
+Got bad charge on my card
+Not sure where this payment is from 
+Wrong payment
+Bad payment 
+Wrong payment on card
+Bad payment on card
+Wrong payment on credit card
+Bad payment on credit card
+Wrong payment on credit
+Bad payment on credit 

@@ -171,6 +171,7 @@ Make credit payment of {250|sys_amount-of-money}
 Pay bill for credit {250|sys_amount-of-money}
 Send credit payment of {250|sys_amount-of-money}
 {$250|sys_amount-of-money}
+{$25|sys_amount-of-money}
 Pay my credit bill of {$250|sys_amount-of-money}
 Make credit payment of {$250|sys_amount-of-money}
 Pay bill for credit {$250|sys_amount-of-money}
@@ -187,3 +188,27 @@ Pay my credit bill of {1k|sys_amount-of-money}
 Make credit payment of {1k|sys_amount-of-money}
 Pay bill for credit {1k|sys_amount-of-money}
 Send credit payment of {12k|sys_amount-of-money}
+pay {$9|sys_amount-of-money} towards my credit card bill
+pay {$90|sys_amount-of-money} towards my credit card bill
+pay {$900|sys_amount-of-money} towards my credit card bill
+pay {$9000|sys_amount-of-money} towards my credit card bill
+{$5|sys_amount-of-money}
+{$2500|sys_amount-of-money}
+{$1k|sys_amount-of-money}
+{5|sys_amount-of-money}
+{twenty dollars|sys_amount-of-money}
+{400.80|sys_amount-of-money}
+{4000.80|sys_amount-of-money}
+{$25.50|sys_amount-of-money}
+{25.25|sys_amount-of-money}
+{2,000.50|sys_amount-of-money}
+{$5.25|sys_amount-of-money}
+Pay off {2,000.50|sys_amount-of-money}
+Pay off {$5.25|sys_amount-of-money}
+Pay off {$5|sys_amount-of-money}
+Pay off {$2500|sys_amount-of-money}
+Make payment of {$1k|sys_amount-of-money}
+Pay off {5|sys_amount-of-money}
+Make payment of {twenty dollars|sys_amount-of-money}
+Pay {400.80|sys_amount-of-money}
+Send payment of {4000.80|sys_amount-of-money}
