@@ -4,7 +4,6 @@ from mindmeld import Application
 from mindmeld.core import FormEntity
 import random
 import json
-import re
 
 app = Application(__name__)
 
@@ -70,7 +69,7 @@ def _credit_amount_helper(request, responder, entity):
 def _exact_amount_helper(request, responder, entity):
     try:
         responder.slots["amount"] = entity["value"][0]["value"]
-    except KeyError as e:
+    except KeyError:
         responder.reply(
             "Unable to recognize the amount of money you have provided, try "
             "formatting the value like this '$40.50'"
