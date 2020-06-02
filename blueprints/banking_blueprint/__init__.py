@@ -10,7 +10,7 @@ app = Application(__name__)
 
 __all__ = ["app"]
 
-# User data and helper functions
+# User data and helper functions for handlers
 
 user_data = {}
 
@@ -45,12 +45,6 @@ def _put(key, value):
 
 def _check_value(responder):
     return _get(responder.slots["origin"]) >= responder.slots["amount"]
-
-
-def _parseSentenceForNumber(sentence):
-    sen = sentence.replace(",", "")
-    result = re.findall("[-+]?\d*\.\d+|\d+", sen)
-    return result[0]
 
 
 def _credit_amount_helper(request, responder, entity):
