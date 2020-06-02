@@ -1,0 +1,12 @@
+kilos
+kg
+kilitos
+lbs
+pound
+mts
+m
+cm
+ft
+feet
+in
+inches
