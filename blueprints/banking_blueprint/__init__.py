@@ -52,14 +52,14 @@ def _credit_amount_helper(request, responder, entity):
     )
     if responder.slots["payment"] == "minimum":
         responder.reply(
-            "Ok we have scheduled your credit card payment for your {payment} balance of $"
+            "OK, we have scheduled your credit card payment for your minimum balance of $"
             + format(responder.slots["min"], ".2f")
         )
         _put("credit", _get("credit") - responder.slots["min"])
         _put("checking", _get("checking") - responder.slots["min"])
     else:
         responder.reply(
-            "Ok we have scheduled your credit card payment for your {payment} of $"
+            "OK, we have scheduled your credit card payment for your {payment} of $"
             + format(responder.slots["total_balance"], ".2f")
         )
         _put("credit", 0)
@@ -75,10 +75,10 @@ def _exact_amount_helper(request, responder, entity):
             "formatting the value like this '$40.50'"
         )
         return
-    if (responder.slots["amount"] <= _get("credit")) & (responder.slots["amount"] > 0):
+    if 0 < responder.slots["amount"] <= _get("credit"):
         responder.slots["amount"] = entity["value"][0]["value"]
         responder.reply(
-            "Ok we have scheduled your credit card payment for $"
+            "OK, we have scheduled your credit card payment for $"
             + format(responder.slots["amount"], ".2f")
         )
         _put("credit", round(_get("credit") - entity["value"][0]["value"], 2))
@@ -122,7 +122,7 @@ entity_form = {
         ),
         FormEntity(
             entity="sys_amount-of-money",
-            responses=["And, how much do you want to transfer?"],
+            responses=["And how much do you want to transfer?"],
         ),
     ],
     "exit_keys": [
@@ -135,14 +135,15 @@ entity_form = {
         "stop",
         "back",
         "help",
-        "stpo it",
-        "go back" "new task",
+        "stop it",
+        "go back",
+        "new task",
         "other",
         "return",
         "end",
     ],
-    "exit_msg": "A few other banking tasks you can try are, reporting a"
-    " fraudelent charge and setting up AutoPay",
+    "exit_msg": "A couple of other banking tasks you can try are reporting a"
+    " fraudulent charge and setting up AutoPay",
     "max_retries": 1,
 }
 
@@ -150,7 +151,7 @@ balance_form = {
     "entities": [
         FormEntity(
             entity="account_type",
-            responses=["Sure. for which account - checkings, savings, or credit?"],
+            responses=["Sure. For which account - checkings, savings, or credit?"],
         )
     ],
     "exit_keys": [
@@ -205,23 +206,23 @@ def exit(request, responder):
 def help(request, responder):
     responder.reply(
         [
-            "A few things I can help you with are, checking balances,"
+            "A few things I can help you with are: checking balances,"
             " paying off your credit card, and setting up a new card.",
-            "Looks like you need help have you tried, ask for your routing"
+            "Looks like you need help. Have you tried: asking for your routing"
             " number, ordering checks, and checking bill due dates.",
             "You can try reporting a fraud charge or a lost credit card.",
-            "Need some suggestions, try ordering some "
+            "Need some suggestions? Try ordering some "
             "checks by saying 'order checks', or check your balance for savings,"
             " checking, or credit account by saying 'check balance' and then the account name",
-            "A few of things you can ask me are, 'how to apply for a loan', 'what is my routing "
+            "A few of things you can ask me are: 'how to apply for a loan', 'what is my routing "
             "number', and 'can you pay my credit card bill'",
             "Try asking about card activation or reporting a stolen card",
-            "A few things I can help with are, reporting a fraudulent charge,"
-            " paying off your credit card, and resetting your pin.",
-            "Have you tried asking for your routing number yet, you can do that by saying 'what "
+            "A few things I can help with are: reporting a fraudulent charge,"
+            " paying off your credit card, and resetting your PIN.",
+            "Have you tried asking for your routing number yet? You can do that by saying 'what "
             "is my routing number'.",
-            "Have you tried making a transfer, you can do that by saying 'transfer money'.",
-            "Need some suggestions?, you can ask me something like 'lost my pin', 'card is "
+            "Have you tried making a transfer? You can do that by saying 'transfer money'.",
+            "Need some suggestions? You can ask me something like 'lost my PIN', 'card is "
             "stolen', or 'setup a new card'.",
         ]
     )
@@ -234,7 +235,7 @@ def faq_lost_creditcard_handler(request, responder):
     responder.slots["email"] = _get("email")
     replies = [
         "I've noted that your card may have been lost or stolen. Please follow up "
-        "immediately by calling 1-800-432-3117 or clicking the link in the email sent to {email}"
+        "immediately by calling 1-800-432-3117 or clicking the link in the email sent to {email}."
     ]
     responder.reply(replies)
 
@@ -257,8 +258,8 @@ def faq_order_checks_handler(request, responder):
         _pull_data(request)
     responder.slots["email"] = _get("email")
     replies = [
-        "We have placed an order for a checkbook, which contain 50 checks. To confirm, change "
-        "quanity of checks, or any other questions please view the link in"
+        "We have placed an order for a checkbook, which contains 50 checks. To confirm, change "
+        "quantity of checks, or for any other questions, please view the link in"
         " the email sent to {email}."
     ]
     responder.reply(replies)
@@ -279,8 +280,8 @@ def faq_fraud_charge_handler(request, responder):
         _pull_data(request)
     responder.slots["email"] = _get("email")
     replies = [
-        "We have placed a hold on your card to avoid any further fraudelent activity. An email "
-        "has been sent to {email} on how to reactivate your card"
+        "We have placed a hold on your card to avoid any further fraudulent activity. An email "
+        "has been sent to {email} on how to reactivate your card."
     ]
     responder.reply(replies)
 
@@ -291,7 +292,7 @@ def faq_forgot_pin_handler(request, responder):
         _pull_data(request)
     responder.slots["email"] = _get("email")
     replies = [
-        "We have sent you an email at {email} with the steps on how to reset or recover your pin."
+        "We have sent you an email at {email} with the steps on how to reset or recover your PIN."
     ]
     responder.reply(replies)
 
@@ -302,7 +303,7 @@ def faq_apply_loan_handler(request, responder):
         _pull_data(request)
     responder.slots["email"] = _get("email")
     replies = [
-        "We have sent you an email with a loan eligilbty form at {email}. For any further"
+        "We have sent you an email with a loan eligibility form at {email}. For any further"
         " questions regarding loans you will need to visit our website MindMeld.com/loans."
     ]
     responder.reply(replies)
@@ -314,7 +315,7 @@ def faq_activate_creditcard_handler(request, responder):
         _pull_data(request)
     responder.slots["email"] = _get("email")
     replies = [
-        "You can activate your card by logging clicking on the link sent to your email"
+        "You can activate your card by clicking on the link sent to your email"
         " at {email} or you can call us at 1-800-432-3117."
     ]
     responder.reply(replies)
@@ -324,13 +325,13 @@ def faq_activate_creditcard_handler(request, responder):
 def default(request, responder):
     replies = [
         "I'm not sure how to help with that. Try asking about account"
-        " balances or ordering checks",
+        " balances or ordering checks.",
         "I'm afraid I don't know how to help with that."
         " You can try to ask to check your balance or pay a bill",
         "Sorry, I do not know what that is. Try asking about"
         " card activation or reporting a stolen card",
         "I'm afraid I can not help with that. A few banking tasks"
-        " you can try are, transferring "
+        " you can try are: transferring "
         "balances and paying bills",
     ]
     responder.reply(replies)
