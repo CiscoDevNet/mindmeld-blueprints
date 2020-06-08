@@ -112,3 +112,117 @@ Voy a tener {37|sys_number} de edad
 Ayer cumplí {37|sys_number}
 Ayer cumplí {37|sys_number} añotes
 Ayer cumplí {37|sys_number} añotes de edad
+{9|sys_number}
+Tengo {9|sys_number}
+Yo tengo {9|sys_number}
+Mi edad es {9|sys_number}
+{9|sys_number} años
+Tengo {9|sys_number} años
+Yo tengo {9|sys_number} años
+Mi edad es {9|sys_number} años
+Voy a cumplir {9|sys_number}
+Voy a cumplir {9|sys_number} años
+Cumplo {9|sys_number}
+Cumplo {9|sys_number} años
+{9|sys_number} de edad
+Tengo {9|sys_number} de edad
+Yo tengo {9|sys_number} de edad
+{9|sys_number} años de edad
+Tengo {9|sys_number} años de edad
+Yo tengo {9|sys_number} años de edad
+Voy a cumplir {9|sys_number} años de edad
+Cumplo {9|sys_number} años de edadAcabo de cumplir {9|sys_number}
+Acabo de cumplir {9|sys_number} años
+Acabo de cumplir {9|sys_number} años de edad
+Hoy cumplo {9|sys_number}
+Hoy cumplo {9|sys_number} años
+Hoy cumplo {9|sys_number} años de edad
+Hoy cumplí {9|sys_number}
+Hoy cumplí {9|sys_number} años
+Hoy cumplí {9|sys_number} años de edad
+Cumplí {9|sys_number}
+Cumplí {9|sys_number} años
+Cumplí {9|sys_number} años de edad
+Voy a tener {9|sys_number}
+Voy a tener {9|sys_number} años
+Voy a tener {9|sys_number} años de edad
+Voy a tener {9|sys_number} de edad
+Ayer cumplí {9|sys_number}
+Ayer cumplí {9|sys_number} años
+Ayer cumplí {9|sys_number} años de edad
+{5|sys_number}
+Tengo {5|sys_number}
+Yo tengo {5|sys_number}
+Mi edad es {5|sys_number}
+{5|sys_number} añitos
+Tengo {5|sys_number} añitos
+Yo tengo {5|sys_number} añitos
+Mi edad es {5|sys_number} añitos
+Voy a cumplir {5|sys_number}
+Voy a cumplir {5|sys_number} añitos
+Cumplo {5|sys_number}
+Cumplo {5|sys_number} añitos
+{5|sys_number} de edad
+Tengo {5|sys_number} de edad
+Yo tengo {5|sys_number} de edad
+{5|sys_number} añitos de edad
+Tengo {5|sys_number} añitos de edad
+Yo tengo {5|sys_number} añitos de edad
+Voy a cumplir {5|sys_number} añitos de edad
+Cumplo {5|sys_number} añitos de edadAcabo de cumplir {5|sys_number}
+Acabo de cumplir {5|sys_number} añitos
+Acabo de cumplir {5|sys_number} añitos de edad
+Hoy cumplo {5|sys_number}
+Hoy cumplo {5|sys_number} añitos
+Hoy cumplo {5|sys_number} añitos de edad
+Hoy cumplí {5|sys_number}
+Hoy cumplí {5|sys_number} añitos
+Hoy cumplí {5|sys_number} añitos de edad
+Cumplí {5|sys_number}
+Cumplí {5|sys_number} añitos
+Cumplí {5|sys_number} añitos de edad
+Voy a tener {5|sys_number}
+Voy a tener {5|sys_number} añitos
+Voy a tener {5|sys_number} añitos de edad
+Voy a tener {5|sys_number} de edad
+Ayer cumplí {5|sys_number}
+Ayer cumplí {5|sys_number} añitos
+Ayer cumplí {5|sys_number} añitos de edad
+{5|sys_number}
+Tengo {5|sys_number}
+Yo tengo {5|sys_number}
+Mi edad es {5|sys_number}
+{5|sys_number} añotes
+Tengo {5|sys_number} añotes
+Yo tengo {5|sys_number} añotes
+Mi edad es {5|sys_number} añotes
+Voy a cumplir {5|sys_number}
+Voy a cumplir {5|sys_number} añotes
+Cumplo {5|sys_number}
+Cumplo {5|sys_number} añotes
+{5|sys_number} de edad
+Tengo {5|sys_number} de edad
+Yo tengo {5|sys_number} de edad
+{5|sys_number} añotes de edad
+Tengo {5|sys_number} añotes de edad
+Yo tengo {5|sys_number} añotes de edad
+Voy a cumplir {5|sys_number} añotes de edad
+Cumplo {5|sys_number} añotes de edadAcabo de cumplir {5|sys_number}
+Acabo de cumplir {5|sys_number} añotes
+Acabo de cumplir {5|sys_number} añotes de edad
+Hoy cumplo {5|sys_number}
+Hoy cumplo {5|sys_number} añotes
+Hoy cumplo {5|sys_number} añotes de edad
+Hoy cumplí {5|sys_number}
+Hoy cumplí {5|sys_number} añotes
+Hoy cumplí {5|sys_number} añotes de edad
+Cumplí {5|sys_number}
+Cumplí {5|sys_number} añotes
+Cumplí {5|sys_number} añotes de edad
+Voy a tener {5|sys_number}
+Voy a tener {5|sys_number} añotes
+Voy a tener {5|sys_number} añotes de edad
+Voy a tener {5|sys_number} de edad
+Ayer cumplí {5|sys_number}
+Ayer cumplí {5|sys_number} añotes
+Ayer cumplí {5|sys_number} añotes de edad

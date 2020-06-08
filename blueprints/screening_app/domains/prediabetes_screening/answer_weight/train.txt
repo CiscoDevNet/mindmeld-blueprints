@@ -1,4 +1,3 @@
-{60|sys_number}
 {60|sys_number} de peso
 {60|sys_number} {kilos|unit}
 {60|sys_number} {kilos|unit} de peso
@@ -21,7 +20,6 @@ Mi peso es de {60|sys_number} {kilos|unit}
 {60|sys_number} {kilos|unit} de obeso
 Apenas peso {60|sys_number} {kilos|unit}
 Apenas peso {60|sys_number}
-{79|sys_number}
 {79|sys_number} de peso
 {79|sys_number} {kilogramos|unit}
 {79|sys_number} {kilogramos|unit} de peso
@@ -44,7 +42,6 @@ Mi peso es de {79|sys_number} {kilogramos|unit}
 {79|sys_number} {kilogramos|unit} de obeso
 Apenas peso {79|sys_number} {kilogramos|unit}
 Apenas peso {79|sys_number}
-{120|sys_number}
 {120|sys_number} de peso
 {120|sys_number} {libras|unit}
 {120|sys_number} {libras|unit} de peso
@@ -67,7 +64,6 @@ Mi peso es de {120|sys_number} {libras|unit}
 {120|sys_number} {libras|unit} de obeso
 Apenas peso {120|sys_number} {libras|unit}
 Apenas peso {120|sys_number}
-{60|sys_number}
 {60|sys_number} de peso
 {60|sys_number} {kgs|unit}
 {60|sys_number} {kgs|unit} de peso
@@ -90,7 +86,6 @@ Mi peso es de {60|sys_number} {kgs|unit}
 {60|sys_number} {kgs|unit} de obeso
 Apenas peso {60|sys_number} {kgs|unit}
 Apenas peso {60|sys_number}
-{79|sys_number}
 {79|sys_number} de peso
 {79|sys_number} {kgs|unit}
 {79|sys_number} {kgs|unit} de peso
@@ -113,7 +108,6 @@ Mi peso es de {79|sys_number} {kgs|unit}
 {79|sys_number} {kgs|unit} de obeso
 Apenas peso {79|sys_number} {kgs|unit}
 Apenas peso {79|sys_number}
-{120|sys_number}
 {120|sys_number} de peso
 {120|sys_number} {lbs|unit}
 {120|sys_number} {lbs|unit} de peso
