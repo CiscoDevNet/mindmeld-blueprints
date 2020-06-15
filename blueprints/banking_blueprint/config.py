@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""This module contains a template MindMeld app configuration"""
+"""This module contains the blueprint app configuration"""
 
 # The namespace of the application. Used to prevent collisions in supporting services across
 # applications. If not set here, the app's enclosing directory name is used.
@@ -7,7 +7,7 @@
 
 # Dictionaries for the various NLP classifier configurations
 
-# An example decision tree model for intent classification
+# Logistic regression model for intent classification
 INTENT_CLASSIFIER_CONFIG = {
     "model_type": "text",
     "model_settings": {"classifier_type": "logreg"},
