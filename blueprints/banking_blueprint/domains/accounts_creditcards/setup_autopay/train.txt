@@ -257,7 +257,7 @@ How do I {stop|autopay_status} using autopay?
 How do I {stop|autopay_status} autopay on my phone?
 How do I {cancel|autopay_status} autopay on my account?
 {stop|autopay_status} Autopay
-{stop|autopay_status}ping Automatic payments
+{stopping|autopay_status} Automatic payments
 Please {stop|autopay_status} my autopay
 I’d like to turn {off|autopay_status} my autopay please
 {stop|autopay_status} autopay
