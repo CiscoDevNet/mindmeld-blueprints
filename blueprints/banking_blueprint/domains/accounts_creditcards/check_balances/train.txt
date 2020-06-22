@@ -187,3 +187,7 @@ I’d like to see what is due for my {credit card|account_type} bill
 Can I see how much I have due for {credit card|account_type} payment
 I’d like to see how much I have due for my {credit card|account_type} payment
 {cred|account_type}
+balances
+Balances
+Show balances
+Show balance

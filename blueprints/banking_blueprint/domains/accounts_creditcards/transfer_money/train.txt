@@ -27,7 +27,7 @@ I want money transferred from {savings|account_type|origin} to {checking|account
 i want to move {2000 dollars|sys_amount-of-money} from my {checkings|account_type|origin} account to the {savings|account_type|dest} account
 Transfer {one thousand dollars|sys_amount-of-money} from my {checkings|account_type|origin}account to my {savings|account_type|dest} account.
 Transfer {one thousand dollars|sys_amount-of-money} from {savings|account_type|origin} to checking.
-Move one thousand dollars from my {checkings|account_type|dest}account to my {savings|account_type|origin} account.
+Move one thousand dollars from my {checkings|account_type|dest} account to my {savings|account_type|origin} account.
 Move one thousand dollars from {savings|account_type|origin} to {checking|account_type|dest}.
 Transfer {1000 dollars|sys_amount-of-money} from {money market|account_type|origin} to {checking|account_type|dest}
 Transfer {10k|sys_amount-of-money} from {money market|account_type|origin} to {mortgage|account_type|dest}

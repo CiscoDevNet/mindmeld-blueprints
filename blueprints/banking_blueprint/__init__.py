@@ -4,69 +4,70 @@ from mindmeld import Application
 from mindmeld.core import FormEntity
 import random
 import json
+import os
 
 app = Application(__name__)
 
 __all__ = ["app"]
 
-# User data and helper functions for handlers
+# User data class and helper functions for handlers
 
-user_data = {}
-
-sample_users = {
-    "johndoe123": 0,
-    "larry_l12": 1,
-    "splashbro30": 2,
-}
+user = None
 
 
-def _pull_data(request):
-    with open("banking_blueprint/data/sample_user_data.json") as f:
-        global user_data
-        data = json.load(f)
+class User:
+    def __init__(self, request):
+        self.sample_users = {
+            "johndoe123": 0,
+            "larry_l12": 1,
+            "splashbro30": 2,
+        }
+        user = self._pull_data(request)
+        directory = os.path.dirname(os.path.abspath(__file__))
+        path = os.path.join(directory, "data/sample_user_data.json")
+        with open(path) as f:
+            data = json.load(f)
+            self.data = data[user]
+
+    def _pull_data(self, request):
         if request.context.get("user_name"):
             user_name = request.context.get("user_name")
-            user = sample_users[user_name]
+            self.user = self.sample_users[user_name]
         else:
-            user = random.choice([0, 1, 2])
+            self.user = random.choice([0, 1, 2])
+        return self.user
 
-        user_data = data[user]
+    def put(self, key, value):
+        self.data[key] = value
 
+    def get(self, key):
+        return self.data[key]
 
-def _get(key):
-    return user_data[key]
-
-
-def _put(key, value):
-    global user_data
-    user_data[key] = value
-
-
-def _check_value(responder):
-    return _get(responder.slots["origin"]) >= responder.slots["amount"]
+    def check_value(self, responder):
+        return self.get(responder.slots["origin"]) >= responder.slots["amount"]
 
 
-def _credit_amount_helper(request, responder, entity):
+def _credit_amount_helper(request, responder, entity, user):
     responder.slots["payment"] = (
         entity["value"][0]["cname"] if len(entity["value"]) > 0 else entity["text"]
     )
     if responder.slots["payment"] == "minimum":
         responder.reply(
             "OK, we have scheduled your credit card payment for your minimum balance of $"
-            + format(responder.slots["min"], ".2f")
+            "{min:.2f}"
         )
-        _put("credit", _get("credit") - responder.slots["min"])
-        _put("checking", _get("checking") - responder.slots["min"])
+        user.put("credit", user.get("credit") - responder.slots["min"])
+        user.put("checking", user.get("checking") - responder.slots["min"])
     else:
         responder.reply(
             "OK, we have scheduled your credit card payment for your {payment} of $"
-            + format(responder.slots["total_balance"], ".2f")
+            "{total_balance:.2f}"
         )
-        _put("credit", 0)
-        _put("checking", _get("checking") - responder.slots["total_balance"])
+        user.put("credit", 0)
+        user.put("checking", user.get("checking") - responder.slots["total_balance"])
 
 
-def _exact_amount_helper(request, responder, entity):
+def _exact_amount_helper(request, responder, entity, user):
     try:
         responder.slots["amount"] = entity["value"][0]["value"]
     except KeyError:
@@ -75,19 +76,19 @@ def _exact_amount_helper(request, responder, entity):
             "formatting the value like this '$40.50'"
         )
         return
-    if 0 < responder.slots["amount"] <= _get("credit"):
+    if 0 < responder.slots["amount"] <= user.get("credit"):
         responder.slots["amount"] = entity["value"][0]["value"]
         responder.reply(
             "OK, we have scheduled your credit card payment for $"
-            + format(responder.slots["amount"], ".2f")
+            "{amount:.2f}"
         )
-        _put("credit", round(_get("credit") - entity["value"][0]["value"], 2))
-        _put("checking", round((_get("checking") - responder.slots["amount"]), 2))
+        user.put("credit", round(user.get("credit") - entity["value"][0]["value"], 2))
+        user.put("checking", round((user.get("checking") - responder.slots["amount"]), 2))
     else:
         if responder.slots["amount"] > 0:
             responder.reply(
                 "The amount you have specified is greater than your credit balance of $"
-                + format(responder.slots["total_balance"], ".2f")
+                "{total_balance:.2f}"
             )
         else:
             responder.reply("Please input an amount greater than zero.")
@@ -108,25 +109,33 @@ def _credit_check(request, responder, entity):
 
 # Slot filling forms
 
-entity_form = {
+transfer_form = {
     "entities": [
         FormEntity(
             entity="account_type",
             role="origin",
             responses=["Sure. Transfer from which account - checking or savings?"],
+            retry_response=["That account is not correct, transfer from which account?"],
         ),
         FormEntity(
             entity="account_type",
             role="dest",
             responses=["To which account - checking or savings?"],
+            retry_response=["That account is not correct, transfer to which account?"],
         ),
         FormEntity(
             entity="sys_amount-of-money",
             responses=["And how much do you want to transfer?"],
+            retry_response=[
+                "That amount is not correct, "
+                "please try formatting the value like this '$40.50'"
+            ],
         ),
     ],
     "exit_keys": [
         "cancel",
+        "cancel transfer",
+        "stop transfer",
         "restart",
         "exit",
         "reset",
@@ -152,6 +161,10 @@ balance_form = {
         FormEntity(
             entity="account_type",
             responses=["Sure. For which account - checkings, savings, or credit?"],
+            retry_response=[
+                "That account is not correct,"
+                " please try checkings, savings, or credit"
+            ],
         )
     ],
     "exit_keys": [
@@ -179,14 +192,15 @@ balance_form = {
 
 @app.handle(intent="greet")
 def greet(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["name"] = _get("first_name")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["name"] = user.get("first_name")
     replies = [
         "Hi {name}, how can I help with your banking tasks? You can try transferring "
         "money between accounts or paying a bill.",
         "Hello {name}, thanks for choosing MindMeld Bank. You can do things "
-        "like, ask for your routing number, order "
+        "like: ask for your routing number, order "
         "checks, and check bill due dates.",
         "Welome to MindMeld Bank {name}, How can I help with your banking tasks? "
         "You can try reporting a fraud charge or a lost credit card.",
@@ -230,9 +244,10 @@ def help(request, responder):
 
 @app.handle(intent="lost_creditcard")
 def faq_lost_creditcard_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["email"] = _get("email")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["email"] = user.get("email")
     replies = [
         "I've noted that your card may have been lost or stolen. Please follow up "
         "immediately by calling 1-800-432-3117 or clicking the link in the email sent to {email}."
@@ -242,9 +257,10 @@ def faq_lost_creditcard_handler(request, responder):
 
 @app.handle(intent="new_creditcard")
 def faq_new_creditcard_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["email"] = _get("email")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["email"] = user.get("email")
     replies = [
         "An email has been sent to {email} with the available credit card offers for you. You may "
         "also visit a local branch and talk to a MindMeld teller."
@@ -254,9 +270,10 @@ def faq_new_creditcard_handler(request, responder):
 
 @app.handle(intent="order_checks")
 def faq_order_checks_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["email"] = _get("email")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["email"] = user.get("email")
     replies = [
         "We have placed an order for a checkbook, which contains 50 checks. To confirm, change "
         "quantity of checks, or for any other questions, please view the link in"
@@ -267,18 +284,20 @@ def faq_order_checks_handler(request, responder):
 
 @app.handle(intent="routing_number")
 def faq_routing_number_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["routing"] = _get("routing")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["routing"] = user.get("routing")
     replies = ["Your routing number is {routing}."]
     responder.reply(replies)
 
 
 @app.handle(intent="fraud_charge")
 def faq_fraud_charge_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["email"] = _get("email")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["email"] = user.get("email")
     replies = [
         "We have placed a hold on your card to avoid any further fraudulent activity. An email "
         "has been sent to {email} on how to reactivate your card."
@@ -288,9 +307,10 @@ def faq_fraud_charge_handler(request, responder):
 
 @app.handle(intent="forgot_pin")
 def faq_forgot_pin_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["email"] = _get("email")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["email"] = user.get("email")
     replies = [
         "We have sent you an email at {email} with the steps on how to reset or recover your PIN."
     ]
@@ -299,9 +319,10 @@ def faq_forgot_pin_handler(request, responder):
 
 @app.handle(intent="apply_loan")
 def faq_apply_loan_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["email"] = _get("email")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["email"] = user.get("email")
     replies = [
         "We have sent you an email with a loan eligibility form at {email}. For any further"
         " questions regarding loans you will need to visit our website MindMeld.com/loans."
@@ -311,9 +332,10 @@ def faq_apply_loan_handler(request, responder):
 
 @app.handle(intent="activate_creditcard")
 def faq_activate_creditcard_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["email"] = _get("email")
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["email"] = user.get("email")
     replies = [
         "You can activate your card by clicking on the link sent to your email"
         " at {email} or you can call us at 1-800-432-3117."
@@ -347,10 +369,11 @@ def check_due_date_handler(request, responder):
     responder.reply(replies)
 
 
-@app.auto_fill(intent="transfer_balances", form=entity_form)
-def transfer_balances_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
+@app.auto_fill(intent="transfer_money", form=transfer_form)
+def transfer_money_handler(request, responder):
+    global user
+    if not user:
+        user = User(request)
     for entity in request.entities:
         if entity["type"] == "account_type":
             if _credit_check(request, responder, entity):
@@ -373,48 +396,47 @@ def transfer_balances_handler(request, responder):
                 if len(entity["value"]) > 0
                 else entity["text"]
             )
-    if _check_value(responder):
+    if user.check_value(responder):
         responder.reply(
             [
-                "All right. A transfer of $"
-                + format(responder.slots["amount"], ".2f")
-                + " dollars from your "
-                "{origin} to your {dest} has been intiated."
+                "All right. A transfer of ${amount:.2f}"
+                " dollars from your "
+                "{origin} to your {dest} has been initiated."
             ]
         )
-        _put(
+        user.put(
             responder.slots["origin"],
-            _get(responder.slots["origin"]) - responder.slots["amount"],
+            user.get(responder.slots["origin"]) - responder.slots["amount"],
         )
-        _put(
+        user.put(
             responder.slots["dest"],
-            _get(responder.slots["dest"]) + responder.slots["amount"],
+            user.get(responder.slots["dest"]) + responder.slots["amount"],
         )
     else:
         responder.reply(
             [
-                "You do not have $"
-                + format(responder.slots["amount"], ".2f")
-                + " in your {origin} account. "
+                "You do not have ${amount:.2f} "
+                "in your {origin} account. "
                 "The max you can transfer from your {origin} is $"
-                + format(_get(responder.slots["origin"]), ".2f")
+                + format(user.get(responder.slots["origin"]), ".2f")
             ]
         )
 
 
 @app.handle(intent="pay_creditcard")
 def pay_creditcard_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
-    responder.slots["min"] = round(_get("credit") * 0.05)
-    responder.slots["total_balance"] = _get("credit")
-    if _get("credit") > 0:
+    global user
+    if not user:
+        user = User(request)
+    responder.slots["min"] = round(user.get("credit") * 0.05)
+    responder.slots["total_balance"] = user.get("credit")
+    if user.get("credit") > 0:
         if request.entities:
             for entity in request.entities:
                 if entity["type"] == "credit_amount":
-                    _credit_amount_helper(request, responder, entity)
+                    _credit_amount_helper(request, responder, entity, user)
                 else:
-                    _exact_amount_helper(request, responder, entity)
+                    _exact_amount_helper(request, responder, entity, user)
         else:
             responder.params.allowed_intents = (
                 "accounts_creditcards.pay_creditcard",
@@ -433,18 +455,19 @@ def pay_creditcard_handler(request, responder):
 
 @app.handle(intent="setup_autopay")
 def setup_autpay_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
+    global user
+    if not user:
+        user = User(request)
     if request.entities:
-        if _get("auto_pay") == 0:
+        if user.get("auto_pay") == 0:
             replies = ["Autopay is already off. To turn back on just say 'autopay on'."]
         else:
             replies = [
                 "Autopay has been turned off. To turn back on just say 'autopay on'."
             ]
-            _put("auto_pay", 0)
+            user.put("auto_pay", 0)
     else:
-        if _get("auto_pay") != 0:
+        if user.get("auto_pay") != 0:
             replies = [
                 "AutoPay is already turned on. To turn off just say 'autopay off'."
             ]
@@ -452,14 +475,15 @@ def setup_autpay_handler(request, responder):
             replies = [
                 "AutoPay has been turned on. To turn off just say 'autopay off'."
             ]
-            _put("auto_pay", 1)
+            user.put("auto_pay", 1)
     responder.reply(replies)
 
 
 @app.auto_fill(intent="check_balances", form=balance_form)
 def check_balances_handler(request, responder):
-    if not user_data:
-        _pull_data(request)
+    global user
+    if not user:
+        user = User(request)
     if request.entities:
         for entity in request.entities:
             if entity["type"] == "account_type":
@@ -468,8 +492,7 @@ def check_balances_handler(request, responder):
                     if len(entity["value"]) > 0
                     else entity["text"]
                 )
-                responder.slots["amount"] = _get(responder.slots["account"])
+                responder.slots["amount"] = user.get(responder.slots["account"])
                 responder.reply(
-                    "Your {account} account balance is $"
-                    + format(responder.slots["amount"], ".2f")
+                    "Your {account} account balance is ${amount:.2f}"
                 )

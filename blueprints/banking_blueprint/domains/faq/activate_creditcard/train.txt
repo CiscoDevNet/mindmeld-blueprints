@@ -33,7 +33,6 @@ activate this card
 Let's get this new card set up
 Set up new credit card
 set up new credit card
-Activate new card
 Activate card
 Set up card
 Finish setting up account
@@ -80,7 +79,6 @@ I need to activate this new card
 Activate new credit card
 Start new credit card use
 I need this new card activated
-activate new card
 activate card
 card activation
 new card activation

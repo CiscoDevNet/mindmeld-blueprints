@@ -147,7 +147,6 @@ Put card payment of {two hundred dollars|sys_amount-of-money}
 {minimum|credit_amount}
 {minimums|credit_amount}
 {balance|credit_amount}
-{balances|credit_amount}
 {balan|credit_amount}
 {bal|credit_amount}
 pay my {min|credit_amount} bill
@@ -212,3 +211,4 @@ Pay off {5|sys_amount-of-money}
 Make payment of {twenty dollars|sys_amount-of-money}
 Pay {400.80|sys_amount-of-money}
 Send payment of {4000.80|sys_amount-of-money}
+pay credit {balance|credit_amount}

@@ -57,24 +57,3 @@ ENTITY_RECOGNIZER_CONFIG = {
         "sys-candidates-seq": {"start_positions": [-1, 0, 1]},
     },
 }
-
-"""
-# Fill in the other model configurations if necessary
-# DOMAIN_CLASSIFIER_CONFIG = {}
-# ENTITY_RECOGNIZER_CONFIG = {}
-# ROLE_CLASSIFIER_CONFIG = {}
-"""
-
-# A example configuration for the parser
-"""
-# *** Note: these are place holder entity types ***
-PARSER_CONFIG = {
-    'grandparent': {
-        'parent': {},
-        'child': {'max_instances': 1}
-    },
-    'parent': {
-        'child': {'max_instances': 1}
-    }
-}
-"""

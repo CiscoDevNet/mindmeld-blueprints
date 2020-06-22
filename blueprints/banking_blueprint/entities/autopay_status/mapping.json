@@ -3,6 +3,7 @@
         {
             "whitelist": [
             	"stop",
+                "stopping",
             	"cancel",
             	"deactivate",
             	"disable"
