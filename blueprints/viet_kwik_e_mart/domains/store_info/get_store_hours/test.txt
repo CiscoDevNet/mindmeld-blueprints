@@ -1,0 +1,36 @@
+Khi nào cửa hàng {Central Plaza|store_name} mở cửa?
+Cái đèn ở {evergreen|store_name} còn sáng không?
+Tôi có thể đến tại cửa hàng {181st|store_name} lúc 7 giờ chiều {ngày mai|sys_time} được không?
+đưa giờ mở cửa ở cửa hàng {181st|store_name}
+Cái tiệm ở {Đường Elm|store_name} có mở {hôm nay|sys_time} không?
+Cho tôi biết cái Kwik-E-Mart tại {Pine và Market|store_name} hiện tại có mở không?
+Cửa hàng {Central Plaza|store_name} sẽ đóng cửa mấy giờ?
+Nói cho tôi biết cái Kwik-E-Mart trên {Đường Elm|store_name} có đóng cửa không
+Xin cho tôi biết cửa hàng {Shelbyville|store_name} mở {hôm nay|sys_time} không.
+Cái tiệm trên {Pine và Market|store_name} có mở không?
+Mấy giờ tiệm ở {north haverbrook|store_name} của bạn mở và đóng cửa {ngày mai|sys_time}
+Chừng nào cái cửa hàng ở {3rd|store_name} đóng cửa {hôm nay|sys_time}
+{hôm nay|sys_time} {3rd|store_name} đóng mấy giờ
+{Chủ nhật|sys_time} mấy giờ cái Kwik-E-Mart trên {Đường 156|store_name} đóng?
+Cái cửa hàng ở {Đường 156|store_name} mở {Thứ bảy|sys_time} không?
+Cái kwik e mart ở {Đường 156|store_name} mở khuya không?
+Khi nào kwik emart trên {13 w oak st|store_name} mở đèn vậy?
+Chừng nào cái tiệm {Peanut|store_name} st mở vậy?
+Khi nào cái cửa hàng ở {sycamore|store_name} đóng cửa?
+Giờ mở cửa hàng {russian district|store_name}
+cái {mall|store_name} có mở ngày {Giáng Sinh|sys_time} không
+Tôi vẫn có thể tới cái cửa hàng ở {12th Avenue|store_name} sau 12 giờ khuya Monday được không?
+Chừng nào {duff Gardens|store_name} đóng {hôm nay|sys_time}?
+Khi nào {duff Gardens|store_name} mở?
+Giờ mở của tiệm {springfield heights|store_name}
+Nói cho tui khi nào tui vô được {Diz-Nee Land|store_name} {ngày mai|sys_time}?
+{e oak|store_name} có mở ngày {Giáng Sinh|sys_time} không?
+Cái kwikemart ở {Rural route 27|store_name}, giờ mở nó như thế nào
+Khi nào tiệm đó mở?
+Giờ mở cửa như thế nào?
+Khi nào tiệm đó mở?
+Khi nào tiệm này đóng?
+Khi nào tiệm này mở?
+Lúc nào cửa hàng đó mở?
+Cửa hàng đó sẽ mở {ngày mai|sys_time} không?
+Lúc nào nó sẽ mở {Chủ nhật|sys_time}?
