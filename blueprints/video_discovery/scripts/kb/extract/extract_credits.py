@@ -1,13 +1,13 @@
 import logging
 import luigi
 import sys
+from video_task import VideoDataProcessingTask  # noqa: F401
+from libs.tasks import crawl_urls, request_api  # noqa: F401
+from utils import load_plain_json  # noqa: F401
 
 from .commons import API_KEY
 
 sys.path.append('..')
-from video_task import VideoDataProcessingTask  # noqa: F401
-from libs.tasks import crawl_urls, request_api  # noqa: F401
-from utils import load_plain_json  # noqa: F401
 
 
 class GetAllCredits(VideoDataProcessingTask):
