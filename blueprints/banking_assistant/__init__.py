@@ -115,20 +115,20 @@ transfer_form = {
             entity="account_type",
             role="origin",
             responses=["Sure. Transfer from which account - checking or savings?"],
-            retry_response=["That account is not correct, transfer from which account?"],
+            retry_response=["That account is not correct. Transfer from which account?"],
         ),
         FormEntity(
             entity="account_type",
             role="dest",
             responses=["To which account - checking or savings?"],
-            retry_response=["That account is not correct, transfer to which account?"],
+            retry_response=["That account is not correct. Transfer to which account?"],
         ),
         FormEntity(
             entity="sys_amount-of-money",
             responses=["And how much do you want to transfer?"],
             retry_response=[
-                "That amount is not correct, "
-                "please try formatting the value like this '$40.50'"
+                "That amount is not correct. "
+                "Please try formatting the value like this '$40.50'"
             ],
         ),
     ],
@@ -162,8 +162,8 @@ balance_form = {
             entity="account_type",
             responses=["Sure. For which account - checkings, savings, or credit?"],
             retry_response=[
-                "That account is not correct,"
-                " please try checkings, savings, or credit"
+                "That account is not correct."
+                " please try checkings, savings, or credit."
             ],
         )
     ],
@@ -183,7 +183,7 @@ balance_form = {
         "return",
         "end",
     ],
-    "exit_msg": "A few other banking tasks you can try are, ordering checks and paying bills",
+    "exit_msg": "A few other banking tasks you can try are ordering checks and paying bills",
     "max_retries": 1,
 }
 
@@ -202,10 +202,10 @@ def greet(request, responder):
         "Hello {name}, thanks for choosing MindMeld Bank. You can do things "
         "like: ask for your routing number, order "
         "checks, and check bill due dates.",
-        "Welome to MindMeld Bank {name}, How can I help with your banking tasks? "
+        "Welome to MindMeld Bank {name}, how can I help with your banking tasks? "
         "You can try reporting a fraud charge or a lost credit card.",
-        "Thanks for using MindMeld Bank {name}! What would you like to do today? "
-        "A few things I can help with are, "
+        "Thanks for using MindMeld Bank, {name}! What would you like to do today? "
+        "A few things I can help with are: "
         "checking balances, paying off your credit card, and setting up a new card.",
     ]
     responder.reply(replies)
@@ -213,7 +213,7 @@ def greet(request, responder):
 
 @app.handle(intent="exit")
 def exit(request, responder):
-    responder.reply(["Bye", "Goodbye", "Have a nice day."])
+    responder.reply(["Bye!", "Goodbye!", "Have a nice day."])
 
 
 @app.handle(intent="help")
@@ -227,10 +227,10 @@ def help(request, responder):
             "You can try reporting a fraud charge or a lost credit card.",
             "Need some suggestions? Try ordering some "
             "checks by saying 'order checks', or check your balance for savings,"
-            " checking, or credit account by saying 'check balance' and then the account name",
+            " checking, or credit account by saying 'check balance' and then the account name.",
             "A few of things you can ask me are: 'how to apply for a loan', 'what is my routing "
-            "number', and 'can you pay my credit card bill'",
-            "Try asking about card activation or reporting a stolen card",
+            "number', and 'can you pay my credit card bill'.",
+            "Try asking about card activation or reporting a stolen card.",
             "A few things I can help with are: reporting a fraudulent charge,"
             " paying off your credit card, and resetting your PIN.",
             "Have you tried asking for your routing number yet? You can do that by saying 'what "
@@ -250,7 +250,7 @@ def faq_lost_creditcard_handler(request, responder):
     responder.slots["email"] = user.get("email")
     replies = [
         "I've noted that your card may have been lost or stolen. Please follow up "
-        "immediately by calling 1-800-432-3117 or clicking the link in the email sent to {email}."
+        "immediately by calling 1-800-555-7456 or clicking the link in the email sent to {email}."
     ]
     responder.reply(replies)
 
@@ -349,12 +349,12 @@ def default(request, responder):
         "I'm not sure how to help with that. Try asking about account"
         " balances or ordering checks.",
         "I'm afraid I don't know how to help with that."
-        " You can try to ask to check your balance or pay a bill",
+        " You can try to ask to check your balance or pay a bill.",
         "Sorry, I do not know what that is. Try asking about"
-        " card activation or reporting a stolen card",
+        " card activation or reporting a stolen card.",
         "I'm afraid I can not help with that. A few banking tasks"
         " you can try are: transferring "
-        "balances and paying bills",
+        "balances and paying bills.",
     ]
     responder.reply(replies)
 
@@ -400,7 +400,7 @@ def transfer_money_handler(request, responder):
         responder.reply(
             [
                 "All right. A transfer of ${amount:.2f}"
-                " dollars from your "
+                " from your "
                 "{origin} to your {dest} has been initiated."
             ]
         )
@@ -445,7 +445,7 @@ def pay_creditcard_handler(request, responder):
             responder.reply(
                 "What amount do you want to pay off? "
                 "You can choose to make a minimum payment of ${min} up"
-                " to the total balance of ${total_balance}"
+                " to the total balance of ${total_balance}."
             )
     else:
         responder.reply(
