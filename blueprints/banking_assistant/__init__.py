@@ -32,7 +32,10 @@ class User:
     def _pull_data(self, request):
         if request.context.get("user_name"):
             user_name = request.context.get("user_name")
-            self.user = self.sample_users[user_name]
+            if user_name in sample_users:
+                self.user = self.sample_users[user_name]
+            else:
+                self.user = random.choice([0, 1, 2])
         else:
             self.user = random.choice([0, 1, 2])
         return self.user
@@ -73,25 +76,24 @@ def _exact_amount_helper(request, responder, entity, user):
     except KeyError:
         responder.reply(
             "Unable to recognize the amount of money you have provided, try "
-            "formatting the value like this '$40.50'"
+            "formatting the value like this '$40.50'."
         )
         return
     if 0 < responder.slots["amount"] <= user.get("credit"):
         responder.slots["amount"] = entity["value"][0]["value"]
         responder.reply(
             "OK, we have scheduled your credit card payment for $"
-            "{amount:.2f}"
+            "{amount:.2f}."
         )
         user.put("credit", round(user.get("credit") - entity["value"][0]["value"], 2))
         user.put("checking", round((user.get("checking") - responder.slots["amount"]), 2))
+    elif responder.slots["amount"] < 0:
+        responder.reply("Please input an amount greater than zero.")
     else:
-        if responder.slots["amount"] > 0:
-            responder.reply(
-                "The amount you have specified is greater than your credit balance of $"
-                "{total_balance:.2f}"
-            )
-        else:
-            responder.reply("Please input an amount greater than zero.")
+        responder.reply(
+            "The amount you have specified is greater than your credit balance of $"
+            "{total_balance:.2f}."
+        )
 
 
 def _credit_check(request, responder, entity):
@@ -128,7 +130,7 @@ transfer_form = {
             responses=["And how much do you want to transfer?"],
             retry_response=[
                 "That amount is not correct. "
-                "Please try formatting the value like this '$40.50'"
+                "Please try formatting the value like this '$40.50'."
             ],
         ),
     ],
@@ -163,7 +165,7 @@ balance_form = {
             responses=["Sure. For which account - checkings, savings, or credit?"],
             retry_response=[
                 "That account is not correct."
-                " please try checkings, savings, or credit."
+                " Please try checkings, savings, or credit."
             ],
         )
     ],
@@ -183,7 +185,7 @@ balance_form = {
         "return",
         "end",
     ],
-    "exit_msg": "A few other banking tasks you can try are ordering checks and paying bills",
+    "exit_msg": "A few other banking tasks you can try are ordering checks and paying bills.",
     "max_retries": 1,
 }
 
