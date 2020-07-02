@@ -2,13 +2,13 @@ import logging
 import luigi
 import sys
 import json
-from video_task import VideoDataProcessingTask  # noqa: F401
-from utils import dump_json, load_json, load_plain_json  # noqa: F401
-from libs.tasks import ReadLocalFile  # noqa: F401
 
 from .constants import POSTER_IMG_URL
 
 sys.path.append('..')
+from video_task import VideoDataProcessingTask  # noqa: F401,E402
+from utils import dump_json, load_json, load_plain_json  # noqa: F401,E402
+from libs.tasks import ReadLocalFile  # noqa: F401,E402
 
 
 def load_credits(credit_file):

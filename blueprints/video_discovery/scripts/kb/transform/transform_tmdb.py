@@ -3,14 +3,14 @@ import logging
 import luigi
 import math
 import sys
-from video_task import VideoDataProcessingTask  # noqa: F401
-from utils import load_jsonl  # noqa: F401
 
 from .transform_movies import TransformMovies
 from .transform_tvs import TransformTVs
 # from .transform_episodes import TransformEpisodes
 
 sys.path.append('..')
+from video_task import VideoDataProcessingTask  # noqa: F401,E402
+from utils import load_jsonl  # noqa: F401,E402
 
 
 class NormalizeTMDB(VideoDataProcessingTask):

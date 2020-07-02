@@ -2,14 +2,14 @@ import logging
 import luigi
 import sys
 import json
-from video_task import VideoDataProcessingTask  # noqa: F401
-from libs.tasks import ReadLocalDir  # noqa: F401
-from libs.tasks import crawl_urls, request_api  # noqa: F401
-from utils import dump_json, load_json, load_plain_json  # noqa: F401
 
 from .commons import API_KEY
 
 sys.path.append('..')
+from video_task import VideoDataProcessingTask  # noqa: F401,E402
+from libs.tasks import ReadLocalDir  # noqa: F401,E402
+from libs.tasks import crawl_urls, request_api  # noqa: F401,E402
+from utils import dump_json, load_json, load_plain_json  # noqa: F401,E402
 
 
 class GetDetails(VideoDataProcessingTask):

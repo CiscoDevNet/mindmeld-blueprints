@@ -1,8 +1,6 @@
 import luigi
 import sys
 import json
-from video_task import VideoDataProcessingTask  # noqa: F401
-from utils import load_json  # noqa: F401
 
 from .commons import get_directors, get_names, get_poster_img_url
 from .commons import get_release_date, get_release_year
@@ -10,6 +8,8 @@ from .commons import TransformDocuments
 from .constants import TYPE_TV
 
 sys.path.append('..')
+from video_task import VideoDataProcessingTask  # noqa: F401,E402
+from utils import load_json  # noqa: F401,E402
 
 
 class TransformTVs(TransformDocuments):
