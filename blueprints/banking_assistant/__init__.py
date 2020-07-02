@@ -32,7 +32,7 @@ class User:
     def _pull_data(self, request):
         if request.context.get("user_name"):
             user_name = request.context.get("user_name")
-            if user_name in sample_users:
+            if user_name in self.sample_users:
                 self.user = self.sample_users[user_name]
             else:
                 self.user = random.choice([0, 1, 2])
