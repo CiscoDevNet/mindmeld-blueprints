@@ -1,0 +1,436 @@
+mi hermana
+mi hermano
+mi mamá
+mi papá
+mi madre
+mi padre
+mi jefa
+mi jefe
+mi hermana mayor
+mi hermano mayor
+mi hermana menor
+mi hermano menor
+una hermana mayor
+un hermano mayor
+una hermana menor
+un hermano menor
+mi hermanita
+mi hermanito
+mi madrecita
+mi padrecito
+mi mami
+mi papi
+mi mamita
+mi papito
+mi mamacita
+mi papacito
+mi hermana tiene diabetes
+mi hermano tiene diabetes
+mi mamá tiene diabetes
+mi papá tiene diabetes
+mi madre tiene diabetes
+mi padre tiene diabetes
+mi jefa tiene diabetes
+mi jefe tiene diabetes
+mi hermana mayor tiene diabetes
+mi hermano mayor tiene diabetes
+mi hermana menor tiene diabetes
+mi hermano menor tiene diabetes
+una hermana mayor tiene diabetes
+un hermano mayor tiene diabetes
+una hermana menor tiene diabetes
+un hermano menor tiene diabetes
+mi hermanita tiene diabetes
+mi hermanito tiene diabetes
+mi madrecita tiene diabetes
+mi padrecito tiene diabetes
+mi mami tiene diabetes
+mi papi tiene diabetes
+mi mamita tiene diabetes
+mi papito tiene diabetes
+mi mamacita tiene diabetes
+mi papacito tiene diabetes
+mi hermana es diabética
+mi hermano es diabético
+mi mamá es diabética
+mi papá es diabético
+mi madre es diabética
+mi padre es diabético
+mi jefa es diabética
+mi jefe es diabético
+mi hermana mayor es diabética
+mi hermano mayor es diabético
+mi hermana menor es diabética
+mi hermano menor es diabético
+una hermana mayor es diabética
+un hermano mayor es diabético
+una hermana menor es diabética
+un hermano menor es diabético
+mi hermanita es diabética
+mi hermanito es diabético
+mi madrecita es diabética
+mi padrecito es diabético
+mi mami es diabética
+mi papi es diabético
+mi mamita es diabética
+mi papito es diabético
+mi mamacita es diabética
+mi papacito es diabético
+a mi hermana le diagnosticaron
+a mi hermano le diagnosticaron
+a mi mamá le diagnosticaron
+a mi papá le diagnosticaron
+a mi madre le diagnosticaron
+a mi padre le diagnosticaron
+a mi jefa le diagnosticaron
+a mi jefe le diagnosticaron
+a mi hermana mayor le diagnosticaron
+a mi hermano mayor le diagnosticaron
+a mi hermana menor le diagnosticaron
+a mi hermano menor le diagnosticaron
+a una hermana mayor le diagnosticaron
+a un hermano mayor le diagnosticaron
+a una hermana menor le diagnosticaron
+a un hermano menor le diagnosticaron
+a mi hermanita le diagnosticaron
+a mi hermanito le diagnosticaron
+a mi madrecita le diagnosticaron
+a mi padrecito le diagnosticaron
+a mi maa mi le diagnosticaron
+a mi papi le diagnosticaron
+a mi maa mita le diagnosticaron
+a mi papito le diagnosticaron
+a mi mamacita le diagnosticaron
+a mi papacito le diagnosticaron
+a mi hermana le diagnosticaron diabetes
+a mi hermano le diagnosticaron diabetes
+a mi mamá le diagnosticaron diabetes
+a mi papá le diagnosticaron diabetes
+a mi madre le diagnosticaron diabetes
+a mi padre le diagnosticaron diabetes
+a mi jefa le diagnosticaron diabetes
+a mi jefe le diagnosticaron diabetes
+a mi hermana mayor le diagnosticaron diabetes
+a mi hermano mayor le diagnosticaron diabetes
+a mi hermana menor le diagnosticaron diabetes
+a mi hermano menor le diagnosticaron diabetes
+a una hermana mayor le diagnosticaron diabetes
+a un hermano mayor le diagnosticaron diabetes
+a una hermana menor le diagnosticaron diabetes
+a un hermano menor le diagnosticaron diabetes
+a mi hermanita le diagnosticaron diabetes
+a mi hermanito le diagnosticaron diabetes
+a mi madrecita le diagnosticaron diabetes
+a mi padrecito le diagnosticaron diabetes
+a mi maa mi le diagnosticaron diabetes
+a mi papi le diagnosticaron diabetes
+a mi maa mita le diagnosticaron diabetes
+a mi papito le diagnosticaron diabetes
+a mi mamacita le diagnosticaron diabetes
+a mi papacito le diagnosticaron diabetes
+mi hermana tiene
+mi hermano tiene
+mi mamá tiene
+mi papá tiene
+mi madre tiene
+mi padre tiene
+mi jefa tiene
+mi jefe tiene
+mi hermana mayor tiene
+mi hermano mayor tiene
+mi hermana menor tiene
+mi hermano menor tiene
+una hermana mayor tiene
+un hermano mayor tiene
+una hermana menor tiene
+un hermano menor tiene
+mi hermanita tiene
+mi hermanito tiene
+mi madrecita tiene
+mi padrecito tiene
+mi mami tiene
+mi papi tiene
+mi mamita tiene
+mi papito tiene
+mi mamacita tiene
+mi papacito tiene
+mis papás son diabéticos
+tengo dos hermanos diabéticos
+ambos mi papá y mamá son diabéticos
+varias personas de mi familia tienen diabetes
+varias personas de mi familia son diabéticos
+varios familiares tienen
+varios familiares tienen diabetes
+varios familiares son diabéticos
+varios
+muchos
+le diagnosticaron diabetes a mi hermana
+le diagnosticaron diabetes a mi hermano
+le diagnosticaron diabetes a mi mamá
+le diagnosticaron diabetes a mi papá
+le diagnosticaron diabetes a mi madre
+le diagnosticaron diabetes a mi padre
+le diagnosticaron diabetes a mi jefa
+le diagnosticaron diabetes a mi jefe
+le diagnosticaron diabetes a mi hermana mayor
+le diagnosticaron diabetes a mi hermano mayor
+le diagnosticaron diabetes a mi hermana menor
+le diagnosticaron diabetes a mi hermano menor
+le diagnosticaron diabetes a una hermana mayor
+le diagnosticaron diabetes a un hermano mayor
+le diagnosticaron diabetes a una hermana menor
+le diagnosticaron diabetes a un hermano menor
+le diagnosticaron diabetes a mi hermanita
+le diagnosticaron diabetes a mi hermanito
+le diagnosticaron diabetes a mi madrecita
+le diagnosticaron diabetes a mi padrecito
+le diagnosticaron diabetes a mi mami
+le diagnosticaron diabetes a mi papi
+le diagnosticaron diabetes a mi mamita
+le diagnosticaron diabetes a mi papito
+le diagnosticaron diabetes a mi mamacita
+le diagnosticaron diabetes a mi papacito
+le diagnosticaron a mi hermana
+le diagnosticaron a mi hermano
+le diagnosticaron a mi mamá
+le diagnosticaron a mi papá
+le diagnosticaron a mi madre
+le diagnosticaron a mi padre
+le diagnosticaron a mi jefa
+le diagnosticaron a mi jefe
+le diagnosticaron a mi hermana mayor
+le diagnosticaron a mi hermano mayor
+le diagnosticaron a mi hermana menor
+le diagnosticaron a mi hermano menor
+le diagnosticaron a una hermana mayor
+le diagnosticaron a un hermano mayor
+le diagnosticaron a una hermana menor
+le diagnosticaron a un hermano menor
+le diagnosticaron a mi hermanita
+le diagnosticaron a mi hermanito
+le diagnosticaron a mi madrecita
+le diagnosticaron a mi padrecito
+le diagnosticaron a mi mami
+le diagnosticaron a mi papi
+le diagnosticaron a mi mamita
+le diagnosticaron a mi papito
+le diagnosticaron a mi mamacita
+le diagnosticaron a mi papacito
+mi hermana
+mi hermano
+mi mamá
+mi papá
+mi madre
+mi padre
+mi jefa
+mi jefe
+mi hermana mayor
+mi hermano mayor
+mi hermana menor
+mi hermano menor
+una hermana mayor
+un hermano mayor
+una hermana menor
+un hermano menor
+mi hermanita
+mi hermanito
+mi madrecita
+mi padrecito
+mi mami
+mi papi
+mi mamita
+mi papito
+mi mamacita
+mi papacito
+mi hermana tiene diabetes
+mi hermano tiene diabetes
+mi mamá tiene diabetes
+mi papá tiene diabetes
+mi madre tiene diabetes
+mi padre tiene diabetes
+mi jefa tiene diabetes
+mi jefe tiene diabetes
+mi hermana mayor tiene diabetes
+mi hermano mayor tiene diabetes
+mi hermana menor tiene diabetes
+mi hermano menor tiene diabetes
+una hermana mayor tiene diabetes
+un hermano mayor tiene diabetes
+una hermana menor tiene diabetes
+un hermano menor tiene diabetes
+mi hermanita tiene diabetes
+mi hermanito tiene diabetes
+mi madrecita tiene diabetes
+mi padrecito tiene diabetes
+mi mami tiene diabetes
+mi papi tiene diabetes
+mi mamita tiene diabetes
+mi papito tiene diabetes
+mi mamacita tiene diabetes
+mi papacito tiene diabetes
+mi hermana es diabética
+mi hermano es diabético
+mi mamá es diabética
+mi papá es diabético
+mi madre es diabética
+mi padre es diabético
+mi jefa es diabética
+mi jefe es diabético
+mi hermana mayor es diabética
+mi hermano mayor es diabético
+mi hermana menor es diabética
+mi hermano menor es diabético
+una hermana mayor es diabética
+un hermano mayor es diabético
+una hermana menor es diabética
+un hermano menor es diabético
+mi hermanita es diabética
+mi hermanito es diabético
+mi madrecita es diabética
+mi padrecito es diabético
+mi mami es diabética
+mi papi es diabético
+mi mamita es diabética
+mi papito es diabético
+mi mamacita es diabética
+mi papacito es diabético
+a mi hermana le diagnosticaron
+a mi hermano le diagnosticaron
+a mi mamá le diagnosticaron
+a mi papá le diagnosticaron
+a mi madre le diagnosticaron
+a mi padre le diagnosticaron
+a mi jefa le diagnosticaron
+a mi jefe le diagnosticaron
+a mi hermana mayor le diagnosticaron
+a mi hermano mayor le diagnosticaron
+a mi hermana menor le diagnosticaron
+a mi hermano menor le diagnosticaron
+a una hermana mayor le diagnosticaron
+a un hermano mayor le diagnosticaron
+a una hermana menor le diagnosticaron
+a un hermano menor le diagnosticaron
+a mi hermanita le diagnosticaron
+a mi hermanito le diagnosticaron
+a mi madrecita le diagnosticaron
+a mi padrecito le diagnosticaron
+a mi maa mi le diagnosticaron
+a mi papi le diagnosticaron
+a mi maa mita le diagnosticaron
+a mi papito le diagnosticaron
+a mi mamacita le diagnosticaron
+a mi papacito le diagnosticaron
+a mi hermana le diagnosticaron diabetes
+a mi hermano le diagnosticaron diabetes
+a mi mamá le diagnosticaron diabetes
+a mi papá le diagnosticaron diabetes
+a mi madre le diagnosticaron diabetes
+a mi padre le diagnosticaron diabetes
+a mi jefa le diagnosticaron diabetes
+a mi jefe le diagnosticaron diabetes
+a mi hermana mayor le diagnosticaron diabetes
+a mi hermano mayor le diagnosticaron diabetes
+a mi hermana menor le diagnosticaron diabetes
+a mi hermano menor le diagnosticaron diabetes
+a una hermana mayor le diagnosticaron diabetes
+a un hermano mayor le diagnosticaron diabetes
+a una hermana menor le diagnosticaron diabetes
+a un hermano menor le diagnosticaron diabetes
+a mi hermanita le diagnosticaron diabetes
+a mi hermanito le diagnosticaron diabetes
+a mi madrecita le diagnosticaron diabetes
+a mi padrecito le diagnosticaron diabetes
+a mi maa mi le diagnosticaron diabetes
+a mi papi le diagnosticaron diabetes
+a mi maa mita le diagnosticaron diabetes
+a mi papito le diagnosticaron diabetes
+a mi mamacita le diagnosticaron diabetes
+a mi papacito le diagnosticaron diabetes
+mi hermana tiene
+mi hermano tiene
+mi mamá tiene
+mi papá tiene
+mi madre tiene
+mi padre tiene
+mi jefa tiene
+mi jefe tiene
+mi hermana mayor tiene
+mi hermano mayor tiene
+mi hermana menor tiene
+mi hermano menor tiene
+una hermana mayor tiene
+un hermano mayor tiene
+una hermana menor tiene
+un hermano menor tiene
+mi hermanita tiene
+mi hermanito tiene
+mi madrecita tiene
+mi padrecito tiene
+mi mami tiene
+mi papi tiene
+mi mamita tiene
+mi papito tiene
+mi mamacita tiene
+mi papacito tiene
+mis papás son diabéticos
+tengo dos hermanos diabéticos
+ambos mi papá y mamá son diabéticos
+varias personas de mi familia tienen diabetes
+varias personas de mi familia son diabéticos
+varios familiares tienen
+varios familiares tienen diabetes
+varios familiares son diabéticos
+varios
+muchos
+le diagnosticaron diabetes a mi hermana
+le diagnosticaron diabetes a mi hermano
+le diagnosticaron diabetes a mi mamá
+le diagnosticaron diabetes a mi papá
+le diagnosticaron diabetes a mi madre
+le diagnosticaron diabetes a mi padre
+le diagnosticaron diabetes a mi jefa
+le diagnosticaron diabetes a mi jefe
+le diagnosticaron diabetes a mi hermana mayor
+le diagnosticaron diabetes a mi hermano mayor
+le diagnosticaron diabetes a mi hermana menor
+le diagnosticaron diabetes a mi hermano menor
+le diagnosticaron diabetes a una hermana mayor
+le diagnosticaron diabetes a un hermano mayor
+le diagnosticaron diabetes a una hermana menor
+le diagnosticaron diabetes a un hermano menor
+le diagnosticaron diabetes a mi hermanita
+le diagnosticaron diabetes a mi hermanito
+le diagnosticaron diabetes a mi madrecita
+le diagnosticaron diabetes a mi padrecito
+le diagnosticaron diabetes a mi mami
+le diagnosticaron diabetes a mi papi
+le diagnosticaron diabetes a mi mamita
+le diagnosticaron diabetes a mi papito
+le diagnosticaron diabetes a mi mamacita
+le diagnosticaron diabetes a mi papacito
+le diagnosticaron a mi hermana
+le diagnosticaron a mi hermano
+le diagnosticaron a mi mamá
+le diagnosticaron a mi papá
+le diagnosticaron a mi madre
+le diagnosticaron a mi padre
+le diagnosticaron a mi jefa
+le diagnosticaron a mi jefe
+le diagnosticaron a mi hermana mayor
+le diagnosticaron a mi hermano mayor
+le diagnosticaron a mi hermana menor
+le diagnosticaron a mi hermano menor
+le diagnosticaron a una hermana mayor
+le diagnosticaron a un hermano mayor
+le diagnosticaron a una hermana menor
+le diagnosticaron a un hermano menor
+le diagnosticaron a mi hermanita
+le diagnosticaron a mi hermanito
+le diagnosticaron a mi madrecita
+le diagnosticaron a mi padrecito
+le diagnosticaron a mi mami
+le diagnosticaron a mi papi
+le diagnosticaron a mi mamita
+le diagnosticaron a mi papito
+le diagnosticaron a mi mamacita
+le diagnosticaron a mi papacito

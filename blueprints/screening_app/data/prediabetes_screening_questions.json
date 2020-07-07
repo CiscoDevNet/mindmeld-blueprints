@@ -20,13 +20,13 @@
 	{
 		"id":"4",
 		"question_number":"4",
-		"text":"Tiene algún familiar imediatio que haya sido diagnosticado con diabetes? Estos incluyen padre, madre, hermano o hermana.",
+		"text":"Tiene algún familiar inmediato que haya sido diagnosticado con diabetes? Estos incluyen padre, madre, hermano o hermana.",
 		"type":"Binary"
 	},
 	{
 		"id":"5",
 		"question_number":"5",
-		"text":"Alguna vez le han diagnositicado con tener presión alta?",
+		"text":"Alguna vez le han diagnosticado con tener presión alta?",
 		"type":"Binary"
 	},
 	{
