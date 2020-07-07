@@ -5,9 +5,9 @@ import sys
 from .commons import GetTMDB
 
 sys.path.append('..')
-from video_task import VideoDataProcessingTask  # noqa: F401
-from libs.tasks import RequestAPI  # noqa: F401
-from utils import load_plain_json  # noqa: F401
+from video_task import VideoDataProcessingTask  # noqa: F401,E402
+from libs.tasks import RequestAPI  # noqa: F401,E402
+from utils import load_plain_json  # noqa: F401,E402
 
 
 class GetEpisode(GetTMDB):

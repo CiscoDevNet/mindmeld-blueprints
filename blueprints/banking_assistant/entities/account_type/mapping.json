@@ -1,0 +1,33 @@
+{
+    "entities": [
+        {
+            "whitelist": [
+                "saving",
+                "save",
+                "svings",
+                "shavings"
+            ],
+            "cname": "savings"
+        },
+        {
+            "whitelist": [
+                "checking",
+                "cheking",
+                "chkings",
+                "chunkings",
+                "checkingz",
+                "checkings"
+            ],
+            "cname": "checking"
+        },
+        {
+            "whitelist": [
+        		"credit cards",
+        		"cred",
+        		"credit",
+        		"credit card"
+            ],
+            "cname": "credit"
+        }
+    ]
+}

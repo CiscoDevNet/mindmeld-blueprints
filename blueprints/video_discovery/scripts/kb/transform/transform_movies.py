@@ -8,8 +8,8 @@ from .commons import TransformDocuments
 from .constants import TYPE_MOVIE
 
 sys.path.append('..')
-from video_task import VideoDataProcessingTask  # noqa: F401
-from utils import load_json  # noqa: F401
+from video_task import VideoDataProcessingTask  # noqa: F401,E402
+from utils import load_json  # noqa: F401,E402
 
 
 class TransformMovies(TransformDocuments):

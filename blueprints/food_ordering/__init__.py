@@ -346,7 +346,7 @@ def _resolve_dish(dish_entity, selected_restaurant):
         dish['options'] = list(filter(None, options))
 
     # Set default quantity of 1 for the order, if it hasn't been explicitly specified by the user.
-    if dish and'quantity' not in dish:
+    if dish and 'quantity' not in dish:
         dish['quantity'] = 1
 
     return dish

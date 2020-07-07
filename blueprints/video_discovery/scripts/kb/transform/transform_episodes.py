@@ -7,9 +7,9 @@ from .commons import get_directors, get_names, get_poster_img_url, get_release_d
 from .constants import TYPE_EPISODE, TYPE_TV
 
 sys.path.append('..')
-from video_task import VideoDataProcessingTask  # noqa: F401
-from utils import load_json  # noqa: F401
-from libs.tasks import ReadLocalDir  # noqa: F401
+from video_task import VideoDataProcessingTask  # noqa: F401,E402
+from utils import load_json  # noqa: F401,E402
+from libs.tasks import ReadLocalDir  # noqa: F401,E402
 
 
 class TransformEpisodes(VideoDataProcessingTask):
