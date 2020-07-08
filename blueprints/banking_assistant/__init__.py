@@ -180,7 +180,8 @@ balance_form = {
         "back",
         "help",
         "stop it",
-        "go back" "new task",
+        "go back",
+        "new task",
         "other",
         "return",
         "end",
@@ -340,7 +341,7 @@ def faq_activate_creditcard_handler(request, responder):
     responder.slots["email"] = user.get("email")
     replies = [
         "You can activate your card by clicking on the link sent to your email"
-        " at {email} or you can call us at 1-800-432-3117."
+        " at {email} or you can call us at 1-800-555-7456."
     ]
     responder.reply(replies)
 
@@ -446,8 +447,8 @@ def pay_creditcard_handler(request, responder):
             )
             responder.reply(
                 "What amount do you want to pay off? "
-                "You can choose to make a minimum payment of ${min} up"
-                " to the total balance of ${total_balance}."
+                "You can choose to make a minimum due payment of ${min} up"
+                " to the total balance of ${total_balance} or any other amount."
             )
     else:
         responder.reply(
