@@ -47,7 +47,10 @@ class User:
         return self.data[key]
 
     def check_value(self, responder):
-        return self.get(responder.slots["origin"]) >= responder.slots["amount"]
+        try:
+            return self.get(responder.slots["origin"]) >= responder.slots["amount"]
+        except TypeError:
+            return False
 
 
 def _credit_amount_helper(request, responder, entity, user):
@@ -416,14 +419,17 @@ def transfer_money_handler(request, responder):
             user.get(responder.slots["dest"]) + responder.slots["amount"],
         )
     else:
-        responder.reply(
-            [
-                "You do not have ${amount:.2f} "
-                "in your {origin} account. "
-                "The max you can transfer from your {origin} is $"
-                + format(user.get(responder.slots["origin"]), ".2f")
-            ]
-        )
+        try:
+            responder.reply(
+                [
+                    "You do not have ${amount:.2f} "
+                    "in your {origin} account. "
+                    "The max you can transfer from your {origin} is $"
+                    + format(user.get(responder.slots["origin"]), ".2f")
+                ]
+            )
+        except ValueError:
+            responder.reply('The value entered is not valid, please try again.')
 
 
 @app.handle(intent="pay_creditcard")
