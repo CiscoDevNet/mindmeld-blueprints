@@ -47,7 +47,10 @@ class User:
         return self.data[key]
 
     def check_value(self, responder):
-        return self.get(responder.slots["origin"]) >= responder.slots["amount"]
+        try:
+            return self.get(responder.slots["origin"]) >= responder.slots["amount"]
+        except TypeError:
+            return False
 
 
 def _credit_amount_helper(request, responder, entity, user):
@@ -180,7 +183,8 @@ balance_form = {
         "back",
         "help",
         "stop it",
-        "go back" "new task",
+        "go back",
+        "new task",
         "other",
         "return",
         "end",
@@ -340,7 +344,7 @@ def faq_activate_creditcard_handler(request, responder):
     responder.slots["email"] = user.get("email")
     replies = [
         "You can activate your card by clicking on the link sent to your email"
-        " at {email} or you can call us at 1-800-432-3117."
+        " at {email} or you can call us at 1-800-555-7456."
     ]
     responder.reply(replies)
 
@@ -415,14 +419,17 @@ def transfer_money_handler(request, responder):
             user.get(responder.slots["dest"]) + responder.slots["amount"],
         )
     else:
-        responder.reply(
-            [
-                "You do not have ${amount:.2f} "
-                "in your {origin} account. "
-                "The max you can transfer from your {origin} is $"
-                + format(user.get(responder.slots["origin"]), ".2f")
-            ]
-        )
+        try:
+            responder.reply(
+                [
+                    "You do not have ${amount:.2f} "
+                    "in your {origin} account. "
+                    "The max you can transfer from your {origin} is $"
+                    + format(user.get(responder.slots["origin"]), ".2f")
+                ]
+            )
+        except ValueError:
+            responder.reply('The value entered is not valid, please try again.')
 
 
 @app.handle(intent="pay_creditcard")
@@ -446,8 +453,8 @@ def pay_creditcard_handler(request, responder):
             )
             responder.reply(
                 "What amount do you want to pay off? "
-                "You can choose to make a minimum payment of ${min} up"
-                " to the total balance of ${total_balance}."
+                "You can choose to make a minimum due payment of ${min} up"
+                " to the total balance of ${total_balance} or any other amount."
             )
     else:
         responder.reply(
