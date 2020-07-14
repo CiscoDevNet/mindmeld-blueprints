@@ -5,9 +5,9 @@
          "cname":"Kilogramos",
          "whitelist":[
             "kilos",
-			"kilo",
+			   "kilo",
             "kg",
-			"kgs",
+			   "kgs",
             "kilitos"
          ]
       },
@@ -17,7 +17,7 @@
          "whitelist":[
             "lbs",
             "pound",
-			"pounds"
+			   "pounds"
          ]
       },
       {
@@ -48,7 +48,7 @@
          "cname":"Pulgadas",
          "whitelist":[
             "in",
-			"inches"
+			   "inches"
          ]
       }
    ]

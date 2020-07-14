@@ -1,3 +1,5 @@
+from mindmeld.core import FormEntity
+
 Q_AGE = "1"
 Q_GENDER = "2"
 Q_GEST = "3"
@@ -128,4 +130,55 @@ def calculate_risk_score(answers):
     
     return score
     
-    
+
+form_prediabetes = {
+    'entities':[
+        FormEntity(
+            entity='sys_number',
+            role='age',
+            responses=['¿Cuál es su edad?']
+        ),
+        # FormEntity(
+        #     entity='gender',
+        #     responses=['¿Es de género masculino o femenino?']
+        # ),
+        # FormEntity(
+        #     entity='binary',
+        #     role='family_history',
+        #     responses=['¿Tiene algún familiar inmediato que haya sido diagnosticado con diabetes? Estos incluyen padre, madre, hermano o hermana.'],
+        # ),
+        # FormEntity(
+        #     entity='binary',
+        #     role='hbp',
+        #     responses=['¿Alguna vez le han diagnosticado con tener presión alta?'],
+        # ),
+        # FormEntity(
+        #     entity='binary',
+        #     role='active',
+        #     responses=['¿Realiza actividad física con regularidad?'],
+        # ),
+        # FormEntity(
+        #     entity='sys_number',
+        #     role='height',
+        #     responses=['¿Cuánto mide en estatura?']
+        # ),
+        # FormEntity(
+        #     entity='unit',
+        #     role='height',
+        #     responses=['¿Su respuesta fue en metros o pies?']
+        # ),
+        # FormEntity(
+        #     entity='sys_number',
+        #     role='weight',
+        #     responses=['¿Cuál es su peso?']
+        # ),
+        # FormEntity(
+        #     entity='unit',
+        #     role='weight',
+        #     responses=['¿Su respuesta fue en kilos o libras?']
+        # ),
+    ],
+    'max_retries': 3,
+    'exit_keys': ['cancelar', 'salir'],
+    'exit_msg': 'Disculpe, no le he podido entender. Por favor intente de nuevo.'
+}   
