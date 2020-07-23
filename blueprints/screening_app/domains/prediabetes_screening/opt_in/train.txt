@@ -162,3 +162,1480 @@ que inicien las preguntas
 iniciemos con las preguntas
 que empiecen las preguntas
 empecemos con las preguntas
+{hombre|gender}
+{niño|gender}
+{masculino|gender}
+{macho|gender}
+{chico|gender}
+{muchacho|gender}
+{male|gender}
+{man|gender}
+{boy|gender}
+{guy|gender}
+{niñito|gender}
+{varon|gender}
+{hombrecito|gender}
+{varoncito|gender}
+{machito|gender}
+{muchachito|gender}
+{machin|gender}
+{mujer|gender}
+{niña|gender}
+{femenino|gender}
+{hembra|gender}
+{chica|gender}
+{muchacha|gender}
+{female|gender}
+{woman|gender}
+{girl|gender}
+{gal|gender}
+{femenina|gender}
+{niñita|gender}
+{mujercita|gender}
+{muchachita|gender}
+{hembrita|gender}
+{dama|gender}
+{damita|gender}
+{damicela|gender}
+Yo soy {hombre|gender}
+Yo soy {niño|gender}
+Yo soy {masculino|gender}
+Yo soy {macho|gender}
+Yo soy {chico|gender}
+Yo soy {muchacho|gender}
+Yo soy {male|gender}
+Yo soy {man|gender}
+Yo soy {boy|gender}
+Yo soy {guy|gender}
+Yo soy {niñito|gender}
+Yo soy {varon|gender}
+Yo soy {hombrecito|gender}
+Yo soy {varoncito|gender}
+Yo soy {machito|gender}
+Yo soy {muchachito|gender}
+Yo soy {machin|gender}
+Yo soy {mujer|gender}
+Yo soy {niña|gender}
+Yo soy {femenino|gender}
+Yo soy {hembra|gender}
+Yo soy {chica|gender}
+Yo soy {muchacha|gender}
+Yo soy {female|gender}
+Yo soy {woman|gender}
+Yo soy {girl|gender}
+Yo soy {gal|gender}
+Yo soy {femenina|gender}
+Yo soy {niñita|gender}
+Yo soy {mujercita|gender}
+Yo soy {muchachita|gender}
+Yo soy {hembrita|gender}
+Yo soy {dama|gender}
+Yo soy {damita|gender}
+Yo soy {damicela|gender}
+Soy {hombre|gender}
+Soy {niño|gender}
+Soy {masculino|gender}
+Soy {macho|gender}
+Soy {chico|gender}
+Soy {muchacho|gender}
+Soy {male|gender}
+Soy {man|gender}
+Soy {boy|gender}
+Soy {guy|gender}
+Soy {niñito|gender}
+Soy {varon|gender}
+Soy {hombrecito|gender}
+Soy {varoncito|gender}
+Soy {machito|gender}
+Soy {muchachito|gender}
+Soy {machin|gender}
+Soy {mujer|gender}
+Soy {niña|gender}
+Soy {femenino|gender}
+Soy {hembra|gender}
+Soy {chica|gender}
+Soy {muchacha|gender}
+Soy {female|gender}
+Soy {woman|gender}
+Soy {girl|gender}
+Soy {gal|gender}
+Soy {femenina|gender}
+Soy {niñita|gender}
+Soy {mujercita|gender}
+Soy {muchachita|gender}
+Soy {hembrita|gender}
+Soy {dama|gender}
+Soy {damita|gender}
+Soy {damicela|gender}
+Me identifico como {hombre|gender}
+Me identifico como {niño|gender}
+Me identifico como {masculino|gender}
+Me identifico como {macho|gender}
+Me identifico como {chico|gender}
+Me identifico como {muchacho|gender}
+Me identifico como {male|gender}
+Me identifico como {man|gender}
+Me identifico como {boy|gender}
+Me identifico como {guy|gender}
+Me identifico como {niñito|gender}
+Me identifico como {varon|gender}
+Me identifico como {hombrecito|gender}
+Me identifico como {varoncito|gender}
+Me identifico como {machito|gender}
+Me identifico como {muchachito|gender}
+Me identifico como {machin|gender}
+Me identifico como {mujer|gender}
+Me identifico como {niña|gender}
+Me identifico como {femenino|gender}
+Me identifico como {hembra|gender}
+Me identifico como {chica|gender}
+Me identifico como {muchacha|gender}
+Me identifico como {female|gender}
+Me identifico como {woman|gender}
+Me identifico como {girl|gender}
+Me identifico como {gal|gender}
+Me identifico como {femenina|gender}
+Me identifico como {niñita|gender}
+Me identifico como {mujercita|gender}
+Me identifico como {muchachita|gender}
+Me identifico como {hembrita|gender}
+Me identifico como {dama|gender}
+Me identifico como {damita|gender}
+Me identifico como {damicela|gender}
+Yo soy un {hombre|gender}
+Yo soy un {niño|gender}
+Yo soy un {masculino|gender}
+Yo soy un {macho|gender}
+Yo soy un {chico|gender}
+Yo soy un {muchacho|gender}
+Yo soy un {male|gender}
+Yo soy un {man|gender}
+Yo soy un {boy|gender}
+Yo soy un {guy|gender}
+Yo soy un {niñito|gender}
+Yo soy un {varon|gender}
+Yo soy un {hombrecito|gender}
+Yo soy un {varoncito|gender}
+Yo soy un {machito|gender}
+Yo soy un {muchachito|gender}
+Yo soy un {machin|gender}
+Soy un {hombre|gender}
+Soy un {niño|gender}
+Soy un {masculino|gender}
+Soy un {macho|gender}
+Soy un {chico|gender}
+Soy un {muchacho|gender}
+Soy un {male|gender}
+Soy un {man|gender}
+Soy un {boy|gender}
+Soy un {guy|gender}
+Soy un {niñito|gender}
+Soy un {varon|gender}
+Soy un {hombrecito|gender}
+Soy un {varoncito|gender}
+Soy un {machito|gender}
+Soy un {muchachito|gender}
+Soy un {machin|gender}
+Me identifico como un {hombre|gender}
+Me identifico como un {niño|gender}
+Me identifico como un {masculino|gender}
+Me identifico como un {macho|gender}
+Me identifico como un {chico|gender}
+Me identifico como un {muchacho|gender}
+Me identifico como un {male|gender}
+Me identifico como un {man|gender}
+Me identifico como un {boy|gender}
+Me identifico como un {guy|gender}
+Me identifico como un {niñito|gender}
+Me identifico como un {varon|gender}
+Me identifico como un {hombrecito|gender}
+Me identifico como un {varoncito|gender}
+Me identifico como un {machito|gender}
+Me identifico como un {muchachito|gender}
+Me identifico como un {machin|gender}
+Yo soy una {mujer|gender}
+Yo soy una {niña|gender}
+Yo soy una {femenino|gender}
+Yo soy una {hembra|gender}
+Yo soy una {chica|gender}
+Yo soy una {muchacha|gender}
+Yo soy una {female|gender}
+Yo soy una {woman|gender}
+Yo soy una {girl|gender}
+Yo soy una {gal|gender}
+Yo soy una {femenina|gender}
+Yo soy una {niñita|gender}
+Yo soy una {mujercita|gender}
+Yo soy una {muchachita|gender}
+Yo soy una {hembrita|gender}
+Yo soy una {dama|gender}
+Yo soy una {damita|gender}
+Yo soy una {damicela|gender}
+Soy una {mujer|gender}
+Soy una {niña|gender}
+Soy una {femenino|gender}
+Soy una {hembra|gender}
+Soy una {chica|gender}
+Soy una {muchacha|gender}
+Soy una {female|gender}
+Soy una {woman|gender}
+Soy una {girl|gender}
+Soy una {gal|gender}
+Soy una {femenina|gender}
+Soy una {niñita|gender}
+Soy una {mujercita|gender}
+Soy una {muchachita|gender}
+Soy una {hembrita|gender}
+Soy una {dama|gender}
+Soy una {damita|gender}
+Soy una {damicela|gender}
+Me identifico como una {mujer|gender}
+Me identifico como una {niña|gender}
+Me identifico como una {femenino|gender}
+Me identifico como una {hembra|gender}
+Me identifico como una {chica|gender}
+Me identifico como una {muchacha|gender}
+Me identifico como una {female|gender}
+Me identifico como una {woman|gender}
+Me identifico como una {girl|gender}
+Me identifico como una {gal|gender}
+Me identifico como una {femenina|gender}
+Me identifico como una {niñita|gender}
+Me identifico como una {mujercita|gender}
+Me identifico como una {muchachita|gender}
+Me identifico como una {hembrita|gender}
+Me identifico como una {dama|gender}
+Me identifico como una {damita|gender}
+Me identifico como una {damicela|gender}
+{45|sys_number}
+Tengo {45|sys_number}
+Yo tengo {45|sys_number}
+Mi edad es {45|sys_number}
+{45|sys_number} años
+Tengo {45|sys_number} años
+Yo tengo {45|sys_number} años
+Mi edad es {45|sys_number} años
+Voy a cumplir {45|sys_number}
+Voy a cumplir {45|sys_number} años
+Cumplo {45|sys_number}
+Cumplo {45|sys_number} años
+{45|sys_number} de edad
+Tengo {45|sys_number} de edad
+Yo tengo {45|sys_number} de edad
+{45|sys_number} años de edad
+Tengo {45|sys_number} años de edad
+Yo tengo {45|sys_number} años de edad
+Voy a cumplir {45|sys_number} años de edad
+Cumplo {45|sys_number} años de edadAcabo de cumplir {45|sys_number}
+Acabo de cumplir {45|sys_number} años
+Acabo de cumplir {45|sys_number} años de edad
+Hoy cumplo {45|sys_number}
+Hoy cumplo {45|sys_number} años
+Hoy cumplo {45|sys_number} años de edad
+Hoy cumplí {45|sys_number}
+Hoy cumplí {45|sys_number} años
+Hoy cumplí {45|sys_number} años de edad
+Cumplí {45|sys_number}
+Cumplí {45|sys_number} años
+Cumplí {45|sys_number} años de edad
+Voy a tener {45|sys_number}
+Voy a tener {45|sys_number} años
+Voy a tener {45|sys_number} años de edad
+Voy a tener {45|sys_number} de edad
+Ayer cumplí {45|sys_number}
+Ayer cumplí {45|sys_number} años
+Ayer cumplí {45|sys_number} años de edad
+{37|sys_number}
+Tengo {37|sys_number}
+Yo tengo {37|sys_number}
+Mi edad es {37|sys_number}
+{37|sys_number} añitos
+Tengo {37|sys_number} añitos
+Yo tengo {37|sys_number} añitos
+Mi edad es {37|sys_number} añitos
+Voy a cumplir {37|sys_number}
+Voy a cumplir {37|sys_number} añitos
+Cumplo {37|sys_number}
+Cumplo {37|sys_number} añitos
+{37|sys_number} de edad
+Tengo {37|sys_number} de edad
+Yo tengo {37|sys_number} de edad
+{37|sys_number} añitos de edad
+Tengo {37|sys_number} añitos de edad
+Yo tengo {37|sys_number} añitos de edad
+Voy a cumplir {37|sys_number} añitos de edad
+Cumplo {37|sys_number} añitos de edadAcabo de cumplir {37|sys_number}
+Acabo de cumplir {37|sys_number} añitos
+Acabo de cumplir {37|sys_number} añitos de edad
+Hoy cumplo {37|sys_number}
+Hoy cumplo {37|sys_number} añitos
+Hoy cumplo {37|sys_number} añitos de edad
+Hoy cumplí {37|sys_number}
+Hoy cumplí {37|sys_number} añitos
+Hoy cumplí {37|sys_number} añitos de edad
+Cumplí {37|sys_number}
+Cumplí {37|sys_number} añitos
+Cumplí {37|sys_number} añitos de edad
+Voy a tener {37|sys_number}
+Voy a tener {37|sys_number} añitos
+Voy a tener {37|sys_number} añitos de edad
+Voy a tener {37|sys_number} de edad
+Ayer cumplí {37|sys_number}
+Ayer cumplí {37|sys_number} añitos
+Ayer cumplí {37|sys_number} añitos de edad
+{37|sys_number}
+Tengo {37|sys_number}
+Yo tengo {37|sys_number}
+Mi edad es {37|sys_number}
+{37|sys_number} añotes
+Tengo {37|sys_number} añotes
+Yo tengo {37|sys_number} añotes
+Mi edad es {37|sys_number} añotes
+Voy a cumplir {37|sys_number}
+Voy a cumplir {37|sys_number} añotes
+Cumplo {37|sys_number}
+Cumplo {37|sys_number} añotes
+{37|sys_number} de edad
+Tengo {37|sys_number} de edad
+Yo tengo {37|sys_number} de edad
+{37|sys_number} añotes de edad
+Tengo {37|sys_number} añotes de edad
+Yo tengo {37|sys_number} añotes de edad
+Voy a cumplir {37|sys_number} añotes de edad
+Cumplo {37|sys_number} añotes de edadAcabo de cumplir {37|sys_number}
+Acabo de cumplir {37|sys_number} añotes
+Acabo de cumplir {37|sys_number} añotes de edad
+Hoy cumplo {37|sys_number}
+Hoy cumplo {37|sys_number} añotes
+Hoy cumplo {37|sys_number} añotes de edad
+Hoy cumplí {37|sys_number}
+Hoy cumplí {37|sys_number} añotes
+Hoy cumplí {37|sys_number} añotes de edad
+Cumplí {37|sys_number}
+Cumplí {37|sys_number} añotes
+Cumplí {37|sys_number} añotes de edad
+Voy a tener {37|sys_number}
+Voy a tener {37|sys_number} añotes
+Voy a tener {37|sys_number} añotes de edad
+Voy a tener {37|sys_number} de edad
+Ayer cumplí {37|sys_number}
+Ayer cumplí {37|sys_number} añotes
+Ayer cumplí {37|sys_number} añotes de edad
+{9|sys_number}
+Tengo {9|sys_number}
+Yo tengo {9|sys_number}
+Mi edad es {9|sys_number}
+{9|sys_number} años
+Tengo {9|sys_number} años
+Yo tengo {9|sys_number} años
+Mi edad es {9|sys_number} años
+Voy a cumplir {9|sys_number}
+Voy a cumplir {9|sys_number} años
+Cumplo {9|sys_number}
+Cumplo {9|sys_number} años
+{9|sys_number} de edad
+Tengo {9|sys_number} de edad
+Yo tengo {9|sys_number} de edad
+{9|sys_number} años de edad
+Tengo {9|sys_number} años de edad
+Yo tengo {9|sys_number} años de edad
+Voy a cumplir {9|sys_number} años de edad
+Cumplo {9|sys_number} años de edadAcabo de cumplir {9|sys_number}
+Acabo de cumplir {9|sys_number} años
+Acabo de cumplir {9|sys_number} años de edad
+Hoy cumplo {9|sys_number}
+Hoy cumplo {9|sys_number} años
+Hoy cumplo {9|sys_number} años de edad
+Hoy cumplí {9|sys_number}
+Hoy cumplí {9|sys_number} años
+Hoy cumplí {9|sys_number} años de edad
+Cumplí {9|sys_number}
+Cumplí {9|sys_number} años
+Cumplí {9|sys_number} años de edad
+Voy a tener {9|sys_number}
+Voy a tener {9|sys_number} años
+Voy a tener {9|sys_number} años de edad
+Voy a tener {9|sys_number} de edad
+Ayer cumplí {9|sys_number}
+Ayer cumplí {9|sys_number} años
+Ayer cumplí {9|sys_number} años de edad
+{5|sys_number}
+Tengo {5|sys_number}
+Yo tengo {5|sys_number}
+Mi edad es {5|sys_number}
+{5|sys_number} añitos
+Tengo {5|sys_number} añitos
+Yo tengo {5|sys_number} añitos
+Mi edad es {5|sys_number} añitos
+Voy a cumplir {5|sys_number}
+Voy a cumplir {5|sys_number} añitos
+Cumplo {5|sys_number}
+Cumplo {5|sys_number} añitos
+{5|sys_number} de edad
+Tengo {5|sys_number} de edad
+Yo tengo {5|sys_number} de edad
+{5|sys_number} añitos de edad
+Tengo {5|sys_number} añitos de edad
+Yo tengo {5|sys_number} añitos de edad
+Voy a cumplir {5|sys_number} añitos de edad
+Cumplo {5|sys_number} añitos de edadAcabo de cumplir {5|sys_number}
+Acabo de cumplir {5|sys_number} añitos
+Acabo de cumplir {5|sys_number} añitos de edad
+Hoy cumplo {5|sys_number}
+Hoy cumplo {5|sys_number} añitos
+Hoy cumplo {5|sys_number} añitos de edad
+Hoy cumplí {5|sys_number}
+Hoy cumplí {5|sys_number} añitos
+Hoy cumplí {5|sys_number} añitos de edad
+Cumplí {5|sys_number}
+Cumplí {5|sys_number} añitos
+Cumplí {5|sys_number} añitos de edad
+Voy a tener {5|sys_number}
+Voy a tener {5|sys_number} añitos
+Voy a tener {5|sys_number} añitos de edad
+Voy a tener {5|sys_number} de edad
+Ayer cumplí {5|sys_number}
+Ayer cumplí {5|sys_number} añitos
+Ayer cumplí {5|sys_number} añitos de edad
+{5|sys_number}
+Tengo {5|sys_number}
+Yo tengo {5|sys_number}
+Mi edad es {5|sys_number}
+{5|sys_number} añotes
+Tengo {5|sys_number} añotes
+Yo tengo {5|sys_number} añotes
+Mi edad es {5|sys_number} añotes
+Voy a cumplir {5|sys_number}
+Voy a cumplir {5|sys_number} añotes
+Cumplo {5|sys_number}
+Cumplo {5|sys_number} añotes
+{5|sys_number} de edad
+Tengo {5|sys_number} de edad
+Yo tengo {5|sys_number} de edad
+{5|sys_number} añotes de edad
+Tengo {5|sys_number} añotes de edad
+Yo tengo {5|sys_number} añotes de edad
+Voy a cumplir {5|sys_number} añotes de edad
+Cumplo {5|sys_number} añotes de edadAcabo de cumplir {5|sys_number}
+Acabo de cumplir {5|sys_number} añotes
+Acabo de cumplir {5|sys_number} añotes de edad
+Hoy cumplo {5|sys_number}
+Hoy cumplo {5|sys_number} añotes
+Hoy cumplo {5|sys_number} añotes de edad
+Hoy cumplí {5|sys_number}
+Hoy cumplí {5|sys_number} añotes
+Hoy cumplí {5|sys_number} añotes de edad
+Cumplí {5|sys_number}
+Cumplí {5|sys_number} añotes
+Cumplí {5|sys_number} añotes de edad
+Voy a tener {5|sys_number}
+Voy a tener {5|sys_number} añotes
+Voy a tener {5|sys_number} añotes de edad
+Voy a tener {5|sys_number} de edad
+Ayer cumplí {5|sys_number}
+Ayer cumplí {5|sys_number} añotes
+Ayer cumplí {5|sys_number} añotes de edad
+{1|sys_number}
+{1|sys_number} de altura
+{1|sys_number} de estatura
+{1|sys_number} {metro|unit}
+{1|sys_number} {metro|unit} de altura
+{1|sys_number} {metro|unit} de estatura
+{1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit}
+{1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de altura
+{1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de estatura
+{1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit}
+{1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de altura
+{1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mido {1|sys_number}
+Mi estatura es {1|sys_number}
+Mi altura es {1|sys_number}
+Tengo {1|sys_number} de altura
+Tengo {1|sys_number} de estatura
+Mido {1|sys_number} de altura
+Mido {1|sys_number} de estatura
+Yo mido {1|sys_number} de altura
+Yo mido {1|sys_number} de estatura
+Yo tengo {1|sys_number} de altura
+Yo tengo {1|sys_number} de estatura
+Mido {1|sys_number} {metro|unit}
+Mi estatura es {1|sys_number} {metro|unit}
+Mi altura es {1|sys_number} {metro|unit}
+Yo mido {1|sys_number} {metro|unit}
+Tengo {1|sys_number} {metro|unit} de altura
+Tengo {1|sys_number} {metro|unit} de estatura
+Mido {1|sys_number} {metro|unit} de altura
+Mido {1|sys_number} {metro|unit} de estatura
+Yo mido {1|sys_number} {metro|unit} de altura
+Yo mido {1|sys_number} {metro|unit} de estatura
+Yo tengo {1|sys_number} {metro|unit} de altura
+Yo tengo {1|sys_number} {metro|unit} de estatura
+Mido {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit}
+Mi estatura es {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit}
+Mi altura es {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit}
+Yo mido {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit}
+Tengo {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de altura
+Tengo {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de estatura
+Mido {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de altura
+Mido {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de estatura
+Yo mido {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de altura
+Yo mido {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de estatura
+Yo tengo {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de altura
+Yo tengo {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit} de estatura
+Mido {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit}
+Mi estatura es {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit}
+Mi altura es {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit}
+Yo mido {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit}
+Tengo {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de altura
+Tengo {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mido {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de altura
+Mido {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de estatura
+Yo mido {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de altura
+Yo mido {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de estatura
+Yo tengo {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de altura
+Yo tengo {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mi estatura es de {1|sys_number}
+Mi altura es de {1|sys_number}
+Mi estatura es de {1|sys_number} {metro|unit}
+Mi altura es de {1|sys_number} {metro|unit}
+Mi estatura es de {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit}
+Mi altura es de {1|sys_number} {metro|unit} {1|sys_number} {centimetro|unit}
+Mi estatura es de {1|sys_number} {metro|unit} {1|sys_number}
+Mi altura es de {1|sys_number} {metro|unit} {1|sys_number}
+Mi estatura es de {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit}
+Mi altura es de {1|sys_number} {metro|unit} y {1|sys_number} {centimetro|unit}
+Mido {1|sys_number} {metro|unit} {1|sys_number}
+Mi estatura es {1|sys_number} {metro|unit} {1|sys_number}
+Mi altura es {1|sys_number} {metro|unit} {1|sys_number}
+Yo mido {1|sys_number} {metro|unit} {1|sys_number}
+Tengo {1|sys_number} {metro|unit} {1|sys_number} de altura
+Tengo {1|sys_number} {metro|unit} {1|sys_number} de estatura
+Mido {1|sys_number} {metro|unit} {1|sys_number} de altura
+Mido {1|sys_number} {metro|unit} {1|sys_number} de estatura
+Yo mido {1|sys_number} {metro|unit} {1|sys_number} de altura
+Yo mido {1|sys_number} {metro|unit} {1|sys_number} de estatura
+Yo tengo {1|sys_number} {metro|unit} {1|sys_number} de altura
+Yo tengo {1|sys_number} {metro|unit} {1|sys_number} de estatura
+{1|sys_number} de altura
+{1|sys_number} de estatura
+{1|sys_number} {metro|unit}
+{1|sys_number} {metro|unit} de altura
+{1|sys_number} {metro|unit} de estatura
+{1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit}
+{1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de altura
+{1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de estatura
+{1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit}
+{1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de altura
+{1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de estatura
+Mido {1|sys_number}
+Mi estatura es {1|sys_number}
+Mi altura es {1|sys_number}
+Tengo {1|sys_number} de altura
+Tengo {1|sys_number} de estatura
+Mido {1|sys_number} de altura
+Mido {1|sys_number} de estatura
+Yo mido {1|sys_number} de altura
+Yo mido {1|sys_number} de estatura
+Yo tengo {1|sys_number} de altura
+Yo tengo {1|sys_number} de estatura
+Mido {1|sys_number} {metro|unit}
+Mi estatura es {1|sys_number} {metro|unit}
+Mi altura es {1|sys_number} {metro|unit}
+Yo mido {1|sys_number} {metro|unit}
+Tengo {1|sys_number} {metro|unit} de altura
+Tengo {1|sys_number} {metro|unit} de estatura
+Mido {1|sys_number} {metro|unit} de altura
+Mido {1|sys_number} {metro|unit} de estatura
+Yo mido {1|sys_number} {metro|unit} de altura
+Yo mido {1|sys_number} {metro|unit} de estatura
+Yo tengo {1|sys_number} {metro|unit} de altura
+Yo tengo {1|sys_number} {metro|unit} de estatura
+Mido {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit}
+Mi estatura es {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit}
+Mi altura es {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit}
+Yo mido {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit}
+Tengo {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de altura
+Tengo {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de estatura
+Mido {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de altura
+Mido {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de estatura
+Yo mido {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de altura
+Yo mido {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de estatura
+Yo tengo {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de altura
+Yo tengo {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit} de estatura
+Mido {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit}
+Mi estatura es {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit}
+Mi altura es {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit}
+Yo mido {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit}
+Tengo {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de altura
+Tengo {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de estatura
+Mido {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de altura
+Mido {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de estatura
+Yo mido {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de altura
+Yo mido {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de estatura
+Yo tengo {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de altura
+Yo tengo {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit} de estatura
+Mi estatura es de {1|sys_number}
+Mi altura es de {1|sys_number}
+Mi estatura es de {1|sys_number} {metro|unit}
+Mi altura es de {1|sys_number} {metro|unit}
+Mi estatura es de {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit}
+Mi altura es de {1|sys_number} {metro|unit} {75|sys_number} {centimetros|unit}
+Mi estatura es de {1|sys_number} {metro|unit} {75|sys_number}
+Mi altura es de {1|sys_number} {metro|unit} {75|sys_number}
+Mi estatura es de {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit}
+Mi altura es de {1|sys_number} {metro|unit} y {75|sys_number} {centimetros|unit}
+Mido {1|sys_number} {metro|unit} {75|sys_number}
+Mi estatura es {1|sys_number} {metro|unit} {75|sys_number}
+Mi altura es {1|sys_number} {metro|unit} {75|sys_number}
+Yo mido {1|sys_number} {metro|unit} {75|sys_number}
+Tengo {1|sys_number} {metro|unit} {75|sys_number} de altura
+Tengo {1|sys_number} {metro|unit} {75|sys_number} de estatura
+Mido {1|sys_number} {metro|unit} {75|sys_number} de altura
+Mido {1|sys_number} {metro|unit} {75|sys_number} de estatura
+Yo mido {1|sys_number} {metro|unit} {75|sys_number} de altura
+Yo mido {1|sys_number} {metro|unit} {75|sys_number} de estatura
+Yo tengo {1|sys_number} {metro|unit} {75|sys_number} de altura
+Yo tengo {1|sys_number} {metro|unit} {75|sys_number} de estatura
+{2|sys_number}
+{2|sys_number} de altura
+{2|sys_number} de estatura
+{2|sys_number} {metros|unit}
+{2|sys_number} {metros|unit} de altura
+{2|sys_number} {metros|unit} de estatura
+{2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+{2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+{2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+{2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+{2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+{2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mido {2|sys_number}
+Mi estatura es {2|sys_number}
+Mi altura es {2|sys_number}
+Tengo {2|sys_number} de altura
+Tengo {2|sys_number} de estatura
+Mido {2|sys_number} de altura
+Mido {2|sys_number} de estatura
+Yo mido {2|sys_number} de altura
+Yo mido {2|sys_number} de estatura
+Yo tengo {2|sys_number} de altura
+Yo tengo {2|sys_number} de estatura
+Mido {2|sys_number} {metros|unit}
+Mi estatura es {2|sys_number} {metros|unit}
+Mi altura es {2|sys_number} {metros|unit}
+Yo mido {2|sys_number} {metros|unit}
+Tengo {2|sys_number} {metros|unit} de altura
+Tengo {2|sys_number} {metros|unit} de estatura
+Mido {2|sys_number} {metros|unit} de altura
+Mido {2|sys_number} {metros|unit} de estatura
+Yo mido {2|sys_number} {metros|unit} de altura
+Yo mido {2|sys_number} {metros|unit} de estatura
+Yo tengo {2|sys_number} {metros|unit} de altura
+Yo tengo {2|sys_number} {metros|unit} de estatura
+Mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Mi estatura es {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Mi altura es {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Tengo {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+Tengo {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+Mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+Mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+Yo tengo {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+Yo tengo {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+Mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Mi estatura es {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Mi altura es {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Yo mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Tengo {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+Tengo {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+Mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Yo mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+Yo mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Yo tengo {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+Yo tengo {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mi estatura es de {2|sys_number}
+Mi altura es de {2|sys_number}
+Mi estatura es de {2|sys_number} {metros|unit}
+Mi altura es de {2|sys_number} {metros|unit}
+Mi estatura es de {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Mi altura es de {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Mi estatura es de {2|sys_number} {metros|unit} {1|sys_number}
+Mi altura es de {2|sys_number} {metros|unit} {1|sys_number}
+Mi estatura es de {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Mi altura es de {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Mido {2|sys_number} {metros|unit} {1|sys_number}
+Mi estatura es {2|sys_number} {metros|unit} {1|sys_number}
+Mi altura es {2|sys_number} {metros|unit} {1|sys_number}
+Yo mido {2|sys_number} {metros|unit} {1|sys_number}
+Tengo {2|sys_number} {metros|unit} {1|sys_number} de altura
+Tengo {2|sys_number} {metros|unit} {1|sys_number} de estatura
+Mido {2|sys_number} {metros|unit} {1|sys_number} de altura
+Mido {2|sys_number} {metros|unit} {1|sys_number} de estatura
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} de altura
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} de estatura
+Yo tengo {2|sys_number} {metros|unit} {1|sys_number} de altura
+Yo tengo {2|sys_number} {metros|unit} {1|sys_number} de estatura
+{2|sys_number}
+{2|sys_number} de altura
+{2|sys_number} de estatura
+{2|sys_number} {metros|unit}
+{2|sys_number} {metros|unit} de altura
+{2|sys_number} {metros|unit} de estatura
+{2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+{2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+{2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+{2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+{2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+{2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mido {2|sys_number}
+Mi estatura es {2|sys_number}
+Mi altura es {2|sys_number}
+Tengo {2|sys_number} de altura
+Tengo {2|sys_number} de estatura
+Mido {2|sys_number} de altura
+Mido {2|sys_number} de estatura
+Yo mido {2|sys_number} de altura
+Yo mido {2|sys_number} de estatura
+Yo tengo {2|sys_number} de altura
+Yo tengo {2|sys_number} de estatura
+Mido {2|sys_number} {metros|unit}
+Mi estatura es {2|sys_number} {metros|unit}
+Mi altura es {2|sys_number} {metros|unit}
+Yo mido {2|sys_number} {metros|unit}
+Tengo {2|sys_number} {metros|unit} de altura
+Tengo {2|sys_number} {metros|unit} de estatura
+Mido {2|sys_number} {metros|unit} de altura
+Mido {2|sys_number} {metros|unit} de estatura
+Yo mido {2|sys_number} {metros|unit} de altura
+Yo mido {2|sys_number} {metros|unit} de estatura
+Yo tengo {2|sys_number} {metros|unit} de altura
+Yo tengo {2|sys_number} {metros|unit} de estatura
+Mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Mi estatura es {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Mi altura es {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Tengo {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+Tengo {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+Mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+Mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+Yo tengo {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de altura
+Yo tengo {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit} de estatura
+Mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Mi estatura es {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Mi altura es {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Yo mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Tengo {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+Tengo {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+Mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Yo mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+Yo mido {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Yo tengo {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de altura
+Yo tengo {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit} de estatura
+Mi estatura es de {2|sys_number}
+Mi altura es de {2|sys_number}
+Mi estatura es de {2|sys_number} {metros|unit}
+Mi altura es de {2|sys_number} {metros|unit}
+Mi estatura es de {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Mi altura es de {2|sys_number} {metros|unit} {1|sys_number} {centimetro|unit}
+Mi estatura es de {2|sys_number} {metros|unit} {1|sys_number}
+Mi altura es de {2|sys_number} {metros|unit} {1|sys_number}
+Mi estatura es de {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Mi altura es de {2|sys_number} {metros|unit} y {1|sys_number} {centimetro|unit}
+Mido {2|sys_number} {metros|unit} {1|sys_number}
+Mi estatura es {2|sys_number} {metros|unit} {1|sys_number}
+Mi altura es {2|sys_number} {metros|unit} {1|sys_number}
+Yo mido {2|sys_number} {metros|unit} {1|sys_number}
+Tengo {2|sys_number} {metros|unit} {1|sys_number} de altura
+Tengo {2|sys_number} {metros|unit} {1|sys_number} de estatura
+Mido {2|sys_number} {metros|unit} {1|sys_number} de altura
+Mido {2|sys_number} {metros|unit} {1|sys_number} de estatura
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} de altura
+Yo mido {2|sys_number} {metros|unit} {1|sys_number} de estatura
+Yo tengo {2|sys_number} {metros|unit} {1|sys_number} de altura
+Yo tengo {2|sys_number} {metros|unit} {1|sys_number} de estatura
+{6|sys_number}
+{6|sys_number} de altura
+{6|sys_number} de estatura
+{6|sys_number} {pies|unit}
+{6|sys_number} {pies|unit} de altura
+{6|sys_number} {pies|unit} de estatura
+{6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit}
+{6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de altura
+{6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de estatura
+{6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit}
+{6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de altura
+{6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de estatura
+Mido {6|sys_number}
+Mi estatura es {6|sys_number}
+Mi altura es {6|sys_number}
+Tengo {6|sys_number} de altura
+Tengo {6|sys_number} de estatura
+Mido {6|sys_number} de altura
+Mido {6|sys_number} de estatura
+Yo mido {6|sys_number} de altura
+Yo mido {6|sys_number} de estatura
+Yo tengo {6|sys_number} de altura
+Yo tengo {6|sys_number} de estatura
+Mido {6|sys_number} {pies|unit}
+Mi estatura es {6|sys_number} {pies|unit}
+Mi altura es {6|sys_number} {pies|unit}
+Yo mido {6|sys_number} {pies|unit}
+Tengo {6|sys_number} {pies|unit} de altura
+Tengo {6|sys_number} {pies|unit} de estatura
+Mido {6|sys_number} {pies|unit} de altura
+Mido {6|sys_number} {pies|unit} de estatura
+Yo mido {6|sys_number} {pies|unit} de altura
+Yo mido {6|sys_number} {pies|unit} de estatura
+Yo tengo {6|sys_number} {pies|unit} de altura
+Yo tengo {6|sys_number} {pies|unit} de estatura
+Mido {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit}
+Mi estatura es {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit}
+Mi altura es {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit}
+Yo mido {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit}
+Tengo {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de altura
+Tengo {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de estatura
+Mido {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de altura
+Mido {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de estatura
+Yo mido {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de altura
+Yo mido {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de estatura
+Yo tengo {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de altura
+Yo tengo {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit} de estatura
+Mido {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit}
+Mi estatura es {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit}
+Mi altura es {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit}
+Yo mido {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit}
+Tengo {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de altura
+Tengo {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de estatura
+Mido {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de altura
+Mido {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de estatura
+Yo mido {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de altura
+Yo mido {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de estatura
+Yo tengo {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de altura
+Yo tengo {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit} de estatura
+Mi estatura es de {6|sys_number}
+Mi altura es de {6|sys_number}
+Mi estatura es de {6|sys_number} {pies|unit}
+Mi altura es de {6|sys_number} {pies|unit}
+Mi estatura es de {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit}
+Mi altura es de {6|sys_number} {pies|unit} {1|sys_number} {pulgada|unit}
+Mi estatura es de {6|sys_number} {pies|unit} {1|sys_number}
+Mi altura es de {6|sys_number} {pies|unit} {1|sys_number}
+Mi estatura es de {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit}
+Mi altura es de {6|sys_number} {pies|unit} y {1|sys_number} {pulgada|unit}
+Mido {6|sys_number} {pies|unit} {1|sys_number}
+Mi estatura es {6|sys_number} {pies|unit} {1|sys_number}
+Mi altura es {6|sys_number} {pies|unit} {1|sys_number}
+Yo mido {6|sys_number} {pies|unit} {1|sys_number}
+Tengo {6|sys_number} {pies|unit} {1|sys_number} de altura
+Tengo {6|sys_number} {pies|unit} {1|sys_number} de estatura
+Mido {6|sys_number} {pies|unit} {1|sys_number} de altura
+Mido {6|sys_number} {pies|unit} {1|sys_number} de estatura
+Yo mido {6|sys_number} {pies|unit} {1|sys_number} de altura
+Yo mido {6|sys_number} {pies|unit} {1|sys_number} de estatura
+Yo tengo {6|sys_number} {pies|unit} {1|sys_number} de altura
+Yo tengo {6|sys_number} {pies|unit} {1|sys_number} de estatura
+{5|sys_number}
+{5|sys_number} de altura
+{5|sys_number} de estatura
+{5|sys_number} {pies|unit}
+{5|sys_number} {pies|unit} de altura
+{5|sys_number} {pies|unit} de estatura
+{5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit}
+{5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de altura
+{5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de estatura
+{5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit}
+{5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de altura
+{5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de estatura
+Mido {5|sys_number}
+Mi estatura es {5|sys_number}
+Mi altura es {5|sys_number}
+Tengo {5|sys_number} de altura
+Tengo {5|sys_number} de estatura
+Mido {5|sys_number} de altura
+Mido {5|sys_number} de estatura
+Yo mido {5|sys_number} de altura
+Yo mido {5|sys_number} de estatura
+Yo tengo {5|sys_number} de altura
+Yo tengo {5|sys_number} de estatura
+Mido {5|sys_number} {pies|unit}
+Mi estatura es {5|sys_number} {pies|unit}
+Mi altura es {5|sys_number} {pies|unit}
+Yo mido {5|sys_number} {pies|unit}
+Tengo {5|sys_number} {pies|unit} de altura
+Tengo {5|sys_number} {pies|unit} de estatura
+Mido {5|sys_number} {pies|unit} de altura
+Mido {5|sys_number} {pies|unit} de estatura
+Yo mido {5|sys_number} {pies|unit} de altura
+Yo mido {5|sys_number} {pies|unit} de estatura
+Yo tengo {5|sys_number} {pies|unit} de altura
+Yo tengo {5|sys_number} {pies|unit} de estatura
+Mido {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit}
+Mi estatura es {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit}
+Mi altura es {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit}
+Yo mido {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit}
+Tengo {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de altura
+Tengo {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de estatura
+Mido {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de altura
+Mido {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de estatura
+Yo mido {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de altura
+Yo mido {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de estatura
+Yo tengo {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de altura
+Yo tengo {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit} de estatura
+Mido {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit}
+Mi estatura es {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit}
+Mi altura es {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit}
+Yo mido {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit}
+Tengo {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de altura
+Tengo {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de estatura
+Mido {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de altura
+Mido {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de estatura
+Yo mido {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de altura
+Yo mido {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de estatura
+Yo tengo {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de altura
+Yo tengo {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit} de estatura
+Mi estatura es de {5|sys_number}
+Mi altura es de {5|sys_number}
+Mi estatura es de {5|sys_number} {pies|unit}
+Mi altura es de {5|sys_number} {pies|unit}
+Mi estatura es de {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit}
+Mi altura es de {5|sys_number} {pies|unit} {2|sys_number} {pulgadas|unit}
+Mi estatura es de {5|sys_number} {pies|unit} {2|sys_number}
+Mi altura es de {5|sys_number} {pies|unit} {2|sys_number}
+Mi estatura es de {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit}
+Mi altura es de {5|sys_number} {pies|unit} y {2|sys_number} {pulgadas|unit}
+Mido {5|sys_number} {pies|unit} {2|sys_number}
+Mi estatura es {5|sys_number} {pies|unit} {2|sys_number}
+Mi altura es {5|sys_number} {pies|unit} {2|sys_number}
+Yo mido {5|sys_number} {pies|unit} {2|sys_number}
+Tengo {5|sys_number} {pies|unit} {2|sys_number} de altura
+Tengo {5|sys_number} {pies|unit} {2|sys_number} de estatura
+Mido {5|sys_number} {pies|unit} {2|sys_number} de altura
+Mido {5|sys_number} {pies|unit} {2|sys_number} de estatura
+Yo mido {5|sys_number} {pies|unit} {2|sys_number} de altura
+Yo mido {5|sys_number} {pies|unit} {2|sys_number} de estatura
+Yo tengo {5|sys_number} {pies|unit} {2|sys_number} de altura
+Yo tengo {5|sys_number} {pies|unit} {2|sys_number} de estatura
+{1.65|sys_number}
+{1.65|sys_number} de altura
+{1.65|sys_number} de estatura
+{1.65|sys_number} {metro|unit}
+{1.65|sys_number} {metro|unit} de altura
+{1.65|sys_number} {metro|unit} de estatura
+Mido {1.65|sys_number}
+Mi estatura es {1.65|sys_number}
+Mi altura es {1.65|sys_number}
+Tengo {1.65|sys_number} de altura
+Tengo {1.65|sys_number} de estatura
+Mido {1.65|sys_number} de altura
+Mido {1.65|sys_number} de estatura
+Yo mido {1.65|sys_number} de altura
+Yo mido {1.65|sys_number} de estatura
+Yo tengo {1.65|sys_number} de altura
+Yo tengo {1.65|sys_number} de estatura
+Mido {1.65|sys_number} {metro|unit}
+Mi estatura es {1.65|sys_number} {metro|unit}
+Mi altura es {1.65|sys_number} {metro|unit}
+Yo mido {1.65|sys_number} {metro|unit}
+Tengo {1.65|sys_number} {metro|unit} de altura
+Tengo {1.65|sys_number} {metro|unit} de estatura
+Mido {1.65|sys_number} {metro|unit} de altura
+Mido {1.65|sys_number} {metro|unit} de estatura
+Yo mido {1.65|sys_number} {metro|unit} de altura
+Yo mido {1.65|sys_number} {metro|unit} de estatura
+Yo tengo {1.65|sys_number} {metro|unit} de altura
+Yo tengo {1.65|sys_number} {metro|unit} de estatura
+Mi estatura es de {1.65|sys_number}
+Mi altura es de {1.65|sys_number}
+Mi estatura es de {1.65|sys_number} {metro|unit}
+Mi altura es de {1.65|sys_number} {metro|unit}
+{1.65|sys_number} de altura
+{1.65|sys_number} de estatura
+{1.65|sys_number} {metro|unit}
+{1.65|sys_number} {metro|unit} de altura
+{1.65|sys_number} {metro|unit} de estatura
+Mido {1.65|sys_number}
+Mi estatura es {1.65|sys_number}
+Mi altura es {1.65|sys_number}
+Tengo {1.65|sys_number} de altura
+Tengo {1.65|sys_number} de estatura
+Mido {1.65|sys_number} de altura
+Mido {1.65|sys_number} de estatura
+Yo mido {1.65|sys_number} de altura
+Yo mido {1.65|sys_number} de estatura
+Yo tengo {1.65|sys_number} de altura
+Yo tengo {1.65|sys_number} de estatura
+Mido {1.65|sys_number} {metro|unit}
+Mi estatura es {1.65|sys_number} {metro|unit}
+Mi altura es {1.65|sys_number} {metro|unit}
+Yo mido {1.65|sys_number} {metro|unit}
+Tengo {1.65|sys_number} {metro|unit} de altura
+Tengo {1.65|sys_number} {metro|unit} de estatura
+Mido {1.65|sys_number} {metro|unit} de altura
+Mido {1.65|sys_number} {metro|unit} de estatura
+Yo mido {1.65|sys_number} {metro|unit} de altura
+Yo mido {1.65|sys_number} {metro|unit} de estatura
+Yo tengo {1.65|sys_number} {metro|unit} de altura
+Yo tengo {1.65|sys_number} {metro|unit} de estatura
+Mi estatura es de {1.65|sys_number}
+Mi altura es de {1.65|sys_number}
+Mi estatura es de {1.65|sys_number} {metro|unit}
+Mi altura es de {1.65|sys_number} {metro|unit}
+{2.10|sys_number}
+{2.10|sys_number} de altura
+{2.10|sys_number} de estatura
+{2.10|sys_number} {metros|unit}
+{2.10|sys_number} {metros|unit} de altura
+{2.10|sys_number} {metros|unit} de estatura
+Mido {2.10|sys_number}
+Mi estatura es {2.10|sys_number}
+Mi altura es {2.10|sys_number}
+Tengo {2.10|sys_number} de altura
+Tengo {2.10|sys_number} de estatura
+Mido {2.10|sys_number} de altura
+Mido {2.10|sys_number} de estatura
+Yo mido {2.10|sys_number} de altura
+Yo mido {2.10|sys_number} de estatura
+Yo tengo {2.10|sys_number} de altura
+Yo tengo {2.10|sys_number} de estatura
+Mido {2.10|sys_number} {metros|unit}
+Mi estatura es {2.10|sys_number} {metros|unit}
+Mi altura es {2.10|sys_number} {metros|unit}
+Yo mido {2.10|sys_number} {metros|unit}
+Tengo {2.10|sys_number} {metros|unit} de altura
+Tengo {2.10|sys_number} {metros|unit} de estatura
+Mido {2.10|sys_number} {metros|unit} de altura
+Mido {2.10|sys_number} {metros|unit} de estatura
+Yo mido {2.10|sys_number} {metros|unit} de altura
+Yo mido {2.10|sys_number} {metros|unit} de estatura
+Yo tengo {2.10|sys_number} {metros|unit} de altura
+Yo tengo {2.10|sys_number} {metros|unit} de estatura
+Mi estatura es de {2.10|sys_number}
+Mi altura es de {2.10|sys_number}
+Mi estatura es de {2.10|sys_number} {metros|unit}
+Mi altura es de {2.10|sys_number} {metros|unit}
+{2.10|sys_number}
+{2.10|sys_number} de altura
+{2.10|sys_number} de estatura
+{2.10|sys_number} {metros|unit}
+{2.10|sys_number} {metros|unit} de altura
+{2.10|sys_number} {metros|unit} de estatura
+Mi estatura es {2.10|sys_number}
+Mi altura es {2.10|sys_number}
+Tengo {2.10|sys_number} de altura
+Tengo {2.10|sys_number} de estatura
+Mido {2.10|sys_number} de altura
+Mido {2.10|sys_number} de estatura
+Yo mido {2.10|sys_number} de altura
+Yo mido {2.10|sys_number} de estatura
+Yo tengo {2.10|sys_number} de altura
+Yo tengo {2.10|sys_number} de estatura
+Mido {2.10|sys_number} {metros|unit}
+Mi estatura es {2.10|sys_number} {metros|unit}
+Mi altura es {2.10|sys_number} {metros|unit}
+Yo mido {2.10|sys_number} {metros|unit}
+Tengo {2.10|sys_number} {metros|unit} de altura
+Tengo {2.10|sys_number} {metros|unit} de estatura
+Mido {2.10|sys_number} {metros|unit} de altura
+Mido {2.10|sys_number} {metros|unit} de estatura
+Yo mido {2.10|sys_number} {metros|unit} de altura
+Yo mido {2.10|sys_number} {metros|unit} de estatura
+Yo tengo {2.10|sys_number} {metros|unit} de altura
+Yo tengo {2.10|sys_number} {metros|unit} de estatura
+Mi estatura es de {2.10|sys_number}
+Mi altura es de {2.10|sys_number}
+Mi estatura es de {2.10|sys_number} {metros|unit}
+Mi altura es de {2.10|sys_number} {metros|unit}
+{1.6|sys_number}
+{1.6|sys_number} de altura
+{1.6|sys_number} de estatura
+{1.6|sys_number} {metro|unit}
+{1.6|sys_number} {metro|unit} de altura
+{1.6|sys_number} {metro|unit} de estatura
+Mido {1.6|sys_number}
+Mi estatura es {1.6|sys_number}
+Mi altura es {1.6|sys_number}
+Tengo {1.6|sys_number} de altura
+Tengo {1.6|sys_number} de estatura
+Mido {1.6|sys_number} de altura
+Mido {1.6|sys_number} de estatura
+Yo mido {1.6|sys_number} de altura
+Yo mido {1.6|sys_number} de estatura
+Yo tengo {1.6|sys_number} de altura
+Yo tengo {1.6|sys_number} de estatura
+Mido {1.6|sys_number} {metro|unit}
+Mi estatura es {1.6|sys_number} {metro|unit}
+Mi altura es {1.6|sys_number} {metro|unit}
+Yo mido {1.6|sys_number} {metro|unit}
+Tengo {1.6|sys_number} {metro|unit} de altura
+Tengo {1.6|sys_number} {metro|unit} de estatura
+Mido {1.6|sys_number} {metro|unit} de altura
+Mido {1.6|sys_number} {metro|unit} de estatura
+Yo mido {1.6|sys_number} {metro|unit} de altura
+Yo mido {1.6|sys_number} {metro|unit} de estatura
+Yo tengo {1.6|sys_number} {metro|unit} de altura
+Yo tengo {1.6|sys_number} {metro|unit} de estatura
+Mi estatura es de {1.6|sys_number}
+Mi altura es de {1.6|sys_number}
+Mi estatura es de {1.6|sys_number} {metro|unit}
+Mi altura es de {1.6|sys_number} {metro|unit}
+{1.6|sys_number} de altura
+{1.6|sys_number} de estatura
+{1.6|sys_number} {metro|unit}
+{1.6|sys_number} {metro|unit} de altura
+{1.6|sys_number} {metro|unit} de estatura
+Mido {1.6|sys_number}
+Mi estatura es {1.6|sys_number}
+Mi altura es {1.6|sys_number}
+Tengo {1.6|sys_number} de altura
+Tengo {1.6|sys_number} de estatura
+Mido {1.6|sys_number} de altura
+Mido {1.6|sys_number} de estatura
+Yo mido {1.6|sys_number} de altura
+Yo mido {1.6|sys_number} de estatura
+Yo tengo {1.6|sys_number} de altura
+Yo tengo {1.6|sys_number} de estatura
+Mido {1.6|sys_number} {metro|unit}
+Mi estatura es {1.6|sys_number} {metro|unit}
+Mi altura es {1.6|sys_number} {metro|unit}
+Yo mido {1.6|sys_number} {metro|unit}
+Tengo {1.6|sys_number} {metro|unit} de altura
+Tengo {1.6|sys_number} {metro|unit} de estatura
+Mido {1.6|sys_number} {metro|unit} de altura
+Mido {1.6|sys_number} {metro|unit} de estatura
+Yo mido {1.6|sys_number} {metro|unit} de altura
+Yo mido {1.6|sys_number} {metro|unit} de estatura
+Yo tengo {1.6|sys_number} {metro|unit} de altura
+Yo tengo {1.6|sys_number} {metro|unit} de estatura
+Mi estatura es de {1.6|sys_number}
+Mi altura es de {1.6|sys_number}
+Mi estatura es de {1.6|sys_number} {metro|unit}
+Mi altura es de {1.6|sys_number} {metro|unit}
+{2.1|sys_number}
+{2.1|sys_number} de altura
+{2.1|sys_number} de estatura
+{2.1|sys_number} {metros|unit}
+{2.1|sys_number} {metros|unit} de altura
+{2.1|sys_number} {metros|unit} de estatura
+Mido {2.1|sys_number}
+Mi estatura es {2.1|sys_number}
+Mi altura es {2.1|sys_number}
+Tengo {2.1|sys_number} de altura
+Tengo {2.1|sys_number} de estatura
+Mido {2.1|sys_number} de altura
+Mido {2.1|sys_number} de estatura
+Yo mido {2.1|sys_number} de altura
+Yo mido {2.1|sys_number} de estatura
+Yo tengo {2.1|sys_number} de altura
+Yo tengo {2.1|sys_number} de estatura
+Mido {2.1|sys_number} {metros|unit}
+Mi estatura es {2.1|sys_number} {metros|unit}
+Mi altura es {2.1|sys_number} {metros|unit}
+Yo mido {2.1|sys_number} {metros|unit}
+Tengo {2.1|sys_number} {metros|unit} de altura
+Tengo {2.1|sys_number} {metros|unit} de estatura
+Mido {2.1|sys_number} {metros|unit} de altura
+Mido {2.1|sys_number} {metros|unit} de estatura
+Yo mido {2.1|sys_number} {metros|unit} de altura
+Yo mido {2.1|sys_number} {metros|unit} de estatura
+Yo tengo {2.1|sys_number} {metros|unit} de altura
+Yo tengo {2.1|sys_number} {metros|unit} de estatura
+Mi estatura es de {2.1|sys_number}
+Mi altura es de {2.1|sys_number}
+Mi estatura es de {2.1|sys_number} {metros|unit}
+Mi altura es de {2.1|sys_number} {metros|unit}
+{2.1|sys_number}
+{2.1|sys_number} de altura
+{2.1|sys_number} de estatura
+{2.1|sys_number} {metros|unit}
+{2.1|sys_number} {metros|unit} de altura
+{2.1|sys_number} {metros|unit} de estatura
+Mi estatura es {2.1|sys_number}
+Mi altura es {2.1|sys_number}
+Tengo {2.1|sys_number} de altura
+Tengo {2.1|sys_number} de estatura
+Mido {2.1|sys_number} de altura
+Mido {2.1|sys_number} de estatura
+Yo mido {2.1|sys_number} de altura
+Yo mido {2.1|sys_number} de estatura
+Yo tengo {2.1|sys_number} de altura
+Yo tengo {2.1|sys_number} de estatura
+Mido {2.1|sys_number} {metros|unit}
+Mi estatura es {2.1|sys_number} {metros|unit}
+Mi altura es {2.1|sys_number} {metros|unit}
+Yo mido {2.1|sys_number} {metros|unit}
+Tengo {2.1|sys_number} {metros|unit} de altura
+Tengo {2.1|sys_number} {metros|unit} de estatura
+Mido {2.1|sys_number} {metros|unit} de altura
+Mido {2.1|sys_number} {metros|unit} de estatura
+Yo mido {2.1|sys_number} {metros|unit} de altura
+Yo mido {2.1|sys_number} {metros|unit} de estatura
+Yo tengo {2.1|sys_number} {metros|unit} de altura
+Yo tengo {2.1|sys_number} {metros|unit} de estatura
+Mi estatura es de {2.1|sys_number}
+Mi altura es de {2.1|sys_number}
+Mi estatura es de {2.1|sys_number} {metros|unit}
+Mi altura es de {2.1|sys_number} {metros|unit}
+{165|sys_number}
+{165|sys_number} de altura
+{165|sys_number} de estatura
+Mido {165|sys_number}
+Mi estatura es {165|sys_number}
+Mi altura es {165|sys_number}
+Tengo {165|sys_number} de altura
+Tengo {165|sys_number} de estatura
+Mido {165|sys_number} de altura
+Mido {165|sys_number} de estatura
+Yo mido {165|sys_number} de altura
+Yo mido {165|sys_number} de estatura
+Yo tengo {165|sys_number} de altura
+Yo tengo {165|sys_number} de estatura
+Mi estatura es de {165|sys_number}
+Mi altura es de {165|sys_number}
+{165|sys_number} de altura
+{165|sys_number} de estatura
+{165|sys_number} {centimetros|unit}
+{165|sys_number} {centimetros|unit} de altura
+{165|sys_number} {centimetros|unit} de estatura
+Mido {165|sys_number}
+Mi estatura es {165|sys_number}
+Mi altura es {165|sys_number}
+Tengo {165|sys_number} de altura
+Tengo {165|sys_number} de estatura
+Mido {165|sys_number} de altura
+Mido {165|sys_number} de estatura
+Yo mido {165|sys_number} de altura
+Yo mido {165|sys_number} de estatura
+Yo tengo {165|sys_number} de altura
+Yo tengo {165|sys_number} de estatura
+Mido {165|sys_number} {centimetros|unit}
+Mi estatura es {165|sys_number} {centimetros|unit}
+Mi altura es {165|sys_number} {centimetros|unit}
+Yo mido {165|sys_number} {centimetros|unit}
+Tengo {165|sys_number} {centimetros|unit} de altura
+Tengo {165|sys_number} {centimetros|unit} de estatura
+Mido {165|sys_number} {centimetros|unit} de altura
+Mido {165|sys_number} {centimetros|unit} de estatura
+Yo mido {165|sys_number} {centimetros|unit} de altura
+Yo mido {165|sys_number} {centimetros|unit} de estatura
+Yo tengo {165|sys_number} {centimetros|unit} de altura
+Yo tengo {165|sys_number} {centimetros|unit} de estatura
+Mi estatura es de {165|sys_number}
+Mi altura es de {165|sys_number}
+{210|sys_number}
+{210|sys_number} de altura
+{210|sys_number} de estatura
+Mido {210|sys_number}
+Mi estatura es {210|sys_number}
+Mi altura es {210|sys_number}
+Tengo {210|sys_number} de altura
+Tengo {210|sys_number} de estatura
+Mido {210|sys_number} de altura
+Mido {210|sys_number} de estatura
+Yo mido {210|sys_number} de altura
+Yo mido {210|sys_number} de estatura
+Yo tengo {210|sys_number} de altura
+Yo tengo {210|sys_number} de estatura
+Mido {210|sys_number} {centimetros|unit}
+Mi estatura es {210|sys_number} {centimetros|unit}
+Mi altura es {210|sys_number} {centimetros|unit}
+Yo mido {210|sys_number} {centimetros|unit}
+Tengo {210|sys_number} {centimetros|unit} de altura
+Tengo {210|sys_number} {centimetros|unit} de estatura
+Mido {210|sys_number} {centimetros|unit} de altura
+Mido {210|sys_number} {centimetros|unit} de estatura
+Yo mido {210|sys_number} {centimetros|unit} de altura
+Yo mido {210|sys_number} {centimetros|unit} de estatura
+Yo tengo {210|sys_number} {centimetros|unit} de altura
+Yo tengo {210|sys_number} {centimetros|unit} de estatura
+Mi estatura es de {210|sys_number}
+Mi altura es de {210|sys_number}
+Mi estatura es de {210|sys_number} {centimetros|unit}
+Mi altura es de {210|sys_number} {centimetros|unit}
+{210|sys_number}
+{210|sys_number} de altura
+{210|sys_number} de estatura
+Mi estatura es {210|sys_number}
+Mi altura es {210|sys_number}
+Tengo {210|sys_number} de altura
+Tengo {210|sys_number} de estatura
+Mido {210|sys_number} de altura
+Mido {210|sys_number} de estatura
+Yo mido {210|sys_number} de altura
+Yo mido {210|sys_number} de estatura
+Yo tengo {210|sys_number} de altura
+Yo tengo {210|sys_number} de estatura
+Mi estatura es de {210|sys_number}
+Mi altura es de {210|sys_number}
+{un|sys_number} {metro|unit} {22|sys_number}
+{un|sys_number} {metro|unit} {63|sys_number} {centimetros|unit}
+{un|sys_number} {metro|unit} {78|sys_number}
+{un|sys_number} {metro|unit} {45|sys_number} {centimetros|unit}
+{60|sys_number} de peso
+{60|sys_number} {kilos|unit}
+{60|sys_number} {kilos|unit} de peso
+peso {60|sys_number}
+Mi peso es {60|sys_number}
+Tengo {60|sys_number} de peso
+Yo peso {60|sys_number}
+Yo tengo {60|sys_number} de peso
+peso {60|sys_number} {kilos|unit}
+Mi peso es {60|sys_number} {kilos|unit}
+Yo peso {60|sys_number} {kilos|unit}
+Tengo {60|sys_number} {kilos|unit} de peso
+peso {60|sys_number} {kilos|unit}
+Yo peso {60|sys_number} {kilos|unit}
+Yo tengo {60|sys_number} {kilos|unit} de peso
+Mi peso es de {60|sys_number}
+Mi peso es de {60|sys_number} {kilos|unit}
+{60|sys_number} {kilos|unit} de sobrepeso
+{60|sys_number} {kilos|unit} de obesidad
+{60|sys_number} {kilos|unit} de obeso
+Apenas peso {60|sys_number} {kilos|unit}
+Apenas peso {60|sys_number}
+{79|sys_number} de peso
+{79|sys_number} {kilogramos|unit}
+{79|sys_number} {kilogramos|unit} de peso
+peso {79|sys_number}
+Mi peso es {79|sys_number}
+Tengo {79|sys_number} de peso
+Yo peso {79|sys_number}
+Yo tengo {79|sys_number} de peso
+peso {79|sys_number} {kilogramos|unit}
+Mi peso es {79|sys_number} {kilogramos|unit}
+Yo peso {79|sys_number} {kilogramos|unit}
+Tengo {79|sys_number} {kilogramos|unit} de peso
+peso {79|sys_number} {kilogramos|unit}
+Yo peso {79|sys_number} {kilogramos|unit}
+Yo tengo {79|sys_number} {kilogramos|unit} de peso
+Mi peso es de {79|sys_number}
+Mi peso es de {79|sys_number} {kilogramos|unit}
+{79|sys_number} {kilogramos|unit} de sobrepeso
+{79|sys_number} {kilogramos|unit} de obesidad
+{79|sys_number} {kilogramos|unit} de obeso
+Apenas peso {79|sys_number} {kilogramos|unit}
+Apenas peso {79|sys_number}
+{120|sys_number} de peso
+{120|sys_number} {libras|unit}
+{120|sys_number} {libras|unit} de peso
+peso {120|sys_number}
+Mi peso es {120|sys_number}
+Tengo {120|sys_number} de peso
+Yo peso {120|sys_number}
+Yo tengo {120|sys_number} de peso
+peso {120|sys_number} {libras|unit}
+Mi peso es {120|sys_number} {libras|unit}
+Yo peso {120|sys_number} {libras|unit}
+Tengo {120|sys_number} {libras|unit} de peso
+peso {120|sys_number} {libras|unit}
+Yo peso {120|sys_number} {libras|unit}
+Yo tengo {120|sys_number} {libras|unit} de peso
+Mi peso es de {120|sys_number}
+Mi peso es de {120|sys_number} {libras|unit}
+{120|sys_number} {libras|unit} de sobrepeso
+{120|sys_number} {libras|unit} de obesidad
+{120|sys_number} {libras|unit} de obeso
+Apenas peso {120|sys_number} {libras|unit}
+Apenas peso {120|sys_number}
+{60|sys_number} de peso
+{60|sys_number} {kgs|unit}
+{60|sys_number} {kgs|unit} de peso
+peso {60|sys_number}
+Mi peso es {60|sys_number}
+Tengo {60|sys_number} de peso
+Yo peso {60|sys_number}
+Yo tengo {60|sys_number} de peso
+peso {60|sys_number} {kgs|unit}
+Mi peso es {60|sys_number} {kgs|unit}
+Yo peso {60|sys_number} {kgs|unit}
+Tengo {60|sys_number} {kgs|unit} de peso
+peso {60|sys_number} {kgs|unit}
+Yo peso {60|sys_number} {kgs|unit}
+Yo tengo {60|sys_number} {kgs|unit} de peso
+Mi peso es de {60|sys_number}
+Mi peso es de {60|sys_number} {kgs|unit}
+{60|sys_number} {kgs|unit} de sobrepeso
+{60|sys_number} {kgs|unit} de obesidad
+{60|sys_number} {kgs|unit} de obeso
+Apenas peso {60|sys_number} {kgs|unit}
+Apenas peso {60|sys_number}
+{79|sys_number} de peso
+{79|sys_number} {kgs|unit}
+{79|sys_number} {kgs|unit} de peso
+peso {79|sys_number}
+Mi peso es {79|sys_number}
+Tengo {79|sys_number} de peso
+Yo peso {79|sys_number}
+Yo tengo {79|sys_number} de peso
+peso {79|sys_number} {kgs|unit}
+Mi peso es {79|sys_number} {kgs|unit}
+Yo peso {79|sys_number} {kgs|unit}
+Tengo {79|sys_number} {kgs|unit} de peso
+peso {79|sys_number} {kgs|unit}
+Yo peso {79|sys_number} {kgs|unit}
+Yo tengo {79|sys_number} {kgs|unit} de peso
+Mi peso es de {79|sys_number}
+Mi peso es de {79|sys_number} {kgs|unit}
+{79|sys_number} {kgs|unit} de sobrepeso
+{79|sys_number} {kgs|unit} de obesidad
+{79|sys_number} {kgs|unit} de obeso
+Apenas peso {79|sys_number} {kgs|unit}
+Apenas peso {79|sys_number}
+{120|sys_number} de peso
+{120|sys_number} {lbs|unit}
+{120|sys_number} {lbs|unit} de peso
+peso {120|sys_number}
+Mi peso es {120|sys_number}
+Tengo {120|sys_number} de peso
+Yo peso {120|sys_number}
+Yo tengo {120|sys_number} de peso
+peso {120|sys_number} {lbs|unit}
+Mi peso es {120|sys_number} {lbs|unit}
+Yo peso {120|sys_number} {lbs|unit}
+Tengo {120|sys_number} {lbs|unit} de peso
+peso {120|sys_number} {lbs|unit}
+Yo peso {120|sys_number} {lbs|unit}
+Yo tengo {120|sys_number} {lbs|unit} de peso
+Mi peso es de {120|sys_number}
+Mi peso es de {120|sys_number} {lbs|unit}
+{120|sys_number} {lbs|unit} de sobrepeso
+{120|sys_number} {lbs|unit} de obesidad
+{120|sys_number} {lbs|unit} de obeso
+Apenas peso {120|sys_number} {lbs|unit}
+Apenas peso {120|sys_number}
+{confirmar|binary}
+{absolutamente|binary}
+{seguro|binary}
+{si|binary}
+{definitivamente|binary}
+{sí|binary}
+{sip|binary}
+{correcto|binary}
+{claro|binary}
+{ajá|binary}
+{por supuesto|binary}
+{confirmo|binary}
+{afirmativo|binary}
+{cierto|binary}
+{UH Huh|binary}
+{yup|binary}
+{yep|binary}
+{no|binary}
+{nah|binary}
+{negación|binary}
+{negar|binary}
+{negativo|binary}
+{nada|binary}
+{ninguna|binary}
+{ninguno|binary}
+{nadie|binary}
+{nop|binary}
+{nope|binary}
+{de ningún modo.|binary}
+{incorrecto|binary}
+{ni siquiera|binary}
+{nunca|binary}

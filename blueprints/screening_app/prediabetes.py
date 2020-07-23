@@ -9,6 +9,11 @@ Q_ACT = "6"
 Q_HEIGHT = "7"
 Q_WEIGHT = "8"
 
+LOW_RISK_MSG = ('Su riesgo de padecer de prediabetes es bajo, '
+                'sin embargo sólo un doctor puede darle un diagnóstico confiable.')
+HIGH_RISK_MSG = ('Usted presenta un riesgo elevado de padecer de prediabetes y de desarrollar diabetes tipo 2. '
+                'Sólo un doctor puede darle un diagnóstico confiable por lo que recomendamos visite a su médico.')
+
 one_pt_weight_cats = {
     '4\'10"': (119,142),
     '4\'11"': (124,147),
@@ -114,15 +119,20 @@ def calculate_risk_score(answers):
     # Add a point if male
     if answers[Q_GENDER] == "Hombre":
         score += 1
-    elif answers[Q_GEST]:
+    elif answers[Q_GEST] in [1, 'si']:
         # Add a point if had gestational diabetes
         score += 1
         
-    # Add a point if has family with diabetes or high blood pressure
-    score += sum([answers[Q_FAM], answers[Q_BP]])
+    # Add a point if has family with diabetes
+    if answers[Q_FAM] in [1, 'si']:
+        score += 1
+
+    # Add a point if high blood pressure
+    if answers[Q_BP] in [1, 'si']:
+        score += 1  
     
     # Add point if not physically active
-    if not(answers[Q_ACT]):
+    if answers[Q_ACT] in [0, 'no']:
         score += 1
         
     # Add points for weight category
@@ -130,7 +140,6 @@ def calculate_risk_score(answers):
     
     return score
     
-
 form_prediabetes = {
     'entities':[
         FormEntity(
@@ -138,47 +147,60 @@ form_prediabetes = {
             role='age',
             responses=['¿Cuál es su edad?']
         ),
-        # FormEntity(
-        #     entity='gender',
-        #     responses=['¿Es de género masculino o femenino?']
-        # ),
-        # FormEntity(
-        #     entity='binary',
-        #     role='family_history',
-        #     responses=['¿Tiene algún familiar inmediato que haya sido diagnosticado con diabetes? Estos incluyen padre, madre, hermano o hermana.'],
-        # ),
-        # FormEntity(
-        #     entity='binary',
-        #     role='hbp',
-        #     responses=['¿Alguna vez le han diagnosticado con tener presión alta?'],
-        # ),
-        # FormEntity(
-        #     entity='binary',
-        #     role='active',
-        #     responses=['¿Realiza actividad física con regularidad?'],
-        # ),
-        # FormEntity(
-        #     entity='sys_number',
-        #     role='height',
-        #     responses=['¿Cuánto mide en estatura?']
-        # ),
-        # FormEntity(
-        #     entity='unit',
-        #     role='height',
-        #     responses=['¿Su respuesta fue en metros o pies?']
-        # ),
-        # FormEntity(
-        #     entity='sys_number',
-        #     role='weight',
-        #     responses=['¿Cuál es su peso?']
-        # ),
-        # FormEntity(
-        #     entity='unit',
-        #     role='weight',
-        #     responses=['¿Su respuesta fue en kilos o libras?']
-        # ),
+        FormEntity(
+            entity='gender',
+            responses=['¿Es de género masculino o femenino?']
+        ),
+        FormEntity(
+            entity='binary',
+            role='family_history',
+            responses=['¿Tiene algún familiar inmediato que haya sido diagnosticado con diabetes? Estos incluyen padre, madre, hermano o hermana.'],
+        ),
+        FormEntity(
+            entity='binary',
+            role='hbp',
+            responses=['¿Alguna vez le han diagnosticado con tener presión alta?'],
+        ),
+        FormEntity(
+            entity='binary',
+            role='active',
+            responses=['¿Realiza actividad física con regularidad?'],
+        ),
+        FormEntity(
+            entity='sys_number',
+            role='height',
+            responses=['¿Cuánto mide en estatura?']
+        ),
+        FormEntity(
+            entity='unit',
+            role='height',
+            responses=['¿Su respuesta fue en metros o pies?']
+        ),
+        FormEntity(
+            entity='sys_number',
+            role='weight',
+            responses=['¿Cuál es su peso?']
+        ),
+        FormEntity(
+            entity='unit',
+            role='weight',
+            responses=['¿Su respuesta fue en kilos o libras?']
+        ),
     ],
-    'max_retries': 3,
+    'max_retries': 2,
+    'exit_keys': ['cancelar', 'salir'],
+    'exit_msg': 'Disculpe, no le he podido entender. Por favor intente de nuevo.'
+}
+
+subform_prediabetes_female = {
+    'entities':[
+        FormEntity(
+            entity='binary',
+            role='gestational_diabetes',
+            responses=['¿Alguna vez ha sido diagnosticada con diabetes gestacional?'],
+        ),
+    ],
+    'max_retries': 2,
     'exit_keys': ['cancelar', 'salir'],
     'exit_msg': 'Disculpe, no le he podido entender. Por favor intente de nuevo.'
 }   
