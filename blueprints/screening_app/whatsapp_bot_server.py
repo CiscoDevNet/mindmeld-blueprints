@@ -8,6 +8,7 @@ from mindmeld.components import NaturalLanguageProcessor
 from mindmeld.components.dialogue import Conversation
 from mindmeld import configure_logs
 
+
 class WhatsappBotServer:
     """
     A sample server class for Twilio-Whatsapp integration with any MindMeld application. More
