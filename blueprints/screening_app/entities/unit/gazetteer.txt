@@ -20,6 +20,6 @@ inches
 metros
 metro
 pies
-pies
+pie
 pulgadas
 pulgada
