@@ -88,9 +88,9 @@ def get_weight_category_score(height, weight):
         return 0
 
     w = float(weight)
-    if one_pt_weight_cats[height][0] <= w <= one_pt_weight_cats[height][0]:
+    if one_pt_weight_cats[height][0] <= w <= one_pt_weight_cats[height][1]:
         return 1
-    elif two_pt_weight_cats[height][0] <= w <= two_pt_weight_cats[height][0]:
+    elif two_pt_weight_cats[height][0] <= w <= two_pt_weight_cats[height][1]:
         return 2
     elif three_pt_weight_cats[height] <= w:
         return 3
@@ -143,7 +143,7 @@ def calculate_risk_score(answers):
     # Add points for weight category
     score += get_weight_category_score(answers[Q_HEIGHT], answers[Q_WEIGHT])
 
-    return score
+    return score >= 5
 
 
 form_prediabetes = {

@@ -17,7 +17,8 @@ Yo tengo {45|sys_number} de edad
 Tengo {45|sys_number} años de edad
 Yo tengo {45|sys_number} años de edad
 Voy a cumplir {45|sys_number} años de edad
-Cumplo {45|sys_number} años de edadAcabo de cumplir {45|sys_number}
+Cumplo {45|sys_number} años de edad
+Acabo de cumplir {45|sys_number}
 Acabo de cumplir {45|sys_number} años
 Acabo de cumplir {45|sys_number} años de edad
 Hoy cumplo {45|sys_number}
@@ -55,7 +56,8 @@ Yo tengo {37|sys_number} de edad
 Tengo {37|sys_number} añitos de edad
 Yo tengo {37|sys_number} añitos de edad
 Voy a cumplir {37|sys_number} añitos de edad
-Cumplo {37|sys_number} añitos de edadAcabo de cumplir {37|sys_number}
+Cumplo {37|sys_number} añitos de edad
+Acabo de cumplir {37|sys_number}
 Acabo de cumplir {37|sys_number} añitos
 Acabo de cumplir {37|sys_number} añitos de edad
 Hoy cumplo {37|sys_number}
@@ -93,7 +95,8 @@ Yo tengo {37|sys_number} de edad
 Tengo {37|sys_number} añotes de edad
 Yo tengo {37|sys_number} añotes de edad
 Voy a cumplir {37|sys_number} añotes de edad
-Cumplo {37|sys_number} añotes de edadAcabo de cumplir {37|sys_number}
+Cumplo {37|sys_number} añotes de edad
+Acabo de cumplir {37|sys_number}
 Acabo de cumplir {37|sys_number} añotes
 Acabo de cumplir {37|sys_number} añotes de edad
 Hoy cumplo {37|sys_number}
@@ -131,7 +134,8 @@ Yo tengo {9|sys_number} de edad
 Tengo {9|sys_number} años de edad
 Yo tengo {9|sys_number} años de edad
 Voy a cumplir {9|sys_number} años de edad
-Cumplo {9|sys_number} años de edadAcabo de cumplir {9|sys_number}
+Cumplo {9|sys_number} años de edad
+Acabo de cumplir {9|sys_number}
 Acabo de cumplir {9|sys_number} años
 Acabo de cumplir {9|sys_number} años de edad
 Hoy cumplo {9|sys_number}
@@ -169,7 +173,8 @@ Yo tengo {5|sys_number} de edad
 Tengo {5|sys_number} añitos de edad
 Yo tengo {5|sys_number} añitos de edad
 Voy a cumplir {5|sys_number} añitos de edad
-Cumplo {5|sys_number} añitos de edadAcabo de cumplir {5|sys_number}
+Cumplo {5|sys_number} añitos de edad
+Acabo de cumplir {5|sys_number}
 Acabo de cumplir {5|sys_number} añitos
 Acabo de cumplir {5|sys_number} añitos de edad
 Hoy cumplo {5|sys_number}
@@ -207,7 +212,8 @@ Yo tengo {5|sys_number} de edad
 Tengo {5|sys_number} añotes de edad
 Yo tengo {5|sys_number} añotes de edad
 Voy a cumplir {5|sys_number} añotes de edad
-Cumplo {5|sys_number} añotes de edadAcabo de cumplir {5|sys_number}
+Cumplo {5|sys_number} añotes de edad
+Acabo de cumplir {5|sys_number}
 Acabo de cumplir {5|sys_number} añotes
 Acabo de cumplir {5|sys_number} añotes de edad
 Hoy cumplo {5|sys_number}
