@@ -25,9 +25,9 @@ def say_goodbye(request, responder):
     responder.frame = {}
 
     # Respond with a random selection from one of the canned "goodbye" responses.
-    responder.reply(['Gracias por su visita. Adios!',
-                     'Gracias por su visita. Hasta luego!',
-                     'Gracias por su visita. Que tenga buen día.'])
+    responder.reply(['Gracias por su visita. ¡Adios!',
+                     'Gracias por su visita. ¡Hasta luego!',
+                     'Gracias por su visita. ¡Que tenga buen día.'])
 
 
 @app.handle(intent='answer_no')
