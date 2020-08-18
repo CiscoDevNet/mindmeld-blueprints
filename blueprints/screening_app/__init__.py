@@ -58,8 +58,6 @@ def screen_prediabetes(request, responder):
         else:  # Gender
             responder.frame[pd.Q_GENDER] = entity['value'][0]['cname']
 
-    print(responder.frame)
-
     if responder.frame[pd.Q_GENDER] == 'Mujer':
         AutoEntityFilling(answer_subform,
                           pd.subform_prediabetes_female,
