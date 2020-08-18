@@ -53,20 +53,12 @@ def screen_prediabetes(request, responder):
     for entity in request.entities:
         if entity['type'] == 'sys_number':
             responder.frame[value_map[entity['role']]] = entity['value'][0]['value']
-        elif entity['type'] == 'unit':
-            if entity['role'] == 'height':
-                if entity['value'][0]['cname'] == 'Metros':
-                    if int(responder.frame[pd.Q_HEIGHT]) / 10 != 0:
-                        # Number was given in centimeters, convert to meters
-                        responder.frame[pd.Q_HEIGHT] = responder.frame[pd.Q_HEIGHT] / 100
-                    responder.frame[pd.Q_HEIGHT] = pd.meters_to_feet(responder.frame[pd.Q_HEIGHT])
-            else:  # Weight unit
-                if entity['value'][0]['cname'] == 'Kilogramos':
-                    responder.frame[pd.Q_WEIGHT] = pd.kilos_to_pounds(responder.frame[pd.Q_WEIGHT])
         elif entity['type'] == 'binary':
             responder.frame[cname_map[entity['role']]] = entity['value'][0]['cname']
         else:  # Gender
             responder.frame[pd.Q_GENDER] = entity['value'][0]['cname']
+
+    print(responder.frame)
 
     if responder.frame[pd.Q_GENDER] == 'Mujer':
         AutoEntityFilling(answer_subform,
