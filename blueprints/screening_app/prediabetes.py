@@ -145,26 +145,30 @@ def calculate_risk_score(answers):
 
     return score >= 5
 
+
 def height_converter(request):
     number_entities = iter([e for e in request.entities if e['type'] == 'sys_number'])
     unit_entity = next((e for e in request.entities if e['type'] == 'unit'), None)
-    
+
     main_number = next(number_entities, None)
     secondary_number = next(number_entities, None)
-    
+
     if main_number:
         # Convert to feet and inches if in meters
-        if unit_entity is None or len(unit_entity['value']) == 0 or unit_entity['value'][0]['cname'] in ['Metros', 'Centimetros']:
+        if (unit_entity is None or len(unit_entity['value']) == 0
+                or unit_entity['value'][0]['cname'] in ['Metros', 'Centimetros']):
             if secondary_number is None:
                 number = main_number['value'][0]['value']
             else:
-                number = main_number['value'][0]['value'] + secondary_number['value'][0]['value'] / 100
+                number = main_number['value'][0]['value']
+                + secondary_number['value'][0]['value'] / 100
             height = meters_to_feet(number)
         else:
             if secondary_number is None:
                 height = str(main_number['value'][0]['value']) + '\'0"'
             else:
-                height = str(main_number['value'][0]['value']) + '\'' + str(secondary_number['value'][0]['value']) + '"'
+                height = str(main_number['value'][0]['value'])
+                + '\'' + str(secondary_number['value'][0]['value']) + '"'
 
         return height
     return False, {}
@@ -176,13 +180,15 @@ def weight_converter(request):
 
     if number_entities:
         # Convert to lbs if in kilograms
-        if unit_entity is None or len(unit_entity['value']) == 0 or unit_entity['value'][0]['cname'] == 'Kilogramos':
+        if (unit_entity is None or len(unit_entity['value']) == 0
+           or unit_entity['value'][0]['cname'] == 'Kilogramos'):
             weight = kilos_to_pounds(number_entities['value'][0]['value'])
         else:
             weight = number_entities['value'][0]['value']
 
         return weight
     return False, {}
+
 
 form_prediabetes = {
     'entities': [
