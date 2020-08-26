@@ -201,3 +201,6 @@ no no
 por favor no
 no no gracias
 no gracias no
+nunca
+nunca
+nunca

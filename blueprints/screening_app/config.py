@@ -18,7 +18,7 @@ DOMAIN_CLASSIFIER_CONFIG = {
     },
     'features': {
         'bag-of-words': {
-            'lengths': [1,2],
+            'lengths': [1, 2],
         },
         'enable-stemming': True
     }
@@ -40,7 +40,7 @@ INTENT_CLASSIFIER_CONFIG = {
     },
     'features': {
         'bag-of-words': {
-            'lengths': [1,2]
+            'lengths': [1, 2]
         },
         'enable-stemming': True
     }

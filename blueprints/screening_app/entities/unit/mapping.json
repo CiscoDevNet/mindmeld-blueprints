@@ -1,13 +1,13 @@
 {
    "entities":[
       {
-         "id":"76570",
+         "id":"54471",
          "cname":"Kilogramos",
          "whitelist":[
             "kilos",
-			"kilo",
+            "kilo",
             "kg",
-			"kgs",
+            "kgs",
             "kilitos"
          ]
       },
@@ -17,7 +17,7 @@
          "whitelist":[
             "lbs",
             "pound",
-			"pounds"
+            "pounds"
          ]
       },
       {
@@ -48,7 +48,7 @@
          "cname":"Pulgadas",
          "whitelist":[
             "in",
-			"inches"
+            "inches"
          ]
       }
    ]
