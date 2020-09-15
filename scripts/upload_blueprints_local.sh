@@ -39,6 +39,15 @@ aws s3 cp app.tar.gz s3://mindmeld-blueprints-staging/food_ordering/app.tar.gz
 aws s3 cp app.tar.gz s3://mindmeld-blueprints-develop/food_ordering/app.tar.gz
 aws s3 cp app.tar.gz s3://mindmeld-blueprints-master/food_ordering/app.tar.gz
 
+rm app.tar.gz
+tar -czf app.tar.gz --exclude=.generated* --exclude=indexes --exclude=.generated --exclude=*.pyc --exclude=**/*.pyc --exclude=__pycache__ --exclude=**/.mm_keep -C banking_assistant .
+aws s3 rm s3://mindmeld-blueprints-master/banking_assistant/app.tar.gz
+aws s3 rm s3://mindmeld-blueprints-staging/banking_assistant/app.tar.gz
+aws s3 rm s3://mindmeld-blueprints-develop/banking_assistant/app.tar.gz
+aws s3 cp app.tar.gz s3://mindmeld-blueprints-staging/banking_assistant/app.tar.gz
+aws s3 cp app.tar.gz s3://mindmeld-blueprints-develop/banking_assistant/app.tar.gz
+aws s3 cp app.tar.gz s3://mindmeld-blueprints-master/banking_assistant/app.tar.gz
+
 
 rm app.tar.gz
 tar -czf app.tar.gz --exclude=.generated* --exclude=indexes --exclude=.generated --exclude=*.pyc --exclude=**/*.pyc --exclude=__pycache__ --exclude=**/.mm_keep -C hr_assistant .
