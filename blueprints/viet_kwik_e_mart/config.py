@@ -72,34 +72,3 @@ ENTITY_RECOGNIZER_CONFIG = {
         "enable-stemming": False,
     },
 }
-
-
-TEST_ENTITY_RECOGNIZER_CONFIG = {
-    "model_type": "tagger",
-    "label_type": "entities",
-    "model_settings": {
-        "classifier_type": "memm",
-        "tag_scheme": "IOB",
-        "feature_scaler": "max-abs",
-    },
-    "params": {"penalty": "l1", "C": 50},
-    "features": {
-        "bag-of-words-seq": {
-            "ngram_lengths_to_start_positions": {
-                1: [-2, -1, 0, 1, 2],
-                2: [-2, -1, 0, 1],
-            }
-        },
-        "in-gaz-span-seq": {},
-        "sys-candidates-seq": {"start_positions": [-1, 0, 1]},
-        "enable-stemming": False,
-    },
-    "train_label_set": "testtrain.*\.txt",  # noqa: W605
-    "test_label_set": "testtrain.*\.txt",  # noqa: W605
-}
-
-
-def get_entity_recognizer_config(domain, intent):
-    if domain == "store_info" and intent == "get_store_hours":
-        return TEST_ENTITY_RECOGNIZER_CONFIG
-    return ENTITY_RECOGNIZER_CONFIG
