@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""This module contains the dialogue states for the screening questions 
+"""This module contains the dialogue states for the screening questions
 that come inside a dialogue flow in the MindMeld screening app blueprint
 """
 from .root import app
@@ -39,7 +39,8 @@ def set_age_send_next(request, responder):
     if pd.Q_AGE == previous_question_number:
         number_entity = next((e for e in request.entities if e['type'] == 'sys_number'), None)
         if number_entity:
-            responder.params.allowed_intents = ('prediabetes_screening.answer_gender', 'greetings.exit')
+            responder.params.allowed_intents = ('prediabetes_screening.answer_gender',
+                                                'greetings.exit')
             set_answer_send_next(request, responder, number_entity['value'][0]['value'])
             return
         else:
@@ -102,7 +103,6 @@ def confirm_gestational_send_next(request, responder):
     save the answer and move to the next question.
     """
     previous_question_number = responder.frame['previous_question_number']
-    gestational_question = prediabetes_questions[pd.Q_GEST]
 
     if pd.Q_GEST == previous_question_number:
         responder.params.allowed_intents = (
@@ -134,7 +134,6 @@ def confirm_family_send_next(request, responder):
     save the answer and move to the next question.
     """
     previous_question_number = responder.frame['previous_question_number']
-    family_question = prediabetes_questions[pd.Q_FAM]
 
     if pd.Q_FAM == previous_question_number:
         responder.params.allowed_intents = (
@@ -166,7 +165,6 @@ def confirm_hbp_send_next(request, responder):
     save the answer and move to the next question.
     """
     previous_question_number = responder.frame['previous_question_number']
-    hbp_question = prediabetes_questions[pd.Q_BP]
 
     if pd.Q_BP == previous_question_number:
         responder.params.allowed_intents = (
@@ -198,7 +196,6 @@ def confirm_active_send_next(request, responder):
     save the answer and move to the next question.
     """
     previous_question_number = responder.frame['previous_question_number']
-    active_question = prediabetes_questions[pd.Q_ACT]
 
     if pd.Q_ACT == previous_question_number:
         responder.params.allowed_intents = ('prediabetes_screening.answer_height', 'greetings.exit')
@@ -229,7 +226,8 @@ def set_height_send_next(request, responder):
     if pd.Q_HEIGHT == previous_question_number:
         height = pd.height_converter(request)
         if height:
-            responder.params.allowed_intents = ('prediabetes_screening.answer_weight', 'greetings.exit')
+            responder.params.allowed_intents = ('prediabetes_screening.answer_weight',
+                                                'greetings.exit')
             set_answer_send_next(request, responder, height)
             return
         else:

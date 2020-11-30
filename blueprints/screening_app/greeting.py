@@ -7,6 +7,7 @@ from .root import app
 import screening_app.prediabetes as pd
 from screening_app.screening import screen_prediabetes
 
+
 @app.handle(default=True)
 @app.handle(intent='greet')
 def welcome(request, responder):
