@@ -111,6 +111,11 @@ def kilos_to_pounds(weight):
 
 
 def calculate_risk_score(answers):
+    """
+    Risk score is calculated based on the questionnaire provided by
+    the American Diabetes Association and the Centers for Disease Control and Prevention.
+    https://www.cdc.gov/diabetes/risktest/index.html
+    """
     score = 0
 
     # Add points for age

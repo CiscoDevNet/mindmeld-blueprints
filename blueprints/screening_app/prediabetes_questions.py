@@ -1,50 +1,40 @@
-[
-	{
-		"id":"1",
-		"question_number":"1",
+import json
+
+questionaire_json = """ 
+{
+	"1": {
 		"text":"¿Cuál es su edad?",
 		"type":"Numeric"
 	},
-	{
-		"id":"2",
-		"question_number":"2",
+	"2": {
 		"text":"¿Es de género masculino o femenino?",
 		"type":"Gender"
 	},
-	{
-		"id":"3",
-		"question_number":"3",
+	"3": {
 		"text":"¿Alguna vez ha sido diagnosticada con diabetes gestacional?",
 		"type":"Binary"
 	},
-	{
-		"id":"4",
-		"question_number":"4",
+	"4": {
 		"text":"¿Tiene algún familiar inmediato que haya sido diagnosticado con diabetes? Estos incluyen padre, madre, hermano o hermana.",
 		"type":"Binary"
 	},
-	{
-		"id":"5",
-		"question_number":"5",
+	"5": {
 		"text":"¿Alguna vez le han diagnosticado con tener presión alta?",
 		"type":"Binary"
 	},
-	{
-		"id":"6",
-		"question_number":"6",
+	"6": {
 		"text":"¿Realiza actividad física con regularidad?",
 		"type":"Binary"
 	},
-	{
-		"id":"7",
-		"question_number":"7",
+	"7": {
 		"text":"¿Cuánto mide en estatura?",
 		"type":"Numeric"
 	},
-	{
-		"id":"8",
-		"question_number":"8",
+	"8": {
 		"text":"¿Cuál es su peso?",
 		"type":"Numeric"
 	}
-]
+}
+"""
+
+prediabetes_questions = json.loads(questionaire_json)

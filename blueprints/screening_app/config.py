@@ -3,6 +3,8 @@ LANGUAGE_CONFIG = {
     'locale': 'es_MX'
 }
 
+MAX_HISTORY_LEN = 1
+
 DOMAIN_CLASSIFIER_CONFIG = {
     'model_type': 'text',
     'model_settings': {
