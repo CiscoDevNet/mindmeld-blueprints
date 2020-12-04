@@ -103,7 +103,7 @@ def meters_to_feet(meters):
     feet = round(float(meters) // .3048)
     inches = round(float(meters) / .3048 % 1 * 12)
 
-    return str(feet) + '\'' + str(inches) + '"'
+    return f'{feet}\'{inches}"'
 
 
 def kilos_to_pounds(weight):
