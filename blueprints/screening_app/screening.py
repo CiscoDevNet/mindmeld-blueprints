@@ -371,9 +371,9 @@ def set_answer_send_next(request, responder, answer):
     try:
         if responder.frame['screening'][previous_question_number] == 'Hombre':
             # Skip the next question
-            question_number = str(int(previous_question_number) + 2)
+            question_number = previous_question_number + 2
         else:
-            question_number = str(int(previous_question_number) + 1)
+            question_number = previous_question_number + 1
 
         question = prediabetes_questions[question_number]
 
@@ -383,7 +383,7 @@ def set_answer_send_next(request, responder, answer):
         responder.listen()
 
         return
-    except KeyError:
+    except IndexError:
         # No more questions. Reply with results.
         if pd.calculate_risk_score(responder.frame['screening']):
             responder.reply(pd.HIGH_RISK_MSG)

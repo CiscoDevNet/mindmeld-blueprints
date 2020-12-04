@@ -1,11 +1,11 @@
-Q_AGE = "1"
-Q_GENDER = "2"
-Q_GEST = "3"
-Q_FAM = "4"
-Q_BP = "5"
-Q_ACT = "6"
-Q_HEIGHT = "7"
-Q_WEIGHT = "8"
+Q_AGE = 0
+Q_GENDER = 1
+Q_GEST = 2
+Q_FAM = 3
+Q_BP = 4
+Q_ACT = 5
+Q_HEIGHT = 6
+Q_WEIGHT = 7
 
 LOW_RISK_MSG = ('Su riesgo de padecer de prediabetes es bajo, '
                 'sin embargo sólo un doctor puede darle un diagnóstico confiable.')
