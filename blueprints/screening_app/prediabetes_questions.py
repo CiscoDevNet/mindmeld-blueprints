@@ -12,8 +12,7 @@ prediabetes_questions = (
         "type": "Binary"
     },
     {
-        "text": ("¿Tiene algún familiar inmediato que haya sido diagnosticado con diabetes? ",
-                 "Estos incluyen padre, madre, hermano o hermana."),
+        "text": "¿Tiene algún familiar inmediato que haya sido diagnosticado con diabetes? Estos incluyen padre, madre, hermano o hermana.",  # noqa: ignore=E501
         "type": "Binary"
     },
     {
