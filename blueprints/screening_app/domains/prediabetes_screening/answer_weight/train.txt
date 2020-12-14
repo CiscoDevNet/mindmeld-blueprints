@@ -1,0 +1,132 @@
+{60|sys_number} de peso
+{60|sys_number} {kilos|unit}
+{60|sys_number} {kilos|unit} de peso
+peso {60|sys_number}
+Mi peso es {60|sys_number}
+Tengo {60|sys_number} de peso
+Yo peso {60|sys_number}
+Yo tengo {60|sys_number} de peso
+peso {60|sys_number} {kilos|unit}
+Mi peso es {60|sys_number} {kilos|unit}
+Yo peso {60|sys_number} {kilos|unit}
+Tengo {60|sys_number} {kilos|unit} de peso
+peso {60|sys_number} {kilos|unit}
+Yo peso {60|sys_number} {kilos|unit}
+Yo tengo {60|sys_number} {kilos|unit} de peso
+Mi peso es de {60|sys_number}
+Mi peso es de {60|sys_number} {kilos|unit}
+{60|sys_number} {kilos|unit} de sobrepeso
+{60|sys_number} {kilos|unit} de obesidad
+{60|sys_number} {kilos|unit} de obeso
+Apenas peso {60|sys_number} {kilos|unit}
+Apenas peso {60|sys_number}
+{79|sys_number} de peso
+{79|sys_number} {kilogramos|unit}
+{79|sys_number} {kilogramos|unit} de peso
+peso {79|sys_number}
+Mi peso es {79|sys_number}
+Tengo {79|sys_number} de peso
+Yo peso {79|sys_number}
+Yo tengo {79|sys_number} de peso
+peso {79|sys_number} {kilogramos|unit}
+Mi peso es {79|sys_number} {kilogramos|unit}
+Yo peso {79|sys_number} {kilogramos|unit}
+Tengo {79|sys_number} {kilogramos|unit} de peso
+peso {79|sys_number} {kilogramos|unit}
+Yo peso {79|sys_number} {kilogramos|unit}
+Yo tengo {79|sys_number} {kilogramos|unit} de peso
+Mi peso es de {79|sys_number}
+Mi peso es de {79|sys_number} {kilogramos|unit}
+{79|sys_number} {kilogramos|unit} de sobrepeso
+{79|sys_number} {kilogramos|unit} de obesidad
+{79|sys_number} {kilogramos|unit} de obeso
+Apenas peso {79|sys_number} {kilogramos|unit}
+Apenas peso {79|sys_number}
+{120|sys_number} de peso
+{120|sys_number} {libras|unit}
+{120|sys_number} {libras|unit} de peso
+peso {120|sys_number}
+Mi peso es {120|sys_number}
+Tengo {120|sys_number} de peso
+Yo peso {120|sys_number}
+Yo tengo {120|sys_number} de peso
+peso {120|sys_number} {libras|unit}
+Mi peso es {120|sys_number} {libras|unit}
+Yo peso {120|sys_number} {libras|unit}
+Tengo {120|sys_number} {libras|unit} de peso
+peso {120|sys_number} {libras|unit}
+Yo peso {120|sys_number} {libras|unit}
+Yo tengo {120|sys_number} {libras|unit} de peso
+Mi peso es de {120|sys_number}
+Mi peso es de {120|sys_number} {libras|unit}
+{120|sys_number} {libras|unit} de sobrepeso
+{120|sys_number} {libras|unit} de obesidad
+{120|sys_number} {libras|unit} de obeso
+Apenas peso {120|sys_number} {libras|unit}
+Apenas peso {120|sys_number}
+{60|sys_number} de peso
+{60|sys_number} {kgs|unit}
+{60|sys_number} {kgs|unit} de peso
+peso {60|sys_number}
+Mi peso es {60|sys_number}
+Tengo {60|sys_number} de peso
+Yo peso {60|sys_number}
+Yo tengo {60|sys_number} de peso
+peso {60|sys_number} {kgs|unit}
+Mi peso es {60|sys_number} {kgs|unit}
+Yo peso {60|sys_number} {kgs|unit}
+Tengo {60|sys_number} {kgs|unit} de peso
+peso {60|sys_number} {kgs|unit}
+Yo peso {60|sys_number} {kgs|unit}
+Yo tengo {60|sys_number} {kgs|unit} de peso
+Mi peso es de {60|sys_number}
+Mi peso es de {60|sys_number} {kgs|unit}
+{60|sys_number} {kgs|unit} de sobrepeso
+{60|sys_number} {kgs|unit} de obesidad
+{60|sys_number} {kgs|unit} de obeso
+Apenas peso {60|sys_number} {kgs|unit}
+Apenas peso {60|sys_number}
+{79|sys_number} de peso
+{79|sys_number} {kgs|unit}
+{79|sys_number} {kgs|unit} de peso
+peso {79|sys_number}
+Mi peso es {79|sys_number}
+Tengo {79|sys_number} de peso
+Yo peso {79|sys_number}
+Yo tengo {79|sys_number} de peso
+peso {79|sys_number} {kgs|unit}
+Mi peso es {79|sys_number} {kgs|unit}
+Yo peso {79|sys_number} {kgs|unit}
+Tengo {79|sys_number} {kgs|unit} de peso
+peso {79|sys_number} {kgs|unit}
+Yo peso {79|sys_number} {kgs|unit}
+Yo tengo {79|sys_number} {kgs|unit} de peso
+Mi peso es de {79|sys_number}
+Mi peso es de {79|sys_number} {kgs|unit}
+{79|sys_number} {kgs|unit} de sobrepeso
+{79|sys_number} {kgs|unit} de obesidad
+{79|sys_number} {kgs|unit} de obeso
+Apenas peso {79|sys_number} {kgs|unit}
+Apenas peso {79|sys_number}
+{120|sys_number} de peso
+{120|sys_number} {lbs|unit}
+{120|sys_number} {lbs|unit} de peso
+peso {120|sys_number}
+Mi peso es {120|sys_number}
+Tengo {120|sys_number} de peso
+Yo peso {120|sys_number}
+Yo tengo {120|sys_number} de peso
+peso {120|sys_number} {lbs|unit}
+Mi peso es {120|sys_number} {lbs|unit}
+Yo peso {120|sys_number} {lbs|unit}
+Tengo {120|sys_number} {lbs|unit} de peso
+peso {120|sys_number} {lbs|unit}
+Yo peso {120|sys_number} {lbs|unit}
+Yo tengo {120|sys_number} {lbs|unit} de peso
+Mi peso es de {120|sys_number}
+Mi peso es de {120|sys_number} {lbs|unit}
+{120|sys_number} {lbs|unit} de sobrepeso
+{120|sys_number} {lbs|unit} de obesidad
+{120|sys_number} {lbs|unit} de obeso
+Apenas peso {120|sys_number} {lbs|unit}
+Apenas peso {120|sys_number}
