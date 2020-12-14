@@ -22,7 +22,8 @@ DOMAIN_CLASSIFIER_CONFIG = {
         'bag-of-words': {
             'lengths': [1, 2],
         },
-        'enable-stemming': True
+        'enable-stemming': True,
+        'sys-candidates': {'entities': ['sys_number']}
     }
 }
 
@@ -44,7 +45,8 @@ INTENT_CLASSIFIER_CONFIG = {
         'bag-of-words': {
             'lengths': [1, 2]
         },
-        'enable-stemming': True
+        'enable-stemming': True,
+        'sys-candidates': {'entities': ['sys_number']}
     }
 }
 
