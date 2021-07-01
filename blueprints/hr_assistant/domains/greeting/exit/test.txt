@@ -1,0 +1,10 @@
+abort
+Okay, I guess we are done here.
+quit
+abort
+finished
+Catch you later
+See you later.
+done thank you
+Alright, gotta go
+see you next time

@@ -74,16 +74,6 @@ see you later
 so long
 end
 Talk to you later!
-abort
-Okay, I guess we are done here.
-quit
-abort
-finished
-Catch you later
-See you later.
-done thank you
-Alright, gotta go
-see you next time
 If I need anything else, I'll be back.
 done
 OK, I'm going to go for now.
